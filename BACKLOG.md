@@ -41,3 +41,8 @@ Rebuild + drills merged to main; live at https://archiboltmusk.github.io/INICET-
 - Cluster `algorithm` text (indent = branch, "→" = step) now renders as a flowchart (toggle Text view). ~100 clusters have it.
 - Added algorithms: CTG+partogram, NMS/serotonin/MH, study design+tests, hypersensitivity, BMW colours, Gram-positive ID, pharyngeal arches, brainstem crossed syndromes, blotting/PCR, sterilisation, anaemia approach.
 - TODO flowcharts for listed topics still lacking: Duke criteria, JVP waves, countercurrent, GSD, neural tube/cardiac septal embryology, antiarrhythmic classes, ECG infarct localisation, audiogram patterns, fundus (DR/papilloedema), vaccine schedule, NMS done. Add a "Trap check" box (next vs definitive step, mechanism, discriminator).
+
+## Recall import round 2 (7 Oct)
+- Imported 291 text-extractable MCQs: DigiNerve INI-CET May 2026 PDF (155), DigiNerve "2025" recall page = Nov 2025 session (114), Doctutorials May 2025 subject PDFs via tinyurl (42). Image-dependent items dropped (56+). Unofficial keys.
+- NOT found/usable: 2021 (AglaSem Nov 2021 recall exists, not fetched), 2023, 2024 (getoncourse.ai shows stems without answers; Reflex Prep not found by search), Careers360 PDF 2020-2025 collection (not fetched), PW/Prepp gated.
+- User's 5-themes-per-subject list = checklist for next note batch (see thread).

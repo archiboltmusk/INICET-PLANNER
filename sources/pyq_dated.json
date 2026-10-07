@@ -10610,5 +10610,4079 @@
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
   "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+ },
+ {
+  "s": "Anatomy",
+  "q": "Which of the following muscles is NOT typically associated with dysphagia or dysarthria?",
+  "o": [
+   "Stylopharyngeus",
+   "Tensor veli palatini",
+   "Palatopharyngeus",
+   "Pharyngeal constrictor"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Anatomy",
+  "q": "A muscle of mastication involved in opening the mouth exhibits the following characteristics. Identify the incorrect statement about it:",
+  "o": [
+   "Attached to the medial surface of the mandible ramus",
+   "Receives innervation from the mandibular nerve",
+   "Attached close to the temporomandibular joint",
+   "Aids in mandibular protrusion"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Anatomy",
+  "q": "Match the following embryonic aortic arches with their respective adult derivatives: A. 1st Arch 1. Maxillary artery B. 2nd Arch 2. Common carotid artery C. 3rd Arch 3. Right subclavian artery (on the right side) D. 4th Arch 4. Hyoid and stapedial arteries",
+  "o": [
+   "A-2, B-4, C-1, D-3",
+   "A-1, B-4, C-2, D-3",
+   "A-1, B-4, C-3, D-2",
+   "A-1, B-3, C-2, D-4"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Anatomy",
+  "q": "Marked structure separates which of the following:",
+  "o": [
+   "Third ventricle",
+   "Lateral ventricle",
+   "Fourth ventricle",
+   "Cisterna magna"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Physiology",
+  "q": "Which GI secretions have the lowest sodium concentration?",
+  "o": [
+   "Stomach",
+   "Ileac secretions",
+   "Duodenum",
+   "Saliva"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Physiology",
+  "q": "Which of the following neurotransmitters is correctly matched with its synthesis site?",
+  "o": [
+   "Acetylcholine- substantia nigra",
+   "Serotonin-Raphe nucleus",
+   "Norepinephrine- Nucleus basalis of Meynert",
+   "Dopamine – Locus ceruleus"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Physiology",
+  "q": "Which discovery was awarded the Nobel Prize in Physiology for 2025?",
+  "o": [
+   "Peripheral Immune Tolerance",
+   "mRNA’s role in post-translational modifications",
+   "RNA polymerization",
+   "Cancer chemotherapy"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Physiology",
+  "q": "Which hypothalamic nuclei are involved in leptin resistance?",
+  "o": [
+   "Ventromedial nucleus (Satiety centre, decreases hunger)",
+   "Arcuate nucleus",
+   "Paraventricular nucleus (PVN)",
+   "Lateral hypothalamic nucleus"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Physiology",
+  "q": "In the cardiac cycle, when pressure increases while volume remains constant, which phase is this?",
+  "o": [
+   "Isovolumetric contraction",
+   "Isovolumetric relaxation",
+   "Rapid ventricular filling",
+   "Ventricular ejection"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Physiology",
+  "q": "Systolic blood pressure slightly falls during normal inspiration due to?",
+  "o": [
+   "Decreased pulmonary compliance",
+   "Increased left ventricular filling",
+   "Increased venous return to the right heart causes a transient reduction in left ventricular filling",
+   "Increased systemic vascular resistance"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Physiology",
+  "q": "In Myasthenia Gravis, why does repetitive nerve stimulation show a decremental response?",
+  "o": [
+   "Decreased release of acetylcholine from the presynaptic terminal",
+   "Increased degradation of acetylcholine by acetylcholinesterase",
+   "Reduced number of functional acetylcholine receptors at the postsynaptic membrane",
+   "Autoantibodies blocking presynaptic calcium channels"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Physiology",
+  "q": "In an oral glucose tolerance test (OGTT), blood glucose values are plotted over time. Which graph is most consistent with Diabetes Mellitus?",
+  "o": [
+   "A, B, C, D",
+   "B, C, D only",
+   "B, D only",
+   "C, D only"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Physiology",
+  "q": "Magnesium is primarily regulated by which of the following processes?",
+  "o": [
+   "Urinary reabsorption",
+   "Intestinal absorption",
+   "Dietary intake",
+   "Bone resorption"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Physiology",
+  "q": "Which of the following represents the most stable and long-term Homeostasis mechanism in humans?",
+  "o": [
+   "Urine output",
+   "Respiratory rate (RR)",
+   "Oxygen saturation (SpO2)",
+   "Heart rate"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "In rheumatoid arthritis, increased expression of TNF-alpha and IL-6 in synovial tissue is most likely due to which epigenetic mechanism?",
+  "o": [
+   "Activation of DNA methylation",
+   "Inhibition of DNA methylation",
+   "Activation of histone deacetylation",
+   "Inhibition of histone acetylation"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Cancer cells showing an increased RNA transcript length compared to normal cells is most likely due to:",
+  "o": [
+   "Polyadenylation",
+   "Alternative RNA splicing",
+   "Gene amplification",
+   "Gene silencing"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Deficiency of which cofactor shunts 3-OH-Kynurenine to the xanthurenic acid pathway?",
+  "o": [
+   "Thiamine",
+   "Biotin",
+   "Panthenic acid",
+   "Pyridoxine"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Which of the following best describes/true regarding the RAS gene?",
+  "o": [
+   "Constitutive activation of a GTP-binding protein leading to continuous MAP kinase signalling",
+   "Enhanced DNA repair leading to genomic instability",
+   "Inactivation of a tumour suppressor gene resulting in loss of cell cycle checkpoint control",
+   "Increased activity of tyrosine kinase receptors through gene amplification"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "A fungal infection of the mitral valve shows positivity on silver/Gomori stain. Which organism is most likely to cause the disease?",
+  "o": [
+   "Mucor",
+   "Histoplasma capsulatum",
+   "Aspergillus fumigatus",
+   "Candida albicans"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "A culture of Streptococcus pneumoniae shows alpha-hemolysis and draughtsman colonies on blood agar. Which test is most useful for its identification?",
+  "o": [
+   "No vaccine",
+   "Catalase positive",
+   "Vancomycin sensitivity test",
+   "Bile solubility test"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Match the following parasites with the diseases they cause? Visceral larva migrans Cutaneous larva migrans Swimmer’s itch Larva currens Strongyloides Schistosomiasis Toxocara canis Ancylostoma braziliense",
+  "o": [
+   "1-c, 2-d, 3-b, 4-a",
+   "1-a,2-b,3-c, 4-d",
+   "1-d,2-c,3-b,4-a",
+   "1-b,2-c,3-d, 4-a"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "A patient presents multiple draining sinuses releasing black granules. Which of the following organisms is most likely responsible?",
+  "o": [
+   "Staphylococcus aureus",
+   "Nocardia asteroides",
+   "Actinomyces israelii",
+   "Madurella mycetomatis"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Which of the following is not true about the given condition?",
+  "o": [
+   "Oncogenic virus",
+   "Painful lesions",
+   "RNA virus",
+   "No vaccine available"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Mycobacterium tuberculosis is handled in which biosafety level (BSL) laboratory?",
+  "o": [
+   "BSL-1",
+   "BSL-2",
+   "BSL-3",
+   "BSL-4"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Classical case explaining lung infection with hemoptysis.",
+  "o": [
+   "Aspergillus with aseptate branching",
+   "Aspergillus with septate branching",
+   "Rhizopus with septate",
+   "Mucormycosis with septate hyphae"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Which of the following is an obligate intracellular organism?",
+  "o": [
+   "Ehrlichia chaffeensis",
+   "Staphylococcus aureus",
+   "Tropheryma whipplei",
+   "Streptococcus pyogenes"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Where is Wuchereria present during daytime, when microfilaria are not seen in blood capillaries?",
+  "o": [
+   "Spleen",
+   "Liver",
+   "Lungs",
+   "Kidney"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Where is Onion skin fibrosis seen?",
+  "o": [
+   "Primary biliary cholangitis",
+   "Primary sclerosing cholangitis",
+   "Biliary atresia",
+   "Acute cholecystitis"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Choose the correct option: Perls stain, iron, red Alizarin, Ca, black Van Gieson, elastin, blue Giemsa, mast cells, purple",
+  "o": [
+   "2 & 4",
+   "1, 2, 3",
+   "2, 3, 4",
+   "Only 4"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "A female carries an autosomal recessive mitochondrial disorder. Which of the following systems are most likely affected?",
+  "o": [
+   "Immune and skeletal",
+   "Cardiac and skeletal",
+   "Skeletal and neurogenic",
+   "Immune and cardiac"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "What is included in the major and major criteria of Jones rheumatic fever? Carditis Polyarthralgia Chorea Shortened PR interval Erythema nodosum",
+  "o": [
+   "1,2,3",
+   "2,3,4",
+   "1,2,3,5",
+   "4,5"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "What are the correct options regarding Peutz-Jeghers syndrome: STK 11 mutation Shows an arborising pattern Autosomal dominant Congenital hypertrophy of retinal pigment epithelium",
+  "o": [
+   "1, 2, 3 are correct",
+   "1, 2, 4 are correct",
+   "3 & 4 are correct",
+   "1, 2 are correct"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Lipid is best visualised on which technique in pathology?",
+  "o": [
+   "Frozen Section",
+   "Paraffin-embedded section",
+   "Immunohistochemistry",
+   "Electron microscopy"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Which of the following findings are associated with Mantle Cell Lymphoma? Cyclin D1 Sox 11 CD 200 CD 23",
+  "o": [
+   "1, 2, 3",
+   "1, 2, 4",
+   "1 & 2",
+   "1, 2, 5"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "A patient’s blood report showing MCV = 76 fL visits the OPD. Which of the following conditions is most likely responsible for this result? Iron deficiency anaemia Vitamin B12 deficiency Thalassemia Lead poisoning",
+  "o": [
+   "A & B",
+   "B & D",
+   "A, C",
+   "A, C, D"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "A patient presents with microcytic anaemia, an elevated RBC count, and a Mentzer index of less than 13. What is the next appropriate investigation?",
+  "o": [
+   "S. Ferritin",
+   "Bone marrow biopsy",
+   "S. Transferrin",
+   "Hb electrophoresis"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Which of the following is false regarding Gaucher’s disease?",
+  "o": [
+   "Crumpled tissue paper appearance",
+   "Beta-glucocerebrosidase enzyme deficiency",
+   "Ceramidase deficiency",
+   "Bone pain"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Which of the following statements about Rheumatic fever is false?",
+  "o": [
+   "2 weeks post-sore throat",
+   "Aschoff bodies seen",
+   "Infection caused by group A, beta streptococcus",
+   "Myocarditis, but no endocarditis"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "A boy presents with developmental delay, obesity, hypotonia, normal neurological development, and hypogonadism. His karyotype shows 46 XY with a deletion of del(15)(q11-q13). What is the most likely diagnosis?",
+  "o": [
+   "Prader-Willi syndrome",
+   "Angelman syndrome",
+   "Patau syndrome",
+   "Cri du chat syndrome"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Which of the following are the definitive criteria for nephrotic syndrome? Hyperlipidemia Proteinuria >3.5 g/day Creatinine Hypoalbuminemia",
+  "o": [
+   "1, 2, 3",
+   "1, 2, 3, 4",
+   "1 & 3",
+   "2 & 4"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Which of the following statements are correct about Retinoblastoma? It is always unilateral It is associated with an increased risk of osteosarcoma The RB protein is inactive (hypophosphorylated) Oncogenesis occurs through a loss-of-function mutation The gene involved is called the ‘guardian of the genome’",
+  "o": [
+   "B, D",
+   "A, B, C, D",
+   "C, D, E",
+   "D, E"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "All of the following are advantages of ketamine except:",
+  "o": [
+   "Dissociative anesthesia",
+   "Relief from pain",
+   "Sedation",
+   "Relief from depression"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "All of the following statements regarding Dronabinol are correct except?",
+  "o": [
+   "It is used for pain relief",
+   "It is excreted unchanged in the urine",
+   "MOA: Cannabinoid receptor agonist",
+   "It is approved for weight loss in AIDS-associated"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Which of the following statements about Rifampicin is incorrect?",
+  "o": [
+   "Resistance occurs due to mutations in the rpoB gene.",
+   "It undergoes enterohepatic recirculation.",
+   "It should be administered along with fatty meals.",
+   "Its CNS penetration is limited by P-glycoprotein."
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Which of the following medications acts by inhibiting vascular endothelial growth factor (VEGF)?",
+  "o": [
+   "Ranibizumab",
+   "Pembrolizumab",
+   "Ipilimumab",
+   "Dostarlimab"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Which of the following statements regarding Rimegepant is correct? It is administered subcutaneously It is indicated for the acute management of migraine",
+  "o": [
+   "It acts as a CGRP",
+   "1",
+   "receptor agonist",
+   "It produces vasoconstriction"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Which regimen is considered the preferred treatment for cryptococcal meningitis?",
+  "o": [
+   "Amphotericin B combined with Fluconazole",
+   "Fluconazole monotherapy",
+   "Liposomal Amphotericin B monotherapy",
+   "Liposomal Amphotericin B in combination with Flucytosine"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Patient is on 2 nd line ATT, now complaining about numbness & acidosis then which drug should be withdrawn?",
+  "o": [
+   "Linezolid",
+   "Bedaquiline",
+   "Delamanid",
+   "Levofloxacin"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Which of the following adverse effects is not associated with the use of inhaled β-adrenergic agonists?",
+  "o": [
+   "Pulmonary vasodilation",
+   "Hyperkalemia",
+   "Palpitations",
+   "Tremors"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "A patient with HIV presents with a 3-month history of cough and fever, and Miliary tuberculosis is suspected. What should be the next step in management?",
+  "o": [
+   "Start ATT, followed by initiation of ART after 2 weeks, with an increased dose of dolutegravir along with dexamethasone",
+   "Start ART, followed by ATT after 2 weeks, with an increased dose of dolutegravir",
+   "Administer an increased dose of dolutegravir immediately",
+   "Initiate ART and ATT simultaneously with standard doses of dolutegravir"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Which DPP-4 inhibitor requires dosage modification when used with ketoconazole?",
+  "o": [
+   "Saxagliptin",
+   "Linagliptin",
+   "Sitagliptin",
+   "Vildagliptin"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Which of the following parasitic infections is most effectively treated with ivermectin?",
+  "o": [
+   "Strongyloides stercoralis and Trichinella spiralis",
+   "Loa loa and Brugia malayi",
+   "Onchocerca volvulus and Loa loa",
+   "Onchocerca volvulus and Wuchereria bancrofti"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Which of these drug combinations is recommended for HIV pre-exposure prophylaxis (PrEP) in individuals at high risk?",
+  "o": [
+   "Tenofovir monotherapy",
+   "Tenofovir + Lamivudine",
+   "Zidovudine + Lamivudine",
+   "Tenofovir + Emtricitabine"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "Which of the following is not included in Bradford Hill’s criteria for establishing causation?",
+  "o": [
+   "Temporality",
+   "Dose–response relationship",
+   "Biological plausibility",
+   "Sensitivity"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "In an emergency triage scenario, which patient should be attended to first?",
+  "o": [
+   "40-year-old unconscious patient with noisy breathing",
+   "25-year-old woman is breathing rapidly and sweating",
+   "60-year-old man is conscious with blood-soaked trousers",
+   "Child crying loudly and inconsolably"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "PM2.5 particles are considered particularly hazardous to human health because their small size allows them to penetrate deeply into which part of the respiratory tract?",
+  "o": [
+   "Alveoli",
+   "Bronchioles",
+   "Nose",
+   "Trachea"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "A previously vaccinated healthcare worker (HCW) sustains a needle-stick injury from a Hepatitis B surface antigen (HBsAg)–positive patient. The HCW is a known non-responder. What should be done next?",
+  "o": [
+   "Give 1 dose of HBIG and start a complete Hepatitis B vaccination series",
+   "No further action is required",
+   "Give 2 doses of HBIG — one immediately and another after 4 weeks",
+   "Give 2 doses of HBIG immediately, at separate sites"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "Which of the following statements about the NITI Aayog Health Index are incorrect?",
+  "o": [
+   "It is used to assess and compare the health performance of different states and UTs.",
+   "It is meant only for evaluating government hospitals.",
+   "It promotes healthy competition among states to improve health outcomes.",
+   "It aids in policy planning to strengthen public health systems, especially primary healthcare."
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "A community consists of 500 individuals, and over a period of 2 years, 20 new cases of a certain disease were identified. The total observation time amounted to 950 person-years. What is the incidence rate of this disease in the population?",
+  "o": [
+   "2.1 per 1000 person-years",
+   "2.1 per 100 person-years",
+   "4 per 1000 person-years",
+   "2 per 100 person-years"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "A research study observes that individuals who exercise regularly have a lower risk of developing heart disease. However, those who work out also tend to maintain a healthier diet, which itself lowers heart disease risk. In this scenario, diet serves as a—",
+  "o": [
+   "Mediator",
+   "Effect modifier",
+   "Confounder",
+   "Independent variable"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "In a research study, a p-value of 0.03 was found. What does this indicate?",
+  "o": [
+   "There is a 3% probability that the observed result occurred due to chance.",
+   "There is 97% confidence that the null hypothesis is true.",
+   "The difference observed is not statistically significant.",
+   "The null hypothesis is rejected because the chance probability is below 2%."
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Forensic Medicine",
+  "q": "Crocodile-like skin is seen in which of the following?",
+  "o": [
+   "Arsenic poisoning",
+   "High voltage shock (10K – 12K)",
+   "Moist burns",
+   "Chemical burns"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Forensic Medicine",
+  "q": "A girl was brought to the emergency in an unconscious state with a history of faintness in the bathroom, showing cherry red discolouration. She was declared dead. The bathroom was a poorly ventilated room with a newly installed geyser. Blood toxicology reports show a high concentration of an irritant gas. What could this gas be?",
+  "o": [
+   "CO",
+   "CO2",
+   "Hydrogen sulphide",
+   "Methane"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Forensic Medicine",
+  "q": "A case of hanging has come to the forensic department for autopsy. The autopsy, Dr. notices a ligature mark covering about 1/3rd of the neck, protruding tongue, salivary stains, opened right eye, closed left eye, and both pupils dilated. What is the probable reason for the open right eye?",
+  "o": [
+   "Compression of IJVs",
+   "Compression of ICA",
+   "Compression of the Cervical sympathetic chain",
+   "Compression of Vagus"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Forensic Medicine",
+  "q": "A person killed his friend because of his belief that he would poison him & later he was diagnosed as a case of schizophrenia. He was taken to court. Based on McNaughten’s rule, how is a person liable for a crime?",
+  "o": [
+   "Partially guilty",
+   "Guilty",
+   "Not guilty",
+   "Guilty, if the act was committed with knowing it is wrong"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Forensic Medicine",
+  "q": "Identify the grading burn Injuries:",
+  "o": [
+   "Superficial burns",
+   "Deep burns",
+   "Full-thickness burns",
+   "Partial thickness burns"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Forensic Medicine",
+  "q": "Sexual pleasures by non-living inanimate objects are called?",
+  "o": [
+   "Fetischism",
+   "Voyeurism",
+   "Exhibitionism",
+   "Froutterism"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Forensic Medicine",
+  "q": "Match the following poisoning with its treatment: 1. Arsenic A. Naloxone 2. Methanol B. Fomepizole 3. Benzodiazepine C. Flumnazenil 4. Opioid D. BAL",
+  "o": [
+   "1-D, 2-C, 3-B, 4-A",
+   "1-D, 2-B, 3-C, 4-A",
+   "1-A,2-B, 3-C, 4-D",
+   "1-B, 2-C, 3-A, 4-D"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Forensic Medicine",
+  "q": "Match the following poisoning with its agents: 1. Deliriant A. Alcohol 2. Inebriant B. LSD 3. Hallucinogenic C. Opium 4. Somniferous D. Datura",
+  "o": [
+   "1-D, 2-A, 3-B, 4-C",
+   "1-D, 2-B, 3-C, 4-A",
+   "1-A,2-B, 3-C, 4-D",
+   "1-B, 2-C, 3-A, 4-D"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Forensic Medicine",
+  "q": "A patient comes to OPD with soddened burn injury over his right thigh with erythema, blisters & line of demarcation. Which of the following is true of this case?",
+  "o": [
+   "Moist burn",
+   "Chemical burn",
+   "Dry burn",
+   "Electric burn"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Forensic Medicine",
+  "q": "A 17-year-old juvenile is brought by police, and as alleged by police, the school certificate shows the age as 17, but there is evidence of overwriting in the certificate. According to the police, the age is 19 years. Which X-rays will you recommend to prove the age is>18 years?",
+  "o": [
+   "Pelvis, sternum",
+   "Pelvis, skull",
+   "Wrist, medial end of clavicle & pelvis",
+   "Elbow, shoulder"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Forensic Medicine",
+  "q": "An 18-year-old girl was brought to the hospital by her mother with a history of sexual assault by her 24-year-old coworker in the factory. The mother doesn’t want to inform the police. What will you do as the doctor in charge?",
+  "o": [
+   "Ask the guardian for permission to do a medicolegal examination",
+   "Do a medicolegal examination with the consent of the victim",
+   "Do not collect materials required as forensic evidence",
+   "Do not inform the police"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Forensic Medicine",
+  "q": "Which of the following is not a seminal test in a case of rape?",
+  "o": [
+   "Barberio test",
+   "Acid phosphate test",
+   "Reineche test",
+   "Florence test"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Ophthalmology",
+  "q": "A patient reports a sudden onset of intense eye pain, headache, blurred vision, and colored halos. Examination reveals a mid-dilated fixed pupil, hazy cornea, and markedly raised intraocular pressure. What is the most probable diagnosis?",
+  "o": [
+   "Secondary angle closure due to anterior uveitis",
+   "Acute endophthalmitis",
+   "Orbital cellulitis",
+   "Acute primary angle closure glaucoma"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Ophthalmology",
+  "q": "Krukenberg spindle formation on the corneal endothelium is a characteristic finding of which type of glaucoma?",
+  "o": [
+   "Pigmentary glaucoma",
+   "Malignant glaucoma",
+   "Acute angle closure glaucoma",
+   "Neovascular glaucoma"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Ophthalmology",
+  "q": "All of the following are used to assess visual acuity in preverbal children, except:",
+  "o": [
+   "Optokinetic nystagmus drum",
+   "Teller acuity cards",
+   "ETDRS chart",
+   "Landolt C chart"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Ophthalmology",
+  "q": "Which part of the cortex is responsible for scanning the visual field?",
+  "o": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "ENT",
+  "q": "A 65-year-old male complains of difficulty hearing high-pitched sounds. Which region of the cochlea is primarily damaged?",
+  "o": [
+   "Apex of the cochlea",
+   "Base of the cochlea",
+   "Stria vascularis",
+   "Tectorial membrane"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "ENT",
+  "q": "A patient is diagnosed with carcinoma of the larynx involving the entire right true vocal cord, anterior commissure, and one-third of the left true vocal cord, with extension into the paraglottic space and inner thyroid cortex. The right vocal cord is completely immobile. What is the most likely tumour stage?",
+  "o": [
+   "T1",
+   "T4",
+   "T3",
+   "T2"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "A patient presents with a rapidly growing breast lump (20×15 cm), erythema, and peau d’orange (PDO), with a family history of breast cancer. She is diagnosed with inflammatory breast cancer. What is the appropriate treatment?",
+  "o": [
+   "Neoadjuvant chemotherapy followed by MRM",
+   "MRM followed by chemotherapy",
+   "Neoadjuvant therapy followed by BCT and SLNB",
+   "Palliative care"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "A patient presents with 24 hours of abdominal pain and is diagnosed as acute appendicitis. Which of the following statements are incorrect?",
+  "o": [
+   "McBurney’s point is the classical site of tenderness",
+   "Oschner Sherren is used in the appendicular lump",
+   "Immediate appendectomy is performed after conservative management in all cases",
+   "Ultrasound is the investigation of choice in children"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "Which of the following absorbable sutures causes the maximum tissue reaction?",
+  "o": [
+   "Polygalactin",
+   "Catgut",
+   "Polypropylene",
+   "Polydioxanone"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "TIGAR-O classification is used in which type of pancreatitis?",
+  "o": [
+   "Acute pancreatitis",
+   "Chronic pancreatitis",
+   "Autoimmune pancreatitis",
+   "Alcoholic pancreatitis"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "Arrange the following steps of surgery in order: Creating pneumoperitoneum Dissection of hepatocystic triangle Ligation of the cystic duct and artery Separation of the gallbladder from the liver bed",
+  "o": [
+   "A-B-C-D",
+   "A-C-B-D",
+   "B-A-C-D",
+   "D-A-B-C"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "Arrange the steps of hernioplasty in the correct order: Skin incision Identify the sac and reduce its content Place the mesh Wound closure",
+  "o": [
+   "a-b-c-d",
+   "b-c-a-d",
+   "a-d-c-b",
+   "b-a-d-c"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "The angle of laparoscopy between the left- and right-hand working ports is known as:",
+  "o": [
+   "Manipulation angle",
+   "Azimuth angle",
+   "Elevation angle",
+   "Extreme angle"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "A 60-year-old female with a history of cholecystectomy and abdominal tube insertion 10 days ago presents with abdominal pain. What is the next step in management?",
+  "o": [
+   "Immediate percutaneous drainage",
+   "Exploratory laparotomy",
+   "ERCP and stenting/sphincterotomy",
+   "Conservative management"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "A 17-year-old presents with recurrent abdominal pain for 3 months. Amylase and lipase are raised. What is the likely diagnosis based on USG and MRCP findings?",
+  "o": [
+   "Choledochal Cyst",
+   "Annular Pancreas",
+   "Pancreas Divisum",
+   "CBD stone"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "Which of the following statements about intestinal stomas is incorrect?",
+  "o": [
+   "The ileostomy loop is generally kept with pouting",
+   "Maximum malabsorption of electrolytes and nutrients is seen with colostomy",
+   "The stoma of a colostomy is everted above skin level",
+   "Only the muscular layer is taken in sutures while creating an ileostomy"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "During triage, who should receive the highest priority?",
+  "o": [
+   "6-year-old child crying",
+   "45-year-old unconscious with noisy breathing/grunting sounds",
+   "23-year-old conscious with breathing difficulty",
+   "60-year-old conscious patient with blood-soaked pants"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "A patient presents with abdominal pain and has elevated mucin and CEA levels but normal amylase. What is the most likely diagnosis?",
+  "o": [
+   "Intraductal Papillary Mucinous Neoplasm (IPMN)",
+   "Pancreatic cystic neoplasm",
+   "Mucinous adenoma",
+   "Pancreatic pseudocyst"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Medicine",
+  "q": "A patient presents with Horner’s syndrome and absence of sweating on one side of the face. Which of the following structures is most likely compressed?",
+  "o": [
+   "Sympathetic chain",
+   "Internal carotid plexus",
+   "Vagus nerve",
+   "Common carotid artery"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Medicine",
+  "q": "A 22-year-old athlete collapses and dies suddenly during a game. Autopsy reveals ventricular hypertrophy. What is the most likely underlying cause?",
+  "o": [
+   "He died of valvular disease",
+   "The image shows features of chronic heart failure",
+   "Coronary artery disease due to increased cholesterol",
+   "HOCM needs to be screened in case of a family history"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Medicine",
+  "q": "A 45-year-old man with known alcoholic cirrhosis presents with confusion and 3 days of hematemesis. Examination reveals icterus, hepatosplenomegaly, tense ascites, and asterixis. Vitals: BP 100/60 mmHg, pulse 104/min. Which of the following is NOT appropriate in the initial management of this patient?",
+  "o": [
+   "Start propranolol to stop variceal bleeding",
+   "Perform a diagnostic ascitic tap to rule out spontaneous bacterial peritonitis (SBP)",
+   "Start IV antibiotics and IV octreotide infusion",
+   "Give IV albumin after large-volume paracentesis or if renal dysfunction develops"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Medicine",
+  "q": "A patient with chronic productive cough and progressive breathlessness is diagnosed with COPD. He develops type II respiratory failure. Which of the following statements regarding his condition is not true?",
+  "o": [
+   "Bronchial wall inflammation is a characteristic finding",
+   "Increased Reid index",
+   "Lung compliance is decreased",
+   "FEV₁/FVC ratio is <70%"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Medicine",
+  "q": "Which of the following has the highest risk of causing invasive pulmonary aspergillosis?",
+  "o": [
+   "A. Febrile neutropenia",
+   "B. CD4 <50 cells/μL",
+   "C. Severe protein-energy undernutrition",
+   "D. Bronchial asthma\\"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Medicine",
+  "q": "A patient presents with exertional dyspnea and pedal oedema. His echocardiogram shows a dilated left ventricle with reduced systolic function. Which of the following statements regarding this condition is false?",
+  "o": [
+   "A. Pulmonary hypertension may develop in this patient",
+   "B. Ejection fraction will be reduced in this condition",
+   "C. Long-term anticoagulation is not needed for this patient",
+   "D. Beta blockers are indicated in chronic management"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Medicine",
+  "q": "Which of the following clinical conditions are correctly matched with their respective anion gap status? Starvation – Increased anion gap Diabetic ketoacidosis – Increased anion gap Severe vomiting – Increased anion gap",
+  "o": [
+   "Only A is correct",
+   "A and C are correct",
+   "A and B are correct",
+   "Only B is correct"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Medicine",
+  "q": "A woman with dry mouth, gritty eye sensations, and bilateral salivary gland enlargement presents for evaluation. Laboratory tests show hypokalemia and metabolic acidosis. What is the most appropriate diagnostic test to confirm the diagnosis?",
+  "o": [
+   "Schirmer’s test and autoantibody profile",
+   "Serum acetylcholine receptor antibody",
+   "Salivary gland scintigraphy",
+   "Serum calcium and ACE levels"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "A 45-year-old postmenopausal woman has an endometrial thickness of 15 mm on transvaginal ultrasound. What should be the next step in management?",
+  "o": [
+   "Endometrial biopsy",
+   "MRI Pelvis",
+   "Hysterectomy",
+   "Repeat transvaginal ultrasound after 6 weeks"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "Postpartum intrauterine contraceptive device (IUCD) insertion should ideally be performed within which of the following time frames?",
+  "o": [
+   "Within 24–48 hours",
+   "Within 10 minutes of placental delivery",
+   "At 4 weeks postpartum",
+   "After 6 weeks postpartum"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "Which of the following statements about shock is accurate?",
+  "o": [
+   "Uterine inversion in the postpartum period causes neurogenic shock initially",
+   "Gram-positive bacteria cause endotoxic shock",
+   "Severe shock occurs with more than 20% blood loss",
+   "Hypoperfusion with increased cardiac output"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "Which of the following features are characteristic of Hirschsprung’s disease? Failure of migration of ganglia Causes intestinal obstruction postnatally Distal segment dilated Proximal segment constricted",
+  "o": [
+   "1, 2, 3 are correct",
+   "1, 2 are correct",
+   "3, 4, 5 are correct",
+   "3 & 4 are correct"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "A child presents with recurrent pneumonia and respiratory distress but no cyanosis. A continuous murmur is heard below the left clavicle. What is the most probable diagnosis?",
+  "o": [
+   "Ventricular septal defect (VSD)",
+   "Atrial septal defect (ASD)",
+   "CoA",
+   "Patent ductus arteriosus (PDA)"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "Which is not used in status epilepticus?",
+  "o": [
+   "Valproate",
+   "Ethosuximide",
+   "Fosphenytoin",
+   "Levetiracetam"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Dermatology",
+  "q": "Match the following: a. Auspitz sign 1. Psoriasis b. Darier’s sign 2. Discoid lupus erythematosus c. Carpet tack sign 3. Cutaneous mastocytosis d. Flag sign 4. Kwashiorkor",
+  "o": [
+   "A.a-3, b-2, c-1, d-4",
+   "B.a-4, b-3, c-1, d-2",
+   "C.a-1, b-3, c-2, d-4",
+   "D.a-1, b-2, c-3, d-4"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Dermatology",
+  "q": "The most common site of melanoma in Indians is:",
+  "o": [
+   "Trunk",
+   "Hands and feet",
+   "Genitals",
+   "Face"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Dermatology",
+  "q": "Which of the following is NOT a part of syndromic management in males?",
+  "o": [
+   "Urethral discharge",
+   "Genital discharge",
+   "Inguinal swelling",
+   "Lower abdominal pain"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Dermatology",
+  "q": "A farmer presents with a lesion that discharges black-colored granules. What is the causative agent?",
+  "o": [
+   "Madurella mycetomatis",
+   "Actinomadura Madurae",
+   "Nocardia brazilensis",
+   "Streptomyces somaliensis"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Dermatology",
+  "q": "A lesion is observed at the same site on three separate occasions. What is the most likely diagnosis?",
+  "o": [
+   "Cutaneous mastocytosis",
+   "Fixed drug eruption",
+   "HSV1",
+   "Erythema multiforme"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Dermatology",
+  "q": "A 70-year-old female presents with intense itching and a white plaque in the genital region. Histopathological examination shows loss of rete ridges, abundant collagen, and thinned epithelium. What is the most likely diagnosis?",
+  "o": [
+   "Lichen planus",
+   "Lichen sclerosis",
+   "Candidiasis",
+   "Vulvar leukoplakia"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Anesthesia",
+  "q": "For benzodiazepines and barbiturates, which of the following statements are true? Both act on GABA Cause additive sedation with alcohol Thiopentone has a short duration of action due to metabolism Flumazenil is an antidote for barbiturates",
+  "o": [
+   "Both A & B are correct",
+   "Only A is correct",
+   "Only C is correct",
+   "All are correct"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Radiology",
+  "q": "A trauma patient presents with two episodes of vomiting and loss of consciousness. CT brain shows a biconvex hyperdense lesion. What is the next step in management?",
+  "o": [
+   "Craniectomy",
+   "ICU observation",
+   "Conservative management",
+   "Burr hole and evacuation"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Radiology",
+  "q": "A 36-year-old man presents to the emergency department with sudden shortness of breath. The CT thorax shows evidence of air in the pleural cavity with partial lung collapse. What is the immediate next step in management?",
+  "o": [
+   "Needle decompression",
+   "Intercostal chest tube insertion",
+   "Sputum microscopy and culture",
+   "Thoracic ultrasound"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET Nov 2025 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Physiology",
+  "q": "Which physiological abnormality increases renin secretion?",
+  "o": [
+   "Reduced renal perfusion pressure",
+   "Increased extracellular fluid volume",
+   "Elevated renal perfusion pressure",
+   "Elevated sodium load to macula densa"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Physiology",
+  "q": "Emotional tone and prosody of speech is primarily controlled by which brain region?",
+  "o": [
+   "Posterior superior temporal gyrus",
+   "Posterior inferior parietal gyrus",
+   "Precentral gyrus",
+   "Cingulate gyrus"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Physiology",
+  "q": "Reason for biphasic flow in right coronary artery?",
+  "o": [
+   "Increased aortic pressure",
+   "Increased right ventricular mass",
+   "High pressure in right ventricle",
+   "Low pressure in right ventricle"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Physiology",
+  "q": "Which adrenergic or muscarinic receptor subtype is coupled to the Gs protein?",
+  "o": [
+   "M1 receptor",
+   "M2 receptor",
+   "Alpha adrenergic receptor",
+   "Beta adrenergic receptor"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Physiology",
+  "q": "In a graph of glomerular filterability vs. effective molecular radius, if X and Y are two molecules, which statement is correct? 1. Y has more filterability than X 2. Y has more filterability than Z 3. X has less filterability than Y 4. X represents positively charged molecules",
+  "o": [
+   "1 and 2",
+   "2 and 3",
+   "3 and 4",
+   "1 and 4"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Physiology",
+  "q": "Which sensory receptor generates a hyperpolarizing receptor potential upon stimulation?",
+  "o": [
+   "Visual receptor (rods/cones)",
+   "Gustatory receptor",
+   "Olfactory receptor",
+   "Auditory receptor"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Physiology",
+  "q": "Which cerebral lobe primarily governs hand–eye coordination?",
+  "o": [
+   "Frontal",
+   "Parietal",
+   "Occipital",
+   "Temporal"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Physiology",
+  "q": "During oral rehydration therapy in diarrhoea, which transporter is most active in promoting fluid absorption?",
+  "o": [
+   "CFTR",
+   "NHE",
+   "SGLT1",
+   "Na+-K+ ATPase"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Physiology",
+  "q": "Intercalated disc is composed of: 1. Cadherins 2. Desmosomes 3. Gap junctions 4. Tight junctions",
+  "o": [
+   "1, 2 and 3",
+   "2, 3 and 4",
+   "1, 3 and 4",
+   "1,2, 3 and 4"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Elevated serum triglyceride levels are observed in all of the following conditions EXCEPT:",
+  "o": [
+   "Abetalipoproteinemia",
+   "Type 2 diabetes mellitus",
+   "High fructose diet",
+   "Nephrotic syndrome"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Which coenzyme is essential for carrying out transamination reactions in amino acid metabolism?",
+  "o": [
+   "Thiamine pyrophosphate (TPP)",
+   "Nicotinamide adenine dinucleotide (NAD)",
+   "Pyridoxal phosphate (PLP)",
+   "Flavin adenine dinucleotide (FAD)"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Which of the following gives a negative Benedict's test?",
+  "o": [
+   "Sucrose",
+   "Glucose",
+   "Fructose",
+   "Ascorbic acid"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Match the following: 1. Metabolic acidosis a. Hyperventilation 2. Metabolic alkalosis b. Bronchopneumonia 3. Respiratory acidosis c. Pyloric stenosis 4. Respiratory alkalosis d. Glycol poisoning",
+  "o": [
+   "1-c, 2-d, 3-b, 4-a",
+   "1-c, 2-d, 3-a, 4-b",
+   "1-a, 2-c, 3-b, 4-d",
+   "1-d, 2-c, 3-b, 4-a"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Match the following: 1. Most essential fatty acid a. Safflower oil 2. Amino acid (AA) score b. Protein scoring system 3. Oil rich in essential fatty acid c. Protein quality + digestibility 4. Net Protein Utilization (NPU) d. Linoleic acid",
+  "o": [
+   "1-d, 2-c, 3-a, 4-b",
+   "1-b, 2-d, 3-c, 4-a",
+   "1-d, 2-b, 3-a, 4-c",
+   "1-a, 2-b, 3-d, 4-c"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Which of the following enzymes are active in the dephosphorylated state? 1. Glycogen synthase 2. Glycogen phosphorylase 3. Fructose-2,6-bisphosphatase 4. Phosphofructokinase-2 (PFK-2)",
+  "o": [
+   "1 and 2",
+   "2 and 3",
+   "3 and 4",
+   "1 and 4"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "In DNA replication, which enzyme synthesizes RNA primers?",
+  "o": [
+   "Topoisomerase",
+   "DNA polymerase II",
+   "DNA polymerase III",
+   "Primase"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Microbiology",
+  "q": "A 32-year-old woman with a history of splenectomy presents to the emergency department with sudden-onset high-grade fever, vomiting, hypotension, and rapidly progressive septic shock. Her symptoms began 2 weeks after a minor febrile illness. Which organism is the most likely causative agent of this life-threatening condition?",
+  "o": [
+   "Escherichia coli",
+   "Staphylococcus aureus",
+   "Streptococcus pneumoniae",
+   "Pseudomonas aeruginosa"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Microbiology",
+  "q": "Which of the following vasculitis is NOT classified as a medium-vessel disease?",
+  "o": [
+   "Microscopic polyangiitis (MPA)",
+   "Polyarteritis nodosa (PAN)",
+   "Buerger's disease (Thromboangiitis obliterans)",
+   "Kawasaki disease"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Microbiology",
+  "q": "A 12-year-old presents with hypertension and hematuria. Serum C3 is raised. Renal biopsy shows subepithelial hump deposits on EM. What is the most likely diagnosis?",
+  "o": [
+   "Goodpasture syndrome",
+   "Membranous glomerulonephritis",
+   "Post-streptococcal glomerulonephritis (PSGN)",
+   "Minimal change disease"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Microbiology",
+  "q": "A patient with long-standing chronic inflammatory disease develops systemic amyloidosis. Which amyloid protein subtype is characteristically deposited?",
+  "o": [
+   "ATTR",
+   "Abeta2m",
+   "AL",
+   "AA"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Microbiology",
+  "q": "A patient presents with Hb 8 g/dL, MCV 62 fL, and low serum ferritin. Which type of anemia is most likely?",
+  "o": [
+   "Sideroblastic anemia",
+   "Megaloblastic anemia",
+   "Iron deficiency anemia",
+   "Aplastic anemia"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Microbiology",
+  "q": "Which of the following is an INCORRECT pairing of virus and associated malignancy?",
+  "o": [
+   "CMV — Nasopharyngeal carcinoma",
+   "HTLV-1 — Adult T-cell lymphoma",
+   "EBV — Burkitt lymphoma",
+   "HHV-8 — Kaposi sarcoma"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Microbiology",
+  "q": "Histopathological examination of cardiac tissue from a post-MI patient shows a predominant neutrophilic infiltrate. This finding corresponds to which post-infarction time window?",
+  "o": [
+   "2–3 months",
+   "12–24 hours",
+   "1–3 days",
+   "7–10 days"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Microbiology",
+  "q": "A patient diagnosed with beta-thalassemia major is being evaluated. Which of the following is characteristically associated with this condition?",
+  "o": [
+   "Iron overload",
+   "Leukopoiesis",
+   "Ineffective hematopoiesis",
+   "Intravascular hemolysis"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Microbiology",
+  "q": "Which of the following statements regarding wound healing is correct?",
+  "o": [
+   "The inflammatory phase is directly followed by the exudative phase",
+   "Type I collagen is deposited in early wound healing in a random haphazard manner",
+   "Angiogenesis occurs during the proliferative phase",
+   "Type III collagen replaces Type I collagen in a 3:1 ratio"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Microbiology",
+  "q": "Which statement correctly describes incomplete penetrance?",
+  "o": [
+   "All children of an affected parent will be clinically affected",
+   "The disease will not manifest in any individual of the next generation",
+   "Multiple individuals in one generation are affected but the next generation is entirely spared",
+   "Alternate generations of pedigree are affected by the condition"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Microbiology",
+  "q": "A pathologist receives a formalin-fixed paraffin-embedded (FFPE) tissue section. Which technique is most appropriate to identify and localize specific proteins within this section in situ?",
+  "o": [
+   "Fluorescence in situ hybridisation (FISH)",
+   "Flow cytometry",
+   "Western blot",
+   "Immunohistochemistry (IHC)"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Microbiology",
+  "q": "What is the primary molecular mechanism by which UV light induces carcinogenesis?",
+  "o": [
+   "Inhibition of TP53",
+   "Activation of NF-kappa β signaling pathway",
+   "Thymine dimers",
+   "Upregulation of cyclin proteins"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Calculate the Therapeutic Index of the given drug from the dose-response curve below:",
+  "o": [
+   "0.25",
+   "0.75",
+   "2",
+   "4"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "What is the mechanism of action of Pretomanid under the BPaLM regimen?",
+  "o": [
+   "Inhibition of ATP synthase",
+   "Inhibition of RNA polymerase",
+   "Inhibition of mycolic acid synthesis",
+   "Inhibition of arabinoglycan synthesis"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Identify the type of elimination kinetics represented in the given graph:",
+  "o": [
+   "First-order kinetics",
+   "Zero-order kinetics",
+   "Nonlinear kinetics",
+   "Saturation kinetics"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "A 45-year-old chronic smoker is being counselled for smoking cessation therapy. Which of the following statements regarding nicotine replacement and pharmacotherapy is correct?",
+  "o": [
+   "Acidic beverages should be avoided 15 minutes before using nicotine gum to maximize absorption",
+   "Nicotine patch provides superior efficacy compared to nicotine gum",
+   "Bupropion is associated with more adverse effects than Varenicline",
+   "Varenicline carries a black box warning for cardiovascular toxicity"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Lamotrigine is most effective in which of the following seizure types?",
+  "o": [
+   "Absence seizures",
+   "Tonic-clonic seizures",
+   "Atonic seizures",
+   "Myoclonic seizures"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Unlike other calcium channel blockers, Cilnidipine does not cause reflex tachycardia. What is the reason for this?",
+  "o": [
+   "It additionally blocks N-type calcium channels",
+   "It additionally blocks T-type calcium channels",
+   "It additionally blocks C-type calcium channels",
+   "It additionally blocks sodium channels"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "A patient is diagnosed with invasive mucormycosis following COVID-19 infection. Which of the following antifungal agents has NO activity against Mucor species and should be avoided?",
+  "o": [
+   "Voriconazole",
+   "Isavuconazole",
+   "Posaconazole",
+   "Liposomal Amphotericin B"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Regarding ESBL-producing organisms and their treatment, which of the following statements are correct? 1. 1st generation cephalosporins such as Cefazolin retain activity against ESBL producers, unlike 3rd generation 2. Carbapenems have proven clinical efficacy against ESBL-producing organisms 3. The beta-lactamase enzyme responsible for ESBL resistance is encoded on transferable plasmids 4. Piperacillin-Tazobactam is a reliable and effective alternative to Carbapenems",
+  "o": [
+   "1, 2 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2 and 3 only",
+   "1, 2, 3 and 4 all"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Which of the following statements is correct regarding Ticagrelor?",
+  "o": [
+   "It is associated with reduced risk of intracranial bleeding compared to Clopidogrel",
+   "It requires hepatic enzymatic activation to produce its active metabolite",
+   "It exerts its antiplatelet effect by directly blocking the P2Y12 ADP receptor",
+   "Its antiplatelet action is irreversible and persists until new platelets are formed"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Match the following antibiotic with its most commonly associated organism: 1. Streptomycin a. Streptococcal pharyngitis 2. Amoxicillin b. H. pylori 3. Doxycycline c. Mycobacterium tuberculosis 4. Clarithromycin d. Chlamydia trachomatis",
+  "o": [
+   "1-c, 2-a, 3-d, 4-b",
+   "1-c, 2-b, 3-d, 4-a",
+   "1-a, 2-c, 3-b, 4-d",
+   "1-d, 2-a, 3-c, 4-b"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Which of the following is correctly matched (Anti-aging compound — Molecular pathway)?",
+  "o": [
+   "Resveratrol — mTOR inhibition",
+   "Caloric restriction — Sirtuin (SIRT-1)",
+   "Metformin — AMPK pathway",
+   "Rapamycin — IGF-1/Insulin pathway"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "All the following are ligand-gated ion channels EXCEPT:",
+  "o": [
+   "H2 receptor",
+   "5-HT3 receptor",
+   "GABA-A receptor",
+   "Nicotinic receptor"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "A wound swab reveals gram-positive cocci in clusters, catalase-positive, sensitive to Cefoxitin and Oxacillin. What is the drug of choice?",
+  "o": [
+   "Ceftriaxone",
+   "Vancomycin",
+   "Cloxacillin",
+   "Amoxicillin/Clavulanate"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Which of the following drug-receptor target pairings are correctly matched? 1. Trastuzumab — HER2 receptor 2. Sunitinib — HER1 (EGFR) 3. Gefitinib — HER1 (EGFR)",
+  "o": [
+   "Only 1 is correct",
+   "1 and 3 are correct",
+   "2 and 3 are correct",
+   "All are correct"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "A novel anti-aging compound induces autophagy by inhibiting EP300 histone acetyltransferase, leading to deacetylation of autophagy-related proteins. Which known anti-aging agent works by the same mechanism?",
+  "o": [
+   "Rapamycin",
+   "Metformin",
+   "Resveratrol",
+   "Spermidine"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "A 16-year-old rape survivor presents at 16 weeks of pregnancy. All of the following are responsibilities of the examining doctor EXCEPT:",
+  "o": [
+   "Fetal tissues for DNA to be preserved",
+   "Inform the police",
+   "MTP if needed can be conducted by one doctor's opinion",
+   "Parents' consent for medicolegal examination"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Following an explosion, a person sustained burns to the face and chest. What type of blast injury is this?",
+  "o": [
+   "Primary blast injury",
+   "Secondary blast injury",
+   "Tertiary blast injury",
+   "Quaternary blast injury"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Which type of injury is characterized by the 'sparrow foot' pattern?",
+  "o": [
+   "Bomb blast",
+   "Motor vehicle accident",
+   "Contusion",
+   "Collision"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "A male traveller from Afghanistan is found dead in a hotel room. Autopsy shows the stomach packed with foreign substances. What is this phenomenon called?",
+  "o": [
+   "Body packing",
+   "Body stuffing",
+   "Body storage",
+   "Body smuggle"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "After ingesting a liquid, a patient presents with pinpoint pupils, respiratory depression, excessive salivation, bradycardia, sweating, and lacrimation. What is the treatment of choice?",
+  "o": [
+   "Pralidoxime",
+   "Atropine",
+   "Flumazenil",
+   "Naloxone"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "An infant ingests a pesticide. Which drug reverses the acetylcholinesterase block?",
+  "o": [
+   "Pralidoxime",
+   "Atropine",
+   "Flumazenil",
+   "Naloxone"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "Respiratory depression is NOT a feature of which of the following poisonings?",
+  "o": [
+   "Gelsemium",
+   "Strychnine",
+   "Opium",
+   "Dhatura"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pharmacology",
+  "q": "A child presents with hypotension, respiratory depression, and pinpoint pupils. What is the most appropriate antidote?",
+  "o": [
+   "Naloxone",
+   "Flumazenil",
+   "Naltrexone",
+   "Atropine"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Ophthalmology",
+  "q": "A patient has sudden painful loss of vision with RAPD but a normal-appearing optic disc on fundoscopy. What is the diagnosis?",
+  "o": [
+   "AION",
+   "Central retinal artery occlusion",
+   "Retrobulbar neuritis",
+   "Papilledema"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Ophthalmology",
+  "q": "What is the expected amplitude of accommodation in a healthy child?",
+  "o": [
+   "2D",
+   "5D",
+   "14D",
+   "25D"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Ophthalmology",
+  "q": "Which of the following correctly describes the changes that take place during dark adaptation? A) Retinol is converted to vitamin D B) Dilated pupils C) Eyes sensitive to light D) Functional rhodopsin is formed (Opsin binds with 11-cis-retinal)",
+  "o": [
+   "A and B",
+   "B only",
+   "B, C and D",
+   "D only"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Ophthalmology",
+  "q": "Which of the following structures is NOT part of the trabecular outflow pathway?",
+  "o": [
+   "Trabecular meshwork",
+   "Uveoscleral pathway",
+   "Schlemm's canal",
+   "Collector vessels"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Ophthalmology",
+  "q": "Which features help distinguish central nystagmus from peripheral nystagmus?",
+  "o": [
+   "Direction and duration",
+   "Latency",
+   "Fatigue",
+   "All of the above"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Ophthalmology",
+  "q": "A patient develops acute-onset severe unilateral hearing loss with no identifiable cause. Audiometry confirms sensorineural hearing loss. Which of the following pharmacological regimens is considered the first-line treatment for this condition?",
+  "o": [
+   "Intratympanic steroid injections",
+   "Topical steroid ear drops",
+   "Gentamicin combined with systemic steroids",
+   "Oral prednisolone (systemic corticosteroids)"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Ophthalmology",
+  "q": "A patient is evaluated for a rare orofacial syndrome. The classical diagnostic triad of this condition is being reviewed. Which of the following is NOT a component of the Melkersson- Rosenthal syndrome triad?",
+  "o": [
+   "Lower motor neuron facial palsy",
+   "Proptosis (forward displacement of the eyeball)",
+   "Orofacial granulomatous oedema",
+   "Fissured (scrotal) tongue"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Ophthalmology",
+  "q": "An elderly immunocompromised patient presents with blood-stained nasal discharge and a black necrotic eschar covering the right nasal cavity, hard palate, and nasal turbinates. Histopathology reveals broad aseptate hyphae. Which organism is the most common causative agent of this life-threatening condition?",
+  "o": [
+   "Candida albicans",
+   "Cryptococcus neoformans",
+   "Aspergillus fumigatus",
+   "Rhizopus species"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "Calculate the Odds Ratio with the following data: Cancer No Cancer Smoking 80 20 No Smoking 40 60",
+  "o": [
+   "6",
+   "8",
+   "10",
+   "12"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "Health data from 15 nations investigates the relationship between per capita tobacco consumption and national COPD prevalence, revealing a strong positive correlation. Which study type best describes this?",
+  "o": [
+   "Case control study",
+   "Cohort study",
+   "Cross sectional study",
+   "Ecological study"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "A new screening test is evaluated in a population of 1,000 individuals. Of these, 100 individuals are known to have the disease. The test correctly identifies 90 of the diseased individuals, while 50 non-diseased individuals are false positive. Based on the data below, what is the Positive Predictive Value (PPV) of this screening test? Screening Test Diseased Non-Diseased Test Positive 90 50 Test Negative 10 850 Total 100 900",
+  "o": [
+   "90%",
+   "98%",
+   "64%",
+   "47%"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "In a defined population, approximately 67% of all stroke cases are attributable to uncontrolled hypertension. If hypertension were adequately managed, 2/3rd of stroke burden could be eliminated. This is an example of:",
+  "o": [
+   "Relative risk",
+   "Attributable risk",
+   "Population attributable risk",
+   "Odds Ratio"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "Which statement is correct regarding assessment of heterogeneity in meta-analysis?",
+  "o": [
+   "It directly quantifies and corrects for publication bias",
+   "It evaluates the degree of variability in results across the combined studies",
+   "It automatically removes confounding variables from individual studies",
+   "It computes the incidence rate of the outcome across all populations"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "On investigating an outbreak, an epidemiologist plots epidemic curve of acute febrile illness showing successive clusters separated by approximately 1 incubation period apart. Which of the following diseases shows this pattern of propagated spread?",
+  "o": [
+   "Measles",
+   "Salmonellosis",
+   "Typhoid",
+   "Food poisoning"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "On evaluating an influenza vaccine, it demonstrated an efficacy of 95% in randomized controlled trials and an effectiveness of 90% in post-marketing surveillance studies. Which of the following statement is incorrect?",
+  "o": [
+   "Vaccinated individuals demonstrate a 95% reduction in disease risk vs unvaccinated",
+   "Vaccinated individuals show a 90% reduction in influenza risk in real-world settings",
+   "The vaccine confers absolute and complete protection against influenza infection",
+   "Vaccine effectiveness can be lower than efficacy in real-world settings"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "Which of the following statement is correct with respect to the Pearl Index?",
+  "o": [
+   "Number of accidental pregnancies per 100 woman-years of contraceptive use",
+   "Number of accidental pregnancies in 100 women using a contraceptive for 1 year",
+   "Number of live births per 100 woman-years",
+   "Number of pregnancies including abortions per 100 couples"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "Under the RMNCH+A programme, a state is categorized in the \"Red\" zone. Which criterion is likely responsible for this classification?",
+  "o": [
+   "MMR lower than the national benchmark",
+   "Institutional delivery rate meeting the nationally accepted threshold",
+   "IMR exceeding the national average by 20% or more",
+   "Full immunization coverage achieving the desired target"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "A 34-year-old female, G2P1, with a history of pre-eclampsia in her previous pregnancy, comes for her first ANC visit at 12 weeks. What is the most appropriate intervention for prevention of pre- eclampsia in her current pregnancy?",
+  "o": [
+   "Low-dose aspirin",
+   "Low-dose aspirin with Low Molecular Weight Heparin (LMWH)",
+   "Low calcium intake",
+   "Low salt intake"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "A 21-year-old girl presents with primary amenorrhea. Examination shows absent uterus, present breast development, and sparse pubic and axillary hair. What is the genetic etiology?",
+  "o": [
+   "MRKH",
+   "Androgen insensitivity",
+   "Turner's syndrome",
+   "CAH"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "A woman presents with frothy green vaginal discharge, intense pruritus, and a negative Whiff test. What is seen on microscopy?",
+  "o": [
+   "Motile flagellate organisms",
+   "Clue cells",
+   "Yeasts with pseudo hyphae",
+   "Candida"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "Which of the following statements regarding the HPV vaccine is correct?",
+  "o": [
+   "One dose can be given instead of two",
+   "Live HPV vaccine is 100% protective for all HPV variants",
+   "Primary target age is 9–14 years",
+   "90% of 15-year-old girls to be vaccinated"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "A primigravida delivers the fetal head but the shoulders fail to deliver despite routine traction. What is the first step in management?",
+  "o": [
+   "McRoberts maneuver with suprapubic pressure",
+   "Wood's corkscrew maneuver",
+   "Rubin maneuver",
+   "Zavanelli maneuver"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "A patient is unable to pass urine four hours after an instrumental vaginal delivery. Examination reveals a bluish cystic swelling in the vaginal wall. What is the most likely diagnosis?",
+  "o": [
+   "Vaginal hematoma",
+   "Perineal tear",
+   "Bartholin's cyst",
+   "Cystocoele"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "What is the primary cause of mild breathlessness experienced during normal pregnancy?",
+  "o": [
+   "Decreased tidal volume",
+   "Progesterone-induced stimulation of the respiratory centre",
+   "Reduced oxygen intake",
+   "Increased arterial PCO₂ levels"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "A patient presents with hypercalcemia due to malignancy. According to the correct sequence of management, what should be the first step?",
+  "o": [
+   "Administration of loop diuretics",
+   "Intravenous rehydration with normal saline",
+   "Administration of bisphosphonates",
+   "Other supportive measures"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "A patient presents to the emergency room with breathlessness. Cardiac causes are suspected but need to be differentiated from obstructive lung disease. Which of the following features is more characteristic of heart failure?",
+  "o": [
+   "Chest tightness",
+   "Not able to take deep breath",
+   "Air hunger",
+   "Intermittent wheezing"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "Which of the following is least likely to be considered a major independent risk factor for falls in the elderly?",
+  "o": [
+   "Muscle weakness (Sarcopenia)",
+   "Hearing impairment",
+   "Advanced age",
+   "Arthritis"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "A patient on long-term steroid therapy presents with centripetal obesity, buffalo hump, and abdominal striae. Dexamethasone suppression test confirms the diagnosis. What is the next investigation to identify the source?",
+  "o": [
+   "ACTH level",
+   "CECT adrenal",
+   "Non-contrast CT adrenal",
+   "MRI pituitary gland"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "A 5-year-old child presents with recurrent episodes since age 3, characterized by sudden behavioral arrest, repetitive picking movements of the right hand, and goosebumps. The child is unresponsive during episodes and has no memory of them afterward. Which of the following is correct? 1. Focal seizure with intact awareness 2. Focal seizure with impaired awareness 3. Frontal lobe semiology 4. Temporal lobe semiology",
+  "o": [
+   "1 and 3",
+   "2 and 4",
+   "2 and 3",
+   "1 and 4"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "In which of the following conditions is cyanosis most likely to be a clinical finding?",
+  "o": [
+   "Eisenmenger syndrome",
+   "Atrioventricular septal defect",
+   "Partial anomalous pulmonary venous connection",
+   "Advanced aortic stenosis"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "A 45-year-old farmer from Northeast India presents with low-grade fever, progressive weight loss, night sweats, and productive cough. Chest CT reveals upper lobe cavitary lesions. Lung biopsy shows granulomatous inflammation with caseous necrosis and abundant histiocyte infiltration. What is the most likely diagnosis?",
+  "o": [
+   "Aspergillosis",
+   "Histoplasmosis",
+   "Sarcoidosis",
+   "Cryptococcosis"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "The given disorders are associated with dystonia and basal ganglia involvement. Which one requires a fundamentally different treatment approach than the others?",
+  "o": [
+   "PKAN (Pantothenate kinase-associated neurodegeneration)",
+   "PLAN (PLA2G6-associated neurodegeneration)",
+   "Dopa-responsive dystonia",
+   "Wilson disease"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "What causes the resting tremors in Parkinson's disease?",
+  "o": [
+   "Loss of inhibition of globus externa",
+   "Loss of inhibition of globus interna",
+   "Excitation of globus interna",
+   "Excitation of globus externa"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "A 25-year-old college student presents with progressive headache, vomiting, and double vision. Examination reveals bilateral 6th nerve palsy and papilledema. CT brain shows hydrocephalus. CSF analysis reveals lymphocytic dominance, markedly low glucose, and elevated protein. What is the most likely diagnosis?",
+  "o": [
+   "Viral meningitis",
+   "Tubercular meningitis",
+   "Fungal meningitis",
+   "Bacterial meningitis"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "A 28-year-old woman with severe anorexia is admitted for nutritional rehabilitation. Within 48 hours of initiating enteral feeding, she develops muscle weakness, cardiac arrhythmias, and respiratory distress. Which metabolic abnormality is most characteristically responsible?",
+  "o": [
+   "Hyponatremia",
+   "Hypocalcemia",
+   "Hypophosphatemia",
+   "Hyperkalemia"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "A 15-year-old boy presents with hypertension and salt-water retention. He is suspected to have 17-alpha hydroxylase deficiency. What is the expected serological profile?",
+  "o": [
+   "High mineralocorticoid, high cortisol, high androgen",
+   "High mineralocorticoid, high cortisol, low androgen",
+   "High mineralocorticoid, low cortisol, low androgen",
+   "Low mineralocorticoid, low cortisol, low androgen"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "A 10-year-old boy presents with excessive eating (hyperphagia) and obesity, with a BMI of 33. Genetic testing shows a deletion on chromosome 15. What is the most likely diagnosis?",
+  "o": [
+   "Angelman syndrome",
+   "Prader-Willi syndrome",
+   "Rett syndrome",
+   "Down syndrome"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "OBGY",
+  "q": "A 66-year-old female has normal calcium, elevated PTH, low phosphate, and raised ALP. What is the diagnosis?",
+  "o": [
+   "Primary hyperparathyroidism",
+   "Vitamin D deficiency",
+   "Hypoparathyroidism",
+   "Chronic kidney disease"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "A neonate presents with prolonged neonatal jaundice, an umbilical hernia, and generalized hypotonia. Which of the following is the most likely underlying diagnosis?",
+  "o": [
+   "Galactosemia",
+   "Down syndrome",
+   "Biliary atresia",
+   "Congenital hypothyroidism"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "A child diagnosed with Dravet syndrome is receiving multi-drug anti-seizure therapy and is being considered for add-on treatment with fenfluramine. Which of the following monitoring strategies is most critical before initiating and during the course of this therapy, given the known pharmacological adverse-effect profile of fenfluramine?",
+  "o": [
+   "Monthly complete blood count to monitor for agranulocytosis and aplastic anemia",
+   "Serial echocardiography to evaluate for cardiac valvular disease and pulmonary hypertension",
+   "Baseline and periodic ophthalmic examinations to monitor for visual field defects",
+   "Serial liver function tests and serum ammonia levels to monitor for hepatotoxicity"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "A neonate presents with differential cyanosis, characterized by pink upper extremities and cyanosed lower extremities. Which of the following congenital heart diseases is most likely responsible for this clinical presentation?",
+  "o": [
+   "Atrioventricular septal defect",
+   "Severe mitral stenosis",
+   "Large patent ductus arteriosus (PDA)",
+   "Peripheral vascular disease"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "A female child had normal developmental milestones until 6–8 months of age, after which she developed progressive regression in language, social interaction, and adaptive behavior. The regression was accompanied by loss of purposeful hand use replaced by stereotyped repetitive hand-wringing or clapping movements, and deceleration of head circumference growth. Which of the following is the most likely diagnosis?",
+  "o": [
+   "Childhood disintegrative disorder",
+   "Down syndrome",
+   "Asperger syndrome",
+   "Rett syndrome"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "A 6-week-old infant with prolonged NICU stay with presentation of fever, lethargy, poor feeding with CSF analysis showing features of bacterial meningitis. Which of the following are responsible? a. Staphylococcus aureus b. Hemophilus influenzae c. Streptococcus pneumoniae d. Listeria Choose the correct answer:",
+  "o": [
+   "Listeria",
+   "All of the above",
+   "b and d",
+   "a, b, d"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "Which of the following is NOT a recognized diagnostic feature of Kawasaki disease?",
+  "o": [
+   "Purulent conjunctivitis",
+   "Non-purulent (bilateral) conjunctivitis",
+   "Cervical lymphadenopathy",
+   "Fever lasting more than 5 days"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "A child presents with fever, altered level of consciousness, and signs of meningeal irritation. Cerebrospinal fluid (CSF) analysis reveals the following findings: • Cell differential: Predominantly lymphocytes • Protein: Elevated • Glucose: Low Based on these CSF findings, what is the most likely diagnosis?",
+  "o": [
+   "Tuberculous meningitis",
+   "Pyogenic (bacterial) meningitis",
+   "Viral meningitis",
+   "Fungal meningitis"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "A 3-hour-old newborn is found to have a blood glucose level of 38 mg/dL on routine screening. The neonate is asymptomatic. What is the most appropriate next step in management?",
+  "o": [
+   "Initiate 5% dextrose infusion intravenously",
+   "Leave as is and reassure the parents",
+   "Administer a 5% dextrose bolus and reassess",
+   "Continue breastfeeding and reassess blood glucose after the next feed"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "A 20-month-old child walks independently without support, scribbles spontaneously, and appropriately follows and obeys simple commands. However, the child speaks only one meaningful word. What is the most appropriate next step in management?",
+  "o": [
+   "Reassure the parents and schedule a routine follow-up at 5 years of age",
+   "Evaluate the child for autism spectrum disorder (ASD)",
+   "Reassess in 3 months to allow for spontaneous improvement",
+   "Suspect isolated speech delay and arrange a formal hearing assessment"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "Which of the following electrolyte or metabolic abnormalities is NOT a component of the lethal triad associated with massive blood transfusion?",
+  "o": [
+   "Acidosis",
+   "Hypothermia",
+   "Coagulopathy",
+   "Hyponatremia"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "On defecography, a rectocele is considered clinically significant when there is anterior bulging of the rectal wall into the posterior vaginal wall measuring more than:",
+  "o": [
+   "1 cm",
+   "2 cm",
+   "3 cm",
+   "4 cm"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "During laparoscopic inguinal hernia repair, what is the minimum distance of dissection required below the inguinal ligament to adequately expose the myopectineal orifice?",
+  "o": [
+   "0.5 cm",
+   "1 cm",
+   "2 cm",
+   "4 cm"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "A trauma patient is evaluated using the GCS. The patient localizes to painful stimuli, produces incoherent sounds, and opens eyes only in response to pain. What is the total GCS score?",
+  "o": [
+   "6",
+   "7",
+   "8",
+   "9"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "According to the American Association for the Surgery of Trauma (AAST) colon injury grading scale, how is a colonic laceration involving more than 50% of the bowel wall circumference without complete transection classified?",
+  "o": [
+   "Grade II",
+   "Grade III",
+   "Grade IV",
+   "Grade V"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "A 60-year-old patient presents with pruritus and obstructive jaundice. Physical examination reveals a palpable, non-tender gallbladder. What is the most likely diagnosis?",
+  "o": [
+   "Choledocholithiasis",
+   "Carcinoma of the head of the pancreas",
+   "Cholangiocarcinoma",
+   "Gallbladder carcinoma"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "What is the fundamental surgical principle underlying TME in the operative management of rectal cancer?",
+  "o": [
+   "Excision of only the peritumoral fat surrounding the tumor",
+   "Routine resection of the pelvic autonomic nerves",
+   "Ligation of the internal iliac artery",
+   "En bloc removal of the entire mesorectum as a single intact unit"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "According to ATLS guidelines, which of the following represents the correct sequence of steps in primary trauma management? Steps: a. Airway management with cervical spine protection b. Circulation with hemorrhage control c. Disability assessment d. Catastrophic bleeding control Which sequence is correct?",
+  "o": [
+   "a → b → c → d",
+   "b → a → d → c",
+   "d → b → a → c",
+   "d → a → b → c"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "A prostatic biopsy report reveals a Gleason score of 8 (4 + 4). What is the corresponding Grade Group classification of this tumor?",
+  "o": [
+   "Grade Group 2",
+   "Grade Group 3",
+   "Grade Group 4",
+   "Grade Group 5"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "A 55-year-old patient presents to the emergency department with abdominal pain, distension, and vomiting. Imaging confirms a diagnosis of cecal volvulus. Which of the following risk factors is responsible for 50–70% of cecal volvulus cases?",
+  "o": [
+   "High-fiber diet",
+   "Lactulose abuse",
+   "Female sex",
+   "Previous abdominal surgery"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "A 65-year-old male with diabetes mellitus presents with purulent rectal discharge and is diagnosed with fistula-in-ano. Surgical management is planned. Which of the following procedures is considered internal anal sphincter-preserving?",
+  "o": [
+   "LIFT",
+   "FiLaC",
+   "Fistulectomy",
+   "VAAFT"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "Which of the following clinical features best distinguishes mechanical small bowel obstruction from paralytic ileus?",
+  "o": [
+   "Tachycardia",
+   "Vomiting",
+   "Abdominal distension",
+   "Colicky abdominal pain"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "A patient is planned for elective colon surgery. What is the ideal timing for administration of prophylactic parenteral antibiotics?",
+  "o": [
+   "30 minutes before surgery",
+   "2 hours before surgery",
+   "4 hours before surgery",
+   "1 hour before skin incision"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "A young patient presents with recurrent fever and constitutional symptoms. Evaluation reveals a mediastinal mass and biopsy confirms lymphoma. In the staging system, 'X' is mentioned. What does 'X' denote?",
+  "o": [
+   "Extranodal spread of disease",
+   "Bulky or large tumor mass",
+   "Presence of systemic symptoms",
+   "Tumor present on both sides of the diaphragm"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "In which type of constipation are stimulant laxatives contraindicated or should be avoided?",
+  "o": [
+   "Spastic constipation",
+   "Habitual constipation",
+   "Atonic constipation",
+   "Post-operative constipation"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "A 40-year-old female with progressive left flank pain, no mass or fever. What is the next best step?",
+  "o": [
+   "CECT followed by MRI",
+   "Contrast-enhanced CT abdomen",
+   "Ultrasound followed by non-contrast CT",
+   "Non-contrast CT followed by contrast CT"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Surgery",
+  "q": "Assertion (A): In a patient with scrotal swelling, examination of the superficial inguinal lymph nodes should always be performed. Reason (R): Most lymphatic drainage from scrotal skin goes to the superficial inguinal lymph nodes. Choose the correct option:",
+  "o": [
+   "Both A and R are true, but R is not the correct explanation of A",
+   "Both A and R are true, and R is the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Orthopedics",
+  "q": "In femoral neck fracture management using Garden classification, which treatment is indicated for an elderly patient?",
+  "o": [
+   "Cannulated screws",
+   "Total hip replacement (THR)",
+   "Hemiarthroplasty",
+   "Conservative management"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Orthopedics",
+  "q": "A proximal humerus fracture is classified using Neer's classification. Which surgical option is most appropriate for a 4-part fracture in a young patient?",
+  "o": [
+   "Humerus nailing",
+   "Humerus plating",
+   "Hanging cast/K-wires",
+   "Shoulder hemiarthroplasty"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Orthopedics",
+  "q": "A child presents with a Gower sign. What does this finding indicate?",
+  "o": [
+   "Sensory neuropathy",
+   "Proximal muscle weakness",
+   "Joint laxity",
+   "Distal muscle weakness"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Orthopedics",
+  "q": "In neuropraxia, what is the pathological finding?",
+  "o": [
+   "Nerve trunk damage",
+   "Perineurium damage",
+   "Axon disruption",
+   "Physiological conduction block with intact axon"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Orthopedics",
+  "q": "A 28-year-old male with bilateral femoral and tibial fractures and a chest wound presents with unstable blood pressure and tachycardia. After initial stabilization, what is the most appropriate initial management of his long bone fractures?",
+  "o": [
+   "Internal fixation of femur with screws and external fixation of tibia",
+   "External fixation of femur and internal fixation of tibia with nailing",
+   "External fixation of both femur and tibia",
+   "External fixation, or screw/plating/nailing depending on surgical skill of the surgeon which saves time"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Radiology",
+  "q": "A 12-year-old child presents with mild fever, runny nose, sore throat, and cough for 3 days. Clinical examination is consistent with an upper respiratory tract infection (URTI). There is no respiratory distress, oxygen desaturation, or focal chest findings. What is the most appropriate next step regarding imaging?",
+  "o": [
+   "No further radiological investigation is required",
+   "Digital chest X-ray",
+   "Plain CT chest",
+   "HRCT chest"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Psychiatry",
+  "q": "Which statement correctly describes classical conditioning?",
+  "o": [
+   "Association between conditioned stimulus and conditioned response",
+   "Association between unconditioned stimulus and unconditioned response",
+   "Unconditioned stimulus produces conditioned response after learning",
+   "Conditioned stimulus triggers a conditioned response after learning"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Psychiatry",
+  "q": "Which instruction is correct for a patient using nicotine replacement therapy?",
+  "o": [
+   "Gums are more effective than lozenges",
+   "Patient should avoid liquids like tea or coffee 15 minutes before using gum or lozenge",
+   "Correct timing of doses",
+   "Proper storage of nicotine products"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Psychiatry",
+  "q": "A 45-year-old recently divorced alcoholic expresses suicidal ideation. What is the next best step?",
+  "o": [
+   "Cognitive Behavioral Therapy and weekly outpatient visits",
+   "Start antidepressant therapy",
+   "Hospitalization and safety measures",
+   "Monitor for recurrence"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Psychiatry",
+  "q": "Which of the following drugs is classified as a novel antidepressant?",
+  "o": [
+   "Trazodone",
+   "Vilazodone",
+   "Blonanserin",
+   "Etizolam"
+  ],
+  "a": 1,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Psychiatry",
+  "q": "A patient with chronic alcoholism presents with severe memory problems. Which of the following features is most characteristic of Korsakoff syndrome?",
+  "o": [
+   "Inability to form new memories (anterograde amnesia)",
+   "Loss of personal identity",
+   "Impairment of unconscious (implicit) memory",
+   "Confusion, unsteady gait, and eye movement paralysis"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Psychiatry",
+  "q": "An elderly patient dies, and autopsy reveals neuritic plaques in the brain. What is the most likely diagnosis?",
+  "o": [
+   "Alzheimer’s disease",
+   "Parkinson’s disease",
+   "Creutzfeldt-Jakob disease",
+   "Huntington’s disease"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Psychiatry",
+  "q": "During a lumbar puncture procedure, the spinal needle traverses several anatomical layers in a defined sequence before reaching the subarachnoid space. Given the structures listed below, which option correctly represents the order in which they are pierced? 1. Ligamentum flavum 2. Supraspinous ligament 3. Interspinous ligament 4. Dura mater 5. Subdural space 6. Arachnoid mater 7. Epidural space Which option correctly represents the order in which they are pierced?",
+  "o": [
+   "2 → 3 → 1 → 7 → 4 → 5 → 6",
+   "2 → 3 → 7 → 1 → 4 → 5 → 6",
+   "3 → 2 → 1 → 7 → 4 → 5 → 6",
+   "2 → 1 → 3 → 4 → 7 → 5 → 6"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Psychiatry",
+  "q": "Regarding the cardiovascular effects of halothane on blood pressure, the following statements are given: 1. A drop of 20–30 mmHg in blood pressure is commonly observed 2. The fall in blood pressure begins early and is proportional to the depth of Anaesthesia 3. The fall in blood pressure reduces as the depth of Anaesthesia 4. The baroreceptor reflex mechanism is activated in response to the fall in blood pressure Which of the above statements are correct?",
+  "o": [
+   "1, 2, and 3 only",
+   "2, 3, and 4 only",
+   "1, 2, and 4 only",
+   "1, 3, and 4 only"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Dermatology",
+  "q": "A patient presents with focal hair loss accompanied by pruritus and scalp scaling. Which of the following treatments is most suitable?",
+  "o": [
+   "Methotrexate",
+   "Topical corticosteroids",
+   "Oral antibiotics",
+   "Oral antifungals"
+  ],
+  "a": 3,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Dermatology",
+  "q": "A patient is found to have a dark black lesion on the plantar surface of the foot. What is the most appropriate initial investigation?",
+  "o": [
+   "KOH mount",
+   "Gram stain",
+   "Skin biopsy",
+   "Tzanck smear"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Dermatology",
+  "q": "During tattooing, in which layer of the skin is the pigment/ink primarily deposited?",
+  "o": [
+   "Dermis",
+   "Epidermis",
+   "Subcutaneous tissue",
+   "Muscle and vascular tissue"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Dermatology",
+  "q": "Match each clinical sign in Column A with its corresponding dermatological condition in Column B: Column A (Clinical Sign) Column B (Condition) Positive Nikolsky sign Pemphigus vulgaris Pseudo-Nikolsky sign Stevens-Johnson syndrome False Nikolsky sign Bullous pemphigoid Cerebriform tongue Pemphigus vegetans Which of the following is the correct match?",
+  "o": [
+   "A-2, B-1, C-3, D-4",
+   "A-1, B-2, C-3, D-4",
+   "A-1, B-3, C-2, D-4",
+   "A-4, B-2, C-1, D-3"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Dermatology",
+  "q": "A female presents with greenish frothy discharge; whiff test and Amsel’s criteria are negative. What microscopy feature is expected?",
+  "o": [
+   "Motile flagellates",
+   "Pseudohyphae",
+   "Clue cells",
+   "Gram-negative diplococci"
+  ],
+  "a": 0,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Dermatology",
+  "q": "A male patient reports painful vesicular eruptions on the penis. Based on this presentation, which of the following is the most likely causative agent?",
+  "o": [
+   "Haemophilus ducreyi",
+   "Human papillomavirus",
+   "Herpes simplex virus",
+   "Treponema pallidum"
+  ],
+  "a": 2,
+  "y": 2026,
+  "x": "INI-CET May 2026 (DigiNerve recall)",
+  "e": "Unofficial recall key (source: DigiNerve INI-CET May 2026 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Regulation of Fatty Acid Synthesis In a 90-kg man, follows a high carbohydrate meal diet plan, which metabolic pathway is predominantly active and contributes to weight gain? 1. Malonyl-CoA 2. Acetyl-CoA carboxylase 3. Mitochondrial carnitine transporter 4. Tricarboxylate transporter (citrate)",
+  "o": [
+   "1, 2 and 4",
+   "1 and 2",
+   "1 and 3",
+   "1, 2, 3 and 4"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Insulin Action Which cell has decreased uptake of glucose in insulin resistance?",
+  "o": [
+   "Kidney",
+   "Skeletal muscle",
+   "Brain",
+   "RBC"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Biochemistry",
+  "q": "Titration & pI Identify the pH at which molecules exist in a zwitter ion form in the given glycine titration curve.",
+  "o": [
+   "4.4",
+   "6",
+   "9",
+   "2.2"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "ENT",
+  "q": "Question: Which of the following are indications for cochlear implant? 1. Otosclerosis 2. Congenital hearing loss 3. Fixed malleus 4. Aminoglycosides induced hearing loss",
+  "o": [
+   "1, 3",
+   "2, 4",
+   "1, 2, 3",
+   "2, 3, 4"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "ENT",
+  "q": "Question: Which of the following is incorrect about juvenile angiofibroma?",
+  "o": [
+   "Recurrent epistaxis",
+   "Unilateral nasal obstruction",
+   "Exclusively seen in adolescent male",
+   "Biopsy done under local anesthesia"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "ENT",
+  "q": "Question: A patient experiences vertigo and vomiting specifically when turning in bed. Which of the following is the most likely diagnosis?",
+  "o": [
+   "Benign paroxysmal positional vertigo (BPPV)",
+   "Vestibular neuritis",
+   "Ménière’s disease",
+   "Labyrinthitis"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "ENT",
+  "q": "Question: Stridor in a newborn is commonly seen in which of the following conditions? 1. Laryngomalacia 2. Subglottic stenosis 3. Laryngeal papilloma 4. Hemorrhagic polyp",
+  "o": [
+   "1 and 2",
+   "2 and 3",
+   "1 and 3",
+   "1 and 4"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "ENT",
+  "q": "Question: If the pyriform fossa is injured due to a fish bone, which nerve is likely to be damaged?",
+  "o": [
+   "Vagus nerve",
+   "Internal branch of superior laryngeal nerve",
+   "Recurrent laryngeal nerve",
+   "Glossopharyngeal nerve"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Medicine",
+  "q": "Question: A 63-year-old diabetic woman presents with fever, flank pain, dysuria, and elevated WBC count. Imaging reveals mild hydronephrosis. Urinalysis shows pyuria and bacteriuria. She is diagnosed with a complicated urinary tract infection (UTI). Which of the following is the best initial treatment?",
+  "o": [
+   "Ceftriaxone",
+   "Meropenem",
+   "Amoxicillin-clavulanate",
+   "Nitrofurantoin"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Medicine",
+  "q": "Question: A patient on a ventilator presents with cough and breathlessness. Ventilator-associated pneumonia (VAP) is diagnosed. What is the role of procalcitonin?",
+  "o": [
+   "Deciding the duration of antibiotics",
+   "Choosing empirical antibiotics",
+   "Confirmation of VAP",
+   "Differentiate fungal and bacterial etiology"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Medicine",
+  "q": "Question: A person living in an iodine deficient area developed hyperthyroidism after taking iodine supplementation. Which phenomenon explains this?",
+  "o": [
+   "Wolff-Chaikoff effect",
+   "Jod-Basedow effect",
+   "Goitre",
+   "Medullary thyroid cancer"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Medicine",
+  "q": "Question: Erythropoietin is primarily used in the treatment of which type of anemia? 1. Nutritional anemia 2. Chronic kidney disease (CKD)-related anemia 3. Myelodysplastic syndrome (MDS)-related anemia 4. Aplastic anemia",
+  "o": [
+   "1 & 4",
+   "2 & 3",
+   "1 & 3",
+   "1, 2 & 4"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Medicine",
+  "q": "Question: Mitral stenosis murmur coincides with:",
+  "o": [
+   "ST segment",
+   "QRS",
+   "P wave",
+   "T wave"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Medicine",
+  "q": "Question: Which is not associated with congestive cardiac failure?",
+  "o": [
+   "Orthopnea",
+   "PND",
+   "Non-pulsatile elevated JVP",
+   "Right hypochondrium pain"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Medicine",
+  "q": "Question: What is the appropriate treatment for a patient with systemic lupus erythematosus (SLE) presenting with wire loop lesions on renal biopsy?",
+  "o": [
+   "Steroid alone",
+   "Steroid and cyclophosphamide",
+   "Mycophenolate mofetil (MMF) alone",
+   "Hydroxychloroquine"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Medicine",
+  "q": "Question: A 42-year-old smoker has the following pulmonary function test (PFT) results: FEV1/FVC: 0.62, FVC: 60% and RV/TLC: 142%. Which of the following best describes the underlying abnormality?",
+  "o": [
+   "Restrictive lung disease",
+   "Reduced lung compliance",
+   "Trapping of Air with Hyperinflation",
+   "Age-related change"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Medicine",
+  "q": "Question: In some individuals, peptic ulcers do not develop despite the presence of Helicobacter pylori. This is most likely due to:",
+  "o": [
+   "NSAIDs causing ulceration independent of H. pylori",
+   "Variation in host and bacterial virulence factors",
+   "Colonization limited to the antrum in asymptomatic individuals",
+   "All strains of H. pylori being non-ulcerogenic in certain hosts"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Medicine",
+  "q": "Question: A 64-year-old male with hypertension and type 2 diabetes mellitus has fatigue and exertional dyspnea. He is compliant with his medications. Echo reveals normal systolic function and grade 2 diastolic dysfunction, left ventricular hypertrophy, left atrial enlargement, and EF 60%. His BNP is elevated at 980 pg/mL. He has had two hospital admissions for heart failure in the past year. He is currently euvolemic and is on optimal doses of beta-blockers and ACE inhibitors. Which of the following is the most appropriate next step?",
+  "o": [
+   "Digoxin – to increase myocardial contractility",
+   "lvabradine - to decrease heart rate and improve ventricular filling",
+   "Loop diuretic + SGLT2 inhibitor - to improve long term outcome",
+   "Ranolazine - to reduce angina"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Ophthalmology",
+  "q": "Question: All the following are used in amblyopia therapy except:",
+  "o": [
+   "Strabismic surgery",
+   "Video games",
+   "Patching",
+   "Refractive error correction"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Ophthalmology",
+  "q": "Question: The type of retinal detachment seen in uncontrolled diabetes is:",
+  "o": [
+   "Rhegmatogenous",
+   "Tractional",
+   "Exudative",
+   "None of the above"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Ophthalmology",
+  "q": "Question: Which of the following is true about optic neuritis?",
+  "o": [
+   "70% of multiple sclerosis patients present with optic neuritis",
+   "Optic neuritis presents with a normal fundus with no disc edema",
+   "Oral steroid is used for treatment",
+   "Visual field and color defects are proportional to the disease"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Ophthalmology",
+  "q": "Clinical question Question: Two weeks after cataract surgery, a patient presents with flare and cells in the anterior chamber (AC). What is the probable diagnosis and cause?",
+  "o": [
+   "Endophthalmitis, Propionibacterium acnes",
+   "Endophthalmitis, Staphylococcus",
+   "Endophthalmitis, Mucormycosis",
+   "Toxic anterior shock syndrome, Streptococcus"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "Question Which of the following vaccines should not be given to a child with severe combined immunodeficiency disorder (SCID)?",
+  "o": [
+   "IPV",
+   "Hepatitis B vaccine",
+   "MMR vaccine",
+   "DTaP"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "Question: A 9 month-old child cannot sit without support. The baby can roll and say mama & dada. The child is generally clingy and has stranger anxiety. How will you manage the patient?",
+  "o": [
+   "Reassure the parents as this much variation is common",
+   "Get a development test done immediately",
+   "Refer to higher centre",
+   "Get an MRI of the brain"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "Question: A child has non-bilious, non-projectile vomiting, around 3 weeks after birth. Abdominal examination was normal but the child has poor weight gain along with feed intolerance. What could be the cause?",
+  "o": [
+   "Gastroesophageal reflux disease (GERD)",
+   "Congenital hypertrophic pyloric stenosis (CHPS)",
+   "Cow milk protein allergy",
+   "Intestinal obstruction"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "Question: A child presented with petechiae, purpura and platelet count of 10,000. Bone marrow aspirate shows increased megakaryocytes. What is the treatment to be given?",
+  "o": [
+   "Bone marrow transplant (BMT)",
+   "Methotrexate (MTX)",
+   "IVIG",
+   "Aspirin"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "Question: Out of the following, which represents marasmus accurately?",
+  "o": [
+   "Loss of protein and presence of edema",
+   "Calorie deficit with normal serum protein",
+   "Low cortisol",
+   "Increased insulin"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "Clinical question Question: A child presents with hepatosplenomegaly, developmental delay, and a cherry red spot on fundoscopic examination. The startle reflex is normal. Enzyme assay reveals a deficiency of which of the following enzymes?",
+  "o": [
+   "Glucocerebrosidase",
+   "Sphingomyelinase",
+   "Hexosaminidase A",
+   "Arylsulphatase"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "Clinical question Question: Which of the following is seen in tetralogy of Fallot (TOF)?",
+  "o": [
+   "Left ventricular hypertrophy (LVH)",
+   "Pulmonary infundibular stenosis",
+   "Inter atrial septal defect",
+   "Transposition of great vessels"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Pediatrics",
+  "q": "Clinical question Question: A malnourished child, given too much food, developed hypophosphatemia & hypomagnesemia. What could be the mechanism of this?",
+  "o": [
+   "Catecholamine spike increases electrolyte uptake",
+   "Insulin mediated uptake of electrolytes, phosphate",
+   "Urinary loss of phosphates",
+   "Glucagon spike and cause more loss of phosphate and electrolyte"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "Measures of Disease Frequency In a village having 100 children, 10 developed measles the previous year. Now, this year, 20 children developed measles for the first time. What is the incidence rate of measles?",
+  "o": [
+   "10%",
+   "20%",
+   "22.2%",
+   "15%"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "HIV/AIDS Which of the following is NOT a high-risk group for HIV?",
+  "o": [
+   "Injecting drug users (IDU)",
+   "Men who have sex with men (MSM)",
+   "Commercial sex workers (CSW)",
+   "Long distance truck drivers (LDTD)"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "Malaria Which of the following drugs are used for clinical cure of malaria? 1. Artemether 2. Sulfadoxine-pyrimethamine 3. Chloroquine 4. Primaquine",
+  "o": [
+   "1, 2",
+   "1, 2, 3",
+   "3, 4",
+   "1, 2, 4"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "Serological Tests Which of the following statements are true? A) Widal test is positive in first week of illness B) Microscopic agglutination test (MAT) is gold standard in leptospirosis C) The Weil-Felix test is used in typhus fever D) Standard agglutination test is used in Brucellosis",
+  "o": [
+   "A, B, C, D",
+   "B, C, D",
+   "A, C, D",
+   "C, D"
+  ],
+  "a": 1,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "Sexually Transmitted Infections A 24-year-old sexually active male presents to the UHC with complaints of painful urination and a thick yellow urethral discharge for the past 3 days. He denies any fever, chills, or flank pain. He reports multiple unprotected sexual encounters in the past month. A urethral swab sent for Gram staining, shows intracellular gram-negative diplococci within polymorphonuclear leukocytes. The organism is resistant to penicillin. Which of the following is the most appropriate treatment?",
+  "o": [
+   "Ceftriaxone",
+   "Vancomycin",
+   "Amoxicillin",
+   "Tetracycline"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "Sampling Techniques You are a medical officer at a PHC collecting data for disease burden. You divide those with diseases into mild, moderate and severe groups. Then few are selected from each group for the study. This is which type of sampling?",
+  "o": [
+   "Simple random sampling",
+   "Systematic random sampling",
+   "Stratified random sampling",
+   "Simple sampling"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "Mass Gatherings In the Maha Kumbh Mela, what was the purpose of mobile medical vans?",
+  "o": [
+   "To reduce number of health workers",
+   "For immediate quarantine measures",
+   "To get early information of outbreaks of diarrhoea, respiratory infections",
+   "To diagnose with lab tests"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "Family Planning The best timing of CuT 380A insertion to ensure good compliance under the RCH program are all except:",
+  "o": [
+   "Within 48 hours of delivery",
+   "Immediate post-partum",
+   "Within first 7 days of menstrual cycle",
+   "Within 7 days of next menstrual cycle"
+  ],
+  "a": 3,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "Tests of Significance In a group of patients with diabetes, their weights were compared before and after nutritional counselling. Statistical test of significance to be used is:",
+  "o": [
+   "ANOVA",
+   "Chi-square test",
+   "Paired t-test",
+   "Unpaired t-test"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "Rickettsial Diseases Non-clinical question): Match the following: Vector Disease 1. Tick A. Epidemic typhus 2. Mite B. Endemic typhus 3. Louse C. Rocky Mountain spotted fever 4. Flea D. Rickettsial pox",
+  "o": [
+   "1-D, 2-C, 3-B, 4-A",
+   "1-D, 2-C, 3-A, 4-B",
+   "1-C, 2-D, 3-A, 4-B",
+   "1-A, 2-C, 3-D, 4-B"
+  ],
+  "a": 2,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "Hypertension A 54-year-old male presents to a Health & Wellness Centre for a routine check-up. His blood pressure readings on two separate visits are 148/90 mmHg. He is asymptomatic, has no diabetes, renal disease, or cardiovascular history. According to the Ayushman Aarogya Mandir guidelines, which of the following is the most appropriate first-line drug and dose for initiating treatment?",
+  "o": [
+   "Amlodipine 5 mg once daily",
+   "Telmisartan 80 mg once daily",
+   "Hydrochlorothiazide 50 mg once daily",
+   "Metoprolol 100 mg twice daily"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
+ },
+ {
+  "s": "Community Medicine",
+  "q": "Basic Concepts Gene pool term is used for:",
+  "o": [
+   "Population",
+   "Individual",
+   "Community",
+   "Family"
+  ],
+  "a": 0,
+  "y": 2025,
+  "x": "INI-CET May 2025 (Doctutorials recall)",
+  "e": "Unofficial recall key (source: Doctutorials INI-CET May 2025 recall); AIIMS publishes no answer key. Verify with a standard text."
  }
 ]
