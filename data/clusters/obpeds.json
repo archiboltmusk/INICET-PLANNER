@@ -1255,7 +1255,8 @@
    "Shoulder_dystocia",
    "Twin"
   ],
-  "verify": "WHO 2018 intrapartum care & Labour Care Guide 2020 vs modified partograph (exam-classic); NICHD 2008 three-tier CTG; ACOG anti-D 2017; RCOG GTG 42 shoulder dystocia"
+  "verify": "WHO 2018 intrapartum care & Labour Care Guide 2020 vs modified partograph (exam-classic); NICHD 2008 three-tier CTG; ACOG anti-D 2017; RCOG GTG 42 shoulder dystocia",
+  "algorithm": "CTG: read in order — DR C BRAVADO (Define Risk, Contractions, Baseline RAte, Variability, Accels, Decels, Overall)\n→ Baseline 110–160 bpm; <110 bradycardia (>10 min), >160 tachycardia\n→ Variability 5–25 bpm = reassuring; <5 for >50 min (or sinusoidal) = non-reassuring\n→ Accelerations ≥15 bpm for ≥15 s (≥10 × 10 s if <32 wk) = fetal well-being\n→ Decelerations: what is their timing vs contraction?\n  Early (mirror image, nadir with peak) → head compression, benign\n  Variable (abrupt V/U/W shape, vary in timing) → cord compression → change position, amnioinfusion, check cord prolapse\n  Late (start after the peak, nadir after) → uteroplacental insufficiency (hypoxia) → left lateral, stop oxytocin, O₂ , treat hypotension; if persistent → expedite delivery\n  Prolonged (>2 min, <3 min) → look for cause; >3 min = bradycardia → emergency\n→ Sinusoidal pattern → severe fetal anaemia (Rh isoimmunisation, fetomaternal haemorrhage) → emergency\nPartogram (WHO): latent phase to 3–5 cm (not plotted); active phase plotted from ≥4 cm (WHO 2018 ≥5 cm)\n  Alert line = 1 cm/h from 4 cm; action line 4 h to the right of it\n  Crossing action line → reassess: augment (ARM, oxytocin) if hypotonic / CS if obstructed (CPD, malpresentation)"
  },
  {
   "id": "obg-contraception-medical",

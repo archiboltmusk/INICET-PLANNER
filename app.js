@@ -310,7 +310,7 @@ function vCluster(id) {
     <button class="btn" data-act="mark-read" data-c="${c.id}">${S.read[c.id] ? 'Revised ' + new Date(S.read[c.id]).toLocaleDateString() : 'Mark revised today'}</button>
   </div>
   <div class="box anchor"><b>Diagnostic anchor (first 30 seconds)</b><ul class="pts">${c.anchor.map(a => `<li>${md(a)}</li>`).join('')}</ul></div>
-  ${c.algorithm ? `<h2>Algorithm</h2><pre class="algo">${esc(c.algorithm)}</pre>` : ''}
+  ${c.algorithm ? `<h2>Algorithm <button class="btn small" data-act="algo-toggle">Text view</button></h2><div class="flowwrap">${flowHtml(c.algorithm)}</div><pre class="algo" hidden>${esc(c.algorithm)}</pre>` : ''}
   ${tables}
   <h2>High-yield points</h2><ul class="pts">${c.points.map(p => `<li>${md(p)}</li>`).join('')}</ul>
   <h2>Trap sheet</h2>${c.traps.map(t => `<div class="box trap"><div><b>Stem:</b> ${md(t.stem)}</div>
@@ -325,6 +325,22 @@ function vCluster(id) {
     <li>CoreBTR ${esc(c.subject)}: the matching chapter's tables (your primary spine)</li>
     <li>Marrow Plan B: ${esc(c.subject)} custom module filtered to this topic, exam mode</li>
     ${c.verify ? `<li class="muted">Guideline basis: ${esc(c.verify)}</li>` : ''}</ul>`;
+}
+
+/* Algorithm text (indent = branch) -> flowchart boxes */
+function flowHtml(txt) {
+  const root = { k: [], d: -1 }, st = [root];
+  txt.split('\n').forEach(raw => {
+    if (!raw.trim()) return;
+    const d = raw.match(/^ */)[0].length;
+    let t = raw.trim();
+    const arrow = /^→/.test(t); t = t.replace(/^→\s*/, '');
+    const n = { t, k: [], d, arrow };
+    while (st.length > 1 && st[st.length - 1].d >= d) st.pop();
+    st[st.length - 1].k.push(n); st.push(n);
+  });
+  const node = (n, lvl) => `<div class="fl"><div class="fn l${Math.min(lvl, 3)}${/\?|\bif\b|\bvs\b/i.test(n.t) ? ' q' : ''}">${md(n.t)}</div>${n.k.length ? `<div class="fk">${n.k.map(c => node(c, lvl + 1)).join('')}</div>` : ''}</div>`;
+  return root.k.map(n => node(n, 0)).join('<div class="far">↓</div>');
 }
 
 /* ---------- Block ---------- */
@@ -684,6 +700,7 @@ document.addEventListener('click', e => {
   }
   else if (act === 'cls') { classify(+el.dataset.i, el.dataset.t); el.parentElement.querySelectorAll('button').forEach(b => b.classList.toggle('on', b === el)); }
   else if (act === 'close-block') { S.active = null; save(); location.hash = '#/today'; }
+  else if (act === 'algo-toggle') { const w = el.closest('h2').nextElementSibling, p = w.nextElementSibling; p.hidden = !p.hidden; w.hidden = !p.hidden; el.textContent = p.hidden ? 'Text view' : 'Flowchart'; }
   else if (act === 'mark-read') { S.read[el.dataset.c] = Date.now(); save(); toast('Marked revised'); vCluster(el.dataset.c); }
   else if (act === 'cards-from') { reviewOnly = el.dataset.c; }
   else if (act === 'review-all') { reviewOnly = null; vReview(); }

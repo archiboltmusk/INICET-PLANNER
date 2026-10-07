@@ -25,3 +25,4 @@ attempts, errors{et:G|R|A|T|P (legacy K→G)}, cards, blocks, read, newLog, acti
 - PYQs tab (pyq.js, lazy data/pyq.js: 3,403 recalled stems with repeat counts + 179 dated INI-CET 2026 MCQs from medicetamol repo, sources/pyq_dated.json). 2026 MCQs also in the bank (t='PYQ 2026'); Block → INI-CET 2026 PYQs mode. No year data exists for older recalled stems; no PYQ images exist in any connected repo.
 
 - 7 Oct: +579 INI-CET 2022 recall MCQs (AglaSem OCR, unofficial keys) → 4,126 MCQs, 4,161 PYQ rows. Cache v5-9.
+- 7 Oct: algorithm→flowchart renderer (flowHtml in app.js); +11 algorithms. Cache v5-10.

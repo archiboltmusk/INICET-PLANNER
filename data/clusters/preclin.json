@@ -398,7 +398,8 @@
    "Foramina_of_the_skull",
    "Pterygopalatine_fossa"
   ],
-  "verify": "Langman's Embryology + BDC Vol 3. Laryngeal cartilages: Langman says 4th + 6th arches jointly; BDC tables thyroid → 4th, cricoid/arytenoid → 6th"
+  "verify": "Langman's Embryology + BDC Vol 3. Laryngeal cartilages: Langman says 4th + 6th arches jointly; BDC tables thyroid → 4th, cricoid/arytenoid → 6th",
+  "algorithm": "Pharyngeal arches — nerve decides the structure\n→ 1st arch (nerve V): muscles of mastication, mylohyoid, anterior belly digastric, tensor tympani, tensor palati; malleus, incus; Meckel cartilage\n→ 2nd arch (VII): muscles of facial expression, stapedius, posterior belly digastric, stylohyoid; stapes, styloid process, lesser horn + upper body hyoid\n→ 3rd arch (IX): stylopharyngeus; greater horn + lower body hyoid\n→ 4th arch (SLN, branch of X): cricothyroid, levator palati, pharyngeal constrictors; thyroid cartilage\n→ 6th arch (RLN, branch of X): intrinsic laryngeal muscles except cricothyroid; cricoid, arytenoid cartilages\nPouches: 1 = tympanic cavity + Eustachian tube | 2 = palatine tonsil | 3 dorsal = inferior parathyroid, 3 ventral = thymus | 4 = superior parathyroid | ultimobranchial body = C cells of thyroid\n→ Failure of 3rd + 4th pouch → DiGeorge (22q11): hypocalcaemia + absent thymus"
  },
  {
   "id": "ana-upper-limb",
@@ -2530,7 +2531,8 @@
    "Southern_blot",
    "DNA_repair"
   ],
-  "verify": "Harper 31e / Lippincott 8e; Robbins 10e for repair-defect syndromes"
+  "verify": "Harper 31e / Lippincott 8e; Robbins 10e for repair-defect syndromes",
+  "algorithm": "Which lab technique? Ask what is being detected\n→ DNA → Southern blot (DNA probe) — gene deletion, rearrangement\n→ RNA → Northern blot — gene expression\n→ Protein → Western blot (antibody) — HIV confirmation, prion\n→ DNA-binding protein → South-western blot\n→ Amplify DNA? → PCR (denature 94–95 °C, anneal 50–65 °C, extend 72 °C with Taq)\n  Starting from RNA → RT-PCR (reverse transcriptase makes cDNA first)\n  Quantify during run → real-time / qPCR (Ct value: lower Ct = more template)\n  Mutation screening in tumour → allele-specific PCR / sequencing (Sanger = chain terminator ddNTP; NGS for many genes)\n→ Cut DNA → restriction endonuclease (palindromic sites); CRISPR-Cas9 → guide RNA + Cas9 nuclease cuts at PAM-adjacent target\n→ Protein/antigen detection with enzyme label → ELISA; cell surface markers → flow cytometry"
  },
  {
   "id": "bio-vitamins-minerals",

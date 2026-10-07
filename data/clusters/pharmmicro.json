@@ -1822,7 +1822,8 @@
    "Clostridioides_difficile_infection",
    "Syphilis"
   ],
-  "verify": "Ananthanarayan 12e; IDSA/SHEA 2021 C. difficile update; NTEP Training Modules 2023-24"
+  "verify": "Ananthanarayan 12e; IDSA/SHEA 2021 C. difficile update; NTEP Training Modules 2023-24",
+  "algorithm": "Gram-positive cocci — identify in this order\n→ Catalase test?\n  Positive → Staphylococcus: coagulase? Positive → S. aureus (mannitol fermenter); Negative → novobiocin: sensitive = S. epidermidis (biofilm, prosthetic valve), resistant = S. saprophyticus (UTI in young women)\n  Negative → Streptococcus: haemolysis on blood agar?\n    Beta (clear zone): bacitracin sensitive = Group A (S. pyogenes, PYR+); bacitracin resistant, CAMP +, hippurate + = Group B (S. agalactiae, neonatal sepsis)\n    Alpha (green): optochin sensitive, bile soluble = S. pneumoniae; optochin resistant = viridans group (endocarditis)\n    Gamma / none: bile esculin positive, grows in 6.5% NaCl = Enterococcus; bile esculin positive, no NaCl growth = Group D non-enterococcus (S. bovis → colon cancer)"
  },
  {
   "id": "mic-virology",
@@ -2441,6 +2442,7 @@
    "Complement_system",
    "Antibody"
   ],
-  "verify": "Ananthanarayan 12e; Park PSM 27e; BMW Management Rules 2016 (amended 2018); UIP Immunization Handbook for Medical Officers"
+  "verify": "Ananthanarayan 12e; Park PSM 27e; BMW Management Rules 2016 (amended 2018); UIP Immunization Handbook for Medical Officers",
+  "algorithm": "Which sterilisation method? Ask: heat stable?\n→ Heat-stable\n  Moist heat → Autoclave 121 °C, 15 psi, 15 min (sterilises media, linen, surgical instruments; 134 °C 3 min for prions); control: Geobacillus stearothermophilus spores\n  Dry heat → Hot-air oven 160 °C for 2 h (glassware, powders, oils); control: Bacillus atrophaeus (subtilis var niger) spores\n  Pasteurisation: 72 °C 15 s (HTST) or 63 °C 30 min (holder)\n→ Heat-labile\n  Ethylene oxide (gas, 30–60 °C) → catheters, endoscopes, plastics; control B. atrophaeus\n  Low-temperature hydrogen-peroxide plasma → delicate instruments\n  Gamma radiation → disposable plastics, syringes; control Bacillus pumilus\n  Filtration (0.22 µm) → heat-labile liquids, serum, antibiotics\n→ Chemical high-level disinfection: glutaraldehyde 2% for endoscopes (≥20 min; sterilisation 10 h)"
  }
 ]

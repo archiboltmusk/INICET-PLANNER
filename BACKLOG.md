@@ -36,3 +36,8 @@ Rebuild + drills merged to main; live at https://archiboltmusk.github.io/INICET-
 - FOUND + imported: INI-CET 2022 May+Nov, 37 AglaSem subject PDFs (docs.aglasem.com, "based on memory recall", image-only → rapidocr OCR). 579 MCQs kept; 116 dropped (no parseable options), 78 image-dependent, 30 OCR-garbage/dupes. Keys are UNOFFICIAL recall keys; OCR may leave typos. Tag `x` = "INI-CET May/Nov 2022 (memory recall)".
 - NOT imported: Careers360 2025 page (few stems, no options), PW/Prepp/Doctutorials 2023-2025 (paywalled/analysis only/links not public). AglaSem blog lists 2021 memory-recall paper — not yet fetched. 2023, 2024, 2025 full papers: none found open.
 - OCR route: `pip install rapidocr-onnxruntime`; AglaSem PDFs at cdn.aglasem.com/aglasem-doc/<id>/<id>.pdf.
+
+## Notes + flowcharts (7 Oct)
+- Cluster `algorithm` text (indent = branch, "→" = step) now renders as a flowchart (toggle Text view). ~100 clusters have it.
+- Added algorithms: CTG+partogram, NMS/serotonin/MH, study design+tests, hypersensitivity, BMW colours, Gram-positive ID, pharyngeal arches, brainstem crossed syndromes, blotting/PCR, sterilisation, anaemia approach.
+- TODO flowcharts for listed topics still lacking: Duke criteria, JVP waves, countercurrent, GSD, neural tube/cardiac septal embryology, antiarrhythmic classes, ECG infarct localisation, audiogram patterns, fundus (DR/papilloedema), vaccine schedule, NMS done. Add a "Trap check" box (next vs definitive step, mechanism, discriminator).

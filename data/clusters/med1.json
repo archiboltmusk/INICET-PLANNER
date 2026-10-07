@@ -523,7 +523,8 @@
    "Weber's_syndrome",
    "Lacunar_stroke"
   ],
-  "verify": "Harrison 21e (cerebrovascular diseases) / Adams & Victor."
+  "verify": "Harrison 21e (cerebrovascular diseases) / Adams & Victor.",
+  "algorithm": "Brainstem localisation: ipsilateral cranial nerve + contralateral long-tract signs = crossed syndrome\n→ Which cranial nerve is involved?\n  III (ptosis, down-and-out eye) → Midbrain: Weber (+ contralateral hemiplegia, cerebral peduncle); Benedikt (+ red nucleus tremor/ataxia); Claude (+ ataxia)\n  VI / VII (lateral gaze palsy, facial palsy) → Pons: Millard-Gubler (VII + contralateral hemiplegia); Foville (+ gaze palsy toward lesion); locked-in (basilar, ventral pons: quadriplegia, vertical eye movement + blink preserved)\n  IX, X (hoarseness, dysphagia), V nucleus, Horner → Lateral medulla = Wallenberg (PICA/vertebral): ipsilateral face pain-temp loss, contralateral body pain-temp loss, Horner, ataxia, vertigo\n  XII (tongue deviates toward lesion) → Medial medulla = Dejerine (anterior spinal artery): contralateral hemiparesis, contralateral loss of vibration / proprioception\n→ Rule of 4: 4 medial (motor, MLF, medial lemniscus, motor nuclei III IV VI XII), 4 lateral (spinothalamic, sensory V, nucleus ambiguus IX X, vestibular)"
  },
  {
   "id": "med-movement-disorders",
@@ -2765,6 +2766,7 @@
    "Vitamin_B12_deficiency",
    "Hemolytic_anemia"
   ],
-  "verify": "Harrison 21e / Robbins 10e; WHO ferritin thresholds (<15 µg/L adults; higher cut-off with inflammation)."
+  "verify": "Harrison 21e / Robbins 10e; WHO ferritin thresholds (<15 µg/L adults; higher cut-off with inflammation).",
+  "algorithm": "Anaemia: start with MCV, then reticulocyte count\n→ Microcytic (MCV <80): ferritin / iron studies\n  Ferritin low, TIBC high → iron deficiency (look for GI blood loss)\n  Ferritin normal/high, TIBC low → anaemia of chronic disease; normal/high iron + siderocytes → sideroblastic\n  Normal iron, target cells, Mentzer index (MCV/RBC) <13 → thalassaemia trait → HbA2 on electrophoresis\n→ Normocytic: retic count\n  Low → marrow failure / CKD / chronic disease / aplastic (pancytopenia)\n  High → haemolysis (↑LDH, ↑indirect bilirubin, ↓haptoglobin) or recent bleed → Coombs test\n→ Macrocytic (MCV >100): peripheral smear\n  Hypersegmented neutrophils → B12 / folate deficiency (B12: neurological signs, ↑MMA; folate: normal MMA)\n  Round macrocytes → alcohol, liver disease, hypothyroidism, drugs (hydroxyurea), MDS"
  }
 ]

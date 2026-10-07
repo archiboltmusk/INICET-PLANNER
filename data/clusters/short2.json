@@ -1287,7 +1287,8 @@
    "Bipolar_disorder",
    "Electroconvulsive_therapy"
   ],
-  "verify": "DSM-5-TR (2022) criteria; ICD-11 uses ≥1 month for schizophrenia. Kaplan & Sadock 12e."
+  "verify": "DSM-5-TR (2022) criteria; ICD-11 uses ≥1 month for schizophrenia. Kaplan & Sadock 12e.",
+  "algorithm": "Hyperthermia + altered sensorium + rigidity/tone — which syndrome? Look at ONSET, REFLEXES, PUPILS, BOWEL\n→ Drug exposure timeline?\n  Antipsychotic (dopamine blocker) days–weeks, slow onset (1–3 days) , lead-pipe rigidity, bradyreflexia, ↑CPK → Neuroleptic malignant syndrome → stop drug, cooling, bromocriptine / dantrolene\n  Serotonergic drug (SSRI + MAOI, tramadol, linezolid, ondansetron) rapid onset (<24 h), hyperreflexia + clonus (esp. lower limbs), mydriasis, diarrhoea → Serotonin syndrome → stop drug, benzodiazepines, cyproheptadine\n  Volatile anaesthetic / succinylcholine, rising EtCO₂, masseter spasm → Malignant hyperthermia → dantrolene\n  Anticholinergic: hot, dry skin, mydriasis, urinary retention, absent bowel sounds → physostigmine\n→ Discriminator in one line: NMS = rigid + slow + no clonus; Serotonin = clonus + fast + diarrhoea"
  },
  {
   "id": "psy-substance-neurotic",

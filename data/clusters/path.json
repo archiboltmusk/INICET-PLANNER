@@ -1531,7 +1531,8 @@
    "Primary_immunodeficiency",
    "Human_leukocyte_antigen"
   ],
-  "verify": "Robbins 10e ch 6; IUIS 2022 classification of inborn errors of immunity"
+  "verify": "Robbins 10e ch 6; IUIS 2022 classification of inborn errors of immunity",
+  "algorithm": "Hypersensitivity: which type? Ask — antibody or T cell, how fast?\n→ Minutes, IgE on mast cells → Type I (anaphylaxis, atopy, urticaria) → adrenaline IM 0.5 mg\n→ Antibody against cell or tissue antigen (IgG / IgM)\n  Cell-surface (transfusion reaction, haemolytic anaemia, ITP, Rh) → Type II\n  Receptor stimulating / blocking (Graves, myasthenia gravis) → Type II\n→ Immune-complex deposit (IgG + antigen) 1–2 weeks → Type III (serum sickness, SLE, PSGN, Arthus)\n→ T cell mediated, 48–72 h → Type IV (tuberculin test, contact dermatitis, granuloma, graft rejection)\n  Memory aid: ACID — Anaphylactic, Cytotoxic, Immune complex, Delayed"
  },
  {
   "id": "path-neoplasia-markers",
