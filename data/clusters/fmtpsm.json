@@ -1,0 +1,2158 @@
+[
+ {
+  "id": "fmt-bns-law",
+  "title": "IPC → BNS 2023, CrPC → BNSS, BSA; medical law (negligence, consent, MTP, PCPNDT, THOA, MHCA)",
+  "subject": "Forensic Medicine",
+  "system": "Medical jurisprudence",
+  "yield": 3,
+  "kind": "volatile",
+  "anchor": [
+   "BNS, BNSS and BSA 2023 replaced IPC, CrPC and Indian Evidence Act from 1 July 2024: questions now quote the NEW section numbers.",
+   "Murder 302 → BNS 103 | culpable homicide 299/304 → 100/105 | death by negligence 304A → 106 | dowry death 304B → 80 | rape 375/376 → 63/64",
+   "Hurt 319/323 → 114/115 | grievous hurt 320/325 → 116/117 | acid attack 326A/B → 124 | consent 87–92 → 25–30",
+   "Inquest CrPC 174 → BNSS 194 | rape victim exam 164A → BNSS 184 | dying declaration IEA 32(1) → BSA 26"
+  ],
+  "tables": [
+   {
+    "title": "IPC → BNS 2023 (medically relevant)",
+    "head": [
+     "Offence / provision",
+     "IPC",
+     "BNS 2023"
+    ],
+    "rows": [
+     [
+      "Child below 7 yr: nothing is an offence",
+      "82",
+      "20"
+     ],
+     [
+      "Child 7–12 yr of immature understanding",
+      "83",
+      "21"
+     ],
+     [
+      "Act of person of unsound mind (McNaughten rule)",
+      "84",
+      "22"
+     ],
+     [
+      "Involuntary intoxication",
+      "85",
+      "23"
+     ],
+     [
+      "Consent: act not intended/known to cause death or GH (≥18 yr)",
+      "87",
+      "25"
+     ],
+     [
+      "Consent in good faith for person's benefit (e.g., surgery)",
+      "88",
+      "26"
+     ],
+     [
+      "Guardian's consent for child <12 yr / unsound mind",
+      "89",
+      "27"
+     ],
+     [
+      "Consent under fear / misconception / by child/insane is not consent",
+      "90",
+      "28"
+     ],
+     [
+      "Act done in good faith without consent (emergency)",
+      "92",
+      "30"
+     ],
+     [
+      "Attempt to commit offences (general)",
+      "511",
+      "62"
+     ],
+     [
+      "Rape: definition / punishment",
+      "375 / 376",
+      "63 / 64"
+     ],
+     [
+      "Rape causing death / persistent vegetative state",
+      "376A",
+      "66"
+     ],
+     [
+      "Gang rape",
+      "376D",
+      "70"
+     ],
+     [
+      "Assault to outrage modesty of woman",
+      "354",
+      "74"
+     ],
+     [
+      "Dowry death",
+      "304B",
+      "80"
+     ],
+     [
+      "Cruelty by husband or relatives",
+      "498A",
+      "85 (punishment), 86 (definition)"
+     ],
+     [
+      "Causing miscarriage / without consent",
+      "312 / 313",
+      "88 / 89"
+     ],
+     [
+      "Culpable homicide (definition)",
+      "299",
+      "100"
+     ],
+     [
+      "Murder (definition)",
+      "300",
+      "101"
+     ],
+     [
+      "Punishment for murder",
+      "302",
+      "103"
+     ],
+     [
+      "Punishment for culpable homicide not amounting to murder",
+      "304",
+      "105"
+     ],
+     [
+      "Death by rash/negligent act (incl. medical negligence)",
+      "304A",
+      "106"
+     ],
+     [
+      "Abetment of suicide",
+      "306",
+      "108"
+     ],
+     [
+      "Attempt to murder",
+      "307",
+      "109"
+     ],
+     [
+      "Hurt (definition) / punishment",
+      "319 / 323",
+      "114 / 115"
+     ],
+     [
+      "Grievous hurt (definition) / punishment",
+      "320 / 325",
+      "116 / 117"
+     ],
+     [
+      "Acid attack / attempt to throw acid",
+      "326A / 326B",
+      "124(1) / 124(2)"
+     ],
+     [
+      "Attempt to suicide",
+      "309",
+      "Not retained as a general offence (BNS 226 only punishes attempted suicide to compel/restrain a public servant)"
+     ],
+     [
+      "Unnatural offences (sodomy)",
+      "377",
+      "Not retained"
+     ]
+    ]
+   },
+   {
+    "title": "CrPC → BNSS 2023 and Evidence Act → BSA 2023",
+    "head": [
+     "Provision",
+     "Old",
+     "New"
+    ],
+    "rows": [
+     [
+      "Police inquest (report to magistrate within 24 h in BNSS)",
+      "CrPC 174",
+      "BNSS 194"
+     ],
+     [
+      "Magistrate inquest (custodial death, dowry death <7 yr of marriage, rape in custody)",
+      "CrPC 176",
+      "BNSS 196"
+     ],
+     [
+      "Medical exam of accused at request of police",
+      "CrPC 53",
+      "BNSS 51"
+     ],
+     [
+      "Medical exam of rape accused",
+      "CrPC 53A",
+      "BNSS 52"
+     ],
+     [
+      "Medical exam of arrested person (on his request)",
+      "CrPC 54",
+      "BNSS 53"
+     ],
+     [
+      "Recording of confession / statement by magistrate",
+      "CrPC 164",
+      "BNSS 183"
+     ],
+     [
+      "Medical exam of rape victim (consent; report to IO within 7 days)",
+      "CrPC 164A",
+      "BNSS 184"
+     ],
+     [
+      "Free treatment of victims of acid attack / rape by all hospitals",
+      "CrPC 357C",
+      "BNSS 397"
+     ],
+     [
+      "Dying declaration (relevance of statement of dead person)",
+      "IEA 32(1)",
+      "BSA 26(a)"
+     ],
+     [
+      "Opinion of experts",
+      "IEA 45",
+      "BSA 39"
+     ],
+     [
+      "Presumption of absence of consent in rape",
+      "IEA 114A",
+      "BSA 120"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**BNS 106(1)**: death by negligence = up to 5 yr; proviso for a **registered medical practitioner** during a medical procedure = up to **2 yr** + fine. 106(2) = hit-and-run.",
+   "**Bolam test (1957, UK)**: a doctor is not negligent if he acted in accordance with a practice accepted as proper by a responsible body of medical opinion.",
+   "**Jacob Mathew v State of Punjab (SC 2005)**: criminal liability needs **gross** negligence/recklessness; private complaint must be backed by credible opinion of another competent doctor before prosecution.",
+   "**V.P. Shantha (SC 1995)**: medical services (paid) fall under the Consumer Protection Act. Res ipsa loquitur = 'the thing speaks for itself' (e.g., swab left in abdomen).",
+   "**MTP (Amendment) Act 2021**: ≤20 wk → opinion of 1 RMP; 20–24 wk → 2 RMPs, only for special categories (rape survivors, minors, change of marital status, disability etc.); >24 wk only for substantial fetal anomalies on Medical Board opinion; contraceptive-failure ground extended to 'any woman or her partner'.",
+   "**PCPNDT Act 1994** (renamed 2003): bans sex selection and disclosure of fetal sex; all USG machines must be registered; Form F maintained for every prenatal USG.",
+   "**THOA 1994 (THOTA amendment 2011)**: brainstem death certified by a board of 4 (incl. RMP in charge, neurologist/neurosurgeon, an RMP nominated by the authority, and the medical administrator); tests done twice, ≥6 h apart; organ trade punishable.",
+   "**Mental Healthcare Act 2017**: S.115 presumes severe stress in attempted suicide (no prosecution); advance directive & nominated representative; ECT only with anaesthesia + muscle relaxant; ECT not for minors except with board permission.",
+   "Consent types: implied (attending OPD), expressed – oral/written; **informed consent** for any procedure with risk; blanket consent is not valid. Age of valid consent for harm (BNS 25) = **18 yr**; guardian consent below 12 yr (BNS 27)."
+  ],
+  "traps": [
+   {
+    "stem": "A surgeon is charged after a patient dies due to an anaesthetic mishap. Under which BNS section is he tried and what is the maximum term for a registered medical practitioner?",
+    "trap": "BNS 105 / IPC 304 (culpable homicide) — tempting because death followed an act, but no intention/knowledge.",
+    "fix": "BNS 106(1) (old IPC 304A): death by rash/negligent act; for an RMP during a medical procedure, up to 2 years + fine. Criminal liability requires gross negligence (Jacob Mathew)."
+   },
+   {
+    "stem": "A 19-year-old survives a suicide attempt. Can she be prosecuted under the new code?",
+    "trap": "Yes, under 'BNS equivalent of IPC 309' — many assume every IPC section was renumbered.",
+    "fix": "No. BNS has no general offence of attempted suicide; MHCA 2017 S.115 already presumed severe stress. Only BNS 226 (attempt to suicide to compel/restrain a public servant) survives."
+   },
+   {
+    "stem": "Section of the new law under which police hold an inquest in an unnatural death?",
+    "trap": "BNSS 174 — reflexively carrying over the CrPC number.",
+    "fix": "BNSS 194 (old CrPC 174). Magistrate inquest = BNSS 196 (old 176). India has no coroner system now."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Murder: IPC 302 → BNS {{c1::103}}; death by negligence IPC 304A → BNS {{c2::106}}; dowry death IPC 304B → BNS {{c3::80}}."
+   },
+   {
+    "type": "cloze",
+    "text": "Rape: IPC 375/376 → BNS {{c1::63/64}}; acid attack IPC 326A → BNS {{c2::124}}."
+   },
+   {
+    "type": "basic",
+    "front": "Police inquest and magistrate inquest — BNSS sections?",
+    "back": "Police inquest BNSS 194 (old CrPC 174); magistrate inquest BNSS 196 (old CrPC 176)."
+   },
+   {
+    "type": "basic",
+    "front": "MTP Amendment 2021: gestational limits and number of RMPs?",
+    "back": "≤20 wk: 1 RMP\n20–24 wk: 2 RMPs (special categories only)\n>24 wk: substantial fetal anomaly, Medical Board"
+   },
+   {
+    "type": "basic",
+    "front": "Jacob Mathew (2005) principle?",
+    "back": "Criminal prosecution of doctor needs gross negligence; complaint must be supported by credible opinion of another competent doctor."
+   },
+   {
+    "type": "cloze",
+    "text": "IPC consent sections 87–92 map to BNS {{c1::25–30}}; valid consent to risk of harm requires age ≥ {{c2::18}} years."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "bns",
+   "bharatiya nyaya sanhita",
+   "bnss",
+   "bharatiya sakshya adhiniyam",
+   "ipc 302",
+   "304a",
+   "dowry death",
+   "inquest",
+   "dying declaration",
+   "medical negligence",
+   "bolam",
+   "jacob mathew",
+   "res ipsa loquitur",
+   "informed consent",
+   "mtp act",
+   "pcpndt",
+   "transplantation of human organs act",
+   "brainstem death",
+   "mental healthcare act",
+   "attempt to suicide"
+  ],
+  "wiki": [
+   "Bharatiya_Nyaya_Sanhita",
+   "Bharatiya_Nagarik_Suraksha_Sanhita",
+   "Bolam_v_Friern_Hospital_Management_Committee"
+  ],
+  "verify": "BNS/BNSS/BSA 2023 (in force 1 July 2024); MTP Amendment 2021; MHCA 2017. Older answer keys may still quote IPC/CrPC numbers — learn both."
+ },
+ {
+  "id": "fmt-injuries-ballistics",
+  "title": "Mechanical injuries & firearm wounds (ballistics)",
+  "subject": "Forensic Medicine",
+  "system": "Traumatology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Lacerated wound = irregular bruised margins + tissue bridges; incised = clean margins, length > depth; stab = depth > length.",
+   "Entry wound: small, inverted, abrasion collar + grease collar; skull entry bevels the INNER table, exit bevels the OUTER table.",
+   "Contact = muzzle imprint, gas splitting (stellate over bone), soot in track, cherry-red CO; tattooing (stippling) = unburnt powder at intermediate range, cannot be wiped off.",
+   "Contre-coup: moving head strikes a fixed object → contusion opposite the impact (frontal/temporal poles on occipital fall)."
+  ],
+  "tables": [
+   {
+    "title": "Firearm wound by range (rifled handgun, approximate)",
+    "head": [
+     "Range",
+     "Features"
+    ],
+    "rows": [
+     [
+      "Contact (hard)",
+      "Muzzle imprint abrasion; soot and gases driven into the track; stellate/cruciate split over bone (scalp); cherry-red tissue from CO; no tattooing on skin"
+     ],
+     [
+      "Close (within ~ 15 cm)",
+      "Burning/singeing of skin & hair, blackening (soot, wipeable), tattooing; flame zone ~ few cm"
+     ],
+     [
+      "Near / intermediate (up to ~ 60–90 cm)",
+      "Tattooing/stippling only (powder grains embedded, NOT wipeable); blackening absent beyond ~ 30 cm"
+     ],
+     [
+      "Distant",
+      "Only the bullet hole with abrasion + grease collar; cannot estimate exact range"
+     ]
+    ]
+   },
+   {
+    "title": "Wound discriminators",
+    "head": [
+     "Feature",
+     "Lacerated",
+     "Incised",
+     "Stab"
+    ],
+    "rows": [
+     [
+      "Weapon",
+      "Blunt",
+      "Sharp-edged",
+      "Pointed"
+     ],
+     [
+      "Margins",
+      "Irregular, bruised, abraded",
+      "Clean, everted",
+      "Clean; one or both ends acute"
+     ],
+     [
+      "Tissue bridges",
+      "Present",
+      "Absent",
+      "Absent"
+     ],
+     [
+      "Dimension",
+      "Variable",
+      "Length > depth",
+      "Depth > length"
+     ],
+     [
+      "Bleeding",
+      "Less (vessels crushed)",
+      "Profuse",
+      "Mostly internal"
+     ],
+     [
+      "Pitfall",
+      "Over bone (scalp, shin) it looks incised: split laceration",
+      "Hesitation cuts in suicide",
+      "Defence wounds on palms/forearms = homicide"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Contusion colour**: red (fresh) → blue (hours–3 d) → bluish-black/brown (haemosiderin, ~4 d) → **green (biliverdin, 5–6 d)** → **yellow (bilirubin, 7–12 d)** → normal by ~2 wk. Deep bruises appear late and away from the site (ectopic bruise, e.g., spectacle haematoma).",
+   "**Abrasion**: no scab/bright red when fresh; reddish scab 12–24 h; brown scab 2–3 d; scab falls ~ 7–10 d. Patterned abrasion identifies the object (tyre, ligature, nail).",
+   "**Rifled firearm**: lands and grooves → spin → accuracy; single bullet; rifling marks used to match bullet to weapon. **Smoothbore (shotgun)**: no rifling, fires pellets.",
+   "**Choke** = constriction of the shotgun barrel at the muzzle → keeps pellets together longer. **Rule of thumb**: spread of shot (inches) ≈ range (yards); single hole at very close range, 'rat-hole' with scalloped margin as pellets begin to spread, then satellite pellet holes.",
+   "**Dum-dum** (expanding, soft/hollow nose) → large wounds; **tandem bullet** = two bullets, one entry; **keyhole/tumbling** bullet → oval or irregular entry; **Kennedy phenomenon** = surgical alteration of a wound; **souvenir bullet** = retained bullet encapsulated.",
+   "**Shored exit**: exit wound with an abrasion collar because skin was supported (belt, wall).",
+   "**Blast**: primary (pressure wave) hits air-containing organs: **TM rupture is commonest**, **blast lung** commonest fatal; secondary = fragments; tertiary = body thrown; quaternary = burns/toxic.",
+   "Skull fractures: **ring fracture** around foramen magnum (fall on feet/buttocks); **hinge (motorcyclist's) fracture** across middle cranial fossae; **pond** fracture in infants; **signature** (depressed) fracture reproduces weapon shape; **gutter** fracture (tangential bullet).",
+   "Extradural haematoma: middle meningeal artery, lucid interval; subdural: bridging veins, commonest in elderly/infants (shaken baby)."
+  ],
+  "traps": [
+   {
+    "stem": "A scalp wound from a blunt rod has straight, sharp-looking margins. How do you call it?",
+    "trap": "Incised wound — margins look clean because skin is split against underlying bone.",
+    "fix": "Split laceration: look for tissue bridges, crushed hair bulbs and abraded/bruised margins in the depth."
+   },
+   {
+    "stem": "Blackening around a firearm entry wound washes off with a wet swab, but the speckled pattern remains. Which feature remains and what does it indicate?",
+    "trap": "Blackening — tempting because both are dark marks around the wound.",
+    "fix": "Tattooing/stippling (unburnt powder embedded in the skin) remains; blackening = soot, wipeable. Tattooing indicates close-to-intermediate range, not distant."
+   },
+   {
+    "stem": "Bevelling found on the outer table of a skull defect — entry or exit?",
+    "trap": "Entry — 'the bullet hits the outside first'.",
+    "fix": "Exit. The cone opens in the direction of travel: entry bevels the inner table, exit bevels the outer table."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Contusion turns {{c1::green}} at 5–6 days (biliverdin) and {{c2::yellow}} at 7–12 days (bilirubin)."
+   },
+   {
+    "type": "basic",
+    "front": "Wipeable vs non-wipeable powder marks around a gunshot wound?",
+    "back": "Blackening (soot) is wipeable; tattooing/stippling (embedded unburnt powder) is not."
+   },
+   {
+    "type": "basic",
+    "front": "Skull bevelling at entry vs exit?",
+    "back": "Entry: inner table bevelled. Exit: outer table bevelled."
+   },
+   {
+    "type": "cloze",
+    "text": "Choke is the constriction at the muzzle of a {{c1::shotgun (smoothbore)}} barrel; it {{c2::reduces dispersion}} of pellets."
+   },
+   {
+    "type": "basic",
+    "front": "Most common organ injured by primary blast? Most common fatal?",
+    "back": "Tympanic membrane rupture (commonest); blast lung (commonest fatal)."
+   },
+   {
+    "type": "cloze",
+    "text": "Fall on the buttocks or feet transmits force through the spine to cause a {{c1::ring}} fracture of the skull base around the foramen magnum."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Experimental gunshot entrance wound - dist to target 0 inch.jpg",
+    "caption": "Contact-range entrance (.38 revolver, Glessner Lee test plate): soot and gas effects are confined to the wound and its edge, with no wide tattooing ring"
+   },
+   {
+    "commons": "File:Experimental gunshot entrance wound - dist to target 1 inch.jpg",
+    "caption": "Close range (1 inch): central entry hole surrounded by blackening and powder tattooing — the zone widens and becomes fainter as the range increases"
+   }
+  ],
+  "keywords": [
+   "abrasion",
+   "contusion",
+   "bruise colour",
+   "laceration",
+   "incised wound",
+   "stab wound",
+   "defence wounds",
+   "hesitation cuts",
+   "firearm",
+   "gunshot",
+   "tattooing",
+   "stippling",
+   "blackening",
+   "muzzle imprint",
+   "rifled",
+   "shotgun",
+   "choke",
+   "dum-dum bullet",
+   "contre-coup",
+   "bevelling",
+   "blast injury",
+   "ring fracture"
+  ],
+  "wiki": [
+   "Gunshot_wound",
+   "Bruise",
+   "Coup_contrecoup_injury"
+  ],
+  "verify": "Ranges are approximate and weapon-dependent (Reddy / Narayan Reddy FMT). Do not memorise a single exact cm cut-off."
+ },
+ {
+  "id": "fmt-thanatology",
+  "title": "Thanatology: postmortem changes & time since death",
+  "subject": "Forensic Medicine",
+  "system": "Thanatology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Algor → livor → rigor → decomposition; livor fixes ~6–8 h; rigor follows Nysten's order (heart first, then eyelids/jaw … fingers & toes last).",
+   "Cherry-red lividity = CO; bright red/pink = cyanide and cold; chocolate/brown = methaemoglobin (nitrites, chlorates, aniline).",
+   "Cadaveric spasm = instant, localised, ante-mortem act (weapon gripped) — cannot be simulated; heat stiffening = pugilistic attitude, protein coagulation.",
+   "Vitreous potassium rises steadily after death = best chemical marker of PMI."
+  ],
+  "tables": [
+   {
+    "title": "Postmortem lividity colours",
+    "head": [
+     "Colour",
+     "Cause"
+    ],
+    "rows": [
+     [
+      "Cherry red",
+      "Carbon monoxide (COHb)"
+     ],
+     [
+      "Bright red / pink (brick red)",
+      "Cyanide; hypothermia; refrigerated bodies"
+     ],
+     [
+      "Chocolate / copper brown",
+      "Methaemoglobinaemia: nitrites, chlorates, aniline, nitrobenzene"
+     ],
+     [
+      "Dark brown / yellowish",
+      "Phosphorus"
+     ],
+     [
+      "Bluish-green",
+      "Hydrogen sulphide"
+     ],
+     [
+      "Bronze",
+      "Clostridium perfringens (septic abortion)"
+     ],
+     [
+      "Deep bluish-purple",
+      "Asphyxia, congestive deaths"
+     ]
+    ]
+   },
+   {
+    "title": "Hypostasis vs bruise; spasm vs rigor",
+    "head": [
+     "Feature",
+     "Postmortem lividity",
+     "Bruise (contusion)"
+    ],
+    "rows": [
+     [
+      "Site",
+      "Dependent parts, spares pressure areas (contact pallor)",
+      "Any site, at point of impact"
+     ],
+     [
+      "Margins",
+      "Sharp, not elevated",
+      "Blurred, may be swollen"
+     ],
+     [
+      "On incision",
+      "Blood within vessels, washes away",
+      "Blood extravasated into tissues, does not wash away"
+     ],
+     [
+      "Colour changes",
+      "None",
+      "Ages red → blue → green → yellow"
+     ]
+    ]
+   }
+  ],
+  "algorithm": "Body found → estimate time since death\n  Temperature: PMI (h) ≈ (normal − rectal temp in °F) ÷ 1.5 (exam-classic; sigmoid curve, initial plateau)\n  Lividity: appears ~1 h, well developed ~4 h, FIXED ~6–8 h (does not shift on turning)\n  Rigor: appears 1–2 h, full ~12 h, persists ~12 h, passes off ~12 h (temperate; faster in Indian summer)\n  Eyes: tache noire (scleral blackening) in a few hours if eyes open; Kevorkian sign (segmented retinal blood) within minutes\n  Decomposition: green discolouration right iliac fossa (caecum) ~12–18 h in summer → marbling → bloating/frothy fluid\n  Chemistry: vitreous K⁺ rises linearly (best) ; CSF/blood values unreliable\n  Late: insects (entomology), adipocere (moist) or mummification (dry)",
+  "points": [
+   "**Algor mortis**: postmortem caloricity (temperature rises after death) in heat stroke, tetanus, strychnine, septicaemia, cholera, pontine haemorrhage.",
+   "**Rigor mortis** = ATP depletion → actin–myosin cross-bridges fixed. **Nysten's law**: myocardium first; then eyelids, face/jaw, neck, upper limbs, trunk, lower limbs; fingers/toes last; passes off in the same order.",
+   "**Cadaveric spasm** (instantaneous rigor): no primary flaccidity, single group of muscles, ante-mortem act; e.g., weapon grasped in suicide, weeds/grass clutched in drowning — proof of the act at the moment of death.",
+   "**Heat stiffening** > 65 °C → protein coagulation → **pugilistic attitude** (not proof of fighting). **Cold stiffening** = freezing of body fluids/fat.",
+   "Earliest external sign of putrefaction = **greenish discolouration of the right iliac fossa** (caecum, H₂S + sulphmethaemoglobin). Among the earliest internal organs: larynx/trachea mucosa; **non-gravid uterus and prostate** are among the last.",
+   "**Adipocere (saponification)**: hydrolysis + hydrogenation of body fat into fatty acids; needs warm moist conditions; aided by Clostridium perfringens lecithinase; preserves features → identification.",
+   "**Mummification**: desiccation in hot dry air with free air movement; skin leathery, brown; features preserved.",
+   "**Maceration**: sterile autolysis of a fetus dead in utero (≥ 24 h); skin slippage, rancid smell — sign of intrauterine death (not putrefaction).",
+   "**Autopsy techniques**: Virchow — organs removed one by one; Rokitansky — in-situ dissection; Letulle — en masse; Ghon — en bloc (organ systems). I-shaped incision is commonest; Y/modified-Y preferred for detailed neck dissection.",
+   "**Exhumation** ordered by an executive (District/Sub-divisional) magistrate; India has no time limit."
+  ],
+  "traps": [
+   {
+    "stem": "Hypostasis on the back of a corpse does not shift on turning the body prone. Interpretation?",
+    "trap": "Death < 2 h ago — confusing 'appearance' with 'fixation'.",
+    "fix": "Lividity is fixed (≈6–8 h after death). If lividity is seen over both back and front, the body was moved after partial fixation."
+   },
+   {
+    "stem": "A dead man's hand tightly grips a revolver. Rigor mortis elsewhere is absent. What does this show?",
+    "trap": "Rigor mortis — early rigor of the hand.",
+    "fix": "Cadaveric spasm: instantaneous, localised, cannot be produced after death → indicates the weapon was held at death (suggests suicide)."
+   },
+   {
+    "stem": "Burnt body with flexed limbs in a boxer's posture — sign of an ante-mortem fight?",
+    "trap": "Yes, defensive posture.",
+    "fix": "No. Heat stiffening (pugilistic attitude) from coagulation of muscle proteins occurs whether burnt alive or after death."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Postmortem lividity becomes fixed about {{c1::6–8}} hours after death; CO poisoning gives a {{c2::cherry red}} colour."
+   },
+   {
+    "type": "basic",
+    "front": "Nysten's sequence of rigor mortis?",
+    "back": "Myocardium first; then eyelids → face/jaw → neck → upper limbs → trunk → lower limbs → fingers & toes last; passes off in the same order."
+   },
+   {
+    "type": "basic",
+    "front": "Cadaveric spasm vs rigor mortis — 3 differences?",
+    "back": "Spasm: instantaneous (no primary flaccidity), localised, ante-mortem act, cannot be simulated. Rigor: after 1–2 h of flaccidity, generalised, follows Nysten's order."
+   },
+   {
+    "type": "cloze",
+    "text": "Earliest external sign of putrefaction is greenish discolouration of the {{c1::right iliac fossa}}; best chemical marker of time since death is {{c2::vitreous potassium}}."
+   },
+   {
+    "type": "basic",
+    "front": "Adipocere vs mummification — conditions?",
+    "back": "Adipocere: warm, moist (hydrolysis + hydrogenation of fat). Mummification: hot, dry, ventilated (desiccation)."
+   },
+   {
+    "type": "basic",
+    "front": "Autopsy technique where organs are removed one by one?",
+    "back": "Virchow. (Rokitansky in situ; Letulle en masse; Ghon en bloc.)"
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Пятна трупные.jpg",
+    "caption": "Postmortem lividity: purplish discolouration in dependent parts with pale contact areas where the body pressed on the surface"
+   }
+  ],
+  "keywords": [
+   "algor mortis",
+   "livor mortis",
+   "postmortem lividity",
+   "hypostasis",
+   "rigor mortis",
+   "nysten",
+   "cadaveric spasm",
+   "heat stiffening",
+   "pugilistic attitude",
+   "postmortem caloricity",
+   "putrefaction",
+   "adipocere",
+   "mummification",
+   "maceration",
+   "vitreous potassium",
+   "tache noire",
+   "time since death",
+   "exhumation",
+   "virchow",
+   "rokitansky"
+  ],
+  "wiki": [
+   "Livor_mortis",
+   "Rigor_mortis",
+   "Adipocere"
+  ],
+  "verify": "Timings are Indian textbook averages (Reddy); they vary with climate. Exam-classic temperature formula uses °F."
+ },
+ {
+  "id": "fmt-asphyxia-sexual-identification",
+  "title": "Asphyxial deaths, identification, sexual offences & infanticide",
+  "subject": "Forensic Medicine",
+  "system": "Asphyxia & identification",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Hanging = oblique, incomplete ligature mark ABOVE thyroid, pale hard parchment base; salivary dribble = ante-mortem hanging.",
+   "Strangulation = horizontal, complete, at/below thyroid, soft and bruised; thyroid/cricoid fractures; usually homicidal.",
+   "Drowning: fine persistent froth, weeds clutched (cadaveric spasm), Paltauf haemorrhages; diatoms in femoral bone marrow = most reliable.",
+   "Gustafson (teeth) for adult age; pelvis best for sex; hydrostatic test = respiration after birth."
+  ],
+  "tables": [
+   {
+    "title": "Hanging vs ligature strangulation",
+    "head": [
+     "Feature",
+     "Hanging",
+     "Ligature strangulation"
+    ],
+    "rows": [
+     [
+      "Manner",
+      "Usually suicidal",
+      "Usually homicidal"
+     ],
+     [
+      "Ligature mark",
+      "Oblique, non-continuous (gap at knot)",
+      "Horizontal, continuous, encircles neck"
+     ],
+     [
+      "Level",
+      "Above thyroid cartilage",
+      "At or below thyroid cartilage"
+     ],
+     [
+      "Base of mark",
+      "Pale, hard, yellowish, parchment-like",
+      "Soft, reddish, bruised"
+     ],
+     [
+      "Face",
+      "Pale (complete hanging)",
+      "Congested, petechiae, cyanosis"
+     ],
+     [
+      "Salivary dribble",
+      "Present (ante-mortem sign)",
+      "Absent"
+     ],
+     [
+      "Neck structures",
+      "Hyoid/thyroid fracture uncommon; carotid intimal tears",
+      "Thyroid cartilage/cricoid fracture common; deep bruising"
+     ],
+     [
+      "Special",
+      "Judicial: fracture-dislocation C2–C3 (hangman's fracture)",
+      "Throttling: crescentic nail marks, hyoid fracture"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Le facies sympathique**: eye on the side of the knot open with dilated pupil (cervical sympathetic pressure) → ante-mortem hanging. Typical hanging = knot at the occiput.",
+   "**Burking** = smothering + traumatic asphyxia (kneeling on chest); **mugging** = arm-lock strangulation; **bansdola** = bamboo across neck; **garrotting** = ligature from behind; **café coronary** = food bolus in larynx.",
+   "**Traumatic asphyxia**: chest compression (crowd crush) → craniofacial congestion, petechiae, subconjunctival haemorrhage (masque ecchymotique).",
+   "**Drowning**: fresh water → haemodilution, haemolysis, hyperkalaemia, VF within minutes; sea water → haemoconcentration and pulmonary oedema (slower). **Emphysema aquosum** (water-logged lungs). **Dry drowning** = laryngospasm. **Washerwoman's hands** = immersion only, not proof of drowning. Gettler chloride test is unreliable.",
+   "**Gustafson's criteria** (adult age from teeth): attrition, periodontosis, secondary dentine, cementum apposition, root resorption, **root transparency (most reliable)**. Boyde: incremental enamel lines (neonatal line).",
+   "**Sex**: pelvis most reliable bone (wide sciatic notch, subpubic angle > 90°, preauricular sulcus, ischiopubic index > 90 in female), then skull. **Stature**: Karl Pearson / Trotter–Gleser formulae; femur best long bone.",
+   "**Dactylography** (Galton, Henry classification): loops commonest, arches least; prints are unique even in identical twins. **Poroscopy** (Locard) = sweat pores; **cheiloscopy** = lip prints; **rugoscopy** = palatal rugae.",
+   "**DNA fingerprinting** (Alec Jeffreys): VNTR/STR; mitochondrial DNA (maternal) for degraded remains/hair shaft; Y-STR for male lineage. Best sample from skeletonised remains: teeth (pulp)/bone.",
+   "**Sexual offences**: rape = BNS 63/64; POCSO 2012 for < 18 yr (mandatory reporting); **two-finger test banned** (SC Lillu 2013, reaffirmed 2022); exam needs victim's consent (BNSS 184), report to IO within 7 days; free treatment mandatory (BNSS 397).",
+   "**Infanticide**: **hydrostatic test** (lungs float = respiration; false + in putrefaction/artificial respiration); **Breslau's second life test** = air in stomach/intestine; **Ploucquet's** = lung weight ratio (≈1/70 before, ≈1/35 after respiration). **Spalding sign** = overlapping skull bones in IUD. **Haase's rule**: fetal length (cm) = months² up to 5 months, then months × 5."
+  ],
+  "traps": [
+   {
+    "stem": "Neck shows a horizontal, continuous ligature mark below the thyroid cartilage in a body found suspended. Diagnosis?",
+    "trap": "Hanging — because the body was found hanging.",
+    "fix": "Strangulation followed by suspension (homicide staged as suicide). Mark level, direction and continuity decide, not the scene."
+   },
+   {
+    "stem": "Most reliable test to confirm ante-mortem drowning in a decomposed body?",
+    "trap": "Gettler's chloride test or froth at mouth — classic but unreliable/lost with decomposition.",
+    "fix": "Diatom test on bone marrow of long bones (femur): diatoms reach marrow only with a functioning circulation."
+   },
+   {
+    "stem": "Floating lungs in a newborn found in a drain — proof of live birth?",
+    "trap": "Yes — hydrostatic test positive.",
+    "fix": "Not if putrefied (gas floats lungs) or after artificial respiration. Test is invalid in decomposition; corroborate with stomach-bowel test and histology."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Most reliable sign of ante-mortem hanging is {{c1::salivary dribbling}}; ligature mark in hanging is {{c2::oblique and non-continuous}}."
+   },
+   {
+    "type": "basic",
+    "front": "Most reliable Gustafson criterion for age?",
+    "back": "Root transparency (dentine sclerosis)."
+   },
+   {
+    "type": "basic",
+    "front": "Paltauf haemorrhages — what and where?",
+    "back": "Large, pale bluish-red subpleural haemorrhages (haemolysed) under the visceral pleura in drowning."
+   },
+   {
+    "type": "cloze",
+    "text": "Breslau's second life test looks for {{c1::air in stomach and intestines}}; the {{c2::hydrostatic}} test looks for lungs floating."
+   },
+   {
+    "type": "basic",
+    "front": "Commonest fingerprint pattern? Least common?",
+    "back": "Loops commonest; arches least common."
+   },
+   {
+    "type": "cloze",
+    "text": "Haase's rule: fetal length in cm = {{c1::months squared}} for the first 5 months and {{c2::months × 5}} thereafter."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "hanging",
+   "strangulation",
+   "throttling",
+   "ligature mark",
+   "salivary dribbling",
+   "smothering",
+   "burking",
+   "traumatic asphyxia",
+   "drowning",
+   "diatom test",
+   "paltauf",
+   "gustafson",
+   "age estimation",
+   "ossification",
+   "dactylography",
+   "fingerprint",
+   "dna fingerprinting",
+   "rape examination",
+   "pocso",
+   "two finger test",
+   "infanticide",
+   "hydrostatic test",
+   "spalding sign",
+   "haase rule"
+  ],
+  "wiki": [
+   "Hanging",
+   "Drowning",
+   "Fingerprint"
+  ],
+  "verify": "Sexual-offence provisions per BNS/BNSS 2023 and POCSO 2012; SC ban on two-finger test (2013, 2022)."
+ },
+ {
+  "id": "fmt-toxicology",
+  "title": "Toxicology quick table: metals, gases, plant & animal poisons",
+  "subject": "Forensic Medicine",
+  "system": "Toxicology",
+  "yield": 2,
+  "kind": "volatile",
+  "anchor": [
+   "Lead: Burton line + basophilic stippling + wrist drop + colic. Arsenic: Mees lines, raindrop pigmentation, rice-water stools, body preserved.",
+   "Cyanide: bitter almonds, bright red lividity, fastest killer (cytochrome oxidase). CO: cherry red, COHb, globus pallidus necrosis.",
+   "Datura: dry as a bone, red as a beet, blind as a bat, mad as a hatter, hot as a hare → physostigmine.",
+   "Locard's exchange principle: every contact leaves a trace."
+  ],
+  "tables": [
+   {
+    "title": "Poisons: key features and antidotes",
+    "head": [
+     "Poison",
+     "Discriminating features",
+     "Treatment / antidote"
+    ],
+    "rows": [
+     [
+      "Arsenic",
+      "Acute: rice-water stools (mimics cholera), red velvety gastric mucosa; chronic: Mees lines, raindrop pigmentation, hyperkeratosis, neuropathy; detected in hair/nails; resists putrefaction",
+      "BAL (dimercaprol), DMSA"
+     ],
+     [
+      "Lead (plumbism)",
+      "Burton blue gum line, basophilic stippling, ↑urinary ALA & coproporphyrin (ALA dehydratase + ferrochelatase blocked), wrist/foot drop, colic, encephalopathy in children",
+      "CaNa₂EDTA; succimer (DMSA) oral; BAL + EDTA in encephalopathy"
+     ],
+     [
+      "Mercury",
+      "Inorganic: erethism, hatter's/Danbury tremors, acrodynia (pink disease) in children; methyl mercury: Minamata disease",
+      "BAL (inorganic), DMSA; avoid BAL in methylmercury"
+     ],
+     [
+      "Cyanide",
+      "Bitter almond smell, bright red lividity, rapid death; blocks cytochrome oxidase (complex IV)",
+      "Hydroxocobalamin; nitrites (amyl/sodium) + sodium thiosulphate"
+     ],
+     [
+      "Carbon monoxide",
+      "Cherry-red skin/lividity; Hb affinity ~ 200–250× O₂; bilateral globus pallidus necrosis; delayed neuropsychiatric sequelae",
+      "100% O₂; hyperbaric O₂ in severe/pregnancy"
+     ],
+     [
+      "Datura (Datura fastuosa)",
+      "Anticholinergic: dry, flushed, mydriasis, hyperthermia, delirium (picking at bedclothes); kidney-shaped flat yellow-brown seeds; road poisoning by thugs",
+      "Gastric lavage, physostigmine"
+     ],
+     [
+      "Cannabis (bhang, ganja, charas)",
+      "Euphoria, hallucinations, increased appetite; 'run amok'; Duquenois–Levine test",
+      "Supportive"
+     ],
+     [
+      "Organophosphates",
+      "Muscarinic (SLUDGE, miosis, bronchorrhoea), nicotinic (fasciculation), kerosene smell; ↓ RBC cholinesterase; intermediate syndrome",
+      "Atropine to drying of secretions + pralidoxime (early)"
+     ],
+     [
+      "Abrus precatorius (ratti)",
+      "Bright red seeds with black spot; abrin (toxalbumin) – crushed seeds made into needles (sui) for cattle poisoning",
+      "Supportive"
+     ],
+     [
+      "Yellow oleander (Thevetia/Cascabela)",
+      "Cardiac glycosides (thevetin): vomiting, bradycardia, heart block, hyperkalaemia – digoxin-like",
+      "Atropine, anti-digoxin Fab"
+     ],
+     [
+      "Aconite (monkshood, 'mitha zahar')",
+      "Aconitine (Na⁺ channel opener): tingling & numbness of mouth then body, VT/VF; root mistaken for horseradish",
+      "Supportive, antiarrhythmics"
+     ],
+     [
+      "Snakes (big four)",
+      "Elapids (cobra, common krait) – neurotoxic, ptosis, descending paralysis; krait bite painless, nocturnal, abdominal pain. Vipers (Russell's, saw-scaled) – haemotoxic, coagulopathy (20WBCT), AKI",
+      "Polyvalent ASV; neostigmine + atropine for cobra (post-synaptic) paralysis"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Basophilic stippling** of RBCs: lead poisoning (classic), also thalassaemia, sideroblastic anaemia.",
+   "**Viscera preservation**: saturated common salt solution; **rectified spirit** for viscera except in poisoning by alcohol, kerosene, phenol, phosphorus, paraldehyde, acetic acid. Blood for alcohol: **sodium fluoride** (+ potassium oxalate).",
+   "Viscera for chemical analysis: stomach + contents, small intestine (30 cm) + contents, liver (~500 g), half of each kidney; blood ~ 10 mL; urine ~ 30 mL. Hair/nails for chronic arsenic and other metals.",
+   "**Locard's exchange principle**: perpetrator leaves and takes away trace evidence (fibres, hair, soil) — basis of trace evidence; Locard also founded poroscopy.",
+   "**Marsh / Reinsch tests** detect arsenic; **Duquenois–Levine** test = cannabis.",
+   "**Universal antidote** (historical): activated charcoal 2 parts + MgO 1 + tannic acid 1 — now obsolete; activated charcoal alone is used.",
+   "**Methyl alcohol**: formic acid → optic neuritis/blindness, wide anion gap acidosis → fomepizole or ethanol, haemodialysis.",
+   "**Paraquat**: lung fibrosis (do not give O₂ liberally); **aluminium phosphide** (celphos): phosphine gas, garlic odour, refractory shock, silver nitrate paper turns black."
+  ],
+  "traps": [
+   {
+    "stem": "Child with anaemia, abdominal colic, wrist drop and blue line on gums. Smear finding?",
+    "trap": "Ring sideroblasts only — tempting because lead causes sideroblastic picture.",
+    "fix": "Coarse basophilic stippling (inhibition of pyrimidine 5′-nucleotidase); Burton line clinches lead. Treat with CaNa₂EDTA/succimer."
+   },
+   {
+    "stem": "Victim of house fire with bright cherry-red lividity — cause?",
+    "trap": "Cyanide — fires also release HCN and both give red lividity.",
+    "fix": "Cherry-red is classic for CO (COHb); cyanide gives bright red/brick red. Fire victims may have both; measure COHb."
+   },
+   {
+    "stem": "Viscera from a suspected phenol poisoning case — which preservative?",
+    "trap": "Rectified spirit — the 'routine' preservative.",
+    "fix": "Saturated common salt solution; rectified spirit is avoided in alcohol, kerosene, phenol, phosphorus, paraldehyde and acetic acid poisoning."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Burton line + basophilic stippling + wrist drop — poison and chelator?",
+    "back": "Lead. CaNa₂EDTA (± BAL in encephalopathy); oral succimer (DMSA) in children."
+   },
+   {
+    "type": "cloze",
+    "text": "Mees lines and raindrop pigmentation indicate chronic {{c1::arsenic}} poisoning; antidote {{c2::BAL (dimercaprol)}}."
+   },
+   {
+    "type": "basic",
+    "front": "Cyanide: mechanism and first-line antidote?",
+    "back": "Inhibits cytochrome c oxidase (complex IV) → histotoxic hypoxia. Hydroxocobalamin (alternative: nitrites + sodium thiosulphate)."
+   },
+   {
+    "type": "cloze",
+    "text": "Datura poisoning is treated with {{c1::physostigmine}}; its seeds are {{c2::kidney-shaped, flat, yellowish-brown}}."
+   },
+   {
+    "type": "basic",
+    "front": "Locard's exchange principle?",
+    "back": "Every contact leaves a trace: the offender both leaves and carries away material — basis of trace evidence."
+   },
+   {
+    "type": "cloze",
+    "text": "Blood sample for alcohol estimation is preserved with {{c1::sodium fluoride}}."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Basophilic stippling 2.jpg",
+    "caption": "Basophilic stippling: blue granules (aggregated ribosomes) in RBCs — classic in lead poisoning (pyrimidine 5′-nucleotidase inhibition)"
+   }
+  ],
+  "keywords": [
+   "arsenic",
+   "lead poisoning",
+   "burton line",
+   "basophilic stippling",
+   "mercury",
+   "acrodynia",
+   "cyanide",
+   "bitter almond",
+   "carbon monoxide",
+   "cherry red",
+   "datura",
+   "cannabis",
+   "organophosphate",
+   "snake bite",
+   "abrus precatorius",
+   "oleander",
+   "aconite",
+   "preservatives viscera",
+   "rectified spirit",
+   "locard",
+   "aluminium phosphide",
+   "paraquat"
+  ],
+  "wiki": [
+   "Lead_poisoning",
+   "Cyanide_poisoning",
+   "Locard's_exchange_principle"
+  ],
+  "verify": "Antidotes per Harrison 21e / KD Tripathi; viscera preservation per Reddy FMT."
+ },
+ {
+  "id": "psm-biostatistics",
+  "title": "Biostatistics: 2×2 table, risk measures, distributions & tests of significance",
+  "subject": "Community Medicine",
+  "system": "Biostatistics",
+  "yield": 3,
+  "kind": "volatile",
+  "anchor": [
+   "Sensitivity = a/(a+c) (SnNout); specificity = d/(b+d) (SpPin); PPV = a/(a+b); NPV = d/(c+d).",
+   "Sens & spec are properties of the test; PPV ↑ and NPV ↓ as prevalence ↑.",
+   "Cohort → RR, AR; case-control → OR; NNT = 1/ARR.",
+   "Normal curve: ±1 SD 68%, ±2 SD 95% (exactly ±1.96), ±3 SD 99.7%; mean = median = mode."
+  ],
+  "tables": [
+   {
+    "title": "2×2 table and derived measures (a = TP, b = FP, c = FN, d = TN)",
+    "head": [
+     "Measure",
+     "Formula",
+     "Note"
+    ],
+    "rows": [
+     [
+      "Sensitivity (true positive rate)",
+      "a / (a + c)",
+      "High sensitivity rules OUT (SnNout); best for screening"
+     ],
+     [
+      "Specificity (true negative rate)",
+      "d / (b + d)",
+      "High specificity rules IN (SpPin); best for confirmation"
+     ],
+     [
+      "Positive predictive value",
+      "a / (a + b)",
+      "Rises with prevalence"
+     ],
+     [
+      "Negative predictive value",
+      "d / (c + d)",
+      "Falls with prevalence"
+     ],
+     [
+      "False positive rate",
+      "b / (b + d) = 1 − specificity",
+      "x-axis of ROC curve"
+     ],
+     [
+      "LR+",
+      "Sensitivity / (1 − specificity)",
+      ">10 strongly rules in"
+     ],
+     [
+      "LR−",
+      "(1 − sensitivity) / specificity",
+      "<0.1 strongly rules out"
+     ],
+     [
+      "Accuracy",
+      "(a + d) / (a + b + c + d)",
+      ""
+     ],
+     [
+      "Relative risk (cohort)",
+      "[a/(a+b)] ÷ [c/(c+d)]  (a,b = exposed; c,d = unexposed)",
+      "Strength of association"
+     ],
+     [
+      "Odds ratio (case-control)",
+      "ad / bc",
+      "≈ RR when disease is rare"
+     ],
+     [
+      "Attributable risk (risk difference)",
+      "Iₑ − Iᵤ",
+      "Excess risk due to exposure"
+     ],
+     [
+      "Attributable risk %",
+      "(Iₑ − Iᵤ) / Iₑ × 100",
+      "Proportion preventable among exposed"
+     ],
+     [
+      "ARR / RRR / NNT (trial)",
+      "ARR = CER − EER; RRR = ARR / CER; NNT = 1 / ARR",
+      "NNH = 1 / absolute risk increase"
+     ]
+    ]
+   },
+   {
+    "title": "Choosing a test of significance",
+    "head": [
+     "Data / comparison",
+     "Parametric",
+     "Non-parametric equivalent"
+    ],
+    "rows": [
+     [
+      "2 independent group means",
+      "Unpaired (Student's) t-test",
+      "Mann–Whitney U (Wilcoxon rank-sum)"
+     ],
+     [
+      "Same subjects before–after (paired)",
+      "Paired t-test",
+      "Wilcoxon signed-rank"
+     ],
+     [
+      "≥3 group means",
+      "ANOVA (F test)",
+      "Kruskal–Wallis"
+     ],
+     [
+      "Repeated measures, ≥3 times",
+      "Repeated-measures ANOVA",
+      "Friedman test"
+     ],
+     [
+      "Proportions / categorical (independent)",
+      "Chi-square (Fisher exact if expected cell < 5)",
+      "—"
+     ],
+     [
+      "Paired categorical (before–after yes/no)",
+      "McNemar test",
+      "—"
+     ],
+     [
+      "Association between 2 continuous variables",
+      "Pearson correlation (r)",
+      "Spearman rank correlation (ρ)"
+     ],
+     [
+      "Large samples (n > 30) means",
+      "Z test (standard error of difference)",
+      "—"
+     ]
+    ]
+   }
+  ],
+  "algorithm": "Worked NNT example\n  Control event rate (CER) = 20%; experimental event rate (EER) = 15%\n  ARR = 20 − 15 = 5% = 0.05 → NNT = 1/0.05 = 20\n  RRR = 0.05/0.20 = 25%; RR = 0.15/0.20 = 0.75\nPPV vs prevalence (sens 90%, spec 90%, 1000 people)\n  Prevalence 10%: TP 90, FP 90 → PPV 50%\n  Prevalence 50%: TP 450, FP 50 → PPV 90%",
+  "points": [
+   "**Mean** affected by extreme values; **median** best for skewed data; **mode** for nominal data. Positive skew: mean > median > mode.",
+   "**Dispersion**: range (simplest), mean deviation, **SD** (most useful), variance = SD²; **coefficient of variation** = SD/mean × 100 (compare variability of different units). **Standard error** of mean = SD/√n.",
+   "**Type I (α) error** = rejecting a true null (false positive); α usually 0.05. **Type II (β)** = accepting a false null (false negative). **Power** = 1 − β (usually 80%).",
+   "**p-value** = probability of the observed (or more extreme) result if null hypothesis is true; not the probability that H₀ is true.",
+   "**95% CI** = mean ± 1.96 SE; CI for a ratio (RR/OR) crossing 1, or for a difference crossing 0 = not significant.",
+   "**Sample size** increases with smaller α, higher power, smaller detectable difference, larger variability.",
+   "Scales: nominal (sex, blood group), ordinal (staging, Likert), interval (°C), ratio (weight, true zero). Histogram for continuous; bar chart for discrete; pie chart for proportions; scatter for correlation; ogive = cumulative frequency; frequency polygon.",
+   "**Correlation coefficient** r ranges −1 to +1; **r²** = coefficient of determination; regression predicts y from x.",
+   "Normal distribution: bell-shaped, symmetric, mean = median = mode, total area = 1; **Z score** = (x − mean)/SD."
+  ],
+  "traps": [
+   {
+    "stem": "A test is used in a population where disease prevalence falls. What happens to sensitivity, specificity and PPV?",
+    "trap": "Sensitivity falls — confusing test properties with predictive values.",
+    "fix": "Sensitivity and specificity are unchanged; PPV falls and NPV rises as prevalence falls."
+   },
+   {
+    "stem": "Blood pressure measured in the same 30 patients before and after a drug. Test?",
+    "trap": "Unpaired t-test — two sets of means.",
+    "fix": "Paired t-test (same subjects). Non-normal data → Wilcoxon signed-rank."
+   },
+   {
+    "stem": "Case-control study of smoking and lung cancer. Which measure of association?",
+    "trap": "Relative risk — the familiar 'risk' term.",
+    "fix": "Odds ratio (ad/bc). Incidence cannot be calculated in case-control design, so RR and AR need a cohort."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Sensitivity = {{c1::a/(a+c)}}; PPV = {{c2::a/(a+b)}}; PPV {{c3::rises}} with prevalence."
+   },
+   {
+    "type": "basic",
+    "front": "CER 20%, EER 15%. NNT?",
+    "back": "ARR = 5% → NNT = 1/0.05 = 20."
+   },
+   {
+    "type": "cloze",
+    "text": "In a normal distribution, mean ± {{c1::1.96}} SD covers 95% of values and ± 3 SD covers {{c2::99.7%}}."
+   },
+   {
+    "type": "basic",
+    "front": "Non-parametric equivalents of unpaired t, paired t and ANOVA?",
+    "back": "Mann–Whitney U; Wilcoxon signed-rank; Kruskal–Wallis."
+   },
+   {
+    "type": "cloze",
+    "text": "Type I error = {{c1::rejecting a true null hypothesis (false positive)}}; power = {{c2::1 − β}}."
+   },
+   {
+    "type": "basic",
+    "front": "LR+ formula?",
+    "back": "Sensitivity ÷ (1 − specificity)."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "sensitivity",
+   "specificity",
+   "positive predictive value",
+   "negative predictive value",
+   "likelihood ratio",
+   "relative risk",
+   "odds ratio",
+   "attributable risk",
+   "number needed to treat",
+   "absolute risk reduction",
+   "standard deviation",
+   "standard error",
+   "normal distribution",
+   "t test",
+   "chi square",
+   "anova",
+   "mann whitney",
+   "wilcoxon",
+   "kruskal wallis",
+   "type i error",
+   "power",
+   "p value",
+   "confidence interval"
+  ],
+  "wiki": [
+   "Sensitivity_and_specificity",
+   "Number_needed_to_treat",
+   "Normal_distribution"
+  ],
+  "verify": "Park PSM 27e biostatistics chapter."
+ },
+ {
+  "id": "psm-screening-bias-studies",
+  "title": "Screening, study designs, bias & epidemic investigation",
+  "subject": "Community Medicine",
+  "system": "Epidemiology methods",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Series testing → ↑ specificity; parallel testing → ↑ sensitivity.",
+   "Lead-time bias = earlier diagnosis inflates survival; length-time bias = screening picks slow-growing disease; overdiagnosis = disease that would never cause harm.",
+   "Point-source epidemic: single sharp peak, all cases within one incubation period; propagated: successive peaks one incubation period apart.",
+   "SAR = (cases among contacts within one IP) ÷ susceptible contacts; herd immunity threshold = 1 − 1/R₀."
+  ],
+  "tables": [
+   {
+    "title": "Study designs",
+    "head": [
+     "Design",
+     "Direction / unit",
+     "Measure",
+     "Key bias / feature"
+    ],
+    "rows": [
+     [
+      "Ecological",
+      "Groups/populations",
+      "Correlation",
+      "Ecological fallacy"
+     ],
+     [
+      "Cross-sectional",
+      "Single time point",
+      "Prevalence; prevalence ratio/OR",
+      "Cannot establish temporality; Neyman (prevalence–incidence) bias"
+     ],
+     [
+      "Case-control",
+      "Effect → cause (retrospective)",
+      "Odds ratio",
+      "Recall bias, Berkson (admission-rate) bias; good for rare disease"
+     ],
+     [
+      "Cohort",
+      "Cause → effect (prospective or historical)",
+      "Incidence, RR, AR",
+      "Loss to follow-up (attrition); good for rare exposure"
+     ],
+     [
+      "RCT",
+      "Experimental",
+      "RR, ARR, NNT",
+      "Gold standard; randomisation removes known & unknown confounders"
+     ],
+     [
+      "Systematic review / meta-analysis",
+      "Pooled studies",
+      "Pooled estimate (forest plot)",
+      "Publication bias (funnel plot)"
+     ]
+    ]
+   },
+   {
+    "title": "Phases of clinical trials",
+    "head": [
+     "Phase",
+     "Subjects",
+     "Purpose"
+    ],
+    "rows": [
+     [
+      "0",
+      "Very few (micro-dose)",
+      "Pharmacokinetics, exploratory"
+     ],
+     [
+      "I",
+      "Healthy volunteers (patients in oncology)",
+      "Safety, tolerability, dose (clinical pharmacology)"
+     ],
+     [
+      "II",
+      "Small number of patients",
+      "Efficacy, dose-ranging (therapeutic exploration)"
+     ],
+     [
+      "III",
+      "Large multicentric RCT",
+      "Confirm efficacy & safety vs standard → licensing"
+     ],
+     [
+      "IV",
+      "General population after marketing",
+      "Post-marketing surveillance, rare ADRs"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Wilson–Jungner (WHO 1968)** screening criteria: important health problem, recognisable latent/early stage, natural history understood, suitable and acceptable test, accepted treatment, facilities available, agreed policy on whom to treat, cost-effective, continuous process.",
+   "**ROC curve**: sensitivity (y) vs 1 − specificity (x); best cut-off nearest the top-left corner; **AUC** = overall accuracy (0.5 = useless, 1 = perfect).",
+   "**Bias** types: selection, information/measurement (recall, interviewer), confounding. **Hawthorne effect** = behaviour changes when observed. **Berkson** = hospital-based case-control. **Healthy worker effect** in occupational cohorts.",
+   "**Confounder**: associated with both exposure and outcome, not on the causal pathway. Control: randomisation, restriction, matching (design); stratification, multivariate analysis (analysis).",
+   "**Blinding**: single (subject), double (subject + investigator), triple (+ analyst). **Allocation concealment** prevents selection bias; blinding prevents measurement bias.",
+   "**Intention-to-treat analysis** preserves randomisation. **Cross-over** and **cluster** RCTs; **non-randomised** = natural experiments.",
+   "**Incubation period**: time from infection to first symptom; use **median** IP; serial interval = onset in primary to onset in secondary case.",
+   "**SAR**: measles ~80% (highly infectious). Denominator excludes the primary case and immune contacts.",
+   "**Herd immunity threshold** = 1 − 1/R₀ (measles R₀ ~ 12–18 → ~ 92–95% coverage needed).",
+   "**Bradford Hill** criteria for causation: temporality (only essential one), strength, consistency, specificity, biological gradient, plausibility, coherence, experiment, analogy."
+  ],
+  "traps": [
+   {
+    "stem": "Two tests are applied one after the other and only those positive on both are labelled positive. Effect?",
+    "trap": "Sensitivity increases — 'two tests are better'.",
+    "fix": "Series (sequential) testing raises specificity and PPV, lowers sensitivity. Parallel testing (positive on either) raises sensitivity."
+   },
+   {
+    "stem": "Screening programme shows 5-year survival rose from 40% to 60% but mortality rate is unchanged. Explanation?",
+    "trap": "Screening is effective.",
+    "fix": "Lead-time bias (and length-time bias/overdiagnosis). The proper end-point for screening is disease-specific mortality in an RCT."
+   },
+   {
+    "stem": "Food-poisoning outbreak: all cases occur within 12 hours after a wedding lunch. Type of epidemic curve?",
+    "trap": "Propagated epidemic — many cases in a short time.",
+    "fix": "Common-source, single-exposure (point-source) epidemic: one sharp peak, all cases within one incubation period, no secondary waves."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Series testing increases {{c1::specificity}}; parallel testing increases {{c2::sensitivity}}."
+   },
+   {
+    "type": "basic",
+    "front": "Axes of ROC curve?",
+    "back": "Y: sensitivity (TPR). X: 1 − specificity (FPR). AUC = overall accuracy."
+   },
+   {
+    "type": "basic",
+    "front": "Measure of association in case-control vs cohort?",
+    "back": "Case-control: odds ratio. Cohort: relative risk and attributable risk."
+   },
+   {
+    "type": "cloze",
+    "text": "Herd immunity threshold = {{c1::1 − 1/R₀}}."
+   },
+   {
+    "type": "basic",
+    "front": "Only essential Bradford Hill criterion?",
+    "back": "Temporality (cause must precede effect)."
+   },
+   {
+    "type": "basic",
+    "front": "Phase IV clinical trial?",
+    "back": "Post-marketing surveillance in the general population to detect rare/long-term ADRs."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Epidemic curve of Hepatitis A Nov-Dec 1978.jpg",
+    "caption": "Common-source outbreak: index case, then a steep rise and fall of cases within about one incubation period, with a few secondary cases trailing"
+   },
+   {
+    "commons": "File:Epidemic curve - measles.jpg",
+    "caption": "Propagated (person-to-person) epidemic: successive peaks separated by roughly one incubation period"
+   }
+  ],
+  "keywords": [
+   "screening",
+   "wilson jungner",
+   "roc curve",
+   "series testing",
+   "parallel testing",
+   "lead time bias",
+   "length time bias",
+   "overdiagnosis",
+   "cross-sectional",
+   "case-control",
+   "cohort study",
+   "randomised controlled trial",
+   "blinding",
+   "confounding",
+   "berkson bias",
+   "recall bias",
+   "phases of clinical trial",
+   "epidemic curve",
+   "point source",
+   "propagated epidemic",
+   "incubation period",
+   "secondary attack rate",
+   "herd immunity",
+   "bradford hill"
+  ],
+  "wiki": [
+   "Receiver_operating_characteristic",
+   "Lead_time_bias",
+   "Epidemic_curve"
+  ],
+  "verify": "Park PSM 27e epidemiology chapter."
+ },
+ {
+  "id": "psm-national-programs",
+  "title": "National programmes: UIP schedule, cold chain, NTEP, malaria, leprosy, NACP, RMNCH+A",
+  "subject": "Community Medicine",
+  "system": "National health programmes",
+  "yield": 3,
+  "kind": "volatile",
+  "anchor": [
+   "UIP: 6-10-14 wk = OPV + Pentavalent + Rota; fIPV at 6 & 14 wk (+ 9 mo); PCV 6 wk, 14 wk, booster 9 mo; MR at 9–12 & 16–24 mo; Td at 10 & 16 yr.",
+   "VVM: inner square lighter than outer circle = use; square matches or is darker = discard.",
+   "NTEP: NAAT upfront; new DS-TB = 2HRZE + 4HRE daily FDC by weight band.",
+   "Malaria: P. vivax = chloroquine 3 d + primaquine 0.25 mg/kg × 14 d; P. falciparum = ACT (AS+SP; AL in North-East) + single-dose primaquine."
+  ],
+  "tables": [
+   {
+    "title": "Universal Immunization Programme (India)",
+    "head": [
+     "Age",
+     "Vaccines"
+    ],
+    "rows": [
+     [
+      "Birth",
+      "BCG, OPV-0, Hepatitis B birth dose (within 24 h)"
+     ],
+     [
+      "6 weeks",
+      "OPV-1, Pentavalent-1 (DPT-HepB-Hib), Rotavirus-1, fIPV-1, PCV-1"
+     ],
+     [
+      "10 weeks",
+      "OPV-2, Pentavalent-2, Rotavirus-2"
+     ],
+     [
+      "14 weeks",
+      "OPV-3, Pentavalent-3, Rotavirus-3, fIPV-2, PCV-2"
+     ],
+     [
+      "9–12 months",
+      "MR-1, JE-1 (endemic districts), PCV booster, fIPV-3, Vitamin A 1st dose (1 lakh IU)"
+     ],
+     [
+      "16–24 months",
+      "MR-2, JE-2, DPT booster-1, OPV booster, Vitamin A 2nd dose (2 lakh IU), then every 6 months till 5 yr (9 doses)"
+     ],
+     [
+      "5–6 years",
+      "DPT booster-2"
+     ],
+     [
+      "10 and 16 years",
+      "Td (replaced TT in 2018)"
+     ],
+     [
+      "Pregnant woman",
+      "Td-1 early, Td-2 four weeks later; one Td booster if vaccinated within the previous 3 years"
+     ]
+    ]
+   },
+   {
+    "title": "Vaccine vial monitor (heat exposure)",
+    "head": [
+     "Stage",
+     "Appearance",
+     "Action"
+    ],
+    "rows": [
+     [
+      "1",
+      "Inner square much lighter than outer circle",
+      "Use"
+     ],
+     [
+      "2",
+      "Square still lighter than circle but darker than stage 1",
+      "Use first (before stage-1 vials)"
+     ],
+     [
+      "3",
+      "Square same colour as circle (discard point)",
+      "Do NOT use"
+     ],
+     [
+      "4",
+      "Square darker than circle",
+      "Do NOT use"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Cold chain**: ILR and walk-in cooler +2 to +8 °C; deep freezer and walk-in freezer −15 to −25 °C (OPV storage at higher levels, ice-packs). **OPV** most heat-sensitive; **Hep B, Penta, DPT, Td, IPV, PCV** freeze-sensitive (**shake test** for suspected freezing). Reconstituted **BCG, MR, JE** discarded after 4 h or session end.",
+   "**Open vial policy**: opened multi-dose vials of OPV, Penta, DPT, Td, Hep B, IPV, PCV may be used up to 28 days if VVM usable, not expired, cold chain kept, no contamination.",
+   "**U-WIN**: digital registry (Co-WIN model) recording every vaccination of pregnant women and children up to 16 yr; e-certificates and due reminders.",
+   "**Mission Indradhanush (Dec 2014)**: catch-up for un/partially immunised children and pregnant women; target ≥90% full immunisation; Intensified MI (IMI) rounds since 2017.",
+   "**NTEP**: Ni-kshay portal; **Ni-kshay Poshan Yojana** DBT for nutrition of every notified TB patient (₹500/month, enhanced to ₹1000/month in 2024 — verify). TB-free target: 2025 (SDG 2030). TPT: 3HP or 6H for contacts/PLHIV. MDR/RR-TB: all-oral shorter bedaquiline regimen; 6-month **BPaLM** (bedaquiline, pretomanid, linezolid, moxifloxacin) introduced.",
+   "**DS-TB weight bands (adult FDC: H75 R150 Z400 E275)**: 25–34 kg = 2 tablets; 35–49 kg = 3; 50–64 kg = 4; 65–75 kg = 5; > 75 kg = 6.",
+   "**Malaria (NCVBDC)**: API = confirmed cases/year per 1000 population; ABER target ≥ 10%. Severe malaria: IV artesunate. Primaquine contraindicated in pregnancy, infants and G6PD deficiency. 1st-trimester P. falciparum: quinine (national guideline).",
+   "**Leprosy (NLEP)**: PB = 1–5 lesions, ≤1 nerve, smear −ve (6 months); MB = ≥6 lesions or >1 nerve or smear +ve (12 months). Adult MB monthly: rifampicin 600 + clofazimine 300; daily clofazimine 50 + dapsone 100. India moved PB patients to the 3-drug regimen (2025) — verify. Contacts: single-dose rifampicin PEP.",
+   "**NACP-V (2021–26)**: 95-95-95; test-and-treat; first-line ART **TLD** (tenofovir + lamivudine + dolutegravir).",
+   "**JSY (2005)** cash incentive for institutional delivery; **JSSK (2011)** free delivery incl. caesarean, drugs, diagnostics, diet, blood, transport (home–facility–home) for pregnant women and sick infants. **RMNCH+A (2013)** continuum of care. **Ayushman Bharat (2018)**: HWCs (now Ayushman Arogya Mandirs) with expanded primary care packages + PM-JAY ₹5 lakh/family/year."
+  ],
+  "traps": [
+   {
+    "stem": "VVM on an OPV vial: inner square the same colour as the outer circle. Use?",
+    "trap": "Use — 'not yet darker than circle'.",
+    "fix": "Discard. Stage 3 (square = circle) is the discard point; use only if the square is lighter."
+   },
+   {
+    "stem": "Which vaccine is damaged by freezing and should be checked by the shake test?",
+    "trap": "OPV — the most heat-sensitive vaccine is assumed most temperature-sensitive overall.",
+    "fix": "Adsorbed (aluminium) vaccines: Hep B, Pentavalent, DPT, Td (also IPV, PCV) are freeze-sensitive; OPV can be frozen."
+   },
+   {
+    "stem": "Adult with new pulmonary TB in India: continuation phase?",
+    "trap": "4HR (classic international regimen).",
+    "fix": "NTEP uses 4HRE (ethambutol continued) — 2HRZE + 4HRE daily FDC by weight band."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Under UIP, PCV is given at {{c1::6 weeks, 14 weeks and 9 months (booster)}} and Td at {{c2::10 and 16}} years."
+   },
+   {
+    "type": "basic",
+    "front": "VVM stages to use vs discard?",
+    "back": "Stage 1–2 (square lighter than circle): use (stage 2 first). Stage 3–4 (square equal/darker): discard."
+   },
+   {
+    "type": "cloze",
+    "text": "ILR temperature range is {{c1::+2 to +8 °C}}; the most heat-sensitive vaccine is {{c2::OPV}}."
+   },
+   {
+    "type": "basic",
+    "front": "NTEP regimen for new drug-sensitive TB?",
+    "back": "2HRZE + 4HRE, daily fixed-dose combination by weight band."
+   },
+   {
+    "type": "basic",
+    "front": "P. vivax treatment under NCVBDC?",
+    "back": "Chloroquine 25 mg/kg over 3 days + primaquine 0.25 mg/kg daily × 14 days (avoid in pregnancy, infants, G6PD deficiency)."
+   },
+   {
+    "type": "cloze",
+    "text": "Leprosy MB: ≥ {{c1::6}} skin lesions or > 1 nerve or smear positive; treated for {{c2::12}} months."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "universal immunization programme",
+   "immunization schedule",
+   "pentavalent",
+   "fipv",
+   "pcv",
+   "rotavirus vaccine",
+   "mr vaccine",
+   "td vaccine",
+   "u-win",
+   "cold chain",
+   "ice lined refrigerator",
+   "vaccine vial monitor",
+   "open vial policy",
+   "shake test",
+   "ntep",
+   "nikshay poshan yojana",
+   "bpalm",
+   "nvbdcp",
+   "ncvbdc",
+   "malaria treatment",
+   "api",
+   "nlep",
+   "mdt",
+   "naco",
+   "rmnch+a",
+   "jsy",
+   "jssk",
+   "ayushman bharat",
+   "mission indradhanush"
+  ],
+  "wiki": [
+   "Universal_Immunisation_Programme",
+   "Vaccine_vial_monitor",
+   "National_Tuberculosis_Elimination_Programme"
+  ],
+  "verify": "MoHFW UIP schedule (fIPV-3 at 9 mo added 2023); NTEP 2024 guidelines; NCVBDC malaria drug policy. Ni-kshay Poshan amount and PB leprosy 3-drug change are recent — confirm against latest notification."
+ },
+ {
+  "id": "psm-environment-occupational",
+  "title": "Biomedical waste, water & air, vector control, occupational health",
+  "subject": "Community Medicine",
+  "system": "Environment & occupational health",
+  "yield": 2,
+  "kind": "volatile",
+  "anchor": [
+   "BMW 2016: Yellow = anatomical/soiled/incinerable; Red = contaminated recyclable plastics; White translucent = sharps; Blue = glassware & metallic implants.",
+   "Chlorination: residual free chlorine 0.5 mg/L after 1 h contact; Horrock's apparatus = bleaching powder dose for a well; orthotolidine test = residual chlorine.",
+   "Silicosis = eggshell calcification + TB; asbestosis = lower lobe + pleural plaques + mesothelioma; byssinosis = Monday tightness (cotton).",
+   "Temephos (Abate) 1 ppm in drinking water; Paris green = anopheline larvicide; Gambusia/guppy = larvivorous fish."
+  ],
+  "tables": [
+   {
+    "title": "Biomedical Waste Management Rules 2016 (amended 2018)",
+    "head": [
+     "Colour",
+     "Waste",
+     "Treatment / disposal"
+    ],
+    "rows": [
+     [
+      "Yellow (non-chlorinated bag)",
+      "Human/animal anatomical waste, soiled waste (dressings, plaster, cotton with blood), expired/discarded medicines, chemical waste, discarded linen, pre-treated microbiology/lab waste; cytotoxic drugs (with cytotoxic label)",
+      "Incineration / plasma pyrolysis / deep burial (where permitted)"
+     ],
+     [
+      "Red (non-chlorinated bag/container)",
+      "Contaminated recyclable waste: tubing, bottles, IV sets, catheters, urine bags, syringes without needles, gloves",
+      "Autoclave / microwave / hydroclave → shredding → recycling (never incinerated)"
+     ],
+     [
+      "White (translucent, puncture-proof, leak-proof, tamper-proof)",
+      "Waste sharps incl. metals: needles, syringes with fixed needles, scalpel blades",
+      "Autoclave / dry heat sterilisation → shredding / encapsulation / sharps pit"
+     ],
+     [
+      "Blue (cardboard box with blue marking)",
+      "Glassware (broken/discarded/contaminated vials), metallic body implants",
+      "Disinfection / autoclave → recycling"
+     ]
+    ]
+   },
+   {
+    "title": "Pneumoconioses and organic dust diseases",
+    "head": [
+     "Disease",
+     "Dust / agent",
+     "Discriminator"
+    ],
+    "rows": [
+     [
+      "Silicosis",
+      "Free silica (mining, sandblasting, stone cutting)",
+      "Most dangerous; upper-lobe nodules, eggshell calcification of hilar nodes, ↑ TB risk"
+     ],
+     [
+      "Anthracosis / CWP",
+      "Coal dust",
+      "Progressive massive fibrosis; Caplan syndrome with RA"
+     ],
+     [
+      "Asbestosis",
+      "Asbestos (crocidolite most carcinogenic)",
+      "Lower-lobe fibrosis, pleural plaques, asbestos (ferruginous) bodies, mesothelioma, lung cancer (synergy with smoking)"
+     ],
+     [
+      "Siderosis",
+      "Iron oxide",
+      "Benign, radiological only"
+     ],
+     [
+      "Byssinosis",
+      "Cotton, flax, hemp",
+      "Chest tightness on first day of work week (Monday fever)"
+     ],
+     [
+      "Bagassosis",
+      "Sugarcane bagasse (Thermoactinomyces sacchari)",
+      "Hypersensitivity pneumonitis"
+     ],
+     [
+      "Farmer's lung",
+      "Mouldy hay (Saccharopolyspora rectivirgula)",
+      "Hypersensitivity pneumonitis"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Chlorine demand** = chlorine used up by organic matter; **breakpoint chlorination** = point where demand is met and free residual chlorine appears. Bleaching powder has ~33% available chlorine.",
+   "**Orthotolidine (OT) test** measures free + combined chlorine; **OT-arsenite** test separates free from combined and corrects interference.",
+   "**Horrock's apparatus**: 6 white cups + 2 black cups; starch–iodide indicator; first cup showing blue gives the dose of bleaching powder for 455 L (100 gallons) of water.",
+   "**Bacteriological quality**: coliforms as indicator; **presumptive coliform test** (multiple-tube, MacConkey broth, MPN per 100 mL); E. coli (thermotolerant) must be absent in any 100 mL of drinking water. **Slow sand filter**: vital layer (Schmutzdecke) = biological; rapid sand filter needs alum coagulation.",
+   "**NAAQS 2009 (CPCB)**: PM2.5 annual 40, 24 h 60 µg/m³; PM10 annual 60, 24 h 100 µg/m³. **National AQI (2014)**: 8 pollutants; categories Good 0–50, Satisfactory 51–100, Moderate 101–200, Poor 201–300, Very poor 301–400, Severe 401–500.",
+   "**Mosquito features**: Anopheles — rests at an angle, eggs with lateral floats, larva parallel to water (no siphon); Culex — egg rafts, larva with siphon hangs at angle; Aedes — black-white striped, day biter, breeds in artificial containers; Mansonia — larvae attach to roots of Pistia (remove Pistia).",
+   "**Aedes indices**: house index, container index, **Breteau index** (positive containers per 100 houses — best for density).",
+   "**ESI Act 1948**: wage ceiling ₹21,000/month; contribution employer 3.25%, employee 0.75%; benefits — medical, sickness (~70% of wages up to 91 days), maternity (26 weeks full wages), disablement, dependants', funeral, unemployment allowance.",
+   "**Noise**: permissible occupational limit 85–90 dB(A) for 8 h; noise-induced hearing loss first at **4000 Hz** (notch). Lead, benzene (aplastic anaemia/AML), vinyl chloride (hepatic angiosarcoma), aniline dyes/β-naphthylamine (bladder cancer)."
+  ],
+  "traps": [
+   {
+    "stem": "Used IV set and urine bag (no needles) — which bin?",
+    "trap": "Yellow — 'infected waste goes to yellow'.",
+    "fix": "Red: contaminated recyclable plastics, autoclaved/shredded and recycled; never incinerated."
+   },
+   {
+    "stem": "Broken contaminated glass ampoules and a removed orthopaedic metal implant — bin?",
+    "trap": "White sharps container — because they are sharp/metallic.",
+    "fix": "Blue cardboard box: glassware and metallic body implants. White translucent is for needles, blades and other waste sharps."
+   },
+   {
+    "stem": "Acceptable residual chlorine after chlorination of drinking water?",
+    "trap": "0.5 mg/L immediately after adding chlorine.",
+    "fix": "Free residual 0.5 mg/L at the END of 1 hour contact time (the contact period matters)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "BMW 2016: needles and blades go into the {{c1::white translucent puncture-proof}} container; glassware and metallic implants into the {{c2::blue}} box."
+   },
+   {
+    "type": "cloze",
+    "text": "Recommended free residual chlorine is {{c1::0.5 mg/L}} after a contact period of {{c2::1 hour}}."
+   },
+   {
+    "type": "basic",
+    "front": "Use of Horrock's apparatus?",
+    "back": "To estimate the dose of bleaching powder needed to disinfect well water (starch–iodide end-point)."
+   },
+   {
+    "type": "basic",
+    "front": "Eggshell calcification of hilar nodes + increased TB risk?",
+    "back": "Silicosis."
+   },
+   {
+    "type": "cloze",
+    "text": "Noise-induced hearing loss first appears at {{c1::4000 Hz}}."
+   },
+   {
+    "type": "basic",
+    "front": "Breteau index?",
+    "back": "Number of Aedes-positive containers per 100 houses inspected."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "biomedical waste",
+   "bmw rules 2016",
+   "colour coding",
+   "yellow bag",
+   "red bag",
+   "sharps",
+   "chlorination",
+   "residual chlorine",
+   "breakpoint chlorination",
+   "orthotolidine",
+   "horrock",
+   "mpn",
+   "presumptive coliform",
+   "slow sand filter",
+   "aqi",
+   "pm2.5",
+   "naaqs",
+   "temephos",
+   "paris green",
+   "gambusia",
+   "anopheles",
+   "aedes",
+   "breteau index",
+   "pneumoconiosis",
+   "silicosis",
+   "asbestosis",
+   "byssinosis",
+   "esi act",
+   "noise induced hearing loss"
+  ],
+  "wiki": [
+   "Biomedical_waste",
+   "Pneumoconiosis",
+   "Water_chlorination"
+  ],
+  "verify": "BMW Management Rules 2016 (2018 amendment); CPCB NAAQS 2009; ESI rates as revised July 2019."
+ },
+ {
+  "id": "psm-demography-nutrition",
+  "title": "Demography indicators, socioeconomic scales & nutrition programmes",
+  "subject": "Community Medicine",
+  "system": "Demography & nutrition",
+  "yield": 2,
+  "kind": "volatile",
+  "anchor": [
+   "IMR, NMR, U5MR use live births as denominator; maternal mortality RATIO per 1,00,000 live births vs maternal mortality RATE per 1,00,000 women 15–49.",
+   "NRR = 1 ≈ TFR 2.1 = replacement level; India NFHS-5 TFR = 2.0.",
+   "Anaemia Mukt Bharat 6×6×6; pregnant women = 1 IFA (60 mg iron + 500 µg FA) daily from 2nd trimester for 180 days.",
+   "Lathyrism = BOAA (khesari dal); epidemic dropsy = sanguinarine (argemone oil)."
+  ],
+  "tables": [
+   {
+    "title": "Demographic & mortality indicators",
+    "head": [
+     "Indicator",
+     "Numerator",
+     "Denominator (×)"
+    ],
+    "rows": [
+     [
+      "Crude birth rate",
+      "Live births in year",
+      "Mid-year population (×1000)"
+     ],
+     [
+      "Crude death rate",
+      "Deaths in year",
+      "Mid-year population (×1000)"
+     ],
+     [
+      "Infant mortality rate",
+      "Deaths < 1 yr",
+      "Live births (×1000)"
+     ],
+     [
+      "Neonatal mortality rate",
+      "Deaths < 28 days",
+      "Live births (×1000)"
+     ],
+     [
+      "Post-neonatal mortality",
+      "Deaths 28 days – < 1 yr",
+      "Live births (×1000)"
+     ],
+     [
+      "Perinatal mortality rate",
+      "Stillbirths (≥ 28 wk) + early neonatal deaths (first 7 days)",
+      "Live births + stillbirths (×1000)"
+     ],
+     [
+      "Under-5 mortality rate",
+      "Deaths < 5 yr",
+      "Live births (×1000)"
+     ],
+     [
+      "Maternal mortality ratio",
+      "Maternal deaths",
+      "Live births (×1,00,000)"
+     ],
+     [
+      "Maternal mortality rate",
+      "Maternal deaths",
+      "Women 15–49 yr (×1,00,000)"
+     ],
+     [
+      "General fertility rate",
+      "Live births",
+      "Women 15–49 yr (×1000)"
+     ],
+     [
+      "Total fertility rate",
+      "Sum of age-specific fertility rates (×5)",
+      "Average children per woman"
+     ],
+     [
+      "Net reproduction rate",
+      "Daughters a newborn girl will bear, allowing for mortality",
+      "NRR = 1 = replacement"
+     ],
+     [
+      "Dependency ratio",
+      "(0–14) + (≥ 65) yr",
+      "15–64 yr (×100)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Demographic cycle (5 stages)**: high stationary → early expanding → **late expanding (India)** → low stationary → declining.",
+   "Headline values (verify latest): NFHS-5 (2019–21) **TFR 2.0**, sex ratio (total population) 1020 F/1000 M; SRS 2018–20 MMR **97**/1,00,000 live births.",
+   "**Maternal death** = death during pregnancy or within 42 days of termination, from any cause related to/aggravated by pregnancy, not accidental. Late maternal death = 42 days–1 yr.",
+   "**Modified Kuppuswamy** (urban): education + occupation + monthly family income → 5 classes; **B.G. Prasad** (urban & rural): per-capita monthly income. Income cut-offs of both are **updated with CPI (Industrial Workers)** — do not memorise fixed rupee values. **Pareek** scale for rural.",
+   "**ICMR-NIN 2020**: reference adult man 65 kg, woman 55 kg; introduces EAR alongside RDA.",
+   "**Vitamin A prophylaxis**: 1 lakh IU at 9 months, then 2 lakh IU every 6 months to 5 yr (9 doses). Xerophthalmia treatment: 2 lakh IU on days 0, 1, 14 (half dose 6–12 months).",
+   "**Anaemia Mukt Bharat IFA**: 6–59 mo 1 mL syrup (20 mg Fe + 100 µg FA) biweekly; 5–9 yr 45 mg Fe + 400 µg FA (pink) weekly; 10–19 yr 60 mg + 500 µg (blue) weekly; WRA 60 mg + 500 µg (red) weekly; pregnancy & lactation 60 mg + 500 µg (red) daily ×180 days each. Deworming albendazole biannually.",
+   "**Food adulterants**: argemone oil in mustard oil → epidemic dropsy (sanguinarine; nitric acid test); Lathyrus sativus → neurolathyrism (BOAA), spastic paraplegia; aflatoxin (Aspergillus flavus, groundnuts) → hepatocellular carcinoma; Claviceps (ergot); Crotalaria/pyrrolizidine alkaloids → endemic ascites (veno-occlusive disease); metanil yellow in turmeric/sweets.",
+   "**ICDS (1975)**: 6 services — supplementary nutrition, immunisation, health check-up, referral, pre-school education, nutrition & health education; children < 6 yr, pregnant & lactating women, adolescent girls. Supplementary nutrition: children 500 kcal + 12–15 g protein; severely underweight 800 kcal + 20–25 g; pregnant/lactating 600 kcal + 18–20 g.",
+   "**POSHAN Abhiyaan (2018)** → Mission Poshan 2.0; **PM POSHAN** (mid-day meal): primary 450 kcal + 12 g protein, upper primary 700 kcal + 20 g protein."
+  ],
+  "traps": [
+   {
+    "stem": "Denominator of maternal mortality ratio?",
+    "trap": "Women of reproductive age — that is the maternal mortality RATE.",
+    "fix": "Ratio = maternal deaths per 1,00,000 live births (India's SRS figure); rate uses women 15–49 yr."
+   },
+   {
+    "stem": "Replacement-level fertility corresponds to which value?",
+    "trap": "TFR = 1 or GRR = 1.",
+    "fix": "NRR = 1 (≈ TFR 2.1). NRR accounts for female mortality before reproductive age."
+   },
+   {
+    "stem": "A family with paralysis of both legs after eating a cheap pulse during drought. Toxin?",
+    "trap": "Argemone oil/sanguinarine — another adulterant toxin.",
+    "fix": "Lathyrism: BOAA in khesari dal (Lathyrus sativus) → spastic paraplegia. Argemone causes epidemic dropsy (oedema, glaucoma)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Perinatal mortality rate = (stillbirths + {{c1::early neonatal deaths in first week}}) per 1000 {{c2::live births + stillbirths}}."
+   },
+   {
+    "type": "basic",
+    "front": "NRR = 1 means?",
+    "back": "Replacement level fertility: each woman replaced by exactly one daughter (≈ TFR 2.1)."
+   },
+   {
+    "type": "cloze",
+    "text": "Anaemia Mukt Bharat: pregnant women take one tablet with {{c1::60 mg elemental iron + 500 µg folic acid}} daily for {{c2::180 days}}."
+   },
+   {
+    "type": "basic",
+    "front": "Toxin of epidemic dropsy? Test?",
+    "back": "Sanguinarine in argemone oil; nitric acid test (or paper chromatography)."
+   },
+   {
+    "type": "basic",
+    "front": "ICDS — 6 services?",
+    "back": "Supplementary nutrition, immunisation, health check-up, referral, pre-school non-formal education, nutrition & health education."
+   },
+   {
+    "type": "cloze",
+    "text": "India is in the {{c1::late expanding}} stage of the demographic cycle."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "crude birth rate",
+   "infant mortality rate",
+   "neonatal mortality",
+   "perinatal mortality",
+   "maternal mortality ratio",
+   "under five mortality",
+   "total fertility rate",
+   "net reproduction rate",
+   "dependency ratio",
+   "demographic cycle",
+   "nfhs-5",
+   "kuppuswamy",
+   "bg prasad",
+   "icmr nin",
+   "vitamin a prophylaxis",
+   "anaemia mukt bharat",
+   "ifa",
+   "lathyrism",
+   "epidemic dropsy",
+   "argemone",
+   "aflatoxin",
+   "icds",
+   "poshan",
+   "mid day meal"
+  ],
+  "wiki": [
+   "Demographic_transition",
+   "Integrated_Child_Development_Services",
+   "Lathyrism"
+  ],
+  "verify": "SRS 2018–20 MMR 97 and NFHS-5 (2019–21); newer SRS bulletins may update values. ICDS norms revised 2017; Anaemia Mukt Bharat 2018."
+ },
+ {
+  "id": "psm-epidemiology-communicable",
+  "title": "Prevention levels, communicable disease epidemiology & surveillance (IDSP)",
+  "subject": "Community Medicine",
+  "system": "Epidemiology of communicable diseases",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Primordial = prevent emergence of risk factors; primary = health promotion + specific protection; secondary = early diagnosis & treatment (screening); tertiary = disability limitation + rehabilitation; quaternary = protect from overmedicalisation.",
+   "Rabies category III (transdermal bite, licks on broken skin, mucosal contact, bat) = wound wash + vaccine + RIG.",
+   "IDSP forms: S (syndromic, health worker), P (presumptive, doctor), L (laboratory confirmed); now on IHIP.",
+   "Outbreak: verify diagnosis → confirm epidemic → case definition & case search → time/place/person → hypothesis → test → control → report."
+  ],
+  "tables": [
+   {
+    "title": "Disease-specific epidemiology (high-yield facts)",
+    "head": [
+     "Disease",
+     "Key epidemiological facts"
+    ],
+    "rows": [
+     [
+      "Measles",
+      "SAR ~80%; IP ~10 days to fever (≈14 to rash); infectious 4 days before to 4 days after rash; no carriers; MR elimination goal"
+     ],
+     [
+      "Polio",
+      "Mostly inapparent infection; AFP surveillance in < 15 yr (non-polio AFP rate ≥ 2/1,00,000 target in India), 2 stool samples 24 h apart within 14 days of onset; India certified polio-free 2014 (last wild case Jan 2011)"
+     ],
+     [
+      "Cholera",
+      "IP hours to 5 days; El Tor: more carriers & inapparent infections; O139 Bengal; ORS + doxycycline/azithromycin"
+     ],
+     [
+      "Typhoid",
+      "Chronic carriers (> 1 yr) harbour in gallbladder; Vi antibody for carrier detection; typhoid conjugate vaccine from 6 months"
+     ],
+     [
+      "Rabies (PEP)",
+      "Cat I: touching/licks on intact skin → no PEP. Cat II: nibbling, minor scratch without bleeding → wound wash + vaccine. Cat III: transdermal bite/scratch, licks on broken skin/mucosa, bats → wash + vaccine + RIG"
+     ],
+     [
+      "Dengue",
+      "Aedes aegypti (day biter, artificial containers); NS1 antigen in first 5 days, IgM after day 5; warning signs → critical phase"
+     ],
+     [
+      "Japanese encephalitis",
+      "Culex tritaeniorhynchus; pigs = amplifier hosts; ardeid birds = reservoir; man = dead-end host; live SA-14-14-2 vaccine"
+     ],
+     [
+      "Leprosy",
+      "Long IP (years); droplet from nasal discharge of untreated MB patients main source; children = index of active transmission"
+     ],
+     [
+      "HIV",
+      "Window period before antibodies; mother-to-child transmission prevented by lifelong ART + infant prophylaxis"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Epidemiological triad**: agent, host, environment; **web of causation** for chronic disease (MacMahon).",
+   "**Modes of intervention** (Leavell & Clark): health promotion, specific protection (immunisation, iodised salt), early diagnosis & treatment, disability limitation, rehabilitation.",
+   "**Primordial prevention** example: preventing adoption of smoking/unhealthy diet in children; **specific protection** example: immunisation, chemoprophylaxis, helmets.",
+   "**Rabies vaccine schedules**: IM Essen 0, 3, 7, 14, 28 (5 doses); ID Updated Thai Red Cross 2-2-2-0-2 (days 0, 3, 7, 28). Pre-exposed persons: 2 boosters (days 0, 3), no RIG.",
+   "**Carrier** = infected without symptoms who sheds the agent (incubatory, convalescent, healthy; temporary or chronic). Carriers are more dangerous than cases for spread of typhoid, diphtheria, polio, cholera.",
+   "**Surveillance**: passive (routine reports) vs active (health workers seek cases, e.g., malaria house visits); **sentinel** (selected sites, e.g., HIV); **IDSP (2004)** decentralised, lab-supported; **IHIP** real-time digital platform.",
+   "**Iceberg phenomenon**: hidden mass of undiagnosed/subclinical cases (e.g., hypertension, diabetes, polio). Disease with no iceberg: rabies, measles (almost all clinical).",
+   "**Isolation** period depends on period of communicability; **quarantine** (for contacts) = longest incubation period of the disease.",
+   "**Eradication**: smallpox (1980); elimination = reduction to zero/below threshold in a region (India: polio-free 2014, maternal & neonatal tetanus eliminated 2015, yaws-free 2016)."
+  ],
+  "traps": [
+   {
+    "stem": "Child licked by a stray dog on an abrasion on the forearm. Category and management?",
+    "trap": "Category II — because it was 'only a lick'.",
+    "fix": "Lick on broken skin = Category III: wound wash + anti-rabies vaccine + rabies immunoglobulin."
+   },
+   {
+    "stem": "Advice to teenagers in a school not to start smoking — which level of prevention?",
+    "trap": "Primary prevention — health education is listed under health promotion.",
+    "fix": "Primordial prevention: preventing the emergence of the risk factor itself in a population where it has not yet appeared."
+   },
+   {
+    "stem": "Quarantine duration for contacts of a disease?",
+    "trap": "Period of communicability — that governs isolation of cases.",
+    "fix": "Quarantine = longest incubation period of the disease (applies to healthy contacts)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Disability limitation and rehabilitation are {{c1::tertiary}} prevention; screening is {{c2::secondary}} prevention."
+   },
+   {
+    "type": "basic",
+    "front": "Rabies category III exposures?",
+    "back": "Single/multiple transdermal bites or scratches, licks on broken skin, mucosal contamination with saliva, bat exposure → wash + vaccine + RIG."
+   },
+   {
+    "type": "basic",
+    "front": "IDSP S, P and L forms?",
+    "back": "S = syndromic (health worker); P = presumptive (clinician); L = laboratory-confirmed."
+   },
+   {
+    "type": "cloze",
+    "text": "In JE, pigs are {{c1::amplifier hosts}} and man is a {{c2::dead-end host}}; vector is Culex tritaeniorhynchus."
+   },
+   {
+    "type": "cloze",
+    "text": "Quarantine lasts for the {{c1::longest incubation period}} of the disease."
+   },
+   {
+    "type": "basic",
+    "front": "Measles secondary attack rate?",
+    "back": "About 80% among susceptible household contacts."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "epidemiological triad",
+   "levels of prevention",
+   "primordial prevention",
+   "primary prevention",
+   "secondary prevention",
+   "tertiary prevention",
+   "quaternary prevention",
+   "modes of intervention",
+   "measles",
+   "polio",
+   "afp surveillance",
+   "cholera",
+   "typhoid carrier",
+   "rabies post exposure prophylaxis",
+   "dengue",
+   "japanese encephalitis",
+   "leprosy",
+   "hiv",
+   "idsp",
+   "ihip",
+   "surveillance",
+   "outbreak investigation",
+   "iceberg phenomenon",
+   "quarantine",
+   "isolation"
+  ],
+  "wiki": [
+   "Preventive_healthcare",
+   "Integrated_Disease_Surveillance_Programme",
+   "Rabies"
+  ],
+  "verify": "Park PSM 27e; National Guidelines for Rabies Prophylaxis (NRCP 2019)."
+ }
+]

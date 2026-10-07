@@ -1,12 +1,12 @@
 {
-  "name": "INI-CET Master Tracker v4",
-  "short_name": "INI-CET Master",
+  "name": "INI-CET Revision OS",
+  "short_name": "INI-CET OS",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#07101e",
-  "theme_color": "#07101e",
-  "description": "Merged evidence-led INI-CET study tracker with deep microtopics and recall ledger",
+  "background_color": "#0b1220",
+  "theme_color": "#0b1220",
+  "description": "PYT cluster revision, timed blocks, Error OS and weak-topic diagnosis for INI-CET",
   "icons": [
     {
       "src": "icon-192.png",

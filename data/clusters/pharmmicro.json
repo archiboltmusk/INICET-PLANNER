@@ -1,0 +1,2446 @@
+[
+ {
+  "id": "pha-antimicrobials-resistance",
+  "title": "Antimicrobials: mechanisms, resistance & MDR drugs",
+  "subject": "Pharmacology",
+  "system": "Chemotherapy / Infectious disease",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Ribosome rule: 'buy AT 30, CCEL at 50' → Aminoglycosides, Tetracyclines on 30S; Chloramphenicol, Clindamycin, Erythromycin (macrolides), Linezolid on 50S",
+   "MRSA = mecA → PBP2a (low β-lactam affinity); VRE vanA = D-Ala-D-Lac (vanco + teicoplanin resistant)",
+   "Metallo-β-lactamase (NDM) = zinc enzyme, NOT inhibited by avibactam/relebactam/vaborbactam → ceftazidime-avibactam + aztreonam"
+  ],
+  "algorithm": "Gram-negative isolate resistant to 3rd-gen cephalosporins\n  ESBL (clavulanate-inhibited) → carbapenem (meropenem) for serious infection\n  Carbapenem-resistant (CRE) → identify carbapenemase\n    KPC (class A) → ceftazidime-avibactam / meropenem-vaborbactam / imipenem-relebactam\n    OXA-48 (class D) → ceftazidime-avibactam\n    NDM/VIM/IMP (class B, MBL) → ceftazidime-avibactam + aztreonam, or cefiderocol\n  Salvage options → colistin/polymyxin B (nephro/neurotoxic), tigecycline (not for bacteraemia/UTI)",
+  "tables": [
+   {
+    "title": "Mechanism of action by class",
+    "head": [
+     "Target",
+     "Drugs",
+     "Key point"
+    ],
+    "rows": [
+     [
+      "Cell wall: PBP transpeptidase",
+      "Penicillins, cephalosporins, carbapenems, monobactam (aztreonam)",
+      "Bactericidal, time-dependent killing; aztreonam no cross-allergy with penicillins (except ceftazidime side chain)"
+     ],
+     [
+      "Cell wall: D-Ala-D-Ala terminus",
+      "Vancomycin, teicoplanin (glycopeptides)",
+      "Inhibit transglycosylation; Gram-positive only"
+     ],
+     [
+      "30S ribosome",
+      "Aminoglycosides, tetracyclines, tigecycline",
+      "Aminoglycosides: misreading, bactericidal, concentration-dependent, O₂-dependent uptake (no anaerobes)"
+     ],
+     [
+      "50S ribosome",
+      "Chloramphenicol, clindamycin, macrolides, linezolid, streptogramins",
+      "Linezolid blocks 70S initiation complex (23S rRNA)"
+     ],
+     [
+      "DNA gyrase (topo II) / topo IV",
+      "Fluoroquinolones",
+      "Gyrase main target in Gram-negatives, topo IV in Gram-positives"
+     ],
+     [
+      "Folate synthesis",
+      "Sulfonamides (dihydropteroate synthase), trimethoprim (DHFR)",
+      "Sequential blockade = cotrimoxazole"
+     ],
+     [
+      "Cell membrane",
+      "Polymyxin B, colistin, daptomycin",
+      "Daptomycin inactivated by surfactant → not for pneumonia"
+     ]
+    ]
+   },
+   {
+    "title": "Resistance mechanisms & intrinsic resistance",
+    "head": [
+     "Organism / enzyme",
+     "Mechanism",
+     "Consequence / answer"
+    ],
+    "rows": [
+     [
+      "MRSA",
+      "mecA (SCCmec) → PBP2a",
+      "All β-lactams fail except ceftaroline/ceftobiprole; vancomycin, linezolid, daptomycin"
+     ],
+     [
+      "VRE (vanA)",
+      "D-Ala-D-Ala → D-Ala-D-Lac",
+      "High-level vanco + teicoplanin resistance (vanB: vanco only); linezolid/daptomycin"
+     ],
+     [
+      "ESBL (CTX-M, TEM, SHV)",
+      "Plasmid class A β-lactamase",
+      "Hydrolyse 3rd-gen cephalosporins + aztreonam; carbapenem = DOC"
+     ],
+     [
+      "AmpC",
+      "Class C, inducible/chromosomal (Enterobacter, Citrobacter, Serratia)",
+      "Not inhibited by clavulanate; cefepime/carbapenem"
+     ],
+     [
+      "KPC / OXA-48 / NDM",
+      "Class A / D / B (zinc MBL) carbapenemases",
+      "See algorithm; EDTA inhibits MBL (lab phenotypic test)"
+     ],
+     [
+      "Efflux / porin loss",
+      "Pseudomonas (MexAB-OprM, OprD loss → imipenem R)",
+      "Multidrug resistance"
+     ],
+     [
+      "Intrinsic",
+      "Klebsiella → ampicillin (chromosomal SHV-1); Enterococcus & Listeria → cephalosporins; Pseudomonas → ampicillin, ceftriaxone, ertapenem, tigecycline; Proteus/Providencia/Serratia → colistin; Stenotrophomonas → carbapenems",
+      "Never 'treat' an intrinsically resistant pair"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "β-lactamase inhibitors: clavulanate, sulbactam, tazobactam (class A only); **avibactam** (A, C, some D incl. OXA-48), **relebactam** & **vaborbactam** (A, C; not OXA-48); none inhibit MBLs",
+   "**Aztreonam** is stable to MBLs but destroyed by co-produced ESBL/AmpC → pair it with avibactam",
+   "**Cefiderocol** = siderophore cephalosporin ('Trojan horse' via iron uptake), active vs MBL producers",
+   "**Colistin**: last-resort for CRE/Acinetobacter; nephrotoxicity, neurotoxicity/NM blockade; plasmid **mcr-1** resistance",
+   "**Tigecycline**: glycylcycline, low serum and urine levels → avoid in bacteraemia and UTI; no Pseudomonas/Proteus cover; boxed warning ↑all-cause mortality",
+   "Concentration-dependent killing + post-antibiotic effect: aminoglycosides, fluoroquinolones, daptomycin → once-daily aminoglycoside dosing",
+   "Imipenem is given with **cilastatin** (inhibits renal dehydropeptidase-I); imipenem lowers seizure threshold",
+   "ADRs: aminoglycosides oto/nephrotoxicity + NM block; fluoroquinolones tendon rupture, QT, avoid in children (cartilage); linezolid thrombocytopenia, serotonin syndrome (weak MAO inhibition), optic neuropathy; ceftriaxone biliary sludge, avoid with IV calcium in neonates; tetracyclines teeth/bone, photosensitivity, Fanconi (expired)"
+  ],
+  "traps": [
+   {
+    "stem": "CRE isolate producing NDM-1; which single agent is reliably active?",
+    "trap": "Ceftazidime-avibactam — chosen because avibactam is 'the new carbapenemase inhibitor'",
+    "fix": "Avibactam does not inhibit metallo-β-lactamases. Use ceftazidime-avibactam PLUS aztreonam (or cefiderocol); MBLs are zinc enzymes inhibited only by chelators like EDTA"
+   },
+   {
+    "stem": "Pseudomonas susceptible to imipenem and meropenem; can ertapenem be used for step-down?",
+    "trap": "Yes — 'carbapenems are a class'",
+    "fix": "Ertapenem has no useful anti-Pseudomonas or Acinetobacter activity (intrinsic); also no Enterococcus cover"
+   },
+   {
+    "stem": "Enterococcus faecalis UTI reported 'ceftriaxone susceptible' by a junior lab",
+    "trap": "Treat with ceftriaxone",
+    "fix": "Enterococci are intrinsically resistant to all cephalosporins (low-affinity PBPs); use ampicillin/amoxicillin or nitrofurantoin"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Ribosome mnemonic: 'buy AT 30' = {{c1::Aminoglycosides, Tetracyclines}} on 30S; 'CCEL at 50' = {{c2::Chloramphenicol, Clindamycin, Erythromycin, Linezolid}} on 50S"
+   },
+   {
+    "type": "basic",
+    "front": "Molecular basis of MRSA",
+    "back": "mecA gene (on SCCmec) encodes PBP2a with low affinity for β-lactams; ceftaroline/ceftobiprole still bind PBP2a"
+   },
+   {
+    "type": "basic",
+    "front": "vanA-type VRE: change in target?",
+    "back": "Terminal D-Ala-D-Ala replaced by D-Ala-D-Lac → vancomycin binding falls ~1000-fold; resistant to vancomycin and teicoplanin"
+   },
+   {
+    "type": "cloze",
+    "text": "Avibactam, relebactam and vaborbactam do NOT inhibit {{c1::metallo-β-lactamases (NDM, VIM, IMP)}}; the combination for MBL producers is {{c2::ceftazidime-avibactam + aztreonam}}"
+   },
+   {
+    "type": "basic",
+    "front": "Why is tigecycline a poor choice for bacteraemia or UTI?",
+    "back": "Very large Vd → low serum and urinary concentrations; also inactive against Pseudomonas and Proteus"
+   },
+   {
+    "type": "basic",
+    "front": "Organism intrinsically resistant to ampicillin due to chromosomal SHV-1",
+    "back": "Klebsiella pneumoniae"
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "mrsa",
+   "meca",
+   "pbp2a",
+   "vre",
+   "vana",
+   "esbl",
+   "kpc",
+   "ndm",
+   "oxa-48",
+   "carbapenemase",
+   "avibactam",
+   "vaborbactam",
+   "relebactam",
+   "aztreonam",
+   "cefiderocol",
+   "colistin",
+   "tigecycline",
+   "intrinsic resistance",
+   "linezolid",
+   "30s 50s"
+  ],
+  "wiki": [
+   "Antimicrobial_resistance",
+   "Beta-lactamase",
+   "Carbapenem-resistant_enterobacteriaceae"
+  ],
+  "verify": "KD Tripathi 9e/Katzung 15e + IDSA AMR guidance 2024 (ceftazidime-avibactam + aztreonam for MBL)"
+ },
+ {
+  "id": "pha-ans",
+  "title": "Autonomic pharmacology: receptors, reversal & key drugs",
+  "subject": "Pharmacology",
+  "system": "Autonomic nervous system",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Gq = α1, M1, M3 (IP₃/DAG, ↑Ca²⁺); Gi = α2, M2, D2 (↓cAMP); Gs = β1, β2, β3, D1 (↑cAMP); nicotinic = ligand-gated Na⁺/K⁺ channel",
+   "Adrenaline after an α-blocker → BP falls (unmasked β2 vasodilation) = Dale's vasomotor reversal; noradrenaline shows no reversal",
+   "Organophosphate: atropine titrated to dry chest; pralidoxime before 'ageing'; physostigmine reverses atropine poisoning"
+  ],
+  "tables": [
+   {
+    "title": "Receptor → G-protein → key effect",
+    "head": [
+     "Receptor",
+     "Second messenger",
+     "Key effects / drug"
+    ],
+    "rows": [
+     [
+      "α1",
+      "Gq → IP₃/DAG",
+      "Vasoconstriction, mydriasis (radial muscle), bladder neck contraction; prazosin, tamsulosin block"
+     ],
+     [
+      "α2",
+      "Gi → ↓cAMP",
+      "Presynaptic ↓NA release, ↓aqueous; clonidine, brimonidine, dexmedetomidine"
+     ],
+     [
+      "β1",
+      "Gs → ↑cAMP",
+      "↑HR, contractility, renin release; dobutamine"
+     ],
+     [
+      "β2",
+      "Gs → ↑cAMP",
+      "Bronchodilation, vasodilation, uterine relaxation, glycogenolysis, K⁺ into cells; salbutamol"
+     ],
+     [
+      "β3",
+      "Gs → ↑cAMP",
+      "Lipolysis, detrusor relaxation; mirabegron (OAB)"
+     ],
+     [
+      "M1 / M3",
+      "Gq",
+      "M1 gastric/CNS; M3 glands, bronchoconstriction, detrusor, sphincter pupillae, endothelial NO"
+     ],
+     [
+      "M2",
+      "Gi (opens K⁺ channels)",
+      "Heart: ↓HR, ↓AV conduction"
+     ],
+     [
+      "Nn / Nm",
+      "Ligand-gated cation channel",
+      "Nn ganglia + adrenal medulla; Nm motor end plate"
+     ],
+     [
+      "D1 / D2",
+      "Gs / Gi",
+      "D1 renal/mesenteric vasodilation; D2 pituitary (↓prolactin), CTZ"
+     ]
+    ]
+   },
+   {
+    "title": "Dopamine dose-response (adult)",
+    "head": [
+     "Dose (μg/kg/min)",
+     "Receptor",
+     "Effect"
+    ],
+    "rows": [
+     [
+      "< 2",
+      "D1",
+      "Renal/mesenteric vasodilation ('renal dose' – no proven renal protection)"
+     ],
+     [
+      "2–10",
+      "β1",
+      "↑Contractility, ↑HR"
+     ],
+     [
+      "> 10",
+      "α1",
+      "Vasoconstriction, ↑SVR"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Dale's ACh experiment**: small dose ACh ↓BP (muscarinic); after atropine, large dose ACh ↑BP (nicotinic stimulation of ganglia + adrenal medulla)",
+   "Myasthenia: **edrophonium** (ultra-short) = Tensilon test, differentiates myasthenic (improves) from cholinergic crisis (worsens); **pyridostigmine** = maintenance; **neostigmine** (quaternary, no CNS entry) for reversal of NM block & crisis",
+   "**Physostigmine** is tertiary → crosses BBB → antidote for atropine/anticholinergic poisoning",
+   "Atropine poisoning: 'hot as a hare, dry as a bone, red as a beet, blind as a bat, mad as a hatter'",
+   "**Pralidoxime** reactivates phosphorylated AChE only before ageing; not useful (classically contraindicated) in carbamate (carbaryl) poisoning",
+   "Atropinisation end-point = drying of bronchial secretions/clear chest (with HR > 80, SBP > 80), NOT pupil size",
+   "Glaucoma: prostaglandin analogues (latanoprost) ↑uveoscleral outflow, iris darkening/eyelash growth; timolol ↓aqueous (avoid in asthma/heart block); brimonidine α2 (avoid in infants – CNS depression); dorzolamide/acetazolamide CAI; pilocarpine ↑trabecular outflow (angle closure); netarsudil ROCK inhibitor",
+   "Atropine/mydriatics contraindicated in angle-closure glaucoma; phenylephrine dilates without cycloplegia",
+   "Anaphylaxis: **adrenaline 0.5 mg IM** (1 mg/mL) anterolateral thigh in adults; glucagon if on β-blockers"
+  ],
+  "traps": [
+   {
+    "stem": "An α-blocker is given and then adrenaline is injected; BP response?",
+    "trap": "BP rises (adrenaline is a pressor)",
+    "fix": "BP falls — α blockade unmasks β2 vasodilation (Dale's vasomotor reversal). Noradrenaline (little β2) just shows a smaller rise; isoprenaline always lowers BP"
+   },
+   {
+    "stem": "Carbamate (carbaryl) insecticide poisoning; add pralidoxime?",
+    "trap": "Yes — same as organophosphate",
+    "fix": "Atropine alone; carbamylated enzyme regenerates spontaneously and oximes are not indicated (classically contraindicated for carbaryl)"
+   },
+   {
+    "stem": "Organophosphate patient on atropine: pupils still constricted but chest is clear and HR 110",
+    "trap": "Keep increasing atropine until pupils dilate",
+    "fix": "Endpoint is drying of secretions/clear chest; pupil size is not a target — risk of atropine toxicity"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "α1, M1 and M3 couple to {{c1::Gq (IP₃/DAG)}}; α2 and M2 couple to {{c2::Gi (↓cAMP)}}"
+   },
+   {
+    "type": "basic",
+    "front": "Drug used to differentiate myasthenic from cholinergic crisis",
+    "back": "Edrophonium (short-acting anticholinesterase): myasthenic improves, cholinergic worsens"
+   },
+   {
+    "type": "basic",
+    "front": "Antidote for atropine (anticholinergic) poisoning and why this anticholinesterase",
+    "back": "Physostigmine – tertiary amine, crosses BBB, reverses central + peripheral effects"
+   },
+   {
+    "type": "cloze",
+    "text": "Dopamine at > 10 μg/kg/min acts mainly on {{c1::α1}} receptors; at 2–10 μg/kg/min on {{c2::β1}}"
+   },
+   {
+    "type": "basic",
+    "front": "Antiglaucoma drug that causes iris hyperpigmentation and hypertrichosis of lashes",
+    "back": "Latanoprost (PGF2α analogue) – increases uveoscleral outflow"
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "adrenaline reversal",
+   "dale's vasomotor reversal",
+   "receptor",
+   "second messenger",
+   "gq",
+   "edrophonium",
+   "neostigmine",
+   "pyridostigmine",
+   "physostigmine",
+   "atropine",
+   "organophosphate",
+   "pralidoxime",
+   "dopamine dose",
+   "latanoprost",
+   "timolol",
+   "brimonidine",
+   "pilocarpine",
+   "myasthenia"
+  ],
+  "wiki": [
+   "Adrenergic_receptor",
+   "Muscarinic_acetylcholine_receptor",
+   "Organophosphate_poisoning"
+  ],
+  "verify": "KD Tripathi 9e; Dale's vasomotor reversal per Tripathi (adrenaline after α-blocker)"
+ },
+ {
+  "id": "pha-anticoagulants",
+  "title": "Anticoagulants, antiplatelets & thrombolytics",
+  "subject": "Pharmacology",
+  "system": "Haematology / CVS",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "UFH: AT-III → IIa = Xa, aPTT, protamine; LMWH: Xa > IIa, anti-Xa level, partial protamine reversal",
+   "Warfarin: VKOR → ↓II, VII, IX, X, C, S; INR; vitamin K + 4-factor PCC",
+   "HIT: platelets fall > 50% day 5–10 + thrombosis → stop all heparin, start argatroban; no warfarin until platelets recover"
+  ],
+  "algorithm": "Suspected HIT (4T score intermediate/high)\n  → stop ALL heparin (incl. flushes, LMWH)\n  → start non-heparin anticoagulant: argatroban (hepatic clearance, use in renal failure) / bivalirudin / fondaparinux\n  → send anti-PF4/heparin ELISA → confirm with functional assay (serotonin release)\n  → avoid platelet transfusion routinely; if on warfarin give vitamin K (venous limb gangrene risk)\n  → start warfarin only after platelets ≥ 150 × 10⁹/L, overlap ≥ 5 days",
+  "tables": [
+   {
+    "title": "Anticoagulant comparison",
+    "head": [
+     "Drug",
+     "Target",
+     "Monitoring",
+     "Reversal",
+     "Notes"
+    ],
+    "rows": [
+     [
+      "Unfractionated heparin",
+      "AT-III → IIa = Xa",
+      "aPTT (or anti-Xa)",
+      "Protamine (1 mg/100 U, full)",
+      "IV/SC; HIT, osteoporosis, hyperkalaemia; safe in pregnancy & renal failure"
+     ],
+     [
+      "LMWH (enoxaparin)",
+      "AT-III → Xa > IIa",
+      "Usually none; anti-Xa in renal failure, obesity, pregnancy",
+      "Protamine (partial)",
+      "Renally cleared; less HIT"
+     ],
+     [
+      "Fondaparinux",
+      "AT-III → Xa only",
+      "Anti-Xa (rarely)",
+      "None (protamine ineffective)",
+      "Negligible HIT; used in HIT"
+     ],
+     [
+      "Warfarin",
+      "VKORC1 → ↓II, VII, IX, X, C, S",
+      "PT/INR (target 2–3; mechanical mitral 2.5–3.5)",
+      "Vitamin K IV + 4F-PCC (FFP if PCC unavailable)",
+      "Teratogenic; CYP2C9/VKORC1 polymorphisms; many interactions"
+     ],
+     [
+      "Dabigatran",
+      "Direct thrombin (IIa)",
+      "Not routine (thrombin time sensitive)",
+      "Idarucizumab",
+      "Prodrug; ~80% renal; dyspepsia"
+     ],
+     [
+      "Rivaroxaban, apixaban, edoxaban",
+      "Direct Xa",
+      "Not routine",
+      "Andexanet alfa (or 4F-PCC)",
+      "Fixed dose; not for mechanical valves or triple-positive APS"
+     ]
+    ]
+   },
+   {
+    "title": "Antiplatelets & thrombolytics",
+    "head": [
+     "Drug",
+     "Mechanism",
+     "High-yield point"
+    ],
+    "rows": [
+     [
+      "Aspirin",
+      "Irreversible COX-1 acetylation → ↓TXA₂",
+      "Effect lasts platelet lifespan (7–10 days)"
+     ],
+     [
+      "Clopidogrel",
+      "Irreversible P2Y12 (prodrug, CYP2C19)",
+      "Poor metabolisers/omeprazole ↓effect"
+     ],
+     [
+      "Prasugrel",
+      "Irreversible P2Y12",
+      "Contraindicated with prior stroke/TIA"
+     ],
+     [
+      "Ticagrelor",
+      "Reversible P2Y12, not a prodrug",
+      "Dyspnoea, bradyarrhythmia"
+     ],
+     [
+      "Abciximab, eptifibatide, tirofiban",
+      "GP IIb/IIIa block",
+      "Final common pathway; thrombocytopenia"
+     ],
+     [
+      "Streptokinase",
+      "Binds plasminogen (non-fibrin-specific)",
+      "Antigenic, hypotension; do not repeat"
+     ],
+     [
+      "Alteplase / tenecteplase",
+      "Fibrin-specific tPA",
+      "Tenecteplase single bolus, most fibrin-specific; bleeding → tranexamic acid + cryoprecipitate"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Heparin needs ≥ 18-saccharide chains to bridge AT-III and thrombin; short LMWH chains mainly inhibit Xa",
+   "**Warfarin skin necrosis**: early fall of protein C (short t½) → transient hypercoagulability; risk in protein C deficiency; overlap heparin ≥ 5 days and until INR ≥ 2 for 24 h",
+   "**Fetal warfarin syndrome** (nasal hypoplasia, stippled epiphyses) – weeks 6–12; heparin/LMWH preferred in pregnancy",
+   "Warfarin potentiated by enzyme inhibitors (metronidazole, fluconazole, amiodarone, cotrimoxazole); reduced by rifampicin, vitamin K-rich food",
+   "**Argatroban** is hepatically cleared (use in renal failure); bivalirudin mainly enzymatic/renal; both direct thrombin inhibitors",
+   "DOACs avoided in mechanical heart valves and triple-positive APS → warfarin",
+   "Cilostazol (PDE3) for intermittent claudication; contraindicated in heart failure",
+   "Thrombolysis window: STEMI ≤ 12 h; acute ischaemic stroke alteplase ≤ 4.5 h"
+  ],
+  "traps": [
+   {
+    "stem": "Patient on fondaparinux bleeds; give protamine?",
+    "trap": "Yes — protamine reverses 'heparins'",
+    "fix": "Protamine does not reverse fondaparinux (no long chain); supportive care ± rFVIIa. Protamine fully reverses UFH, only partially LMWH"
+   },
+   {
+    "stem": "HIT diagnosed; platelets 40 × 10⁹/L; start warfarin to 'get ahead'?",
+    "trap": "Start warfarin with argatroban",
+    "fix": "Warfarin during acute HIT can cause venous limb gangrene (protein C drop); start only when platelets recover (≥ 150), with ≥ 5-day overlap"
+   },
+   {
+    "stem": "Major bleed on dabigatran – specific reversal?",
+    "trap": "Andexanet alfa",
+    "fix": "Idarucizumab (Fab fragment) reverses dabigatran; andexanet alfa reverses Xa inhibitors"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Dabigatran is reversed by {{c1::idarucizumab}}; rivaroxaban/apixaban by {{c2::andexanet alfa}}"
+   },
+   {
+    "type": "basic",
+    "front": "Best lab test to monitor LMWH in pregnancy or renal failure",
+    "back": "Anti-factor Xa activity (aPTT is unreliable)"
+   },
+   {
+    "type": "basic",
+    "front": "Non-heparin anticoagulant of choice in HIT with renal failure",
+    "back": "Argatroban (direct thrombin inhibitor, hepatic clearance)"
+   },
+   {
+    "type": "cloze",
+    "text": "Warfarin skin necrosis is due to early depletion of {{c1::protein C}}, which has a shorter half-life than factors {{c2::II, IX and X}}"
+   },
+   {
+    "type": "basic",
+    "front": "P2Y12 blocker that is reversible and not a prodrug",
+    "back": "Ticagrelor (also causes dyspnoea)"
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "heparin",
+   "lmwh",
+   "enoxaparin",
+   "fondaparinux",
+   "warfarin",
+   "inr",
+   "protamine",
+   "vitamin k",
+   "pcc",
+   "dabigatran",
+   "idarucizumab",
+   "rivaroxaban",
+   "apixaban",
+   "andexanet",
+   "hit",
+   "argatroban",
+   "clopidogrel",
+   "ticagrelor",
+   "abciximab",
+   "alteplase"
+  ],
+  "wiki": [
+   "Heparin-induced_thrombocytopenia",
+   "Warfarin",
+   "Direct_oral_anticoagulants"
+  ],
+  "verify": "ASH 2018 HIT guideline; CHEST antithrombotic guidance; KD Tripathi 9e"
+ },
+ {
+  "id": "pha-oncology-mabs",
+  "title": "Anticancer drugs: toxicities, cell cycle, mAbs & TKIs",
+  "subject": "Pharmacology",
+  "system": "Oncology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Toxicity → protector pairs: doxorubicin–dexrazoxane, cisplatin–amifostine, cyclophosphamide–mesna, methotrexate–leucovorin",
+   "Vincristine = neuropathy, marrow-sparing; vinblastine = marrow suppression; bleomycin = lung fibrosis, marrow-sparing",
+   "mAb suffix: -ximab chimeric, -zumab humanised, -umab human; checkpoint inhibitors → immune-related AEs treated with steroids"
+  ],
+  "tables": [
+   {
+    "title": "Classic chemotherapy toxicities",
+    "head": [
+     "Drug",
+     "Signature toxicity",
+     "Prevention / antidote"
+    ],
+    "rows": [
+     [
+      "Doxorubicin (anthracyclines)",
+      "Dilated cardiomyopathy (cumulative dose-dependent), red urine, radiation recall",
+      "Dexrazoxane (iron chelator); cap cumulative dose; echo/MUGA"
+     ],
+     [
+      "Bleomycin",
+      "Pulmonary fibrosis, skin pigmentation; little myelosuppression",
+      "Limit cumulative dose; avoid high FiO₂"
+     ],
+     [
+      "Cisplatin",
+      "Nephrotoxicity, ototoxicity, severe emesis, ↓Mg²⁺, neuropathy",
+      "Hydration, amifostine; aprepitant + 5-HT₃ antagonist"
+     ],
+     [
+      "Carboplatin / oxaliplatin",
+      "Myelosuppression (thrombocytopenia) / cold-induced neuropathy",
+      ""
+     ],
+     [
+      "Cyclophosphamide, ifosfamide",
+      "Haemorrhagic cystitis (acrolein); ifosfamide encephalopathy, Fanconi",
+      "Mesna + hydration"
+     ],
+     [
+      "Vincristine",
+      "Peripheral neuropathy, constipation/ileus, SIADH",
+      "Never intrathecal (fatal)"
+     ],
+     [
+      "Methotrexate",
+      "Mucositis, myelosuppression, hepatic fibrosis, pneumonitis",
+      "Leucovorin (folinic acid) rescue; glucarpidase in renal failure"
+     ],
+     [
+      "5-Fluorouracil / capecitabine",
+      "Mucositis, diarrhoea, hand-foot syndrome; severe in DPD deficiency",
+      "Uridine triacetate (antidote); leucovorin ENHANCES 5-FU"
+     ],
+     [
+      "Paclitaxel",
+      "Neuropathy, hypersensitivity (vehicle)",
+      "Steroid + antihistamine premedication"
+     ],
+     [
+      "Trastuzumab",
+      "Cardiac dysfunction (reversible, not dose-related)",
+      "LVEF monitoring; avoid with anthracycline concurrently"
+     ]
+    ]
+   },
+   {
+    "title": "Targeted therapy: mAbs & TKIs",
+    "head": [
+     "Agent",
+     "Target",
+     "Use / unique AE"
+    ],
+    "rows": [
+     [
+      "Trastuzumab",
+      "HER2",
+      "HER2+ breast/gastric cancer"
+     ],
+     [
+      "Rituximab",
+      "CD20",
+      "B-cell NHL, CLL, RA; HBV reactivation, PML"
+     ],
+     [
+      "Bevacizumab",
+      "VEGF-A",
+      "Colorectal, NSCLC; hypertension, proteinuria, GI perforation, poor wound healing, bleeding"
+     ],
+     [
+      "Cetuximab",
+      "EGFR",
+      "RAS wild-type colorectal, head & neck; acneiform rash, ↓Mg²⁺"
+     ],
+     [
+      "Pembrolizumab / nivolumab",
+      "PD-1",
+      "Melanoma, NSCLC, MSI-high; colitis, thyroiditis, pneumonitis"
+     ],
+     [
+      "Ipilimumab",
+      "CTLA-4",
+      "Melanoma; colitis, hypophysitis"
+     ],
+     [
+      "Daratumumab",
+      "CD38",
+      "Myeloma; panreactive antibody screen (interferes with cross-match)"
+     ],
+     [
+      "Blinatumomab",
+      "CD19 × CD3 bispecific (BiTE)",
+      "B-ALL; cytokine release syndrome, neurotoxicity"
+     ],
+     [
+      "Imatinib",
+      "BCR-ABL, c-KIT, PDGFR",
+      "CML, GIST; T315I mutation resistant → ponatinib/asciminib"
+     ],
+     [
+      "Osimertinib",
+      "EGFR incl. T790M",
+      "NSCLC after gefitinib/erlotinib resistance (T790M), now first-line"
+     ],
+     [
+      "Ibrutinib",
+      "BTK (irreversible)",
+      "CLL, mantle cell; atrial fibrillation, bleeding"
+     ],
+     [
+      "Vemurafenib / dabrafenib",
+      "BRAF V600E",
+      "Melanoma (with MEK inhibitor); cutaneous SCC/keratoacanthoma"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Cell-cycle specific: **S** – antimetabolites (MTX, 5-FU, 6-MP, cytarabine, hydroxyurea), etoposide (S/G2, topo II); **G2** – bleomycin; **M** – vinca alkaloids, taxanes",
+   "Vinca alkaloids inhibit tubulin polymerisation; **taxanes** stabilise microtubules (prevent depolymerisation)",
+   "Cell-cycle non-specific: alkylating agents, platinum compounds, anthracyclines (largely), nitrosoureas",
+   "6-mercaptopurine/azathioprine dose must be cut to ~1/4–1/3 with **allopurinol** (xanthine oxidase); TPMT deficiency → severe myelotoxicity",
+   "Most emetogenic: cisplatin; prophylaxis = 5-HT₃ antagonist + NK1 antagonist (aprepitant) + dexamethasone",
+   "**CAR-T** (e.g., anti-CD19 tisagenlecleucel; India's indigenous NexCART-19 approved 2023): autologous T cells; cytokine release syndrome → **tocilizumab** (IL-6R); neurotoxicity (ICANS) → steroids",
+   "Imatinib resistance: T315I 'gatekeeper' mutation responds to ponatinib, not to dasatinib/nilotinib",
+   "Rituximab: screen HBsAg and anti-HBc before starting"
+  ],
+  "traps": [
+   {
+    "stem": "Patient on 5-FU with severe mucositis: give leucovorin as rescue?",
+    "trap": "Yes — leucovorin rescues antifolate toxicity",
+    "fix": "Leucovorin stabilises FdUMP–thymidylate synthase binding and ENHANCES 5-FU; it rescues methotrexate. 5-FU antidote = uridine triacetate"
+   },
+   {
+    "stem": "Child on vincristine develops foot drop and constipation; blood counts normal",
+    "trap": "Expect marrow suppression as dose-limiting toxicity",
+    "fix": "Vincristine is neurotoxic and marrow-sparing; vinblastine is the myelosuppressive vinca"
+   },
+   {
+    "stem": "Lung adenocarcinoma progresses on erlotinib; re-biopsy shows EGFR T790M",
+    "trap": "Switch to gefitinib (another EGFR TKI)",
+    "fix": "Osimertinib (third-generation EGFR TKI) is active against T790M"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Cyclophosphamide haemorrhagic cystitis is caused by {{c1::acrolein}} and prevented with {{c2::mesna}}"
+   },
+   {
+    "type": "basic",
+    "front": "Cardioprotectant used with doxorubicin",
+    "back": "Dexrazoxane (iron chelator, reduces free-radical injury)"
+   },
+   {
+    "type": "basic",
+    "front": "Target of ipilimumab vs pembrolizumab",
+    "back": "Ipilimumab = CTLA-4; pembrolizumab = PD-1 (nivolumab also PD-1; atezolizumab PD-L1)"
+   },
+   {
+    "type": "cloze",
+    "text": "Blinatumomab is a bispecific T-cell engager binding {{c1::CD19}} on B cells and {{c2::CD3}} on T cells"
+   },
+   {
+    "type": "basic",
+    "front": "Drug of choice for CAR-T cytokine release syndrome",
+    "back": "Tocilizumab (anti-IL-6 receptor), plus steroids if severe"
+   },
+   {
+    "type": "basic",
+    "front": "Anticancer drug causing pulmonary fibrosis with minimal myelosuppression",
+    "back": "Bleomycin (lungs and skin lack bleomycin hydrolase)"
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "doxorubicin",
+   "dexrazoxane",
+   "bleomycin",
+   "cisplatin",
+   "amifostine",
+   "cyclophosphamide",
+   "mesna",
+   "vincristine",
+   "methotrexate",
+   "leucovorin",
+   "5-fluorouracil",
+   "dpd deficiency",
+   "trastuzumab",
+   "rituximab",
+   "bevacizumab",
+   "cetuximab",
+   "pembrolizumab",
+   "ipilimumab",
+   "imatinib",
+   "osimertinib"
+  ],
+  "wiki": [
+   "Chemotherapy",
+   "Monoclonal_antibody_therapy",
+   "Chimeric_antigen_receptor_T_cell"
+  ],
+  "verify": "KD Tripathi 9e / Katzung 15e; NexCART-19 (actalycabtagene autoleucel) CDSCO approval Oct 2023"
+ },
+ {
+  "id": "pha-pk-general",
+  "title": "Pharmacokinetics, interactions, TDM & drug development",
+  "subject": "Pharmacology",
+  "system": "General pharmacology",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "t½ = 0.693 × Vd / CL; steady state in 4–5 half-lives regardless of dose",
+   "Loading dose depends on Vd; maintenance dose depends on clearance",
+   "Zero-order (saturation) kinetics: Phenytoin, Ethanol, Aspirin high dose ('PEA') → t½ rises with dose"
+  ],
+  "tables": [
+   {
+    "title": "Core formulas",
+    "head": [
+     "Parameter",
+     "Formula",
+     "Exam use"
+    ],
+    "rows": [
+     [
+      "Volume of distribution",
+      "Vd = dose (IV) / C₀",
+      "High Vd (digoxin, chloroquine) → not removed by dialysis"
+     ],
+     [
+      "Clearance",
+      "CL = rate of elimination / plasma concentration",
+      "Determines maintenance dose"
+     ],
+     [
+      "Half-life",
+      "t½ = 0.693 × Vd / CL",
+      "Time to steady state & to washout (4–5 t½)"
+     ],
+     [
+      "Loading dose",
+      "LD = Vd × target Cp / F",
+      "Rapid attainment (e.g., digoxin, amiodarone, lidocaine)"
+     ],
+     [
+      "Maintenance dose rate",
+      "MD = CL × target Cp / F",
+      "Doubling dose doubles Css, not time to reach it"
+     ],
+     [
+      "Bioavailability",
+      "F = AUC oral / AUC IV",
+      "IV = 100%; bioequivalence: 90% CI of AUC/Cmax ratio within 80–125%"
+     ]
+    ]
+   },
+   {
+    "title": "Enzyme inducers vs inhibitors",
+    "head": [
+     "Inducers (↓ effect of co-drugs)",
+     "Inhibitors (↑ toxicity of co-drugs)"
+    ],
+    "rows": [
+     [
+      "Rifampicin (most potent)",
+      "Ketoconazole, itraconazole, fluconazole"
+     ],
+     [
+      "Phenytoin, carbamazepine (autoinduction), phenobarbitone",
+      "Erythromycin, clarithromycin (not azithromycin)"
+     ],
+     [
+      "Griseofulvin",
+      "Ciprofloxacin (CYP1A2 → theophylline toxicity)"
+     ],
+     [
+      "Chronic alcohol; smoking (CYP1A2)",
+      "Acute alcohol, cimetidine, omeprazole (CYP2C19), isoniazid, valproate"
+     ],
+     [
+      "St John's wort",
+      "Ritonavir, grapefruit juice (intestinal CYP3A4), amiodarone, metronidazole, disulfiram"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Zero-order: constant AMOUNT eliminated per unit time; small dose increments → disproportionate rise in level (phenytoin)",
+   "First-order: constant FRACTION eliminated; t½ constant; most drugs",
+   "Classic interactions: rifampicin + OCP → contraceptive failure; clopidogrel + omeprazole → ↓activation; allopurinol + azathioprine/6-MP → marrow toxicity; ciprofloxacin + theophylline → seizures; sildenafil + nitrates → hypotension; MAOI + tyramine → hypertensive crisis; lithium + thiazide/NSAID/ACEi → lithium toxicity; probenecid + penicillin → beneficial ↑levels",
+   "**TDM** needed for narrow therapeutic index drugs with poor dose–response predictability: digoxin, lithium, phenytoin, aminoglycosides, vancomycin, cyclosporine/tacrolimus, theophylline, antiepileptics",
+   "TDM NOT useful: drugs with measurable effect (antihypertensives, hypoglycaemics, warfarin—INR), 'hit-and-run' drugs (omeprazole, MAOIs, reserpine), drugs acting via active metabolites",
+   "Trial phases: **0** microdosing (exploratory); **I** safety/PK/MTD in healthy volunteers (patients for anticancer drugs); **II** efficacy & dose-finding in small patient groups; **III** large multicentric RCTs for marketing approval; **IV** post-marketing surveillance",
+   "India: New Drugs and Clinical Trials Rules 2019 (replaced Schedule Y); approval by DCGI/CDSCO; ethics committee approval mandatory",
+   "**PvPI** launched 2010; National Coordination Centre = Indian Pharmacopoeia Commission, Ghaziabad; global database VigiBase at Uppsala Monitoring Centre (Sweden)",
+   "Causality: WHO-UMC scale, Naranjo algorithm; severity: Hartwig scale; Type A (augmented, dose-related) vs Type B (bizarre, idiosyncratic)"
+  ],
+  "traps": [
+   {
+    "stem": "Dose of a first-order drug is doubled; how long to reach the new steady state?",
+    "trap": "Half the time, since the dose is larger",
+    "fix": "Still 4–5 half-lives; dose changes Css, not time to steady state. Only a loading dose shortens time to target"
+   },
+   {
+    "stem": "Phenytoin level subtherapeutic at 300 mg/day; increase to 600 mg/day?",
+    "trap": "Doubling dose doubles the level (linear kinetics)",
+    "fix": "Phenytoin shows saturation (zero-order) kinetics at therapeutic levels; small increments (e.g., 25–50 mg) cause disproportionate rises → toxicity"
+   },
+   {
+    "stem": "Which drug does not need TDM: lithium, digoxin, warfarin, gentamicin?",
+    "trap": "Gentamicin — 'just an antibiotic'",
+    "fix": "Warfarin is monitored by its effect (INR), not plasma levels; gentamicin needs trough/peak monitoring"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Loading dose depends on {{c1::volume of distribution}}; maintenance dose depends on {{c2::clearance}}"
+   },
+   {
+    "type": "basic",
+    "front": "Drugs following zero-order kinetics (classic trio)",
+    "back": "Phenytoin, ethanol, aspirin (high dose) – 'PEA'"
+   },
+   {
+    "type": "basic",
+    "front": "Post-marketing surveillance is which clinical trial phase?",
+    "back": "Phase IV"
+   },
+   {
+    "type": "cloze",
+    "text": "Time to reach steady state ≈ {{c1::4–5}} half-lives and is {{c2::independent of the dose}}"
+   },
+   {
+    "type": "basic",
+    "front": "National Coordination Centre for PvPI",
+    "back": "Indian Pharmacopoeia Commission, Ghaziabad (PvPI launched 2010)"
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "volume of distribution",
+   "clearance",
+   "half-life",
+   "loading dose",
+   "maintenance dose",
+   "steady state",
+   "zero order kinetics",
+   "first order kinetics",
+   "enzyme inducer",
+   "enzyme inhibitor",
+   "cyp3a4",
+   "drug interaction",
+   "therapeutic drug monitoring",
+   "clinical trial phases",
+   "pharmacovigilance",
+   "pvpi",
+   "bioavailability",
+   "naranjo"
+  ],
+  "wiki": [
+   "Pharmacokinetics",
+   "Phases_of_clinical_research",
+   "Pharmacovigilance"
+  ],
+  "verify": "KD Tripathi 9e; NDCT Rules 2019; PvPI (IPC Ghaziabad)"
+ },
+ {
+  "id": "pha-cns-cvs-endo",
+  "title": "Systemic pharmacology: CNS, CVS & endocrine drugs of choice",
+  "subject": "Pharmacology",
+  "system": "CNS / CVS / Endocrine",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Absence → ethosuximide/valproate (carbamazepine worsens); infantile spasms with tuberous sclerosis → vigabatrin",
+   "Pregnancy HTN → labetalol, nifedipine, methyldopa; ACEi/ARB contraindicated",
+   "HFrEF four pillars: ARNI/ACEi/ARB + β-blocker + MRA + SGLT2 inhibitor"
+  ],
+  "tables": [
+   {
+    "title": "Antiepileptic drugs of choice & hazards",
+    "head": [
+     "Situation",
+     "Drug of choice",
+     "Avoid / note"
+    ],
+    "rows": [
+     [
+      "Generalised tonic-clonic",
+      "Valproate (lamotrigine/levetiracetam in women of child-bearing age)",
+      "Valproate: neural tube defects, hepatotoxicity, weight gain, PCOS"
+     ],
+     [
+      "Absence",
+      "Ethosuximide (valproate if GTCS co-exists)",
+      "Carbamazepine, phenytoin worsen absence/myoclonic"
+     ],
+     [
+      "Myoclonic / JME",
+      "Valproate (levetiracetam)",
+      "Carbamazepine"
+     ],
+     [
+      "Focal",
+      "Carbamazepine / lamotrigine / levetiracetam",
+      "Carbamazepine: HLA-B*1502 SJS, hyponatraemia, autoinduction"
+     ],
+     [
+      "Infantile spasms",
+      "ACTH / prednisolone; vigabatrin (DOC in tuberous sclerosis)",
+      "Vigabatrin: irreversible visual field constriction"
+     ],
+     [
+      "Status epilepticus",
+      "IV lorazepam (or diazepam/midazolam) → fosphenytoin / valproate / levetiracetam",
+      "Refractory → anaesthetic infusion"
+     ],
+     [
+      "Eclampsia",
+      "Magnesium sulphate",
+      "Toxicity: loss of patellar reflex → calcium gluconate"
+     ],
+     [
+      "Pregnancy (safest)",
+      "Lamotrigine, levetiracetam",
+      "Highest teratogenic risk: valproate"
+     ]
+    ]
+   },
+   {
+    "title": "Vaughan-Williams antiarrhythmics",
+    "head": [
+     "Class",
+     "Drugs",
+     "Key fact"
+    ],
+    "rows": [
+     [
+      "Ia (Na⁺, ↑APD)",
+      "Quinidine, procainamide, disopyramide",
+      "Quinidine cinchonism; procainamide drug-induced lupus; QT ↑"
+     ],
+     [
+      "Ib (Na⁺, ↓APD)",
+      "Lidocaine, mexiletine, phenytoin",
+      "Ventricular arrhythmia post-MI, digitalis-induced"
+     ],
+     [
+      "Ic (Na⁺, no APD change)",
+      "Flecainide, propafenone",
+      "Contraindicated in structural heart disease/post-MI (CAST)"
+     ],
+     [
+      "II",
+      "β-blockers (esmolol, metoprolol)",
+      "↓AV conduction; esmolol ultra-short"
+     ],
+     [
+      "III (K⁺, ↑APD)",
+      "Amiodarone, sotalol, dofetilide, ibutilide, dronedarone",
+      "Amiodarone: pulmonary fibrosis, thyroid (hypo/hyper), corneal deposits, blue-grey skin, hepatotoxicity"
+     ],
+     [
+      "IV",
+      "Verapamil, diltiazem",
+      "Avoid verapamil in WPW with AF"
+     ],
+     [
+      "Others",
+      "Adenosine, digoxin, magnesium",
+      "Adenosine DOC for PSVT (t½ < 10 s); Mg²⁺ for torsades"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Antiparkinson: levodopa + carbidopa (peripheral dopa-decarboxylase inhibitor); dopamine agonists (pramipexole, ropinirole) → impulse-control disorders; MAO-B (selegiline, rasagiline); COMT (entacapone; tolcapone hepatotoxic); amantadine for dyskinesia; anticholinergics (trihexyphenidyl) for **drug-induced parkinsonism**; use domperidone (not metoclopramide) for nausea",
+   "Antihypertensives: BPH → α1-blocker (prazosin/doxazosin); gout → losartan (uricosuric), avoid thiazides; diabetic nephropathy → ACEi/ARB; pheochromocytoma → phenoxybenzamine before β-blocker; aortic dissection → IV esmolol/labetalol; bilateral renal artery stenosis → ACEi contraindicated",
+   "Nitroprusside: cyanide toxicity → hydroxocobalamin / sodium thiosulfate",
+   "Heart failure: ivabradine (If blocker) if HR ≥ 70 in sinus rhythm; hydralazine + isosorbide dinitrate if ACEi intolerant; digoxin & loop diuretics = symptomatic only; digoxin toxicity ↑ by hypokalaemia → digoxin Fab",
+   "Diabetes: metformin (lactic acidosis, B12 deficiency; avoid eGFR < 30); sulfonylureas (hypoglycaemia, weight gain); pioglitazone (fluid retention – avoid in HF, fractures); DPP-4 inhibitors (weight neutral); GLP-1 RA (weight loss; avoid with MTC/MEN2); SGLT2i (euglycaemic DKA, genital mycotic infection, Fournier gangrene; HF/CKD benefit); acarbose hypoglycaemia → treat with glucose, not sucrose",
+   "Insulin: only regular insulin is given IV (DKA); rapid = lispro, aspart, glulisine; long = glargine, detemir, degludec",
+   "Glucocorticoid potency: hydrocortisone 1, prednisolone 4, methylprednisolone 5, dexamethasone ~25 (negligible mineralocorticoid); fludrocortisone = mineralocorticoid; dexamethasone/betamethasone for fetal lung maturity",
+   "Thyroid: carbimazole/methimazole preferred except 1st trimester & thyroid storm (PTU – also blocks peripheral T4→T3; hepatotoxic); both cause agranulocytosis; iodine (Lugol) given ≥ 1 h after thionamide; radioiodine contraindicated in pregnancy"
+  ],
+  "traps": [
+   {
+    "stem": "Child with absence seizures started on carbamazepine; spells increase",
+    "trap": "Increase carbamazepine dose",
+    "fix": "Carbamazepine/phenytoin aggravate absence and myoclonic seizures; switch to ethosuximide or valproate"
+   },
+   {
+    "stem": "Drug-induced parkinsonism from haloperidol; start levodopa?",
+    "trap": "Levodopa as for idiopathic PD",
+    "fix": "Withdraw/reduce the offending drug; central anticholinergic (trihexyphenidyl) is used — levodopa is ineffective because D2 receptors are blocked"
+   },
+   {
+    "stem": "Thyrotoxic woman in first trimester: drug?",
+    "trap": "Carbimazole (drug of choice for Graves)",
+    "fix": "PTU in 1st trimester (carbimazole/methimazole embryopathy: aplasia cutis, choanal atresia), switch to carbimazole in 2nd trimester"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Vigabatrin is the drug of choice for infantile spasms due to {{c1::tuberous sclerosis}}; its key toxicity is {{c2::irreversible visual field constriction}}"
+   },
+   {
+    "type": "basic",
+    "front": "Antiepileptic causing SJS strongly linked with HLA-B*1502",
+    "back": "Carbamazepine (also phenytoin) – screen in South-East Asian ancestry"
+   },
+   {
+    "type": "basic",
+    "front": "Class Ic antiarrhythmics are contraindicated in…",
+    "back": "Structural heart disease / post-MI (↑mortality in CAST trial)"
+   },
+   {
+    "type": "cloze",
+    "text": "Antithyroid drug that also inhibits peripheral conversion of T4 to T3: {{c1::propylthiouracil}}; preferred in {{c2::first trimester and thyroid storm}}"
+   },
+   {
+    "type": "basic",
+    "front": "Diabetes drug class causing euglycaemic DKA and Fournier gangrene",
+    "back": "SGLT2 inhibitors (dapagliflozin, empagliflozin)"
+   },
+   {
+    "type": "basic",
+    "front": "Antihypertensive with uricosuric effect, useful in gout",
+    "back": "Losartan"
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "antiepileptic",
+   "valproate",
+   "ethosuximide",
+   "carbamazepine",
+   "vigabatrin",
+   "levodopa",
+   "carbidopa",
+   "antiparkinson",
+   "antihypertensive pregnancy",
+   "labetalol",
+   "vaughan williams",
+   "amiodarone",
+   "adenosine",
+   "heart failure",
+   "sglt2",
+   "metformin",
+   "insulin",
+   "glucocorticoid potency",
+   "propylthiouracil",
+   "carbimazole"
+  ],
+  "wiki": [
+   "Anticonvulsant",
+   "Antiarrhythmic_agent",
+   "Heart_failure_with_reduced_ejection_fraction"
+  ],
+  "verify": "KD Tripathi 9e; ACC/AHA/HFSA 2022 HF guideline; ATA 2016 thyroid in pregnancy"
+ },
+ {
+  "id": "pha-adverse-effects-antidotes",
+  "title": "Classic ADRs, unsafe drugs & antidote table",
+  "subject": "Pharmacology",
+  "system": "Toxicology / ADR",
+  "yield": 3,
+  "kind": "volatile",
+  "anchor": [
+   "Gray baby = chloramphenicol; red man = vancomycin (rate-related histamine release); disulfiram-like = metronidazole, cefoperazone/cefotetan, chlorpropamide, griseofulvin, procarbazine",
+   "Gingival hyperplasia = phenytoin, cyclosporine, nifedipine (CCBs)",
+   "ATT: pyrazinamide most hepatotoxic; ethambutol optic neuritis (red-green); INH neuropathy (pyridoxine)"
+  ],
+  "tables": [
+   {
+    "title": "Antidote table",
+    "head": [
+     "Poison / drug",
+     "Antidote"
+    ],
+    "rows": [
+     [
+      "Paracetamol",
+      "N-acetylcysteine (Rumack-Matthew nomogram, 4 h level)"
+     ],
+     [
+      "Organophosphate",
+      "Atropine + pralidoxime"
+     ],
+     [
+      "Opioids",
+      "Naloxone"
+     ],
+     [
+      "Benzodiazepines",
+      "Flumazenil (avoid in mixed TCA overdose/epileptics – seizures)"
+     ],
+     [
+      "Heparin / warfarin",
+      "Protamine / vitamin K + 4F-PCC"
+     ],
+     [
+      "Methanol, ethylene glycol",
+      "Fomepizole (or ethanol); haemodialysis"
+     ],
+     [
+      "Cyanide",
+      "Hydroxocobalamin; sodium nitrite + sodium thiosulfate"
+     ],
+     [
+      "Iron",
+      "Desferrioxamine"
+     ],
+     [
+      "Lead",
+      "CaNa₂EDTA, dimercaprol (BAL), succimer (DMSA, oral)"
+     ],
+     [
+      "Arsenic, mercury (inorganic)",
+      "Dimercaprol (BAL)"
+     ],
+     [
+      "Copper (Wilson)",
+      "Penicillamine / trientine"
+     ],
+     [
+      "Digoxin",
+      "Digoxin-specific Fab"
+     ],
+     [
+      "Methaemoglobinaemia",
+      "Methylene blue (not in G6PD deficiency)"
+     ],
+     [
+      "β-blocker / CCB overdose",
+      "Glucagon / IV calcium; high-dose insulin euglycaemia"
+     ],
+     [
+      "TCA (QRS > 100 ms)",
+      "Sodium bicarbonate"
+     ],
+     [
+      "Atropine / anticholinergic",
+      "Physostigmine"
+     ],
+     [
+      "Isoniazid seizures",
+      "Pyridoxine"
+     ],
+     [
+      "Sulfonylurea",
+      "Glucose + octreotide"
+     ],
+     [
+      "Local anaesthetic systemic toxicity",
+      "20% lipid emulsion"
+     ],
+     [
+      "Malignant hyperthermia",
+      "Dantrolene"
+     ],
+     [
+      "Serotonin syndrome",
+      "Cyproheptadine"
+     ],
+     [
+      "Thallium",
+      "Prussian blue"
+     ],
+     [
+      "Carbon monoxide",
+      "100% O₂ / hyperbaric O₂"
+     ]
+    ]
+   },
+   {
+    "title": "Drugs to avoid",
+    "head": [
+     "Condition",
+     "Drugs (classic list)"
+    ],
+    "rows": [
+     [
+      "G6PD deficiency",
+      "Primaquine, tafenoquine, dapsone, sulfonamides/cotrimoxazole, nitrofurantoin, rasburicase, methylene blue, quinolones, naphthalene"
+     ],
+     [
+      "Acute intermittent porphyria",
+      "Barbiturates, phenytoin, carbamazepine, valproate, sulfonamides, griseofulvin, rifampicin, oestrogens/OCP, alcohol (treat attack with haemin + glucose)"
+     ],
+     [
+      "Pregnancy (teratogens)",
+      "Warfarin (nasal hypoplasia), ACEi/ARB (renal dysgenesis, oligohydramnios), isotretinoin, valproate (NTD), thalidomide (phocomelia), lithium (Ebstein), tetracycline (teeth), methotrexate, misoprostol, DES (clear-cell vaginal ca), statins, mycophenolate, streptomycin (8th nerve)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**SJS/TEN**: cotrimoxazole/sulfonamides, carbamazepine, phenytoin, lamotrigine (↑ with valproate), allopurinol, nevirapine, oxicam NSAIDs",
+   "**Ototoxicity**: aminoglycosides (streptomycin vestibular, amikacin/neomycin cochlear), loop diuretics, cisplatin, vancomycin, quinine",
+   "**QT prolongation**: class Ia/III antiarrhythmics, macrolides, fluoroquinolones, ondansetron, haloperidol, TCAs, methadone, azoles, chloroquine/HCQ, bedaquiline",
+   "**Gray baby syndrome**: chloramphenicol in neonates – deficient glucuronyl transferase; chloramphenicol also causes idiosyncratic aplastic anaemia",
+   "**Red man (vancomycin flushing) reaction**: rapid infusion → non-IgE histamine release; slow infusion over ≥ 1 h + antihistamine",
+   "Drug-induced lupus: procainamide, hydralazine, isoniazid, minocycline, anti-TNF (anti-histone antibodies, spares kidney/CNS)",
+   "Rifampicin: orange-red secretions, flu-like syndrome with intermittent dosing, potent enzyme inducer; pyrazinamide: hyperuricaemia",
+   "Methylene blue causes haemolysis in G6PD deficiency → ascorbic acid / exchange transfusion instead"
+  ],
+  "traps": [
+   {
+    "stem": "Flushing and pruritus of upper body during a fast vancomycin infusion",
+    "trap": "IgE-mediated anaphylaxis — stop vancomycin permanently",
+    "fix": "Infusion-rate-related direct mast-cell histamine release (red man); slow the infusion, give antihistamine; not a true allergy"
+   },
+   {
+    "stem": "Methaemoglobinaemia in a G6PD-deficient patient – antidote?",
+    "trap": "Methylene blue",
+    "fix": "Methylene blue needs NADPH (from G6PD) and may cause haemolysis; use ascorbic acid/exchange transfusion/hyperbaric O₂"
+   },
+   {
+    "stem": "Which ATT drug is most hepatotoxic?",
+    "trap": "Isoniazid (most famous for hepatitis)",
+    "fix": "Pyrazinamide is the most hepatotoxic; rifampicin is the least of the three. Ethambutol is not hepatotoxic (optic neuritis)"
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Antibiotic causing gray baby syndrome and mechanism",
+    "back": "Chloramphenicol – neonatal deficiency of glucuronyl transferase + poor renal excretion"
+   },
+   {
+    "type": "cloze",
+    "text": "Cephalosporins with N-methylthiotetrazole side chain such as {{c1::cefoperazone / cefotetan}} cause {{c2::disulfiram-like reaction and hypoprothrombinaemia}}"
+   },
+   {
+    "type": "basic",
+    "front": "Antidote for cyanide poisoning (first-line)",
+    "back": "Hydroxocobalamin (forms cyanocobalamin); alternative sodium nitrite + sodium thiosulfate"
+   },
+   {
+    "type": "cloze",
+    "text": "Gingival hyperplasia is caused by {{c1::phenytoin}}, {{c2::cyclosporine}} and {{c3::nifedipine/CCBs}}"
+   },
+   {
+    "type": "basic",
+    "front": "Antidote for local anaesthetic systemic toxicity",
+    "back": "20% intravenous lipid emulsion"
+   },
+   {
+    "type": "basic",
+    "front": "Antitubercular drug causing red-green colour blindness",
+    "back": "Ethambutol (optic neuritis; caution in young children who cannot report vision)"
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "gray baby syndrome",
+   "red man syndrome",
+   "disulfiram-like reaction",
+   "stevens-johnson syndrome",
+   "gingival hyperplasia",
+   "ototoxicity",
+   "qt prolongation",
+   "att hepatotoxicity",
+   "g6pd deficiency drugs",
+   "porphyria drugs",
+   "teratogen",
+   "antidote",
+   "fomepizole",
+   "hydroxocobalamin",
+   "desferrioxamine",
+   "dimercaprol",
+   "methylene blue",
+   "flumazenil",
+   "naloxone",
+   "lipid emulsion"
+  ],
+  "wiki": [
+   "Antidote",
+   "Adverse_drug_reaction",
+   "Grey_baby_syndrome"
+  ],
+  "verify": "KD Tripathi 9e; Goldfrank's Toxicologic Emergencies 11e"
+ },
+ {
+  "id": "mic-culture-media-bacteriology",
+  "title": "Culture media, stains, biochemical tests & toxigenic bacteria",
+  "subject": "Microbiology",
+  "system": "Systemic bacteriology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "TCBS yellow colonies = V. cholerae; tellurite black colonies = C. diphtheriae; Wilson-Blair jet-black metallic sheen = S. Typhi",
+   "Albert stain: green bacilli with bluish-black metachromatic granules in Chinese-letter arrangement = C. diphtheriae",
+   "Widal: rising (≥ 4-fold) titre in paired sera after week 1; blood culture is the test of choice in week 1"
+  ],
+  "tables": [
+   {
+    "title": "Culture media",
+    "head": [
+     "Medium",
+     "Type",
+     "Organism / feature"
+    ],
+    "rows": [
+     [
+      "MacConkey",
+      "Differential (indicator: neutral red) + mildly selective (bile salts)",
+      "Lactose fermenters pink (E. coli, Klebsiella mucoid); NLF pale (Salmonella, Shigella, Proteus, Pseudomonas)"
+     ],
+     [
+      "TCBS",
+      "Selective + indicator",
+      "V. cholerae yellow (sucrose fermenter); V. parahaemolyticus green"
+     ],
+     [
+      "Alkaline peptone water / VR medium / Cary-Blair",
+      "Enrichment / transport",
+      "Vibrio (Cary-Blair also for enteric pathogens)"
+     ],
+     [
+      "Lowenstein-Jensen",
+      "Enriched (egg) + selective (malachite green)",
+      "M. tuberculosis – rough, buff, 'bread-crumb' colonies in 4–8 weeks"
+     ],
+     [
+      "Thayer-Martin (VCNT)",
+      "Selective (vancomycin, colistin, nystatin, trimethoprim)",
+      "N. gonorrhoeae, N. meningitidis"
+     ],
+     [
+      "Potassium tellurite (McLeod)",
+      "Selective",
+      "C. diphtheriae – black colonies; Loeffler's serum slope gives growth in 6–8 h"
+     ],
+     [
+      "BCYE",
+      "Enriched (L-cysteine + iron)",
+      "Legionella"
+     ],
+     [
+      "Bordet-Gengou / Regan-Lowe",
+      "Enriched / charcoal-blood with cephalexin",
+      "B. pertussis – 'bisected pearl / mercury drop' colonies"
+     ],
+     [
+      "Skirrow's",
+      "Selective, 42 °C microaerophilic",
+      "Campylobacter jejuni"
+     ],
+     [
+      "CIN agar",
+      "Selective",
+      "Yersinia enterocolitica – 'bull's-eye' colonies"
+     ],
+     [
+      "Wilson-Blair (bismuth sulphite)",
+      "Selective + indicator",
+      "S. Typhi – jet-black colonies with metallic sheen"
+     ],
+     [
+      "Selenite F / tetrathionate broth",
+      "Enrichment",
+      "Salmonella from stool"
+     ],
+     [
+      "Sabouraud dextrose agar",
+      "Selective (low pH ± antibiotics)",
+      "Fungi"
+     ]
+    ]
+   },
+   {
+    "title": "Key identification tests",
+    "head": [
+     "Test",
+     "Positive organism(s)",
+     "Discriminates"
+    ],
+    "rows": [
+     [
+      "Catalase",
+      "Staphylococcus",
+      "Staph (+) vs Strep (−)"
+     ],
+     [
+      "Coagulase",
+      "S. aureus",
+      "S. aureus vs CoNS"
+     ],
+     [
+      "Oxidase",
+      "Pseudomonas, Vibrio, Neisseria, Campylobacter, H. pylori",
+      "vs Enterobacterales (oxidase −)"
+     ],
+     [
+      "CAMP test",
+      "Group B Strep (arrowhead haemolysis with S. aureus β-lysin)",
+      "GBS vs other β-haemolytic; reverse CAMP = C. perfringens"
+     ],
+     [
+      "Bile solubility, optochin sensitivity",
+      "S. pneumoniae",
+      "vs viridans streptococci (insoluble, resistant)"
+     ],
+     [
+      "Bacitracin sensitivity, PYR",
+      "S. pyogenes (Group A)",
+      "vs GBS (bacitracin resistant)"
+     ],
+     [
+      "Bile esculin + 6.5% NaCl growth",
+      "Enterococcus",
+      "vs non-enterococcal group D"
+     ],
+     [
+      "Novobiocin resistance",
+      "S. saprophyticus",
+      "vs S. epidermidis (sensitive)"
+     ],
+     [
+      "Urease (rapid)",
+      "Proteus, H. pylori, Klebsiella, Cryptococcus, Ureaplasma",
+      ""
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Gram stain: crystal violet → Gram's iodine (mordant) → decolourise (acetone/alcohol) → safranin counterstain; Gram-positive retain the violet (thick peptidoglycan)",
+   "**Ziehl-Neelsen**: hot carbol fuchsin, decolourise with 20% H₂SO₄ (M. tuberculosis) or 5% (M. leprae); 1% H₂SO₄ (modified ZN) for Nocardia, Cryptosporidium, Cyclospora, Cystoisospora; counterstain methylene blue",
+   "**Albert stain** (toluidine blue + malachite green): metachromatic (volutin/Babes-Ernst) granules bluish-black, bacilli green; Neisser stain is the alternative",
+   "Diphtheria toxin: encoded by β-corynephage (lysogenic conversion); ADP-ribosylates **EF-2**; toxigenicity by **Elek gel precipitation** test; give antitoxin (ADS) on clinical suspicion + penicillin/erythromycin; myocarditis in 2nd week",
+   "Tetanus: terminal round spore ('drumstick'); tetanospasmin cleaves synaptobrevin → blocks GABA/glycine release from inhibitory interneurons; trismus earliest sign; HTIG + metronidazole + wound debridement",
+   "Cholera: toxin ADP-ribosylates Gs → ↑cAMP; O1 (classical, El Tor) and O139 (Bengal); darting motility inhibited by specific antiserum; rice-water stool; ORS/Ringer lactate + single-dose doxycycline (azithromycin in children/pregnancy)",
+   "Enteric fever diagnosis by week (BASU): Blood culture week 1, Antibodies (Widal) week 2, Stool week 3, Urine week 3–4; **bone-marrow culture** most sensitive even after antibiotics",
+   "**Widal limitations**: prior vaccination/past infection (H agglutinins persist), anamnestic reaction in other fevers, endemic baseline titres, early antibiotics blunt response, cross-reacting antigens; O antibody rises/falls early, H persists"
+  ],
+  "traps": [
+   {
+    "stem": "Day 3 of fever, suspected typhoid; Widal negative",
+    "trap": "Typhoid excluded",
+    "fix": "Antibodies appear in week 2; in week 1 do blood culture (bone marrow culture most sensitive). A single Widal has low value; demonstrate 4-fold rise"
+   },
+   {
+    "stem": "Medium used for rapid presumptive growth of C. diphtheriae (6–8 h)",
+    "trap": "Potassium tellurite agar (black colonies)",
+    "fix": "Loeffler's serum slope gives rapid growth with good granule formation; tellurite is selective but colonies take ~48 h"
+   },
+   {
+    "stem": "Enriched vs enrichment medium",
+    "trap": "They are synonyms",
+    "fix": "Enriched = solid medium with added nutrients (blood/chocolate agar); enrichment = liquid medium that favours the pathogen over flora (selenite F, alkaline peptone water)"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "V. cholerae forms {{c1::yellow}} colonies on TCBS because it ferments {{c2::sucrose}}"
+   },
+   {
+    "type": "basic",
+    "front": "Test to detect toxigenicity of C. diphtheriae",
+    "back": "Elek's gel precipitation (immunodiffusion) test; PCR for tox gene"
+   },
+   {
+    "type": "basic",
+    "front": "Organisms positive on modified ZN (1% H₂SO₄)",
+    "back": "Nocardia, Cryptosporidium, Cyclospora, Cystoisospora (also Rhodococcus, Legionella micdadei)"
+   },
+   {
+    "type": "cloze",
+    "text": "CAMP test is positive with {{c1::Streptococcus agalactiae (GBS)}}; reverse CAMP is positive with {{c2::Clostridium perfringens}}"
+   },
+   {
+    "type": "basic",
+    "front": "Optochin-sensitive, bile-soluble α-haemolytic coccus",
+    "back": "Streptococcus pneumoniae"
+   },
+   {
+    "type": "basic",
+    "front": "Most sensitive culture for enteric fever (even after antibiotics)",
+    "back": "Bone-marrow culture"
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Corynebacterium diphtheriae albert stain.jpg",
+    "caption": "Albert stain: green bacilli with dark metachromatic granules at the poles in Chinese-letter (cuneiform) arrangement – C. diphtheriae"
+   },
+   {
+    "commons": "File:Mycobacterium tuberculosis Ziehl-Neelsen stain 02.jpg",
+    "caption": "ZN stain: slender pink-red acid-fast bacilli against blue background – M. tuberculosis"
+   }
+  ],
+  "keywords": [
+   "culture media",
+   "macconkey",
+   "tcbs",
+   "lowenstein-jensen",
+   "thayer-martin",
+   "tellurite",
+   "bcye",
+   "bordet-gengou",
+   "wilson-blair",
+   "albert stain",
+   "ziehl-neelsen",
+   "gram stain",
+   "catalase",
+   "coagulase",
+   "camp test",
+   "optochin",
+   "bacitracin",
+   "diphtheria",
+   "tetanus",
+   "cholera"
+  ],
+  "wiki": [
+   "Growth_medium",
+   "Corynebacterium_diphtheriae",
+   "Widal_test"
+  ],
+  "verify": "Ananthanarayan & Paniker 11e/12e"
+ },
+ {
+  "id": "mic-gram-pos-neg-key",
+  "title": "Key bacteria: Gram-positives, Gram-negatives, spirochaetes & atypicals",
+  "subject": "Microbiology",
+  "system": "Systemic bacteriology",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Weil-Felix: scrub typhus = OX-K only; epidemic/endemic typhus = OX-19 strongly; Q fever, trench fever = negative",
+   "C. difficile after antibiotics → GDH + toxin/NAAT → oral vancomycin or fidaxomicin",
+   "NTEP: NAAT (CBNAAT/Truenat) upfront for all presumptive TB → detects rifampicin resistance (rpoB)"
+  ],
+  "tables": [
+   {
+    "title": "Weil-Felix reaction",
+    "head": [
+     "Disease (agent)",
+     "OX-19",
+     "OX-2",
+     "OX-K"
+    ],
+    "rows": [
+     [
+      "Epidemic typhus (R. prowazekii)",
+      "+++",
+      "+",
+      "−"
+     ],
+     [
+      "Endemic/murine typhus (R. typhi)",
+      "+++",
+      "+",
+      "−"
+     ],
+     [
+      "Spotted fevers incl. Indian tick typhus (R. conorii), RMSF",
+      "++",
+      "++",
+      "−"
+     ],
+     [
+      "Scrub typhus (Orientia tsutsugamushi)",
+      "−",
+      "−",
+      "+++"
+     ],
+     [
+      "Brill-Zinsser, Q fever (Coxiella), trench fever (Bartonella)",
+      "−",
+      "−",
+      "−"
+     ]
+    ]
+   },
+   {
+    "title": "Rapid differentiators",
+    "head": [
+     "Organism",
+     "Discriminating features"
+    ],
+    "rows": [
+     [
+      "S. aureus",
+      "Catalase +, coagulase +, golden colonies, protein A, TSST-1; MRSA = mecA"
+     ],
+     [
+      "S. pyogenes (GAS)",
+      "Bacitracin S, PYR +; ASO high after pharyngitis (low after skin infection → anti-DNase B)"
+     ],
+     [
+      "Enterococcus",
+      "Grows in 6.5% NaCl, bile esculin +, PYR +, intrinsic cephalosporin resistance"
+     ],
+     [
+      "Listeria",
+      "Tumbling motility at 25 °C, cold enrichment, neonates/pregnancy/unpasteurised cheese; ampicillin ± gentamicin"
+     ],
+     [
+      "Bacillus anthracis",
+      "Box-car bacilli, 'medusa-head' colonies, McFadyean reaction (capsule), string-of-pearls with penicillin; painless black eschar"
+     ],
+     [
+      "Neisseria",
+      "Meningococcus ferments glucose + maltose; gonococcus glucose only"
+     ],
+     [
+      "Haemophilus influenzae",
+      "Needs X (haemin) + V (NAD); satellitism around S. aureus; Hib capsule = PRP"
+     ],
+     [
+      "Pseudomonas",
+      "Oxidase +, non-lactose fermenter, pyocyanin + pyoverdin, grape odour; burns, CF, ecthyma gangrenosum"
+     ],
+     [
+      "Klebsiella",
+      "Mucoid lactose fermenter, non-motile, capsule; currant-jelly sputum"
+     ],
+     [
+      "Legionella",
+      "BCYE, urinary antigen (serogroup 1 only), hyponatraemia, diarrhoea, cooling towers"
+     ],
+     [
+      "H. pylori",
+      "Curved, urease +, oxidase +; urea breath test / stool antigen; MALToma regresses on eradication"
+     ],
+     [
+      "Brucella",
+      "Undulant fever, sacroiliitis/spondylitis; Castañeda biphasic medium; doxycycline + rifampicin/aminoglycoside"
+     ],
+     [
+      "Mycoplasma pneumoniae",
+      "No cell wall (β-lactams useless), fried-egg colonies, cold agglutinins (IgM anti-I)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**C. difficile**: toxin A/B, pseudomembranous colitis after clindamycin, cephalosporins, fluoroquinolones; oral vancomycin or fidaxomicin (metronidazole only if these unavailable); alcohol rub does not kill spores → soap & water",
+   "**C. perfringens**: α-toxin (lecithinase, Nagler reaction), double-zone haemolysis, gas gangrene and food poisoning; **botulinum** toxin cleaves SNARE proteins → descending flaccid paralysis with clear sensorium; infant botulism from honey",
+   "Bordetella pertussis: pertussis toxin ADP-ribosylates Gi → ↑cAMP, marked lymphocytosis; per-nasal swab; azithromycin",
+   "**Syphilis**: non-treponemal (VDRL/RPR) for screening & follow-up – biological false positives (SLE, APS, pregnancy, leprosy, malaria), prozone in secondary; treponemal (FTA-ABS, TPHA, TPPA) confirm and stay positive for life; benzathine penicillin; Jarisch-Herxheimer reaction",
+   "**Leptospirosis**: rat urine, flooding; conjunctival suffusion, calf tenderness; Weil's disease (jaundice + AKI + haemorrhage); MAT is reference serology; EMJH/Korthof media; penicillin/doxycycline",
+   "**Scrub typhus**: Orientia tsutsugamushi via larval trombiculid mite (chigger); eschar; IgM ELISA; doxycycline (azithromycin in pregnancy/children)",
+   "**Chlamydia**: elementary body (infectious) → reticulate body (replicative); serovars A–C trachoma, D–K genital/inclusion conjunctivitis/neonatal pneumonia, L1–L3 LGV; NAAT; azithromycin/doxycycline",
+   "**TB diagnostics (NTEP)**: CBNAAT/Truenat detect MTB + rifampicin resistance; FL-LPA (rpoB, katG, inhA) for INH/RIF; SL-LPA for fluoroquinolone/injectables; liquid culture (MGIT) faster than LJ",
+   "**M. leprae**: not cultivable in vitro (mouse foot-pad, nine-banded armadillo); prefers 30–33 °C; slit-skin smear bacteriological index (0–6+); lepromin (Mitsuda) test is prognostic, not diagnostic"
+  ],
+  "traps": [
+   {
+    "stem": "Fever with eschar in a farmer; Weil-Felix shows OX-K strongly positive",
+    "trap": "Epidemic typhus (best-known rickettsial fever)",
+    "fix": "OX-K alone = scrub typhus (Orientia tsutsugamushi); treat with doxycycline"
+   },
+   {
+    "stem": "Pyoderma followed by PSGN; ASO titre normal",
+    "trap": "Rules out streptococcal aetiology",
+    "fix": "Skin lipids inactivate streptolysin O, so ASO stays low after impetigo; measure anti-DNase B. Rheumatic fever follows pharyngitis, not skin infection"
+   },
+   {
+    "stem": "Lepromin test strongly positive in a patient",
+    "trap": "Confirms leprosy",
+    "fix": "Lepromin is a test of CMI and prognosis (positive in TT, negative in LL); it is not diagnostic and is positive in many healthy adults"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Weil-Felix reaction in scrub typhus is positive only with {{c1::OX-K}}; it is negative in {{c2::Q fever (Coxiella)}}"
+   },
+   {
+    "type": "basic",
+    "front": "Treponemal test that becomes positive earliest in primary syphilis",
+    "back": "FTA-ABS (dark-ground microscopy of chancre fluid is the direct test)"
+   },
+   {
+    "type": "basic",
+    "front": "Organism showing satellitism around S. aureus on blood agar",
+    "back": "Haemophilus influenzae (needs V factor/NAD released by S. aureus)"
+   },
+   {
+    "type": "cloze",
+    "text": "Listeria shows {{c1::tumbling}} motility at 25 °C and is intrinsically resistant to {{c2::cephalosporins}}"
+   },
+   {
+    "type": "basic",
+    "front": "Upfront TB test for all presumptive TB in NTEP",
+    "back": "NAAT – CBNAAT (GeneXpert) or Truenat; also gives rifampicin resistance"
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Staphylococcus aureus Gram stain.jpg",
+    "caption": "Gram-positive cocci in grape-like clusters – Staphylococcus (contrast with chains of streptococci)"
+   },
+   {
+    "commons": "File:Gram positive cocci in chains.jpg",
+    "caption": "Gram-positive cocci in chains – Streptococcus; next step catalase (negative) and haemolysis pattern"
+   }
+  ],
+  "keywords": [
+   "staphylococcus",
+   "streptococcus",
+   "enterococcus",
+   "clostridium difficile",
+   "clostridium perfringens",
+   "botulism",
+   "anthrax",
+   "listeria",
+   "neisseria",
+   "haemophilus",
+   "bordetella",
+   "pseudomonas",
+   "klebsiella",
+   "legionella",
+   "helicobacter",
+   "brucella",
+   "syphilis",
+   "vdrl",
+   "leptospirosis",
+   "weil-felix"
+  ],
+  "wiki": [
+   "Weil–Felix_test",
+   "Clostridioides_difficile_infection",
+   "Syphilis"
+  ],
+  "verify": "Ananthanarayan 12e; IDSA/SHEA 2021 C. difficile update; NTEP Training Modules 2023-24"
+ },
+ {
+  "id": "mic-virology",
+  "title": "Virology: hepatitis serology, HIV testing, arboviruses, rabies PEP",
+  "subject": "Microbiology",
+  "system": "Virology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Window period of HBV: HBsAg −, anti-HBs −, only IgM anti-HBc +",
+   "HIV diagnosis (NACO): 3 different assays (Strategy III); infant < 18 months → HIV-1 DNA PCR at 6 weeks",
+   "Rabies Category III (bite/scratch with bleeding, mucosal/broken-skin lick, bat contact) → wound wash + vaccine + RIG"
+  ],
+  "tables": [
+   {
+    "title": "Hepatitis B serology",
+    "head": [
+     "Status",
+     "HBsAg",
+     "Anti-HBs",
+     "Anti-HBc IgM",
+     "Anti-HBc IgG",
+     "HBeAg"
+    ],
+    "rows": [
+     [
+      "Acute infection",
+      "+",
+      "−",
+      "+",
+      "−",
+      "+"
+     ],
+     [
+      "Window period",
+      "−",
+      "−",
+      "+",
+      "−",
+      "−"
+     ],
+     [
+      "Recovered (natural immunity)",
+      "−",
+      "+",
+      "−",
+      "+",
+      "−"
+     ],
+     [
+      "Vaccinated",
+      "−",
+      "+",
+      "−",
+      "−",
+      "−"
+     ],
+     [
+      "Chronic, high replication",
+      "+ (> 6 months)",
+      "−",
+      "−",
+      "+",
+      "+"
+     ],
+     [
+      "Chronic, low replication / HBeAg-negative",
+      "+",
+      "−",
+      "−",
+      "+",
+      "− (anti-HBe +)"
+     ]
+    ]
+   },
+   {
+    "title": "Rabies post-exposure prophylaxis",
+    "head": [
+     "Category",
+     "Exposure",
+     "Action"
+    ],
+    "rows": [
+     [
+      "I",
+      "Touching/feeding animal, licks on intact skin",
+      "No PEP (wash)"
+     ],
+     [
+      "II",
+      "Nibbling uncovered skin, minor scratches/abrasions without bleeding",
+      "Wound wash + vaccine"
+     ],
+     [
+      "III",
+      "Transdermal bites/scratches, licks on broken skin, saliva on mucosa, bat contact",
+      "Wound wash + vaccine + RIG (HRIG 20 IU/kg or ERIG 40 IU/kg, infiltrated into wound)"
+     ],
+     [
+      "Schedules",
+      "Essen IM: days 0, 3, 7, 14, 28 · Zagreb IM (2-1-1): 2 doses day 0, 1 each day 7 & 21 · Updated Thai Red Cross ID: 2 sites days 0, 3, 7, 28",
+      "Previously vaccinated: 2 doses (days 0, 3), no RIG"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "HBV: partially double-stranded DNA with reverse transcriptase; **HBeAg** = infectivity/replication; anti-HBs ≥ 10 mIU/mL protective; newborn of HBsAg+ mother → vaccine + HBIG within 12 h",
+   "**HCV**: RNA flavivirus, most become chronic; anti-HCV screen → HCV RNA confirms; pan-genotypic DAA (sofosbuvir + velpatasvir) under NVHCP; extrahepatic: mixed cryoglobulinaemia, MPGN, porphyria cutanea tarda, lichen planus",
+   "**HAV/HEV**: faeco-oral, no chronicity in immunocompetent; HEV → fulminant hepatitis with high mortality in 3rd-trimester pregnancy; HDV needs HBsAg (superinfection worse than co-infection)",
+   "**HIV**: gp120 binds CD4 + CCR5/CXCR4; gp41 fusion (enfuvirtide); genes gag (p24), pol (RT, integrase, protease), env; 4th-gen ELISA (p24 Ag + Ab) shortens window; viral load monitors ART; first-line NACO = TLD (tenofovir + lamivudine + dolutegravir)",
+   "Arboviruses: **dengue** (flavivirus, Aedes) NS1 antigen days 1–5, IgM after day 5, secondary infection → severe dengue (antibody-dependent enhancement); **chikungunya** (alphavirus) persistent polyarthralgia; **Zika** microcephaly, GBS; **JE** Culex tritaeniorhynchus, pigs amplifiers, ardeid birds reservoir, live SA-14-14-2 vaccine; **KFD** Haemaphysalis spinigera tick, monkeys amplifiers, Shimoga (Karnataka) 1957, killed vaccine",
+   "Herpes: HSV-1 encephalitis (temporal lobe, CSF PCR, IV acyclovir); Tzanck smear multinucleated giant cells; EBV infectious mononucleosis (heterophile/Paul-Bunnell, atypical lymphocytes, CD21 receptor, ampicillin rash); CMV owl's-eye inclusions, commonest congenital infection, periventricular calcification, ganciclovir; HHV-6 roseola; HHV-8 Kaposi sarcoma",
+   "Influenza A: segmented negative-sense RNA; **antigenic shift** (reassortment, influenza A only) → pandemics; **drift** (point mutation, A and B) → epidemics; neuraminidase target = oseltamivir",
+   "**Rabies**: bullet-shaped rhabdovirus; **Negri bodies** = eosinophilic intracytoplasmic inclusions in Purkinje cells & hippocampal pyramidal cells; ante-mortem: nuchal skin biopsy (hair follicle), corneal impression, saliva RT-PCR; wash wound 15 min with soap and running water, avoid primary suturing",
+   "Oncogenic viruses: HPV 16/18 (E6 → p53, E7 → Rb; cervix, oropharynx), EBV (Burkitt, NPC, Hodgkin), HBV/HCV (HCC), HHV-8 (Kaposi, PEL), HTLV-1 (ATLL), Merkel cell polyomavirus",
+   "**Nipah**: henipavirus (paramyxovirus), Pteropus fruit bats; date-palm sap/human-to-human spread; encephalitis + respiratory illness, high CFR; Kerala outbreaks since 2018; RT-PCR; **SARS-CoV-2** spike binds ACE2 (TMPRSS2 priming)"
+  ],
+  "traps": [
+   {
+    "stem": "HBsAg negative, anti-HBs negative, IgM anti-HBc positive in a jaundiced patient",
+    "trap": "No HBV infection (HBsAg negative)",
+    "fix": "Window period of acute HBV – IgM anti-HBc is the only marker"
+   },
+   {
+    "stem": "Infant (9 months) of HIV-positive mother: HIV ELISA positive",
+    "trap": "Infant is HIV infected",
+    "fix": "Maternal IgG persists up to 18 months; diagnose with HIV-1 DNA PCR (DBS) from 6 weeks"
+   },
+   {
+    "stem": "Pandemic influenza arises due to…",
+    "trap": "Antigenic drift",
+    "fix": "Antigenic shift (genetic reassortment of segmented genome, influenza A only); drift causes seasonal epidemics"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "In the window period of hepatitis B the only positive marker is {{c1::IgM anti-HBc}}"
+   },
+   {
+    "type": "basic",
+    "front": "Marker of active replication and high infectivity in hepatitis B",
+    "back": "HBeAg (and HBV DNA)"
+   },
+   {
+    "type": "basic",
+    "front": "Zagreb rabies schedule",
+    "back": "2-1-1: two IM doses on day 0 (both deltoids), one on day 7, one on day 21"
+   },
+   {
+    "type": "cloze",
+    "text": "Negri bodies are found most often in {{c1::Purkinje cells of the cerebellum}} and {{c2::pyramidal cells of the hippocampus (Ammon's horn)}}"
+   },
+   {
+    "type": "basic",
+    "front": "Vector and amplifying host of Kyasanur Forest Disease",
+    "back": "Haemaphysalis spinigera tick; monkeys (langur, bonnet macaque) are amplifiers"
+   },
+   {
+    "type": "cloze",
+    "text": "Dengue NS1 antigen is useful in days {{c1::1–5}} of fever; IgM ELISA after day {{c2::5}}"
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Rabies encephalitis Negri bodies PHIL 3377 lores.jpg",
+    "caption": "H&E: round eosinophilic intracytoplasmic Negri bodies in neurons – rabies encephalitis"
+   }
+  ],
+  "keywords": [
+   "hepatitis b serology",
+   "hbsag",
+   "anti-hbc",
+   "hbeag",
+   "window period",
+   "hepatitis c",
+   "hepatitis e pregnancy",
+   "hiv",
+   "naco strategy",
+   "early infant diagnosis",
+   "dengue ns1",
+   "chikungunya",
+   "zika",
+   "japanese encephalitis",
+   "kfd",
+   "herpes",
+   "ebv",
+   "cmv",
+   "influenza shift drift",
+   "rabies"
+  ],
+  "wiki": [
+   "Hepatitis_B",
+   "Rabies",
+   "Antigenic_shift"
+  ],
+  "verify": "NRCP 2019 (rabies; WHO 2018 also allows 1-week ID 0,3,7 and 4-dose Essen); NACO National HIV Testing Guidelines 2024; NVHCP"
+ },
+ {
+  "id": "mic-mycology-parasitology",
+  "title": "Mycology & parasitology: dimorphic fungi, moulds, malaria, helminths",
+  "subject": "Microbiology",
+  "system": "Mycology / Parasitology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Aspergillus = narrow septate hyphae, acute-angle (45°) branching; Mucor = broad aseptate ribbon hyphae, right-angle branching, DKA/iron overload",
+   "Cryptococcus: India-ink halo (capsule), CSF CrAg; Blastomyces broad-based budding; Paracoccidioides 'ship's wheel'; Coccidioides spherules",
+   "P. falciparum: banana gametocytes, multiple rings/appliqué, Maurer's dots; P. vivax: enlarged RBC + Schüffner's dots + hypnozoites"
+  ],
+  "tables": [
+   {
+    "title": "Dimorphic & key systemic fungi",
+    "head": [
+     "Fungus",
+     "Tissue form",
+     "Clue"
+    ],
+    "rows": [
+     [
+      "Histoplasma capsulatum",
+      "Small (2–4 μm) intracellular yeasts in macrophages",
+      "Bat/bird droppings, caves; tuberculate macroconidia in mould; Gangetic West Bengal focus in India"
+     ],
+     [
+      "Blastomyces dermatitidis",
+      "Large yeast, thick double-contoured wall, broad-based budding",
+      "Skin, bone, lung"
+     ],
+     [
+      "Coccidioides immitis",
+      "Spherules with endospores (not yeast)",
+      "Desert, arthroconidia; valley fever, erythema nodosum"
+     ],
+     [
+      "Paracoccidioides brasiliensis",
+      "Multiple budding 'ship's wheel / pilot's wheel'",
+      "Latin America, oral mucosal ulcers"
+     ],
+     [
+      "Sporothrix schenckii",
+      "Cigar-shaped yeasts, asteroid bodies",
+      "Rose-gardener's disease, nodular lymphangitic spread; itraconazole (classic: saturated KI)"
+     ],
+     [
+      "Talaromyces marneffei",
+      "Yeast dividing by fission (transverse septum)",
+      "SE Asia/Manipur, bamboo rat, HIV; umbilicated papules; red diffusible pigment in mould phase"
+     ],
+     [
+      "Aspergillus",
+      "Septate, acute-angle dichotomous branching",
+      "ABPA, aspergilloma (air crescent), invasive (halo sign, galactomannan) → voriconazole"
+     ],
+     [
+      "Mucorales (Rhizopus, Mucor)",
+      "Broad, ribbon-like, pauci-septate, right-angle branching",
+      "DKA, deferoxamine, steroids/COVID; black palatal/nasal eschar → liposomal amphotericin B + debridement"
+     ],
+     [
+      "Cryptococcus neoformans",
+      "Capsulated budding yeast (India ink, mucicarmine)",
+      "Pigeon droppings; HIV CD4 < 100; urease +; brown colonies on niger-seed agar"
+     ],
+     [
+      "Pneumocystis jirovecii",
+      "Cysts on GMS silver stain ('crushed ping-pong balls')",
+      "CD4 < 200; no ergosterol → cotrimoxazole; steroids if PaO₂ < 70 mmHg"
+     ]
+    ]
+   },
+   {
+    "title": "Malaria species",
+    "head": [
+     "Feature",
+     "P. falciparum",
+     "P. vivax",
+     "P. ovale",
+     "P. malariae"
+    ],
+    "rows": [
+     [
+      "RBC",
+      "Normal size, all ages",
+      "Enlarged, pale, reticulocytes (Duffy)",
+      "Enlarged, oval, fimbriated",
+      "Normal/small, old RBCs"
+     ],
+     [
+      "Stippling",
+      "Maurer's dots/clefts",
+      "Schüffner's dots",
+      "James' dots",
+      "Ziemann's dots"
+     ],
+     [
+      "Smear",
+      "Multiple rings, appliqué forms, crescent (banana) gametocytes; schizonts rare",
+      "Amoeboid trophozoite, all stages",
+      "All stages",
+      "Band-form trophozoite, rosette schizont"
+     ],
+     [
+      "Hypnozoite / relapse",
+      "No",
+      "Yes (primaquine)",
+      "Yes",
+      "No (recrudescence for decades)"
+     ],
+     [
+      "Signature",
+      "Cerebral malaria, severe anaemia",
+      "Commonest in India alongside Pf",
+      "Tertian",
+      "Quartan fever, nephrotic syndrome"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Candida albicans**: germ tube within 2 h in serum at 37 °C, chlamydospores on corn-meal agar; **C. auris**: multidrug-resistant, outbreak-prone, misidentified by routine methods → echinocandin",
+   "**Cryptococcal meningitis**: CSF CrAg (LFA) most sensitive; induction amphotericin B + flucytosine → fluconazole; manage raised ICP with therapeutic LPs; defer ART 4–6 weeks (IRIS)",
+   "**E. histolytica**: trophozoite with ingested RBCs (pathogenic marker), flask-shaped ulcers, quadrinucleate cyst with chromatoid bars; liver abscess (anchovy-sauce pus, right lobe) → metronidazole + luminal agent (paromomycin/diloxanide); E. dispar is a non-pathogenic look-alike",
+   "**Giardia**: pear-shaped binucleate trophozoite, ventral sucking disc, 'falling-leaf' motility; duodenum/jejunum → steatorrhoea, malabsorption; IgA deficiency predisposes",
+   "**Kala-azar** (L. donovani, Phlebotomus argentipes): LD bodies (amastigotes) in macrophages – splenic aspirate most sensitive; **rK39** rapid test; India: single-dose liposomal amphotericin B 10 mg/kg; PKDL after treatment",
+   "**Neurocysticercosis** (eating T. solium EGGS, faeco-oral): stages vesicular (cyst with scolex, 'hole with dot') → colloidal (ring-enhancing, oedema) → granular-nodular → calcified; albendazole ± praziquantel (> 2 cysts) with steroids; antiepileptics; no cysticidal drugs for calcified-only lesions or cysticercal encephalitis; fundoscopy first",
+   "**Echinococcus granulosus**: dog definitive, sheep intermediate, man accidental; liver > lung; hydatid sand, daughter cysts, water-lily sign; albendazole + PAIR/surgery; rupture → anaphylaxis",
+   "**Autoinfection**: Strongyloides (filariform larvae; hyperinfection with steroids/HTLV-1, Gram-negative sepsis; rhabditiform larvae, not eggs, in stool; ivermectin), Enterobius, Hymenolepis nana, T. solium",
+   "**Larva migrans**: cutaneous – Ancylostoma braziliense (creeping eruption); visceral/ocular – Toxocara (eosinophilia; ocular form mimics retinoblastoma); larva currens = Strongyloides",
+   "**Filaria**: W. bancrofti (Culex quinquefasciatus, nocturnal periodicity, sheathed, no tail nuclei) vs Brugia malayi (Mansonia, 2 terminal nuclei); ICT antigen card any time of day; tropical pulmonary eosinophilia → DEC 3 weeks; MDA with IDA (ivermectin + DEC + albendazole)"
+  ],
+  "traps": [
+   {
+    "stem": "Diabetic in DKA with black nasal eschar; biopsy: broad aseptate right-angled hyphae; started on voriconazole",
+    "trap": "Voriconazole – 'best antifungal for moulds'",
+    "fix": "Mucorales are intrinsically resistant to voriconazole; give liposomal amphotericin B + urgent surgical debridement (posaconazole/isavuconazole step-down)"
+   },
+   {
+    "stem": "Person eats undercooked measly pork; risk?",
+    "trap": "Neurocysticercosis",
+    "fix": "Pork with cysticerci → intestinal taeniasis. Cysticercosis follows ingestion of T. solium EGGS (faeco-oral, including autoinfection from a tapeworm carrier)"
+   },
+   {
+    "stem": "Peripheral smear with only ring forms and crescent-shaped gametocytes",
+    "trap": "P. vivax (most common in many regions)",
+    "fix": "Banana/crescent gametocytes are diagnostic of P. falciparum; usually only rings and gametocytes circulate (schizonts sequestered)"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Aspergillus hyphae are {{c1::narrow, septate with acute-angle (45°)}} branching; Mucor hyphae are {{c2::broad, aseptate with right-angle (90°)}} branching"
+   },
+   {
+    "type": "basic",
+    "front": "Dimorphic fungus with 'ship's wheel' multiple budding",
+    "back": "Paracoccidioides brasiliensis"
+   },
+   {
+    "type": "basic",
+    "front": "Dimorphic fungus forming spherules with endospores in tissue",
+    "back": "Coccidioides immitis/posadasii"
+   },
+   {
+    "type": "cloze",
+    "text": "Strongyloides causes {{c1::autoinfection}} and {{c2::hyperinfection}} in patients on steroids; DOC is ivermectin"
+   },
+   {
+    "type": "basic",
+    "front": "Rapid test for visceral leishmaniasis used in India",
+    "back": "rK39 immunochromatographic strip test"
+   },
+   {
+    "type": "basic",
+    "front": "Dimorphic fungus endemic in Manipur causing umbilicated papules in HIV",
+    "back": "Talaromyces (Penicillium) marneffei – divides by fission, red diffusible pigment"
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Zygomycosis, mucormycosis 1.jpg",
+    "caption": "Mucormycosis: broad, irregular, non-septate hyphae with right-angle branching (contrast Aspergillus: narrow septate, acute-angle)"
+   },
+   {
+    "commons": "File:Cryptococcus neoformans using a light India ink staining preparation PHIL 3771 lores.jpg",
+    "caption": "India-ink preparation: budding yeasts surrounded by a clear halo (polysaccharide capsule) – Cryptococcus neoformans"
+   },
+   {
+    "commons": "File:Plasmodium falciparum gametocyte.jpg",
+    "caption": "Crescent/banana-shaped gametocyte in peripheral smear – diagnostic of P. falciparum"
+   }
+  ],
+  "keywords": [
+   "dimorphic fungi",
+   "histoplasma",
+   "blastomyces",
+   "coccidioides",
+   "paracoccidioides",
+   "sporothrix",
+   "talaromyces",
+   "aspergillus",
+   "mucormycosis",
+   "cryptococcus",
+   "india ink",
+   "candida",
+   "pneumocystis",
+   "entamoeba histolytica",
+   "giardia",
+   "malaria",
+   "plasmodium falciparum",
+   "leishmania",
+   "rk39",
+   "neurocysticercosis"
+  ],
+  "wiki": [
+   "Mucormycosis",
+   "Neurocysticercosis",
+   "Plasmodium_falciparum"
+  ],
+  "verify": "Jagdish Chander Mycology 4e; Paniker Parasitology 8e; IDSA/ASTMH 2017 neurocysticercosis; NCVBDC kala-azar & malaria guidelines"
+ },
+ {
+  "id": "mic-immunology-sterilisation",
+  "title": "Immunoglobulins, complement, vaccines, sterilisation & infection control",
+  "subject": "Microbiology",
+  "system": "Immunology / Infection control",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "IgG crosses placenta; IgM first, pentamer, best complement fixer; IgA secretory dimer; IgE mast cells",
+   "Autoclave 121 °C, 15 psi, 15 min → Geobacillus stearothermophilus; hot air oven 160 °C × 2 h → Bacillus atrophaeus",
+   "C5–C9 deficiency → recurrent Neisseria; C1-INH deficiency → hereditary angioedema (low C4)"
+  ],
+  "tables": [
+   {
+    "title": "Immunoglobulins",
+    "head": [
+     "Class",
+     "Structure",
+     "Key features"
+    ],
+    "rows": [
+     [
+      "IgG",
+      "Monomer, 4 subclasses",
+      "Most abundant in serum, crosses placenta (FcRn), longest t½ (~3 weeks), secondary response, opsonin; IgG3 > IgG1 strongest complement fixers"
+     ],
+     [
+      "IgM",
+      "Pentamer + J chain",
+      "First in primary response, largest, most efficient agglutination & complement fixation; cord IgM = intrauterine infection; isohaemagglutinins"
+     ],
+     [
+      "IgA",
+      "Serum monomer; secretory dimer + J chain + secretory component",
+      "Mucosal, colostrum; most produced daily; IgA deficiency → anaphylaxis to blood products"
+     ],
+     [
+      "IgE",
+      "Monomer",
+      "Lowest serum level, binds FcεRI on mast cells/basophils, type I hypersensitivity, helminths; heat-labile"
+     ],
+     [
+      "IgD",
+      "Monomer",
+      "Naive B-cell receptor with IgM"
+     ]
+    ]
+   },
+   {
+    "title": "Sterilisation & disinfection",
+    "head": [
+     "Method",
+     "Parameters",
+     "Use / biological indicator"
+    ],
+    "rows": [
+     [
+      "Autoclave (moist heat)",
+      "121 °C, 15 psi, 15 min (134 °C, 3 min flash)",
+      "Surgical instruments, linen, media; Geobacillus stearothermophilus"
+     ],
+     [
+      "Hot air oven (dry heat)",
+      "160 °C × 2 h (180 °C × 30 min)",
+      "Glassware, sharp instruments, oils, powders; Bacillus atrophaeus (formerly B. subtilis var niger)"
+     ],
+     [
+      "Ethylene oxide",
+      "Gas, ~50–60 °C",
+      "Heat-sensitive plastics, catheters; Bacillus atrophaeus; toxic/carcinogenic"
+     ],
+     [
+      "H₂O₂ plasma",
+      "Low temperature",
+      "Heat-sensitive devices; G. stearothermophilus"
+     ],
+     [
+      "Ionising (gamma) radiation",
+      "Cold sterilisation",
+      "Disposable syringes, gloves, sutures; Bacillus pumilus"
+     ],
+     [
+      "Membrane filtration",
+      "0.22 μm",
+      "Sera, antibiotic & sugar solutions; Brevundimonas diminuta"
+     ],
+     [
+      "Pasteurisation",
+      "Holder 63 °C × 30 min; flash 72 °C × 15–20 s",
+      "Milk; Coxiella burnetii is the target; phosphatase test checks adequacy"
+     ],
+     [
+      "Tyndallisation / inspissation",
+      "100 °C × 20 min, 3 days / 80–85 °C × 30 min, 3 days",
+      "Sugar & egg media / LJ, Loeffler serum"
+     ],
+     [
+      "2% glutaraldehyde",
+      "20 min high-level disinfection; ~10 h sterilant",
+      "Endoscopes, semi-critical items"
+     ],
+     [
+      "Prions",
+      "Autoclave 134 °C × 18 min ± 1N NaOH",
+      "Most resistant infectious agents"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Complement: classical (C1q–IgG/IgM), lectin (MBL–MASP), alternative (spontaneous C3 hydrolysis, factor B, D, properdin) → C3 convertase → C5 convertase → MAC (C5b–9); **C3b** opsonin, **C5a** chemotaxis, C3a/C5a anaphylatoxins",
+   "Deficiencies: early classical (C1q, C2, C4) → SLE-like; C3 → recurrent pyogenic infections; C5–C9 → Neisseria; CD55/CD59 → PNH; factor H → aHUS; eculizumab (anti-C5) → give meningococcal vaccine",
+   "Live vaccines: BCG, OPV, MR/MMR, rotavirus, varicella, yellow fever (17D), JE SA-14-14-2, Ty21a typhoid, LAIV – avoid in pregnancy/immunosuppression",
+   "Killed: IPV, rabies, whole-cell pertussis, KFD, inactivated JE (JENVAC); toxoids: tetanus, diphtheria; subunit/recombinant: hepatitis B (HBsAg), HPV (VLP), acellular pertussis; polysaccharide (T-independent, poor < 2 y): PPSV23, Vi typhoid; conjugate (T-dependent): Hib, PCV, typhoid conjugate",
+   "Newer platforms: mRNA (Pfizer/Moderna COVID; India's GEMCOVAC), viral vector (Covishield – ChAdOx1), DNA vaccine ZyCoV-D (India, first human DNA vaccine)",
+   "Cold chain: ILR 2–8 °C; most heat-sensitive = OPV; freeze-sensitive = hepatitis B, pentavalent/DPT, Td, PCV, IPV → **shake test** for suspected freezing; VVM inner square matching/darker than outer circle → discard",
+   "Open vial policy (India): applies to OPV, DPT, Td, hepatitis B, pentavalent, PCV, IPV (up to 28 days with conditions); reconstituted BCG, MR, JE → discard after 4 h or end of session",
+   "Resistance to disinfectants: prions > bacterial spores > mycobacteria > non-enveloped viruses > fungi > vegetative bacteria > enveloped viruses; **Spaulding**: critical → sterilise, semi-critical → HLD, non-critical → low-level",
+   "Infection control: WHO 5 moments of hand hygiene (alcohol rub 20–30 s; soap & water for C. difficile spores/norovirus); airborne precautions (TB, measles, varicella – N95, negative-pressure room); droplet (influenza, meningococcus, pertussis, diphtheria); needle-stick seroconversion risk HBV ~30% > HCV ~3% > HIV ~0.3%",
+   "BMW Rules 2016 (cross-ref Community Medicine): yellow – anatomical, soiled, cytotoxic, expired drugs, lab cultures → incineration; red – contaminated recyclable plastics (tubing, IV sets, gloves, catheters) → autoclave + shred; white translucent puncture-proof – sharps/needles; blue – glassware & metallic implants"
+  ],
+  "traps": [
+   {
+    "stem": "Biological indicator for hot air oven",
+    "trap": "Geobacillus stearothermophilus (the familiar autoclave spore)",
+    "fix": "Bacillus atrophaeus spores (formerly B. subtilis var niger) for dry heat and ethylene oxide; G. stearothermophilus for autoclave and plasma"
+   },
+   {
+    "stem": "Which immunoglobulin in cord blood indicates congenital infection?",
+    "trap": "IgG (the placenta-crossing antibody)",
+    "fix": "IgM – does not cross the placenta, so its presence means the fetus made it; IgG may be maternal"
+   },
+   {
+    "stem": "Recurrent meningococcal meningitis in a young adult; likely defect?",
+    "trap": "C3 deficiency or hypogammaglobulinaemia",
+    "fix": "Terminal complement (C5–C9, MAC) deficiency; screen with CH50"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Autoclave standard cycle: {{c1::121 °C}} at {{c2::15 psi}} for {{c3::15 minutes}}"
+   },
+   {
+    "type": "basic",
+    "front": "Biological indicator for ionising radiation sterilisation",
+    "back": "Bacillus pumilus spores"
+   },
+   {
+    "type": "basic",
+    "front": "Most abundant immunoglobulin produced daily (total body)",
+    "back": "IgA (IgG is most abundant in serum)"
+   },
+   {
+    "type": "cloze",
+    "text": "Hereditary angioedema is due to deficiency of {{c1::C1 esterase inhibitor}}; {{c2::C4}} is low even between attacks"
+   },
+   {
+    "type": "basic",
+    "front": "Most heat-sensitive vaccine in UIP cold chain",
+    "back": "OPV (stored frozen at district level and above)"
+   },
+   {
+    "type": "basic",
+    "front": "BMW bag colour for contaminated IV tubing, catheters and gloves",
+    "back": "Red (recyclable contaminated plastic) – autoclaved/microwaved, shredded, recycled"
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "immunoglobulin",
+   "igg",
+   "igm",
+   "iga",
+   "ige",
+   "complement",
+   "classical pathway",
+   "alternative pathway",
+   "mac deficiency",
+   "hereditary angioedema",
+   "live vaccine",
+   "killed vaccine",
+   "toxoid",
+   "conjugate vaccine",
+   "cold chain",
+   "vvm",
+   "autoclave",
+   "hot air oven",
+   "geobacillus stearothermophilus",
+   "sterilisation"
+  ],
+  "wiki": [
+   "Sterilization_(microbiology)",
+   "Complement_system",
+   "Antibody"
+  ],
+  "verify": "Ananthanarayan 12e; Park PSM 27e; BMW Management Rules 2016 (amended 2018); UIP Immunization Handbook for Medical Officers"
+ }
+]

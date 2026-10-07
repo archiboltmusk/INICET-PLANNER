@@ -1,0 +1,2742 @@
+[
+ {
+  "id": "ana-neuroanatomy-tracts",
+  "title": "Spinal tracts, cord syndromes, cavernous sinus & brainstem localisation",
+  "subject": "Anatomy",
+  "system": "Neuroanatomy",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Crossed signs (ipsilateral cranial nerve + contralateral body) = brainstem lesion; cord lesion = level + long-tract signs",
+   "Brown-Séquard: ipsilateral UMN weakness + ipsilateral vibration/proprioception loss; contralateral pain/temperature loss starting 1–2 segments below",
+   "Cavernous sinus lateral wall (top → bottom): III, IV, V1, V2; free inside the sinus: ICA (with sympathetic plexus) + VI → abducens palsy is the earliest sign",
+   "Anterior spinal artery occlusion: paraplegia + pain/temperature loss with dorsal columns (vibration, position) spared"
+  ],
+  "tables": [
+   {
+    "title": "Long tracts: where they cross",
+    "head": [
+     "Tract",
+     "Carries",
+     "Neuron that crosses / site",
+     "Unilateral cord lesion"
+    ],
+    "rows": [
+     [
+      "Dorsal column–medial lemniscus",
+      "Fine touch, vibration, proprioception",
+      "2nd-order (n. gracilis/cuneatus) → internal arcuate fibres, sensory decussation in lower medulla → VPL",
+      "Ipsilateral loss below lesion"
+     ],
+     [
+      "Lateral spinothalamic",
+      "Pain, temperature",
+      "2nd-order (dorsal horn) crosses in anterior white commissure within 1–2 segments of entry → VPL",
+      "Contralateral loss from 1–2 segments below"
+     ],
+     [
+      "Lateral corticospinal",
+      "Voluntary motor (limbs)",
+      "UMN crosses at pyramidal decussation (lower medulla), ~85–90% of fibres",
+      "Ipsilateral UMN weakness below"
+     ],
+     [
+      "Anterior corticospinal",
+      "Axial/proximal motor",
+      "Uncrossed in medulla; crosses at segmental level",
+      "Minor deficit"
+     ],
+     [
+      "Dorsal spinocerebellar",
+      "Unconscious proprioception (lower limb)",
+      "Uncrossed (Clarke's column) → inferior cerebellar peduncle",
+      "Ipsilateral ataxia"
+     ],
+     [
+      "Ventral spinocerebellar",
+      "Unconscious proprioception",
+      "Crosses twice → superior cerebellar peduncle (net ipsilateral)",
+      "Ipsilateral"
+     ]
+    ]
+   },
+   {
+    "title": "Spinal cord syndromes",
+    "head": [
+     "Syndrome",
+     "Typical cause",
+     "Lost",
+     "Spared"
+    ],
+    "rows": [
+     [
+      "Central cord",
+      "Hyperextension injury in elderly with cervical spondylosis; syringomyelia",
+      "Upper limbs > lower limbs (weakness); syrinx: bilateral cape-like pain/temp loss",
+      "Dorsal columns (early); sacral sensation"
+     ],
+     [
+      "Anterior cord",
+      "Anterior spinal artery occlusion (aortic surgery/dissection), flexion injury",
+      "Motor below level (bilateral), pain & temperature",
+      "Vibration & proprioception (posterior spinal arteries)"
+     ],
+     [
+      "Posterior cord",
+      "B12 deficiency (SACD, also lateral columns), tabes dorsalis",
+      "Vibration, proprioception; Romberg positive; sensory ataxia",
+      "Pain, temperature; motor (unless SACD lateral columns)"
+     ],
+     [
+      "Brown-Séquard (hemisection)",
+      "Penetrating trauma, tumour",
+      "Ipsilateral: UMN weakness, DCML loss, LMN signs + band of anaesthesia at level; Contralateral: pain/temp",
+      "—"
+     ],
+     [
+      "Conus vs cauda equina",
+      "Disc, tumour",
+      "Conus: early bilateral, symmetric saddle anaesthesia, early sphincter loss, mixed UMN/LMN; Cauda: asymmetric radicular pain, LMN, late sphincters",
+      "—"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Cavernous sinus**: III, IV, V1, V2 in the lateral wall; ICA and VI lie within the sinus. V3 is NOT in the cavernous sinus (exits via foramen ovale)",
+   "Infection of the danger area of the face spreads via facial vein → superior ophthalmic vein/pterygoid plexus → cavernous sinus thrombosis (proptosis, chemosis, ophthalmoplegia, V1/V2 sensory loss)",
+   "**Circle of Willis**: ICA, ACA, ACom, PCom, PCA (MCA is not part). Commonest berry aneurysm: ACom junction; PCom aneurysm → pupil-involving CN III palsy",
+   "**Internal capsule**: posterior limb (corticospinal) supplied by lenticulostriate branches of MCA + anterior choroidal artery (ICA); anterior limb also by recurrent artery of Heubner (ACA). Charcot–Bouchard microaneurysms of lenticulostriates → putaminal bleed",
+   "**Basal ganglia**: direct pathway (D1) facilitates movement, indirect (D2) inhibits; Parkinson = loss of substantia nigra pars compacta dopaminergic neurons; hemiballismus = contralateral subthalamic nucleus; Huntington = caudate atrophy",
+   "**Cerebellum**: hemisphere lesions give IPSILATERAL limb ataxia, intention tremor, dysdiadochokinesia, past-pointing; vermis → truncal ataxia (alcoholic anterior vermis degeneration). Sole output of cerebellar cortex = Purkinje cells (GABA, inhibitory) to deep nuclei",
+   "**Thalamic relays**: VPL (body somatosensory), VPM (face + taste), LGN (vision), MGN (hearing), VL (motor from cerebellum/basal ganglia), anterior nucleus (Papez circuit, via mammillothalamic tract)",
+   "**Rule of 4**: cranial nerve motor nuclei that divide 12 (III, IV, VI, XII) are medial; medial structures = Motor tract, Medial lemniscus, MLF; lateral = spinothalamic, sympathetic, spinocerebellar, spinal V",
+   "Nucleus ambiguus (IX, X, XI motor) lesion in lateral medulla → dysphagia, hoarseness; nucleus tractus solitarius = taste (VII, IX, X) + visceral afferents; facial colliculus = VI nucleus + looping VII fibres"
+  ],
+  "traps": [
+   {
+    "stem": "Stab wound hemisects the cord on the RIGHT at T10. Where is pain and temperature lost?",
+    "trap": "Right side below T10 — tempting because every other deficit is ipsilateral",
+    "fix": "LEFT side from about T11–T12 down (spinothalamic fibres have already crossed). Right side: UMN paralysis + vibration/position loss; band of total anaesthesia at the level on the right"
+   },
+   {
+    "stem": "Earliest cranial nerve palsy in cavernous sinus thrombosis or an intracavernous ICA aneurysm?",
+    "trap": "Oculomotor (III) — it is the classic 'pupil' nerve and lies uppermost in the lateral wall",
+    "fix": "Abducens (VI): it runs free inside the sinus beside the ICA, unprotected by the dural wall, so lateral gaze palsy appears first"
+   },
+   {
+    "stem": "Vertigo, ipsilateral Horner, hoarseness, ipsilateral facial and contralateral body pain/temperature loss. Is there limb weakness?",
+    "trap": "Contralateral hemiparesis — confusing lateral with medial medullary syndrome",
+    "fix": "No weakness: lateral medullary (Wallenberg; vertebral artery > PICA) spares the pyramids. Medial medullary (anterior spinal artery/vertebral) = contralateral hemiparesis + contralateral DCML loss + ipsilateral tongue deviation (XII)"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Lateral wall of the cavernous sinus, top to bottom: {{c1::III, IV, V1, V2}}; within the sinus: {{c2::internal carotid artery and abducens (VI)}}."
+   },
+   {
+    "type": "basic",
+    "front": "Anterior spinal artery occlusion: which modalities are spared?",
+    "back": "Vibration and proprioception (dorsal columns, supplied by posterior spinal arteries). Motor and pain/temperature lost below the level."
+   },
+   {
+    "type": "cloze",
+    "text": "Spinothalamic fibres cross in the {{c1::anterior white commissure}} within 1–2 segments; dorsal column fibres cross in the {{c2::lower medulla (internal arcuate fibres)}}."
+   },
+   {
+    "type": "basic",
+    "front": "Thalamic nucleus relaying taste and facial sensation?",
+    "back": "VPM (ventral posteromedial). VPL = body; LGN = vision; MGN = hearing."
+   },
+   {
+    "type": "cloze",
+    "text": "Hemiballismus results from a lesion of the {{c1::contralateral subthalamic nucleus}}."
+   },
+   {
+    "type": "basic",
+    "front": "Side of signs in a cerebellar hemisphere lesion?",
+    "back": "Ipsilateral (double crossing of cerebellar outflow + corticospinal tract)."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Cavernous sinus.png",
+    "caption": "Coronal section through the cavernous sinus: III, IV, V1, V2 in the lateral wall; ICA with VI inside the sinus beside the pituitary"
+   },
+   {
+    "commons": "File:Circle of Willis en.svg",
+    "caption": "Circle of Willis: ACA–ACom–ICA–PCom–PCA ring; MCA arises from ICA but is not part of the circle; ACom = commonest berry aneurysm site"
+   }
+  ],
+  "keywords": [
+   "brown-sequard",
+   "hemisection",
+   "spinothalamic",
+   "dorsal column",
+   "corticospinal",
+   "decussation",
+   "anterior spinal artery",
+   "central cord syndrome",
+   "syringomyelia",
+   "cavernous sinus",
+   "abducens",
+   "circle of willis",
+   "internal capsule",
+   "lenticulostriate",
+   "subthalamic nucleus",
+   "hemiballismus",
+   "cerebellar lesion",
+   "thalamus",
+   "vpm",
+   "lateral medullary syndrome"
+  ],
+  "wiki": [
+   "Brown-Séquard_syndrome",
+   "Cavernous_sinus",
+   "Dorsal_column–medial_lemniscus_pathway"
+  ],
+  "verify": "Snell Clinical Neuroanatomy / BDC Vol 4; lateral medullary syndrome is more often vertebral than PICA occlusion"
+ },
+ {
+  "id": "ana-head-neck",
+  "title": "Head & neck: pharyngeal arches, foramina, larynx, tongue",
+  "subject": "Anatomy",
+  "system": "Head & Neck",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Arch nerves: 1 = V3, 2 = VII, 3 = IX, 4 = superior laryngeal (X), 6 = recurrent laryngeal (X)",
+   "Pouches: 3rd → inferior parathyroid + thymus; 4th → superior parathyroid + ultimobranchial body (C cells); DiGeorge = 3rd/4th pouch failure (22q11.2)",
+   "Posterior cricoarytenoid = the ONLY abductor of the vocal cords; cricothyroid = only intrinsic muscle supplied by external laryngeal nerve"
+  ],
+  "tables": [
+   {
+    "title": "Pharyngeal arch derivatives",
+    "head": [
+     "Arch",
+     "Nerve",
+     "Muscles",
+     "Skeletal",
+     "Artery"
+    ],
+    "rows": [
+     [
+      "1st (mandibular)",
+      "V3",
+      "Mastication, mylohyoid, anterior belly digastric, tensor tympani, tensor veli palatini",
+      "Meckel's cartilage → malleus, incus, sphenomandibular ligament",
+      "Part of maxillary artery"
+     ],
+     [
+      "2nd (hyoid)",
+      "VII",
+      "Facial expression, stapedius, stylohyoid, posterior belly digastric",
+      "Reichert's cartilage → stapes, styloid process, stylohyoid ligament, lesser horn + upper body of hyoid",
+      "Stapedial, hyoid arteries"
+     ],
+     [
+      "3rd",
+      "IX",
+      "Stylopharyngeus (only)",
+      "Greater horn + lower body of hyoid",
+      "Common carotid, proximal ICA"
+     ],
+     [
+      "4th",
+      "X (superior laryngeal)",
+      "Cricothyroid, pharyngeal constrictors, levator veli palatini, palatoglossus",
+      "Thyroid cartilage (laryngeal cartilages from 4th + 6th)",
+      "Left: arch of aorta; Right: proximal right subclavian"
+     ],
+     [
+      "6th",
+      "X (recurrent laryngeal)",
+      "All intrinsic laryngeal muscles except cricothyroid",
+      "Cricoid, arytenoid, corniculate, cuneiform",
+      "Pulmonary arteries; left 6th → ductus arteriosus"
+     ]
+    ]
+   },
+   {
+    "title": "Skull foramina & contents",
+    "head": [
+     "Foramen",
+     "Contents"
+    ],
+    "rows": [
+     [
+      "Optic canal",
+      "CN II, ophthalmic artery"
+     ],
+     [
+      "Superior orbital fissure",
+      "III, IV, V1 branches (lacrimal, frontal, nasociliary), VI, superior ophthalmic vein"
+     ],
+     [
+      "Foramen rotundum",
+      "V2"
+     ],
+     [
+      "Foramen ovale",
+      "V3, accessory meningeal artery, lesser petrosal nerve, emissary vein (OVALE)"
+     ],
+     [
+      "Foramen spinosum",
+      "Middle meningeal artery, meningeal branch of V3 (nervus spinosus)"
+     ],
+     [
+      "Foramen lacerum",
+      "Nothing traverses its full length; ICA crosses its upper part; greater + deep petrosal → nerve of pterygoid canal"
+     ],
+     [
+      "Internal acoustic meatus",
+      "VII, VIII, labyrinthine artery"
+     ],
+     [
+      "Jugular foramen",
+      "IX, X, XI, internal jugular vein (sigmoid sinus), inferior petrosal sinus"
+     ],
+     [
+      "Hypoglossal canal / Stylomastoid",
+      "XII / VII (after it leaves the facial canal)"
+     ],
+     [
+      "Foramen magnum",
+      "Medulla, vertebral arteries, spinal roots of XI, anterior & posterior spinal arteries"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Pouches**: 1st → middle ear, Eustachian tube, mastoid antrum; 2nd → palatine tonsil epithelium; 3rd → inferior parathyroid + thymus; 4th → superior parathyroid + ultimobranchial body. 1st cleft → external acoustic meatus; branchial cyst is usually a 2nd-cleft remnant at anterior border of SCM",
+   "Inferior parathyroid (3rd pouch) migrates further with the thymus → more often ectopic (e.g. mediastinal)",
+   "**Tongue**: anterior 2/3 — general sensation lingual (V3), taste chorda tympani (VII); posterior 1/3 incl. circumvallate papillae — IX (both); root/epiglottic region — internal laryngeal (X). All muscles XII except palatoglossus (X, pharyngeal plexus)",
+   "**Larynx**: cricothyroid (tensor) — external laryngeal nerve; all other intrinsic muscles — recurrent laryngeal. Sensation above cords internal laryngeal, below cords recurrent laryngeal",
+   "**Pterygopalatine fossa**: V2, pterygopalatine ganglion, 3rd part of maxillary artery; communicates with orbit (inferior orbital fissure), nasal cavity (sphenopalatine foramen), middle cranial fossa (foramen rotundum, pterygoid canal). Greater petrosal fibres relay here → lacrimal gland",
+   "**Parotid**: facial nerve divides within the gland (most superficial structure, superficial to retromandibular vein and ECA) into temporal, zygomatic, buccal, marginal mandibular, cervical. Secretomotor: IX → tympanic → lesser petrosal → otic ganglion → auriculotemporal (Frey syndrome after parotidectomy)",
+   "**Scalp (SCALP)**: Skin, dense Connective tissue (vessels held open → profuse bleeding), Aponeurosis (galea), Loose areolar tissue (danger area: emissary veins → intracranial spread), Pericranium",
+   "**Neck triangles**: anterior = submental, submandibular, carotid, muscular; posterior = occipital + subclavian. Spinal accessory nerve crosses the posterior triangle → trapezius palsy after node biopsy. Carotid bifurcation at upper border of thyroid cartilage (C3–C4)",
+   "**Dangerous area of face** (upper lip, nose): facial vein ↔ superior ophthalmic vein & deep facial vein → pterygoid plexus → cavernous sinus thrombosis"
+  ],
+  "traps": [
+   {
+    "stem": "Superior parathyroid glands develop from which pharyngeal pouch?",
+    "trap": "3rd pouch — 'superior' sounds like it should come from the higher numbered pouch above",
+    "fix": "4th pouch. The inferior parathyroids come from the 3rd pouch (with the thymus) and descend past the 4th-pouch glands"
+   },
+   {
+    "stem": "Bilateral recurrent laryngeal nerve damage after thyroidectomy causes stridor. Which muscle's loss explains it?",
+    "trap": "Lateral cricoarytenoid or cricothyroid",
+    "fix": "Posterior cricoarytenoid — sole abductor. Cricothyroid (external laryngeal) is spared, so cords lie paramedian and airway narrows"
+   },
+   {
+    "stem": "Middle meningeal artery traverses which foramen?",
+    "trap": "Foramen ovale (it is right next door and carries the accessory meningeal artery)",
+    "fix": "Foramen spinosum. Ovale = V3, accessory meningeal artery, lesser petrosal nerve, emissary vein"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Stapes, styloid process and lesser horn of hyoid derive from the {{c1::2nd}} arch (Reichert's cartilage); malleus and incus from the {{c2::1st}} arch."
+   },
+   {
+    "type": "basic",
+    "front": "Only muscle derived from the 3rd pharyngeal arch?",
+    "back": "Stylopharyngeus (supplied by IX)."
+   },
+   {
+    "type": "basic",
+    "front": "Taste from the circumvallate papillae is carried by?",
+    "back": "Glossopharyngeal nerve (IX) — though they lie just anterior to the sulcus terminalis."
+   },
+   {
+    "type": "cloze",
+    "text": "The only tongue muscle not supplied by XII is {{c1::palatoglossus}}, supplied by {{c2::vagus via the pharyngeal plexus}}."
+   },
+   {
+    "type": "cloze",
+    "text": "Ultimobranchial body (parafollicular C cells) arises from the {{c1::4th}} pharyngeal pouch."
+   },
+   {
+    "type": "basic",
+    "front": "Which scalp layer is the 'dangerous layer' and why?",
+    "back": "Loose areolar tissue (4th layer): emissary veins connect it to dural sinuses, so infection spreads intracranially."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Pharyngeal arches.jpg",
+    "caption": "Embryo pharyngeal arches: identify arches 1–4/6 and link each to its nerve (V3, VII, IX, X)"
+   }
+  ],
+  "keywords": [
+   "pharyngeal arch",
+   "branchial arch",
+   "pharyngeal pouch",
+   "branchial cleft",
+   "digeorge",
+   "parathyroid development",
+   "foramen ovale",
+   "foramen spinosum",
+   "jugular foramen",
+   "superior orbital fissure",
+   "pterygopalatine fossa",
+   "posterior cricoarytenoid",
+   "recurrent laryngeal nerve",
+   "cricothyroid",
+   "tongue nerve supply",
+   "chorda tympani",
+   "parotid",
+   "facial nerve branches",
+   "scalp layers",
+   "danger area of face"
+  ],
+  "wiki": [
+   "Pharyngeal_arch",
+   "Foramina_of_the_skull",
+   "Pterygopalatine_fossa"
+  ],
+  "verify": "Langman's Embryology + BDC Vol 3. Laryngeal cartilages: Langman says 4th + 6th arches jointly; BDC tables thyroid → 4th, cricoid/arytenoid → 6th"
+ },
+ {
+  "id": "ana-upper-limb",
+  "title": "Upper limb: brachial plexus, nerve injuries & spaces",
+  "subject": "Anatomy",
+  "system": "Upper limb",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Plexus: Roots C5–T1 → Trunks (posterior triangle) → Divisions (behind clavicle) → Cords (axilla, around 2nd part of axillary artery) → Branches",
+   "Erb (C5–C6, upper trunk) = waiter's tip; Klumpke (C8–T1, lower trunk) = claw hand ± Horner",
+   "Carpal tunnel = median nerve + 9 tendons (4 FDS, 4 FDP, FPL); NOT ulnar nerve, NOT palmaris longus"
+  ],
+  "tables": [
+   {
+    "title": "Upper limb nerve lesions",
+    "head": [
+     "Lesion (roots)",
+     "Typical cause",
+     "Muscles lost",
+     "Sign"
+    ],
+    "rows": [
+     [
+      "Erb–Duchenne (C5, C6)",
+      "Shoulder–head distraction; birth injury",
+      "Deltoid, supra/infraspinatus, biceps, brachialis, brachioradialis, supinator",
+      "Waiter's tip: arm adducted, medially rotated, elbow extended, forearm pronated"
+     ],
+     [
+      "Klumpke (C8, T1)",
+      "Arm pulled upward (breech), cervical rib, Pancoast",
+      "Intrinsic hand muscles",
+      "Total claw hand; Horner if T1 ramus involved"
+     ],
+     [
+      "Axillary (C5, C6)",
+      "Surgical neck fracture, shoulder dislocation",
+      "Deltoid, teres minor",
+      "Weak abduction 15–90°; regimental badge anaesthesia"
+     ],
+     [
+      "Radial (spiral groove)",
+      "Mid-shaft humerus fracture, Saturday night palsy",
+      "Wrist & finger extensors (triceps usually spared)",
+      "Wrist drop; sensory loss first dorsal web space"
+     ],
+     [
+      "Median (elbow / wrist)",
+      "Supracondylar fracture / carpal tunnel",
+      "Elbow: + FDS, lateral FDP, pronators; Wrist: LOAF (lateral 2 lumbricals, opponens, APB, FPB)",
+      "Elbow: hand of benediction on fist attempt, Ochsner clasp; Wrist: ape thumb, thenar wasting"
+     ],
+     [
+      "Ulnar (elbow / wrist)",
+      "Medial epicondyle fracture / Guyon canal",
+      "Hypothenar, interossei, medial 2 lumbricals, adductor pollicis (± FCU, medial FDP at elbow)",
+      "Claw of ring + little fingers, Froment sign, card test; worse clawing in wrist lesion (ulnar paradox)"
+     ],
+     [
+      "Long thoracic (C5–C7)",
+      "Mastectomy/axillary clearance",
+      "Serratus anterior",
+      "Winging of scapula; cannot abduct above 90°"
+     ]
+    ]
+   },
+   {
+    "title": "Spaces & their contents",
+    "head": [
+     "Space",
+     "Boundaries / key fact",
+     "Contents"
+    ],
+    "rows": [
+     [
+      "Cubital fossa",
+      "Lateral: brachioradialis; medial: pronator teres; base: line between epicondyles",
+      "Lateral → medial: biceps Tendon, brachial Artery, median Nerve (TAN); radial nerve deep laterally"
+     ],
+     [
+      "Carpal tunnel",
+      "Flexor retinaculum over carpal arch",
+      "Median nerve, FPL, 4 FDS, 4 FDP (FCR runs in a separate split of the retinaculum)"
+     ],
+     [
+      "Anatomical snuffbox",
+      "Lateral: APL + EPB; medial: EPL; floor: scaphoid, trapezium",
+      "Radial artery; tenderness = scaphoid fracture (risk of proximal pole AVN)"
+     ],
+     [
+      "Quadrangular space",
+      "Teres minor, teres major, long head triceps, surgical neck of humerus",
+      "Axillary nerve + posterior circumflex humeral artery"
+     ],
+     [
+      "Triangular interval",
+      "Teres major, long + lateral heads of triceps",
+      "Radial nerve + profunda brachii artery"
+     ],
+     [
+      "Clavipectoral fascia",
+      "Between pectoralis minor and clavicle",
+      "Pierced by cephalic vein, thoracoacromial artery, lateral pectoral nerve, lymphatics"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Branches**: roots → dorsal scapular (C5), long thoracic (C5–7); upper trunk → suprascapular, nerve to subclavius; lateral cord → lateral pectoral, musculocutaneous, lateral root of median; medial cord → medial pectoral, medial cutaneous of arm & forearm, ulnar, medial root of median; posterior cord → upper & lower subscapular, thoracodorsal, axillary, radial",
+   "**Root values**: musculocutaneous C5–C7; axillary C5–C6; radial C5–T1; median C5/6–T1; ulnar C8–T1 (± C7)",
+   "**Dermatomes**: C5 lateral arm, C6 thumb, C7 middle finger, C8 little finger, T1 medial forearm; reflexes: biceps C5–6, brachioradialis C6, triceps C7",
+   "**Rotator cuff (SITS)**: supraspinatus (initiates abduction 0–15°, most commonly torn/impinged), infraspinatus + teres minor (lateral rotation), subscapularis (medial rotation). Deltoid abducts 15–90°; trapezius + serratus anterior above 90°",
+   "**Axillary artery**: 3 parts by pectoralis minor — 1 branch (superior thoracic), 2 (thoracoacromial, lateral thoracic), 3 (subscapular, anterior & posterior circumflex humeral)",
+   "**Scapular anastomosis**: suprascapular + dorsal scapular (from subclavian) with circumflex scapular (from subscapular) — links 1st part subclavian to 3rd part axillary; keeps the limb perfused if the axillary artery is ligated between thyrocervical trunk and subscapular origin",
+   "**Elbow anastomosis**: superior/inferior ulnar collateral + profunda branches ↔ radial, ulnar and interosseous recurrent arteries",
+   "Supracondylar humerus fracture: brachial artery (Volkmann ischaemic contracture) + median/anterior interosseous nerve; medial epicondyle fracture: ulnar nerve"
+  ],
+  "traps": [
+   {
+    "stem": "Which structure passes through the carpal tunnel?",
+    "trap": "Ulnar nerve or flexor carpi radialis/palmaris longus — all are close to the retinaculum",
+    "fix": "Median nerve + FPL + 4 FDS + 4 FDP. Ulnar nerve/artery run in Guyon's canal; palmaris longus is superficial to the retinaculum; FCR has its own split compartment"
+   },
+   {
+    "stem": "Ulnar nerve cut at the elbow vs at the wrist — which gives more marked clawing?",
+    "trap": "Elbow lesion, because it is 'higher' and more muscles are lost",
+    "fix": "Wrist lesion (ulnar paradox): at the elbow, ulnar half of FDP is also paralysed, so fingers do not flex at the IP joints and the claw is less obvious"
+   },
+   {
+    "stem": "Winging of scapula after axillary node clearance — nerve injured?",
+    "trap": "Thoracodorsal nerve (also in the axilla; supplies latissimus dorsi)",
+    "fix": "Long thoracic nerve (C5–C7) → serratus anterior. Thoracodorsal injury weakens extension/adduction but does not wing the scapula"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Erb palsy involves roots {{c1::C5–C6}} (upper trunk) and produces the {{c2::waiter's tip}} position."
+   },
+   {
+    "type": "basic",
+    "front": "Contents of the quadrangular space?",
+    "back": "Axillary nerve and posterior circumflex humeral artery."
+   },
+   {
+    "type": "basic",
+    "front": "Nerve for the regimental badge area of skin?",
+    "back": "Upper lateral cutaneous nerve of arm (axillary nerve, C5–C6)."
+   },
+   {
+    "type": "cloze",
+    "text": "Rotator cuff muscle that initiates abduction and is most commonly torn: {{c1::supraspinatus}}."
+   },
+   {
+    "type": "cloze",
+    "text": "Clavipectoral fascia is pierced by the {{c1::cephalic vein}}, thoracoacromial artery, {{c2::lateral pectoral nerve}} and lymphatics."
+   },
+   {
+    "type": "basic",
+    "front": "Froment sign tests which muscle and nerve?",
+    "back": "Adductor pollicis — ulnar nerve (patient flexes thumb IP joint using FPL, which is median-supplied)."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Brachial plexus color.svg",
+    "caption": "Trace roots → trunks → divisions → cords → terminal branches; note musculocutaneous from lateral cord, ulnar from medial cord, axillary + radial from posterior cord"
+   }
+  ],
+  "keywords": [
+   "brachial plexus",
+   "erb palsy",
+   "klumpke",
+   "waiter's tip",
+   "claw hand",
+   "wrist drop",
+   "radial nerve",
+   "median nerve",
+   "ulnar nerve",
+   "axillary nerve",
+   "long thoracic nerve",
+   "winging of scapula",
+   "carpal tunnel",
+   "cubital fossa",
+   "anatomical snuffbox",
+   "rotator cuff",
+   "supraspinatus",
+   "quadrangular space",
+   "clavipectoral fascia",
+   "scapular anastomosis"
+  ],
+  "wiki": [
+   "Brachial_plexus",
+   "Brachial_plexus_injury",
+   "Carpal_tunnel"
+  ],
+  "verify": "BDC Vol 1 (Upper limb) / Snell"
+ },
+ {
+  "id": "ana-lower-limb-pelvis",
+  "title": "Lower limb, inguinal canal & perineum",
+  "subject": "Anatomy",
+  "system": "Lower limb & Pelvis",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Femoral triangle lateral → medial: Nerve, Artery, Vein, (Empty space) femoral canal, Lymphatics — NAVEL; femoral nerve lies OUTSIDE the femoral sheath",
+   "Hesselbach triangle: inferior epigastric vessels (lateral), rectus abdominis edge (medial), inguinal ligament (inferior) → direct hernia; indirect = lateral to inferior epigastric",
+   "Superior gluteal nerve palsy → Trendelenburg sign: pelvis drops on the opposite (unsupported) side when standing on the affected leg"
+  ],
+  "tables": [
+   {
+    "title": "Lower limb spaces",
+    "head": [
+     "Space",
+     "Boundaries",
+     "Contents"
+    ],
+    "rows": [
+     [
+      "Femoral triangle",
+      "Inguinal ligament; medial border sartorius; medial border adductor longus; floor iliopsoas, pectineus, adductor longus",
+      "Femoral nerve (outside sheath), femoral artery, vein, femoral canal (lymph node of Cloquet)"
+     ],
+     [
+      "Femoral ring",
+      "Anterior: inguinal ligament; posterior: pectineal ligament; medial: lacunar ligament; lateral: femoral vein",
+      "Site of femoral hernia (below and lateral to pubic tubercle)"
+     ],
+     [
+      "Adductor (Hunter's) canal",
+      "Vastus medialis, adductor longus/magnus, sartorius roof",
+      "Femoral artery & vein, saphenous nerve, nerve to vastus medialis → adductor hiatus"
+     ],
+     [
+      "Popliteal fossa",
+      "Biceps femoris; semimembranosus/semitendinosus; two heads of gastrocnemius",
+      "Superficial → deep: tibial nerve, popliteal vein, popliteal artery; common peroneal along biceps tendon"
+     ],
+     [
+      "Inguinal canal",
+      "Anterior: external oblique aponeurosis (+ internal oblique laterally); posterior: transversalis fascia (+ conjoint tendon medially); roof: arching IO/TA fibres; floor: inguinal + lacunar ligaments",
+      "Spermatic cord / round ligament; ilioinguinal nerve (exits superficial ring, does not enter deep ring)"
+     ]
+    ]
+   },
+   {
+    "title": "Perineal pouches (male)",
+    "head": [
+     "Superficial perineal pouch",
+     "Deep perineal pouch"
+    ],
+    "rows": [
+     [
+      "Ischiocavernosus, bulbospongiosus, superficial transverse perineal",
+      "External urethral sphincter (sphincter urethrae), deep transverse perineal"
+     ],
+     [
+      "Root of penis (crura, bulb)",
+      "Membranous urethra"
+     ],
+     [
+      "Bulbar (spongy) urethra; perineal branches of pudendal nerve and vessels",
+      "Bulbourethral (Cowper's) glands, dorsal nerve of penis, internal pudendal vessels"
+     ],
+     [
+      "Female: Bartholin (greater vestibular) glands, bulb of vestibule, crura of clitoris",
+      "Female: urethra part, vagina, compressor urethrae, urethrovaginal sphincter"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Gluteal injection**: upper outer (superolateral) quadrant or ventrogluteal site — avoids the sciatic nerve (exits below piriformis via greater sciatic foramen)",
+   "**Common peroneal** winds round the neck of fibula → foot drop, loss of eversion and dorsiflexion, sensory loss dorsum of foot; deep peroneal alone → first web space anaesthesia. Tibial → loss of plantar flexion and inversion",
+   "**Venous drainage**: great saphenous anterior to medial malleolus → saphenous opening → femoral vein (~3–4 cm inferolateral to pubic tubercle); small saphenous behind lateral malleolus → popliteal vein. Perforators carry blood superficial → deep; valve incompetence → varicose veins",
+   "**Arches of foot**: medial longitudinal (keystone head of talus; spring ligament, tibialis posterior); lateral longitudinal (keystone cuboid; long & short plantar ligaments, peroneus longus); transverse (peroneus longus + tibialis posterior 'stirrup')",
+   "**Ischioanal fossa**: contains pudendal (Alcock's) canal with internal pudendal vessels and pudendal nerve, inferior rectal vessels/nerves, fat; communicates with opposite side behind the anal canal → horseshoe abscess",
+   "**Pelvic diaphragm**: levator ani (pubococcygeus incl. puborectalis, iliococcygeus) + coccygeus; supplied by nerve to levator ani (S4) and pudendal branches",
+   "**Pudendal nerve (S2–S4)**: leaves pelvis via greater sciatic foramen, hooks round ischial spine/sacrospinous ligament, enters perineum via lesser sciatic foramen → ischial spine is the landmark for pudendal block",
+   "**Lymphatics**: testis → para-aortic (L1–L2); scrotum, vulva, lower vagina, anal canal below pectinate line → superficial inguinal; glans penis/clitoris → deep inguinal; cervix → internal & external iliac, obturator, sacral; ovary → para-aortic; uterine fundus → para-aortic (+ some via round ligament to superficial inguinal); prostate → internal iliac"
+  ],
+  "traps": [
+   {
+    "stem": "Which structure in the femoral triangle lies outside the femoral sheath?",
+    "trap": "Femoral vein — it is the most medial vessel and seems peripheral",
+    "fix": "Femoral nerve. Sheath compartments: lateral (artery + femoral branch of genitofemoral), intermediate (vein), medial (femoral canal)"
+   },
+   {
+    "stem": "Patient with right superior gluteal nerve injury stands on the right leg. What happens?",
+    "trap": "Right side of pelvis drops — assuming the weak side sags",
+    "fix": "LEFT (unsupported) hemipelvis drops because right gluteus medius/minimus cannot hold the pelvis level"
+   },
+   {
+    "stem": "Seminoma of the testis — first nodal station?",
+    "trap": "Superficial inguinal nodes — testis lies in the scrotum, whose skin drains there",
+    "fix": "Para-aortic nodes at L1–L2 (testis descends from the abdomen, carrying its lymphatics). Scrotal skin → superficial inguinal"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Contents of the adductor canal: femoral vessels, {{c1::saphenous nerve}} and nerve to {{c2::vastus medialis}}."
+   },
+   {
+    "type": "basic",
+    "front": "Deepest structure in the popliteal fossa?",
+    "back": "Popliteal artery (tibial nerve most superficial, vein in between)."
+   },
+   {
+    "type": "cloze",
+    "text": "Bulbourethral (Cowper's) glands lie in the {{c1::deep}} perineal pouch, but their ducts open into the {{c2::spongy (bulbar) urethra}}."
+   },
+   {
+    "type": "basic",
+    "front": "Keystone of the medial longitudinal arch?",
+    "back": "Head of the talus (lateral arch keystone = cuboid)."
+   },
+   {
+    "type": "cloze",
+    "text": "Anal canal below the pectinate line drains to the {{c1::superficial inguinal}} nodes; above it to {{c2::internal iliac}} nodes."
+   },
+   {
+    "type": "basic",
+    "front": "Direct inguinal hernia emerges where relative to the inferior epigastric artery?",
+    "back": "Medial — through Hesselbach's triangle. Indirect = lateral, via deep ring."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "femoral triangle",
+   "femoral sheath",
+   "femoral canal",
+   "femoral hernia",
+   "adductor canal",
+   "popliteal fossa",
+   "gluteal injection",
+   "trendelenburg sign",
+   "superior gluteal nerve",
+   "sciatic nerve",
+   "common peroneal nerve",
+   "foot drop",
+   "great saphenous vein",
+   "perforators",
+   "arches of foot",
+   "inguinal canal",
+   "hesselbach triangle",
+   "perineal pouch",
+   "ischioanal fossa",
+   "pudendal nerve"
+  ],
+  "wiki": [
+   "Femoral_triangle",
+   "Inguinal_canal",
+   "Perineal_pouch"
+  ],
+  "verify": "BDC Vol 2 / Snell Clinical Anatomy"
+ },
+ {
+  "id": "ana-thorax-abdomen-embryo",
+  "title": "Thorax, abdomen, gut development & germ layers",
+  "subject": "Anatomy",
+  "system": "Thorax, Abdomen & Embryology",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Diaphragm: T8 IVC, T10 oesophagus + vagal trunks, T12 aorta + thoracic duct + azygos ('I 8 10 Eggs At 12')",
+   "Meckel's: 2% population, 2 feet from ileocaecal valve, 2 inches, 2 ectopic tissues (gastric > pancreatic), symptomatic before age 2; Tc-99m pertechnetate scan",
+   "Neural crest: PNS ganglia, Schwann cells, melanocytes, adrenal medulla, C cells, odontoblasts, aorticopulmonary septum, pia/arachnoid"
+  ],
+  "tables": [
+   {
+    "title": "Diaphragm openings",
+    "head": [
+     "Level",
+     "Opening",
+     "Transmits"
+    ],
+    "rows": [
+     [
+      "T8",
+      "Caval (central tendon)",
+      "IVC, branches of right phrenic nerve"
+     ],
+     [
+      "T10",
+      "Oesophageal (right crus, muscular)",
+      "Oesophagus, anterior & posterior vagal trunks, oesophageal branches of left gastric vessels"
+     ],
+     [
+      "T12",
+      "Aortic (behind median arcuate ligament — not a true opening in the muscle)",
+      "Aorta, thoracic duct, azygos vein"
+     ]
+    ]
+   },
+   {
+    "title": "Gut divisions",
+    "head": [
+     "Division",
+     "Extent",
+     "Artery",
+     "Referred pain"
+    ],
+    "rows": [
+     [
+      "Foregut",
+      "Oesophagus → 2nd part duodenum (up to major papilla); liver, gallbladder, pancreas",
+      "Coeliac trunk",
+      "Epigastrium"
+     ],
+     [
+      "Midgut",
+      "Distal duodenum → proximal 2/3 transverse colon",
+      "SMA",
+      "Periumbilical"
+     ],
+     [
+      "Hindgut",
+      "Distal 1/3 transverse colon → anal canal above pectinate line; bladder epithelium (urogenital sinus)",
+      "IMA",
+      "Hypogastrium"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Coronary dominance** = artery giving the posterior descending (interventricular) artery; right-dominant in most people. LAD is the most commonly occluded vessel",
+   "**Mediastinum**: superior (above sternal angle T4/5) — thymus, arch, great veins, trachea, oesophagus, thoracic duct; middle — heart, pericardium, phrenic nerves; posterior — descending aorta, oesophagus, thoracic duct, azygos, vagus, sympathetic chain. Anterior masses = 4 Ts (thymoma, teratoma, thyroid, 'terrible' lymphoma)",
+   "**Portocaval anastomoses**: lower oesophagus (left gastric ↔ azygos → varices), anorectal (superior ↔ middle/inferior rectal → rectal varices), periumbilical (paraumbilical ↔ epigastric → caput medusae), retroperitoneal (Retzius), bare area of liver",
+   "**Epiploic foramen (Winslow)**: anterior — free edge of lesser omentum with portal triad (CBD right, hepatic artery left, portal vein posterior); posterior — IVC; superior — caudate lobe; inferior — 1st part duodenum. Pringle manoeuvre clamps this edge. Morison's (hepatorenal) pouch = most dependent supine",
+   "**Gut rotation**: physiological herniation of midgut ~6th week, 270° anticlockwise rotation around SMA, return by ~10th week. Malrotation → Ladd bands, midgut volvulus (bilious vomiting in neonate). Omphalocele = covered sac, associated anomalies; gastroschisis = no sac, right of umbilicus",
+   "**Germ layers**: surface ectoderm → epidermis, lens, anterior pituitary (Rathke), enamel; neuroectoderm → CNS, retina, posterior pituitary; mesoderm → muscle, bone, heart, kidney, gonads, adrenal cortex, spleen; endoderm → GI/respiratory epithelium, liver, pancreas, thyroid follicles, parathyroid, thymus epithelium",
+   "**Development anomalies**: neural crest failure in conotruncal septation → TOF, TGA, persistent truncus; ostium secundum = commonest ASD. Kidney: ureteric bud → ureter, pelvis, calyces, collecting ducts; metanephric blastema → nephron (glomerulus to DCT); horseshoe kidney trapped under IMA",
+   "**Epithelia**: simple squamous (alveoli, endothelium), simple cuboidal (thyroid follicles, renal tubules), simple columnar (stomach, intestine), pseudostratified ciliated columnar (trachea), stratified squamous non-keratinised (oesophagus, vagina, cornea), transitional (urothelium), stratified cuboidal (sweat gland ducts)"
+  ],
+  "traps": [
+   {
+    "stem": "Thoracic duct passes through which diaphragmatic opening?",
+    "trap": "Oesophageal opening (T10) — the duct lies right next to the oesophagus in the posterior mediastinum",
+    "fix": "Aortic hiatus (T12) with the aorta and azygos vein"
+   },
+   {
+    "stem": "Portal hypertension produces which anorectal lesion?",
+    "trap": "Internal haemorrhoids",
+    "fix": "Anorectal varices (superior ↔ middle/inferior rectal veins). Haemorrhoids are vascular cushions and are not caused by portal hypertension"
+   },
+   {
+    "stem": "The spleen develops from which germ layer?",
+    "trap": "Endoderm of the foregut, since it is supplied by the coeliac trunk",
+    "fix": "Mesoderm (dorsal mesogastrium) — supplied by a foregut artery but not a gut derivative"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "IVC passes through the diaphragm at {{c1::T8}}, oesophagus at {{c2::T10}}, aorta at {{c3::T12}}."
+   },
+   {
+    "type": "basic",
+    "front": "Commonest ectopic tissue in Meckel's diverticulum and best scan for bleeding?",
+    "back": "Gastric mucosa; Tc-99m pertechnetate scan."
+   },
+   {
+    "type": "cloze",
+    "text": "Coronary dominance is defined by which artery gives the {{c1::posterior descending (interventricular) artery}}."
+   },
+   {
+    "type": "basic",
+    "front": "Midgut rotation: degree and direction?",
+    "back": "270° anticlockwise (viewed from the front) around the SMA axis."
+   },
+   {
+    "type": "cloze",
+    "text": "Adrenal medulla and parafollicular C cells derive from {{c1::neural crest}}; adrenal cortex from {{c2::mesoderm}}."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "diaphragm openings",
+   "caval opening",
+   "aortic hiatus",
+   "thoracic duct",
+   "coronary dominance",
+   "mediastinum",
+   "portocaval anastomosis",
+   "caput medusae",
+   "epiploic foramen",
+   "lesser sac",
+   "morison pouch",
+   "foregut midgut hindgut",
+   "malrotation",
+   "midgut volvulus",
+   "meckel diverticulum",
+   "germ layer",
+   "neural crest",
+   "omphalocele",
+   "gastroschisis",
+   "epithelium types"
+  ],
+  "wiki": [
+   "Meckel's_diverticulum",
+   "Neural_crest",
+   "Thoracic_diaphragm"
+  ],
+  "verify": "BDC Vol 1–2, Langman 14e"
+ },
+ {
+  "id": "phy-cardiovascular",
+  "title": "Cardiac cycle, PV loops & cardiac action potentials",
+  "subject": "Physiology",
+  "system": "Cardiovascular",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "PV loop: preload moves EDV (right edge), afterload moves ESV (left edge) and loop height, contractility steepens ESPVR",
+   "SA node phase 0 = L-type Ca²⁺ influx; phase 4 = funny current (HCN, mainly Na⁺) then T-type Ca²⁺; ventricular phase 0 = fast Na⁺",
+   "Wide FIXED split S2 = ASD; paradoxical split = LBBB/severe AS; steep y descent = constrictive pericarditis; absent y = tamponade"
+  ],
+  "tables": [
+   {
+    "title": "Pressure–volume loop changes (LV)",
+    "head": [
+     "Change",
+     "EDV",
+     "ESV",
+     "Stroke volume",
+     "Loop appearance"
+    ],
+    "rows": [
+     [
+      "↑ Preload (volume infusion)",
+      "↑",
+      "≈ / slight ↑",
+      "↑",
+      "Wider to the right"
+     ],
+     [
+      "↑ Afterload (hypertension, vasopressor)",
+      "slight ↑",
+      "↑",
+      "↓",
+      "Taller, narrower"
+     ],
+     [
+      "↓ Afterload (vasodilator)",
+      "slight ↓",
+      "↓",
+      "↑",
+      "Shorter, wider to the left"
+     ],
+     [
+      "↑ Contractility (inotrope, sympathetic)",
+      "≈",
+      "↓",
+      "↑ (EF ↑)",
+      "ESPVR line steeper, loop extends left"
+     ],
+     [
+      "Aortic stenosis",
+      "≈ / ↑",
+      "↑",
+      "↓",
+      "Very high systolic LV pressure; steep EDPVR (LVH)"
+     ],
+     [
+      "Mitral regurgitation",
+      "↑",
+      "↓",
+      "Total ↑, forward ↓",
+      "No true isovolumetric contraction (ejects into LA)"
+     ],
+     [
+      "Aortic regurgitation",
+      "↑↑",
+      "↑",
+      "Total ↑↑",
+      "No true isovolumetric relaxation; very wide loop"
+     ],
+     [
+      "Mitral stenosis",
+      "↓",
+      "≈",
+      "↓",
+      "Small loop shifted left"
+     ]
+    ]
+   },
+   {
+    "title": "Cardiac action potentials",
+    "head": [
+     "Phase",
+     "Ventricular myocyte",
+     "SA node"
+    ],
+    "rows": [
+     [
+      "4",
+      "Stable resting ≈ −90 mV (IK1 inward rectifier)",
+      "Spontaneous diastolic depolarisation: If (HCN, 'funny' Na⁺-dominant) → T-type Ca²⁺; ivabradine blocks If"
+     ],
+     [
+      "0",
+      "Fast voltage-gated Na⁺ influx (class I drugs)",
+      "L-type Ca²⁺ influx (slow upstroke; verapamil/diltiazem)"
+     ],
+     [
+      "1",
+      "Transient outward K⁺ (Ito) + Na⁺ channel inactivation",
+      "Absent"
+     ],
+     [
+      "2",
+      "Plateau: L-type Ca²⁺ in balanced by K⁺ out",
+      "Absent"
+     ],
+     [
+      "3",
+      "Repolarisation: delayed rectifier K⁺ (IKr, IKs; class III)",
+      "K⁺ efflux"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Wiggers order**: atrial systole (a wave, S4) → isovolumetric contraction (mitral closes = S1; c wave) → rapid ejection (peak aortic & LV pressure) → reduced ejection → isovolumetric relaxation (aortic closes = S2, dicrotic notch) → rapid filling (S3) → diastasis (longest phase, shortens first with tachycardia)",
+   "**JVP**: a = atrial contraction (giant: TS, pulmonary hypertension; cannon: AV dissociation/complete heart block; absent in AF); c = tricuspid bulge; x = atrial relaxation; v = atrial filling (giant cv in TR); y = tricuspid opening",
+   "**S2 splitting**: physiological on inspiration; wide variable — RBBB, pulmonary stenosis; wide fixed — ASD; reversed — LBBB, severe AS, HCM. S3 = rapid filling of volume-overloaded ventricle; S4 = atrial kick into stiff ventricle (never in AF)",
+   "**Frank–Starling**: ↑ EDV → ↑ stroke volume (optimal actin–myosin overlap + ↑ troponin C Ca²⁺ sensitivity); heterometric regulation. Positive inotropes shift the curve up/left",
+   "**Cardiac output** = HR × SV; Fick: CO = O₂ consumption ÷ (arterial − mixed venous O₂ content); MAP = CO × TPR",
+   "**Baroreflex**: carotid sinus (IX, Hering nerve) and aortic arch (X) sense stretch → NTS → ↑BP ↑firing → ↑vagal, ↓sympathetic tone; carotid sinus massage slows HR; haemorrhage ↓firing → tachycardia, vasoconstriction",
+   "**Poiseuille**: flow = ΔP·π·r⁴ / (8·η·L); resistance ∝ 1/r⁴ → halving radius raises resistance 16×; arterioles are the main resistance vessels",
+   "Coronary flow to the LV occurs mainly in diastole (compressed in systole) → tachycardia reduces LV perfusion time"
+  ],
+  "traps": [
+   {
+    "stem": "Afterload is reduced with a vasodilator (contractility and preload constant). Effect on the PV loop?",
+    "trap": "EDV falls and SV falls because the loop 'shrinks'",
+    "fix": "ESV falls (ventricle empties further against lower pressure) → stroke volume and EF rise; loop gets shorter and extends to the left"
+   },
+   {
+    "stem": "Ion responsible for the upstroke (phase 0) of the SA-node action potential?",
+    "trap": "Fast Na⁺ influx — true for ventricular and Purkinje cells",
+    "fix": "L-type Ca²⁺ influx. SA/AV nodal cells lack functional fast Na⁺ channels at their depolarised resting potential"
+   },
+   {
+    "stem": "S2 split that does not vary with respiration?",
+    "trap": "RBBB — splitting is wide but still widens on inspiration",
+    "fix": "Ostium secundum ASD: left-to-right shunt equalises respiratory changes in RV filling → wide FIXED split"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "In the PV loop, aortic regurgitation abolishes the true {{c1::isovolumetric relaxation}} phase, while mitral regurgitation abolishes true {{c2::isovolumetric contraction}}."
+   },
+   {
+    "type": "basic",
+    "front": "Which phase of the cardiac cycle is longest and shortens first with tachycardia?",
+    "back": "Diastasis (reduced/slow ventricular filling)."
+   },
+   {
+    "type": "cloze",
+    "text": "Cannon a waves in the JVP indicate {{c1::atrium contracting against a closed tricuspid valve (AV dissociation, complete heart block)}}."
+   },
+   {
+    "type": "basic",
+    "front": "Pacemaker current blocked by ivabradine?",
+    "back": "If ('funny' current) through HCN channels, phase 4 of SA node."
+   },
+   {
+    "type": "cloze",
+    "text": "Poiseuille: halving vessel radius increases resistance {{c1::16}}-fold."
+   },
+   {
+    "type": "basic",
+    "front": "Increased preload: which volume rises most?",
+    "back": "EDV → SV rises; ESV roughly unchanged (Frank–Starling)."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Wiggers Diagram 2.svg",
+    "caption": "Align ECG, aortic/LV/atrial pressure, LV volume and heart sounds: S1 at mitral closure, S2 at aortic closure (dicrotic notch), isovolumetric phases have flat volume"
+   },
+   {
+    "commons": "File:Cardiac Pressure Volume Loop.jpg",
+    "caption": "Label the four corners: mitral closes (EDV), aortic opens, aortic closes (ESV), mitral opens; width = stroke volume"
+   }
+  ],
+  "keywords": [
+   "wiggers diagram",
+   "cardiac cycle",
+   "pressure volume loop",
+   "preload",
+   "afterload",
+   "contractility",
+   "frank-starling",
+   "cardiac output",
+   "baroreceptor",
+   "carotid sinus",
+   "jvp waves",
+   "cannon a wave",
+   "s2 splitting",
+   "fixed split",
+   "paradoxical split",
+   "poiseuille",
+   "sa node action potential",
+   "funny current",
+   "plateau phase",
+   "isovolumetric contraction"
+  ],
+  "wiki": [
+   "Wiggers_diagram",
+   "Pressure–volume_loop_analysis_in_cardiology",
+   "Cardiac_action_potential"
+  ],
+  "verify": "Guyton & Hall 14e / Ganong 26e"
+ },
+ {
+  "id": "phy-respiratory",
+  "title": "Lung volumes, V/Q, O₂–Hb curve, hypoxia & control of breathing",
+  "subject": "Physiology",
+  "system": "Respiratory",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Right shift of O₂–Hb curve (↑P50): ↑CO₂, Acid, ↑2,3-BPG, Exercise, ↑Temperature (CADET face Right); left shift: HbF, CO, MetHb, alkalosis, hypothermia",
+   "RV, FRC, TLC cannot be measured by spirometry → helium dilution / N₂ washout / body plethysmography",
+   "Central chemoreceptors respond to CSF H⁺ generated from CO₂, NOT to hypoxia; only peripheral (carotid > aortic) bodies sense ↓PaO₂"
+  ],
+  "tables": [
+   {
+    "title": "Lung volumes (approx. adult male, Guyton)",
+    "head": [
+     "Volume / capacity",
+     "Value",
+     "Definition"
+    ],
+    "rows": [
+     [
+      "Tidal volume (TV)",
+      "500 mL",
+      "Quiet breath"
+     ],
+     [
+      "IRV",
+      "3000 mL",
+      "Extra beyond tidal inspiration"
+     ],
+     [
+      "ERV",
+      "1100 mL",
+      "Extra beyond tidal expiration"
+     ],
+     [
+      "Residual volume (RV)",
+      "1200 mL",
+      "Left after maximal expiration — not by spirometry"
+     ],
+     [
+      "FRC",
+      "2300 mL (ERV + RV)",
+      "Resting volume; lung recoil = chest wall recoil"
+     ],
+     [
+      "Inspiratory capacity",
+      "3500 mL (TV + IRV)",
+      ""
+     ],
+     [
+      "Vital capacity",
+      "4600 mL (IRV + TV + ERV)",
+      ""
+     ],
+     [
+      "TLC",
+      "5800 mL",
+      "VC + RV"
+     ]
+    ]
+   },
+   {
+    "title": "Types of hypoxia",
+    "head": [
+     "Type",
+     "Example",
+     "PaO₂",
+     "O₂ content",
+     "A–V O₂ difference"
+    ],
+    "rows": [
+     [
+      "Hypoxic (hypoxaemic)",
+      "High altitude, hypoventilation, V/Q mismatch, shunt",
+      "↓",
+      "↓",
+      "Normal"
+     ],
+     [
+      "Anaemic",
+      "Anaemia, CO poisoning, MetHb",
+      "Normal",
+      "↓",
+      "Normal / ↓"
+     ],
+     [
+      "Stagnant (circulatory)",
+      "Shock, heart failure, arterial occlusion",
+      "Normal",
+      "Normal",
+      "↑"
+     ],
+     [
+      "Histotoxic",
+      "Cyanide (cytochrome oxidase block)",
+      "Normal",
+      "Normal",
+      "↓ (venous O₂ high)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Body plethysmography** measures all gas incl. trapped air; helium dilution measures only communicating gas → underestimates FRC in emphysema/bullae",
+   "**V/Q**: apex ≈ 3.3 (high PAO₂, low PACO₂ — reactivation TB), base ≈ 0.6; overall ≈ 0.8. Both ventilation and perfusion are greater at the base, perfusion more so",
+   "**Dead space**: anatomical ≈ 150 mL (Fowler method); physiological by Bohr equation VD/VT = (PaCO₂ − PECO₂)/PaCO₂",
+   "**Compliance** ↓ in fibrosis, oedema, ARDS, surfactant deficiency; ↑ in emphysema and old age. **Surfactant** (DPPC, type II pneumocytes) lowers surface tension more in small alveoli (Laplace P = 2T/r); L:S ratio ≥ 2 = lung maturity",
+   "**Bohr effect**: CO₂/H⁺ lower Hb O₂ affinity (unloading at tissues). **Haldane effect**: oxygenation lowers Hb affinity for CO₂/H⁺ (CO₂ unloading in lungs). Normal P50 ≈ 27 mmHg",
+   "**CO poisoning**: Hb affinity ≈ 200–250× O₂; ↓ O₂ content + LEFT shift; PaO₂ and SpO₂ (pulse oximeter) normal; diagnose by CO-oximetry (COHb); 100% O₂, hyperbaric O₂ for severe cases/pregnancy",
+   "**High altitude**: hypoxia → carotid body → hyperventilation → respiratory alkalosis → renal HCO₃⁻ loss (acetazolamide speeds this); ↑2,3-BPG, ↑EPO → polycythaemia; hypoxic pulmonary vasoconstriction → pulmonary hypertension, HAPE",
+   "**Control**: rhythm from pre-Bötzinger complex (medulla); pneumotaxic centre (upper pons) limits inspiration; apneustic (lower pons). Peripheral chemoreceptors respond strongly when PaO₂ < ~60 mmHg",
+   "**Flow–volume loops**: obstructive — scooped (concave) expiratory limb at high volumes; restrictive — small, narrow loop at low volumes with preserved/↑ FEV1/FVC; fixed upper-airway obstruction — both limbs flattened; variable extrathoracic — inspiratory flattening; variable intrathoracic — expiratory flattening"
+  ],
+  "traps": [
+   {
+    "stem": "Fire victim, headache, SpO₂ 99% on pulse oximeter, PaO₂ 100 mmHg. Is tissue oxygenation adequate?",
+    "trap": "Yes — both PaO₂ and SpO₂ are normal",
+    "fix": "No: CO lowers O₂ content and left-shifts the curve while PaO₂ is normal; standard oximeters read COHb as oxyHb. Measure COHb by CO-oximetry and give 100% O₂"
+   },
+   {
+    "stem": "Primary stimulus for central chemoreceptors?",
+    "trap": "Arterial hypoxia or arterial H⁺ directly",
+    "fix": "↑ H⁺ in CSF/brain ECF formed from CO₂ that crosses the blood–brain barrier. Hypoxia acts only via peripheral chemoreceptors"
+   },
+   {
+    "stem": "Best method to measure FRC in a patient with bullous emphysema?",
+    "trap": "Helium dilution (classic textbook method) or spirometry",
+    "fix": "Body plethysmography — helium does not enter non-communicating bullae and underestimates FRC; spirometry cannot measure RV/FRC at all"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "HbF shifts the O₂–Hb curve to the {{c1::left}} because it binds {{c2::2,3-BPG}} poorly."
+   },
+   {
+    "type": "basic",
+    "front": "Type of hypoxia with increased venous O₂ and narrow A–V O₂ difference?",
+    "back": "Histotoxic (e.g. cyanide) — tissues cannot use delivered O₂."
+   },
+   {
+    "type": "cloze",
+    "text": "V/Q ratio is highest at the {{c1::apex}} (≈3.3) and lowest at the {{c2::base}} (≈0.6)."
+   },
+   {
+    "type": "basic",
+    "front": "Flow–volume loop with flattening of both inspiratory and expiratory limbs?",
+    "back": "Fixed upper airway obstruction (e.g. tracheal stenosis)."
+   },
+   {
+    "type": "cloze",
+    "text": "Physiological dead space is calculated by the {{c1::Bohr}} equation: VD/VT = (PaCO₂ − PECO₂)/PaCO₂."
+   },
+   {
+    "type": "basic",
+    "front": "Which cells secrete surfactant and its main component?",
+    "back": "Type II pneumocytes; dipalmitoylphosphatidylcholine (DPPC, lecithin)."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Oxygen-Haemoglobin dissociation curves.svg",
+    "caption": "Sigmoid curve: acidosis shifts it right (↑P50, easier unloading), alkalosis left; tie to CADET"
+   }
+  ],
+  "keywords": [
+   "lung volumes",
+   "functional residual capacity",
+   "residual volume",
+   "helium dilution",
+   "body plethysmography",
+   "compliance",
+   "surfactant",
+   "v/q ratio",
+   "dead space",
+   "bohr equation",
+   "oxygen dissociation curve",
+   "p50",
+   "2,3-bpg",
+   "bohr effect",
+   "haldane effect",
+   "carbon monoxide poisoning",
+   "hypoxia types",
+   "high altitude",
+   "central chemoreceptors",
+   "flow volume loop"
+  ],
+  "wiki": [
+   "Oxygen–hemoglobin_dissociation_curve",
+   "Lung_volumes",
+   "Control_of_ventilation"
+  ],
+  "verify": "Guyton & Hall 14e (volumes), West's Respiratory Physiology"
+ },
+ {
+  "id": "phy-renal-acid",
+  "title": "Renal physiology: GFR, clearance, tubular transport & diuretic sites",
+  "subject": "Physiology",
+  "system": "Renal",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Inulin clearance = GFR (gold standard); PAH clearance = effective renal plasma flow; FF = GFR/RPF ≈ 0.2",
+   "Efferent constriction: GFR ↑, RPF ↓, FF ↑ (Ang II); afferent constriction: GFR ↓, RPF ↓, FF unchanged (NSAIDs remove PG dilation)",
+   "Diuretic sites: acetazolamide & SGLT2i PCT → loop NKCC2 TAL → thiazide NCC DCT → amiloride ENaC / spironolactone MR in collecting duct"
+  ],
+  "tables": [
+   {
+    "title": "Nephron segment transport & drugs",
+    "head": [
+     "Segment",
+     "Key transport",
+     "Drug acting here",
+     "Hormone"
+    ],
+    "rows": [
+     [
+      "PCT",
+      "~65% Na⁺/H₂O; all glucose (SGLT2 > SGLT1), amino acids; HCO₃⁻ via carbonic anhydrase + NHE3",
+      "Acetazolamide, SGLT2 inhibitors, mannitol (also thin descending)",
+      "Ang II ↑ NHE3; PTH ↓ phosphate reabsorption"
+     ],
+     [
+      "Thin descending limb",
+      "Water permeable, solute impermeable",
+      "Mannitol",
+      "—"
+     ],
+     [
+      "Thick ascending limb",
+      "NKCC2 (~25% Na⁺); water impermeable; lumen-positive potential → paracellular Ca²⁺, Mg²⁺",
+      "Loop diuretics (furosemide)",
+      "—"
+     ],
+     [
+      "Early DCT",
+      "NCC (Na⁺–Cl⁻); PTH-regulated Ca²⁺ reabsorption",
+      "Thiazides",
+      "PTH"
+     ],
+     [
+      "Collecting duct – principal cell",
+      "ENaC Na⁺ in, ROMK K⁺ out; AQP-2 water",
+      "Amiloride, triamterene (ENaC); spironolactone, eplerenone (MR); tolvaptan (V2)",
+      "Aldosterone, ADH (V2 → cAMP → AQP-2 insertion)"
+     ],
+     [
+      "Collecting duct – intercalated",
+      "α: H⁺-ATPase (acid secretion); β: HCO₃⁻ secretion",
+      "—",
+      "Aldosterone ↑ H⁺ secretion"
+     ]
+    ]
+   },
+   {
+    "title": "Changes in glomerular dynamics",
+    "head": [
+     "Change",
+     "RPF",
+     "GFR",
+     "FF"
+    ],
+    "rows": [
+     [
+      "Afferent constriction",
+      "↓",
+      "↓",
+      "≈"
+     ],
+     [
+      "Efferent constriction (moderate)",
+      "↓",
+      "↑",
+      "↑"
+     ],
+     [
+      "Efferent dilation (ACE inhibitor/ARB)",
+      "↑",
+      "↓",
+      "↓"
+     ],
+     [
+      "↑ Plasma protein (↑ πGC)",
+      "≈",
+      "↓",
+      "↓"
+     ],
+     [
+      "Ureteric obstruction (↑ Bowman pressure)",
+      "≈",
+      "↓",
+      "↓"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Clearance** C = (U × V)/P. Creatinine is slightly secreted → creatinine clearance slightly overestimates GFR. Glucose clearance is 0 below the renal threshold (~180–200 mg/dL)",
+   "**GFR** = Kf × [(PGC − PBS) − (πGC − πBS)] ≈ 125 mL/min (180 L/day); RPF ≈ 625 mL/min; RBF = RPF ÷ (1 − Hct)",
+   "**Autoregulation** (MAP ~80–180 mmHg): myogenic afferent response + tubuloglomerular feedback (macula densa senses ↑ NaCl → adenosine → afferent constriction)",
+   "**Counter-current multiplier** = loop of Henle (active NaCl out of TAL + water-permeable descending limb) builds medullary gradient up to ~1200 mOsm/kg; **counter-current exchanger** = vasa recta (passive) preserves it; urea recycling (ADH-dependent UT-A1, inner medullary CD) adds to the gradient",
+   "Fluid leaving the TAL/early DCT is always hypotonic (~100 mOsm/kg) — the diluting segment — regardless of ADH",
+   "**RAAS**: renin from JG (granular) cells of afferent arteriole — stimulated by ↓ perfusion pressure, ↓ NaCl at macula densa, β1 sympathetic; ACE mainly in pulmonary endothelium; Ang II → efferent constriction, aldosterone, ADH, thirst, PCT Na⁺ reabsorption",
+   "**Buffers**: bicarbonate = main ECF buffer (pKa 6.1 but open system); haemoglobin = main RBC/CO₂-transport buffer; phosphate = main titratable acid in urine; ammonia/NH₄⁺ = major route of renal acid excretion, ↑ in chronic acidosis. pH = 6.1 + log [HCO₃⁻ / (0.03 × PCO₂)]",
+   "**Diuretic metabolic effects**: loop & thiazide → hypokalaemia, metabolic alkalosis; thiazide → hyperglycaemia, hyperuricaemia, hypercalcaemia; loop → hypocalcaemia, ototoxicity; acetazolamide → hyperchloraemic (normal AG) metabolic acidosis; K⁺-sparing → hyperkalaemia"
+  ],
+  "traps": [
+   {
+    "stem": "Patient with recurrent calcium stones and hypercalciuria — which diuretic?",
+    "trap": "Furosemide — it is the most potent diuretic",
+    "fix": "Thiazide: ↑ Ca²⁺ reabsorption in DCT (hypocalciuria). Loop diuretics abolish the TAL lumen-positive potential and INCREASE calcium excretion"
+   },
+   {
+    "stem": "Where is most filtered water reabsorbed?",
+    "trap": "Collecting duct, because ADH acts there",
+    "fix": "PCT (~2/3, obligatory, iso-osmotic). Collecting duct handles the regulated fraction (facultative reabsorption)"
+   },
+   {
+    "stem": "PAH clearance is 600 mL/min, haematocrit 40%. Renal blood flow?",
+    "trap": "600 mL/min — equating PAH clearance with blood flow",
+    "fix": "PAH clearance ≈ RPF; RBF = 600 ÷ (1 − 0.4) = 1000 mL/min"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Inulin clearance measures {{c1::GFR}}; PAH clearance measures {{c2::effective renal plasma flow}}."
+   },
+   {
+    "type": "basic",
+    "front": "Effect of efferent arteriolar constriction on GFR and filtration fraction?",
+    "back": "GFR ↑ (moderate constriction), RPF ↓, FF ↑."
+   },
+   {
+    "type": "cloze",
+    "text": "Loop diuretics block {{c1::NKCC2}} in the thick ascending limb; thiazides block {{c2::NCC}} in the early DCT."
+   },
+   {
+    "type": "basic",
+    "front": "ADH mechanism in the collecting duct?",
+    "back": "V2 receptor → Gs → cAMP → PKA → insertion of aquaporin-2 into the apical membrane."
+   },
+   {
+    "type": "cloze",
+    "text": "The counter-current {{c1::multiplier}} is the loop of Henle; the counter-current {{c2::exchanger}} is the vasa recta."
+   },
+   {
+    "type": "basic",
+    "front": "Most important buffer of the ECF?",
+    "back": "Bicarbonate–CO₂ system (open system: CO₂ removed by lungs, HCO₃⁻ regulated by kidney)."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "gfr",
+   "inulin clearance",
+   "pah clearance",
+   "renal plasma flow",
+   "filtration fraction",
+   "autoregulation",
+   "tubuloglomerular feedback",
+   "macula densa",
+   "proximal tubule",
+   "nkcc2",
+   "loop diuretic",
+   "thiazide",
+   "acetazolamide",
+   "spironolactone",
+   "enac",
+   "sglt2",
+   "countercurrent multiplier",
+   "vasa recta",
+   "aquaporin-2",
+   "renin angiotensin aldosterone"
+  ],
+  "wiki": [
+   "Renal_physiology",
+   "Countercurrent_exchange",
+   "Diuretic"
+  ],
+  "verify": "Guyton & Hall 14e / Ganong 26e"
+ },
+ {
+  "id": "phy-neuro-endocrine-senses",
+  "title": "Nerve & muscle, sleep, special senses, hormone signalling, GI hormones",
+  "subject": "Physiology",
+  "system": "Neurophysiology & Endocrine",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Photoreceptors HYPERPOLARISE to light: rhodopsin → transducin → PDE → ↓cGMP → cGMP-gated Na⁺ channels close → ↓ glutamate",
+   "Fibre susceptibility: pressure A > B > C; hypoxia B > A > C; local anaesthetic C > B > A",
+   "Endolymph is K⁺-rich (+80 mV endocochlear potential from stria vascularis) — K⁺ influx depolarises hair cells"
+  ],
+  "tables": [
+   {
+    "title": "Nerve fibre types (Erlanger–Gasser)",
+    "head": [
+     "Type",
+     "Myelin / speed",
+     "Function",
+     "Sensory class"
+    ],
+    "rows": [
+     [
+      "Aα",
+      "Thick myelinated, fastest (70–120 m/s)",
+      "Proprioception (spindle, Golgi tendon), somatic motor",
+      "Ia, Ib"
+     ],
+     [
+      "Aβ",
+      "Myelinated",
+      "Touch, pressure, vibration",
+      "II"
+     ],
+     [
+      "Aγ",
+      "Myelinated",
+      "Motor to muscle spindle (intrafusal)",
+      "—"
+     ],
+     [
+      "Aδ",
+      "Thin myelinated",
+      "Fast (sharp) pain, cold",
+      "III"
+     ],
+     [
+      "B",
+      "Thin myelinated",
+      "Preganglionic autonomic",
+      "—"
+     ],
+     [
+      "C",
+      "Unmyelinated, slowest (0.5–2 m/s)",
+      "Slow (dull) pain, warmth, itch, postganglionic sympathetic",
+      "IV"
+     ]
+    ]
+   },
+   {
+    "title": "Hormone signalling mechanisms",
+    "head": [
+     "Mechanism",
+     "Hormones"
+    ],
+    "rows": [
+     [
+      "Gs → cAMP",
+      "FSH, LH, ACTH, TSH, hCG, CRH, GHRH, MSH, PTH, calcitonin, glucagon, ADH (V2), β-adrenergic, H2, D1"
+     ],
+     [
+      "Gq → IP3/DAG/Ca²⁺",
+      "GnRH, TRH, oxytocin, ADH (V1), gastrin, angiotensin II, α1, H1, M1/M3"
+     ],
+     [
+      "cGMP",
+      "ANP, BNP (receptor guanylyl cyclase); nitric oxide (soluble guanylyl cyclase)"
+     ],
+     [
+      "Intrinsic tyrosine kinase",
+      "Insulin, IGF-1, EGF, PDGF, FGF"
+     ],
+     [
+      "Receptor-associated tyrosine kinase (JAK–STAT)",
+      "GH, prolactin, erythropoietin, thrombopoietin, leptin, cytokines"
+     ],
+     [
+      "Intracellular (nuclear) receptor",
+      "Steroids (cortisol, aldosterone, sex steroids), T3/T4, calcitriol, retinoic acid"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Action potential**: voltage-gated Na⁺ activation → depolarisation; Na⁺ inactivation + delayed-rectifier K⁺ efflux → repolarisation; slow K⁺ closure → after-hyperpolarisation. RMP lies near E_K; Na⁺/K⁺-ATPase exports 3 Na⁺, imports 2 K⁺. Absolute refractory period = Na⁺ channel inactivation",
+   "**Synapse/NMJ**: voltage-gated Ca²⁺ entry triggers exocytosis via SNAREs (botulinum cleaves SNAP-25/syntaxin/synaptobrevin; tetanus cleaves synaptobrevin). Lambert–Eaton = anti-presynaptic P/Q Ca²⁺ channel; myasthenia = anti-postsynaptic AChR",
+   "**Excitation–contraction**: skeletal — T-tubule DHP receptor (voltage sensor) mechanically opens RyR1 (malignant hyperthermia gene); cardiac — Ca²⁺-induced Ca²⁺ release via RyR2; smooth muscle — Ca²⁺–calmodulin → MLCK. Relaxation via SERCA",
+   "**Sliding filament**: A band constant; I band and H zone shorten. Length–tension: maximal active tension at optimal sarcomere length (~2.0–2.2 µm, maximum cross-bridge overlap)",
+   "**Sleep EEG**: awake relaxed eyes closed — alpha (8–13 Hz, occipital); alert — beta; N1 — theta; N2 — sleep spindles + K complexes (largest share of sleep); N3 — delta (night terrors, sleepwalking, enuresis); REM — low-voltage sawtooth waves, atonia, dreams; REM latency ↓ in depression and narcolepsy",
+   "**Hearing**: base of cochlea = high frequency, apex = low; outer hair cells (prestin) amplify and generate otoacoustic emissions; inner hair cells carry most afferent signal",
+   "**Taste**: sweet, bitter, umami via GPCR (gustducin); salty via ENaC; sour via H⁺ channels. **Smell**: GPCR (G_olf) → cAMP; only sense not relayed through the thalamus before cortex",
+   "**GI hormones**: gastrin (G cells, antrum; ↑ acid; inhibited by low pH/somatostatin); CCK (I cells; fat/amino acids → gallbladder contraction, pancreatic enzymes, Oddi relaxation); secretin (S cells; acid → pancreatic HCO₃⁻); GIP (K cells; glucose → insulin); motilin (M cells; fasting migrating motor complex; erythromycin agonist); somatostatin (D cells; universal inhibitor); VIP (VIPoma → watery diarrhoea, hypokalaemia, achlorhydria)"
+  ],
+  "traps": [
+   {
+    "stem": "Effect of light on the rod membrane potential?",
+    "trap": "Depolarisation, like most sensory receptors",
+    "fix": "Hyperpolarisation: ↓ cGMP closes Na⁺ channels, stopping the 'dark current'; photoreceptors make graded potentials, ganglion cells are the first to fire action potentials"
+   },
+   {
+    "stem": "Which nerve fibres are blocked first by local anaesthetic, and which by pressure?",
+    "trap": "Same order for both — smallest fibres first",
+    "fix": "Local anaesthetic: C first (C > B > A). Pressure: A first (A > B > C). Hypoxia: B most susceptible"
+   },
+   {
+    "stem": "Second messenger for ADH-induced vasoconstriction?",
+    "trap": "cAMP — as with its renal antidiuretic action",
+    "fix": "V1 receptor → Gq → IP3/DAG/Ca²⁺ (vasoconstriction); V2 receptor → Gs → cAMP (aquaporin-2)"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Sleep spindles and K complexes characterise stage {{c1::N2}}; delta waves characterise stage {{c2::N3}}."
+   },
+   {
+    "type": "basic",
+    "front": "Growth hormone and prolactin receptors signal via?",
+    "back": "Receptor-associated tyrosine kinase — JAK–STAT."
+   },
+   {
+    "type": "cloze",
+    "text": "In the dark, rods are {{c1::depolarised}} and release glutamate continuously because {{c2::cGMP}}-gated Na⁺ channels stay open."
+   },
+   {
+    "type": "basic",
+    "front": "Ion that enters cochlear hair cells to depolarise them?",
+    "back": "K⁺ from K⁺-rich endolymph (endocochlear potential ≈ +80 mV)."
+   },
+   {
+    "type": "cloze",
+    "text": "Fast sharp pain travels in {{c1::Aδ}} fibres; slow burning pain in {{c2::C}} fibres."
+   },
+   {
+    "type": "basic",
+    "front": "Hormone mediating the migrating motor complex, and its drug agonist?",
+    "back": "Motilin; erythromycin."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "action potential",
+   "nerve fibre types",
+   "erlanger gasser",
+   "c fibres",
+   "local anaesthetic susceptibility",
+   "neuromuscular junction",
+   "excitation contraction coupling",
+   "ryanodine receptor",
+   "length tension",
+   "sleep stages",
+   "eeg waves",
+   "rem sleep",
+   "phototransduction",
+   "rhodopsin",
+   "transducin",
+   "endolymph",
+   "hair cells",
+   "second messenger",
+   "jak stat",
+   "gi hormones"
+  ],
+  "wiki": [
+   "Visual_phototransduction",
+   "Nerve_conduction_velocity",
+   "Gastrointestinal_hormone"
+  ],
+  "verify": "Ganong 26e (fibre susceptibility table) / Guyton 14e"
+ },
+ {
+  "id": "bio-iem-amino-acids",
+  "title": "Amino acid disorders & urea cycle defects",
+  "subject": "Biochemistry",
+  "system": "Inborn errors of metabolism",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Urine darkens on standing + blue-black ear cartilage/sclera + back/joint arthropathy = alkaptonuria (homogentisate 1,2-dioxygenase)",
+   "Marfanoid + ectopia lentis DOWNWARD + thrombosis + intellectual disability = homocystinuria (cystathionine β-synthase, B6)",
+   "Hyperammonaemia + ↑ orotic acid + ↓ citrulline in a boy = OTC deficiency; ↑ orotic acid + megaloblastic anaemia WITHOUT hyperammonaemia = hereditary orotic aciduria (UMP synthase)"
+  ],
+  "tables": [
+   {
+    "title": "Aminoacidopathies",
+    "head": [
+     "Disorder",
+     "Enzyme / defect",
+     "Key features",
+     "Treatment / clue"
+    ],
+    "rows": [
+     [
+      "Classic PKU",
+      "Phenylalanine hydroxylase",
+      "Musty/mousy odour, fair skin & hair, eczema, intellectual disability, seizures",
+      "Newborn screen (Guthrie/MS-MS); low-Phe diet, tyrosine becomes essential; sapropterin if BH4-responsive"
+     ],
+     [
+      "Malignant (BH4) PKU",
+      "Dihydropteridine reductase / BH4 synthesis",
+      "PKU + ↓ dopamine & serotonin → progressive neurological disease despite diet",
+      "BH4 + L-dopa + 5-HTP"
+     ],
+     [
+      "Alkaptonuria",
+      "Homogentisate 1,2-dioxygenase",
+      "Dark urine on standing/alkalinisation, ochronosis, arthropathy (spine, large joints) in adults",
+      "Benign in childhood; nitisinone reduces HGA"
+     ],
+     [
+      "MSUD",
+      "Branched-chain α-ketoacid dehydrogenase (TPP-dependent)",
+      "Neonatal encephalopathy, poor feeding, maple-syrup/burnt-sugar odour; ↑ Leu, Ile, Val (leucine neurotoxic)",
+      "Restrict BCAA; thiamine trial"
+     ],
+     [
+      "Classic homocystinuria",
+      "Cystathionine β-synthase (PLP/B6)",
+      "Marfanoid, ectopia lentis inferonasal, thromboembolism, osteoporosis, ID",
+      "Pyridoxine (responders), betaine, low methionine, cysteine; nitroprusside +"
+     ],
+     [
+      "Tyrosinaemia type I",
+      "Fumarylacetoacetate hydrolase",
+      "Liver failure, renal Fanconi, cabbage odour, ↑ succinylacetone, HCC risk",
+      "Nitisinone (NTBC) + diet"
+     ],
+     [
+      "Albinism (OCA1)",
+      "Tyrosinase",
+      "Absent melanin, photophobia, nystagmus, ↓ visual acuity, skin cancers",
+      "Sun protection"
+     ],
+     [
+      "Hartnup",
+      "Neutral amino acid transporter (SLC6A19) — gut & PCT",
+      "Pellagra-like photosensitive rash, cerebellar ataxia; neutral aminoaciduria",
+      "Nicotinamide, high-protein diet"
+     ]
+    ]
+   },
+   {
+    "title": "Urea cycle vs orotic aciduria",
+    "head": [
+     "Condition",
+     "Ammonia",
+     "Orotic acid",
+     "Citrulline",
+     "Other"
+    ],
+    "rows": [
+     [
+      "CPS-I / NAGS deficiency",
+      "↑↑",
+      "Normal/↓",
+      "↓",
+      "NAGS deficiency → carglumic acid"
+     ],
+     [
+      "OTC deficiency (X-linked, commonest UCD)",
+      "↑↑",
+      "↑",
+      "↓",
+      "Carbamoyl phosphate spills into pyrimidine pathway"
+     ],
+     [
+      "Citrullinaemia (argininosuccinate synthetase)",
+      "↑",
+      "Mild ↑",
+      "↑↑",
+      "—"
+     ],
+     [
+      "Argininosuccinic aciduria (ASL)",
+      "↑",
+      "Mild ↑",
+      "↑",
+      "Trichorrhexis nodosa, hepatomegaly"
+     ],
+     [
+      "Arginase deficiency",
+      "Mild ↑",
+      "↑",
+      "—",
+      "Progressive spastic diplegia; ↑ arginine"
+     ],
+     [
+      "Hereditary orotic aciduria (UMP synthase)",
+      "Normal",
+      "↑↑",
+      "Normal",
+      "Megaloblastic anaemia unresponsive to B12/folate → uridine"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**CPS-I** is the rate-limiting urea-cycle enzyme (mitochondrial) and needs N-acetylglutamate as allosteric activator",
+   "**Acute hyperammonaemia**: stop protein, IV glucose, sodium benzoate + sodium phenylacetate/phenylbutyrate, arginine; haemodialysis if very high or refractory",
+   "Urea cycle defects cause hyperammonaemia WITHOUT metabolic acidosis (often respiratory alkalosis); organic acidaemias cause hyperammonaemia WITH high anion-gap acidosis/ketosis",
+   "**Odours**: PKU mousy/musty; MSUD maple syrup; isovaleric acidaemia sweaty feet; tyrosinaemia type I cabbage; trimethylaminuria fishy",
+   "**Maternal PKU**: uncontrolled maternal phenylalanine → microcephaly, ID, congenital heart disease in a non-PKU fetus → restart diet before conception",
+   "**Homocystinuria vs Marfan**: lens displaced downward/inward vs upward/outward; homocystinuria has thrombosis and ID, Marfan has aortic root dilatation",
+   "**Tyrosinaemia type II** (tyrosine aminotransferase, Richner–Hanhart): corneal lesions + painful palmoplantar keratosis + ID",
+   "**Cystinuria** (COLA: cystine, ornithine, lysine, arginine transporter): hexagonal crystals, stones; cyanide–nitroprusside test positive (also in homocystinuria)"
+  ],
+  "traps": [
+   {
+    "stem": "Homocystinuria vs Marfan syndrome on slit lamp — direction of lens dislocation?",
+    "trap": "Upward in homocystinuria (mixing up the two)",
+    "fix": "Homocystinuria: downward (inferonasal) — zonules made of abnormal fibrillin degrade; Marfan: upward (superotemporal)"
+   },
+   {
+    "stem": "Child with megaloblastic anaemia not responding to B12 and folate, ↑ urinary orotic acid, normal ammonia.",
+    "trap": "OTC deficiency — it also raises orotic acid",
+    "fix": "Hereditary orotic aciduria (UMP synthase deficiency); no hyperammonaemia. Treat with uridine. OTC deficiency = hyperammonaemia + orotic aciduria without anaemia"
+   },
+   {
+    "stem": "Neonate with MSUD — which vitamin may help some patients?",
+    "trap": "Pyridoxine (B6), the vitamin used in homocystinuria",
+    "fix": "Thiamine (B1): branched-chain α-ketoacid dehydrogenase uses thiamine pyrophosphate like pyruvate dehydrogenase"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Alkaptonuria is due to deficiency of {{c1::homogentisate 1,2-dioxygenase}}; pigment deposition in cartilage is called {{c2::ochronosis}}."
+   },
+   {
+    "type": "basic",
+    "front": "Amino acids accumulating in maple syrup urine disease?",
+    "back": "Branched-chain: leucine, isoleucine, valine (and their α-keto acids)."
+   },
+   {
+    "type": "cloze",
+    "text": "In PKU, {{c1::tyrosine}} becomes an essential amino acid."
+   },
+   {
+    "type": "basic",
+    "front": "Most common urea cycle disorder and its inheritance?",
+    "back": "Ornithine transcarbamylase (OTC) deficiency — X-linked."
+   },
+   {
+    "type": "cloze",
+    "text": "Hartnup disease causes pellagra-like features because of loss of {{c1::tryptophan}}, the precursor of {{c2::niacin}}."
+   },
+   {
+    "type": "basic",
+    "front": "Enzyme deficient in tyrosinaemia type I and diagnostic metabolite?",
+    "back": "Fumarylacetoacetate hydrolase; succinylacetone."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:OCHRONOSIS.jpg",
+    "caption": "Ochronosis: bluish-grey pigment in connective tissue of the face/ear — homogentisic acid deposition in alkaptonuria"
+   }
+  ],
+  "keywords": [
+   "phenylketonuria",
+   "phenylalanine hydroxylase",
+   "alkaptonuria",
+   "homogentisic acid",
+   "ochronosis",
+   "maple syrup urine disease",
+   "branched chain",
+   "homocystinuria",
+   "cystathionine beta synthase",
+   "ectopia lentis",
+   "tyrosinemia",
+   "nitisinone",
+   "albinism",
+   "tyrosinase",
+   "hartnup",
+   "urea cycle",
+   "ornithine transcarbamylase",
+   "orotic aciduria",
+   "hyperammonemia",
+   "n-acetylglutamate"
+  ],
+  "wiki": [
+   "Alkaptonuria",
+   "Homocystinuria",
+   "Urea_cycle_disorder"
+  ],
+  "verify": "Harper 31e / Lippincott 8e; Nelson 21e for treatment"
+ },
+ {
+  "id": "bio-lsd-gsd",
+  "title": "Lysosomal storage & glycogen storage diseases",
+  "subject": "Biochemistry",
+  "system": "Inborn errors of metabolism",
+  "yield": 3,
+  "kind": "volatile",
+  "anchor": [
+   "Cherry-red spot + hepatosplenomegaly = Niemann–Pick (sphingomyelinase); cherry-red spot WITHOUT HSM + hyperacusis = Tay–Sachs (hexosaminidase A)",
+   "HSM + bone crises + Erlenmeyer flask femur + 'crumpled tissue paper' macrophages = Gaucher (glucocerebrosidase)",
+   "Fasting hypoglycaemia + lactic acidosis + hyperuricaemia + hepatomegaly = von Gierke; infant cardiomegaly + hypotonia with normal glucose = Pompe"
+  ],
+  "tables": [
+   {
+    "title": "Lysosomal storage diseases",
+    "head": [
+     "Disease",
+     "Enzyme",
+     "Inheritance",
+     "Key features"
+    ],
+    "rows": [
+     [
+      "Gaucher",
+      "β-glucocerebrosidase",
+      "AR",
+      "Commonest LSD; HSM, pancytopenia, bone crises, Erlenmeyer flask femur; Gaucher cells (crinkled tissue paper); type 1 no CNS; ERT imiglucerase"
+     ],
+     [
+      "Niemann–Pick A/B",
+      "Acid sphingomyelinase",
+      "AR",
+      "HSM, cherry-red spot, neurodegeneration (type A), foam cells"
+     ],
+     [
+      "Niemann–Pick C",
+      "NPC1/NPC2 (cholesterol trafficking, not an enzyme)",
+      "AR",
+      "Vertical supranuclear gaze palsy, ataxia, splenomegaly"
+     ],
+     [
+      "Tay–Sachs",
+      "Hexosaminidase A (GM2)",
+      "AR",
+      "Cherry-red spot, NO HSM, exaggerated startle, regression; onion-skin lysosomes"
+     ],
+     [
+      "Fabry",
+      "α-galactosidase A (Gb3 ceramide trihexoside)",
+      "X-linked",
+      "Angiokeratomas, painful acroparaesthesia, hypohidrosis, cornea verticillata, CKD, cardiomyopathy, stroke"
+     ],
+     [
+      "Krabbe",
+      "Galactocerebrosidase",
+      "AR",
+      "Globoid cells, peripheral neuropathy, optic atrophy, irritability, spasticity"
+     ],
+     [
+      "Metachromatic leukodystrophy",
+      "Arylsulfatase A (sulfatide)",
+      "AR",
+      "Central + peripheral demyelination, ataxia, dementia"
+     ],
+     [
+      "Hurler (MPS I)",
+      "α-L-iduronidase",
+      "AR",
+      "Corneal clouding, gargoylism, HSM, dysostosis multiplex, developmental delay"
+     ],
+     [
+      "Hunter (MPS II)",
+      "Iduronate-2-sulfatase",
+      "X-linked",
+      "Milder, NO corneal clouding, aggressive behaviour, pebbly skin"
+     ],
+     [
+      "I-cell disease (ML II)",
+      "GlcNAc-1-phosphotransferase (no mannose-6-phosphate tag)",
+      "AR",
+      "Enzymes secreted out: ↑ plasma lysosomal enzymes; coarse facies, gingival hyperplasia, joint restriction"
+     ]
+    ]
+   },
+   {
+    "title": "Glycogen storage diseases",
+    "head": [
+     "Type",
+     "Enzyme",
+     "Key features"
+    ],
+    "rows": [
+     [
+      "I — von Gierke",
+      "Glucose-6-phosphatase (Ia); G6P translocase (Ib, + neutropenia)",
+      "Severe fasting hypoglycaemia, lactic acidosis, hyperuricaemia, hypertriglyceridaemia, hepatomegaly + renomegaly, doll face; no glucagon response"
+     ],
+     [
+      "II — Pompe",
+      "Lysosomal acid α-1,4-glucosidase (acid maltase)",
+      "Infantile: cardiomegaly, hypotonia, macroglossia; normal glucose; ERT alglucosidase alfa"
+     ],
+     [
+      "III — Cori",
+      "Debranching enzyme (α-1,6-glucosidase)",
+      "Milder von Gierke picture, normal lactate, myopathy; abnormal glycogen with short outer chains (limit dextrin)"
+     ],
+     [
+      "IV — Andersen",
+      "Branching enzyme",
+      "Abnormal long-chain glycogen → early cirrhosis, liver failure"
+     ],
+     [
+      "V — McArdle",
+      "Muscle glycogen phosphorylase",
+      "Exercise cramps, myoglobinuria, 'second wind'; no lactate rise on forearm ischaemic test"
+     ],
+     [
+      "VI — Hers",
+      "Liver glycogen phosphorylase",
+      "Mild hypoglycaemia, hepatomegaly"
+     ],
+     [
+      "VII — Tarui",
+      "Muscle phosphofructokinase",
+      "McArdle-like + haemolysis"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Almost all LSDs are autosomal recessive; **X-linked = Fabry and Hunter**",
+   "**Cherry-red spot**: Tay–Sachs, Sandhoff, Niemann–Pick A, GM1 gangliosidosis, sialidosis (and central retinal artery occlusion)",
+   "**Pompe** is the only GSD that is also a lysosomal storage disease",
+   "**von Gierke** — avoid fructose/galactose; frequent feeds + uncooked cornstarch at night",
+   "**ERT** available: Gaucher (imiglucerase), Fabry (agalsidase; oral chaperone migalastat), Pompe (alglucosidase alfa), MPS I (laronidase), MPS II (idursulfase). Substrate reduction: miglustat, eliglustat (Gaucher)",
+   "Diagnosis of LSDs: enzyme assay in leukocytes/fibroblasts or dried blood spot, confirmed by gene testing",
+   "Krabbe and MLD are leukodystrophies; Gaucher type 1 and Niemann–Pick B are non-neuronopathic"
+  ],
+  "traps": [
+   {
+    "stem": "Infant with regression, cherry-red spot and massive hepatosplenomegaly.",
+    "trap": "Tay–Sachs — the classic cherry-red spot disease",
+    "fix": "Niemann–Pick type A (sphingomyelinase). Tay–Sachs has a cherry-red spot WITHOUT organomegaly"
+   },
+   {
+    "stem": "Floppy 4-month-old with massive cardiomegaly and normal blood glucose — which GSD?",
+    "trap": "von Gierke (type I), the best-known GSD",
+    "fix": "Pompe (type II, lysosomal acid maltase). von Gierke has hypoglycaemia and hepatomegaly, not cardiomyopathy"
+   },
+   {
+    "stem": "Boy with coarse facies, joint stiffness, HSM, CLEAR corneas, aggressive behaviour.",
+    "trap": "Hurler syndrome",
+    "fix": "Hunter (MPS II, X-linked, iduronate-2-sulfatase) — 'Hunters see clearly'. Hurler = AR with corneal clouding"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Gaucher disease: deficient {{c1::β-glucocerebrosidase}}; macrophages with {{c2::crumpled tissue-paper}} cytoplasm."
+   },
+   {
+    "type": "basic",
+    "front": "Two X-linked lysosomal storage diseases?",
+    "back": "Fabry (α-galactosidase A) and Hunter (iduronate-2-sulfatase)."
+   },
+   {
+    "type": "cloze",
+    "text": "McArdle disease = deficiency of {{c1::muscle glycogen phosphorylase}}; patients show a {{c2::second-wind}} phenomenon."
+   },
+   {
+    "type": "basic",
+    "front": "Defect in I-cell disease and the lab clue?",
+    "back": "GlcNAc-1-phosphotransferase → no mannose-6-phosphate tag; lysosomal enzymes are secreted, so plasma enzyme levels are high."
+   },
+   {
+    "type": "cloze",
+    "text": "Metachromatic leukodystrophy is due to deficiency of {{c1::arylsulfatase A}}."
+   },
+   {
+    "type": "basic",
+    "front": "Why is there no glucagon response in von Gierke?",
+    "back": "Glucose-6-phosphatase is needed for the final step of both glycogenolysis and gluconeogenesis, so G6P cannot be released as glucose."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Gaucher disease - high mag.jpg",
+    "caption": "Gaucher cells: large macrophages with pale, fibrillary 'crumpled tissue paper' cytoplasm (here in bone marrow with necrotic bone)"
+   }
+  ],
+  "keywords": [
+   "lysosomal storage",
+   "gaucher",
+   "glucocerebrosidase",
+   "niemann-pick",
+   "sphingomyelinase",
+   "tay-sachs",
+   "hexosaminidase",
+   "cherry red spot",
+   "fabry",
+   "alpha galactosidase",
+   "krabbe",
+   "metachromatic leukodystrophy",
+   "hurler",
+   "hunter",
+   "i-cell disease",
+   "glycogen storage",
+   "von gierke",
+   "pompe",
+   "cori",
+   "mcardle"
+  ],
+  "wiki": [
+   "Lysosomal_storage_disease",
+   "Glycogen_storage_disease",
+   "Gaucher's_disease"
+  ],
+  "verify": "Robbins 10e (Genetic diseases) / Harper 31e"
+ },
+ {
+  "id": "bio-lipids-metabolism",
+  "title": "Lipoproteins, rate-limiting enzymes, enzyme kinetics & porphyrias",
+  "subject": "Biochemistry",
+  "system": "Metabolism",
+  "yield": 2,
+  "kind": "volatile",
+  "anchor": [
+   "Apo C-II activates LPL; apo B-100 binds LDL receptor; apo B-48 = chylomicron (intestine); apo E = remnant uptake; apo A-I activates LCAT",
+   "Competitive inhibitor: ↑Km, same Vmax (lines meet on y-axis); non-competitive: ↓Vmax, same Km (meet on x-axis); uncompetitive: both ↓ (parallel)",
+   "Acute abdominal pain + neuropsychiatric symptoms + NO photosensitivity + ↑PBG = AIP; blistering photosensitivity = PCT"
+  ],
+  "tables": [
+   {
+    "title": "Fredrickson hyperlipoproteinaemias",
+    "head": [
+     "Type",
+     "Defect",
+     "↑ Lipoprotein",
+     "Features"
+    ],
+    "rows": [
+     [
+      "I",
+      "LPL or apo C-II deficiency",
+      "Chylomicrons",
+      "TG ↑↑↑, creamy top layer, eruptive xanthomas, pancreatitis, lipaemia retinalis; no ↑ atherosclerosis"
+     ],
+     [
+      "IIa",
+      "LDL receptor (FH, AD), apo B-100, PCSK9 gain-of-function",
+      "LDL",
+      "Cholesterol ↑; tendon xanthomas (Achilles), xanthelasma, premature CAD"
+     ],
+     [
+      "IIb",
+      "Familial combined hyperlipidaemia",
+      "LDL + VLDL",
+      "Cholesterol + TG ↑; premature CAD"
+     ],
+     [
+      "III",
+      "Dysbetalipoproteinaemia — apo E2/E2",
+      "IDL / remnants (broad β band)",
+      "Palmar crease and tuberoeruptive xanthomas"
+     ],
+     [
+      "IV",
+      "Familial hypertriglyceridaemia",
+      "VLDL",
+      "TG ↑; obesity, diabetes, alcohol"
+     ],
+     [
+      "V",
+      "Mixed",
+      "Chylomicrons + VLDL",
+      "TG ↑↑; pancreatitis"
+     ]
+    ]
+   },
+   {
+    "title": "Rate-limiting enzymes",
+    "head": [
+     "Pathway",
+     "Enzyme",
+     "Regulation"
+    ],
+    "rows": [
+     [
+      "Glycolysis",
+      "PFK-1",
+      "+ F-2,6-BP, AMP; − ATP, citrate"
+     ],
+     [
+      "Gluconeogenesis",
+      "Fructose-1,6-bisphosphatase",
+      "− F-2,6-BP, AMP"
+     ],
+     [
+      "TCA cycle",
+      "Isocitrate dehydrogenase",
+      "+ ADP, Ca²⁺; − ATP, NADH"
+     ],
+     [
+      "Glycogen synthesis / breakdown",
+      "Glycogen synthase / glycogen phosphorylase",
+      "Insulin activates synthase; glucagon/adrenaline activate phosphorylase"
+     ],
+     [
+      "HMP shunt",
+      "G6PD",
+      "+ NADP⁺; − NADPH"
+     ],
+     [
+      "Fatty acid synthesis",
+      "Acetyl-CoA carboxylase (biotin)",
+      "+ citrate, insulin; − palmitoyl-CoA, glucagon"
+     ],
+     [
+      "β-oxidation",
+      "Carnitine acyltransferase I (CPT-1)",
+      "− malonyl-CoA"
+     ],
+     [
+      "Ketogenesis / Cholesterol",
+      "HMG-CoA synthase (mitochondrial) / HMG-CoA reductase",
+      "Reductase: statins, − cholesterol, + insulin"
+     ],
+     [
+      "Haem / Urea cycle",
+      "ALA synthase (B6) / CPS-I",
+      "ALAS − haem, + inducing drugs; CPS-I + N-acetylglutamate"
+     ],
+     [
+      "Purine / Pyrimidine / Bile acid",
+      "PRPP amidotransferase / CPS-II (aspartate transcarbamoylase in bacteria) / 7α-hydroxylase",
+      "—"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Familial hypercholesterolaemia**: LDL-receptor mutation, autosomal dominant (gene dosage); homozygotes can have MI in childhood/adolescence — statin + ezetimibe ± PCSK9 inhibitor, LDL apheresis",
+   "**Ketone bodies**: acetoacetate, β-hydroxybutyrate (dominant in DKA; NOT detected by nitroprusside dipstick), acetone. Made in liver mitochondria; liver cannot use them (lacks succinyl-CoA:acetoacetate CoA-transferase/thiophorase); RBCs cannot use them (no mitochondria)",
+   "**Km** = substrate concentration at ½ Vmax; low Km = high affinity. Lineweaver–Burk: y-intercept 1/Vmax, x-intercept −1/Km",
+   "Competitive inhibition is overcome by more substrate (ethanol/fomepizole vs methanol at alcohol dehydrogenase; statins at HMG-CoA reductase). Irreversible: aspirin (COX acetylation), organophosphates (AChE)",
+   "**Insulin** dephosphorylates key enzymes (activates glycogen synthase, PFK-2 kinase → ↑F-2,6-BP → glycolysis); **glucagon** phosphorylates via cAMP–PKA",
+   "**Haem synthesis**: ALA synthase (mitochondria) → ALA dehydratase (cytosol; lead-sensitive) → PBG deaminase → uroporphyrinogen III synthase → uroporphyrinogen decarboxylase → … → ferrochelatase (mitochondria; lead-sensitive)",
+   "**AIP**: PBG deaminase (hydroxymethylbilane synthase), AD; ↑ ALA + PBG, port-wine urine darkening on standing; triggers: barbiturates, sulfonamides, alcohol, fasting, progesterone/OCP; treat haemin + IV glucose",
+   "**PCT**: uroporphyrinogen decarboxylase — commonest porphyria; blistering photosensitivity, hypertrichosis; HCV, alcohol, iron, oestrogens; treat phlebotomy or low-dose hydroxychloroquine",
+   "**Lead**: inhibits ALA dehydratase + ferrochelatase → ↑ ALA, ↑ zinc protoporphyrin, microcytic anaemia, basophilic stippling, ringed sideroblasts. Erythropoietic protoporphyria = ferrochelatase (painful non-blistering photosensitivity)"
+  ],
+  "traps": [
+   {
+    "stem": "Young woman with recurrent abdominal pain, confusion, hyponatraemia after starting a barbiturate; skin normal.",
+    "trap": "Porphyria cutanea tarda — the most common porphyria",
+    "fix": "Acute intermittent porphyria (PBG deaminase): neurovisceral attacks without photosensitivity; ↑ urinary PBG. Treat with haemin + glucose, stop the drug"
+   },
+   {
+    "stem": "Adding a competitive inhibitor changes which kinetic constant?",
+    "trap": "Vmax falls",
+    "fix": "Apparent Km rises; Vmax is unchanged because enough substrate outcompetes the inhibitor"
+   },
+   {
+    "stem": "DKA patient improving on insulin, but urine ketone dipstick becomes MORE positive. Why?",
+    "trap": "Worsening ketosis — insulin failing",
+    "fix": "β-hydroxybutyrate is converted to acetoacetate (which nitroprusside detects) as redox state improves; monitor serum β-OHB instead"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Lipoprotein lipase is activated by apolipoprotein {{c1::C-II}}; LCAT is activated by apo {{c2::A-I}}."
+   },
+   {
+    "type": "basic",
+    "front": "Type III hyperlipoproteinaemia: genotype and pathognomonic sign?",
+    "back": "Apo E2/E2 homozygosity; palmar crease xanthomas (plus tuberoeruptive)."
+   },
+   {
+    "type": "cloze",
+    "text": "Rate-limiting enzyme of glycolysis: {{c1::PFK-1}}; of cholesterol synthesis: {{c2::HMG-CoA reductase}}; of haem synthesis: {{c3::ALA synthase}}."
+   },
+   {
+    "type": "basic",
+    "front": "Lineweaver–Burk pattern of non-competitive inhibition?",
+    "back": "Lines intersect on the x-axis: Km unchanged, Vmax decreased."
+   },
+   {
+    "type": "cloze",
+    "text": "Lead poisoning inhibits {{c1::ALA dehydratase}} and {{c2::ferrochelatase}}."
+   },
+   {
+    "type": "basic",
+    "front": "Why can't the liver use ketone bodies?",
+    "back": "It lacks succinyl-CoA:acetoacetate CoA-transferase (thiophorase)."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "lipoprotein",
+   "apolipoprotein",
+   "lipoprotein lipase",
+   "fredrickson",
+   "familial hypercholesterolemia",
+   "ldl receptor",
+   "dysbetalipoproteinemia",
+   "rate limiting enzyme",
+   "pfk-1",
+   "hmg-coa reductase",
+   "ketone bodies",
+   "beta hydroxybutyrate",
+   "michaelis menten",
+   "km vmax",
+   "competitive inhibition",
+   "lineweaver burk",
+   "porphyria",
+   "acute intermittent porphyria",
+   "porphyria cutanea tarda",
+   "lead poisoning"
+  ],
+  "wiki": [
+   "Hyperlipidemia",
+   "Porphyria",
+   "Enzyme_inhibitor"
+  ],
+  "verify": "Harper 31e / Lippincott 8e"
+ },
+ {
+  "id": "bio-molecular-biology",
+  "title": "Molecular techniques: PCR, blotting, sequencing, CRISPR, DNA repair",
+  "subject": "Biochemistry",
+  "system": "Molecular biology & Genetics",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "SNoW DRoP: Southern = DNA, Northern = RNA, Western = Protein; Southwestern = DNA-binding protein",
+   "Repair defects: xeroderma pigmentosum = nucleotide excision (UV thymine dimers); Lynch/HNPCC = mismatch repair (MSI); BRCA1/2 = homologous recombination; ataxia telangiectasia = ATM (double-strand break sensing)",
+   "Sanger uses dideoxynucleotides (no 3′-OH → chain termination); NGS = massively parallel sequencing"
+  ],
+  "tables": [
+   {
+    "title": "Detection techniques",
+    "head": [
+     "Technique",
+     "Detects",
+     "Principle",
+     "Clinical use"
+    ],
+    "rows": [
+     [
+      "Southern blot",
+      "DNA",
+      "Restriction digest → gel → transfer → labelled DNA probe",
+      "RFLP, gene rearrangement, repeat-expansion size (fragile X)"
+     ],
+     [
+      "Northern blot",
+      "RNA",
+      "RNA gel → probe",
+      "Gene expression (mRNA)"
+     ],
+     [
+      "Western blot",
+      "Protein",
+      "SDS-PAGE → membrane → antibody",
+      "Confirmatory (formerly HIV), Lyme"
+     ],
+     [
+      "Eastern / Southwestern",
+      "Post-translational modification / DNA-binding protein",
+      "Lipid–carbohydrate probes / labelled DNA probe on protein blot",
+      "Research"
+     ],
+     [
+      "ELISA",
+      "Antigen or antibody",
+      "Enzyme-linked colour reaction",
+      "Screening (high sensitivity), e.g. HIV, HBsAg"
+     ],
+     [
+      "FISH",
+      "Specific DNA sequence on chromosome (interphase or metaphase)",
+      "Fluorescent probe",
+      "Microdeletions (22q11, Prader–Willi), translocations (BCR-ABL), HER2 amplification"
+     ],
+     [
+      "Chromosomal microarray",
+      "Copy-number changes genome-wide",
+      "Hybridisation to thousands of probes",
+      "First-tier test for unexplained developmental delay/ID; misses balanced translocations"
+     ],
+     [
+      "Sanger vs NGS",
+      "DNA sequence",
+      "ddNTP chain termination vs massively parallel short reads",
+      "Single-gene confirmation vs panels/exome/genome"
+     ]
+    ]
+   },
+   {
+    "title": "PCR variants",
+    "head": [
+     "Type",
+     "Key feature",
+     "Use"
+    ],
+    "rows": [
+     [
+      "Conventional PCR",
+      "Denaturation ~94 °C → annealing ~55 °C → extension 72 °C; Taq polymerase; exponential",
+      "Amplify known target"
+     ],
+     [
+      "RT-PCR",
+      "Reverse transcriptase makes cDNA from RNA first",
+      "RNA viruses (HIV viral load, SARS-CoV-2), BCR-ABL transcripts"
+     ],
+     [
+      "Real-time / qPCR",
+      "Fluorescence (SYBR green, TaqMan probe) each cycle; Ct inversely related to starting copies",
+      "Quantification (viral load), rapid diagnosis"
+     ],
+     [
+      "Nested PCR",
+      "Second primer pair inside first product",
+      "↑ sensitivity & specificity; ↑ contamination risk"
+     ],
+     [
+      "Multiplex PCR",
+      "Several primer pairs in one tube",
+      "Syndromic panels (meningitis, respiratory), Y-microdeletions"
+     ],
+     [
+      "Isothermal (LAMP) / CBNAAT",
+      "No thermal cycling / cartridge-based real-time PCR",
+      "Point-of-care; GeneXpert MTB + rifampicin resistance (rpoB)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**DNA repair**: base excision (glycosylase; MUTYH polyposis), nucleotide excision (XP — UV sensitivity, skin cancers), mismatch (MLH1, MSH2, MSH6, PMS2 — Lynch, microsatellite instability), homologous recombination (BRCA1/2, Fanconi, Bloom), non-homologous end joining (Artemis SCID; ATM usually tabulated here)",
+   "**Replication**: helicase unwinds, primase lays RNA primer, DNA polymerase extends only 5′→3′ (leading continuous, lagging Okazaki fragments joined by ligase); telomerase = reverse transcriptase with RNA template, active in germ/stem/cancer cells",
+   "**Topoisomerase drugs**: fluoroquinolones (bacterial gyrase/topo IV), etoposide (topo II), irinotecan/topotecan (topo I)",
+   "**CRISPR–Cas9**: guide RNA directs Cas9 to a target beside a PAM (NGG) → double-strand break → NHEJ (knockout) or HDR (precise edit). First approved CRISPR therapy (exa-cel) edits the BCL11A erythroid enhancer → ↑ HbF in sickle cell disease and β-thalassaemia",
+   "**Restriction endonucleases**: bacterial enzymes cutting palindromic sites (sticky or blunt ends); basis of RFLP and cloning. Vectors by insert size: plasmid < phage λ < cosmid < BAC < YAC",
+   "**Recombinant DNA**: cut with same restriction enzyme → ligate into vector → transform host → select; first recombinant therapeutic = human insulin",
+   "**Epigenetics**: CpG-island cytosine methylation silences genes; histone acetylation (HAT) opens chromatin, deacetylation (HDAC) silences; imprinting — Prader–Willi (paternal 15q11–13 loss / maternal UPD) vs Angelman (maternal UBE3A loss / paternal UPD); azacitidine/decitabine = hypomethylating agents"
+  ],
+  "traps": [
+   {
+    "stem": "Which blot uses an antibody probe?",
+    "trap": "Northern blot",
+    "fix": "Western blot detects protein with antibodies; Northern detects RNA with nucleic-acid probes"
+   },
+   {
+    "stem": "Child with extreme photosensitivity, freckling and early skin cancers — defective repair pathway?",
+    "trap": "Mismatch repair (cancer predisposition) or base excision",
+    "fix": "Nucleotide excision repair (cannot remove UV-induced pyrimidine/thymine dimers) — xeroderma pigmentosum"
+   },
+   {
+    "stem": "Why does a dideoxynucleotide stop DNA synthesis in Sanger sequencing?",
+    "trap": "It lacks the 2′-OH group",
+    "fix": "It lacks the 3′-OH needed to form the next phosphodiester bond (all DNA nucleotides already lack 2′-OH)"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Southern blot detects {{c1::DNA}}, Northern blot {{c2::RNA}}, Western blot {{c3::protein}}."
+   },
+   {
+    "type": "basic",
+    "front": "PCR variant that first converts RNA to cDNA?",
+    "back": "Reverse-transcription PCR (RT-PCR)."
+   },
+   {
+    "type": "cloze",
+    "text": "Lynch syndrome (HNPCC) results from defective {{c1::mismatch}} repair, producing {{c2::microsatellite instability}}."
+   },
+   {
+    "type": "basic",
+    "front": "Advantage and drawback of nested PCR?",
+    "back": "Higher sensitivity and specificity (two rounds with inner primers); higher risk of contamination/false positives."
+   },
+   {
+    "type": "cloze",
+    "text": "In real-time PCR, a lower {{c1::Ct (cycle threshold)}} value means a {{c2::higher}} starting amount of target."
+   },
+   {
+    "type": "basic",
+    "front": "Gene defective in ataxia telangiectasia and its role?",
+    "back": "ATM kinase — senses double-strand breaks and activates the DNA-damage response; patients are radiosensitive."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:RFLP mapping.svg",
+    "caption": "RFLP: different restriction-site patterns give different fragment sizes, read as bands on a Southern blot"
+   }
+  ],
+  "keywords": [
+   "pcr",
+   "rt-pcr",
+   "real time pcr",
+   "nested pcr",
+   "multiplex pcr",
+   "southern blot",
+   "northern blot",
+   "western blot",
+   "elisa",
+   "fish",
+   "microarray",
+   "sanger sequencing",
+   "next generation sequencing",
+   "crispr",
+   "restriction enzyme",
+   "rflp",
+   "xeroderma pigmentosum",
+   "mismatch repair",
+   "ataxia telangiectasia",
+   "epigenetics"
+  ],
+  "wiki": [
+   "Polymerase_chain_reaction",
+   "Southern_blot",
+   "DNA_repair"
+  ],
+  "verify": "Harper 31e / Lippincott 8e; Robbins 10e for repair-defect syndromes"
+ },
+ {
+  "id": "bio-vitamins-minerals",
+  "title": "Vitamins & trace elements",
+  "subject": "Biochemistry",
+  "system": "Nutrition",
+  "yield": 3,
+  "kind": "volatile",
+  "anchor": [
+   "↑ Methylmalonic acid = B12 deficiency (homocysteine ↑ in both B12 and folate)",
+   "Wilson = ATP7B (chr 13, ↓ biliary Cu, ↓ ceruloplasmin, KF ring); Menkes = ATP7A (X-linked, ↓ gut Cu absorption, kinky hair)",
+   "Periorificial + acral dermatitis, alopecia, diarrhoea in an infant after weaning = acrodermatitis enteropathica (zinc)"
+  ],
+  "tables": [
+   {
+    "title": "Water-soluble vitamins",
+    "head": [
+     "Vitamin",
+     "Coenzyme form",
+     "Key enzymes / role",
+     "Deficiency"
+    ],
+    "rows": [
+     [
+      "B1 thiamine",
+      "Thiamine pyrophosphate",
+      "Pyruvate DH, α-ketoglutarate DH, transketolase, branched-chain α-ketoacid DH",
+      "Dry/wet beriberi, Wernicke–Korsakoff; RBC transketolase assay"
+     ],
+     [
+      "B2 riboflavin",
+      "FAD, FMN",
+      "Dehydrogenases (succinate DH), glutathione reductase",
+      "Angular cheilitis, glossitis, corneal vascularisation"
+     ],
+     [
+      "B3 niacin",
+      "NAD⁺, NADP⁺",
+      "Redox reactions",
+      "Pellagra: dermatitis (Casal necklace), diarrhoea, dementia; Hartnup, carcinoid, isoniazid"
+     ],
+     [
+      "B5 pantothenate",
+      "Coenzyme A",
+      "Acyl transfer",
+      "Burning feet"
+     ],
+     [
+      "B6 pyridoxine",
+      "Pyridoxal phosphate",
+      "Transamination, decarboxylation, ALA synthase, cystathionine synthase",
+      "Convulsions, sideroblastic anaemia, neuropathy (isoniazid); excess → sensory neuropathy"
+     ],
+     [
+      "B7 biotin",
+      "Biocytin",
+      "Carboxylases (pyruvate, acetyl-CoA, propionyl-CoA)",
+      "Raw egg white (avidin): dermatitis, alopecia"
+     ],
+     [
+      "B9 folate",
+      "Tetrahydrofolate",
+      "One-carbon transfer, thymidylate synthesis",
+      "Megaloblastic anaemia, neural tube defects; no neuropathy"
+     ],
+     [
+      "B12 cobalamin",
+      "Methylcobalamin; adenosylcobalamin",
+      "Methionine synthase; methylmalonyl-CoA mutase",
+      "Megaloblastic anaemia + SACD; ↑ MMA + ↑ homocysteine"
+     ],
+     [
+      "C ascorbate",
+      "—",
+      "Prolyl & lysyl hydroxylase (collagen), dopamine β-hydroxylase",
+      "Scurvy: perifollicular haemorrhage, corkscrew hair, bleeding gums, subperiosteal haemorrhage"
+     ]
+    ]
+   },
+   {
+    "title": "Fat-soluble vitamins",
+    "head": [
+     "Vitamin",
+     "Action",
+     "Deficiency",
+     "Toxicity"
+    ],
+    "rows": [
+     [
+      "A",
+      "Retinal (rhodopsin), retinoic acid (epithelial differentiation)",
+      "Night blindness (earliest symptom), conjunctival xerosis (earliest sign), Bitot spots, keratomalacia, follicular hyperkeratosis",
+      "Raised ICP (pseudotumour), hepatotoxicity, teratogen"
+     ],
+     [
+      "D",
+      "7-dehydrocholesterol (UVB) → D3 → 25-OH (liver) → 1,25-(OH)₂ (kidney PCT, PTH-stimulated); nuclear VDR",
+      "Rickets, osteomalacia",
+      "Hypercalcaemia, nephrocalcinosis"
+     ],
+     [
+      "E",
+      "Antioxidant (α-tocopherol)",
+      "Haemolytic anaemia (preterm), spinocerebellar ataxia, posterior column loss",
+      "Potentiates warfarin"
+     ],
+     [
+      "K",
+      "γ-carboxylation of glutamate: II, VII, IX, X, protein C & S; VKOR recycled (warfarin target)",
+      "Haemorrhagic disease of newborn, ↑ PT",
+      "—"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Best marker of vitamin D status**: serum 25-hydroxyvitamin D. Granulomas (sarcoidosis, TB) have extrarenal 1α-hydroxylase → hypercalcaemia",
+   "Folic acid can correct the anaemia of B12 deficiency but NOT the neurological damage → check B12 before giving folate",
+   "Thiamine before glucose in alcoholics to avoid precipitating Wernicke encephalopathy",
+   "**Zinc**: acrodermatitis enteropathica (SLC39A4/ZIP4 transporter, AR); deficiency → dysgeusia, poor wound healing, hypogonadism, growth failure. Zn enzymes: carbonic anhydrase, alcohol DH, ALA dehydratase, Cu/Zn-SOD. Childhood diarrhoea: zinc for 14 days (10 mg/day < 6 months, 20 mg/day ≥ 6 months)",
+   "**Wilson**: ATP7B → ↓ biliary copper excretion and ↓ incorporation into ceruloplasmin → ↓ serum ceruloplasmin, ↑ 24-h urinary copper, KF ring, hepatitis/cirrhosis, basal ganglia; treat penicillamine/trientine + zinc",
+   "**Menkes**: ATP7A → copper trapped in enterocytes → low serum Cu and ceruloplasmin; kinky (steely) hair, neurodegeneration, ↓ lysyl oxidase → arterial tortuosity, bladder diverticula",
+   "**Iron**: Fe²⁺ absorbed in duodenum via DMT1 (after duodenal cytochrome b reduces Fe³⁺); exported by ferroportin + hephaestin; carried by transferrin; stored as ferritin. **Hepcidin** (liver) degrades ferroportin → ↑ in inflammation (IL-6, anaemia of chronic disease), ↓ in hereditary haemochromatosis",
+   "**Selenium**: glutathione peroxidase, iodothyronine deiodinases; deficiency → Keshan cardiomyopathy, Kashin–Beck osteoarthropathy",
+   "**Iodine**: adult requirement 150 µg/day (↑ in pregnancy/lactation); deficiency → goitre, cretinism. India salt iodisation: ≥ 30 ppm at production, ≥ 15 ppm at consumer level",
+   "Molybdenum: xanthine oxidase, sulfite oxidase; fluoride < 0.5 ppm → caries, > 1.5 ppm → dental fluorosis"
+  ],
+  "traps": [
+   {
+    "stem": "Megaloblastic anaemia with ↑ homocysteine and NORMAL methylmalonic acid.",
+    "trap": "B12 deficiency (both raise homocysteine)",
+    "fix": "Folate deficiency. MMA rises only with B12 deficiency (adenosylcobalamin-dependent methylmalonyl-CoA mutase)"
+   },
+   {
+    "stem": "Infant boy with sparse, twisted steel-wool hair, seizures, low serum copper and ceruloplasmin.",
+    "trap": "Wilson disease — low ceruloplasmin is its classic marker",
+    "fix": "Menkes disease (ATP7A, X-linked) — defective intestinal copper export. Wilson (ATP7B) presents later with liver/neuro disease and copper overload in tissues"
+   },
+   {
+    "stem": "Earliest SYMPTOM vs earliest SIGN of vitamin A deficiency?",
+    "trap": "Bitot spots as the earliest finding",
+    "fix": "Earliest symptom: night blindness (XN). Earliest sign: conjunctival xerosis (X1A). Bitot spots = X1B"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Vitamin K is the cofactor for {{c1::γ-glutamyl carboxylase}}, acting on factors {{c2::II, VII, IX, X}} and proteins C and S."
+   },
+   {
+    "type": "basic",
+    "front": "Thiamine-dependent enzymes?",
+    "back": "Pyruvate dehydrogenase, α-ketoglutarate dehydrogenase, transketolase, branched-chain α-ketoacid dehydrogenase."
+   },
+   {
+    "type": "cloze",
+    "text": "Hepcidin acts by degrading {{c1::ferroportin}}; it is {{c2::increased}} in anaemia of chronic disease."
+   },
+   {
+    "type": "basic",
+    "front": "Gene and chromosome in Wilson disease?",
+    "back": "ATP7B on chromosome 13 (autosomal recessive)."
+   },
+   {
+    "type": "cloze",
+    "text": "Acrodermatitis enteropathica is due to defective intestinal absorption of {{c1::zinc}}."
+   },
+   {
+    "type": "basic",
+    "front": "Selenium deficiency cardiomyopathy?",
+    "back": "Keshan disease."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Typical location of Bitot's spots.jpg",
+    "caption": "Bitot spot: foamy triangular grey-white patch on temporal bulbar conjunctiva (WHO X1B) — vitamin A deficiency"
+   }
+  ],
+  "keywords": [
+   "thiamine",
+   "beriberi",
+   "wernicke",
+   "niacin",
+   "pellagra",
+   "pyridoxine",
+   "biotin",
+   "folate",
+   "vitamin b12",
+   "methylmalonic acid",
+   "scurvy",
+   "vitamin a",
+   "bitot spot",
+   "vitamin d",
+   "vitamin k",
+   "zinc",
+   "acrodermatitis enteropathica",
+   "wilson disease",
+   "menkes",
+   "hepcidin"
+  ],
+  "wiki": [
+   "Vitamin",
+   "Wilson's_disease",
+   "Menkes_disease"
+  ],
+  "verify": "Harper 31e / Park PSM 27e (iodine, vitamin A grading, zinc in diarrhoea); WHO xerophthalmia classification"
+ }
+]
