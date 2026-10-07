@@ -41,7 +41,7 @@ h3{font-size:15px;margin:14px 0 6px}
 input,select,textarea{font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:7px 10px}
 textarea{width:100%;min-height:54px}
 .pill{display:inline-block;padding:1px 8px;border-radius:99px;font-size:12px;font-weight:600;background:var(--soft);color:var(--muted)}
-.pill.k{color:var(--k)}.pill.t{color:var(--t)}.pill.p{color:var(--p)}
+.pill.k,.pill.g{color:var(--k)}.pill.a{color:var(--bad)}.pill.r{color:var(--accent)}.pill.t{color:var(--t)}.pill.p{color:var(--p)}
 .pill.good{color:var(--good)}.pill.bad{color:var(--bad)}.pill.warn{color:var(--warn)}
 .yield{letter-spacing:1px;color:var(--warn)}
 .bar{height:6px;border-radius:9px;background:var(--line);overflow:hidden}

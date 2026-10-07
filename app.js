@@ -8,7 +8,9 @@ const SUBJECTS = ['Medicine', 'Surgery', 'OBGY', 'Pediatrics', 'Ophthalmology', 
   'Community Medicine', 'Anatomy', 'Physiology', 'Biochemistry'];
 const DAY = 864e5;
 const YW = { 3: 1, 2: 0.6, 1: 0.3 };            // yield weight in priority
-const ET = { K: 'Knowledge gap', T: 'Stem trap / misread', P: 'Pacing / fatigue' };
+const ET = { G: 'True gap (never learned)', R: 'Retention failure (learned, blanked)', A: 'Reasoning defect (misapplied)', T: 'Trap / misread qualifier', P: 'Pacing / fatigue' };
+const EW = { G: 1, A: 1, R: 0.7, T: 0.5, P: 0.3, K: 1 };   // knowledge-failure weight per error type
+const ETYPES = ['G', 'R', 'A', 'T', 'P'];
 const KEY = 'inicet-os-v5';
 const $app = document.getElementById('app');
 
@@ -77,14 +79,15 @@ function download(name, text, type = 'text/plain') {
    knowledge failure, but feeds that leak's counter so the fix prescribed matches the cause. */
 function clusterStats() {
   const now = Date.now(), st = {};
-  for (const c of C) st[c.id] = { a: 1, b: 1, n: 0, days: new Set(), K: 0, T: 0, P: 0, last: 0, seen: 0, right: 0 };
+  for (const c of C) st[c.id] = { a: 1, b: 1, n: 0, days: new Set(), G: 0, R: 0, A: 0, T: 0, P: 0, last: 0, seen: 0, right: 0, recent: [] };
   for (const at of S.attempts) {
     const w = Math.pow(0.5, (now - at.ts) / (21 * DAY));
     for (const cid of at.c || []) {
       const s = st[cid]; if (!s) continue;
       if (at.ok) { s.a += w; s.right++; }
       else if (at.skip) s.b += 0.3 * w;
-      else s.b += w * (at.et === 'T' ? 0.5 : at.et === 'P' ? 0.3 : 1);
+      else s.b += w * (EW[at.et] ?? 1);
+      if (!at.skip) s.recent.push(at.ok ? 1 : 0);
       s.n += w; s.seen++; s.days.add(Math.floor(at.ts / DAY)); s.last = Math.max(s.last, at.ts);
     }
   }
@@ -95,21 +98,26 @@ function clusterStats() {
     if (r.lastGrade >= 3) s.a += w; else s.b += w;
     s.n += w; if (r.last) s.days.add(Math.floor(r.last / DAY));
   }
-  for (const e of S.errors) if (!e.resolved) for (const cid of e.c || []) if (st[cid]) st[cid][e.et]++;
+  for (const e of S.errors) if (!e.resolved) for (const cid of e.c || []) if (st[cid]) st[cid][e.et === 'K' ? 'G' : e.et]++;
   for (const c of C) {
     const s = st[c.id];
     s.m = s.a / (s.a + s.b);
     s.status = s.n < 1.5 ? 'new' : (s.m >= 0.8 && s.n >= 6 && s.days.size >= 2) ? 'mastered' : s.m < 0.6 ? 'weak' : 'shaky';
     const gap = s.status === 'new' ? 0.5 : 1 - s.m;
-    s.leak = s.K + s.T + s.P ? ['K', 'T', 'P'].sort((x, y) => s[y] - s[x])[0] : (s.status === 'new' ? 'new' : 'K');
-    s.priority = YW[c.yield] * gap * (1 + 0.15 * Math.min(s.K + s.T + s.P, 5)) * (S.read[c.id] ? 1 : 1.1);
+    s.errs = ETYPES.reduce((x, t) => x + s[t], 0);
+    s.leak = s.errs ? ETYPES.slice().sort((x, y) => s[y] - s[x])[0] : (s.status === 'new' ? 'new' : 'G');
+    // structural gap: <50% over the last 15 attempts spanning ≥3 sittings (his '3 consecutive tests' rule)
+    const r15 = s.recent.slice(-15); s.structural = s.days.size >= 3 && r15.length >= 6 && r15.reduce((a, b) => a + b, 0) / r15.length < 0.5;
+    s.priority = YW[c.yield] * gap * (1 + 0.15 * Math.min(s.G + s.A + s.R + 0.5 * (s.T + s.P), 5)) * (s.structural ? 1.4 : 1) * (S.read[c.id] ? 1 : 1.1);
   }
   return st;
 }
 const STATUS = { new: ['Untested', ''], weak: ['Weak', 'bad'], shaky: ['Shaky', 'warn'], mastered: ['Mastered', 'good'] };
 const PRESCRIBE = {
   new: 'Untested. Take a 5-question probe first so the plan knows where you stand.',
-  K: 'Knowledge gap. Re-read anchor, algorithm and tables, run the cards, then drill 10 questions.',
+  G: 'True gap on a PYT. 48-hour patch: 15–20 min on just this subtopic (anchor, algorithm, tables), drill 10 MCQs, write the discriminator into your 20th Notebook.',
+  R: 'Retention failure. No re-reading: run this cluster\'s cards today and again in 2 days.',
+  A: 'Reasoning defect. Re-read the algorithm and trap sheet, then drill 10 MCQs naming "initial vs definitive / IOC vs gold standard" before each answer.',
   T: 'Trap leak. Read the trap sheet; in the drill, name the qualifier (EXCEPT, initial vs definitive) before answering.',
   P: 'Pacing leak. You know it but ran out of time. Do a 25-question speed run at 30 s per question.',
 };
@@ -156,7 +164,7 @@ function route() {
   const [r, arg] = (location.hash.replace(/^#\/?/, '') || 'today').split('/');
   if (r !== 'review') reviewOnly = null;
   document.querySelectorAll('#nav a').forEach(a => a.classList.toggle('on', a.dataset.r === r || (r === 'c' && a.dataset.r === 'matrix')));
-  const v = { today: vToday, matrix: vMatrix, c: vCluster, block: vBlock, review: vReview, errors: vErrors, playbook: vPlaybook, settings: vSettings }[r] || vToday;
+  const v = { today: vToday, matrix: vMatrix, c: vCluster, block: vBlock, review: vReview, errors: vErrors, playbook: vPlaybook, settings: vSettings, ...(window.EXTRA_VIEWS || {}) }[r] || vToday;
   questions();
   v(arg ? decodeURIComponent(arg) : '');
   window.scrollTo(0, 0);
@@ -193,8 +201,9 @@ function vToday() {
     <div class="card"><div class="muted small">7-day accuracy</div><div class="stat">${wkAcc === null ? '—' : pct(wkAcc)}</div>
       <div class="small muted">${wk.length} questions this week · target ≥ 82%</div></div>
     <div class="card"><div class="muted small">Unresolved errors</div><div class="stat">${unres.length}</div>
-      <div class="small"><span class="pill k">K ${unres.filter(e => e.et === 'K').length}</span> <span class="pill t">T ${unres.filter(e => e.et === 'T').length}</span> <span class="pill p">P ${unres.filter(e => e.et === 'P').length}</span></div></div>
+      <div class="small">${ETYPES.map(t => `<span class="pill ${t.toLowerCase()}">${t} ${unres.filter(e => (e.et === 'K' ? 'G' : e.et) === t).length}</span>`).join(' ')}</div></div>
   </div>
+  ${window.sprintToday ? sprintToday() : ''}
   <h2>Start</h2>
   <div class="row">
     <a class="btn primary" href="#/block" data-act="start" data-mode="mixed">50-Q timed block (45 min)</a>
@@ -284,7 +293,7 @@ function vCluster(id) {
   <h1>${esc(c.title)}</h1>
   <div class="row small"><span class="yield">${stars(c.yield)}</span><span class="pill ${cls}">${lab}${st.status === 'new' ? '' : ' ' + pct(st.m)}</span>
     ${st.seen ? `<span class="muted">${st.right}/${st.seen} correct</span>` : ''}
-    ${st.K + st.T + st.P ? `<span class="pill k">K ${st.K}</span><span class="pill t">T ${st.T}</span><span class="pill p">P ${st.P}</span>` : ''}</div>
+    ${st.errs ? ETYPES.map(t => st[t] ? `<span class="pill ${t.toLowerCase()}">${t} ${st[t]}</span>` : '').join('') : ''}${st.structural ? '<span class="pill bad">structural gap: &lt;50% across 3+ sittings</span>' : ''}</div>
   <div class="box" style="background:var(--soft)"><b>Plan:</b> ${PRESCRIBE[st.leak]}</div>
   <div class="row">
     ${c.qn ? `<a class="btn primary" href="#/block" data-act="start" data-mode="drill" data-c="${c.id}">Drill ${Math.min(c.qn, st.status === 'new' ? 5 : 10)} MCQs (45 s each)</a>` : '<span class="muted small">No tagged MCQs yet for this cluster.</span>'}
@@ -408,7 +417,7 @@ function submitBlock(auto) {
 }
 function suggestType(B, i) {
   const n = B.qids.length, t = B.tq[i] || 0;
-  return i >= n - 10 && t < 20 ? 'P' : 'K';
+  return i >= n - 10 && t < 20 ? 'P' : 'G';
 }
 function vBlockResult() {
   const B = S.active, b = S.blocks.find(x => x.id === B.id);
@@ -426,7 +435,7 @@ function vBlockResult() {
     <div class="card"><div class="muted small">By fifth of the block</div><div class="stat small" style="font-size:16px">${quarters.join(' · ')}</div><div class="small muted">A drop at the end = pacing/fatigue</div></div>
   </div>
   <h2>Audit every lost mark <span class="muted small">${review.length} to classify</span></h2>
-  <p class="small muted">Two-line review only: the anchor phrase that should have locked it, and why the tempting option was wrong. Classify as <span class="pill k">K</span> knowledge gap, <span class="pill t">T</span> stem trap/misread, or <span class="pill p">P</span> pacing/fatigue.</p>
+  <p class="small muted">Two-line review only: the anchor phrase that should have locked it, and why the tempting option was wrong. Classify: <b>G</b> true gap (no clue) · <b>R</b> retention (read it, blanked on the number) · <b>A</b> reasoning (knew facts, misapplied: IOC vs gold standard, initial vs definitive) · <b>T</b> trap (missed EXCEPT/qualifier) · <b>P</b> pacing. Only G and A on a PYT are real knowledge gaps.</p>
   ${review.map(a => {
     const q = QI[a.qid], att = S.attempts.find(x => x.b === B.id && x.i === a.i), ch = B.ans[a.i];
     const et = att.et || suggestType(B, a.i), err = S.errors.find(e => e.b === B.id && e.i === a.i);
@@ -435,7 +444,7 @@ function vBlockResult() {
       <div class="stem">${stemHTML(q.q)}</div>
       ${q.o.map((o, k) => `<div class="opt"><button class="o ${k === q.a ? 'right' : ''} ${k === ch && k !== q.a ? 'wrong' : ''}" disabled><b>${'ABCD'[k]}.</b> ${esc(o)}</button></div>`).join('')}
       <div class="expl">${esc(q.e)}${q.x ? `\n\nAsked: ${esc(q.x)}` : ''}</div>
-      ${a.skip ? '' : `<div class="row"><span class="seg" data-i="${a.i}">${['K', 'T', 'P'].map(t => `<button class="${(err ? err.et : '') === t ? 'on' : ''}" data-act="cls" data-i="${a.i}" data-t="${t}" title="${ET[t]}">${t} · ${ET[t]}</button>`).join('')}</span>
+      ${a.skip ? '' : `<div class="row"><span class="seg" data-i="${a.i}">${ETYPES.map(t => `<button class="${(err ? err.et : '') === t ? 'on' : ''}" data-act="cls" data-i="${a.i}" data-t="${t}" title="${ET[t]}">${t} · ${ET[t].split(' (')[0]}</button>`).join('')}</span>
         ${err ? '' : `<span class="small muted">suggested: ${et}</span>`}</div>
       <textarea placeholder="Anchor I missed / why the tempting option was wrong" data-note="${a.i}">${esc(err ? err.note : '')}</textarea>`}
     </div>`;
@@ -534,9 +543,9 @@ function vReview() {
 function vErrors() {
   const unres = S.errors.filter(e => !e.resolved), plugged = S.errors.filter(e => e.resolved).length;
   const col = t => {
-    const list = unres.filter(e => e.et === t).sort((a, b) => b.ts - a.ts);
+    const list = unres.filter(e => (e.et === 'K' ? 'G' : e.et) === t).sort((a, b) => b.ts - a.ts);
     return `<div class="card"><h3><span class="pill ${t.toLowerCase()}">${t}</span> ${ET[t]} <span class="muted">${list.length}</span></h3>
-      <p class="small muted">${{ K: 'Fix: one line into the cluster cards (done automatically as a mistake card).', T: 'Fix: write the exact trick pattern; do not re-read the chapter.', P: 'Fix: speed run next morning; watch the last 10 of each block.' }[t]}</p>
+      <p class="small muted">${{ G: 'Fix: 48-hour patch on that subtopic only, if it is a PYT. One-off trivia: accept the loss.', R: 'Fix: cards (mistake card added automatically), not lectures.', A: 'Fix: clinical case drills; name the operative verb before answering.', T: 'Fix: write the exact trick pattern; do not re-read the chapter.', P: 'Fix: speed run next morning; watch the last 10 of each block.' }[t]}</p>
       <div class="list small">${list.slice(0, 40).map(e => {
         const q = QI[e.qid]; if (!q) return '';
         return `<div><div>${esc(q.q.slice(0, 140))}${q.q.length > 140 ? '…' : ''}</div>
@@ -548,7 +557,7 @@ function vErrors() {
   $app.innerHTML = `<h1>Error OS</h1>
   <div class="row"><span class="small">${unres.length} unresolved · ${plugged} leaks plugged (answered right later)</span>
     <a class="btn primary" href="#/block" data-act="start" data-mode="purge" ${unres.length ? '' : 'style="pointer-events:none;opacity:.45"'}>Mistake purge</a></div>
-  <div class="cols3" style="margin-top:12px">${col('K')}${col('T')}${col('P')}</div>
+  <div class="cols3" style="margin-top:12px">${ETYPES.map(col).join('')}</div>
   <h2>Your trap patterns <span class="muted small">read every Sunday</span></h2>
   <div class="card small">${traps.map(e => `<div>• ${esc(e.note)}</div>`).join('') || '<span class="muted">Notes you write on T errors collect here.</span>'}</div>`;
 }
@@ -585,7 +594,7 @@ function vPlaybook() {
   <div class="card"><h3>Source roles</h3><ul class="pts small"><li>CoreBTR: the single spine; convert tables to cards, cover the right column and recall</li>
     <li>Marrow Plan B: 50-Q custom modules, exam mode only, two-line review (anchor + trap), ≤ 1.5 min per question</li>
     <li>This app: diagnosis, cards, timed blocks, Error OS</li></ul></div>
-  </div>`;
+  </div>${window.PLAYBOOK_EXTRA || ''}`;
 }
 
 /* ---------- Settings, export ---------- */

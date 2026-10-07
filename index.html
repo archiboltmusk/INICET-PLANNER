@@ -16,10 +16,13 @@
   <a class="brand" href="#/today">INI-CET <b>Revision OS</b></a>
   <nav id="nav">
     <a href="#/today" data-r="today">Today</a>
+    <a href="#/sprint" data-r="sprint">Sprint</a>
     <a href="#/matrix" data-r="matrix">Matrix</a>
     <a href="#/block" data-r="block">Block</a>
     <a href="#/review" data-r="review">Review</a>
     <a href="#/errors" data-r="errors">Error OS</a>
+    <a href="#/spotters" data-r="spotters">Spotters</a>
+    <a href="#/notebook" data-r="notebook">Notebook</a>
     <a href="#/playbook" data-r="playbook">Playbook</a>
     <a href="#/settings" data-r="settings" aria-label="Settings">⚙</a>
   </nav>
@@ -28,6 +31,7 @@
 <div id="toast" role="status"></div>
 <script src="data/clusters.js"></script>
 <script src="data/questions.js" defer></script>
+<script src="sprint.js" defer></script>
 <script src="app.js" defer></script>
 <script>
 if ('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('sw.js');
