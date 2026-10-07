@@ -1,0 +1,2379 @@
+[
+ {
+  "id": "path-leukemia",
+  "title": "Acute & chronic leukaemias: cytogenetics, flow & smear",
+  "subject": "Pathology",
+  "system": "Haematology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Bleeding + DIC + hypergranular blasts with bundles of Auer rods (faggot cells), CD34−/HLA-DR− → APL t(15;17) PML::RARA → start ATRA now",
+   "Child, bone pain, TdT+ CD19+ CD10+ blasts, MPO− → B-ALL; adolescent male + mediastinal mass + cCD3+ → T-ALL",
+   "Elderly, lymphocytosis, smudge cells, CD5+ CD23+ → CLL; massive spleen + dry tap + TRAP/CD103/CD11c/CD25 + BRAF V600E → hairy cell leukaemia",
+   "Very high WBC, full myeloid spectrum, basophilia, low LAP, splenomegaly → CML t(9;22) BCR::ABL1 p210"
+  ],
+  "algorithm": "CBC + peripheral smear: cytopenias / leukocytosis / blasts\n→ Blasts ≥20% (blood or marrow) = acute leukaemia (exam-classic cutoff)\n  WHO-HAEM5: AML with defining genetic abnormality (e.g. PML::RARA, RUNX1::RUNX1T1, CBFB::MYH11) needs no blast cutoff | ICC 2022: ≥10%\n→ Bone marrow aspirate + biopsy → flow cytometry for lineage\n  MPO / Sudan black / CD13, CD33, CD117 → AML (Auer rods = myeloid)\n  TdT + CD19, CD10, CD22, CD79a → B-ALL\n  TdT + cytoplasmic CD3 (+CD7) → T-ALL\n→ Karyotype / FISH / RT-PCR / NGS (FLT3, NPM1) → risk group\n→ APL suspected on smear (DIC, faggot cells): give ATRA immediately, before genetic confirmation; ATRA + arsenic trioxide; support with platelets, FFP, cryoprecipitate\n→ Mature-looking cells + high WBC:\n  Lymphocytes, CD5+ CD23+ → CLL (B-lymphocytes ≥5×10⁹/L, clonal)\n  Myeloid spectrum + basophilia → BCR::ABL1 → CML → imatinib (TKI)\n  Leukemoid: LAP high, no basophilia, BCR::ABL1 negative",
+  "tables": [
+   {
+    "title": "Leukaemia master matrix",
+    "head": [
+     "Entity",
+     "Genetics",
+     "Immunophenotype",
+     "Smear / marrow",
+     "Pearl"
+    ],
+    "rows": [
+     [
+      "APL (AML-M3)",
+      "t(15;17)(q24;q21) → PML::RARA",
+      "CD13+, CD33+, MPO strongly +; CD34− and HLA-DR− (classic)",
+      "Hypergranular promyelocytes, bundles of Auer rods (faggot cells); bilobed nuclei in hypogranular variant",
+      "DIC with hyperfibrinolysis; ATRA + arsenic trioxide; very good prognosis once past early bleeding"
+     ],
+     [
+      "AML with t(8;21)",
+      "t(8;21)(q22;q22) → RUNX1::RUNX1T1 (core-binding factor)",
+      "CD13+, CD33+, MPO+, CD34+; aberrant CD19 (and CD56)",
+      "Blasts with single long slender Auer rod, salmon-pink granules",
+      "Favourable; associated with myeloid sarcoma (chloroma)"
+     ],
+     [
+      "AML with inv(16)/t(16;16)",
+      "CBFB::MYH11 (core-binding factor)",
+      "Myeloid + monocytic markers (CD14, CD64)",
+      "Myelomonocytic blasts + abnormal eosinophils with large purple-violet granules",
+      "Favourable; responds to high-dose cytarabine"
+     ],
+     [
+      "B-ALL",
+      "Good: hyperdiploidy (>50 chromosomes), t(12;21) ETV6::RUNX1 | Poor: t(9;22) BCR::ABL1 p190 (also called p185), KMT2A (11q23) rearrangement, hypodiploidy",
+      "TdT+, CD19+, CD10+ (CALLA), CD22+, CD79a+; MPO−",
+      "Small blasts, high N:C, scant cytoplasm; PAS block positivity",
+      "Most common childhood cancer (peak 2–5 y); CNS-directed intrathecal therapy in every protocol; Ph+ ALL → add TKI"
+     ],
+     [
+      "T-ALL",
+      "NOTCH1 activating mutations (>50%), TAL1, TLX1/TLX3",
+      "TdT+, cytoplasmic CD3+ (lineage-defining), CD7+, CD2, CD5, CD1a variable",
+      "Blasts similar to B-ALL on light microscopy",
+      "Adolescent male, anterior mediastinal (thymic) mass, SVC syndrome, high WBC"
+     ],
+     [
+      "CML",
+      "t(9;22)(q34;q11) Philadelphia → BCR::ABL1 p210 (constitutive tyrosine kinase)",
+      "Mature granulocytes; blast phase may be myeloid or lymphoid",
+      "Whole myeloid spectrum, myelocyte and segmented neutrophil peaks, absolute basophilia, eosinophilia",
+      "Low LAP score; massive splenomegaly; imatinib; blast phase ≥20% blasts"
+     ],
+     [
+      "CLL / SLL",
+      "del(13q14) isolated = favourable; del(17p)/TP53 mutation = adverse (chemo-resistant); del(11q) adverse",
+      "CD19+, CD5+, CD23+, CD200+, dim CD20, dim surface Ig (κ or λ)",
+      "Small mature lymphocytes, clumped chromatin; smudge (Gumprecht) cells",
+      "Most common adult leukaemia in the West; AIHA (warm) and ITP; hypogammaglobulinaemia; Richter transformation to DLBCL"
+     ],
+     [
+      "Hairy cell leukaemia",
+      "BRAF V600E (nearly all classic cases)",
+      "CD19, CD20, CD11c, CD25, CD103, annexin A1 (most specific); TRAP+",
+      "Cells with circumferential hair-like projections; marrow reticulin fibrosis → dry tap",
+      "Middle-aged men; massive splenomegaly, no lymphadenopathy, monocytopenia; cladribine (pentostatin alternative)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Auer rods** = fused azurophilic (MPO+) granules → myeloid lineage; never in ALL",
+   "Monocytic AML (M4/M5): gum hypertrophy, skin infiltration (leukaemia cutis), CNS involvement, non-specific esterase positive",
+   "Down syndrome: acute megakaryoblastic leukaemia (M7) before age 5 (GATA1 mutation; transient abnormal myelopoiesis in newborns) and ↑ ALL risk",
+   "AML prognosis: NPM1 mutation without FLT3-ITD = favourable; FLT3-ITD, complex karyotype, TP53 = adverse",
+   "Leukostasis (very high blast count, usually AML): dyspnoea, hypoxia, confusion → cytoreduction/leukapheresis, avoid RBC transfusion before WBC falls",
+   "**Differentiation syndrome** with ATRA/ATO (days to ~3 weeks): fever, dyspnoea, pulmonary infiltrates, effusions, weight gain, hypotension, renal failure → dexamethasone 10 mg IV twice daily at first suspicion; interrupt ATRA/ATO only if severe",
+   "CML: imatinib inhibits BCR::ABL1 ATP-binding site; T315I mutation resistant to imatinib, dasatinib, nilotinib → ponatinib or asciminib",
+   "CLL staging: Rai (0–IV) and Binet (A–C); anaemia/thrombocytopenia = advanced stage",
+   "Tumour lysis syndrome (↑K, ↑PO₄, ↑uric acid, ↓Ca) → hydration + allopurinol, rasburicase if high risk (contraindicated in G6PD deficiency)"
+  ],
+  "traps": [
+   {
+    "stem": "Young woman with gum bleeding, low fibrinogen, raised D-dimer; marrow full of granular blasts with Auer rods. Flow: CD13+, CD33+, MPO bright, CD34−, HLA-DR−.",
+    "trap": "Rejecting acute leukaemia because the 'blast markers' CD34 and HLA-DR are negative.",
+    "fix": "Classic APL is CD34− and HLA-DR−. Hypergranular cells + DIC + CD34−/HLA-DR− = APL; start ATRA immediately, do not wait for PML::RARA."
+   },
+   {
+    "stem": "Elderly man with lymphocytosis; small B cells are CD5+. Which result separates CLL from mantle cell lymphoma?",
+    "trap": "Calling every CD5+ small B-cell disorder CLL.",
+    "fix": "CLL: CD23+, CD200+, cyclin D1−. Mantle cell lymphoma: CD23−, cyclin D1+ from t(11;14) CCND1::IGH, SOX11+."
+   },
+   {
+    "stem": "WBC 70,000/µL with left shift in a patient with severe sepsis. CML or leukemoid reaction?",
+    "trap": "Choosing CML because of the very high count and myelocytes on the smear.",
+    "fix": "Leukemoid reaction: LAP high, toxic granulation/Döhle bodies, no basophilia, BCR::ABL1 negative. CML: LAP low, absolute basophilia, splenomegaly, Philadelphia chromosome/BCR::ABL1 positive."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "APL: translocation {{c1::t(15;17)}} forms {{c2::PML::RARA}}; classic flow is CD34 {{c3::negative}} and HLA-DR negative; start {{c4::ATRA}} before genetic confirmation."
+   },
+   {
+    "type": "basic",
+    "front": "CLL vs mantle cell lymphoma: both CD5+ B cells. Two discriminating markers?",
+    "back": "CLL: CD23+, cyclin D1−.\nMantle cell: CD23−, cyclin D1+ (t(11;14)), SOX11+."
+   },
+   {
+    "type": "basic",
+    "front": "Three tests that confirm CML over a leukemoid reaction",
+    "back": "1. LAP score low (high in leukemoid)\n2. Absolute basophilia\n3. Philadelphia chromosome / BCR::ABL1 on karyotype, FISH or RT-PCR"
+   },
+   {
+    "type": "cloze",
+    "text": "Hairy cell leukaemia: driver mutation {{c1::BRAF V600E}}; most specific marker {{c2::annexin A1}}; marrow gives a {{c3::dry tap}}; drug of choice {{c4::cladribine}}."
+   },
+   {
+    "type": "cloze",
+    "text": "BCR::ABL1 protein in CML is {{c1::p210}}; in most Ph+ ALL it is {{c2::p190 (p185)}}."
+   },
+   {
+    "type": "basic",
+    "front": "Fever, dyspnoea, pulmonary infiltrates and weight gain 10 days after starting ATRA for APL: diagnosis and first step?",
+    "back": "Differentiation syndrome → dexamethasone 10 mg IV twice daily immediately; hold ATRA/ATO only if severe."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Faggot cell in AML-M3.jpg",
+    "caption": "APL: a single promyelocyte packed with bundles of Auer rods (faggot cell)"
+   },
+   {
+    "commons": "File:Hairy cell leukemia smear 2009-08-20.JPG",
+    "caption": "Hairy cell leukaemia: B cells with circumferential hair-like cytoplasmic projections"
+   }
+  ],
+  "keywords": [
+   "acute myeloid leukemia",
+   "acute promyelocytic leukemia",
+   "apl",
+   "auer rods",
+   "faggot cell",
+   "pml-rara",
+   "atra",
+   "arsenic trioxide",
+   "differentiation syndrome",
+   "acute lymphoblastic leukemia",
+   "tdt",
+   "philadelphia chromosome",
+   "bcr-abl",
+   "chronic myeloid leukemia",
+   "imatinib",
+   "lap score",
+   "leukemoid reaction",
+   "chronic lymphocytic leukemia",
+   "smudge cells",
+   "hairy cell leukemia"
+  ],
+  "wiki": [
+   "Acute_myeloid_leukemia",
+   "Acute_lymphoblastic_leukemia",
+   "Chronic_lymphocytic_leukemia"
+  ],
+  "verify": "WHO-HAEM5 (2022) and ICC 2022; exam-classic 20% blast cutoff retained alongside WHO-HAEM5 genetic definitions"
+ },
+ {
+  "id": "path-lymphoma-myeloma",
+  "title": "Hodgkin, NHL translocations & plasma cell neoplasms",
+  "subject": "Pathology",
+  "system": "Haematology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Young adult, painless cervical/mediastinal nodes, alcohol-induced node pain, owl-eye cell CD15+ CD30+ CD45− → classic Hodgkin lymphoma",
+   "Jaw mass in African child, starry sky, Ki-67 ~100%, t(8;14) MYC → Burkitt lymphoma",
+   "Elderly, bone pain, hypercalcaemia, renal failure, anaemia, rouleaux, punched-out lytic lesions, M-spike → multiple myeloma",
+   "IgM spike + hyperviscosity (blurred vision, bleeding) + no lytic lesions + MYD88 L265P → Waldenström macroglobulinaemia"
+  ],
+  "tables": [
+   {
+    "title": "Lymphoma translocations & markers",
+    "head": [
+     "Lymphoma",
+     "Genetic lesion",
+     "Markers",
+     "Signature"
+    ],
+    "rows": [
+     [
+      "Burkitt",
+      "t(8;14) MYC::IGH (variants t(2;8), t(8;22))",
+      "CD20+, CD10+, BCL6+, BCL2−, Ki-67 ~100%",
+      "Starry-sky pattern (tingible-body macrophages); endemic EBV-associated jaw/facial mass, sporadic ileocaecal"
+     ],
+     [
+      "Follicular",
+      "t(14;18) IGH::BCL2",
+      "CD20+, CD10+, BCL6+, BCL2+ in neoplastic follicles",
+      "Back-to-back follicles without tingible-body macrophages; indolent, can transform to DLBCL"
+     ],
+     [
+      "Mantle cell",
+      "t(11;14) CCND1::IGH",
+      "CD5+, CD23−, cyclin D1+, SOX11+",
+      "Older men, GI lymphomatous polyposis; aggressive course"
+     ],
+     [
+      "MALT (extranodal marginal zone)",
+      "t(11;18) BIRC3(API2)::MALT1",
+      "CD20+, CD5−, CD10−",
+      "H. pylori gastritis; t(11;18) cases do not regress with eradication"
+     ],
+     [
+      "DLBCL",
+      "BCL6 (3q27) rearrangement most common; MYC + BCL2 = 'double hit'",
+      "CD20+ large cells",
+      "Most common NHL; Richter transformation of CLL"
+     ],
+     [
+      "ALCL, ALK+",
+      "t(2;5) NPM1::ALK",
+      "CD30+, ALK+ (T-cell)",
+      "Hallmark cells with horseshoe/kidney nuclei; children/young adults; better prognosis than ALK−"
+     ],
+     [
+      "Lymphoplasmacytic (Waldenström)",
+      "MYD88 L265P (>90%)",
+      "CD20+ B cells + plasma cells, IgM",
+      "IgM paraprotein, hyperviscosity, cryoglobulins"
+     ]
+    ]
+   },
+   {
+    "title": "Hodgkin lymphoma subtypes",
+    "head": [
+     "Subtype",
+     "Cell / histology",
+     "Clinical note"
+    ],
+    "rows": [
+     [
+      "Nodular sclerosis",
+      "Lacunar cells, collagen bands dividing nodes",
+      "Most common; young women; mediastinal mass"
+     ],
+     [
+      "Mixed cellularity",
+      "Classic RS cells in mixed eosinophil/plasma cell background",
+      "Older men; most often EBV+; common in developing countries and HIV"
+     ],
+     [
+      "Lymphocyte-rich",
+      "Few RS cells, many small lymphocytes",
+      "Good prognosis"
+     ],
+     [
+      "Lymphocyte-depleted",
+      "Many RS cells, few lymphocytes",
+      "Worst prognosis; elderly, HIV"
+     ],
+     [
+      "Nodular lymphocyte-predominant (NLPHL)",
+      "LP 'popcorn' cells: CD20+, CD45+, BCL6+; CD15−, CD30−",
+      "Not classic HL (WHO-HAEM5: 'nodular lymphocyte predominant HL'; ICC: 'nodular lymphocyte predominant B-cell lymphoma')"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Reed–Sternberg cell**: large, bilobed 'owl-eye' nuclei with prominent eosinophilic nucleoli; classic HL is CD15+, CD30+, PAX5 weak+, CD45−, usually CD20−; RS cells are of germinal-centre B-cell origin",
+   "Ann Arbor/Lugano: I = one node region; II = ≥2 regions same side of diaphragm; III = both sides; IV = diffuse extranodal (e.g. marrow, liver). Lugano 2014 uses PET-CT; A/B suffix retained only for HL",
+   "B symptoms: fever >38 °C, drenching night sweats, weight loss >10% in 6 months; pruritus and alcohol-induced pain are not B symptoms",
+   "Myeloma (IMWG 2014): clonal marrow plasma cells ≥10% or biopsy-proven plasmacytoma + ≥1 myeloma-defining event: **CRAB** (Ca >11 mg/dL, creatinine >2 mg/dL or CrCl <40 mL/min, Hb <10 g/dL, ≥1 lytic lesion) or **SLiM** (≥60% plasma cells, involved/uninvolved free light-chain ratio ≥100, >1 focal MRI lesion ≥5 mm)",
+   "**MGUS**: serum M-protein <3 g/dL, clonal plasma cells <10%, no CRAB/amyloidosis; progresses ~1% per year. Smouldering myeloma: M-protein ≥3 g/dL (or urine ≥500 mg/24 h) and/or plasma cells 10–59%, no myeloma-defining event",
+   "Myeloma lab clues: rouleaux, very high ESR, low anion gap (IgG), normal ALP, bone scan often negative (lytic lesions without osteoblastic activity) → whole-body low-dose CT/MRI/PET",
+   "M-protein frequency: IgG > IgA > light chain only; **Bence Jones protein** = free light chains in urine, missed by dipstick (detect by urine electrophoresis/immunofixation)",
+   "Plasma cell inclusions: **Russell bodies** (cytoplasmic Ig globules), Dutcher bodies (Ig invaginating into nucleus), Mott cells (grape cells), flame cells (IgA); markers CD138, CD38",
+   "Myeloma kidney: light-chain cast nephropathy (casts with Tamm–Horsfall protein); also AL amyloid, hypercalcaemia, Fanconi syndrome; infections are the commonest cause of death",
+   "Waldenström: IgM, lymphadenopathy and splenomegaly, hyperviscosity → plasmapheresis; lytic bone lesions are not a feature"
+  ],
+  "traps": [
+   {
+    "stem": "Lymph node with scattered large 'popcorn' cells that are CD20+, CD45+, CD15−, CD30−.",
+    "trap": "Calling it classic Hodgkin lymphoma because large atypical cells sit in a lymphocyte-rich background.",
+    "fix": "This is nodular lymphocyte-predominant HL: LP (popcorn) cells keep B-cell markers (CD20+) and lack CD15/CD30. Classic RS cells are CD15+, CD30+, CD20−, CD45−."
+   },
+   {
+    "stem": "Elderly man, hypercalcaemia, raised creatinine and back pain. Urine dipstick protein negative, but 24 h urine protein is high.",
+    "trap": "Excluding paraproteinaemia because the dipstick is negative.",
+    "fix": "Dipstick detects albumin, not free light chains. Bence Jones proteinuria needs urine protein electrophoresis/immunofixation; serum free light-chain assay is also used."
+   },
+   {
+    "stem": "IgG M-protein 1.5 g/dL, marrow plasma cells 6%, normal calcium, creatinine and Hb, no bone lesions.",
+    "trap": "Labelling it multiple myeloma and starting chemotherapy.",
+    "fix": "MGUS: <3 g/dL M-protein, <10% plasma cells and no myeloma-defining event → observe; risk of progression ~1%/year."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Classic Reed–Sternberg cells are {{c1::CD15}}+ and {{c2::CD30}}+, but CD45 negative; the lacunar cell is typical of {{c3::nodular sclerosis}} HL."
+   },
+   {
+    "type": "basic",
+    "front": "Match the translocation: Burkitt, follicular, mantle cell, MALT, ALK+ ALCL",
+    "back": "Burkitt t(8;14) MYC\nFollicular t(14;18) BCL2\nMantle t(11;14) cyclin D1\nMALT t(11;18) API2::MALT1\nALCL t(2;5) NPM1::ALK"
+   },
+   {
+    "type": "cloze",
+    "text": "Myeloma-defining SLiM criteria: clonal plasma cells ≥{{c1::60%}}, involved/uninvolved free light-chain ratio ≥{{c2::100}}, and >1 focal MRI lesion ≥{{c3::5 mm}}."
+   },
+   {
+    "type": "basic",
+    "front": "Why can a bone scan be normal in multiple myeloma?",
+    "back": "Lesions are purely lytic (osteoclast activation, osteoblast suppression), so there is little tracer uptake; use low-dose whole-body CT, MRI or PET-CT."
+   },
+   {
+    "type": "cloze",
+    "text": "Waldenström macroglobulinaemia: {{c1::IgM}} paraprotein, hyperviscosity, and the {{c2::MYD88 L265P}} mutation."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Reed-sternberg cell.jpg",
+    "caption": "Reed–Sternberg cell (large, binucleate, prominent nucleoli) beside normal small lymphocytes"
+   },
+   {
+    "commons": "File:Microscopic panel showing intermediate-sized atypical lymphoid cells arranged in sheets with numerous tingible-body macrophages, creating a starry-sky pattern (H&E, ×200).jpg",
+    "caption": "Burkitt lymphoma: sheets of monomorphic cells with tingible-body macrophages (starry sky); c-MYC and EBER positive"
+   },
+   {
+    "commons": "File:Russell bodies 2 high mag.jpg",
+    "caption": "Plasma cell neoplasm with Russell bodies: homogeneous eosinophilic cytoplasmic immunoglobulin globules"
+   }
+  ],
+  "keywords": [
+   "hodgkin lymphoma",
+   "reed-sternberg cell",
+   "cd15",
+   "cd30",
+   "lacunar cell",
+   "popcorn cell",
+   "ann arbor",
+   "burkitt lymphoma",
+   "starry sky",
+   "follicular lymphoma",
+   "mantle cell lymphoma",
+   "malt lymphoma",
+   "anaplastic large cell lymphoma",
+   "multiple myeloma",
+   "crab",
+   "bence jones",
+   "russell bodies",
+   "mgus",
+   "waldenstrom",
+   "m spike"
+  ],
+  "wiki": [
+   "Hodgkin_lymphoma",
+   "Non-Hodgkin_lymphoma",
+   "Multiple_myeloma"
+  ],
+  "verify": "IMWG 2014 myeloma criteria; Lugano 2014 staging; WHO-HAEM5/ICC 2022 lymphoma nomenclature"
+ },
+ {
+  "id": "path-hemolytic-anemia",
+  "title": "Haemolytic anaemias & peripheral smear clues",
+  "subject": "Pathology",
+  "system": "Haematology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Anaemia + jaundice + splenomegaly + ↑MCHC + spherocytes + DAT negative + family history → hereditary spherocytosis",
+   "Haemolysis after fava beans, primaquine, dapsone or infection in a male; bite cells, Heinz bodies → G6PD deficiency",
+   "Haemolysis + pancytopenia + thrombosis at unusual sites (Budd–Chiari) + dark morning urine → PNH (CD55/CD59 loss)",
+   "Microcytosis with RBC count high, Mentzer index <13, HbA2 >3.5% → β-thalassaemia trait"
+  ],
+  "algorithm": "Anaemia + ↑reticulocytes, ↑unconjugated bilirubin, ↑LDH, ↓haptoglobin = haemolysis\n→ Peripheral smear + direct antiglobulin (Coombs) test\n  DAT positive → immune haemolysis\n    IgG, warm (37 °C), spherocytes, extravascular (spleen) → warm AIHA (SLE, CLL, methyldopa)\n    C3d only, IgM, cold → cold agglutinin disease (Mycoplasma, EBV, lymphoma)\n  DAT negative → look at the smear\n    Spherocytes → EMA binding (flow) / osmotic fragility → hereditary spherocytosis\n    Bite cells, Heinz bodies → G6PD assay (repeat 2–3 months after crisis)\n    Schistocytes → MAHA: check platelets, PT/aPTT, ADAMTS13, creatinine (TTP/HUS/DIC)\n    Sickle/target cells → Hb electrophoresis / HPLC\n    No clue + intravascular haemolysis + cytopenia → flow cytometry for CD55/CD59 (FLAER) → PNH",
+  "tables": [
+   {
+    "title": "Smear finding → diagnosis",
+    "head": [
+     "Finding",
+     "Classic associations"
+    ],
+    "rows": [
+     [
+      "Spherocytes",
+      "Hereditary spherocytosis, warm AIHA, burns, ABO haemolytic disease of newborn"
+     ],
+     [
+      "Schistocytes (helmet cells)",
+      "MAHA: TTP, HUS, DIC, malignant hypertension, HELLP, prosthetic valve"
+     ],
+     [
+      "Target cells",
+      "Thalassaemia, HbC and HbE disease, liver disease, post-splenectomy"
+     ],
+     [
+      "Teardrop cells (dacrocytes)",
+      "Primary myelofibrosis, myelophthisis (marrow infiltration), thalassaemia"
+     ],
+     [
+      "Howell–Jolly bodies",
+      "Asplenia / hyposplenism (sickle cell, post-splenectomy, coeliac disease)"
+     ],
+     [
+      "Basophilic stippling",
+      "Lead poisoning, thalassaemia, sideroblastic anaemia, pyrimidine 5′-nucleotidase deficiency"
+     ],
+     [
+      "Bite cells + Heinz bodies (supravital stain)",
+      "G6PD deficiency, oxidant drugs, unstable haemoglobins"
+     ],
+     [
+      "Sickle cells",
+      "HbSS, HbSC, HbS-β-thalassaemia"
+     ],
+     [
+      "Acanthocytes (spur cells)",
+      "Abetalipoproteinaemia, severe liver disease"
+     ],
+     [
+      "Rouleaux",
+      "Multiple myeloma, high fibrinogen/globulins"
+     ]
+    ]
+   },
+   {
+    "title": "Haemolytic anaemias: defect and key test",
+    "head": [
+     "Disorder",
+     "Defect",
+     "Key test / finding"
+    ],
+    "rows": [
+     [
+      "Hereditary spherocytosis",
+      "Membrane: ankyrin (most common), spectrin, band 3, protein 4.2; mostly AD",
+      "EMA binding test ↓ (flow); ↑ osmotic fragility; ↑MCHC; DAT negative"
+     ],
+     [
+      "G6PD deficiency",
+      "X-linked; ↓NADPH → ↓reduced glutathione → oxidant damage",
+      "G6PD assay (false normal during acute episode); Heinz bodies, bite cells"
+     ],
+     [
+      "Sickle cell disease",
+      "β-globin Glu6Val (HbS), AR",
+      "Sickling test (sodium metabisulphite), Hb electrophoresis/HPLC"
+     ],
+     [
+      "β-thalassaemia trait / major",
+      "↓ or absent β-chain synthesis",
+      "Trait: HbA2 >3.5%, microcytosis, Mentzer index <13. Major: HbF ↑↑, transfusion-dependent"
+     ],
+     [
+      "PNH",
+      "Acquired PIGA mutation → no GPI anchor → loss of CD55 (DAF) and CD59 (MIRL)",
+      "Flow cytometry CD55/CD59, FLAER (test of choice); Ham's acidified serum test (historical)"
+     ],
+     [
+      "Warm AIHA",
+      "IgG autoantibody, extravascular",
+      "DAT IgG ± C3; spherocytes"
+     ],
+     [
+      "Cold agglutinin disease",
+      "IgM, complement-mediated",
+      "DAT C3d; RBC agglutination at room temp; acrocyanosis"
+     ],
+     [
+      "Paroxysmal cold haemoglobinuria",
+      "IgG anti-P biphasic antibody",
+      "Donath–Landsteiner test; children after viral infection"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Intravascular** haemolysis: haemoglobinaemia, haemoglobinuria, haemosiderinuria, very low haptoglobin (PNH, G6PD crisis, ABO mismatch, MAHA, PCH). **Extravascular**: splenomegaly, spherocytes (HS, warm AIHA)",
+   "HS: aplastic crisis with parvovirus B19; pigment gallstones; splenectomy cures anaemia (delay to >6 years; vaccinate against encapsulated organisms)",
+   "G6PD triggers: primaquine, dapsone, sulfonamides, nitrofurantoin, rasburicase, methylene blue, fava beans, infection; Mediterranean variant more severe than African A−",
+   "Sickle cell: autosplenectomy (Howell–Jolly bodies), Salmonella osteomyelitis, dactylitis in infants, acute chest syndrome; hydroxyurea raises HbF",
+   "**Mentzer index** = MCV ÷ RBC count (millions/µL): <13 suggests thalassaemia trait, >13 iron deficiency",
+   "α-thalassaemia: 3 genes deleted = HbH disease (β₄); 4 deleted = Hb Bart's (γ₄) → hydrops fetalis",
+   "β-thalassaemia major: hair-on-end skull X-ray, chipmunk facies, extramedullary haematopoiesis, iron overload → chelation",
+   "PNH: thrombosis (hepatic, portal, cerebral veins) is the leading cause of death; associated with aplastic anaemia; treated with complement C5 inhibitor eculizumab",
+   "Haemolysis drives reticulocytosis → MCV may be mildly ↑; folate demand ↑ (give folic acid)"
+  ],
+  "traps": [
+   {
+    "stem": "Black male develops haemolysis on day 2 of primaquine. G6PD level measured on day 4 is normal.",
+    "trap": "Excluding G6PD deficiency on the normal assay.",
+    "fix": "Old enzyme-deficient RBCs have already lysed; young reticulocytes have more G6PD → falsely normal. Repeat the assay 2–3 months after the episode."
+   },
+   {
+    "stem": "Microcytic anaemia, Hb 10.5 g/dL, MCV 64 fL, RBC 6.0 million/µL, ferritin normal.",
+    "trap": "Diagnosing iron deficiency from microcytosis alone and prescribing iron.",
+    "fix": "Mentzer index 64/6 ≈ 10.7 (<13) → β-thalassaemia trait; confirm with HbA2 >3.5% on HPLC/electrophoresis. Note coexistent iron deficiency can lower HbA2."
+   },
+   {
+    "stem": "Spherocytes on smear in a patient with anaemia and splenomegaly. Which test separates the two common causes?",
+    "trap": "Using osmotic fragility to diagnose hereditary spherocytosis.",
+    "fix": "Spherocytes from any cause (including warm AIHA) have ↑ osmotic fragility. Do the DAT first: positive = AIHA; negative + family history + reduced EMA binding = HS."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "PNH: acquired {{c1::PIGA}} mutation → loss of GPI-anchored {{c2::CD55 and CD59}}; screening test of choice is {{c3::flow cytometry (FLAER)}}."
+   },
+   {
+    "type": "cloze",
+    "text": "β-thalassaemia trait: HbA2 {{c1::>3.5%}} and Mentzer index {{c2::<13}}."
+   },
+   {
+    "type": "basic",
+    "front": "Warm vs cold AIHA: antibody class, temperature, complement, and classic causes",
+    "back": "Warm: IgG, 37 °C, extravascular, spherocytes; SLE, CLL, methyldopa.\nCold: IgM, <37 °C, complement C3d, agglutination; Mycoplasma, EBV, lymphoma."
+   },
+   {
+    "type": "basic",
+    "front": "Most commonly affected protein in hereditary spherocytosis, and the preferred screening test?",
+    "back": "Ankyrin; eosin-5′-maleimide (EMA) binding test by flow cytometry (reduced fluorescence)."
+   },
+   {
+    "type": "cloze",
+    "text": "Howell–Jolly bodies indicate {{c1::asplenia/hyposplenism}}; basophilic stippling suggests {{c2::lead poisoning}} or thalassaemia."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Hereditary Spherocytosis smear 2010-03-17.JPG",
+    "caption": "Hereditary spherocytosis: small dense RBCs without central pallor"
+   },
+   {
+    "commons": "File:Schistocytes.jpg",
+    "caption": "Schistocytes (fragmented RBCs, helmet cells) = MAHA, e.g. TTP"
+   },
+   {
+    "commons": "File:Sickle cell anemia smear.jpg",
+    "caption": "Sickle cell anaemia: sickle cells with target cells and polychromasia"
+   }
+  ],
+  "keywords": [
+   "hemolytic anemia",
+   "hereditary spherocytosis",
+   "osmotic fragility",
+   "ema binding",
+   "g6pd deficiency",
+   "heinz bodies",
+   "bite cells",
+   "sickle cell",
+   "thalassemia",
+   "hba2",
+   "mentzer index",
+   "pnh",
+   "cd55",
+   "cd59",
+   "ham test",
+   "autoimmune hemolytic anemia",
+   "coombs test",
+   "cold agglutinin",
+   "schistocytes",
+   "target cells"
+  ],
+  "wiki": [
+   "Hemolytic_anemia",
+   "Hereditary_spherocytosis",
+   "Paroxysmal_nocturnal_hemoglobinuria"
+  ]
+ },
+ {
+  "id": "path-hemostasis",
+  "title": "Bleeding & clotting disorders: PT/aPTT/BT logic",
+  "subject": "Pathology",
+  "system": "Haematology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Mucocutaneous bleeding (petechiae, epistaxis, menorrhagia) = platelet/vWF problem; deep bleeds (haemarthrosis, muscle haematoma) = coagulation factor problem",
+   "Fever + MAHA (schistocytes) + thrombocytopenia + neuro signs + renal involvement, normal PT/aPTT → TTP (ADAMTS13 <10%)",
+   "Child after bloody diarrhoea + MAHA + thrombocytopenia + AKI → HUS (Shiga toxin E. coli O157:H7)",
+   "Platelet fall >50% 5–10 days after heparin ± new thrombosis → HIT"
+  ],
+  "algorithm": "Bleeding patient: platelet count, PT/INR, aPTT, fibrinogen, smear\n→ Low platelets only\n  Isolated, well patient, normal smear → ITP (diagnosis of exclusion)\n  Schistocytes → TTP / HUS (PT/aPTT normal) vs DIC (PT/aPTT ↑, fibrinogen ↓, D-dimer ↑)\n→ Normal platelets, isolated ↑aPTT\n  Mixing study (1:1 with normal plasma)\n    Corrects → factor deficiency (VIII, IX, XI, XII) or vWD\n    Does not correct → inhibitor: lupus anticoagulant (thrombosis, not bleeding) or acquired factor VIII inhibitor (prolongs further on incubation)\n→ Isolated ↑PT → factor VII deficiency, early vitamin K deficiency, early liver disease, warfarin\n→ PT and aPTT both ↑ → common pathway (X, V, II, fibrinogen), vitamin K deficiency, liver disease, DIC\n→ All normal but bleeding → vWD, platelet function defect (aspirin, Glanzmann, Bernard–Soulier), factor XIII deficiency, scurvy, vascular",
+  "tables": [
+   {
+    "title": "Laboratory pattern",
+    "head": [
+     "Disorder",
+     "Platelets",
+     "BT",
+     "PT",
+     "aPTT",
+     "Discriminator"
+    ],
+    "rows": [
+     [
+      "ITP",
+      "↓",
+      "↑",
+      "N",
+      "N",
+      "Anti-GPIIb/IIIa; megakaryocytes ↑ in marrow; large platelets"
+     ],
+     [
+      "TTP",
+      "↓",
+      "↑",
+      "N",
+      "N",
+      "ADAMTS13 deficiency (<10%) → ultra-large vWF multimers; schistocytes"
+     ],
+     [
+      "HUS",
+      "↓",
+      "↑",
+      "N",
+      "N",
+      "Shiga toxin (typical); complement dysregulation (atypical); renal failure dominant"
+     ],
+     [
+      "DIC",
+      "↓",
+      "↑",
+      "↑",
+      "↑",
+      "↓ fibrinogen, ↑ D-dimer/FDP, schistocytes; factor VIII ↓"
+     ],
+     [
+      "Liver disease",
+      "N/↓",
+      "N/↑",
+      "↑",
+      "↑",
+      "Factor VIII normal or ↑ (made by endothelium)"
+     ],
+     [
+      "Vitamin K deficiency / warfarin",
+      "N",
+      "N",
+      "↑ (first)",
+      "↑ (later)",
+      "II, VII, IX, X, protein C, S ↓; VII has shortest half-life"
+     ],
+     [
+      "Haemophilia A / B",
+      "N",
+      "N",
+      "N",
+      "↑",
+      "Factor VIII / IX ↓; X-linked; haemarthrosis"
+     ],
+     [
+      "von Willebrand disease",
+      "N (↓ in type 2B)",
+      "↑",
+      "N",
+      "N/↑",
+      "↓ vWF antigen, ↓ ristocetin cofactor activity, ↓ VIII"
+     ],
+     [
+      "Bernard–Soulier",
+      "↓ (giant platelets)",
+      "↑",
+      "N",
+      "N",
+      "GPIb-IX-V absent; no agglutination with ristocetin, not corrected by normal plasma"
+     ],
+     [
+      "Glanzmann thrombasthenia",
+      "N",
+      "↑",
+      "N",
+      "N",
+      "GPIIb/IIIa absent; no aggregation with ADP, collagen, epinephrine; ristocetin normal"
+     ],
+     [
+      "Aspirin",
+      "N",
+      "↑",
+      "N",
+      "N",
+      "Irreversible COX-1 inhibition for platelet lifespan (7–10 days)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**vWD** is the most common inherited bleeding disorder; type 1 (partial quantitative, AD) is commonest; DDAVP releases stored vWF (avoid in type 2B: worsens thrombocytopenia)",
+   "TTP classic pentad: fever, MAHA, thrombocytopenia, neurological signs, renal dysfunction (full pentad uncommon). Treat urgently with plasma exchange ± steroids, caplacizumab; platelet transfusion generally avoided",
+   "Haemophilia A (VIII) is commoner than B (IX, Christmas disease); both X-linked recessive; carrier females usually asymptomatic",
+   "**HIT** (type II): IgG against heparin–PF4 complex → platelet activation → thrombosis more than bleeding. 4Ts score: Thrombocytopenia, Timing (5–10 days), Thrombosis, oTher cause absent. Stop all heparin, start non-heparin anticoagulant (argatroban, bivalirudin, fondaparinux, DOAC); avoid platelet transfusion; no warfarin until platelets recover",
+   "**Factor V Leiden** (Arg506Gln, activated protein C resistance) is the most common inherited thrombophilia in Caucasians; prothrombin G20210A second",
+   "Antithrombin deficiency → heparin resistance; protein C deficiency → warfarin-induced skin necrosis (start warfarin with heparin bridge)",
+   "Antiphospholipid syndrome: lupus anticoagulant prolongs aPTT in vitro but causes arterial/venous thrombosis and recurrent pregnancy loss",
+   "Newborn vitamin K deficiency (haemorrhagic disease of the newborn) → prophylactic IM vitamin K at birth",
+   "Factor XIII deficiency: normal PT, aPTT, platelets; delayed bleeding and umbilical stump bleeding → urea clot solubility test"
+  ],
+  "traps": [
+   {
+    "stem": "Patient with prolonged aPTT that fails to correct on mixing; has had two DVTs and a miscarriage.",
+    "trap": "Assuming a bleeding disorder because the aPTT is prolonged.",
+    "fix": "Non-correcting aPTT = inhibitor. With thrombosis and pregnancy loss this is lupus anticoagulant (antiphospholipid syndrome), a prothrombotic state."
+   },
+   {
+    "stem": "Fever, confusion, Hb 7 g/dL with schistocytes, platelets 15,000/µL, PT and aPTT normal. Platelet transfusion requested.",
+    "trap": "Treating as DIC or transfusing platelets.",
+    "fix": "Normal PT/aPTT with MAHA and thrombocytopenia = TTP. Start plasma exchange urgently; platelets may worsen microthrombosis. DIC would show ↑PT/aPTT and ↓fibrinogen."
+   },
+   {
+    "stem": "Platelet disorder with large platelets and absent ristocetin-induced agglutination, versus one with normal count and absent aggregation to ADP.",
+    "trap": "Mixing up the glycoproteins.",
+    "fix": "Bernard–Soulier = GPIb (binds vWF), giant platelets, low count, ristocetin abnormal. Glanzmann = GPIIb/IIIa (binds fibrinogen), normal count/size, ristocetin normal."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "TTP is due to deficiency of {{c1::ADAMTS13}}, the protease that cleaves {{c2::ultra-large von Willebrand factor multimers}}; first-line treatment is {{c3::plasma exchange}}."
+   },
+   {
+    "type": "basic",
+    "front": "Isolated prolonged aPTT, normal platelets: what does a mixing study tell you?",
+    "back": "Corrects → factor deficiency (VIII, IX, XI, XII).\nDoes not correct → inhibitor (lupus anticoagulant or acquired factor VIII inhibitor)."
+   },
+   {
+    "type": "cloze",
+    "text": "In vitamin K deficiency the {{c1::PT}} prolongs first because factor {{c2::VII}} has the shortest half-life."
+   },
+   {
+    "type": "basic",
+    "front": "DIC vs liver disease: one factor that separates them",
+    "back": "Factor VIII: low in DIC (consumed), normal or raised in liver disease (made by endothelium/sinusoidal cells)."
+   },
+   {
+    "type": "cloze",
+    "text": "The most common inherited bleeding disorder is {{c1::von Willebrand disease}}; the most common inherited thrombophilia is {{c2::factor V Leiden}}."
+   },
+   {
+    "type": "basic",
+    "front": "HIT: timing, mechanism, and management",
+    "back": "Platelets fall >50% 5–10 days after heparin (sooner if recent exposure); IgG to heparin–PF4 → platelet activation and thrombosis. Stop all heparin, start argatroban/bivalirudin/fondaparinux/DOAC; no platelet transfusion; delay warfarin."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "bleeding time",
+   "prothrombin time",
+   "aptt",
+   "mixing study",
+   "itp",
+   "ttp",
+   "adamts13",
+   "hus",
+   "dic",
+   "von willebrand disease",
+   "hemophilia",
+   "factor viii",
+   "vitamin k deficiency",
+   "bernard-soulier",
+   "glanzmann",
+   "heparin induced thrombocytopenia",
+   "4ts score",
+   "factor v leiden",
+   "lupus anticoagulant",
+   "thrombophilia"
+  ],
+  "wiki": [
+   "Thrombotic_thrombocytopenic_purpura",
+   "Von_Willebrand_disease",
+   "Heparin-induced_thrombocytopenia"
+  ],
+  "verify": "ASH 2018 HIT and 2020 TTP guidance; Harrison 21e"
+ },
+ {
+  "id": "path-myeloproliferative",
+  "title": "MPNs, MDS, aplastic anaemia & transfusion essentials",
+  "subject": "Pathology",
+  "system": "Haematology",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Plethora, itching after a hot bath, erythromelalgia, splenomegaly, high Hct, low EPO, JAK2 V617F → polycythaemia vera",
+   "Massive splenomegaly + teardrop cells + leukoerythroblastic smear + dry tap → primary myelofibrosis",
+   "Elderly woman, macrocytic anaemia, normal/high platelets, hypolobated micromegakaryocytes, isolated del(5q) → MDS with low blasts and 5q deletion (lenalidomide)",
+   "Pancytopenia + hypocellular fatty marrow + no splenomegaly → aplastic anaemia"
+  ],
+  "tables": [
+   {
+    "title": "Myeloproliferative neoplasms",
+    "head": [
+     "MPN",
+     "Driver mutations",
+     "Key findings",
+     "Treatment"
+    ],
+    "rows": [
+     [
+      "Polycythaemia vera",
+      "JAK2 V617F (~95%), JAK2 exon 12 (rest)",
+      "Hb >16.5 g/dL men / >16 g/dL women (or Hct >49%/48%), panmyelosis, low serum EPO, aquagenic pruritus, Budd–Chiari",
+      "Phlebotomy to Hct <45%, low-dose aspirin, hydroxyurea if high risk"
+     ],
+     [
+      "Essential thrombocythaemia",
+      "JAK2 (~50–60%), CALR (~25%), MPL (few %)",
+      "Platelets ≥450×10⁹/L, large hyperlobulated (staghorn) megakaryocytes, erythromelalgia, thrombosis and bleeding (acquired vWD at very high counts)",
+      "Aspirin; hydroxyurea if high risk"
+     ],
+     [
+      "Primary myelofibrosis",
+      "JAK2, CALR, MPL; triple-negative = worse",
+      "Teardrop cells, leukoerythroblastic picture, dry tap, reticulin/collagen fibrosis, massive splenomegaly, extramedullary haematopoiesis",
+      "Ruxolitinib (JAK1/2 inhibitor); allogeneic HSCT is the only cure"
+     ],
+     [
+      "CML",
+      "BCR::ABL1 (Philadelphia)",
+      "Neutrophilia with myelocyte peak, basophilia, low LAP; blast phase ≥20% blasts",
+      "Imatinib and other TKIs"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Secondary polycythaemia (hypoxia, EPO-secreting RCC, HCC, cerebellar haemangioblastoma, uterine fibroid) has **high EPO**; PV has low EPO",
+   "WHO-HAEM5 drops the CML accelerated phase (chronic → blast phase); ICC 2022 retains it",
+   "**MDS**: cytopenia(s) + dysplasia in ≥10% of a lineage, blasts <20%; ring sideroblasts ≥15% (≥5% if SF3B1 mutated); pseudo-Pelger–Huët neutrophils, micromegakaryocytes; risk of AML; therapy-related after alkylators/topoisomerase II inhibitors",
+   "**Aplastic anaemia**: marrow cellularity <25%; severe = 2 of ANC <500/µL, platelets <20,000/µL, reticulocytes <20,000/µL (very severe if ANC <200). Causes: idiopathic (immune), drugs (chloramphenicol, gold, carbamazepine), benzene, seronegative hepatitis, PNH clone; inherited: Fanconi anaemia",
+   "Aplastic anaemia treatment: young + matched sibling → HSCT; others → horse ATG + cyclosporine + eltrombopag",
+   "**Bombay phenotype** (hh): no H antigen, serum has anti-A, anti-B and anti-H → can receive only Bombay blood (cross-matches incompatible with group O)",
+   "Universal donor: O Rh-negative packed RBCs; AB plasma is the universal plasma donor. Duffy-negative (Fy a−b−) RBCs resist P. vivax",
+   "Transfusion reactions: febrile non-haemolytic most common (prevent with leukoreduction); acute haemolytic = ABO mismatch (clerical error); anaphylaxis = IgA-deficient recipient with anti-IgA; TRALI within 6 h (donor anti-HLA/HNA antibodies, non-cardiogenic oedema, normal BNP); TACO = volume overload (hypertension, raised BNP); delayed haemolytic (often Kidd) at 3–10 days; TA-GVHD prevented only by irradiation",
+   "Storage: RBC 2–6 °C (CPDA-1 35 days; SAGM 42 days); platelets 20–24 °C with agitation, 5 days (highest bacterial contamination risk); cryoprecipitate contains fibrinogen, VIII, vWF, XIII"
+  ],
+  "traps": [
+   {
+    "stem": "Smoker with Hct 56%, splenomegaly absent, raised serum EPO.",
+    "trap": "Diagnosing polycythaemia vera because the haematocrit is high.",
+    "fix": "Raised EPO = secondary polycythaemia (hypoxia, smoking/carboxyhaemoglobin, EPO-secreting tumour). PV has suppressed EPO and a JAK2 mutation."
+   },
+   {
+    "stem": "Pancytopenia with splenomegaly and a dry tap on aspiration.",
+    "trap": "Calling it aplastic anaemia because the aspirate is empty.",
+    "fix": "Aplastic anaemia has no splenomegaly and a hypocellular fatty biopsy. Dry tap + splenomegaly suggests myelofibrosis, hairy cell leukaemia or marrow infiltration; do a trephine biopsy."
+   },
+   {
+    "stem": "Acute respiratory distress 2 h after FFP transfusion; BP normal, BNP normal, bilateral infiltrates.",
+    "trap": "Labelling it TACO and giving diuretics.",
+    "fix": "TRALI: within 6 h, non-cardiogenic oedema, normal BNP, often hypotension; caused by donor anti-HLA/HNA antibodies (multiparous female plasma). Stop transfusion, supportive care. TACO has hypertension and high BNP."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Polycythaemia vera: {{c1::JAK2 V617F}} mutation with {{c2::low}} serum erythropoietin; phlebotomy target haematocrit {{c3::<45%}}."
+   },
+   {
+    "type": "basic",
+    "front": "Primary myelofibrosis: three classic findings",
+    "back": "Teardrop cells with leukoerythroblastic smear, dry tap with marrow fibrosis, massive splenomegaly (extramedullary haematopoiesis)."
+   },
+   {
+    "type": "cloze",
+    "text": "The most common transfusion reaction is {{c1::febrile non-haemolytic}}; anaphylaxis occurs in {{c2::IgA-deficient}} recipients; TA-GVHD is prevented by {{c3::irradiation}}."
+   },
+   {
+    "type": "basic",
+    "front": "Bombay blood group: what is missing and who can donate?",
+    "back": "H antigen absent (hh), so A/B cannot form; serum has anti-H. Only another Bombay phenotype donor is compatible."
+   },
+   {
+    "type": "cloze",
+    "text": "MDS with isolated del(5q): elderly women, macrocytic anaemia, normal or raised {{c1::platelets}}, responds to {{c2::lenalidomide}}."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Teardrop Cells smear 2009-09-22.JPG",
+    "caption": "Teardrop cells (dacrocytes): squeezed out of a fibrotic marrow, typical of primary myelofibrosis"
+   }
+  ],
+  "keywords": [
+   "myeloproliferative neoplasm",
+   "polycythemia vera",
+   "jak2",
+   "essential thrombocythemia",
+   "calr",
+   "primary myelofibrosis",
+   "teardrop cells",
+   "dry tap",
+   "ruxolitinib",
+   "myelodysplastic syndrome",
+   "5q deletion",
+   "ring sideroblasts",
+   "aplastic anemia",
+   "fanconi anemia",
+   "bombay blood group",
+   "transfusion reaction",
+   "trali",
+   "taco",
+   "irradiated blood"
+  ],
+  "wiki": [
+   "Myeloproliferative_neoplasm",
+   "Aplastic_anemia",
+   "Blood_transfusion"
+  ],
+  "verify": "WHO-HAEM5 / ICC 2022 MPN and MDS criteria; Camitta criteria for aplastic anaemia"
+ },
+ {
+  "id": "path-cell-injury-apoptosis",
+  "title": "Cell injury, necrosis, apoptosis & calcification",
+  "subject": "Pathology",
+  "system": "General pathology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Cellular swelling is the earliest reversible change; amorphous mitochondrial densities and membrane rupture mark the point of no return",
+   "Single cells shrink, chromatin condenses, apoptotic bodies, no inflammation, DNA ladder → apoptosis",
+   "Intrinsic = mitochondria, BAX/BAK, cytochrome c, APAF-1, caspase-9; extrinsic = Fas/TNFR1, FADD, caspase-8; both converge on caspase-3",
+   "Annexin V+/PI− = early apoptosis; Annexin V+/PI+ = late apoptosis/necrosis"
+  ],
+  "tables": [
+   {
+    "title": "Types of necrosis",
+    "head": [
+     "Type",
+     "Mechanism / look",
+     "Classic example"
+    ],
+    "rows": [
+     [
+      "Coagulative",
+      "Protein denaturation; cell outlines (ghost cells) preserved for days",
+      "Ischaemic infarct of heart, kidney, spleen (any solid organ except brain)"
+     ],
+     [
+      "Liquefactive",
+      "Enzymatic digestion → liquid",
+      "Brain infarct, abscess (bacterial/fungal)"
+     ],
+     [
+      "Caseous",
+      "Cheese-like, amorphous granular debris, architecture lost, within granuloma",
+      "Tuberculosis (also some fungi)"
+     ],
+     [
+      "Fat necrosis",
+      "Lipase releases fatty acids → calcium soaps (saponification, chalky white)",
+      "Acute pancreatitis (enzymatic); breast trauma (non-enzymatic)"
+     ],
+     [
+      "Fibrinoid",
+      "Immune complex + fibrin in vessel wall, bright pink",
+      "Vasculitis (PAN), malignant hypertension, Arthus reaction"
+     ],
+     [
+      "Gangrenous",
+      "Dry = coagulative; wet = superadded bacterial liquefaction",
+      "Limb ischaemia; bowel infarction (wet)"
+     ]
+    ]
+   },
+   {
+    "title": "Apoptosis vs necrosis",
+    "head": [
+     "Feature",
+     "Apoptosis",
+     "Necrosis"
+    ],
+    "rows": [
+     [
+      "Cell size",
+      "Shrinkage",
+      "Swelling"
+     ],
+     [
+      "Nucleus",
+      "Pyknosis → karyorrhexis (fragmentation)",
+      "Pyknosis → karyorrhexis → karyolysis"
+     ],
+     [
+      "Membrane",
+      "Intact; phosphatidylserine flips outward (eat-me signal, binds annexin V)",
+      "Disrupted"
+     ],
+     [
+      "Inflammation",
+      "None",
+      "Present"
+     ],
+     [
+      "DNA on gel",
+      "Ladder (≈180–200 bp multiples)",
+      "Smear"
+     ],
+     [
+      "Physiological?",
+      "Often (embryogenesis, hormone withdrawal, thymic deletion)",
+      "Always pathological"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Reversible injury: cellular (hydropic) swelling, fatty change, membrane blebs, ER dilation, myelin figures, loss of microvilli. Irreversible: **mitochondrial amorphous (flocculent) densities**, plasma/lysosomal membrane damage, nuclear dissolution",
+   "Intrinsic pathway: BH3-only sensors (BIM, BID, PUMA, NOXA, BAD) activate **BAX/BAK** → mitochondrial outer membrane permeabilisation → cytochrome c + APAF-1 = apoptosome → **caspase-9**. BCL-2, BCL-XL, MCL-1 are anti-apoptotic",
+   "Extrinsic pathway: FasL–Fas (CD95) or TNF–TNFR1 → FADD → **caspase-8**; FLIP blocks it; BID cleavage links extrinsic to intrinsic. Executioner caspases 3, 6, 7",
+   "Annexin V/PI flow quadrants: AnV−/PI− live; AnV+/PI− early apoptotic; AnV+/PI+ late apoptotic (secondary necrosis); AnV−/PI+ necrotic/damaged. TUNEL detects DNA fragmentation",
+   "Other death modes: **necroptosis** (RIPK1–RIPK3–MLKL, caspase-independent); **pyroptosis** (inflammasome → caspase-1, gasdermin D pores, IL-1β/IL-18 release); **ferroptosis** (iron-dependent lipid peroxidation, GPX4 failure)",
+   "**Autophagy**: self-digestion in nutrient deprivation; mTOR inhibition triggers it; markers LC3, beclin-1 (ATG6)",
+   "Free radicals: hydroxyl radical (•OH) most reactive; Fenton reaction (Fe²⁺ + H₂O₂); removed by SOD, catalase, glutathione peroxidase; antioxidant vitamins E, C, A",
+   "Accumulations: **lipofuscin** (wear-and-tear pigment, brown atrophy, heart/liver of elderly); **haemosiderin** (Prussian blue +); fatty change (Oil Red O/Sudan on frozen section); glycogen (PAS +, diastase-sensitive)",
+   "**Dystrophic calcification**: normal serum Ca, in dead/damaged tissue (atheroma, damaged valves, caseation, psammoma bodies). **Metastatic**: hypercalcaemia (hyperparathyroidism, vitamin D excess, bone destruction, renal failure), normal tissues that lose acid: lung alveolar walls, kidney, gastric mucosa, systemic arteries",
+   "Most hypoxia-sensitive cells: neurons (irreversible after ~3–5 min), then myocardium (~20–30 min); red neurons appear 12–24 h after ischaemia"
+  ],
+  "traps": [
+   {
+    "stem": "Which morphological change best indicates irreversible ischaemic myocardial injury on electron microscopy?",
+    "trap": "Choosing cellular swelling or fatty change because they are the earliest visible changes.",
+    "fix": "Swelling and fatty change are reversible. Amorphous (flocculent) densities in mitochondria and plasma/lysosomal membrane rupture mark irreversibility."
+   },
+   {
+    "stem": "Flow cytometry shows a population that binds annexin V but excludes propidium iodide.",
+    "trap": "Calling them necrotic because annexin V is positive.",
+    "fix": "Annexin V+/PI− = early apoptosis (membrane intact, phosphatidylserine exposed). PI entry (AnV+/PI+) means membrane breached → late apoptosis/necrosis."
+   },
+   {
+    "stem": "Brain infarct a week old: which type of necrosis?",
+    "trap": "Coagulative necrosis, the rule for ischaemic infarcts.",
+    "fix": "The brain is the exception: ischaemic infarct of the CNS shows liquefactive necrosis (lipid-rich tissue, little stroma, microglial enzymes)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Intrinsic apoptosis: {{c1::BAX/BAK}} release {{c2::cytochrome c}}, which with APAF-1 activates caspase-{{c3::9}}; extrinsic apoptosis activates caspase-{{c4::8}}."
+   },
+   {
+    "type": "basic",
+    "front": "Annexin V / propidium iodide: what do the four quadrants mean?",
+    "back": "AnV−/PI− live\nAnV+/PI− early apoptosis\nAnV+/PI+ late apoptosis / secondary necrosis\nAnV−/PI+ necrosis"
+   },
+   {
+    "type": "cloze",
+    "text": "Dystrophic calcification occurs with {{c1::normal}} serum calcium in damaged tissue; metastatic calcification needs {{c2::hypercalcaemia}} and favours {{c3::lung, kidney and gastric mucosa}}."
+   },
+   {
+    "type": "basic",
+    "front": "Pyroptosis vs ferroptosis: key molecules",
+    "back": "Pyroptosis: inflammasome → caspase-1 → gasdermin D pores, IL-1β/IL-18.\nFerroptosis: iron-dependent lipid peroxidation when GPX4/glutathione fails."
+   },
+   {
+    "type": "cloze",
+    "text": "Apoptotic DNA gives a {{c1::ladder}} pattern on gel electrophoresis; necrotic DNA gives a {{c2::smear}}."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "cell injury",
+   "reversible injury",
+   "irreversible injury",
+   "necrosis",
+   "coagulative necrosis",
+   "liquefactive necrosis",
+   "caseous necrosis",
+   "fat necrosis",
+   "fibrinoid necrosis",
+   "apoptosis",
+   "caspase",
+   "bcl-2",
+   "cytochrome c",
+   "annexin v",
+   "propidium iodide",
+   "pyroptosis",
+   "ferroptosis",
+   "autophagy",
+   "dystrophic calcification",
+   "metastatic calcification"
+  ],
+  "wiki": [
+   "Apoptosis",
+   "Necrosis",
+   "Dystrophic_calcification"
+  ],
+  "verify": "Robbins & Cotran 10e, chapter 2"
+ },
+ {
+  "id": "path-inflammation-amyloid",
+  "title": "Inflammation mediators, granulomas, healing & amyloid",
+  "subject": "Pathology",
+  "system": "General pathology",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Neutrophilia, recurrent infections without pus, delayed umbilical cord separation → leukocyte adhesion deficiency type 1 (CD18)",
+   "Epithelioid macrophages + Langhans giant cells ± central caseation → granuloma (TB caseating; sarcoid non-caseating)",
+   "Congo red: salmon-pink on light microscopy, apple-green birefringence under polarised light → amyloid (β-pleated sheet)",
+   "Collagen type III early in granulation tissue → replaced by type I during remodelling"
+  ],
+  "tables": [
+   {
+    "title": "Mediators of acute inflammation",
+    "head": [
+     "Action",
+     "Main mediators"
+    ],
+    "rows": [
+     [
+      "Vasodilation",
+      "Histamine, prostaglandins (PGI₂, PGE₂, PGD₂), nitric oxide"
+     ],
+     [
+      "↑ Vascular permeability",
+      "Histamine (immediate transient, venules), bradykinin, C3a/C5a, LTC₄/D₄/E₄, PAF, substance P"
+     ],
+     [
+      "Chemotaxis / leukocyte activation",
+      "C5a, LTB₄, IL-8 (CXCL8), bacterial N-formyl-methionyl peptides"
+     ],
+     [
+      "Fever",
+      "IL-1, TNF, IL-6 → PGE₂ in hypothalamus"
+     ],
+     [
+      "Pain",
+      "PGE₂, bradykinin"
+     ],
+     [
+      "Opsonisation",
+      "C3b, IgG Fc, mannose-binding lectin"
+     ],
+     [
+      "Platelet aggregation / vasoconstriction",
+      "Thromboxane A₂ (PGI₂ opposes)"
+     ],
+     [
+      "Bronchospasm",
+      "LTC₄, LTD₄, LTE₄ (slow-reacting substance of anaphylaxis)"
+     ],
+     [
+      "Tissue damage",
+      "Lysosomal enzymes, reactive oxygen species"
+     ]
+    ]
+   },
+   {
+    "title": "Amyloid types",
+    "head": [
+     "Type",
+     "Precursor",
+     "Setting"
+    ],
+    "rows": [
+     [
+      "AL",
+      "Immunoglobulin light chain (λ > κ)",
+      "Plasma cell neoplasm / primary amyloidosis; heart, kidney, macroglossia, periorbital purpura"
+     ],
+     [
+      "AA",
+      "Serum amyloid A (acute-phase reactant)",
+      "Chronic inflammation: RA, TB, bronchiectasis, osteomyelitis, IBD, familial Mediterranean fever; kidney first"
+     ],
+     [
+      "ATTR",
+      "Transthyretin (mutant or wild-type)",
+      "Familial amyloid polyneuropathy; wild-type senile cardiac amyloidosis"
+     ],
+     [
+      "Aβ2M",
+      "β2-microglobulin",
+      "Long-term haemodialysis: carpal tunnel, joints"
+     ],
+     [
+      "Aβ",
+      "Amyloid precursor protein (chromosome 21)",
+      "Alzheimer plaques, cerebral amyloid angiopathy, Down syndrome"
+     ],
+     [
+      "AIAPP / ACal / AANF",
+      "Amylin / calcitonin / atrial natriuretic factor",
+      "Type 2 diabetes islets / medullary thyroid carcinoma / isolated atrial amyloid"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Leukocyte recruitment: margination → rolling (**selectins** E, P, L binding sialyl-Lewis X) → firm adhesion (**integrins** LFA-1/Mac-1 to ICAM-1; VLA-4 to VCAM-1) → transmigration (**PECAM-1/CD31**) → chemotaxis",
+   "**LAD-1**: β2-integrin (CD18) defect, delayed cord separation, no pus, marked neutrophilia. **LAD-2**: fucosylation defect → no sialyl-Lewis X, Bombay phenotype, intellectual disability. Chédiak–Higashi: LYST, giant granules, albinism, neuropathy",
+   "Granuloma drivers: macrophage IL-12 → Th1 IFN-γ → epithelioid macrophages; TNF maintains granulomas (anti-TNF reactivates TB). Langhans giant cell: nuclei in a horseshoe at the periphery; foreign-body giant cell: nuclei scattered",
+   "Non-caseating granulomas: sarcoidosis, Crohn disease, berylliosis, foreign body, leprosy (tuberculoid); stellate necrotising granulomas in cat-scratch disease and lymphogranuloma venereum",
+   "Healing: granulation tissue = new capillaries + fibroblasts + loose ECM (VEGF, FGF-2, TGF-β). Wound strength ~10% at 1 week, ~70–80% by 3 months, never 100%. Vitamin C needed for prolyl/lysyl hydroxylation",
+   "Keloid extends beyond the original wound margins (excess collagen; predisposition in darker skin); hypertrophic scar stays within margins",
+   "Amyloid: non-branching fibrils 7.5–10 nm on EM, β-pleated sheet; Congo red apple-green birefringence; abdominal fat pad aspirate or rectal biopsy for diagnosis. Kidney is the most commonly and most seriously involved organ (nephrotic syndrome). Sago spleen = follicular deposits; lardaceous spleen = red pulp/sinusoidal",
+   "**Russell bodies** = immunoglobulin in dilated ER of plasma cells. **Mallory–Denk bodies** = ubiquitinated keratin 8/18 intermediate filaments in hepatocytes (alcoholic hepatitis, NASH, Wilson disease)",
+   "Hyaline (glassy pink): intracellular (Mallory–Denk, Russell bodies, protein reabsorption droplets in tubules) vs extracellular (hyaline arteriolosclerosis, amyloid, hyaline membranes in ARDS)"
+  ],
+  "traps": [
+   {
+    "stem": "Infant with omphalitis, umbilical cord still attached at 5 weeks, WBC 40,000/µL, infected sites without pus.",
+    "trap": "Choosing chronic granulomatous disease because of recurrent bacterial infections.",
+    "fix": "Delayed cord separation + neutrophilia + no pus = LAD-1 (CD18 integrin defect, neutrophils cannot leave vessels). CGD forms abscesses/granulomas with catalase-positive organisms."
+   },
+   {
+    "stem": "Congo red stained renal biopsy shows red-orange deposits on ordinary light. What confirms amyloid?",
+    "trap": "Accepting the red colour alone as diagnostic.",
+    "fix": "Apple-green birefringence under polarised light is required; EM shows non-branching 7.5–10 nm fibrils. Typing (AL vs AA vs ATTR) needs immunohistochemistry or mass spectrometry."
+   },
+   {
+    "stem": "Patient on long-term haemodialysis develops bilateral carpal tunnel syndrome.",
+    "trap": "AL amyloid because it is the most common systemic type.",
+    "fix": "Dialysis-related amyloid is Aβ2M (β2-microglobulin is not filtered by older dialysis membranes)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Leukocyte rolling uses {{c1::selectins}}, firm adhesion uses {{c2::integrins}}, and transmigration uses {{c3::PECAM-1 (CD31)}}."
+   },
+   {
+    "type": "cloze",
+    "text": "Amyloid on Congo red shows {{c1::apple-green birefringence}} under polarised light because of its {{c2::β-pleated sheet}} structure."
+   },
+   {
+    "type": "basic",
+    "front": "AL vs AA amyloid: precursor and typical setting",
+    "back": "AL: immunoglobulin light chain (λ > κ), plasma cell neoplasm.\nAA: serum amyloid A from chronic inflammation (RA, TB, bronchiectasis, FMF)."
+   },
+   {
+    "type": "cloze",
+    "text": "Early granulation tissue contains collagen type {{c1::III}}, which is replaced by type {{c2::I}} during remodelling."
+   },
+   {
+    "type": "basic",
+    "front": "Most important chemotactic agents for neutrophils",
+    "back": "C5a, LTB₄, IL-8 (CXCL8), bacterial N-formyl-methionyl peptides."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Amyloid Liver Congo Red Bar=100um.jpg",
+    "caption": "Amyloid in liver, Congo red under crossed polarisers: apple-green (orange-green) birefringence"
+   },
+   {
+    "commons": "File:Tuberculous lymph node with caseating granuloma 4X.jpg",
+    "caption": "Caseating granuloma (TB lymph node): central amorphous caseation rimmed by epithelioid cells, Langhans giant cells and lymphocytes"
+   }
+  ],
+  "keywords": [
+   "acute inflammation",
+   "chemical mediators",
+   "histamine",
+   "bradykinin",
+   "c5a",
+   "ltb4",
+   "chemotaxis",
+   "selectins",
+   "integrins",
+   "leukocyte adhesion deficiency",
+   "granuloma",
+   "langhans giant cell",
+   "epithelioid cells",
+   "wound healing",
+   "granulation tissue",
+   "collagen",
+   "keloid",
+   "amyloidosis",
+   "congo red",
+   "apple green birefringence"
+  ],
+  "wiki": [
+   "Inflammation",
+   "Amyloidosis",
+   "Granuloma"
+  ],
+  "verify": "Robbins & Cotran 10e, chapters 3 and 6"
+ },
+ {
+  "id": "path-immunology-hla",
+  "title": "Hypersensitivity, rejection, immunodeficiency & HLA",
+  "subject": "Pathology",
+  "system": "Immunology",
+  "yield": 3,
+  "kind": "volatile",
+  "anchor": [
+   "Boy >6 months, recurrent pyogenic infections, absent tonsils, no CD19+ B cells → Bruton X-linked agammaglobulinaemia (BTK)",
+   "Hypocalcaemic tetany + conotruncal heart defect + absent thymic shadow + cleft palate → DiGeorge (22q11.2 deletion)",
+   "Eczema + thrombocytopenia with small platelets + recurrent infections in a boy → Wiskott–Aldrich syndrome",
+   "Catalase-positive infections (S. aureus, Aspergillus, Serratia, Nocardia, Burkholderia) + abnormal NBT/DHR → chronic granulomatous disease"
+  ],
+  "tables": [
+   {
+    "title": "Hypersensitivity reactions",
+    "head": [
+     "Type",
+     "Mechanism",
+     "Examples"
+    ],
+    "rows": [
+     [
+      "I (immediate)",
+      "IgE on mast cells → degranulation (minutes)",
+      "Anaphylaxis, allergic asthma, hay fever, urticaria, food allergy"
+     ],
+     [
+      "II (antibody-mediated)",
+      "IgG/IgM against cell-surface or matrix antigen → lysis, opsonisation or receptor dysfunction",
+      "AIHA, ITP, ABO transfusion reaction, haemolytic disease of newborn, Goodpasture, pemphigus vulgaris, acute rheumatic fever, myasthenia gravis and Graves (receptor antibodies), hyperacute rejection"
+     ],
+     [
+      "III (immune complex)",
+      "Circulating antigen–antibody complexes deposit → complement + neutrophils",
+      "SLE, post-streptococcal GN, serum sickness, Arthus reaction, polyarteritis nodosa"
+     ],
+     [
+      "IV (T-cell mediated, delayed)",
+      "CD4 Th1/Th17 cytokines or CD8 cytotoxicity (48–72 h)",
+      "Tuberculin test, contact dermatitis, granulomas, type 1 diabetes, multiple sclerosis, Hashimoto thyroiditis, acute cellular rejection, GVHD"
+     ]
+    ]
+   },
+   {
+    "title": "Primary immunodeficiencies",
+    "head": [
+     "Disorder",
+     "Defect",
+     "Discriminating features"
+    ],
+    "rows": [
+     [
+      "X-linked agammaglobulinaemia (Bruton)",
+      "BTK; B cells fail to mature",
+      "Boys after 6 months (maternal IgG wanes); all Ig ↓; absent B cells, tonsils, nodes; enteroviral meningoencephalitis, Giardia"
+     ],
+     [
+      "DiGeorge syndrome",
+      "22q11.2 deletion (TBX1); 3rd/4th pharyngeal pouch",
+      "Thymic hypoplasia (T-cell ↓), hypoparathyroidism, conotruncal defects, facial dysmorphism"
+     ],
+     [
+      "SCID",
+      "X-linked IL2RG (common γ chain) most common; ADA deficiency (AR)",
+      "Failure to thrive, candidiasis, PCP, absent thymic shadow; HSCT; no live vaccines"
+     ],
+     [
+      "Wiskott–Aldrich",
+      "WAS gene, X-linked",
+      "Eczema, thrombocytopenia with small platelets, infections; ↓IgM, ↑IgA and IgE"
+     ],
+     [
+      "Chronic granulomatous disease",
+      "NADPH oxidase (CYBB/gp91phox X-linked most common)",
+      "No respiratory burst; catalase-positive organisms; NBT stays colourless, DHR flow test abnormal (test of choice)"
+     ],
+     [
+      "Hyper-IgM syndrome",
+      "CD40L on T cells (X-linked) most common",
+      "No class switching: ↑ or normal IgM, ↓IgG/IgA/IgE; Pneumocystis, Cryptosporidium"
+     ],
+     [
+      "CVID",
+      "Defective B-cell differentiation (various genes)",
+      "Onset in adolescence/adulthood; low IgG with B cells present; autoimmunity, lymphoma, bronchiectasis"
+     ],
+     [
+      "Selective IgA deficiency",
+      "IgA ↓",
+      "Most common PID; often asymptomatic; anaphylaxis to blood products (anti-IgA)"
+     ],
+     [
+      "Complement deficiencies",
+      "C1-INH / early (C1q, C2, C4) / C3 / terminal C5–C9",
+      "Hereditary angioedema (low C4) / SLE-like disease / severe pyogenic infections / recurrent Neisseria"
+     ]
+    ]
+   },
+   {
+    "title": "HLA associations",
+    "head": [
+     "HLA",
+     "Association"
+    ],
+    "rows": [
+     [
+      "B27",
+      "Ankylosing spondylitis, reactive arthritis, psoriatic and IBD arthritis, acute anterior uveitis"
+     ],
+     [
+      "DR3",
+      "Type 1 diabetes, SLE, Graves, Addison, myasthenia gravis, dermatitis herpetiformis"
+     ],
+     [
+      "DR4",
+      "Rheumatoid arthritis (shared epitope, DRB1*04), type 1 diabetes"
+     ],
+     [
+      "DQ2 / DQ8",
+      "Coeliac disease (DQ2 in ~90–95%); DQ8 also type 1 diabetes"
+     ],
+     [
+      "B51 (B5 split)",
+      "Behçet disease"
+     ],
+     [
+      "B*57:01",
+      "Abacavir hypersensitivity (screen before starting)"
+     ],
+     [
+      "B*15:02",
+      "Carbamazepine (and phenytoin) SJS/TEN in South/East Asians"
+     ],
+     [
+      "B*58:01",
+      "Allopurinol SJS/TEN/DRESS"
+     ],
+     [
+      "DR2 (DR15) / DQB1*06:02",
+      "Multiple sclerosis, Goodpasture syndrome / narcolepsy"
+     ],
+     [
+      "A3",
+      "Hereditary haemochromatosis (linked to HFE)"
+     ],
+     [
+      "Cw6",
+      "Psoriasis vulgaris"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "HLA genes lie on chromosome **6p**; class I (A, B, C) present to CD8 T cells; class II (DP, DQ, DR) present to CD4 T cells",
+   "**Hyperacute rejection**: minutes to hours, preformed anti-donor (ABO/HLA) antibodies, type II, thrombosis and cyanotic graft; prevented by cross-match",
+   "**Acute rejection**: days–months; cellular (T-cell, tubulitis, endotheliitis) or antibody-mediated (C4d in peritubular capillaries); responds to immunosuppression",
+   "**Chronic rejection**: months–years; intimal fibrosis / obliterative arteriopathy, interstitial fibrosis; bronchiolitis obliterans in lung, vanishing bile ducts in liver; not reversible",
+   "**GVHD**: immunocompetent donor T cells attack an immunocompromised host; skin, liver (bile ducts), GI tract; seen after HSCT or unirradiated transfusion; prevented by irradiating blood products",
+   "Ataxia–telangiectasia: ATM gene, IgA deficiency, sinopulmonary infections, lymphoma risk, ↑AFP; Job (hyper-IgE) syndrome: STAT3, cold abscesses, eczema, retained primary teeth",
+   "Live vaccines are contraindicated in SCID and XLA (e.g. oral polio, BCG); in DiGeorge depends on T-cell count"
+  ],
+  "traps": [
+   {
+    "stem": "Boy with recurrent sinopulmonary infections; low IgG and IgA with normal/high IgM; Pneumocystis pneumonia.",
+    "trap": "Choosing XLA or CVID because immunoglobulins are low.",
+    "fix": "High/normal IgM with low IgG/A/E = hyper-IgM syndrome (CD40L defect → no class switching). Opportunistic Pneumocystis reflects the T-cell help defect."
+   },
+   {
+    "stem": "Graft kidney turns dusky and mottled on the table within minutes of reperfusion.",
+    "trap": "Acute cellular rejection (T-cell mediated).",
+    "fix": "Minutes = hyperacute rejection from preformed antibodies (type II hypersensitivity). Acute cellular rejection takes days to weeks."
+   },
+   {
+    "stem": "Graves disease and myasthenia gravis: which hypersensitivity type?",
+    "trap": "Type IV because they are autoimmune diseases, or type III because antibodies are involved.",
+    "fix": "Type II (antibody against a cell-surface receptor): stimulating anti-TSH receptor in Graves, blocking anti-AChR in myasthenia."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "CGD: defect in {{c1::NADPH oxidase}}; NBT test stays {{c2::colourless (negative)}}; preferred test is {{c3::DHR flow cytometry}}."
+   },
+   {
+    "type": "basic",
+    "front": "XLA vs CVID: discriminating features",
+    "back": "XLA: boys, onset after 6 months, BTK defect, B cells absent, no tonsils/nodes.\nCVID: either sex, later onset, B cells present but fail to differentiate; autoimmunity, lymphoma."
+   },
+   {
+    "type": "cloze",
+    "text": "Abacavir hypersensitivity is linked to HLA-{{c1::B*57:01}}; carbamazepine SJS/TEN to HLA-{{c2::B*15:02}}."
+   },
+   {
+    "type": "cloze",
+    "text": "Wiskott–Aldrich triad: {{c1::eczema}}, {{c2::thrombocytopenia with small platelets}}, and recurrent infections."
+   },
+   {
+    "type": "basic",
+    "front": "Antibody-mediated acute renal rejection: tissue marker?",
+    "back": "C4d deposition in peritubular capillaries."
+   },
+   {
+    "type": "cloze",
+    "text": "Recurrent Neisseria infections suggest deficiency of terminal complement {{c1::C5–C9 (MAC)}}; hereditary angioedema is {{c2::C1 esterase inhibitor}} deficiency."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "hypersensitivity",
+   "type i hypersensitivity",
+   "type ii hypersensitivity",
+   "immune complex",
+   "delayed hypersensitivity",
+   "transplant rejection",
+   "hyperacute rejection",
+   "gvhd",
+   "bruton agammaglobulinemia",
+   "btk",
+   "digeorge",
+   "22q11",
+   "scid",
+   "ada deficiency",
+   "wiskott-aldrich",
+   "chronic granulomatous disease",
+   "nbt test",
+   "hyper igm",
+   "cvid",
+   "hla-b27"
+  ],
+  "wiki": [
+   "Hypersensitivity",
+   "Primary_immunodeficiency",
+   "Human_leukocyte_antigen"
+  ],
+  "verify": "Robbins 10e ch 6; IUIS 2022 classification of inborn errors of immunity"
+ },
+ {
+  "id": "path-neoplasia-markers",
+  "title": "Neoplasia: oncogenes, carcinogens, markers & IHC",
+  "subject": "Pathology",
+  "system": "Neoplasia",
+  "yield": 3,
+  "kind": "volatile",
+  "anchor": [
+   "Proto-oncogene: one mutated allele is enough (gain of function); tumour suppressor: both alleles lost (Knudson two-hit)",
+   "Psammoma bodies (concentric laminated calcification) → papillary thyroid carcinoma, serous ovarian tumours, meningioma, mesothelioma",
+   "Undifferentiated tumour → IHC panel: cytokeratin (carcinoma), vimentin (sarcoma), CD45 (lymphoma), S-100/HMB-45 (melanoma)",
+   "Smoker with hyponatraemia or Cushing features → small cell lung carcinoma paraneoplastic syndrome"
+  ],
+  "tables": [
+   {
+    "title": "Oncogenes & tumour suppressor genes",
+    "head": [
+     "Gene",
+     "Class / function",
+     "Tumours & syndromes"
+    ],
+    "rows": [
+     [
+      "RB (13q14)",
+      "TSG; holds E2F, blocks G1→S",
+      "Retinoblastoma (familial bilateral), osteosarcoma"
+     ],
+     [
+      "TP53 (17p13)",
+      "TSG; 'guardian of the genome', G1 arrest, apoptosis",
+      "Most commonly mutated gene in human cancer; Li–Fraumeni syndrome"
+     ],
+     [
+      "APC (5q21)",
+      "TSG; degrades β-catenin (WNT pathway)",
+      "Familial adenomatous polyposis, sporadic colorectal cancer"
+     ],
+     [
+      "BRCA1 (17q21) / BRCA2 (13q12)",
+      "TSG; homologous-recombination DNA repair",
+      "Breast, ovarian (BRCA1 > BRCA2), male breast and pancreas (BRCA2), prostate"
+     ],
+     [
+      "VHL (3p25)",
+      "TSG; targets HIF for degradation",
+      "Clear cell RCC, cerebellar/retinal haemangioblastoma, phaeochromocytoma"
+     ],
+     [
+      "NF1 (17q11)",
+      "TSG; neurofibromin = RAS-GAP",
+      "Neurofibromatosis 1, neurofibromas, optic glioma, MPNST"
+     ],
+     [
+      "WT1 (11p13)",
+      "TSG; transcription factor for kidney/gonad development",
+      "Wilms tumour, WAGR, Denys–Drash"
+     ],
+     [
+      "RET (10q11)",
+      "Oncogene; receptor tyrosine kinase (gain of function)",
+      "MEN2A/2B, medullary thyroid carcinoma; RET/PTC rearrangement in papillary thyroid carcinoma (loss of function → Hirschsprung)"
+     ],
+     [
+      "KRAS",
+      "Oncogene; GTPase (point mutation locks GTP-bound)",
+      "Most commonly mutated oncogene: pancreatic (>90%), colorectal, lung adenocarcinoma"
+     ],
+     [
+      "MYC family",
+      "Oncogene; transcription factor",
+      "c-MYC translocation in Burkitt t(8;14); N-MYC amplification in neuroblastoma (poor prognosis); L-MYC in small cell lung cancer"
+     ],
+     [
+      "HER2/ERBB2",
+      "Oncogene; growth factor receptor (amplification)",
+      "Breast (~15–20%), gastric; trastuzumab"
+     ],
+     [
+      "BCL2",
+      "Anti-apoptotic (overexpression)",
+      "Follicular lymphoma t(14;18)"
+     ],
+     [
+      "Others",
+      "ABL (fusion), CDKN2A/p16 (TSG), PTEN (TSG), SMAD4 (TSG)",
+      "CML; melanoma, pancreas; Cowden syndrome; pancreatic and colorectal cancer"
+     ]
+    ]
+   },
+   {
+    "title": "Serum tumour markers",
+    "head": [
+     "Marker",
+     "Main use"
+    ],
+    "rows": [
+     [
+      "AFP",
+      "Hepatocellular carcinoma, yolk sac tumour (pure seminoma never raises AFP)"
+     ],
+     [
+      "β-hCG",
+      "Choriocarcinoma, gestational trophoblastic disease; mild rise in some seminomas"
+     ],
+     [
+      "CEA",
+      "Colorectal cancer follow-up for recurrence (not screening)"
+     ],
+     [
+      "CA-125",
+      "Epithelial (serous) ovarian cancer"
+     ],
+     [
+      "CA 19-9",
+      "Pancreatic and biliary cancer"
+     ],
+     [
+      "CA 15-3",
+      "Breast cancer monitoring"
+     ],
+     [
+      "PSA",
+      "Prostate cancer"
+     ],
+     [
+      "Calcitonin / CEA",
+      "Medullary thyroid carcinoma"
+     ],
+     [
+      "Thyroglobulin",
+      "Follow-up of differentiated thyroid cancer after total thyroidectomy"
+     ],
+     [
+      "LDH",
+      "Dysgerminoma, seminoma, lymphoma (tumour burden)"
+     ],
+     [
+      "Inhibin",
+      "Granulosa cell tumour"
+     ],
+     [
+      "NSE / urinary VMA, HVA",
+      "Neuroblastoma, small cell carcinoma"
+     ],
+     [
+      "Chromogranin A / urinary 5-HIAA",
+      "Neuroendocrine (carcinoid) tumours"
+     ],
+     [
+      "β2-microglobulin",
+      "Myeloma and lymphoma prognosis"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "IHC by lineage: **cytokeratin** epithelial; **vimentin** mesenchymal; **desmin** muscle (myogenin/MyoD1 for rhabdomyosarcoma); **S-100** melanoma, schwannoma, Langerhans cells; **HMB-45 / Melan-A / SOX10** melanoma; **chromogranin, synaptophysin** neuroendocrine; **CD45 (LCA)** lymphoid; **CD31, CD34, ERG** vascular; **GFAP** glial",
+   "Site/tumour IHC: CD117 (c-KIT) and DOG1 → GIST; CD99 (+NKX2.2) → Ewing sarcoma; TTF-1 → lung adenocarcinoma and thyroid; CDX2 → colorectal; PAX8 → kidney, thyroid, Müllerian; WT1 + calretinin → mesothelioma; CD1a/langerin → Langerhans cell histiocytosis",
+   "**Psammoma bodies**: papillary thyroid ca, papillary serous ovarian/endometrial tumours, meningioma, mesothelioma (also papillary RCC, prolactinoma); a form of dystrophic calcification",
+   "Carcinogens: aflatoxin B1 → HCC (TP53 codon 249); vinyl chloride → hepatic angiosarcoma; benzene → AML; asbestos → mesothelioma (but bronchogenic carcinoma is the commonest asbestos cancer); β-naphthylamine/aniline dyes → urothelial carcinoma; arsenic → skin SCC, lung, liver angiosarcoma; nickel/chromium → lung, nasal sinus; nitrosamines → gastric; alkylating agents → AML",
+   "Oncogenic infections: HPV16/18 (E6 → p53, E7 → RB), EBV (Burkitt, nasopharyngeal ca, Hodgkin), HBV/HCV (HCC), HTLV-1 (adult T-cell leukaemia), HHV-8 (Kaposi, primary effusion lymphoma), Merkel cell polyomavirus, H. pylori (gastric adenocarcinoma, MALT)",
+   "Paraneoplastic: small cell lung → SIADH, ectopic ACTH, Lambert–Eaton (anti-VGCC), anti-Hu; squamous lung → PTHrP hypercalcaemia; RCC → erythrocytosis (EPO), hypercalcaemia; thymoma → myasthenia, pure red cell aplasia; ovarian teratoma → anti-NMDA receptor encephalitis; pancreatic → Trousseau migratory thrombophlebitis; gastric → acanthosis nigricans, Leser–Trélat",
+   "**Hallmarks of cancer**: sustained proliferative signalling, evasion of growth suppressors, resisting cell death, replicative immortality (telomerase), angiogenesis, invasion and metastasis, reprogrammed metabolism (Warburg effect), immune evasion; enablers: genomic instability and tumour-promoting inflammation",
+   "Grading = degree of differentiation (histology); staging = spread (TNM) and has greater prognostic value",
+   "Most common route: carcinomas → lymphatics; sarcomas → blood. Exceptions: follicular thyroid, RCC, HCC, choriocarcinoma spread haematogenously"
+  ],
+  "traps": [
+   {
+    "stem": "Undifferentiated tumour: cytokeratin −, CD45 −, vimentin +, S-100 +, HMB-45 +.",
+    "trap": "Calling it a sarcoma because only vimentin and S-100 are positive.",
+    "fix": "S-100 + HMB-45 (Melan-A) = melanoma, which is cytokeratin-negative and vimentin-positive. Schwannoma is S-100+ but HMB-45−."
+   },
+   {
+    "stem": "Man with a testicular mass and markedly raised AFP; histology reported as pure seminoma.",
+    "trap": "Accepting pure seminoma and planning seminoma-only therapy.",
+    "fix": "Pure seminoma does not produce AFP. Raised AFP means a non-seminomatous component (yolk sac tumour) → manage as NSGCT."
+   },
+   {
+    "stem": "Which gene is the most frequently mutated in human cancers, and which oncogene is most often mutated?",
+    "trap": "Choosing RB or MYC because they are the best-known examples.",
+    "fix": "TP53 is the most commonly mutated gene overall; RAS (KRAS) is the most commonly mutated oncogene."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "HPV oncoprotein {{c1::E6}} degrades p53, and {{c2::E7}} inactivates RB."
+   },
+   {
+    "type": "basic",
+    "front": "Four classic tumours with psammoma bodies",
+    "back": "Papillary thyroid carcinoma, papillary serous cystadenocarcinoma of ovary, meningioma, mesothelioma."
+   },
+   {
+    "type": "cloze",
+    "text": "GIST is positive for {{c1::CD117 (c-KIT)}} and DOG1; Ewing sarcoma for {{c2::CD99}}; melanoma for {{c3::HMB-45}}."
+   },
+   {
+    "type": "cloze",
+    "text": "Aflatoxin B1 causes HCC through a mutation at {{c1::codon 249 of TP53}}; vinyl chloride causes {{c2::hepatic angiosarcoma}}."
+   },
+   {
+    "type": "basic",
+    "front": "Squamous vs small cell lung carcinoma: classic paraneoplastic syndromes",
+    "back": "Squamous: hypercalcaemia (PTHrP).\nSmall cell: SIADH, ectopic ACTH (Cushing), Lambert–Eaton, anti-Hu encephalomyelitis."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Psammoma bodies.jpg",
+    "caption": "Psammoma bodies: round, concentrically laminated basophilic calcifications"
+   }
+  ],
+  "keywords": [
+   "oncogene",
+   "tumor suppressor gene",
+   "p53",
+   "rb gene",
+   "apc",
+   "brca",
+   "kras",
+   "ret",
+   "her2",
+   "vhl",
+   "carcinogen",
+   "aflatoxin",
+   "paraneoplastic syndrome",
+   "tumor marker",
+   "afp",
+   "cea",
+   "immunohistochemistry",
+   "s-100",
+   "hmb-45",
+   "psammoma bodies"
+  ],
+  "wiki": [
+   "Oncogene",
+   "Tumor_marker",
+   "Paraneoplastic_syndrome"
+  ],
+  "verify": "Robbins & Cotran 10e chapter 7; Hanahan & Weinberg 2011 hallmarks"
+ },
+ {
+  "id": "path-cns-tumours",
+  "title": "CNS tumours: WHO CNS5 histology & molecular markers",
+  "subject": "Pathology",
+  "system": "Neuropathology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Older adult, ring-enhancing 'butterfly' mass crossing corpus callosum, pseudopalisading necrosis + microvascular proliferation, IDH-wildtype → glioblastoma",
+   "Child, cystic cerebellar mass with enhancing mural nodule, Rosenthal fibres → pilocytic astrocytoma",
+   "Child, midline cerebellar (vermis) mass, small round blue cells, Homer Wright rosettes, drop metastases → medulloblastoma",
+   "Frontal lobe calcified tumour, seizures, fried-egg cells, chicken-wire capillaries, 1p/19q codeletion → oligodendroglioma"
+  ],
+  "tables": [
+   {
+    "title": "Signature histology and molecular markers",
+    "head": [
+     "Tumour",
+     "Typical age / site",
+     "Histology",
+     "Molecular (CNS5)"
+    ],
+    "rows": [
+     [
+      "Glioblastoma, IDH-wildtype (grade 4)",
+      "Adults >55; cerebral hemispheres, butterfly across corpus callosum",
+      "Pseudopalisading necrosis, microvascular (glomeruloid) proliferation",
+      "IDH-wt; TERT promoter mutation, EGFR amplification or +7/−10 alone qualify as GBM"
+     ],
+     [
+      "Astrocytoma, IDH-mutant (grade 2–4)",
+      "Younger adults; hemispheres",
+      "Diffuse infiltrating astrocytes",
+      "IDH1/2 mutation, ATRX loss, TP53; grade 4 if necrosis/MVP or CDKN2A/B homozygous deletion"
+     ],
+     [
+      "Oligodendroglioma, IDH-mutant, 1p/19q-codeleted",
+      "Adults; frontal lobe, seizures, calcification",
+      "Fried-egg cells (perinuclear halo), chicken-wire capillaries",
+      "IDH mutation + 1p/19q codeletion (+TERT); chemosensitive"
+     ],
+     [
+      "Pilocytic astrocytoma (grade 1)",
+      "Children; cerebellum, optic pathway (NF1), hypothalamus",
+      "Biphasic, Rosenthal fibres, eosinophilic granular bodies, piloid cells",
+      "KIAA1549::BRAF fusion (cerebellar); NF1 loss in optic glioma"
+     ],
+     [
+      "Medulloblastoma (grade 4)",
+      "Children; cerebellar vermis / 4th ventricle",
+      "Small round blue cells, Homer Wright rosettes",
+      "WNT (best prognosis), SHH, group 3 (MYC, worst), group 4 (commonest)"
+     ],
+     [
+      "Ependymoma",
+      "Children: posterior fossa (4th ventricle); adults: spinal cord (NF2)",
+      "Perivascular pseudorosettes, true ependymal rosettes, GFAP+, EMA dot-like",
+      "Supratentorial ZFTA fusion; posterior fossa group A (PFA, worse) / B; spinal MYCN"
+     ],
+     [
+      "Meningioma",
+      "Middle-aged women; dura, parasagittal, convexity",
+      "Whorls, psammoma bodies; EMA+, PR+; dural tail on MRI, hyperostosis",
+      "NF2 (22q) loss; TERT or CDKN2A/B → grade 3"
+     ],
+     [
+      "Schwannoma",
+      "Adults; vestibular nerve at CP angle; bilateral in NF2",
+      "Antoni A (cellular, Verocay bodies) and Antoni B (loose); S-100+",
+      "NF2"
+     ],
+     [
+      "Craniopharyngioma",
+      "Bimodal: children (adamantinomatous) and older adults (papillary); suprasellar",
+      "Adamantinomatous: wet keratin, calcification, 'machinery-oil' cyst fluid",
+      "Adamantinomatous: CTNNB1 (β-catenin); papillary: BRAF V600E"
+     ],
+     [
+      "Haemangioblastoma",
+      "Adults; cerebellum, retina, spinal cord",
+      "Stromal cells + rich capillaries; may secrete EPO (polycythaemia)",
+      "VHL"
+     ]
+    ]
+   },
+   {
+    "title": "Location by age",
+    "head": [
+     "",
+     "Adults",
+     "Children"
+    ],
+    "rows": [
+     [
+      "Overall pattern",
+      "Mostly supratentorial",
+      "Mostly infratentorial (posterior fossa), except in infants"
+     ],
+     [
+      "Commonest",
+      "Metastases overall; GBM = commonest primary malignant; meningioma = commonest primary (benign)",
+      "Pilocytic astrocytoma = commonest; medulloblastoma = commonest malignant"
+     ],
+     [
+      "Supratentorial",
+      "GBM, IDH-mutant gliomas, oligodendroglioma, meningioma, metastases, primary CNS lymphoma",
+      "Craniopharyngioma, optic pathway glioma, germinoma (pineal/suprasellar), choroid plexus papilloma (lateral ventricle)"
+     ],
+     [
+      "Infratentorial",
+      "Metastases, haemangioblastoma, vestibular schwannoma (CP angle), meningioma",
+      "Pilocytic astrocytoma, medulloblastoma, ependymoma, diffuse midline glioma H3 K27-altered (pons)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "WHO CNS5 (2021) is integrated: histology + molecular. 'Secondary GBM' is now **astrocytoma, IDH-mutant, CNS WHO grade 4**; GBM is by definition IDH-wildtype",
+   "Rosettes: **Homer Wright** (pseudorosette, neurofibrillary centre, no lumen: medulloblastoma, neuroblastoma, pineoblastoma); **Flexner–Wintersteiner** (true rosette with central lumen: retinoblastoma); **perivascular pseudorosettes** (around a vessel: ependymoma)",
+   "Retinoblastoma: RB1 (13q14), leukocoria, Flexner–Wintersteiner rosettes and fleurettes; hereditary form → bilateral, osteosarcoma risk, trilateral (pineoblastoma)",
+   "Medulloblastoma spreads via CSF (drop metastases to spinal cord); MRI of whole neuraxis + CSF cytology for staging",
+   "Primary CNS lymphoma: DLBCL, immunocompromised (EBV+ in HIV), periventricular, angiocentric; steroids before biopsy can make it vanish",
+   "Diffuse midline glioma, H3 K27-altered: children, pons (DIPG), grade 4, poor prognosis",
+   "MGMT promoter methylation in GBM predicts better response to temozolomide",
+   "Commonest sources of brain metastases: lung > breast > melanoma; multiple, at grey–white junction"
+  ],
+  "traps": [
+   {
+    "stem": "Adult diffuse astrocytoma with no necrosis or microvascular proliferation, IDH-wildtype, TERT promoter mutation and EGFR amplification.",
+    "trap": "Grading it as a low-grade (grade 2) diffuse astrocytoma on histology.",
+    "fix": "WHO CNS5: IDH-wildtype diffuse astrocytic glioma in adults with TERT promoter mutation, EGFR amplification or +7/−10 = glioblastoma, CNS WHO grade 4, regardless of histology."
+   },
+   {
+    "stem": "Rosette type in retinoblastoma vs medulloblastoma.",
+    "trap": "Swapping Homer Wright and Flexner–Wintersteiner.",
+    "fix": "Flexner–Wintersteiner = true rosette with a lumen (retinoblastoma). Homer Wright = no lumen, fibrillary core (medulloblastoma, neuroblastoma)."
+   },
+   {
+    "stem": "Child with a 4th-ventricle tumour; histology shows tumour cells radially arranged around blood vessels with an anuclear fibrillary zone.",
+    "trap": "Medulloblastoma, because it is the common malignant posterior fossa tumour in children.",
+    "fix": "Perivascular pseudorosettes = ependymoma (from the floor of the 4th ventricle, can extend through foramina). Medulloblastoma shows Homer Wright rosettes and arises from the vermis/roof."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Oligodendroglioma is defined by {{c1::IDH mutation}} plus {{c2::1p/19q codeletion}}; histology shows {{c3::fried-egg cells}} and chicken-wire capillaries."
+   },
+   {
+    "type": "basic",
+    "front": "Pilocytic astrocytoma: classic location, histology, molecular change",
+    "back": "Child cerebellum (cyst with mural nodule) or optic pathway; Rosenthal fibres and eosinophilic granular bodies; KIAA1549::BRAF fusion. CNS WHO grade 1."
+   },
+   {
+    "type": "cloze",
+    "text": "Glioblastoma hallmark histology: {{c1::pseudopalisading necrosis}} and {{c2::microvascular proliferation}}; in CNS5, GBM is always IDH-{{c3::wildtype}}."
+   },
+   {
+    "type": "basic",
+    "front": "Schwannoma: Antoni A vs Antoni B areas",
+    "back": "Antoni A: compact spindle cells with nuclear palisading (Verocay bodies).\nAntoni B: loose, hypocellular myxoid areas. S-100 positive."
+   },
+   {
+    "type": "cloze",
+    "text": "Medulloblastoma molecular group with the best prognosis is {{c1::WNT}}; the worst is {{c2::group 3 (MYC-amplified)}}."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:GBM pseudopalisading necrosis.jpg",
+    "caption": "Glioblastoma: tumour cells lined up (pseudopalisading) around a zone of necrosis"
+   },
+   {
+    "commons": "File:Rosenthal HE 40x.jpg",
+    "caption": "Pilocytic astrocytoma: elongated, bright eosinophilic corkscrew Rosenthal fibres"
+   },
+   {
+    "commons": "File:Medulloblastoma with rosettes.jpg",
+    "caption": "Medulloblastoma: small round blue cells forming Homer Wright rosettes (fibrillary centre, no lumen)"
+   }
+  ],
+  "keywords": [
+   "glioblastoma",
+   "pseudopalisading necrosis",
+   "idh",
+   "astrocytoma",
+   "oligodendroglioma",
+   "1p/19q",
+   "fried egg",
+   "pilocytic astrocytoma",
+   "rosenthal fibers",
+   "medulloblastoma",
+   "homer wright rosettes",
+   "ependymoma",
+   "perivascular pseudorosettes",
+   "meningioma",
+   "psammoma",
+   "schwannoma",
+   "verocay bodies",
+   "craniopharyngioma",
+   "retinoblastoma",
+   "flexner-wintersteiner"
+  ],
+  "wiki": [
+   "Glioblastoma",
+   "Medulloblastoma",
+   "Brain_tumor"
+  ],
+  "verify": "WHO Classification of CNS Tumours, 5th edition (2021)"
+ },
+ {
+  "id": "path-systemic-pathology",
+  "title": "High-yield systemic pathology: lung, GI, liver, kidney, breast, thyroid",
+  "subject": "Pathology",
+  "system": "Systemic pathology",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Ground-glass 'Orphan Annie eye' nuclei, nuclear grooves, pseudoinclusions, psammoma bodies → papillary thyroid carcinoma",
+   "Transmural inflammation, skip lesions, non-caseating granulomas, fistulae → Crohn disease; continuous mucosal disease from rectum, crypt abscesses → ulcerative colitis",
+   "Haematuria + flank mass + polycythaemia; golden-yellow tumour of clear cells, 3p loss/VHL → clear cell RCC",
+   "Single-file infiltrating cells, E-cadherin negative → invasive lobular carcinoma of breast"
+  ],
+  "tables": [
+   {
+    "title": "Crohn disease vs ulcerative colitis",
+    "head": [
+     "Feature",
+     "Crohn disease",
+     "Ulcerative colitis"
+    ],
+    "rows": [
+     [
+      "Distribution",
+      "Mouth to anus, terminal ileum commonest; skip lesions",
+      "Rectum upwards, continuous; colon only (backwash ileitis)"
+     ],
+     [
+      "Depth",
+      "Transmural",
+      "Mucosa and submucosa"
+     ],
+     [
+      "Granulomas",
+      "Non-caseating (in a minority of biopsies)",
+      "Absent"
+     ],
+     [
+      "Gross",
+      "Cobblestone mucosa, creeping fat, strictures (string sign), fistulae",
+      "Pseudopolyps, loss of haustra (lead-pipe colon), toxic megacolon"
+     ],
+     [
+      "Microscopy",
+      "Fissuring ulcers, lymphoid aggregates",
+      "Crypt abscesses, crypt distortion, goblet cell depletion"
+     ],
+     [
+      "Serology",
+      "ASCA",
+      "p-ANCA"
+     ],
+     [
+      "Smoking",
+      "Worsens",
+      "Protective"
+     ],
+     [
+      "Associations",
+      "Fistulae, gallstones, oxalate stones, B12 deficiency",
+      "Primary sclerosing cholangitis; higher colorectal cancer risk"
+     ]
+    ]
+   },
+   {
+    "title": "Organ tumours: signature findings",
+    "head": [
+     "Tumour",
+     "Signature histology",
+     "Genetics / note"
+    ],
+    "rows": [
+     [
+      "Clear cell RCC",
+      "Clear cytoplasm (lipid + glycogen), delicate vasculature; golden-yellow cut surface; proximal tubule origin",
+      "3p deletion, VHL; commonest RCC; spreads via renal vein"
+     ],
+     [
+      "Papillary RCC",
+      "Papillae with foamy macrophages, psammoma bodies",
+      "Trisomy 7/17, MET"
+     ],
+     [
+      "Chromophobe RCC",
+      "Pale cells with perinuclear halos, raisinoid nuclei; Hale colloidal iron +",
+      "Multiple chromosome losses; good prognosis"
+     ],
+     [
+      "Oncocytoma",
+      "Mahogany-brown, central stellate scar; eosinophilic mitochondria-rich cells",
+      "Benign"
+     ],
+     [
+      "Wilms tumour",
+      "Triphasic: blastema, stroma, epithelium (tubules)",
+      "WT1 (11p13: WAGR, Denys–Drash); WT2 (11p15: Beckwith–Wiedemann)"
+     ],
+     [
+      "Seminoma",
+      "Sheets of clear 'fried-egg' cells, fibrous septa with lymphocytes, granulomas; PLAP, OCT3/4, CD117+",
+      "Commonest testicular germ cell tumour; radiosensitive; AFP normal"
+     ],
+     [
+      "Yolk sac tumour",
+      "Schiller–Duval bodies (glomeruloid); AFP+",
+      "Commonest testicular tumour in young children"
+     ],
+     [
+      "Prostate adenocarcinoma",
+      "Small crowded glands, loss of basal layer (p63/HMWCK −), AMACR +, prominent nucleoli",
+      "Peripheral zone; Gleason/ISUP grade groups; BPH arises in transition zone"
+     ],
+     [
+      "Breast DCIS / LCIS",
+      "DCIS: comedo necrosis, microcalcification. LCIS: discohesive cells, E-cadherin −",
+      "LCIS = risk marker for either breast; DCIS = direct precursor"
+     ],
+     [
+      "Papillary thyroid carcinoma",
+      "Orphan Annie nuclei, grooves, intranuclear pseudoinclusions, psammoma bodies",
+      "BRAF V600E, RET/PTC; lymphatic spread; commonest thyroid cancer"
+     ],
+     [
+      "Follicular thyroid carcinoma",
+      "Capsular and/or vascular invasion (cannot be diagnosed on FNA)",
+      "RAS, PAX8::PPARG; haematogenous spread (bone, lung)"
+     ],
+     [
+      "Medullary thyroid carcinoma",
+      "C-cell tumour with amyloid (calcitonin-derived) stroma",
+      "RET; MEN2A/2B; calcitonin, CEA"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Barrett oesophagus**: intestinal metaplasia with goblet cells in distal oesophagus (columnar mucosa) → oesophageal adenocarcinoma; squamous cell carcinoma is linked to smoking/alcohol, middle third",
+   "**Coeliac disease** (modified Marsh): 1 = ↑ intraepithelial lymphocytes (>25/100 enterocytes); 2 = + crypt hyperplasia; 3a/b/c = partial/subtotal/total villous atrophy. Biopsy distal duodenum; IgA anti-tTG screening (check total IgA)",
+   "Colonic polyps: hyperplastic (serrated, minimal risk); tubular adenoma commonest; villous adenoma has highest malignant potential (and can cause hypokalaemia); Peutz–Jeghers (STK11) and juvenile polyps are hamartomas",
+   "Lung: **asbestosis** = lower-lobe fibrosis, ferruginous (asbestos) bodies, pleural plaques (commonest lesion); silicosis = upper lobes, eggshell hilar calcification, ↑TB. **Small cell carcinoma**: central, smoker, salt-and-pepper chromatin, nuclear moulding, crush artefact, neuroendocrine markers. Adenocarcinoma = commonest lung cancer overall and in non-smokers",
+   "Liver: **Mallory–Denk bodies** (alcoholic hepatitis, NASH, Wilson); Councilman (acidophil) bodies = apoptotic hepatocytes in acute viral hepatitis; ground-glass hepatocytes = HBsAg in chronic HBV; HCV = lymphoid aggregates + steatosis",
+   "Hereditary haemochromatosis: HFE C282Y, Prussian blue-positive hepatocyte iron, 'bronze diabetes', cirrhosis, HCC; Wilson: ATP7B, rhodanine stain for copper",
+   "Breast: invasive ductal (NST) is the commonest carcinoma; invasive lobular = single-file cells, loss of **E-cadherin (CDH1)**, often bilateral/multicentric; Paget disease of nipple = underlying DCIS/carcinoma",
+   "**Hürthle (oncocytic) cells**: large cells with abundant granular eosinophilic cytoplasm packed with mitochondria; in Hashimoto thyroiditis and oncocytic thyroid neoplasms",
+   "Gastric: H. pylori → antral gastritis, adenocarcinoma, MALT lymphoma; signet-ring cells → diffuse-type gastric cancer (CDH1 in hereditary diffuse type), linitis plastica, Krukenberg tumour"
+  ],
+  "traps": [
+   {
+    "stem": "Thyroid FNA shows a cellular follicular-patterned lesion without papillary nuclear features.",
+    "trap": "Diagnosing follicular carcinoma on cytology.",
+    "fix": "Follicular adenoma vs carcinoma depends on capsular/vascular invasion, which needs histology of the excised nodule (Bethesda IV on FNA → lobectomy/molecular testing)."
+   },
+   {
+    "stem": "Renal mass with central stellate scar, mahogany-brown cut surface, eosinophilic granular cells.",
+    "trap": "Chromophobe RCC, because both have eosinophilic cells.",
+    "fix": "Central scar + mahogany colour = oncocytoma (benign, mitochondria-rich). Chromophobe RCC has perinuclear halos, raisinoid nuclei, diffuse Hale colloidal iron positivity."
+   },
+   {
+    "stem": "Colectomy specimen: continuous disease from rectum, crypt abscesses, inflammation limited to mucosa. Patient also has PSC.",
+    "trap": "Crohn disease because of colonic involvement.",
+    "fix": "Continuous rectal-origin mucosal disease with crypt abscesses and PSC = ulcerative colitis. Crohn is transmural, skip lesions, granulomas, fistulae."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Clear cell RCC is associated with loss of chromosome {{c1::3p}} and the {{c2::VHL}} gene."
+   },
+   {
+    "type": "cloze",
+    "text": "Invasive lobular carcinoma of breast shows {{c1::single-file}} infiltration and loss of {{c2::E-cadherin}}."
+   },
+   {
+    "type": "basic",
+    "front": "Papillary thyroid carcinoma: four nuclear/histological clues",
+    "back": "Ground-glass (Orphan Annie) nuclei, nuclear grooves, intranuclear pseudoinclusions, psammoma bodies (± papillae)."
+   },
+   {
+    "type": "cloze",
+    "text": "Modified Marsh type {{c1::3}} coeliac disease = villous atrophy; type 1 = increased {{c2::intraepithelial lymphocytes}}."
+   },
+   {
+    "type": "basic",
+    "front": "Yolk sac tumour: pathognomonic structure and marker",
+    "back": "Schiller–Duval bodies (glomeruloid structures); AFP."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "barrett esophagus",
+   "celiac disease",
+   "marsh classification",
+   "crohn disease",
+   "ulcerative colitis",
+   "colonic polyps",
+   "asbestosis",
+   "ferruginous bodies",
+   "small cell carcinoma",
+   "mallory-denk bodies",
+   "hemochromatosis",
+   "renal cell carcinoma",
+   "oncocytoma",
+   "wilms tumor",
+   "seminoma",
+   "yolk sac tumor",
+   "prostate adenocarcinoma",
+   "dcis",
+   "lcis",
+   "e-cadherin"
+  ],
+  "wiki": [
+   "Inflammatory_bowel_disease",
+   "Renal_cell_carcinoma",
+   "Papillary_thyroid_cancer"
+  ],
+  "verify": "Robbins & Cotran 10e; WHO classification of tumours (5th ed series)"
+ },
+ {
+  "id": "path-genetics-cytogenetics",
+  "title": "Inheritance patterns, repeats, imprinting & cytogenetic tests",
+  "subject": "Pathology",
+  "system": "Genetics",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Disease worsens / appears earlier in successive generations → anticipation → trinucleotide repeat expansion",
+   "All children of an affected mother affected (variable severity), none from affected father; ragged-red fibres → mitochondrial inheritance",
+   "Same 15q11–q13 deletion: paternal → Prader–Willi (hyperphagia, hypotonia); maternal → Angelman (happy puppet, seizures)",
+   "Developmental delay with normal karyotype → chromosomal microarray (first-tier test)"
+  ],
+  "tables": [
+   {
+    "title": "Trinucleotide repeat disorders",
+    "head": [
+     "Disorder",
+     "Repeat / gene",
+     "Inheritance",
+     "Anticipation via"
+    ],
+    "rows": [
+     [
+      "Huntington disease",
+      "CAG / HTT (4p)",
+      "AD",
+      "Paternal transmission (juvenile cases)"
+     ],
+     [
+      "Fragile X syndrome",
+      "CGG / FMR1 (5′ UTR) → hypermethylation; premutation 55–200, full >200",
+      "X-linked",
+      "Maternal (premutation expands in female meiosis)"
+     ],
+     [
+      "Myotonic dystrophy type 1",
+      "CTG / DMPK (19q, 3′ UTR)",
+      "AD",
+      "Maternal (congenital myotonic dystrophy)"
+     ],
+     [
+      "Friedreich ataxia",
+      "GAA / FXN (frataxin, intron 1)",
+      "AR",
+      "Not a feature (loss of function)"
+     ],
+     [
+      "Spinocerebellar ataxias (many)",
+      "CAG (polyglutamine)",
+      "AD",
+      "Paternal"
+     ],
+     [
+      "Spinobulbar muscular atrophy (Kennedy)",
+      "CAG / androgen receptor",
+      "X-linked",
+      "Mild"
+     ]
+    ]
+   },
+   {
+    "title": "Karyotype vs FISH vs microarray",
+    "head": [
+     "Test",
+     "Detects",
+     "Misses / limits"
+    ],
+    "rows": [
+     [
+      "G-banded karyotype",
+      "Aneuploidy, balanced and unbalanced translocations, large deletions (~5–10 Mb); needs dividing cells",
+      "Microdeletions, small CNVs; slow (culture)"
+     ],
+     [
+      "FISH",
+      "Targeted known loci: microdeletions (22q11, Williams 7q11, PWS/AS 15q), rapid aneuploidy screen (13, 18, 21, X, Y), fusion genes (BCR::ABL1); works on interphase nuclei",
+      "Only the probe region; not genome-wide"
+     ],
+     [
+      "Chromosomal microarray (aCGH/SNP)",
+      "Genome-wide copy-number gains/losses (submicroscopic); SNP arrays also detect UPD/loss of heterozygosity and triploidy",
+      "Balanced translocations and inversions, point mutations, low-level mosaicism"
+     ],
+     [
+      "Exome / genome sequencing",
+      "Point mutations and small indels across genes",
+      "Repeat expansions, many structural variants (exome)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**AD**: structural/receptor proteins, every generation, 50% risk, variable expressivity, incomplete penetrance, new mutations (achondroplasia with advanced paternal age). Examples: ADPKD, Marfan, NF1/NF2, FH, Huntington, hereditary spherocytosis",
+   "**AR**: enzyme defects, horizontal pattern, consanguinity, 25% risk: CF, sickle cell, thalassaemia, PKU, Wilson, haemochromatosis, most storage disorders",
+   "**X-linked recessive**: males affected, no male-to-male transmission: DMD/BMD, haemophilia A/B, G6PD, Fabry, Hunter, Lesch–Nyhan, Bruton, WAS, CGD (X-linked form). **X-linked dominant**: hypophosphataemic rickets, Rett syndrome (lethal in males), incontinentia pigmenti",
+   "**Mitochondrial**: maternal transmission only, heteroplasmy → variable severity; LHON, MELAS, MERRF (ragged-red fibres), Leigh; Kearns–Sayre (large deletion, usually sporadic)",
+   "**Imprinting** (15q11–q13): Prader–Willi = loss of paternal genes: paternal deletion (~70%), maternal UPD (~25%), imprinting defect. Angelman = loss of maternal UBE3A: maternal deletion (~70%), paternal UPD, UBE3A mutation, imprinting defect. DNA methylation analysis is the best first test for both",
+   "Beckwith–Wiedemann (11p15 imprinting): macrosomia, macroglossia, omphalocele, hemihypertrophy, neonatal hypoglycaemia, Wilms tumour and hepatoblastoma risk",
+   "**Lyon hypothesis**: random inactivation of one X in each female somatic cell early in embryogenesis (XIST); inactive X = Barr body; number of Barr bodies = number of X − 1. Skewed inactivation → manifesting female carriers (e.g. DMD, haemophilia). G6PD isoenzyme mosaicism proved clonality of tumours",
+   "Genetic anticipation is due to expansion during meiosis; repeat size correlates with earlier onset and severity",
+   "Robertsonian translocation (acrocentric 13, 14, 15, 21, 22) underlies ~4% of Down syndrome; a balanced 21;21 carrier parent cannot have a normal child"
+  ],
+  "traps": [
+   {
+    "stem": "Child with suspected Prader–Willi; FISH for 15q11–q13 deletion is normal.",
+    "trap": "Excluding Prader–Willi syndrome.",
+    "fix": "FISH misses maternal UPD (~25%) and imprinting defects. DNA methylation analysis detects all three mechanisms and is the preferred first test."
+   },
+   {
+    "stem": "A balanced reciprocal translocation is suspected in a couple with recurrent miscarriages. Which test?",
+    "trap": "Chromosomal microarray because it has higher resolution.",
+    "fix": "Microarray detects copy-number changes only and misses balanced rearrangements. Use conventional G-banded karyotype of both parents."
+   },
+   {
+    "stem": "Neurological disease with anticipation transmitted through the mother in a congenital severe form.",
+    "trap": "Huntington disease, the classic anticipation example.",
+    "fix": "Huntington anticipation is via paternal transmission. Maternal transmission with congenital form = myotonic dystrophy type 1 (CTG); fragile X expansion also occurs in maternal meiosis."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Prader–Willi results from loss of {{c1::paternal}} 15q11–q13 genes; Angelman from loss of maternal {{c2::UBE3A}}."
+   },
+   {
+    "type": "cloze",
+    "text": "Fragile X: {{c1::CGG}} repeat in {{c2::FMR1}}; full mutation >200 repeats causes hypermethylation and silencing."
+   },
+   {
+    "type": "basic",
+    "front": "Which test for: balanced translocation, 22q11 microdeletion, unexplained developmental delay?",
+    "back": "Balanced translocation: karyotype.\n22q11: FISH (or microarray).\nDevelopmental delay / autism / multiple anomalies: chromosomal microarray (first-tier)."
+   },
+   {
+    "type": "cloze",
+    "text": "Mitochondrial disorders are transmitted only {{c1::maternally}}; variable severity reflects {{c2::heteroplasmy}}."
+   },
+   {
+    "type": "basic",
+    "front": "Lyon hypothesis in one line",
+    "back": "In each female somatic cell one X chromosome is randomly and permanently inactivated early in embryonic life (XIST), forming the Barr body; skewing explains manifesting carriers."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "autosomal dominant",
+   "autosomal recessive",
+   "x-linked",
+   "mitochondrial inheritance",
+   "heteroplasmy",
+   "trinucleotide repeat",
+   "anticipation",
+   "huntington",
+   "fragile x",
+   "myotonic dystrophy",
+   "friedreich ataxia",
+   "genomic imprinting",
+   "prader-willi",
+   "angelman",
+   "uniparental disomy",
+   "fish",
+   "karyotype",
+   "microarray",
+   "lyon hypothesis",
+   "barr body"
+  ],
+  "wiki": [
+   "Trinucleotide_repeat_disorder",
+   "Genomic_imprinting",
+   "X-inactivation"
+  ],
+  "verify": "Robbins 10e chapter 5; Thompson & Thompson Genetics in Medicine"
+ }
+]

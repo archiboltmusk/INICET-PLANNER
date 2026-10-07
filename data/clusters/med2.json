@@ -1,0 +1,2720 @@
+[
+ {
+  "id": "med-acid-base",
+  "title": "Acid-base & electrolyte crises: ABG stepwise, delta ratio, K⁺/Na⁺ emergencies",
+  "subject": "Medicine",
+  "system": "Nephrology / Critical care",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Never read pH alone: primary disorder → expected compensation → anion gap (albumin-corrected) → delta ratio → urine AG / urine Cl⁻",
+   "HAGMA = ketones, lactate, toxic alcohols, uraemia, salicylate; NAGMA = diarrhoea vs RTA (urine anion gap)",
+   "Hyperkalaemia + ECG change → IV calcium first (stabilises membrane, does not lower K⁺)",
+   "Chronic hyponatraemia: correct slowly (pons dies); hypernatraemia: correct slowly (brain swells)"
+  ],
+  "algorithm": "ABG: pH <7.35 acidaemia | >7.45 alkalaemia → identify primary change (HCO₃⁻ vs PaCO₂)\n→ Metabolic acidosis: Winter's expected PaCO₂ = 1.5 × HCO₃⁻ + 8 ± 2\n  actual > expected → coexisting respiratory acidosis\n  actual < expected → coexisting respiratory alkalosis\n→ AG = Na⁺ − (Cl⁻ + HCO₃⁻); normal ≈ 12 (8–16); add 2.5 for each 1 g/dL albumin below 4\n  High AG → delta ratio = (AG − 12) / (24 − HCO₃⁻)\n    <0.4 pure NAGMA | 0.4–0.8 HAGMA + NAGMA | 0.8–2 pure HAGMA\n    >2 HAGMA + metabolic alkalosis (or pre-existing chronic respiratory acidosis)\n    High AG → also check osmolar gap (>10 → methanol / ethylene glycol)\n  Normal AG → urine AG = (UNa + UK) − UCl\n    negative → GI HCO₃⁻ loss (diarrhoea) | positive → distal (type 1) RTA\n→ Metabolic alkalosis: urine Cl⁻ <20 → saline-responsive (vomiting, NG suction, remote diuretics)\n  urine Cl⁻ >20 → saline-resistant (hyperaldosteronism, Cushing, Bartter/Gitelman, current diuretic)",
+  "tables": [
+   {
+    "title": "Expected compensation (if outside → second primary disorder)",
+    "head": [
+     "Primary disorder",
+     "Expected compensation"
+    ],
+    "rows": [
+     [
+      "Metabolic acidosis",
+      "PaCO₂ = 1.5 × HCO₃⁻ + 8 ± 2 (Winter's); roughly PaCO₂ ≈ last 2 digits of pH"
+     ],
+     [
+      "Metabolic alkalosis",
+      "PaCO₂ ↑ 0.7 per 1 mEq/L ↑ HCO₃⁻"
+     ],
+     [
+      "Acute respiratory acidosis",
+      "HCO₃⁻ ↑ 1 per 10 mmHg ↑ PaCO₂"
+     ],
+     [
+      "Chronic respiratory acidosis",
+      "HCO₃⁻ ↑ 3.5 (≈4) per 10 mmHg ↑ PaCO₂"
+     ],
+     [
+      "Acute respiratory alkalosis",
+      "HCO₃⁻ ↓ 2 per 10 mmHg ↓ PaCO₂"
+     ],
+     [
+      "Chronic respiratory alkalosis",
+      "HCO₃⁻ ↓ 4–5 per 10 mmHg ↓ PaCO₂"
+     ]
+    ]
+   },
+   {
+    "title": "Electrolyte emergencies: what to do first",
+    "head": [
+     "Crisis",
+     "Immediate step",
+     "Then",
+     "Limit / danger"
+    ],
+    "rows": [
+     [
+      "Hyperkalaemia with ECG change",
+      "Calcium gluconate 10% 10 mL IV over 2–5 min (repeat if ECG unchanged; up to 30 mL acceptable); CaCl₂ in arrest",
+      "Shift: regular insulin 10 U + 25 g glucose (50 mL D50); salbutamol neb 10–20 mg; NaHCO₃ only if acidotic. Remove: loop diuretic, potassium binders (SZC, patiromer), haemodialysis (definitive)",
+      "Calcium does not lower K⁺; monitor glucose after insulin"
+     ],
+     [
+      "Severe symptomatic hyponatraemia (seizure, coma)",
+      "3% NaCl 100 mL IV over 10 min, repeat up to 2 more times if symptoms persist",
+      "Target rise 4–6 mEq/L in first hours (enough to stop seizures/herniation)",
+      "Aim 4–6; never exceed 8 mEq/L/24 h in high-risk (exam answer); 10–12 is the absolute ceiling in standard risk. Overcorrection → re-lower with D5W ± desmopressin"
+     ],
+     [
+      "Hypernatraemia (chronic)",
+      "Free water (oral/NG or D5W)",
+      "Treat cause (DI, losses)",
+      "Fall ≤10–12 mEq/L/24 h (≈0.5 mEq/L/h); faster → cerebral oedema"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**HAGMA** causes (GOLDMARK): glycols, oxoproline (chronic paracetamol), L-lactate, D-lactate, methanol, aspirin, renal failure, ketoacidosis",
+   "**NAGMA**: diarrhoea, RTA, ureteral diversion, acetazolamide, saline overload (hyperchloraemic), Addison's",
+   "**Osmolar gap** = measured − (2Na⁺ + glucose/18 + BUN/2.8); >10 with HAGMA → methanol / ethylene glycol",
+   "**Salicylate** poisoning: mixed respiratory alkalosis (early, central) + HAGMA",
+   "**Vomiting**: hypochloraemic hypokalaemic metabolic alkalosis with paradoxical aciduria; urine Cl⁻ <20 → saline-responsive",
+   "Compensation never overshoots normal pH; a 'normal' pH with abnormal HCO₃⁻ and PaCO₂ = mixed disorder",
+   "Hyperkalaemia ECG sequence: peaked T → PR prolongation, flat/absent P → wide QRS → sine wave → VF/asystole",
+   "Pseudohyponatraemia (normal osmolality): hyperlipidaemia, paraproteinaemia; hyperglycaemia causes true translocational hyponatraemia (add 1.6 per 100 mg/dL glucose above 100)",
+   "ODS (central pontine myelinolysis): dysarthria, dysphagia, quadriparesis, locked-in, appears 2–6 days after overcorrection; risk ↑ with alcoholism, malnutrition, hypokalaemia, liver disease, Na⁺ ≤105"
+  ],
+  "traps": [
+   {
+    "stem": "Acute severe asthma, RR 32: pH 7.38, PaCO₂ 40 mmHg, PaO₂ 65 mmHg. Patient is 'stable'?",
+    "trap": "Normal PaCO₂ looks reassuring.",
+    "fix": "A tachypnoeic asthmatic should have low PaCO₂ (<35). 'Normal' PaCO₂ = tiring respiratory muscles, impending hypercapnic failure → ICU, consider ventilation."
+   },
+   {
+    "stem": "Septic ICU patient, albumin 1.0 g/dL: Na⁺ 140, Cl⁻ 108, HCO₃⁻ 20. AG = 12. NAGMA?",
+    "trap": "AG of 12 looks normal.",
+    "fix": "Correct for albumin: +2.5 × (4 − 1) = +7.5 → corrected AG 19.5 → occult HAGMA (likely lactate). Always albumin-correct the AG in hypoalbuminaemia."
+   },
+   {
+    "stem": "Chronic hyponatraemia Na⁺ 110 in an alcoholic. How fast to correct?",
+    "trap": "'Up to 12 mEq/L/day is allowed' (old standard-risk ceiling).",
+    "fix": "Alcoholism/malnutrition/hypokalaemia = high ODS risk → aim 4–6, never exceed 8 mEq/L in 24 h. Hypernatraemia rule is the reverse direction: rapid lowering → cerebral oedema."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Vomiting + septic shock: pH 7.23, PaCO₂ 25, HCO₃⁻ 10, Na⁺ 135, Cl⁻ 82.\nExpected PaCO₂ (Winter's) = {{c1::23 ± 2 mmHg (1.5×10 + 8) → compensation appropriate}}\nAnion gap = {{c2::43 mEq/L (135 − [82 + 10])}}\nDelta ratio = {{c3::31/14 ≈ 2.2 (>2)}}\nFinal diagnosis = {{c4::HAGMA + metabolic alkalosis (from vomiting)}}"
+   },
+   {
+    "type": "basic",
+    "front": "How does the urine anion gap separate causes of NAGMA?",
+    "back": "UAG = (UNa + UK) − UCl.\nNegative UAG → kidney is excreting NH₄⁺ (with Cl⁻) normally → GI HCO₃⁻ loss (diarrhoea).\nPositive UAG → impaired distal acidification / NH₄⁺ excretion → distal (type 1) RTA."
+   },
+   {
+    "type": "basic",
+    "front": "Order the ECG changes of rising K⁺ and name the first drug once they appear.",
+    "back": "Peaked narrow T → PR prolongation with flattening/loss of P → QRS widening → sine wave → VF/asystole.\nFirst drug: IV calcium gluconate 10% 10 mL over 2–5 min (membrane stabilisation; K⁺ unchanged)."
+   },
+   {
+    "type": "cloze",
+    "text": "Chronic hyponatraemia correction: aim {{c1::4–6}} mEq/L/24 h; never exceed {{c2::8}} mEq/L/24 h in high-risk patients; overcorrection causes {{c3::osmotic demyelination syndrome}}, treated by re-lowering with {{c4::D5W ± desmopressin}}."
+   },
+   {
+    "type": "cloze",
+    "text": "Metabolic alkalosis with urine Cl⁻ <20 mEq/L is {{c1::saline-responsive (vomiting, NG suction, remote diuretic)}}; urine Cl⁻ >20 with hypertension suggests {{c2::mineralocorticoid excess}}."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Hyperkalemia ECG.jpg",
+    "caption": "Hyperkalaemia (K⁺ 8.2): tall, narrow-based peaked T waves — the earliest ECG sign; give IV calcium before anything else."
+   }
+  ],
+  "keywords": [
+   "acid-base",
+   "abg",
+   "anion gap",
+   "winter's formula",
+   "delta ratio",
+   "delta gap",
+   "urine anion gap",
+   "osmolar gap",
+   "metabolic acidosis",
+   "metabolic alkalosis",
+   "respiratory acidosis",
+   "hyperkalemia",
+   "hyperkalaemia",
+   "calcium gluconate",
+   "hyponatremia",
+   "hyponatraemia",
+   "3% saline",
+   "osmotic demyelination",
+   "central pontine myelinolysis",
+   "hypernatremia"
+  ],
+  "wiki": [
+   "Anion_gap",
+   "Winters'_formula",
+   "Hyperkalemia"
+  ],
+  "verify": "Harrison 21e; hyponatraemia limits per US expert panel 2013 / European 2014 (≤8 mEq/L/24 h high risk); hyperkalaemia steps per UK Renal Association 2020."
+ },
+ {
+  "id": "med-electrolytes",
+  "title": "Electrolyte disorders: K⁺, Na⁺ (SIADH/CSW/DI), Ca²⁺/Mg²⁺ & RTA types",
+  "subject": "Medicine",
+  "system": "Nephrology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Hypotonic hyponatraemia + euvolaemia + urine osm >100 + urine Na >30 → SIADH (after excluding hypothyroidism and cortisol deficiency)",
+   "Same labs but volume depleted after SAH/neurosurgery → cerebral salt wasting (give saline, not restriction)",
+   "Hypokalaemia + hypertension → mineralocorticoid excess (Conn, Liddle); normotensive + alkalosis → Bartter/Gitelman or diuretics",
+   "Hypokalaemia refusing to correct → check Mg²⁺"
+  ],
+  "algorithm": "Hyponatraemia → serum osmolality\n  Normal → pseudohyponatraemia (lipids, paraprotein) | High → hyperglycaemia, mannitol\n  Low (true hypotonic) → urine osmolality\n    <100 → primary polydipsia, beer potomania, tea-and-toast\n    >100 → assess volume\n      Hypovolaemic: UNa <20 → GI/skin loss | UNa >20 → diuretic, CSW, mineralocorticoid deficiency\n      Euvolaemic: SIADH, hypothyroidism, glucocorticoid deficiency\n      Hypervolaemic: CHF, cirrhosis, nephrotic (UNa <20) | renal failure (UNa >20)\nPolyuria (>3 L/day) with dilute urine → water deprivation test\n  Urine concentrates (osm >800) → primary polydipsia\n  Stays dilute → desmopressin: urine osm ↑ >50% → central DI | little/no rise → nephrogenic DI",
+  "tables": [
+   {
+    "title": "SIADH vs cerebral salt wasting vs diabetes insipidus",
+    "head": [
+     "Feature",
+     "SIADH",
+     "Cerebral salt wasting",
+     "Diabetes insipidus"
+    ],
+    "rows": [
+     [
+      "Volume",
+      "Euvolaemic",
+      "Hypovolaemic (postural drop, ↑Hct, ↑urea)",
+      "Normal/dehydrated"
+     ],
+     [
+      "Serum Na⁺",
+      "Low",
+      "Low",
+      "High-normal / high"
+     ],
+     [
+      "Urine osm / Na⁺",
+      "Inappropriately concentrated (>100); UNa >30",
+      "Concentrated; UNa high",
+      "Dilute (<300, often <100)"
+     ],
+     [
+      "Serum uric acid",
+      "Low (corrects with Na⁺)",
+      "Low (stays low after correction)",
+      "—"
+     ],
+     [
+      "Treatment",
+      "Fluid restriction; oral urea / tolvaptan; 3% saline if severe symptoms",
+      "Isotonic saline ± fludrocortisone",
+      "Central: desmopressin; nephrogenic: thiazide, low-salt diet (+ amiloride for lithium)"
+     ]
+    ]
+   },
+   {
+    "title": "Renal tubular acidosis types",
+    "head": [
+     "",
+     "Type 1 (distal)",
+     "Type 2 (proximal)",
+     "Type 4 (hypoaldosteronism)"
+    ],
+    "rows": [
+     [
+      "Defect",
+      "α-intercalated cell H⁺ secretion",
+      "Proximal HCO₃⁻ reabsorption",
+      "Low aldosterone or resistance → ↓ NH₄⁺ genesis"
+     ],
+     [
+      "Urine pH",
+      ">5.5 always",
+      "<5.5 once serum HCO₃⁻ falls below threshold",
+      "<5.5"
+     ],
+     [
+      "Serum K⁺",
+      "Low",
+      "Low",
+      "HIGH"
+     ],
+     [
+      "Stones / bone",
+      "Nephrocalcinosis, CaPO₄ stones (hypocitraturia)",
+      "Rickets / osteomalacia (Fanconi phosphaturia); no stones",
+      "None"
+     ],
+     [
+      "Causes",
+      "Sjögren, SLE, RA, amphotericin B, lithium, toluene",
+      "Fanconi syndrome, myeloma, acetazolamide, tenofovir, ifosfamide, Wilson",
+      "Diabetic nephropathy (hyporeninaemic), ACEi/ARB, spironolactone, trimethoprim, heparin, NSAIDs"
+     ],
+     [
+      "Treatment",
+      "Small-dose alkali (citrate)",
+      "Large-dose alkali + thiazide",
+      "Fludrocortisone / loop diuretic, low-K⁺ diet"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Bartter** (loop-like, NKCC2): hypercalciuria, young/antenatal; **Gitelman** (thiazide-like, NCC): hypocalciuria + hypomagnesaemia, milder, older",
+   "**Liddle** (ENaC gain of function): hypertension + hypokalaemia with LOW renin and LOW aldosterone; treat amiloride/triamterene (not spironolactone)",
+   "Hypokalaemia ECG: flat T, U waves, ST depression; IV K⁺ usually ≤10 mEq/h peripherally (up to 20 mEq/h centrally with monitoring)",
+   "Pseudohyperkalaemia: haemolysed sample, thrombocytosis, extreme leukocytosis, fist clenching",
+   "**Hypomagnesaemia** (PPIs, diuretics, alcohol, cisplatin, aminoglycosides) → refractory hypokalaemia and hypocalcaemia (↓PTH secretion and action)",
+   "Corrected Ca²⁺ = measured + 0.8 × (4 − albumin g/dL); hypocalcaemia → Chvostek, Trousseau, prolonged QT; hypercalcaemia → short QT",
+   "Severe symptomatic hypocalcaemia: IV calcium gluconate 10% 10–20 mL slowly, then infusion",
+   "Thyrotoxic periodic paralysis: hypokalaemic paralysis in young Asian men; give K⁺ cautiously + non-selective β-blocker (rebound hyperkalaemia)",
+   "Lithium is the commonest cause of acquired nephrogenic DI; hypercalcaemia and hypokalaemia also cause it"
+  ],
+  "traps": [
+   {
+    "stem": "Post-SAH patient, Na⁺ 126, urine Na 80, postural hypotension, rising haematocrit. Fluid restrict?",
+    "trap": "Concentrated urine + high urine Na⁺ looks like SIADH → fluid restriction.",
+    "fix": "Volume depletion = cerebral salt wasting → isotonic saline ± fludrocortisone. Fluid restriction after SAH worsens vasospasm and ischaemia."
+   },
+   {
+    "stem": "Young normotensive woman with hypokalaemic alkalosis, low urinary calcium and low Mg²⁺.",
+    "trap": "Bartter syndrome (also salt-wasting with alkalosis).",
+    "fix": "Low urine calcium + hypomagnesaemia = Gitelman (thiazide-like NCC defect). Bartter (loop-like) gives hypercalciuria."
+   },
+   {
+    "stem": "Hypokalaemia (2.6) not rising despite 3 days of IV KCl in an alcoholic.",
+    "trap": "Increase KCl rate further.",
+    "fix": "Check and replace magnesium first — hypomagnesaemia drives ROMK K⁺ wasting; K⁺ will not correct until Mg²⁺ does."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Water deprivation test: urine stays dilute; after desmopressin urine osmolality rises by 60%. Diagnosis?",
+    "back": "Central (cranial) DI — kidneys respond to exogenous ADH (>50% rise). Little/no rise = nephrogenic DI; concentration during deprivation alone = primary polydipsia."
+   },
+   {
+    "type": "cloze",
+    "text": "Type {{c1::4}} RTA is the only RTA with {{c2::hyperkalaemia}}; its commonest cause is {{c3::hyporeninaemic hypoaldosteronism of diabetic nephropathy}}."
+   },
+   {
+    "type": "cloze",
+    "text": "Distal (type 1) RTA: urine pH always {{c1::>5.5}}, {{c2::positive}} urine anion gap, and {{c3::nephrocalcinosis / calcium phosphate stones}}."
+   },
+   {
+    "type": "basic",
+    "front": "Hypertension + hypokalaemia + low renin + low aldosterone. Diagnosis and drug?",
+    "back": "Liddle syndrome (ENaC gain-of-function, AD). Treat with amiloride or triamterene; spironolactone ineffective (not aldosterone-driven). DDx with same pattern: apparent mineralocorticoid excess (liquorice), CAH 11β-hydroxylase/17α-hydroxylase."
+   },
+   {
+    "type": "cloze",
+    "text": "SIADH vs CSW: both have high urine Na⁺; the discriminator is {{c1::extracellular volume status}} — CSW is {{c2::hypovolaemic}} and treated with {{c3::isotonic saline}}."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "hypokalemia",
+   "hypokalaemia",
+   "siadh",
+   "cerebral salt wasting",
+   "diabetes insipidus",
+   "water deprivation test",
+   "desmopressin",
+   "renal tubular acidosis",
+   "rta",
+   "bartter",
+   "gitelman",
+   "liddle",
+   "hypomagnesemia",
+   "hypocalcemia",
+   "hypercalcemia",
+   "tolvaptan",
+   "fanconi syndrome",
+   "pseudohyperkalemia",
+   "nephrogenic di"
+  ],
+  "wiki": [
+   "Renal_tubular_acidosis",
+   "Syndrome_of_inappropriate_antidiuretic_hormone_secretion",
+   "Cerebral_salt-wasting_syndrome"
+  ],
+  "verify": "Harrison 21e (fluid & electrolytes chapters); European hyponatraemia guideline 2014."
+ },
+ {
+  "id": "med-aki-ckd",
+  "title": "AKI & CKD: KDIGO staging, prerenal vs ATN, CKD-MBD, dialysis indications",
+  "subject": "Medicine",
+  "system": "Nephrology",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "AKI = creatinine ↑ ≥0.3 mg/dL in 48 h, or ≥1.5× baseline within 7 days, or urine output <0.5 mL/kg/h for 6 h",
+   "Prerenal: FeNa <1%, UNa <20, bland/hyaline casts; ATN: FeNa >2%, UNa >40, muddy-brown granular casts",
+   "Dialysis is indicated by AEIOU complications, not by a creatinine number"
+  ],
+  "algorithm": "Rising creatinine / oliguria → stage by KDIGO\n→ Prerenal? volume, BP, drugs (NSAID, ACEi/ARB, diuretics) → fluid challenge\n→ Postrenal? bladder scan / USG KUB → catheter / relieve obstruction\n→ Intrinsic? urine microscopy\n  muddy-brown casts → ATN | RBC casts → GN (complement, ANCA, anti-GBM → biopsy)\n  WBC casts / eosinophiluria + rash → AIN (stop drug ± steroids)\n  dipstick blood + no RBCs → myoglobin (rhabdo; CK >5× ULN) → aggressive fluids\n→ Urgent dialysis if refractory: Acidosis, Electrolytes (K⁺), Intoxication, Overload, Uraemia (pericarditis, encephalopathy, bleeding)",
+  "tables": [
+   {
+    "title": "KDIGO AKI staging",
+    "head": [
+     "Stage",
+     "Serum creatinine",
+     "Urine output"
+    ],
+    "rows": [
+     [
+      "1",
+      "1.5–1.9 × baseline OR ↑ ≥0.3 mg/dL",
+      "<0.5 mL/kg/h for 6–12 h"
+     ],
+     [
+      "2",
+      "2.0–2.9 × baseline",
+      "<0.5 mL/kg/h for ≥12 h"
+     ],
+     [
+      "3",
+      "≥3.0 × baseline OR ≥4.0 mg/dL OR start of RRT",
+      "<0.3 mL/kg/h for ≥24 h OR anuria ≥12 h"
+     ]
+    ]
+   },
+   {
+    "title": "Prerenal azotaemia vs acute tubular necrosis",
+    "head": [
+     "Index",
+     "Prerenal",
+     "ATN"
+    ],
+    "rows": [
+     [
+      "FeNa",
+      "<1%",
+      ">2%"
+     ],
+     [
+      "FeUrea (on diuretics)",
+      "<35%",
+      ">50%"
+     ],
+     [
+      "Urine Na⁺ (mEq/L)",
+      "<20",
+      ">40"
+     ],
+     [
+      "Urine osmolality",
+      ">500",
+      "<350 (isosthenuric ≈300)"
+     ],
+     [
+      "BUN : creatinine",
+      ">20",
+      "<15"
+     ],
+     [
+      "Sediment",
+      "Bland, hyaline casts",
+      "Muddy-brown granular, tubular epithelial cell casts"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Low FeNa despite intrinsic injury: contrast nephropathy, rhabdomyolysis, early obstruction, acute GN, hepatorenal syndrome",
+   "**CKD** = structural/functional abnormality >3 months; stage by GFR (G1 ≥90, G2 60–89, G3a 45–59, G3b 30–44, G4 15–29, G5 <15) and albuminuria (A1 <30, A2 30–300, A3 >300 mg/g)",
+   "eGFR: **CKD-EPI 2021** race-free creatinine (± cystatin C) equation is current standard (replaced MDRD)",
+   "**CKD-MBD**: phosphate retention + ↓1α-hydroxylase → ↓calcitriol, ↓Ca²⁺, ↑FGF-23 (earliest) → secondary hyperparathyroidism → osteitis fibrosa cystica; rugger-jersey spine; adynamic bone disease with oversuppression",
+   "CKD-MBD treatment: phosphate binders (sevelamer, lanthanum, calcium salts), active vitamin D, cinacalcet (calcimimetic), parathyroidectomy for tertiary",
+   "Renal anaemia: EPO deficiency, normocytic; replete iron first; avoid ESA targets above Hb 11.5 g/dL (↑ stroke/thrombosis)",
+   "**Contrast nephropathy**: creatinine rises 24–72 h; risk highest with eGFR <30, diabetes, volume depletion; prevent with isotonic IV saline; NAC and bicarbonate show no benefit (PRESERVE)",
+   "Metformin: hold at time of contrast if eGFR <30 or AKI; resume after 48 h if renal function stable",
+   "Dialysable toxins: salicylates, lithium, methanol, ethylene glycol, theophylline, valproate, metformin (lactic acidosis); NOT digoxin, TCA, benzodiazepines (protein-bound / large Vd)"
+  ],
+  "traps": [
+   {
+    "stem": "AKI patient on furosemide: FeNa 3%. Diagnose ATN?",
+    "trap": "FeNa >2% points to ATN.",
+    "fix": "Diuretics raise FeNa artefactually; use FeUrea (<35% = prerenal)."
+   },
+   {
+    "stem": "CKD patient creatinine 7 mg/dL, asymptomatic, K⁺ 4.8, no overload. Start emergency dialysis?",
+    "trap": "Very high creatinine alone = indication.",
+    "fix": "Emergency dialysis needs a refractory complication (AEIOU: acidosis, hyperkalaemia, intoxication, overload, uraemic pericarditis/encephalopathy/bleeding). Planned dialysis in CKD is symptom-guided, usually eGFR 5–10."
+   },
+   {
+    "stem": "Diabetic with eGFR 35 needs contrast CT. Best prophylaxis?",
+    "trap": "Oral N-acetylcysteine or sodium bicarbonate infusion.",
+    "fix": "Isotonic saline volume expansion, lowest dose iso-/low-osmolar contrast, stop nephrotoxins; NAC/bicarbonate not superior to saline."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "KDIGO AKI stage 3: creatinine ≥{{c1::3}}× baseline, or ≥{{c2::4.0 mg/dL}}, or {{c3::initiation of renal replacement therapy}}, or urine output <0.3 mL/kg/h for ≥{{c4::24 h}}."
+   },
+   {
+    "type": "basic",
+    "front": "Muddy-brown granular casts in urine — diagnosis and typical FeNa?",
+    "back": "Acute tubular necrosis (ischaemic or nephrotoxic); FeNa >2%, urine Na >40, urine osm <350."
+   },
+   {
+    "type": "cloze",
+    "text": "In CKD, the earliest hormonal change of CKD-MBD is a rise in {{c1::FGF-23}}, followed by ↓calcitriol and {{c2::secondary hyperparathyroidism}}; the spine X-ray sign is {{c3::rugger-jersey spine}}."
+   },
+   {
+    "type": "basic",
+    "front": "Urine dipstick strongly positive for blood but microscopy shows no RBCs after a crush injury. What and how to treat?",
+    "back": "Myoglobinuria from rhabdomyolysis (CK >5× ULN). Aggressive isotonic fluids targeting high urine output; treat hyperkalaemia; dialysis if refractory."
+   },
+   {
+    "type": "cloze",
+    "text": "Dialysis indications mnemonic AEIOU: {{c1::refractory acidosis}}, {{c2::electrolytes (hyperkalaemia)}}, {{c3::intoxications (e.g. lithium, methanol, salicylate)}}, {{c4::fluid overload}}, {{c5::uraemic pericarditis/encephalopathy}}."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:RTE cast, muddy granular cast, WBC cast and RBC cast in urine.jpg",
+    "caption": "Panel (b) muddy-brown granular casts and (a) tubular epithelial casts = ATN; compare WBC casts (pyelonephritis/AIN) and RBC casts (glomerulonephritis)."
+   }
+  ],
+  "keywords": [
+   "acute kidney injury",
+   "aki",
+   "kdigo",
+   "acute tubular necrosis",
+   "prerenal",
+   "fena",
+   "fractional excretion of sodium",
+   "fractional excretion of urea",
+   "muddy brown casts",
+   "chronic kidney disease",
+   "ckd-epi",
+   "egfr",
+   "ckd-mbd",
+   "renal osteodystrophy",
+   "secondary hyperparathyroidism",
+   "dialysis indications",
+   "contrast induced nephropathy",
+   "rhabdomyolysis",
+   "fgf-23"
+  ],
+  "wiki": [
+   "Acute_kidney_injury",
+   "Chronic_kidney_disease",
+   "Contrast-induced_nephropathy"
+  ],
+  "verify": "KDIGO AKI 2012, KDIGO CKD 2024, KDIGO CKD-MBD 2017; CKD-EPI 2021 equation."
+ },
+ {
+  "id": "med-dka-hhs",
+  "title": "DKA vs HHS: fluids, insulin, potassium thresholds & euglycaemic DKA",
+  "subject": "Medicine",
+  "system": "Endocrinology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Young T1DM, abdominal pain, vomiting, Kussmaul breathing, fruity breath, HAGMA → DKA",
+   "Elderly T2DM, days of polyuria, glucose >600, osmolality >320, obtunded, little ketosis → HHS",
+   "Rule: fluids first; check K⁺ before insulin — K⁺ <3.3 → hold insulin and replace K⁺",
+   "SGLT2 inhibitor + ketoacidosis with near-normal glucose → euglycaemic DKA"
+  ],
+  "algorithm": "Suspected DKA/HHS → glucose, ketones (β-hydroxybutyrate), VBG/ABG, AG, K⁺, osmolality, find precipitant (infection, missed insulin, MI)\n→ FLUIDS: 0.9% NaCl 15–20 mL/kg (≈1–1.5 L) in hour 1\n  then 0.45% NaCl if corrected Na⁺ normal/high, 0.9% if low\n  add dextrose when glucose <250 mg/dL (DKA) / <300 (HHS) and continue insulin\n→ POTASSIUM (before insulin):\n  K⁺ <3.3 → HOLD insulin; give 20–30 mEq/h K⁺ until ≥3.3\n  K⁺ 3.3–5.2 → 20–30 mEq K⁺ in each litre\n  K⁺ >5.2 → no K⁺; recheck every 2 h\n→ INSULIN: regular IV 0.1 U/kg/h (± 0.1 U/kg bolus); aim glucose fall 50–75 mg/dL/h\n→ BICARBONATE only if pH <6.9 (ADA 2009; 2024 consensus: pH <7.0)\n→ Resolution (DKA): glucose <200 + 2 of: HCO₃⁻ ≥15, venous pH >7.3, AG ≤12\n  → overlap SC basal insulin 1–2 h before stopping the infusion",
+  "tables": [
+   {
+    "title": "DKA vs HHS (ADA criteria)",
+    "head": [
+     "Feature",
+     "DKA",
+     "HHS"
+    ],
+    "rows": [
+     [
+      "Typical patient",
+      "T1DM, young, onset hours–1 day",
+      "T2DM, elderly, onset over days"
+     ],
+     [
+      "Plasma glucose",
+      ">250 mg/dL (2024 consensus: ≥200 or known diabetes)",
+      ">600 mg/dL"
+     ],
+     [
+      "Arterial pH / HCO₃⁻",
+      "<7.30 / <18 mEq/L",
+      ">7.30 / >18 (2024: ≥15)"
+     ],
+     [
+      "Ketones",
+      "Positive (β-OHB ≥3 mmol/L)",
+      "Small / negative"
+     ],
+     [
+      "Effective osmolality",
+      "Variable",
+      ">320 mOsm/kg (2024: >300)"
+     ],
+     [
+      "Anion gap",
+      ">10–12",
+      "Variable / normal"
+     ],
+     [
+      "Mental status",
+      "Alert → stupor with severity",
+      "Stupor / coma common; focal signs, seizures"
+     ],
+     [
+      "Fluid deficit",
+      "≈6 L",
+      "≈9 L (larger)"
+     ],
+     [
+      "Insulin",
+      "0.1 U/kg/h after K⁺ ≥3.3",
+      "Start only after initial fluids (fluids alone lower glucose); UK JBDS 0.05 U/kg/h"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Serum K⁺ is often normal/high at presentation despite large **total-body K⁺ deficit** (acidosis + insulin lack shift K⁺ out); insulin will drop it fast",
+   "Corrected Na⁺ = measured Na⁺ + 1.6 × (glucose − 100)/100",
+   "Do not stop insulin when glucose normalises — add dextrose and continue until ketosis/acidosis resolves (closed AG)",
+   "Urine nitroprusside test detects acetoacetate, not β-hydroxybutyrate (the dominant ketone) — may under-read early and paradoxically rise during treatment",
+   "Phosphate replacement only if <1.0 mg/dL, cardiac dysfunction, respiratory depression or haemolytic anaemia",
+   "**Paediatric DKA cerebral oedema**: 4–12 h into treatment; headache, bradycardia + hypertension, falling GCS, incontinence; risks — young age, new-onset, severe acidosis, low PaCO₂, high urea, bicarbonate use; treat mannitol 0.5–1 g/kg or 3% saline",
+   "Paediatric (ISPAD): rehydrate over 24–48 h, insulin 0.05–0.1 U/kg/h started ≥1 h after fluids, no insulin bolus",
+   "**Euglycaemic DKA**: SGLT2 inhibitors, pregnancy, starvation, alcohol; glucose <250; give dextrose early alongside insulin; stop SGLT2i 3 days before elective surgery",
+   "Amylase/lipase and WBC may be raised in DKA without pancreatitis/infection"
+  ],
+  "traps": [
+   {
+    "stem": "DKA: glucose 480, pH 7.1, K⁺ 3.0. First drug after starting saline?",
+    "trap": "Start the insulin infusion immediately.",
+    "fix": "K⁺ <3.3 → hold insulin, give IV K⁺ (20–30 mEq/h) until ≥3.3; insulin first can cause fatal hypokalaemic arrhythmia/respiratory muscle weakness."
+   },
+   {
+    "stem": "Patient on empagliflozin, post-op vomiting, glucose 180 mg/dL, pH 7.15, HCO₃⁻ 10, β-OHB 5.",
+    "trap": "Glucose <250 so not DKA → look for lactic acidosis/sepsis.",
+    "fix": "Euglycaemic DKA from SGLT2i — treat as DKA with insulin plus early dextrose; stop the SGLT2 inhibitor."
+   },
+   {
+    "stem": "8-year-old, 6 h into DKA treatment, becomes drowsy with HR 52 and BP 140/90.",
+    "trap": "Hypoglycaemia or worsening acidosis; give bicarbonate.",
+    "fix": "Cerebral oedema — give mannitol (or 3% saline) immediately, reduce fluid rate, then imaging; bicarbonate is itself a risk factor."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "DKA potassium rule: K⁺ <{{c1::3.3}} → hold insulin and replace; K⁺ 3.3–5.2 → add {{c2::20–30 mEq}} per litre; K⁺ >{{c3::5.2}} → no K⁺, recheck in 2 h."
+   },
+   {
+    "type": "cloze",
+    "text": "DKA insulin: regular IV {{c1::0.1 U/kg/h}}; add dextrose when glucose falls below {{c2::250 mg/dL}}; give bicarbonate only if pH <{{c3::6.9}}."
+   },
+   {
+    "type": "basic",
+    "front": "Most important difference between HHS and DKA management?",
+    "back": "HHS: larger fluid deficit (~9 L) — fluids alone lower glucose, so start insulin only after initial fluid resuscitation (lower rate, e.g. 0.05 U/kg/h in UK JBDS); avoid rapid osmolality fall. Ketosis/acidosis minimal."
+   },
+   {
+    "type": "basic",
+    "front": "Why can serum K⁺ be high in untreated DKA though the patient is K⁺ depleted?",
+    "back": "Insulin deficiency and hyperosmolality shift K⁺ out of cells while osmotic diuresis loses K⁺ in urine → normal/high serum K⁺ with total-body deficit; insulin unmasks the deficit."
+   },
+   {
+    "type": "cloze",
+    "text": "Euglycaemic DKA (glucose <250 mg/dL) is classically triggered by {{c1::SGLT2 inhibitors}}; treatment needs insulin plus {{c2::early dextrose}}."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "diabetic ketoacidosis",
+   "dka",
+   "hyperosmolar hyperglycemic state",
+   "hhs",
+   "hyperosmolar",
+   "insulin infusion",
+   "potassium replacement",
+   "euglycemic dka",
+   "euglycaemic",
+   "sglt2 inhibitor",
+   "cerebral edema",
+   "beta-hydroxybutyrate",
+   "kussmaul breathing",
+   "corrected sodium",
+   "bicarbonate therapy"
+  ],
+  "wiki": [
+   "Diabetic_ketoacidosis",
+   "Hyperosmolar_hyperglycemic_state"
+  ],
+  "verify": "ADA 2009 consensus numbers (exam-classic) with ADA/EASD/JBDS 2024 hyperglycaemic crises consensus where changed; ISPAD 2022 for children."
+ },
+ {
+  "id": "med-endocrine-crises",
+  "title": "Endocrine emergencies: adrenal crisis, thyroid storm, myxoedema coma, apoplexy, hypercalcaemia",
+  "subject": "Medicine",
+  "system": "Endocrinology",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Shock unresponsive to fluids + hyponatraemia, hyperkalaemia, hypoglycaemia, eosinophilia → adrenal crisis: hydrocortisone now, test later",
+   "Fever, AF, delirium, diarrhoea, jaundice after surgery/infection/iodine in a hyperthyroid → thyroid storm (Burch-Wartofsky ≥45)",
+   "Elderly hypothyroid woman in winter: hypothermia, hypoventilation, hyponatraemia, coma → myxoedema coma",
+   "Thunderclap headache + ophthalmoplegia + field loss in known adenoma → pituitary apoplexy"
+  ],
+  "algorithm": "Adrenal crisis → draw cortisol + ACTH (do not wait) → hydrocortisone 100 mg IV bolus → 200 mg/24 h (50 mg 6-hourly or infusion) + 0.9% saline with dextrose → treat precipitant → taper\nThyroid storm → (1) propranolol (2) PTU (or methimazole) (3) iodine (Lugol/SSKI) ≥1 h AFTER thionamide (4) hydrocortisone (5) cooling, paracetamol (no aspirin) ± cholestyramine\nMyxoedema coma → hydrocortisone first/with → IV levothyroxine 200–400 µg load (± T3) → passive rewarming, ventilate, correct Na⁺/glucose\nPituitary apoplexy → stress-dose hydrocortisone → MRI → transsphenoidal decompression if acuity/field loss or falling GCS; else conservative\nHypercalcaemic crisis (Ca >14 mg/dL) → IV 0.9% saline → calcitonin (hours) + zoledronic acid 4 mg IV (2–4 days) → denosumab if renal failure, steroids if vitamin-D mediated, dialysis if refractory",
+  "tables": [
+   {
+    "title": "Endocrine crises at a glance",
+    "head": [
+     "Crisis",
+     "Key clue",
+     "First drug",
+     "Classic mistake"
+    ],
+    "rows": [
+     [
+      "Adrenal crisis",
+      "Hypotension refractory to fluids, ↓Na⁺ ↑K⁺ ↓glucose; steroid withdrawal, sepsis, Waterhouse-Friderichsen",
+      "Hydrocortisone 100 mg IV",
+      "Waiting for ACTH stimulation test (if test needed later, dexamethasone does not cross-react with cortisol assay)"
+     ],
+     [
+      "Thyroid storm",
+      "Burch-Wartofsky ≥45 (25–44 impending)",
+      "Propranolol + PTU",
+      "Iodine before thionamide (fuels hormone synthesis)"
+     ],
+     [
+      "Myxoedema coma",
+      "Hypothermia, bradycardia, hypoventilation, hyponatraemia",
+      "Hydrocortisone + IV levothyroxine",
+      "Thyroxine without steroid cover; active external rewarming (vasodilatory collapse)"
+     ],
+     [
+      "Pituitary apoplexy",
+      "Sudden headache, CN III palsy, bitemporal loss; triggers anticoagulation, dopamine agonist, pregnancy, surgery",
+      "Hydrocortisone",
+      "Missing it as SAH; forgetting ACTH deficiency"
+     ],
+     [
+      "Hypercalcaemic crisis",
+      "Polyuria, dehydration, confusion, short QT; malignancy (PTHrP) or primary HPT",
+      "IV isotonic saline",
+      "Loop diuretic before volume repletion"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Burch-Wartofsky** components: temperature, CNS dysfunction, GI-hepatic dysfunction, heart rate, heart failure, AF, precipitating event",
+   "**PTU** preferred in storm (also blocks peripheral T4 → T3 conversion); methimazole otherwise preferred (PTU hepatotoxic) except 1st trimester pregnancy",
+   "Avoid **aspirin** in thyroid storm — displaces T4 from TBG; use paracetamol",
+   "Primary adrenal insufficiency: hyperpigmentation + hyperkalaemia (mineralocorticoid loss); secondary: no hyperpigmentation, K⁺ normal",
+   "Sick-day rules for steroid users: double oral dose with fever; IM/IV hydrocortisone if vomiting",
+   "**Sheehan syndrome**: postpartum haemorrhage → pituitary necrosis; failure of lactation is the earliest clue",
+   "Apoplexy: commonest cranial nerve involved is **CN III**; MRI is the imaging of choice",
+   "Hypercalcaemia of malignancy: PTH suppressed, PTHrP high (squamous cell carcinoma lung, renal, breast); myeloma/osteolytic and lymphoma (calcitriol) other mechanisms",
+   "Calcitonin acts within hours but tachyphylaxis in ~48 h; bisphosphonates take 2–4 days — so give both"
+  ],
+  "traps": [
+   {
+    "stem": "Thyroid storm: what is given first — Lugol's iodine or PTU?",
+    "trap": "Iodine first because it blocks hormone release fastest.",
+    "fix": "Thionamide first; iodine at least 1 h later. Iodine before blockade provides substrate and can worsen thyrotoxicosis (Jod-Basedow)."
+   },
+   {
+    "stem": "Panhypopituitarism with hypothyroidism found after pituitary surgery. Start levothyroxine today?",
+    "trap": "Replace thyroxine first to treat symptomatic hypothyroidism.",
+    "fix": "Replace glucocorticoid first — thyroxine increases cortisol clearance and can precipitate adrenal crisis."
+   },
+   {
+    "stem": "Ca²⁺ 15.2 mg/dL, dehydrated and confused. First step?",
+    "trap": "IV furosemide to promote calciuresis.",
+    "fix": "Aggressive isotonic saline first; loop diuretics only after volume repletion if overload. Then calcitonin + zoledronic acid."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Thyroid storm sequence: {{c1::β-blocker (propranolol)}} → {{c2::PTU/methimazole}} → {{c3::iodine ≥1 h later}} → {{c4::hydrocortisone}}; avoid {{c5::aspirin}}."
+   },
+   {
+    "type": "cloze",
+    "text": "Adrenal crisis: give {{c1::hydrocortisone 100 mg IV}} immediately; if diagnostic testing is needed later, use {{c2::dexamethasone}} because it does not interfere with the cortisol assay."
+   },
+   {
+    "type": "basic",
+    "front": "Postpartum woman fails to lactate after massive PPH, later amenorrhoea and fatigue. Diagnosis?",
+    "back": "Sheehan syndrome (ischaemic necrosis of the enlarged pituitary). Replace cortisol first, then thyroxine and other hormones."
+   },
+   {
+    "type": "cloze",
+    "text": "Burch-Wartofsky score ≥{{c1::45}} = thyroid storm highly likely; {{c2::25–44}} = impending storm."
+   },
+   {
+    "type": "basic",
+    "front": "Why both calcitonin and zoledronic acid in hypercalcaemic crisis?",
+    "back": "Calcitonin lowers Ca²⁺ within hours but loses effect in ~48 h (tachyphylaxis); zoledronic acid takes 2–4 days but lasts weeks."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "adrenal crisis",
+   "addisonian crisis",
+   "hydrocortisone",
+   "thyroid storm",
+   "burch-wartofsky",
+   "propylthiouracil",
+   "lugol iodine",
+   "myxedema coma",
+   "myxoedema coma",
+   "pituitary apoplexy",
+   "sheehan syndrome",
+   "hypercalcemic crisis",
+   "hypercalcaemia of malignancy",
+   "pthrp",
+   "zoledronic acid",
+   "calcitonin",
+   "waterhouse-friderichsen"
+  ],
+  "wiki": [
+   "Thyroid_storm",
+   "Adrenal_crisis",
+   "Pituitary_apoplexy"
+  ],
+  "verify": "Harrison 21e; ATA 2016 hyperthyroidism guideline; Endocrine Society adrenal insufficiency 2016."
+ },
+ {
+  "id": "med-thyroid-parathyroid",
+  "title": "Thyroid function patterns, hyperparathyroidism, MEN syndromes & pheochromocytoma",
+  "subject": "Medicine",
+  "system": "Endocrinology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Low TSH + high FT4: diffuse ↑RAIU = Graves; hot nodule = toxic adenoma; LOW uptake = thyroiditis / exogenous / iodine",
+   "High Ca + high/inappropriately normal PTH + low phosphate → primary HPT (adenoma); very low urine Ca/Cr clearance ratio → FHH",
+   "Episodic headache, sweating, palpitations + hypertension → plasma free metanephrines; α-block before β-block",
+   "MTC + pheo + mucosal neuromas + marfanoid → MEN 2B (RET M918T)"
+  ],
+  "algorithm": "Thyrotoxicosis (↓TSH ↑FT4/FT3) → TRAb ± RAIU / Tc scan\n  Diffuse ↑uptake + TRAb+ → Graves (ophthalmopathy, pretibial myxoedema)\n  Single hot nodule, rest suppressed → toxic adenoma | patchy → toxic MNG\n  Low uptake → thyroiditis (painful + high ESR = subacute de Quervain; painless/postpartum), exogenous (low thyroglobulin), iodine load, amiodarone\nHypercalcaemia → PTH\n  PTH high / inappropriately normal → 24-h urine Ca (Ca/Cr clearance <0.01 → FHH, no surgery) → sestamibi + USG → parathyroidectomy if indicated\n  PTH suppressed → PTHrP (malignancy), vitamin D metabolites (granuloma, lymphoma), myeloma screen\nSuspected pheochromocytoma → plasma free or 24-h urine fractionated metanephrines\n  → CT/MRI adrenal → functional imaging (MIBG; ⁶⁸Ga-DOTATATE PET for metastatic/hereditary) → α-blocker 10–14 days → β-blocker → adrenalectomy",
+  "tables": [
+   {
+    "title": "Thyroid function patterns",
+    "head": [
+     "TSH",
+     "Free T4",
+     "Interpretation"
+    ],
+    "rows": [
+     [
+      "↓",
+      "↑",
+      "Primary hyperthyroidism"
+     ],
+     [
+      "↓",
+      "Normal (↑T3)",
+      "T3 toxicosis (check FT3) or subclinical hyperthyroidism (FT3 normal)"
+     ],
+     [
+      "↑",
+      "↓",
+      "Primary hypothyroidism (Hashimoto commonest in iodine-sufficient areas)"
+     ],
+     [
+      "↑",
+      "Normal",
+      "Subclinical hypothyroidism"
+     ],
+     [
+      "↓ / normal",
+      "↓",
+      "Central (secondary) hypothyroidism or non-thyroidal illness"
+     ],
+     [
+      "↑ / inappropriately normal",
+      "↑",
+      "TSHoma or thyroid hormone resistance (exclude assay interference)"
+     ],
+     [
+      "Normal / ↓",
+      "Normal / ↓, low T3, high reverse T3",
+      "Sick euthyroid (non-thyroidal illness) — do not treat"
+     ]
+    ]
+   },
+   {
+    "title": "MEN syndromes",
+    "head": [
+     "",
+     "MEN 1",
+     "MEN 2A",
+     "MEN 2B"
+    ],
+    "rows": [
+     [
+      "Gene",
+      "MEN1 (menin, tumour suppressor)",
+      "RET proto-oncogene (e.g. codon 634)",
+      "RET (M918T)"
+     ],
+     [
+      "Parathyroid",
+      "Hyperplasia — most common (~90%), first feature",
+      "Hyperplasia ~20–30%",
+      "Absent"
+     ],
+     [
+      "Endocrine tumours",
+      "Pancreatic NET (gastrinoma commonest functional; insulinoma), pituitary (prolactinoma)",
+      "Medullary thyroid carcinoma (~100%), pheochromocytoma (~50%)",
+      "Aggressive early MTC, pheochromocytoma"
+     ],
+     [
+      "Other",
+      "Adrenocortical, foregut carcinoids, lipomas, angiofibromas",
+      "Cutaneous lichen amyloidosis, Hirschsprung",
+      "Mucosal neuromas, marfanoid habitus, intestinal ganglioneuromatosis"
+     ],
+     [
+      "Prophylactic thyroidectomy",
+      "—",
+      "By age 5 yr (high-risk codon 634)",
+      "Within first year of life"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Subacute (de Quervain) thyroiditis**: post-viral, painful tender thyroid, ↑ESR, low RAIU → NSAIDs/steroids + β-blocker; antithyroid drugs useless",
+   "Factitious thyrotoxicosis: low RAIU + LOW serum thyroglobulin (thyroiditis has high thyroglobulin)",
+   "**Primary HPT**: parathyroid adenoma ~85%; surgery if symptomatic or asymptomatic with Ca >1 mg/dL above ULN, eGFR <60, osteoporosis/vertebral fracture, stones/nephrocalcinosis/hypercalciuria, age <50",
+   "Secondary HPT (CKD, vitamin D deficiency): low/normal Ca, high PTH; tertiary: autonomous PTH after long secondary → high Ca and very high PTH",
+   "**FHH**: inactivating CASR mutation, mild hypercalcaemia, normal/mildly ↑PTH, urine Ca/Cr clearance ratio <0.01; benign, no parathyroidectomy",
+   "**Pheochromocytoma**: plasma free metanephrines most sensitive; ~35–40% hereditary (VHL, RET, NF1, SDHx) — old 'rule of 10s' obsolete; MRI T2 'light-bulb' bright",
+   "Preop: α-blockade (phenoxybenzamine or doxazosin) 10–14 days + high-salt/fluid intake, then β-blocker for tachycardia; post-op watch hypotension and hypoglycaemia",
+   "Thyroid FNAC (Bethesda) cannot separate follicular adenoma from carcinoma — needs capsular/vascular invasion on histology",
+   "Amiodarone thyrotoxicosis: type 1 (iodine-induced, ↑vascularity on Doppler → thionamide) vs type 2 (destructive thyroiditis, ↓flow → steroids)"
+  ],
+  "traps": [
+   {
+    "stem": "Painful thyroid after a viral illness, ↓TSH ↑FT4, ESR 80, RAIU 2%. Start carbimazole?",
+    "trap": "Thyrotoxicosis → antithyroid drug.",
+    "fix": "Low-uptake destructive thyroiditis: hormone leaks from damaged follicles, no synthesis to block. Treat β-blocker + NSAID/prednisolone."
+   },
+   {
+    "stem": "Pheochromocytoma with BP 210/120 and HR 130 before surgery. Start propranolol?",
+    "trap": "β-blocker for the tachycardia.",
+    "fix": "α-blockade first (phenoxybenzamine/doxazosin); β-blocker alone leaves α-vasoconstriction unopposed → hypertensive crisis/pulmonary oedema."
+   },
+   {
+    "stem": "Mild hypercalcaemia (10.8), PTH upper-normal, family history of 'failed parathyroid surgery', urine Ca/Cr clearance 0.005.",
+    "trap": "Primary hyperparathyroidism → parathyroidectomy.",
+    "fix": "Familial hypocalciuric hypercalcaemia (CASR) — benign, surgery does not cure; ratio <0.01 is the clue."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Thyrotoxicosis with low radioiodine uptake: {{c1::thyroiditis (subacute/painless/postpartum)}}, {{c2::exogenous thyroxine (low thyroglobulin)}}, iodine load, {{c3::struma ovarii (uptake in pelvis)}}."
+   },
+   {
+    "type": "basic",
+    "front": "MEN 2B vs MEN 2A — which feature is absent in 2B and which is unique to it?",
+    "back": "2B lacks hyperparathyroidism; unique: mucosal neuromas, marfanoid habitus, intestinal ganglioneuromatosis; MTC is earlier/more aggressive (thyroidectomy in first year)."
+   },
+   {
+    "type": "cloze",
+    "text": "Pheochromocytoma: screen with {{c1::plasma free metanephrines}}; pre-op give {{c2::α-blocker (phenoxybenzamine/doxazosin)}} for 10–14 days, then {{c3::β-blocker}}."
+   },
+   {
+    "type": "cloze",
+    "text": "FHH is caused by an inactivating mutation of the {{c1::calcium-sensing receptor (CASR)}} and is identified by a urine Ca/Cr clearance ratio <{{c2::0.01}}."
+   },
+   {
+    "type": "basic",
+    "front": "Sick euthyroid syndrome — typical labs?",
+    "back": "Low T3 with high reverse T3 (↓ deiodinase-1), normal or low TSH, T4 low in severe illness. No thyroxine replacement; treat the illness."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Proptosis and lid retraction from Graves' Disease.jpg",
+    "caption": "Graves' ophthalmopathy: proptosis with lid retraction (sclera visible above limbus) — TRAb-mediated, specific to Graves, not seen in toxic adenoma/MNG."
+   },
+   {
+    "commons": "File:Pheochromocytoma Scan.jpg",
+    "caption": "¹²³I-MIBG scintigraphy: abnormal focal uptake in a left adrenal pheochromocytoma (physiological uptake in liver, bladder; thyroid unless blocked)."
+   }
+  ],
+  "keywords": [
+   "graves disease",
+   "toxic adenoma",
+   "toxic multinodular goiter",
+   "subacute thyroiditis",
+   "de quervain",
+   "radioactive iodine uptake",
+   "sick euthyroid",
+   "subclinical hypothyroidism",
+   "primary hyperparathyroidism",
+   "secondary hyperparathyroidism",
+   "tertiary hyperparathyroidism",
+   "familial hypocalciuric hypercalcemia",
+   "men 1",
+   "men 2a",
+   "men 2b",
+   "medullary thyroid carcinoma",
+   "pheochromocytoma",
+   "metanephrines",
+   "mibg",
+   "phenoxybenzamine"
+  ],
+  "wiki": [
+   "Multiple_endocrine_neoplasia",
+   "Pheochromocytoma",
+   "Primary_hyperparathyroidism"
+  ],
+  "verify": "ATA 2016 hyperthyroidism & ATA 2015 MTC guidelines; 5th International Workshop on asymptomatic primary HPT (2022); Endocrine Society pheochromocytoma 2014."
+ },
+ {
+  "id": "med-diabetes-adrenal-pituitary",
+  "title": "Diabetes criteria & drugs, Cushing, Conn, acromegaly, prolactinoma, DI",
+  "subject": "Medicine",
+  "system": "Endocrinology",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Diabetes: FPG ≥126, 2-h OGTT ≥200, HbA1c ≥6.5% (confirm), or random ≥200 with symptoms",
+   "Cushing: confirm hypercortisolism first (DST/UFC/salivary), THEN ACTH, THEN localise",
+   "Hypertension + hypokalaemia (or resistant HTN) → aldosterone : renin ratio",
+   "Prolactinoma → cabergoline first, even macroadenoma with visual loss"
+  ],
+  "algorithm": "Suspected Cushing (exclude exogenous steroid) → screen: 1 mg overnight DST (cortisol >1.8 µg/dL = fail), 24-h urinary free cortisol, late-night salivary cortisol\n→ 2 abnormal → plasma ACTH\n  ACTH low (<5 pg/mL) → adrenal source → CT adrenal (adenoma/carcinoma)\n  ACTH normal/high → ACTH-dependent → pituitary MRI + high-dose DST / CRH test\n    MRI adenoma (>6–10 mm) + concordant → Cushing disease → transsphenoidal surgery\n    Equivocal → bilateral inferior petrosal sinus sampling (central:peripheral ACTH ≥2 basal, ≥3 after CRH = pituitary)\n    Peripheral → ectopic ACTH (small cell lung, bronchial carcinoid) → CT chest/abdomen, DOTATATE PET\nPrimary aldosteronism → ARR high with suppressed renin → confirm (saline infusion / oral salt load / captopril) → CT adrenal → adrenal vein sampling\n  Unilateral adenoma → laparoscopic adrenalectomy | bilateral hyperplasia → spironolactone / eplerenone",
+  "tables": [
+   {
+    "title": "Glucose-lowering drugs: mechanism & key adverse effects",
+    "head": [
+     "Class (example)",
+     "Mechanism",
+     "Key adverse effect / exam point"
+    ],
+    "rows": [
+     [
+      "Metformin",
+      "↓ hepatic gluconeogenesis (AMPK)",
+      "GI upset, B12 deficiency, lactic acidosis; avoid eGFR <30; no hypoglycaemia"
+     ],
+     [
+      "Sulfonylurea (glimepiride)",
+      "Closes β-cell K-ATP channel",
+      "Hypoglycaemia, weight gain"
+     ],
+     [
+      "SGLT2 inhibitor (empagliflozin, dapagliflozin)",
+      "Glycosuria (proximal tubule)",
+      "Genital mycotic infection, UTI, euglycaemic DKA, volume depletion, Fournier gangrene; proven HF & CKD benefit"
+     ],
+     [
+      "GLP-1 RA (liraglutide, semaglutide)",
+      "Glucose-dependent insulin ↑, glucagon ↓, slow gastric emptying, satiety",
+      "Nausea, pancreatitis, gallstones; contraindicated with personal/family MTC or MEN 2; weight loss, CV benefit"
+     ],
+     [
+      "DPP-4 inhibitor (sitagliptin, vildagliptin)",
+      "Prolongs endogenous GLP-1",
+      "Weight neutral; pancreatitis, bullous pemphigoid, arthralgia; saxagliptin → ↑ HF hospitalisation"
+     ],
+     [
+      "Thiazolidinedione (pioglitazone)",
+      "PPAR-γ agonist, insulin sensitiser",
+      "Fluid retention/HF, weight gain, fractures, bladder cancer signal"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Prediabetes: FPG 100–125 (IFG), 2-h OGTT 140–199 (IGT), HbA1c 5.7–6.4%",
+   "HbA1c misleading with haemolysis, recent transfusion, haemoglobinopathy, pregnancy, iron deficiency (falsely high)",
+   "Commonest cause of Cushing syndrome = exogenous steroids; of endogenous = pituitary adenoma (Cushing disease); ectopic ACTH → hypokalaemic alkalosis, pigmentation, rapid onset",
+   "**Conn's**: bilateral adrenal hyperplasia now the commonest cause; hypokalaemia only in a minority; AVS needed before surgery (CT misses microadenomas/incidentalomas); glucocorticoid-remediable aldosteronism → dexamethasone",
+   "**Acromegaly**: screen IGF-1; confirm failure of GH suppression after 75 g OGTT; MRI; transsphenoidal surgery → somatostatin analogue (octreotide), pegvisomant (GH-receptor antagonist), cabergoline; death mainly cardiovascular; screen colon (polyps)",
+   "**Prolactinoma**: commonest functioning pituitary adenoma; cabergoline > bromocriptine; 'hook effect' in huge adenoma → falsely low prolactin (dilute sample); stalk effect of non-functioning macroadenoma gives only modest ↑prolactin",
+   "Drug hyperprolactinaemia: antipsychotics (risperidone), metoclopramide, domperidone, methyldopa, verapamil; also primary hypothyroidism (TRH)",
+   "**DI**: central → desmopressin; nephrogenic (lithium, hypercalcaemia, hypokalaemia) → thiazide, amiloride for lithium; hypertonic-saline-stimulated copeptin is the newer test",
+   "Diabetes complications screening: retinopathy & nephropathy (urine ACR) at diagnosis in T2DM, 5 years after diagnosis in T1DM, then yearly"
+  ],
+  "traps": [
+   {
+    "stem": "Macroprolactinoma (prolactin 2,500 ng/mL) with bitemporal hemianopia. Urgent surgery?",
+    "trap": "Visual compromise demands transsphenoidal decompression.",
+    "fix": "Cabergoline is first-line even with visual field loss — tumour shrinks within days–weeks; surgery for resistance/intolerance or apoplexy."
+   },
+   {
+    "stem": "Confirmed primary aldosteronism, CT: 1.5 cm left adrenal nodule in a 55-year-old. Left adrenalectomy?",
+    "trap": "CT shows the adenoma, so remove it.",
+    "fix": "Adrenal vein sampling first — nonfunctioning incidentalomas are common; CT may mislead on lateralisation (may skip AVS only in <35 yr with clear unilateral adenoma)."
+   },
+   {
+    "stem": "Low ACTH with confirmed hypercortisolism. Next investigation?",
+    "trap": "Pituitary MRI.",
+    "fix": "Suppressed ACTH = ACTH-independent (adrenal) Cushing → CT adrenal. Pituitary MRI only if ACTH is normal/high."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Diabetes diagnosis: fasting plasma glucose ≥{{c1::126 mg/dL}}, 2-h 75 g OGTT ≥{{c2::200 mg/dL}}, HbA1c ≥{{c3::6.5%}}."
+   },
+   {
+    "type": "basic",
+    "front": "Which diabetes drug class is contraindicated with a family history of medullary thyroid carcinoma?",
+    "back": "GLP-1 receptor agonists (liraglutide, semaglutide) — thyroid C-cell tumours in rodents; avoid in personal/family MTC or MEN 2."
+   },
+   {
+    "type": "cloze",
+    "text": "Cushing workup: 1 mg overnight dexamethasone test fails if morning cortisol >{{c1::1.8 µg/dL}}; low ACTH → {{c2::adrenal}} cause; equivocal ACTH-dependent cases need {{c3::bilateral inferior petrosal sinus sampling}}."
+   },
+   {
+    "type": "basic",
+    "front": "Best screening and confirmatory tests for acromegaly?",
+    "back": "Screen: serum IGF-1. Confirm: failure of GH suppression after 75 g oral glucose (OGTT). Then pituitary MRI."
+   },
+   {
+    "type": "cloze",
+    "text": "Primary aldosteronism is screened with the {{c1::plasma aldosterone : renin ratio}} and lateralised by {{c2::adrenal vein sampling}}; bilateral hyperplasia is treated with {{c3::spironolactone/eplerenone}}."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Acromegaly facial features.JPEG",
+    "caption": "Acromegaly facies: frontal bossing, widened thick nose, prominent cheekbones, thick lips, coarse facial lines — screen with IGF-1."
+   }
+  ],
+  "keywords": [
+   "diabetes mellitus diagnosis",
+   "hba1c",
+   "ogtt",
+   "metformin",
+   "sglt2 inhibitor",
+   "glp-1 receptor agonist",
+   "dpp-4 inhibitor",
+   "pioglitazone",
+   "sulfonylurea",
+   "cushing syndrome",
+   "dexamethasone suppression test",
+   "inferior petrosal sinus sampling",
+   "conn syndrome",
+   "primary aldosteronism",
+   "aldosterone renin ratio",
+   "acromegaly",
+   "igf-1",
+   "prolactinoma",
+   "cabergoline",
+   "diabetes insipidus"
+  ],
+  "wiki": [
+   "Cushing's_syndrome",
+   "Primary_aldosteronism",
+   "Acromegaly"
+  ],
+  "verify": "ADA Standards of Care 2025; Endocrine Society Cushing 2008/2021 update, primary aldosteronism 2016, acromegaly 2014 guidelines."
+ },
+ {
+  "id": "med-tropical-fevers",
+  "title": "Tropical fevers: severe malaria, dengue, scrub typhus, leptospirosis, enteric, chikungunya",
+  "subject": "Medicine",
+  "system": "Infectious disease",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Fever + impaired consciousness / hypoglycaemia / acidosis / jaundice / AKI in falciparum → severe malaria → IV artesunate",
+   "Fever settling on day 3–7 with abdominal pain, vomiting, rising Hct, falling platelets → dengue critical phase (plasma leak)",
+   "Painless black eschar in axilla/groin + lymphadenopathy → scrub typhus → doxycycline",
+   "Flood/sewer exposure + conjunctival suffusion + calf tenderness + jaundice + AKI → leptospirosis (Weil)"
+  ],
+  "algorithm": "Acute febrile illness (India) → smear/RDT malaria, NS1/IgM dengue, CBC, LFT, creatinine, blood culture\n→ Malaria + any severity criterion → IV artesunate 2.4 mg/kg at 0, 12, 24 h then daily (3 mg/kg if <20 kg) → oral full ACT once tolerating (≥24 h parenteral)\n→ Dengue: no warning signs → oral fluids, paracetamol, daily CBC\n  Warning signs → isotonic crystalloid 5–7 mL/kg/h × 1–2 h, then taper by Hct\n  Hypotensive shock → 20 mL/kg crystalloid bolus over 15–30 min, reassess; colloid if refractory; bleeding → blood\n→ Eschar / AUFI with no other cause → empirical doxycycline 100 mg BD (azithromycin in pregnancy/children <8 if preferred)\n→ Leptospirosis suspicion → mild: doxycycline | severe: IV penicillin G or ceftriaxone\n→ Enteric fever → blood culture (week 1) → outpatient azithromycin | inpatient/complicated: IV ceftriaxone",
+  "tables": [
+   {
+    "title": "Tropical fevers: discriminators",
+    "head": [
+     "Disease",
+     "Agent / exposure",
+     "Bedside clue",
+     "Test of choice",
+     "Drug of choice"
+    ],
+    "rows": [
+     [
+      "Severe falciparum malaria",
+      "P. falciparum, Anopheles",
+      "Cerebral signs, jaundice, AKI, hypoglycaemia, dark urine",
+      "Thick/thin smear (rings, banana gametocytes), HRP-2 RDT",
+      "IV artesunate"
+     ],
+     [
+      "Dengue",
+      "Flavivirus, Aedes (day-biter)",
+      "Retro-orbital pain, myalgia, positive tourniquet test, 'islands of white in sea of red' recovery rash",
+      "NS1 / RT-PCR days 1–5; IgM ELISA after day 5",
+      "Supportive, fluids; no NSAIDs"
+     ],
+     [
+      "Scrub typhus",
+      "Orientia tsutsugamushi, trombiculid mite larva (chigger)",
+      "Painless eschar, lymphadenopathy, pneumonitis, myocarditis, meningoencephalitis",
+      "IgM ELISA (Weil-Felix OX-K obsolete)",
+      "Doxycycline"
+     ],
+     [
+      "Leptospirosis",
+      "L. interrogans, rodent urine, floods, paddy/sewer workers",
+      "Conjunctival suffusion, calf tenderness; Weil = jaundice + AKI + bleeding; pulmonary haemorrhage",
+      "MAT (reference serology), IgM ELISA; blood culture wk 1, urine wk 2+",
+      "Doxycycline (mild); penicillin G / ceftriaxone (severe)"
+     ],
+     [
+      "Enteric fever",
+      "S. Typhi/Paratyphi, faeco-oral",
+      "Step-ladder fever, relative bradycardia, rose spots, coated tongue, splenomegaly",
+      "Blood culture wk 1; bone marrow culture most sensitive",
+      "Azithromycin (OPD), ceftriaxone (IPD)"
+     ],
+     [
+      "Chikungunya",
+      "Alphavirus (Togaviridae), Aedes",
+      "High fever + incapacitating symmetric small-joint polyarthralgia; nasal pigmentation; chronic arthritis",
+      "RT-PCR early, IgM later",
+      "Supportive; NSAIDs only after dengue excluded"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**WHO severe malaria**: impaired consciousness/coma, prostration, multiple convulsions, acidosis, hypoglycaemia, severe anaemia, renal impairment, jaundice, pulmonary oedema, significant bleeding, shock, hyperparasitaemia >10%",
+   "India (NCVBDC): uncomplicated falciparum → ACT (artesunate + SP; artemether-lumefantrine in North-East) + single-dose primaquine 0.75 mg/kg (gametocytocidal); vivax → chloroquine 3 days + primaquine 0.25 mg/kg/day × 14 days (check G6PD)",
+   "Quinine → hyperinsulinaemic hypoglycaemia, cinchonism, QT prolongation; artesunate → post-artesunate delayed haemolysis (check Hb 1–3 weeks later)",
+   "**Dengue warning signs**: abdominal pain, persistent vomiting, clinical fluid accumulation, mucosal bleed, lethargy/restlessness, liver >2 cm, rising Hct with rapid platelet fall",
+   "Dengue: prophylactic platelet transfusion not indicated without bleeding; avoid aspirin/NSAIDs/IM injections; critical phase lasts 24–48 h around defervescence",
+   "Scrub typhus eschar sits in hidden moist areas (axilla, groin, inframammary, waistline) — examine the whole body",
+   "Enteric fever: BASU — Blood culture wk 1, Antibody (Widal) wk 2, Stool wk 3, Urine wk 3–4; fluoroquinolone resistance high in India; ileal perforation (antimesenteric border of terminal ileum) in week 3; chronic carriers harbour bacteria in gallbladder",
+   "Typhoid vaccines: Typbar-TCV conjugate from 6 months; Vi polysaccharide ≥2 yr; oral Ty21a ≥6 yr",
+   "Leptospirosis chemoprophylaxis for high-risk exposure: doxycycline 200 mg once weekly; Jarisch-Herxheimer reaction can follow penicillin"
+  ],
+  "traps": [
+   {
+    "stem": "Dengue day 5: fever has gone, platelets 40,000, Hct rising, abdominal pain. Patient 'improving' — discharge?",
+    "trap": "Defervescence = recovery.",
+    "fix": "Defervescence marks the critical (leak) phase; warning signs → admit, crystalloids 5–7 mL/kg/h titrated to Hct and urine output."
+   },
+   {
+    "stem": "Falciparum malaria, GCS 9, in a district hospital where only quinine and artesunate are available.",
+    "trap": "IV quinine (classic older answer).",
+    "fix": "IV artesunate is drug of choice for severe malaria in adults and children (lower mortality than quinine); quinine only if artesunate unavailable."
+   },
+   {
+    "stem": "Fever 2nd week, Widal TO 1:80. Diagnose typhoid?",
+    "trap": "Positive Widal = enteric fever.",
+    "fix": "Single low Widal titre is unreliable in endemic India (prior exposure/vaccination); blood culture is diagnostic; a fourfold rising titre is needed."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Severe malaria: IV artesunate {{c1::2.4 mg/kg}} at 0, 12 and 24 h then daily; children <20 kg need {{c2::3 mg/kg}}; complete with {{c3::a full oral ACT course}}."
+   },
+   {
+    "type": "cloze",
+    "text": "Scrub typhus is caused by {{c1::Orientia tsutsugamushi}}, transmitted by {{c2::larval trombiculid mites (chiggers)}}; hallmark sign {{c3::painless black eschar}}; drug {{c4::doxycycline}}."
+   },
+   {
+    "type": "basic",
+    "front": "Fever, conjunctival suffusion without discharge, severe calf tenderness, jaundice and oliguria after floods. Diagnosis and reference test?",
+    "back": "Leptospirosis — Weil disease (jaundice + AKI ± haemorrhage). Reference serology: microscopic agglutination test (MAT); treat IV penicillin G / ceftriaxone."
+   },
+   {
+    "type": "cloze",
+    "text": "Enteric fever: most useful test in week 1 = {{c1::blood culture}}; most sensitive culture overall = {{c2::bone marrow}}; the commonest serious week-3 complication = {{c3::ileal perforation}}."
+   },
+   {
+    "type": "basic",
+    "front": "List the dengue warning signs.",
+    "back": "Abdominal pain/tenderness, persistent vomiting, clinical fluid accumulation (ascites/effusion), mucosal bleeding, lethargy/restlessness, liver enlargement >2 cm, rising haematocrit with rapid fall in platelets."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:P. falciparum thin smear ring forms and gametocyte.jpg",
+    "caption": "Giemsa thin smear: delicate ring forms (multiple/appliqué) plus a crescent/banana-shaped gametocyte — both specific to P. falciparum."
+   },
+   {
+    "commons": "File:Plasmodium falciparum gametocyte.jpg",
+    "caption": "Banana (crescent)-shaped gametocyte — pathognomonic of P. falciparum; other species have round gametocytes."
+   },
+   {
+    "commons": "File:Dengue recovery rash (White islands in red sea).jpg",
+    "caption": "Dengue convalescent rash: confluent erythema with islands of spared white skin ('islands of white in a sea of red')."
+   }
+  ],
+  "keywords": [
+   "malaria",
+   "plasmodium falciparum",
+   "severe malaria",
+   "artesunate",
+   "primaquine",
+   "dengue",
+   "dengue warning signs",
+   "dengue shock syndrome",
+   "ns1 antigen",
+   "scrub typhus",
+   "eschar",
+   "orientia tsutsugamushi",
+   "doxycycline",
+   "leptospirosis",
+   "weil disease",
+   "enteric fever",
+   "typhoid",
+   "widal",
+   "chikungunya",
+   "acute undifferentiated febrile illness"
+  ],
+  "wiki": [
+   "Malaria",
+   "Scrub_typhus",
+   "Leptospirosis"
+  ],
+  "verify": "WHO Guidelines for malaria 2023; NCVBDC (India) malaria treatment guideline; WHO dengue 2009/2012 handbook; ICMR AMR treatment guidelines for enteric fever."
+ },
+ {
+  "id": "med-hiv-oi",
+  "title": "HIV: NACO testing, first-line ART (TLD), OIs by CD4, prophylaxis & IRIS",
+  "subject": "Medicine",
+  "system": "Infectious disease",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Adult diagnosis in India = Strategy III (three different-principle/antigen assays); infant <18 months = HIV DNA PCR",
+   "Treat all: start TLD (tenofovir + lamivudine + dolutegravir) regardless of CD4, ideally within 7 days",
+   "Delay ART 4–6 weeks in cryptococcal (and TB) meningitis because of fatal IRIS",
+   "CD4 <200 PCP; <100 toxoplasma, cryptococcus; <50 CMV retinitis, MAC"
+  ],
+  "algorithm": "HIV test (Strategy III) positive → baseline CD4, viral load, TB screen (symptoms/CXR), CrAg if CD4 <100–200, HBsAg, creatinine\n→ Active OI?\n  Cryptococcal / TB meningitis → treat OI, defer ART 4–6 weeks\n  Pulmonary/other TB → start ATT, ART within 2 weeks (dolutegravir 50 mg BD with rifampicin)\n  Otherwise → start TLD same day–7 days\n→ Prophylaxis: cotrimoxazole (CD4 thresholds below); TB preventive therapy (INH 6 months or 3HP) once active TB excluded\n→ Viral load at 6 and 12 months, then yearly\n  VL >1000 copies/mL → enhanced adherence 3 months → repeat VL >1000 = virological failure → switch regimen",
+  "tables": [
+   {
+    "title": "Opportunistic infections by CD4 count",
+    "head": [
+     "CD4 (cells/µL)",
+     "Infection",
+     "Clue",
+     "Treatment"
+    ],
+    "rows": [
+     [
+      "Any (often <500)",
+      "TB, bacterial pneumonia, zoster, oral candida, Kaposi sarcoma (HHV-8)",
+      "TB is the commonest OI and killer in India",
+      "Standard ATT etc."
+     ],
+     [
+      "<200",
+      "Pneumocystis jirovecii pneumonia",
+      "Subacute dyspnoea, dry cough, exertional desaturation, bilateral perihilar ground-glass, ↑LDH",
+      "Cotrimoxazole 21 days + prednisolone if PaO₂ <70 mmHg or A–a gradient ≥35"
+     ],
+     [
+      "<100",
+      "Toxoplasma encephalitis",
+      "Multiple ring-enhancing lesions (basal ganglia, corticomedullary junction)",
+      "Pyrimethamine + sulfadiazine + folinic acid"
+     ],
+     [
+      "<100",
+      "Cryptococcal meningitis",
+      "Headache, very high opening pressure, India ink / CrAg",
+      "Amphotericin B + flucytosine induction → fluconazole; serial LPs for raised ICP"
+     ],
+     [
+      "<50",
+      "CMV retinitis / colitis",
+      "'Pizza-pie' (cottage cheese & ketchup) retinitis, floaters",
+      "Valganciclovir / ganciclovir"
+     ],
+     [
+      "<50",
+      "Disseminated MAC",
+      "Fever, weight loss, hepatosplenomegaly, ↑ALP, anaemia",
+      "Clarithromycin/azithromycin + ethambutol"
+     ],
+     [
+      "<50",
+      "Primary CNS lymphoma (EBV)",
+      "Single periventricular enhancing lesion, EBV DNA in CSF",
+      "Steroids, methotrexate, ART"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "NACO: Strategy I for blood safety (single test), Strategy III for diagnosis; 4th-generation Ag/Ab assays detect p24 earlier (window ~2–3 weeks)",
+   "Infants exposed to HIV: DNA PCR (dried blood spot) at 6 weeks; maternal IgG makes antibody tests unreliable until 18 months",
+   "**Dolutegravir**: preferred in pregnancy now (early neural-tube concern resolved); raises serum creatinine by blocking tubular secretion (not true GFR loss); weight gain, insomnia",
+   "Drug toxicities: **TDF** — Fanconi-type proximal tubulopathy, bone loss; **abacavir** — hypersensitivity (test HLA-B*57:01); **efavirenz** — neuropsychiatric, vivid dreams; **nevirapine** — hepatotoxicity, SJS; **zidovudine** — anaemia, myopathy",
+   "Cotrimoxazole prophylaxis: classic/US threshold CD4 <200 (PCP), <100 with toxo IgG+ | NACO/WHO resource-limited setting: CD4 <350 or WHO stage 3–4",
+   "MAC prophylaxis (CD4 <50) no longer needed if ART is started immediately (current US guidance)",
+   "**IRIS**: paradoxical worsening of a treated OI or unmasking of a subclinical one, usually within weeks–3 months of ART; risk ↑ with very low CD4, high VL; continue ART, add NSAIDs/prednisolone (TB-IRIS)",
+   "PML (JC virus): non-enhancing asymmetric white-matter lesions without mass effect; no specific therapy — ART",
+   "Ring-enhancing lesion with CD4 <100 and toxo IgG+ → empirical anti-toxo therapy 2 weeks; no response → biopsy (lymphoma)"
+  ],
+  "traps": [
+   {
+    "stem": "HIV, CD4 40, cryptococcal meningitis diagnosed today. When to start ART?",
+    "trap": "Immediately — 'treat all, same day'.",
+    "fix": "Defer ART 4–6 weeks after starting antifungal therapy; early ART increased mortality from cryptococcal IRIS (COAT trial)."
+   },
+   {
+    "stem": "Six-week-old infant of HIV-positive mother: HIV ELISA positive.",
+    "trap": "Infant is infected; start ART on ELISA alone.",
+    "fix": "Antibody may be maternal (persists up to 18 months). Diagnose with HIV DNA PCR; confirm with a second sample."
+   },
+   {
+    "stem": "PLHIV on rifampicin-based ATT starting TLD.",
+    "trap": "Standard dolutegravir 50 mg once daily.",
+    "fix": "Rifampicin induces UGT1A1/CYP3A → dolutegravir 50 mg twice daily during and 2 weeks after rifampicin."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "NACO first-line ART for adults: {{c1::TLD — tenofovir + lamivudine + dolutegravir}}, started {{c2::irrespective of CD4 count}}."
+   },
+   {
+    "type": "cloze",
+    "text": "OI thresholds: PCP CD4 <{{c1::200}}; toxoplasma & cryptococcus CD4 <{{c2::100}}; CMV retinitis & MAC CD4 <{{c3::50}}."
+   },
+   {
+    "type": "basic",
+    "front": "PCP in HIV: when are adjunctive corticosteroids indicated?",
+    "back": "Moderate–severe PCP: PaO₂ <70 mmHg on room air or A–a gradient ≥35 mmHg — start prednisolone within 72 h with cotrimoxazole."
+   },
+   {
+    "type": "basic",
+    "front": "Define IRIS and its management.",
+    "back": "Inflammatory worsening of a known (paradoxical) or hidden (unmasking) infection as immunity recovers after ART, typically within weeks–3 months. Continue ART, treat the pathogen, NSAIDs or steroids for moderate–severe (e.g. TB-IRIS)."
+   },
+   {
+    "type": "cloze",
+    "text": "Abacavir hypersensitivity is predicted by {{c1::HLA-B*57:01}}; tenofovir disoproxil causes {{c2::proximal tubulopathy (Fanconi) and bone loss}}."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:X-ray of ground glass opacities of pneumocystis pneumonia.jpg",
+    "caption": "Pneumocystis pneumonia: bilateral perihilar ground-glass opacities (can be subtle/normal early) in a patient with CD4 <200."
+   }
+  ],
+  "keywords": [
+   "hiv",
+   "aids",
+   "naco",
+   "strategy iii",
+   "art",
+   "antiretroviral therapy",
+   "tld",
+   "dolutegravir",
+   "tenofovir",
+   "cd4 count",
+   "opportunistic infections",
+   "pneumocystis",
+   "pcp",
+   "toxoplasmosis",
+   "cryptococcal meningitis",
+   "cmv retinitis",
+   "mycobacterium avium complex",
+   "iris",
+   "immune reconstitution",
+   "cotrimoxazole prophylaxis"
+  ],
+  "wiki": [
+   "HIV/AIDS",
+   "Immune_reconstitution_inflammatory_syndrome",
+   "Pneumocystis_pneumonia"
+  ],
+  "verify": "NACO National Guidelines for HIV Care and Treatment 2021; WHO consolidated HIV guidelines 2021/2022; US DHHS OI guidelines."
+ },
+ {
+  "id": "med-toxicology",
+  "title": "Poisoning: OP, paracetamol, snakebite, celphos, toxic alcohols, toxidromes & antidotes",
+  "subject": "Medicine",
+  "system": "Toxicology / Emergency",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Pinpoint pupils + bronchorrhoea + sweating + fasciculations + bradycardia → organophosphate (opioid is dry, no fasciculations)",
+   "Atropinise to a CLEAR CHEST, HR >80, SBP >80, dry axillae — not to pupil size",
+   "Snakebite + unclotted 20WBCT → haemotoxic (viper) → ASV; ptosis/ophthalmoplegia → neurotoxic (cobra/krait)",
+   "Rotten-fish/garlic odour, refractory shock, silver nitrate paper blackens → aluminium phosphide"
+  ],
+  "algorithm": "Snakebite (Indian national protocol) → reassure, immobilise limb, no tourniquet/incision → hospital\n→ 20-minute whole blood clotting test (2 mL in new clean dry glass tube, undisturbed 20 min)\n  Unclotted → haemotoxic envenomation → ASV\n  Neuroparalysis (ptosis, bulbar weakness, respiratory failure) → ASV + airway/ventilation\n→ ASV (polyvalent, Big 4): 8–10 vials IV over 1 h (neurotoxic and haemotoxic alike)\n  Haemotoxic: repeat 20WBCT every 6 h; repeat ASV until blood clots\n  Neurotoxic: no improvement after 1–2 h → one repeat dose; beyond that ventilate (more ASV futile)\n  Neostigmine trial (with atropine) — helps post-synaptic cobra toxin, not krait\n  Anaphylaxis to ASV → stop, adrenaline 0.5 mg IM, then restart slowly; no test dose\nOrganophosphate → decontaminate, airway → atropine 1.8–3 mg IV, double dose every 5 min to endpoints → infusion\n  ± pralidoxime early (before 'ageing'), benzodiazepine for seizures",
+  "tables": [
+   {
+    "title": "Toxidromes",
+    "head": [
+     "Toxidrome",
+     "Pupils",
+     "Skin",
+     "Vitals / other",
+     "Examples",
+     "Antidote / Rx"
+    ],
+    "rows": [
+     [
+      "Anticholinergic",
+      "Mydriasis",
+      "Hot, dry, flushed",
+      "Tachycardia, hyperthermia, urinary retention, ↓bowel sounds, delirium",
+      "Atropine, datura, antihistamines, TCAs",
+      "Physostigmine (not in TCA); benzodiazepines"
+     ],
+     [
+      "Sympathomimetic",
+      "Mydriasis",
+      "Sweaty (wet)",
+      "Tachycardia, hypertension, hyperthermia, agitation, seizures",
+      "Cocaine, amphetamines",
+      "Benzodiazepines, cooling (avoid pure β-blocker)"
+     ],
+     [
+      "Cholinergic",
+      "Miosis",
+      "Sweaty",
+      "Bradycardia, bronchorrhoea, salivation, lacrimation, urination, diarrhoea, fasciculations",
+      "Organophosphates, carbamates",
+      "Atropine + pralidoxime"
+     ],
+     [
+      "Opioid",
+      "Pinpoint miosis",
+      "Normal/cool",
+      "RR <12, coma, ↓bowel sounds",
+      "Morphine, heroin, tramadol",
+      "Naloxone 0.4 mg IV, titrate"
+     ],
+     [
+      "Sedative-hypnotic",
+      "Normal / small",
+      "Normal",
+      "Coma with near-normal vitals",
+      "Benzodiazepines, barbiturates",
+      "Supportive (flumazenil rarely)"
+     ]
+    ]
+   },
+   {
+    "title": "Antidotes",
+    "head": [
+     "Poison",
+     "Antidote"
+    ],
+    "rows": [
+     [
+      "Paracetamol",
+      "N-acetylcysteine"
+     ],
+     [
+      "Organophosphate",
+      "Atropine + pralidoxime"
+     ],
+     [
+      "Opioids",
+      "Naloxone"
+     ],
+     [
+      "Benzodiazepines",
+      "Flumazenil (seizure risk in mixed overdose)"
+     ],
+     [
+      "Methanol / ethylene glycol",
+      "Fomepizole (or ethanol) + haemodialysis; folinic acid (methanol), thiamine + pyridoxine (EG)"
+     ],
+     [
+      "Digoxin",
+      "Digoxin-specific Fab fragments"
+     ],
+     [
+      "Iron",
+      "Desferrioxamine"
+     ],
+     [
+      "Lead",
+      "Succimer (DMSA); CaNa₂EDTA + dimercaprol (BAL) for encephalopathy"
+     ],
+     [
+      "Arsenic / mercury",
+      "Dimercaprol (BAL) / DMSA"
+     ],
+     [
+      "Cyanide",
+      "Hydroxocobalamin (or nitrite + sodium thiosulfate)"
+     ],
+     [
+      "Carbon monoxide",
+      "100% O₂ / hyperbaric O₂"
+     ],
+     [
+      "Methaemoglobinaemia (nitrites, dapsone)",
+      "Methylene blue (avoid in G6PD deficiency)"
+     ],
+     [
+      "TCA (QRS >100 ms)",
+      "Sodium bicarbonate"
+     ],
+     [
+      "β-blocker / calcium-channel blocker",
+      "Glucagon / calcium + high-dose insulin euglycaemia"
+     ],
+     [
+      "Heparin / warfarin / dabigatran",
+      "Protamine / vitamin K + PCC / idarucizumab"
+     ],
+     [
+      "Isoniazid seizures",
+      "Pyridoxine"
+     ],
+     [
+      "Sulfonylurea hypoglycaemia",
+      "Glucose + octreotide"
+     ],
+     [
+      "Local anaesthetic systemic toxicity",
+      "20% lipid emulsion"
+     ],
+     [
+      "Thallium / copper (Wilson)",
+      "Prussian blue / penicillamine"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**OP vs carbamate**: OP binds irreversibly and 'ages' (oximes useless after ageing); carbamate reversible, shorter, less CNS (poor BBB entry)",
+   "Pralidoxime (WHO regimen 30 mg/kg bolus then 8 mg/kg/h) reactivates AChE before ageing; benefit in trials is uncertain",
+   "**Intermediate syndrome** 24–96 h after OP: proximal limb, neck-flexor, cranial and respiratory weakness (atropine-resistant → ventilate); **OPIDN** after 2–3 weeks: distal motor neuropathy",
+   "**Paracetamol**: toxic dose >150 mg/kg; plot level ≥4 h post-ingestion on Rumack-Matthew nomogram; US treatment line 150 µg/mL at 4 h (UK 100-line); nomogram invalid for staggered/unknown-time ingestion",
+   "IV NAC 21-h regimen: 150 mg/kg over 1 h → 50 mg/kg over 4 h → 100 mg/kg over 16 h (300 mg/kg); near-complete protection if started within 8 h",
+   "King's College (paracetamol) transplant criteria: arterial pH <7.3 after resuscitation, OR INR >6.5 + creatinine >3.4 mg/dL + grade III–IV encephalopathy",
+   "Big 4 Indian snakes: cobra, common krait (neurotoxic; krait bites at night, painless, minimal local signs, abdominal pain), Russell's viper, saw-scaled viper (haemotoxic); Russell's viper → AKI, DIC, pituitary haemorrhage",
+   "**Aluminium phosphide (celphos)**: phosphine → mitochondrial poison, refractory shock, myocarditis, metabolic acidosis; no specific antidote — supportive, vasopressors, magnesium sulphate used; silver nitrate test turns black",
+   "**Methanol**: formic acid → 'snowfield' vision, optic disc hyperaemia, putaminal necrosis; **ethylene glycol**: calcium oxalate crystals, AKI, hypocalcaemia; both HAGMA + high osmolar gap"
+  ],
+  "traps": [
+   {
+    "stem": "OP poisoning on atropine: pupils still pinpoint, HR 118, chest has crackles.",
+    "trap": "Tachycardia → stop atropine; or keep going until pupils dilate.",
+    "fix": "Endpoint is a clear chest (no bronchorrhoea), HR >80, SBP >80, dry axillae; tachycardia is not a contraindication when crackles persist. Pupil size is not a target."
+   },
+   {
+    "stem": "Krait bite with ptosis and respiratory weakness — neostigmine trial will reverse it?",
+    "trap": "Anticholinesterase reverses all neurotoxic envenomation.",
+    "fix": "Krait β-bungarotoxin is presynaptic — neostigmine rarely helps; cobra (postsynaptic α-neurotoxin) responds. Krait needs ASV + ventilation."
+   },
+   {
+    "stem": "Paracetamol overdose 2 h ago; level 120 µg/mL. Below line — discharge?",
+    "trap": "Level is below the 150 line.",
+    "fix": "Levels before 4 h cannot be interpreted; repeat at 4 h. If >8 h or time unknown/staggered → start NAC immediately."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Atropinisation endpoints in OP poisoning: {{c1::clear chest on auscultation}}, heart rate >{{c2::80/min}}, systolic BP >{{c3::80 mmHg}}, dry axillae, pupils no longer pinpoint."
+   },
+   {
+    "type": "cloze",
+    "text": "Rumack-Matthew nomogram treatment line (US): {{c1::150 µg/mL}} at {{c2::4 h}}; IV NAC regimen lasts {{c3::21 h}} (150 → 50 → 100 mg/kg)."
+   },
+   {
+    "type": "basic",
+    "front": "How is the 20-minute whole blood clotting test done and interpreted?",
+    "back": "2 mL venous blood in a new, clean, dry glass tube, left undisturbed 20 min, then tipped once. Unclotted = venom-induced consumption coagulopathy (viper) → ASV; repeat 6-hourly."
+   },
+   {
+    "type": "cloze",
+    "text": "Initial ASV dose in India: {{c1::8–10 vials}} IV over 1 h for both {{c2::neurotoxic and haemotoxic}} envenomation; anaphylaxis is treated with {{c3::adrenaline 0.5 mg IM}}."
+   },
+   {
+    "type": "basic",
+    "front": "Antidote of methanol and why dialysis?",
+    "back": "Fomepizole (alcohol dehydrogenase inhibitor) or ethanol to block formic acid formation; haemodialysis removes methanol and formate (severe acidosis, visual signs, high levels); add folinic acid."
+   },
+   {
+    "type": "basic",
+    "front": "Anticholinergic vs sympathomimetic toxidrome — single best discriminator?",
+    "back": "Skin: anticholinergic is hot and DRY ('dry as a bone'); sympathomimetic is hot and SWEATY. Both have mydriasis and tachycardia."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Russell's Viper (Daboia russelii).jpg",
+    "caption": "Russell's viper: chain of dark-edged oval blotches along the back, triangular head — haemotoxic (VICC, AKI) → unclotted 20WBCT → ASV."
+   }
+  ],
+  "keywords": [
+   "organophosphate poisoning",
+   "carbamate",
+   "atropine",
+   "pralidoxime",
+   "paracetamol poisoning",
+   "acetaminophen",
+   "rumack-matthew",
+   "n-acetylcysteine",
+   "snake bite",
+   "20 minute whole blood clotting test",
+   "anti-snake venom",
+   "asv",
+   "krait",
+   "russell viper",
+   "aluminium phosphide",
+   "celphos",
+   "methanol",
+   "ethylene glycol",
+   "fomepizole",
+   "toxidrome"
+  ],
+  "wiki": [
+   "Organophosphate_poisoning",
+   "Paracetamol_poisoning",
+   "Toxidrome"
+  ],
+  "verify": "Standard Treatment Guidelines: Management of Snakebite (MoHFW India 2017, national snakebite protocol); AIIMS/WHO OP guidance (Eddleston); UK/US paracetamol nomogram lines differ (100 vs 150)."
+ },
+ {
+  "id": "med-vasculitis-autoantibodies",
+  "title": "Vasculitis (Chapel Hill), autoantibodies & antiphospholipid syndrome",
+  "subject": "Medicine",
+  "system": "Rheumatology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Sinusitis/saddle nose + lung cavities + RPGN + c-ANCA (PR3) → GPA; same minus granuloma/ENT with p-ANCA (MPO) → MPA",
+   "Asthma + eosinophilia + mononeuritis multiplex → EGPA",
+   "HBV + mononeuritis + renal microaneurysms, lungs spared, ANCA-negative → PAN",
+   ">50 yr, new headache, jaw claudication, raised ESR → GCA: steroids before biopsy"
+  ],
+  "algorithm": "Suspected vasculitis → define vessel size by clinical picture\n  Large (aorta/branches): pulse deficit, BP difference, claudication → Takayasu (<40, Asian women) / GCA (>50)\n    GCA + visual symptoms → IV methylprednisolone now; else prednisolone 40–60 mg → temporal artery biopsy/ultrasound (halo) within 1–2 weeks\n  Medium: microaneurysms, infarcts, mononeuritis → PAN (angiography; HBsAg) | child with fever ≥5 days → Kawasaki → IVIG 2 g/kg + aspirin, echo\n  Small: palpable purpura, GN, alveolar haemorrhage → ANCA, anti-GBM, complement, cryoglobulins, IgA\n    ANCA + organ-threatening → glucocorticoid + rituximab or cyclophosphamide (± plasma exchange for severe renal/pulmonary haemorrhage) → maintenance rituximab/azathioprine",
+  "tables": [
+   {
+    "title": "Vasculitis: Chapel Hill 2012 by vessel size",
+    "head": [
+     "Disease",
+     "Vessel",
+     "Key clue",
+     "Serology / test",
+     "Treatment point"
+    ],
+    "rows": [
+     [
+      "Takayasu arteritis",
+      "Large",
+      "Young Asian woman, pulseless arm, arm claudication, BP difference >10 mmHg, renovascular HTN",
+      "Angiography (CTA/MRA): aortic branch stenosis",
+      "Steroids ± MTX/tocilizumab; revascularise when quiescent"
+     ],
+     [
+      "Giant cell arteritis",
+      ">50 yr, large/medium (cranial)",
+      "Temporal headache, scalp tenderness, jaw claudication, AION, PMR",
+      "ESR/CRP ↑; biopsy: granulomatous with giant cells, skip lesions",
+      "Steroids immediately; tocilizumab steroid-sparing"
+     ],
+     [
+      "Polyarteritis nodosa",
+      "Medium",
+      "HBV, mononeuritis multiplex, testicular pain, livedo, renal infarcts/HTN; spares lung & glomeruli",
+      "ANCA-negative; angiography 'rosary' microaneurysms",
+      "Steroids ± cyclophosphamide; HBV: antivirals + plasma exchange"
+     ],
+     [
+      "Kawasaki disease",
+      "Medium",
+      "Child <5, fever ≥5 days, conjunctivitis, strawberry tongue, rash, extremity oedema/desquamation, cervical node",
+      "Echo: coronary aneurysm; thrombocytosis (2nd week)",
+      "IVIG 2 g/kg + aspirin"
+     ],
+     [
+      "GPA (Wegener)",
+      "Small",
+      "Upper airway (sinusitis, saddle nose), lung nodules/cavities, RPGN; necrotising granulomas",
+      "c-ANCA / PR3",
+      "Steroid + rituximab/cyclophosphamide"
+     ],
+     [
+      "MPA",
+      "Small",
+      "RPGN + pulmonary haemorrhage; no granulomas, no ENT",
+      "p-ANCA / MPO",
+      "As GPA"
+     ],
+     [
+      "EGPA (Churg-Strauss)",
+      "Small",
+      "Late-onset asthma, eosinophilia, mononeuritis, cardiac involvement (main cause of death)",
+      "MPO-ANCA in ~40%",
+      "Steroids; mepolizumab"
+     ],
+     [
+      "IgA vasculitis (HSP)",
+      "Small (immune complex)",
+      "Child, palpable purpura on buttocks/legs with normal platelets, arthralgia, colicky pain (intussusception), nephritis",
+      "Skin/renal biopsy: IgA deposits",
+      "Supportive; steroids for severe GI/renal"
+     ],
+     [
+      "Cryoglobulinaemic",
+      "Small (immune complex)",
+      "HCV, purpura, arthralgia, neuropathy, MPGN",
+      "Cryoglobulins, low C4, RF+",
+      "Treat HCV; rituximab"
+     ],
+     [
+      "Behçet",
+      "Variable",
+      "Recurrent oral + genital ulcers, uveitis, pathergy, venous thrombosis",
+      "HLA-B51; pathergy test",
+      "Colchicine, azathioprine, anti-TNF"
+     ]
+    ]
+   },
+   {
+    "title": "Autoantibodies",
+    "head": [
+     "Antibody",
+     "Disease / association"
+    ],
+    "rows": [
+     [
+      "ANA",
+      "Most sensitive screen for SLE (not specific)"
+     ],
+     [
+      "Anti-dsDNA",
+      "SLE — specific; tracks activity and nephritis"
+     ],
+     [
+      "Anti-Smith",
+      "SLE — most specific"
+     ],
+     [
+      "Anti-histone",
+      "Drug-induced lupus"
+     ],
+     [
+      "Anti-Ro (SSA) / anti-La (SSB)",
+      "Sjögren, SCLE, neonatal lupus with congenital heart block (anti-Ro)"
+     ],
+     [
+      "Anti-U1 RNP",
+      "Mixed connective tissue disease"
+     ],
+     [
+      "Anti-Scl-70 (topoisomerase I)",
+      "Diffuse systemic sclerosis, ILD"
+     ],
+     [
+      "Anti-centromere",
+      "Limited SSc (CREST), PAH"
+     ],
+     [
+      "Anti-RNA polymerase III",
+      "Diffuse SSc, scleroderma renal crisis"
+     ],
+     [
+      "Anti-Jo-1",
+      "Antisynthetase syndrome (myositis, ILD, mechanic's hands)"
+     ],
+     [
+      "Anti-MDA5 / anti-TIF1γ / anti-Mi-2",
+      "Amyopathic DM + rapidly progressive ILD / cancer-associated DM / classic DM, good prognosis"
+     ],
+     [
+      "Anti-CCP",
+      "RA — most specific; predicts erosive disease"
+     ],
+     [
+      "Anti-mitochondrial (M2)",
+      "Primary biliary cholangitis"
+     ],
+     [
+      "Anti-smooth muscle / anti-LKM1",
+      "Autoimmune hepatitis type 1 / type 2"
+     ],
+     [
+      "Anti-tTG IgA / endomysial",
+      "Coeliac disease"
+     ],
+     [
+      "Anti-PLA2R",
+      "Primary membranous nephropathy"
+     ],
+     [
+      "Anti-GBM (α3 chain type IV collagen)",
+      "Goodpasture / anti-GBM disease"
+     ],
+     [
+      "c-ANCA (PR3) / p-ANCA (MPO)",
+      "GPA / MPA, EGPA (p-ANCA also UC, PSC)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**ANA patterns**: homogeneous (anti-dsDNA, anti-histone), peripheral/rim (anti-dsDNA), speckled (Sm, RNP, Ro, La, Scl-70), nucleolar (systemic sclerosis), centromere (limited SSc)",
+   "**APS (revised Sapporo/Sydney 2006)**: ≥1 clinical (arterial/venous/small-vessel thrombosis; ≥1 fetal death ≥10 wk; ≥1 preterm birth <34 wk from pre-eclampsia/placental insufficiency; ≥3 consecutive miscarriages <10 wk) + ≥1 lab (lupus anticoagulant, anticardiolipin IgG/IgM medium–high titre, anti-β2-glycoprotein I) positive twice ≥12 weeks apart",
+   "2023 ACR/EULAR APS classification uses weighted clinical and lab domains (research classification)",
+   "APS clues: thrombosis with paradoxically prolonged aPTT, thrombocytopenia, livedo reticularis, false-positive VDRL",
+   "APS treatment: warfarin INR 2–3 for thrombotic APS; avoid DOACs (especially triple-positive/arterial); pregnancy → LMWH + low-dose aspirin",
+   "Kawasaki is the commonest cause of acquired heart disease in children in developed countries; IVIG within 10 days of fever onset cuts aneurysm risk",
+   "HSP intussusception is typically ileo-ileal (idiopathic childhood is ileocolic)",
+   "Anti-GBM + ANCA double-positive patients behave like anti-GBM acutely and relapse like AAV"
+  ],
+  "traps": [
+   {
+    "stem": "70-year-old with new temporal headache, jaw claudication, ESR 95; biopsy available next week.",
+    "trap": "Wait for biopsy confirmation before steroids.",
+    "fix": "Start high-dose steroids immediately (IV methylprednisolone if visual loss); biopsy remains diagnostic for ~2 weeks after starting steroids."
+   },
+   {
+    "stem": "HBV-positive man with mononeuritis multiplex, hypertension, abdominal pain; urine shows no RBC casts. MPA?",
+    "trap": "Vasculitis + kidney = ANCA vasculitis/GN.",
+    "fix": "PAN: medium vessels, renal infarcts/microaneurysms (not glomerulonephritis), lungs spared, ANCA-negative, HBV-associated."
+   },
+   {
+    "stem": "Triple-positive APS with arterial stroke. Switch warfarin to rivaroxaban for convenience?",
+    "trap": "DOACs are standard for VTE now.",
+    "fix": "DOACs had excess arterial events in triple-positive APS (TRAPS trial) → warfarin remains treatment of choice."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "{{c1::PR3}}-ANCA (c-ANCA) = GPA; {{c2::MPO}}-ANCA (p-ANCA) = MPA and EGPA; PAN is {{c3::ANCA-negative}} and linked to {{c4::hepatitis B}}."
+   },
+   {
+    "type": "cloze",
+    "text": "Most specific antibody for SLE = {{c1::anti-Smith}}; the one that tracks nephritis/activity = {{c2::anti-dsDNA}}; drug-induced lupus = {{c3::anti-histone}}."
+   },
+   {
+    "type": "basic",
+    "front": "Kawasaki disease: diagnostic criteria and treatment?",
+    "back": "Fever ≥5 days + ≥4 of 5: bilateral non-exudative conjunctivitis, oral changes (strawberry tongue, cracked lips), polymorphous rash, extremity changes (oedema → periungual desquamation), cervical lymph node ≥1.5 cm. Treat IVIG 2 g/kg + aspirin; echo for coronary aneurysm."
+   },
+   {
+    "type": "cloze",
+    "text": "APS lab criteria must be positive on two occasions at least {{c1::12 weeks}} apart: {{c2::lupus anticoagulant}}, anticardiolipin, {{c3::anti-β2-glycoprotein I}}."
+   },
+   {
+    "type": "basic",
+    "front": "Anti-centromere vs anti-Scl-70?",
+    "back": "Anti-centromere → limited cutaneous SSc (CREST), late pulmonary arterial hypertension. Anti-Scl-70 (topoisomerase I) → diffuse SSc, interstitial lung disease."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "vasculitis",
+   "chapel hill",
+   "granulomatosis with polyangiitis",
+   "wegener",
+   "microscopic polyangiitis",
+   "egpa",
+   "churg-strauss",
+   "anca",
+   "polyarteritis nodosa",
+   "takayasu arteritis",
+   "giant cell arteritis",
+   "temporal arteritis",
+   "kawasaki disease",
+   "henoch-schonlein purpura",
+   "iga vasculitis",
+   "antinuclear antibody",
+   "anti-dsdna",
+   "anti-smith",
+   "antiphospholipid syndrome",
+   "lupus anticoagulant"
+  ],
+  "wiki": [
+   "Vasculitis",
+   "Antinuclear_antibody",
+   "Antiphospholipid_syndrome"
+  ],
+  "verify": "Chapel Hill Consensus 2012; Sydney (revised Sapporo) APS criteria 2006 + 2023 ACR/EULAR APS classification; AHA Kawasaki 2017; EULAR AAV 2022."
+ },
+ {
+  "id": "med-rheumatology",
+  "title": "RA, SLE (EULAR/ACR 2019), drug lupus, spondyloarthritis, crystal arthritis, Sjögren, SSc",
+  "subject": "Medicine",
+  "system": "Rheumatology",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Symmetric MCP/PIP synovitis, morning stiffness >1 h, DIP spared, anti-CCP+ → RA",
+   "Young man, inflammatory back pain better with exercise, uveitis, HLA-B27 → ankylosing spondylitis",
+   "Needle-shaped strongly negative birefringent crystals, 1st MTP → gout; rhomboid weakly positive, knee, chondrocalcinosis → CPPD",
+   "Puffy fingers, Raynaud, sclerodactyly: anti-centromere = limited; anti-Scl-70 = diffuse + ILD"
+  ],
+  "tables": [
+   {
+    "title": "Gout vs pseudogout (CPPD)",
+    "head": [
+     "Feature",
+     "Gout",
+     "Pseudogout (CPPD)"
+    ],
+    "rows": [
+     [
+      "Crystal",
+      "Monosodium urate",
+      "Calcium pyrophosphate dihydrate"
+     ],
+     [
+      "Shape",
+      "Needle-shaped",
+      "Rhomboid / rod"
+     ],
+     [
+      "Polarised light",
+      "Strongly NEGATIVE birefringence (yellow when parallel to compensator)",
+      "Weakly POSITIVE birefringence (blue when parallel)"
+     ],
+     [
+      "Typical joint",
+      "1st MTP (podagra), ankle, midfoot",
+      "Knee, wrist; elderly"
+     ],
+     [
+      "X-ray",
+      "Punched-out erosions with overhanging edges; tophi",
+      "Chondrocalcinosis (menisci, TFCC)"
+     ],
+     [
+      "Associations",
+      "CKD, diuretics, alcohol, purine diet, tumour lysis, Lesch-Nyhan",
+      "Hyperparathyroidism, haemochromatosis, hypomagnesaemia, hypophosphatasia, hypothyroidism, ageing"
+     ],
+     [
+      "Acute Rx",
+      "NSAID / colchicine / steroid",
+      "NSAID / colchicine / steroid (no urate-lowering)"
+     ],
+     [
+      "Long-term",
+      "Allopurinol (HLA-B*58:01 SJS/TEN risk), febuxostat; target urate <6 mg/dL (<5 with tophi)",
+      "Treat cause; no proven disease-modifying therapy"
+     ]
+    ]
+   },
+   {
+    "title": "Limited vs diffuse systemic sclerosis",
+    "head": [
+     "Feature",
+     "Limited cutaneous (CREST)",
+     "Diffuse cutaneous"
+    ],
+    "rows": [
+     [
+      "Skin",
+      "Distal to elbows/knees + face",
+      "Proximal limbs and trunk"
+     ],
+     [
+      "Onset",
+      "Long Raynaud history first",
+      "Rapid, Raynaud shortly before/after skin change"
+     ],
+     [
+      "Antibody",
+      "Anti-centromere",
+      "Anti-Scl-70 (topoisomerase I), anti-RNA polymerase III"
+     ],
+     [
+      "Major organ risk",
+      "Pulmonary arterial hypertension (late)",
+      "ILD (early), scleroderma renal crisis (RNA pol III)"
+     ],
+     [
+      "Key features",
+      "Calcinosis, Raynaud, oesophageal dysmotility, sclerodactyly, telangiectasia",
+      "Tendon friction rubs, early GI/cardiac involvement"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**RA 2010 ACR/EULAR**: ≥6/10 from joints (0–5), serology RF/anti-CCP (0–3), acute-phase reactants (0–1), duration ≥6 weeks (0–1); methotrexate (+ folic acid) is the anchor DMARD",
+   "RA extras: atlanto-axial subluxation (flexion-extension films before intubation), Felty (RA + splenomegaly + neutropenia), Caplan (pneumoconiosis + nodules), ILD; leading cause of death is cardiovascular",
+   "**SLE EULAR/ACR 2019**: entry ANA ≥1:80 on HEp-2, then ≥10 weighted points with ≥1 clinical criterion; class III/IV nephritis (10) and anti-dsDNA/anti-Sm (6) weigh most; hydroxychloroquine for every patient (annual retinal screening after 5 yr)",
+   "**Drug-induced lupus**: procainamide (highest risk), hydralazine, isoniazid, minocycline, quinidine, anti-TNF; slow acetylators; anti-histone +, dsDNA usually − (except anti-TNF), complement normal, kidney/CNS spared; resolves on withdrawal",
+   "**Spondyloarthritis** (HLA-B27): inflammatory back pain <40 yr, sacroiliitis (MRI bone-marrow oedema earliest), bamboo spine, syndesmophytes, ↓Schober; anterior uveitis commonest extra-articular; NSAIDs first-line, then TNF/IL-17 inhibitors (MTX ineffective for axial disease)",
+   "Reactive arthritis: urethritis (Chlamydia) or dysentery → arthritis + conjunctivitis/uveitis, keratoderma blennorrhagicum, circinate balanitis; psoriatic: DIP, dactylitis, pencil-in-cup, nail pitting",
+   "**Sjögren**: dry eyes/mouth, parotid swelling, anti-Ro/La; Schirmer ≤5 mm in 5 min; lip biopsy focal lymphocytic sialadenitis (focus score ≥1); risk of MALT lymphoma; distal RTA",
+   "**Scleroderma renal crisis**: abrupt HTN + AKI + MAHA; treat ACE inhibitor (captopril) even if creatinine rises; high-dose steroids (>15 mg prednisolone) precipitate it",
+   "Do not stop allopurinol during an acute gout attack; starting it during an attack is acceptable with anti-inflammatory cover (ACR 2020)"
+  ],
+  "traps": [
+   {
+    "stem": "Man on isoniazid with arthralgia, serositis, ANA+, anti-histone+, anti-dsDNA negative, normal complement. SLE?",
+    "trap": "ANA + serositis = SLE.",
+    "fix": "Drug-induced lupus — anti-histone positive, dsDNA negative, normal complement, no renal/CNS disease; stop the drug."
+   },
+   {
+    "stem": "Synovial fluid: rhomboid crystals, weakly positive birefringence, in an elderly knee.",
+    "trap": "Gout (any crystal arthritis = gout).",
+    "fix": "CPPD (pseudogout); screen for hyperparathyroidism, haemochromatosis, hypomagnesaemia, hypothyroidism. Gout = needle-shaped strongly negative."
+   },
+   {
+    "stem": "Diffuse SSc, new BP 190/110, creatinine rising after starting captopril. Stop the ACE inhibitor?",
+    "trap": "ACEi-induced creatinine rise → stop it.",
+    "fix": "Continue/uptitrate ACE inhibitor — it is the life-saving therapy for scleroderma renal crisis; dialysis if needed."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Monosodium urate crystals are {{c1::needle-shaped}} and {{c2::strongly negatively}} birefringent; CPPD crystals are {{c3::rhomboid}} and {{c4::weakly positively}} birefringent."
+   },
+   {
+    "type": "basic",
+    "front": "SLE EULAR/ACR 2019 entry criterion and threshold?",
+    "back": "Entry: ANA ≥1:80 on HEp-2 cells (ever). Then classify as SLE with ≥10 weighted points including ≥1 clinical criterion (only the highest-weighted item per domain counts)."
+   },
+   {
+    "type": "cloze",
+    "text": "Most specific test for RA = {{c1::anti-CCP antibody}}; anchor DMARD = {{c2::methotrexate}}; joint characteristically spared = {{c3::DIP}}."
+   },
+   {
+    "type": "basic",
+    "front": "Ankylosing spondylitis: first-line drug and what fails for axial disease?",
+    "back": "NSAIDs first-line (+ exercise/physiotherapy). Conventional DMARDs (methotrexate, sulfasalazine) do not help axial disease → TNF or IL-17 inhibitors."
+   },
+   {
+    "type": "cloze",
+    "text": "Drug causing the highest risk of drug-induced lupus = {{c1::procainamide}}; marker antibody = {{c2::anti-histone}}; organs typically spared = {{c3::kidney and CNS}}."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Birefringence microscopy of gout, annotated.jpg",
+    "caption": "Compensated polarised microscopy: needle-shaped monosodium urate crystals, strongly negatively birefringent (yellow when parallel to the compensator axis) = gout."
+   }
+  ],
+  "keywords": [
+   "rheumatoid arthritis",
+   "anti-ccp",
+   "methotrexate",
+   "systemic lupus erythematosus",
+   "sle criteria",
+   "eular/acr 2019",
+   "drug induced lupus",
+   "anti-histone",
+   "ankylosing spondylitis",
+   "hla-b27",
+   "psoriatic arthritis",
+   "gout",
+   "pseudogout",
+   "cppd",
+   "allopurinol",
+   "sjogren syndrome",
+   "systemic sclerosis",
+   "anti-scl-70",
+   "anti-centromere",
+   "scleroderma renal crisis"
+  ],
+  "wiki": [
+   "Rheumatoid_arthritis",
+   "Systemic_lupus_erythematosus",
+   "Gout"
+  ],
+  "verify": "ACR/EULAR RA 2010; EULAR/ACR SLE 2019; ACR gout 2020; ACR/EULAR SSc 2013; ACR/EULAR Sjögren 2016."
+ },
+ {
+  "id": "med-liver-portal-htn",
+  "title": "Cirrhosis & portal hypertension: variceal bleed, SAAG, SBP, HRS, HE, scores, HCC",
+  "subject": "Medicine",
+  "system": "Hepatology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Cirrhotic with haematemesis → vasoactive drug + ceftriaxone + EVL within 12 h; NSBB only after the acute bleed",
+   "Ascites: SAAG ≥1.1 = portal hypertension; ascitic PMN ≥250/mm³ = SBP",
+   "Cirrhosis + ascites + AKI not improving after albumin and diuretic withdrawal, no shock/nephrotoxin/structural disease → HRS-AKI",
+   "Arterial hyperenhancement + washout in a cirrhotic nodule ≥10 mm = LI-RADS 5 = HCC without biopsy"
+  ],
+  "algorithm": "Acute variceal bleed → 2 large-bore IV lines, restrictive transfusion (Hb trigger 7, target 7–9 g/dL), avoid over-filling\n→ Start vasoactive drug at once: terlipressin 2 mg IV 4-hourly (or octreotide 50 µg bolus + 50 µg/h), continue 2–5 days\n→ Antibiotic prophylaxis: IV ceftriaxone 1 g/day (up to 7 days)\n→ IV erythromycin 250 mg 30–120 min pre-endoscopy (if no QT prolongation)\n→ Endoscopy within 12 h: oesophageal varices → band ligation (EVL); gastric (GOV2/IGV1) → cyanoacrylate glue\n→ High risk (Child C 10–13, or Child B >7 with active bleeding at endoscopy) → pre-emptive TIPS within 72 h (ideally <24 h)\n→ Uncontrolled → balloon tamponade (Sengstaken-Blakemore/Minnesota) or oesophageal stent as bridge → rescue TIPS\n→ After bleed controlled (vasoactive stopped) → secondary prophylaxis: NSBB (propranolol/carvedilol) + repeated EVL until eradication",
+  "tables": [
+   {
+    "title": "Child-Pugh score (A 5–6, B 7–9, C 10–15)",
+    "head": [
+     "Parameter",
+     "1 point",
+     "2 points",
+     "3 points"
+    ],
+    "rows": [
+     [
+      "Bilirubin (mg/dL)",
+      "<2",
+      "2–3",
+      ">3"
+     ],
+     [
+      "Albumin (g/dL)",
+      ">3.5",
+      "2.8–3.5",
+      "<2.8"
+     ],
+     [
+      "INR",
+      "<1.7",
+      "1.7–2.3",
+      ">2.3"
+     ],
+     [
+      "Ascites",
+      "None",
+      "Mild / diuretic-controlled",
+      "Moderate–severe / refractory"
+     ],
+     [
+      "Encephalopathy",
+      "None",
+      "Grade 1–2",
+      "Grade 3–4"
+     ]
+    ]
+   },
+   {
+    "title": "Hepatitis B serology",
+    "head": [
+     "HBsAg",
+     "Anti-HBc",
+     "IgM anti-HBc",
+     "Anti-HBs",
+     "Interpretation"
+    ],
+    "rows": [
+     [
+      "−",
+      "−",
+      "−",
+      "−",
+      "Susceptible"
+     ],
+     [
+      "−",
+      "−",
+      "−",
+      "+",
+      "Vaccinated"
+     ],
+     [
+      "−",
+      "+",
+      "−",
+      "+",
+      "Resolved infection (immune)"
+     ],
+     [
+      "+",
+      "+",
+      "+",
+      "−",
+      "Acute HBV"
+     ],
+     [
+      "+",
+      "+",
+      "−",
+      "−",
+      "Chronic HBV (HBeAg/HBV DNA = replication)"
+     ],
+     [
+      "−",
+      "+",
+      "+",
+      "−",
+      "Window period (IgM anti-HBc only marker)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**SAAG** = serum albumin − ascitic albumin: ≥1.1 g/dL → portal HTN (cirrhosis, cardiac, Budd-Chiari); with ascitic protein ≥2.5 → cardiac ascites / Budd-Chiari; SAAG <1.1 → peritoneal TB, carcinomatosis, pancreatic, nephrotic",
+   "**SBP**: ascitic PMN ≥250/mm³; usually monomicrobial E. coli/Klebsiella; treat cefotaxime/ceftriaxone + IV albumin 1.5 g/kg day 1 and 1 g/kg day 3; long-term norfloxacin/ciprofloxacin after first episode. Polymicrobial, protein >1 g/dL, glucose <50, high LDH → secondary peritonitis (surgical)",
+   "Large-volume paracentesis >5 L → albumin 6–8 g per litre removed (prevents post-paracentesis circulatory dysfunction)",
+   "**HRS-AKI** (ICA): no response after 2 days of diuretic withdrawal + albumin 1 g/kg, no shock, no nephrotoxins, no parenchymal disease → terlipressin + albumin (noradrenaline in ICU); cure = liver transplant",
+   "**Hepatic encephalopathy**: precipitants — GI bleed, infection, constipation, hypokalaemia/alkalosis, sedatives, dehydration, TIPS; lactulose to 2–3 soft stools/day; add rifaximin to prevent recurrence; ammonia level not needed for diagnosis; do not restrict protein",
+   "**MELD** (bilirubin, INR, creatinine; MELD-Na adds sodium; MELD 3.0 adds sex & albumin) ranks transplant priority; refer when MELD ≥15",
+   "**Alcoholic hepatitis**: Maddrey DF = 4.6 × (PT − control) + bilirubin; ≥32 (or MELD >20) → prednisolone 40 mg/day × 28 days if no infection/GI bleed; Lille score at day 7 >0.45 → stop steroids",
+   "**HCC**: surveillance USG ± AFP every 6 months in cirrhosis/high-risk HBV; LI-RADS LR-1 benign → LR-5 definite HCC, LR-M malignant non-HCC, LR-TIV tumour in vein; Milan criteria for transplant: single ≤5 cm or ≤3 nodules each ≤3 cm, no vascular invasion/extrahepatic spread",
+   "BCLC: very early/early → resection, ablation, transplant; intermediate → TACE; advanced → atezolizumab + bevacizumab; terminal → best supportive care",
+   "**Wilson disease** (ATP7B, chr 13): low ceruloplasmin, ↑24-h urine copper, Kayser-Fleischer rings (Descemet's membrane), acute liver failure with Coombs-negative haemolysis and low ALP; treat penicillamine/trientine, zinc"
+  ],
+  "traps": [
+   {
+    "stem": "Cirrhotic vomiting blood, BP 90/60. Start propranolol to reduce portal pressure?",
+    "trap": "NSBB lowers portal pressure, so give it now.",
+    "fix": "Never in the active bleed — worsens hypotension and blunts compensatory tachycardia. Give terlipressin/octreotide + ceftriaxone + EVL within 12 h; NSBB only for secondary prophylaxis after control."
+   },
+   {
+    "stem": "Ascitic fluid total WBC 400/mm³, 40% neutrophils, cirrhotic with fever.",
+    "trap": "WBC >250 → SBP.",
+    "fix": "The cutoff is the absolute PMN count: 400 × 0.4 = 160 <250 → not SBP. PMN ≥250 needed."
+   },
+   {
+    "stem": "Cirrhotic with ascites, creatinine up from 1.0 to 2.4; on diuretics. Start terlipressin now for HRS?",
+    "trap": "Any AKI in cirrhosis with ascites = HRS.",
+    "fix": "First stop diuretics/nephrotoxins and give albumin 1 g/kg for 2 days, exclude shock and structural disease; only non-responders meet HRS-AKI criteria."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Acute variceal bleed bundle: {{c1::terlipressin or octreotide}} + {{c2::IV ceftriaxone}} + {{c3::endoscopic band ligation within 12 h}}; NSBB {{c4::only after the bleed is controlled}}."
+   },
+   {
+    "type": "cloze",
+    "text": "SAAG ≥{{c1::1.1 g/dL}} indicates portal hypertension; SBP is diagnosed by ascitic {{c2::PMN ≥250/mm³}} and treated with cefotaxime plus {{c3::IV albumin}}."
+   },
+   {
+    "type": "basic",
+    "front": "Maddrey discriminant function: formula and action threshold?",
+    "back": "DF = 4.6 × (patient PT − control PT, seconds) + serum bilirubin (mg/dL). DF ≥32 = severe alcoholic hepatitis → prednisolone 40 mg/day × 28 days (if no contraindication); Lille >0.45 at day 7 → non-responder, stop."
+   },
+   {
+    "type": "cloze",
+    "text": "Milan criteria for transplant in HCC: single tumour ≤{{c1::5 cm}} or up to {{c2::3}} tumours each ≤{{c3::3 cm}}, with no vascular invasion or extrahepatic spread."
+   },
+   {
+    "type": "basic",
+    "front": "Hepatitis B: which marker is the only one positive in the window period?",
+    "back": "IgM anti-HBc (HBsAg has cleared, anti-HBs not yet detectable)."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:KF ring 1.jpg",
+    "caption": "Wilson disease: golden-brown Kayser-Fleischer ring at the corneal limbus (copper in Descemet's membrane); slit-lamp confirms."
+   },
+   {
+    "commons": "File:Spider nevus.jpg",
+    "caption": "Cirrhosis: large spider naevi (central arteriole with radiating vessels, blanch on pressure) on the upper body — hyperoestrogenism of chronic liver disease."
+   }
+  ],
+  "keywords": [
+   "cirrhosis",
+   "portal hypertension",
+   "variceal bleeding",
+   "esophageal varices",
+   "terlipressin",
+   "band ligation",
+   "saag",
+   "ascites",
+   "spontaneous bacterial peritonitis",
+   "hepatorenal syndrome",
+   "hepatic encephalopathy",
+   "child-pugh",
+   "meld",
+   "maddrey",
+   "alcoholic hepatitis",
+   "hepatocellular carcinoma",
+   "li-rads",
+   "milan criteria",
+   "hepatitis b serology",
+   "wilson disease"
+  ],
+  "wiki": [
+   "Portal_hypertension",
+   "Child–Pugh_score",
+   "Hepatorenal_syndrome"
+  ],
+  "verify": "Baveno VII (2022); AASLD 2021 ascites/SBP/HRS guidance & ICA HRS-AKI 2015/2019; EASL 2018 decompensated cirrhosis; ACR LI-RADS v2018; BCLC 2022."
+ },
+ {
+  "id": "med-gi-ibd",
+  "title": "IBD (UC vs Crohn), IBS (Rome IV), coeliac, H. pylori & upper GI bleed scores",
+  "subject": "Medicine",
+  "system": "Gastroenterology",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Bloody diarrhoea, continuous disease from rectum, mucosal only, p-ANCA, non-smoker → UC",
+   "Skip lesions, terminal ileum, transmural, fistulae, granulomas, smoker, ASCA → Crohn",
+   "Iron-deficiency anaemia refractory to oral iron + diarrhoea/bloating → anti-tTG IgA (with total IgA)",
+   "Upper GI bleed: Glasgow-Blatchford before endoscopy (score 0–1 = outpatient), Rockall after (mortality)"
+  ],
+  "algorithm": "Acute severe UC (Truelove-Witts: ≥6 bloody stools/day + ≥1 of HR >90, T >37.8 °C, Hb <10.5 g/dL, ESR >30)\n→ Admit; stool C. difficile + CMV, plain AXR (toxic megacolon: transverse colon >6 cm), VTE prophylaxis\n→ IV hydrocortisone 100 mg 6-hourly (or methylprednisolone 60 mg/day)\n→ Day 3: >8 stools/day, or 3–8 with CRP >45 (Travis/Oxford) → high colectomy risk\n→ Rescue: infliximab or ciclosporin → no response by days 5–7 / megacolon / perforation → subtotal colectomy\nUpper GI bleed → resuscitate (Hb trigger 7; 8 if cardiovascular disease) → Glasgow-Blatchford\n  GBS 0–1 → outpatient endoscopy | higher → endoscopy within 24 h\n  Forrest Ia/Ib/IIa (± IIb after clot removal) → endoscopic dual therapy → high-dose PPI 72 h\n  Rebleed → repeat endoscopy → angio-embolisation / surgery",
+  "tables": [
+   {
+    "title": "Ulcerative colitis vs Crohn's disease",
+    "head": [
+     "Feature",
+     "Ulcerative colitis",
+     "Crohn's disease"
+    ],
+    "rows": [
+     [
+      "Distribution",
+      "Rectum, continuous proximal spread; colon only (backwash ileitis)",
+      "Mouth to anus; terminal ileum commonest; skip lesions"
+     ],
+     [
+      "Depth",
+      "Mucosa/submucosa",
+      "Transmural"
+     ],
+     [
+      "Histology",
+      "Crypt abscesses, crypt distortion, no granulomas",
+      "Non-caseating granulomas (minority but specific), fissures"
+     ],
+     [
+      "Endoscopy",
+      "Friable mucosa, loss of vascular pattern, pseudopolyps",
+      "Aphthous ulcers, cobblestoning, linear ulcers"
+     ],
+     [
+      "Barium/imaging",
+      "Lead-pipe colon (loss of haustra)",
+      "String sign of Kantor, fistulae, creeping fat"
+     ],
+     [
+      "Complications",
+      "Toxic megacolon, PSC, higher colorectal cancer risk",
+      "Fistulae, strictures, perianal abscess, gallstones, oxalate stones, B12 deficiency"
+     ],
+     [
+      "Smoking",
+      "Protective",
+      "Worsens disease"
+     ],
+     [
+      "Serology",
+      "p-ANCA",
+      "ASCA"
+     ],
+     [
+      "Surgery",
+      "Proctocolectomy is curative",
+      "Not curative; recurrence at anastomosis"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Montreal**: Crohn — Age A1 ≤16, A2 17–40, A3 >40; Location L1 ileal, L2 colonic, L3 ileocolonic, L4 upper GI modifier; Behaviour B1 inflammatory, B2 stricturing, B3 penetrating, 'p' perianal. UC — E1 proctitis, E2 left-sided (distal to splenic flexure), E3 extensive",
+   "IBD treatment ladder: 5-ASA (UC), steroids for flares (not maintenance), azathioprine/MTX, biologics (anti-TNF, vedolizumab, ustekinumab), JAK inhibitors (UC)",
+   "**Rome IV IBS**: recurrent abdominal pain ≥1 day/week in last 3 months with ≥2 of — related to defecation, change in stool frequency, change in form; onset ≥6 months before; subtype by Bristol stool form; alarm features (age >50, weight loss, bleeding, anaemia, nocturnal symptoms, family history CRC/IBD) → investigate",
+   "**Coeliac**: anti-tTG IgA + total IgA (IgA deficiency → IgG DGP/tTG) on a gluten-containing diet; duodenal biopsy (≥4 from D2 + bulb): villous atrophy, crypt hyperplasia, intraepithelial lymphocytes (Marsh); HLA-DQ2/DQ8 has high negative predictive value; dermatitis herpetiformis; EATL risk; ESPGHAN no-biopsy route in children if tTG-IgA ≥10× ULN + EMA positive on second sample",
+   "**H. pylori tests**: urea breath test and stool antigen detect active infection and confirm cure; serology cannot (stays positive); invasive — rapid urease (CLO), histology, culture (sensitivity); stop PPI 2 weeks and antibiotics/bismuth 4 weeks before testing; test of cure ≥4 weeks after therapy",
+   "H. pylori associations: duodenal & gastric ulcer, intestinal-type gastric adenocarcinoma, gastric MALT lymphoma (low-grade may regress with eradication), ITP, unexplained iron deficiency",
+   "First-line eradication where clarithromycin resistance is high: bismuth quadruple (PPI + bismuth + tetracycline + metronidazole) for 14 days",
+   "**Glasgow-Blatchford**: urea, Hb, SBP, pulse, melaena, syncope, hepatic disease, cardiac failure — needs no endoscopy; **Rockall** full score needs endoscopic diagnosis and stigmata; AIMS65 predicts mortality",
+   "**Forrest**: Ia spurting, Ib oozing, IIa visible vessel, IIb adherent clot, IIc flat pigmented spot, III clean base — endotherapy for Ia, Ib, IIa"
+  ],
+  "traps": [
+   {
+    "stem": "Suspected coeliac disease; patient already gluten-free for 3 months; tTG negative.",
+    "trap": "Negative tTG excludes coeliac disease.",
+    "fix": "Serology and histology normalise on a gluten-free diet; re-challenge with gluten (≈6 weeks) before testing, or use HLA-DQ2/DQ8 to exclude. Also check total IgA."
+   },
+   {
+    "stem": "H. pylori test of cure: serology negative? / urea breath test done while on omeprazole.",
+    "trap": "Serology confirms cure; PPI doesn't matter.",
+    "fix": "Use urea breath test or stool antigen ≥4 weeks after therapy, off PPI for 2 weeks — PPIs cause false negatives; serology stays positive for months."
+   },
+   {
+    "stem": "Smoker with ulcerative colitis asks if stopping smoking will help.",
+    "trap": "Smoking cessation helps all IBD.",
+    "fix": "Smoking is protective in UC (flares can follow cessation) but harmful in Crohn's — still advise cessation for general health; for Crohn's it is a disease-modifying intervention."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Truelove-Witts acute severe UC: ≥{{c1::6}} bloody stools/day plus ≥1 of HR >{{c2::90}}, temperature >37.8 °C, Hb <{{c3::10.5 g/dL}}, ESR >30 mm/h; first-line treatment is {{c4::IV hydrocortisone}}."
+   },
+   {
+    "type": "basic",
+    "front": "Crohn vs UC on barium: 'string sign' and 'lead-pipe' colon?",
+    "back": "String sign of Kantor = narrowed terminal ileum in Crohn's (spasm/stricture). Lead-pipe colon = loss of haustra in chronic UC."
+   },
+   {
+    "type": "cloze",
+    "text": "Coeliac screening test = {{c1::anti-tTG IgA}} together with {{c2::total serum IgA}}; gold standard = {{c3::duodenal biopsy (villous atrophy, crypt hyperplasia, IELs)}}."
+   },
+   {
+    "type": "basic",
+    "front": "Which upper GI bleed score can be done before endoscopy and identifies patients safe for outpatient care?",
+    "back": "Glasgow-Blatchford score (urea, Hb, SBP, pulse, melaena, syncope, liver disease, heart failure); score 0 (≤1 in ESGE) → outpatient management."
+   },
+   {
+    "type": "cloze",
+    "text": "Rome IV IBS: abdominal pain at least {{c1::1 day per week}} for the last {{c2::3 months}} with ≥2 of: related to {{c3::defecation}}, change in frequency, change in form."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Toxisches Megacolon bei Colitis ulcerosa.jpg",
+    "caption": "Plain abdominal X-ray in ulcerative colitis: grossly dilated colon (transverse >6 cm) with loss of haustra = toxic megacolon → surgical emergency."
+   }
+  ],
+  "keywords": [
+   "ulcerative colitis",
+   "crohn disease",
+   "inflammatory bowel disease",
+   "truelove witts",
+   "toxic megacolon",
+   "montreal classification",
+   "irritable bowel syndrome",
+   "rome iv",
+   "celiac disease",
+   "coeliac",
+   "anti-ttg",
+   "helicobacter pylori",
+   "urea breath test",
+   "stool antigen",
+   "upper gi bleed",
+   "glasgow-blatchford",
+   "rockall score",
+   "forrest classification",
+   "string sign",
+   "lead pipe colon"
+  ],
+  "wiki": [
+   "Inflammatory_bowel_disease",
+   "Coeliac_disease",
+   "Glasgow-Blatchford_score"
+  ],
+  "verify": "BSG IBD 2019 & ECCO 2022; Rome IV (2016); ESPGHAN 2020 coeliac; Maastricht VI/Florence 2022 (H. pylori); ESGE 2021 non-variceal UGIB."
+ },
+ {
+  "id": "med-glomerulopathies",
+  "title": "Glomerulopathies: nephritic vs nephrotic — LM, IF, EM & complement",
+  "subject": "Medicine",
+  "system": "Nephrology / Renal pathology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Read every biopsy as a triad: light microscopy + immunofluorescence + electron microscopy, then add serum complement",
+   "Deposit site rule: subepithelial = membranous (spikes) & PSGN (humps); subendothelial = MPGN / lupus IV (wire loops); mesangial = IgA, HSP; intramembranous = dense deposit disease",
+   "Low C3 + low C4 = classical pathway (lupus, immune-complex MPGN/HCV-cryo, endocarditis); low C3 + normal C4 = alternative pathway (PSGN, C3 glomerulopathy)",
+   "Haematuria during a sore throat with normal C3 = IgA nephropathy; 1–3 weeks after with low C3 = PSGN"
+  ],
+  "algorithm": "Glomerular disease suspected → urine: protein quantity + sediment\n  Nephrotic (proteinuria >3.5 g/day, albumin <3 g/dL, oedema, lipiduria) → child: MCD → steroid trial without biopsy | adult: biopsy (anti-PLA2R if membranous suspected)\n  Nephritic (RBC casts, haematuria, HTN, oliguria) → C3/C4, ASO/anti-DNase B, ANA/dsDNA, ANCA, anti-GBM, HBV/HCV, cryoglobulins\n    Rapid rise in creatinine (days–weeks) → RPGN → urgent biopsy (crescents) → classify by IF:\n      Linear IgG → type 1 anti-GBM → plasma exchange + steroids + cyclophosphamide\n      Granular → type 2 immune complex (PSGN, lupus, IgA/HSP, MPGN)\n      Pauci-immune → type 3 ANCA (GPA, MPA, EGPA) → steroids + rituximab/cyclophosphamide\n    Low C3 persisting >8–12 weeks → not PSGN → think MPGN / C3 glomerulopathy / lupus",
+  "tables": [
+   {
+    "title": "Glomerulopathy matrix",
+    "head": [
+     "Disease (clinical clue)",
+     "Light microscopy",
+     "Immunofluorescence",
+     "Electron microscopy",
+     "Complement"
+    ],
+    "rows": [
+     [
+      "Minimal change disease (child, selective proteinuria, steroid-responsive; NSAIDs, Hodgkin)",
+      "Normal glomeruli; lipid in tubules ('lipoid nephrosis')",
+      "Negative",
+      "Diffuse podocyte foot-process effacement",
+      "Normal"
+     ],
+     [
+      "FSGS (adult, non-selective; HIV—collapsing, heroin, sickle cell, obesity, APOL1)",
+      "Segmental sclerosis in some (focal) glomeruli; hyalinosis",
+      "Non-specific IgM/C3 in sclerotic segments",
+      "Foot-process effacement, podocyte detachment",
+      "Normal"
+     ],
+     [
+      "Membranous nephropathy (commonest adult primary nephrotic; anti-PLA2R; HBV, SLE V, solid tumours, NSAIDs, penicillamine; renal vein thrombosis)",
+      "Diffuse GBM thickening; 'spikes' on silver (Jones) stain",
+      "Granular IgG + C3 along capillary walls",
+      "Subepithelial deposits with GBM spikes ('spike and dome')",
+      "Normal"
+     ],
+     [
+      "Post-streptococcal GN (child, 1–3 wk after pharyngitis / 3–6 wk after impetigo; cola urine, periorbital oedema, HTN)",
+      "Diffuse endocapillary hypercellularity with neutrophils",
+      "Granular 'starry sky' IgG + C3",
+      "Subepithelial 'humps'",
+      "Low C3, C4 normal; C3 normalises in 6–8 wk"
+     ],
+     [
+      "Immune-complex MPGN (old type I; HCV-cryoglobulinaemia, SLE, endocarditis, monoclonal gammopathy)",
+      "Lobular glomeruli, mesangial interposition → 'tram-track' double contour GBM",
+      "Granular IgG + C3 (± IgM)",
+      "Subendothelial (+ mesangial) deposits",
+      "Low C3 + low C4 (classical)"
+     ],
+     [
+      "C3 glomerulopathy — dense deposit disease (old MPGN II) and C3GN (C3 nephritic factor, factor H defects; partial lipodystrophy, drusen)",
+      "MPGN or proliferative pattern",
+      "C3 dominant, little/no immunoglobulin",
+      "DDD: ribbon-like dense intramembranous deposits in lamina densa; C3GN: mesangial/subendothelial",
+      "Low C3, normal C4 (alternative pathway)"
+     ],
+     [
+      "IgA nephropathy (commonest primary GN worldwide; gross haematuria within 1–2 days of URI)",
+      "Mesangial proliferation / matrix expansion",
+      "Dominant mesangial IgA (± C3)",
+      "Mesangial deposits",
+      "Normal"
+     ],
+     [
+      "Anti-GBM (Goodpasture; lung haemorrhage in smokers)",
+      "Crescents",
+      "Linear IgG along GBM",
+      "No deposits; GBM breaks",
+      "Normal"
+     ],
+     [
+      "Pauci-immune RPGN (GPA, MPA, EGPA)",
+      "Necrotising crescentic GN",
+      "Scant / negative",
+      "No deposits",
+      "Normal"
+     ],
+     [
+      "Lupus nephritis class IV (diffuse proliferative)",
+      "≥50% glomeruli proliferative; 'wire loops', hyaline thrombi",
+      "'Full house' IgG, IgA, IgM, C3, C1q",
+      "Subendothelial (also mesangial, subepithelial) deposits; tubuloreticular inclusions",
+      "Low C3 + low C4"
+     ],
+     [
+      "Diabetic nephropathy",
+      "Mesangial expansion, Kimmelstiel-Wilson nodules, hyaline arteriolosclerosis (afferent + efferent)",
+      "Linear IgG/albumin (non-specific)",
+      "GBM thickening (earliest change)",
+      "Normal"
+     ],
+     [
+      "Alport syndrome (COL4A5, X-linked; deafness, anterior lenticonus)",
+      "Non-specific; foam cells",
+      "Negative",
+      "Basket-weave splitting / lamellation of GBM",
+      "Normal"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Nephritic**: haematuria with RBC casts, HTN, oliguria, mild (<3.5 g) proteinuria — PSGN, IgA, RPGN, lupus. **Nephrotic**: >3.5 g/day proteinuria, hypoalbuminaemia, oedema, hyperlipidaemia, hypercoagulability (loss of antithrombin III)",
+   "Renal vein thrombosis: most frequent with membranous nephropathy",
+   "Crescents = proliferating **parietal epithelial cells** + monocytes/macrophages, triggered by fibrin leaking into Bowman's space; RPGN when crescents in >50% of glomeruli",
+   "PSGN serology: ASO after pharyngitis, anti-DNase B better after impetigo; low C3 beyond 8–12 weeks → rethink (MPGN, C3G, lupus)",
+   "**Classification update**: the old MPGN type I/II/III scheme is replaced by IF-based classification — immune-complex MPGN vs C3 glomerulopathy; **dense deposit disease is now classed under C3 glomerulopathy**",
+   "Lupus nephritis ISN/RPS: I minimal mesangial, II mesangial proliferative, III focal (<50%), IV diffuse (≥50%; commonest & most severe), V membranous, VI advanced sclerosing (≥90%)",
+   "Anti-GBM antigen: NC1 domain of the **α3 chain of type IV collagen**; treat plasma exchange + steroids + cyclophosphamide",
+   "Membranous: anti-PLA2R in ~70–80% of primary cases (THSD7A in a few); in older patients screen for malignancy",
+   "Amyloidosis: Congo red apple-green birefringence under polarised light; nephrotic, large kidneys"
+  ],
+  "traps": [
+   {
+    "stem": "22-year-old with cola-coloured urine starting the day after a sore throat; C3 and C4 normal.",
+    "trap": "PSGN (sore throat + haematuria).",
+    "fix": "Synpharyngitic haematuria (within 1–2 days) with normal complement = IgA nephropathy. PSGN has a 1–3 week latent period and low C3."
+   },
+   {
+    "stem": "MPGN pattern on biopsy, very low C3, normal C4, C3-only IF, ribbon-like intramembranous deposits.",
+    "trap": "MPGN type I (classical pathway, HCV).",
+    "fix": "Dense deposit disease — now within C3 glomerulopathy: alternative pathway dysregulation (C3 nephritic factor / factor H). Immune-complex MPGN has IgG + C3 and low C4."
+   },
+   {
+    "stem": "What cells form the crescent in RPGN?",
+    "trap": "Podocytes, endothelial cells or neutrophils.",
+    "fix": "Parietal epithelial cells of Bowman's capsule + infiltrating monocytes/macrophages, stimulated by fibrin."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Match the EM/silver finding: (1) spike and dome (2) tram-track (3) subepithelial humps (4) intramembranous dense ribbon (5) effacement only with normal LM.",
+    "back": "(1) Membranous nephropathy (2) Immune-complex MPGN (mesangial interposition) (3) PSGN (4) Dense deposit disease — C3 glomerulopathy (5) Minimal change disease."
+   },
+   {
+    "type": "basic",
+    "front": "Which GN have low C3, and how does C4 split them?",
+    "back": "Low C3 + low C4 (classical pathway): lupus nephritis III/IV, immune-complex MPGN (HCV/cryoglobulinaemia), endocarditis/shunt nephritis.\nLow C3 + normal C4 (alternative pathway): PSGN (transient, normalises in 6–8 wk), C3 glomerulopathy incl. dense deposit disease (persistent, C3 nephritic factor)."
+   },
+   {
+    "type": "cloze",
+    "text": "Tea-coloured urine the day after a sore throat, normal C3/C4 → {{c1::IgA nephropathy}}; biopsy IF shows {{c2::mesangial IgA}}; if haematuria began 2 weeks after pharyngitis with low C3 → {{c3::post-streptococcal GN}}."
+   },
+   {
+    "type": "basic",
+    "front": "RPGN classification by immunofluorescence with prototypes.",
+    "back": "Type 1 linear IgG: anti-GBM / Goodpasture (α3 chain type IV collagen).\nType 2 granular immune complex: PSGN, lupus, IgA/HSP, MPGN.\nType 3 pauci-immune: ANCA vasculitis — GPA (PR3/c-ANCA), MPA (MPO/p-ANCA), EGPA."
+   },
+   {
+    "type": "cloze",
+    "text": "Earliest EM change in diabetic nephropathy = {{c1::GBM thickening}}; pathognomonic LM lesion = {{c2::Kimmelstiel-Wilson nodules (nodular glomerulosclerosis)}}; arteriolar lesion = {{c3::hyaline arteriolosclerosis of afferent and efferent arterioles}}."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Membranous nephropathy - mpas - very high mag.jpg",
+    "caption": "Membranous nephropathy, Jones silver stain: thickened GBM with fine 'spikes' between subepithelial deposits (spike-and-dome)."
+   },
+   {
+    "commons": "File:Crescentic glomerulonephritis - high mag.jpg",
+    "caption": "Crescentic GN (anti-GBM, linear IgG on IF): cellular crescent filling Bowman's space and compressing the tuft — parietal epithelial cells + macrophages."
+   },
+   {
+    "commons": "File:Diabetic nephropathy.jpg",
+    "caption": "Diabetic nephropathy: nodular (Kimmelstiel-Wilson) glomerulosclerosis — acellular PAS-positive mesangial nodules."
+   }
+  ],
+  "keywords": [
+   "nephritic syndrome",
+   "nephrotic syndrome",
+   "minimal change disease",
+   "fsgs",
+   "membranous nephropathy",
+   "anti-pla2r",
+   "post-streptococcal glomerulonephritis",
+   "psgn",
+   "mpgn",
+   "c3 glomerulopathy",
+   "dense deposit disease",
+   "iga nephropathy",
+   "rpgn",
+   "crescentic glomerulonephritis",
+   "anti-gbm",
+   "goodpasture",
+   "lupus nephritis",
+   "kimmelstiel-wilson",
+   "alport syndrome",
+   "spike and dome"
+  ],
+  "wiki": [
+   "Nephritic_syndrome",
+   "Nephrotic_syndrome",
+   "Membranoproliferative_glomerulonephritis"
+  ],
+  "verify": "Robbins & Cotran 10e; KDIGO GN 2021; C3 glomerulopathy consensus 2013 (DDD reclassified under C3G); ISN/RPS lupus nephritis 2018 revision."
+ }
+]

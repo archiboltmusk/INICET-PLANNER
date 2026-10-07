@@ -1,0 +1,2516 @@
+[
+ {
+  "id": "surg-atls-thoracic",
+  "title": "ATLS primary survey & thoracic trauma",
+  "subject": "Surgery",
+  "system": "Trauma",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Primary survey ABCDE (airway with cervical-spine protection first); treat each life threat as you find it — never wait for X-ray to decompress a tension pneumothorax.",
+   "Distended neck veins + hyperresonance + absent breath sounds + shock = tension pneumothorax; flat neck veins + dullness + shock = massive haemothorax.",
+   "Distended neck veins + muffled heart sounds + hypotension (Beck triad) with equal breath sounds = cardiac tamponade."
+  ],
+  "algorithm": "Primary survey: control exsanguinating external bleeding → A (airway + C-spine restriction) → B → C → D → E\n  B: absent breath sounds + shock\n    Hyperresonant, trachea away, neck veins full → TENSION PTX\n      → immediate needle/finger decompression (clinical diagnosis, no CXR) → chest tube\n    Dull, neck veins flat → MASSIVE HAEMOTHORAX\n      → large-bore chest tube (5th ICS, anterior to mid-axillary line) + blood\n      → thoracotomy if ≥1500 mL immediately or >200 mL/h for 2–4 h, or ongoing transfusion need\n    Sucking wound → OPEN PTX → 3-sided dressing → chest tube at a separate site\n  C: shock + full neck veins + muffled sounds, breath sounds equal → TAMPONADE\n    → eFAST subxiphoid view → pericardiocentesis as a bridge → thoracotomy / pericardial window\n  Stable but widened mediastinum after deceleration → CT angiography (aortic isthmus injury)",
+  "tables": [
+   {
+    "title": "Chest life threats: discriminating signs",
+    "head": [
+     "Condition",
+     "Neck veins",
+     "Percussion",
+     "Breath sounds",
+     "Immediate action"
+    ],
+    "rows": [
+     [
+      "Tension pneumothorax",
+      "Distended",
+      "Hyperresonant",
+      "Absent, trachea deviated away",
+      "Needle/finger decompression, then chest tube"
+     ],
+     [
+      "Massive haemothorax",
+      "Flat (hypovolaemia)",
+      "Dull",
+      "Absent",
+      "Chest tube + blood; thoracotomy by output"
+     ],
+     [
+      "Cardiac tamponade",
+      "Distended",
+      "Normal",
+      "Normal, equal",
+      "eFAST; pericardiocentesis as bridge; surgery"
+     ],
+     [
+      "Open pneumothorax",
+      "Variable",
+      "Hyperresonant",
+      "Reduced; sucking wound",
+      "3-sided occlusive dressing"
+     ],
+     [
+      "Flail chest",
+      "Normal",
+      "Normal/dull (contusion)",
+      "Reduced; paradoxical segment",
+      "O₂, analgesia, ventilate if hypoxic"
+     ]
+    ]
+   },
+   {
+    "title": "Needle decompression site: exam-classic vs current",
+    "head": [
+     "Patient",
+     "Site",
+     "Source"
+    ],
+    "rows": [
+     [
+      "Adult (current)",
+      "4th/5th ICS, just anterior to the mid-axillary line",
+      "ATLS 10th"
+     ],
+     [
+      "Adult (exam-classic)",
+      "2nd ICS, mid-clavicular line",
+      "ATLS 9th and older; many Indian keys"
+     ],
+     [
+      "Child",
+      "2nd ICS, mid-clavicular line",
+      "ATLS 10th"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Tension pneumothorax is a clinical diagnosis**: commonest cause is positive-pressure ventilation in a patient with visceral pleural injury.",
+   "ATLS 10th moved adult needle decompression to the **4th/5th ICS just anterior to the mid-axillary line** because the chest wall at the 2nd ICS is often thicker than the needle is long; finger thoracostomy is an alternative.",
+   "Chest tube: **5th ICS (nipple level), just anterior to the mid-axillary line**, in the 'triangle of safety'; insert over the upper border of the rib to avoid the neurovascular bundle.",
+   "**Massive haemothorax** = ≥1500 mL blood (or about one-third of blood volume) in the chest; thoracotomy for ≥1500 mL immediately, >200 mL/h for 2–4 h, or persistent transfusion need.",
+   "**Open pneumothorax**: wound >2/3 the tracheal diameter lets air enter preferentially through the wound; 3-sided dressing acts as a flutter valve.",
+   "**Flail chest**: ≥2 adjacent ribs each broken in ≥2 places → paradoxical movement; the hypoxia comes mainly from the underlying **pulmonary contusion**.",
+   "**Beck triad** (hypotension, muffled heart sounds, raised JVP) + pulsus paradoxus (>10 mmHg fall in systolic BP on inspiration) = tamponade; Kussmaul sign may be present.",
+   "Blunt aortic injury is usually at the **isthmus (ligamentum arteriosum)**; CXR clues: widened mediastinum, obliterated aortic knob, trachea/NG tube deviated to the right, depressed left main bronchus, left apical cap. Confirm with CT angiography.",
+   "Lung ultrasound in eFAST: lung sliding/seashore sign = no pneumothorax at that spot; barcode (stratosphere) sign = pneumothorax; **lung point** is close to 100% specific; B-lines exclude pneumothorax at that site.",
+   "Traumatic diaphragm rupture is more often diagnosed on the **left** (the liver shields the right); NG tube in the chest on CXR is a clue."
+  ],
+  "traps": [
+   {
+    "stem": "Adult RTA victim, BP 70/40, absent right breath sounds, hyperresonance, trachea shifted left. Where do you decompress?",
+    "trap": "2nd ICS mid-clavicular line — the classic textbook answer that many old keys still carry.",
+    "fix": "ATLS 10th (adult): 4th/5th ICS just anterior to the mid-axillary line. If the options offer only the 2nd ICS MCL, choose it (exam-classic, and still the site in children). Decompress before any X-ray."
+   },
+   {
+    "stem": "Hypotensive trauma patient with absent left breath sounds. Tension pneumothorax or massive haemothorax?",
+    "trap": "Calling it tension pneumothorax because breath sounds are absent and the patient is in shock.",
+    "fix": "Percussion and neck veins decide it: hyperresonant + distended veins = tension pneumothorax; dull + flat veins = massive haemothorax (chest tube + blood)."
+   },
+   {
+    "stem": "Sucking chest wound in the field. How do you dress it?",
+    "trap": "Tape all four sides to make it airtight.",
+    "fix": "Tape only three sides (flutter valve). A fully sealed dressing can turn an open pneumothorax into a tension pneumothorax; definitive care is a chest tube away from the wound."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "ATLS 10th: site for needle decompression of tension pneumothorax in an adult vs a child?",
+    "back": "Adult: 4th/5th ICS just anterior to the mid-axillary line.\nChild: 2nd ICS mid-clavicular line.\n(2nd ICS MCL in adults = exam-classic/older answer.)"
+   },
+   {
+    "type": "cloze",
+    "text": "Emergency thoracotomy for haemothorax is indicated if the chest tube drains {{c1::≥1500 mL}} immediately or more than {{c2::200 mL/h for 2–4 hours}}."
+   },
+   {
+    "type": "cloze",
+    "text": "Beck triad of cardiac tamponade: {{c1::hypotension}}, {{c2::muffled heart sounds}} and {{c3::distended neck veins}}."
+   },
+   {
+    "type": "basic",
+    "front": "Shocked trauma patient: absent breath sounds on one side, dull percussion, flat neck veins. Diagnosis and first step?",
+    "back": "Massive haemothorax → large-bore chest tube (5th ICS, anterior to mid-axillary line) with blood product resuscitation."
+   },
+   {
+    "type": "cloze",
+    "text": "On lung ultrasound, the {{c1::barcode (stratosphere)}} sign means no lung sliding, and the {{c2::lung point}} is the most specific sign of pneumothorax."
+   },
+   {
+    "type": "basic",
+    "front": "Commonest site of blunt traumatic aortic injury and the best confirmatory test?",
+    "back": "Aortic isthmus, just distal to the left subclavian at the ligamentum arteriosum. CT angiography of the chest."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Pneumothorax CXR.jpg",
+    "caption": "Large left pneumothorax: no lung markings peripherally, collapsed lung edge, mediastinum and trachea pushed to the right — in a shocked patient this is tension physiology, which should be decompressed before any film is taken."
+   }
+  ],
+  "keywords": [
+   "tension pneumothorax",
+   "needle decompression",
+   "massive haemothorax",
+   "hemothorax",
+   "cardiac tamponade",
+   "beck triad",
+   "open pneumothorax",
+   "sucking chest wound",
+   "flail chest",
+   "pulmonary contusion",
+   "atls",
+   "primary survey",
+   "chest tube",
+   "thoracotomy",
+   "efast",
+   "lung point",
+   "aortic injury",
+   "widened mediastinum",
+   "diaphragm rupture"
+  ],
+  "wiki": [
+   "Tension_pneumothorax",
+   "Hemothorax",
+   "Advanced_trauma_life_support"
+  ],
+  "verify": "ATLS 10th (2018). Exam-classic answer for adult needle decompression = 2nd ICS MCL; ATLS 10th = 4th/5th ICS anterior to mid-axillary line."
+ },
+ {
+  "id": "surg-shock-pelvic-mtp",
+  "title": "Haemorrhagic shock, pelvic injury & massive transfusion",
+  "subject": "Surgery",
+  "system": "Trauma",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Trauma + hypotension = haemorrhage until proven otherwise; look for blood 'on the floor and four more': chest, abdomen, pelvis/retroperitoneum, long bones.",
+   "Systolic BP falls only in class III (>30% loss); tachycardia, narrowed pulse pressure and base deficit warn earlier.",
+   "Unstable pelvic fracture → binder over the greater trochanters; TXA within 3 h; blood products 1:1:1; permissive hypotension except in head injury."
+  ],
+  "algorithm": "Hypotensive trauma patient\n  → Control external bleeding; 2 large-bore IV lines; bloods + crossmatch\n  → Warm crystalloid 1 L adult (20 mL/kg child), then blood early; assess response\n  → TXA 1 g IV over 10 min within 3 h of injury, then 1 g over 8 h\n  → Pelvic binder at the greater trochanters if pelvic fracture suspected\n  → eFAST + pelvic X-ray (adjuncts to the primary survey)\n    Unstable + FAST positive → laparotomy (damage control)\n    Unstable + pelvic source → binder → angioembolisation / preperitoneal packing / external fixation\n    Stable → CECT abdomen/pelvis\n  → Transient/non-responder → activate massive transfusion protocol (plasma:platelets:RBC ≈ 1:1:1)\n  → Target SBP ~80–90 mmHg until bleeding controlled (NOT in traumatic brain injury)",
+  "tables": [
+   {
+    "title": "Classes of haemorrhagic shock (ATLS 10th)",
+    "head": [
+     "Parameter",
+     "Class I",
+     "Class II (mild)",
+     "Class III (moderate)",
+     "Class IV (severe)"
+    ],
+    "rows": [
+     [
+      "Blood loss",
+      "<15%",
+      "15–30%",
+      "31–40%",
+      ">40%"
+     ],
+     [
+      "Heart rate",
+      "Normal",
+      "Normal/↑",
+      "↑",
+      "↑↑"
+     ],
+     [
+      "Systolic BP",
+      "Normal",
+      "Normal",
+      "Normal/↓",
+      "↓"
+     ],
+     [
+      "Pulse pressure",
+      "Normal",
+      "↓",
+      "↓",
+      "↓"
+     ],
+     [
+      "Respiratory rate",
+      "Normal",
+      "Normal",
+      "Normal/↑",
+      "↑"
+     ],
+     [
+      "Urine output",
+      "Normal",
+      "Normal",
+      "↓",
+      "↓↓"
+     ],
+     [
+      "GCS",
+      "Normal",
+      "Normal",
+      "↓",
+      "↓"
+     ],
+     [
+      "Base deficit",
+      "0 to −2",
+      "−2 to −6",
+      "−6 to −10",
+      "−10 or less"
+     ],
+     [
+      "Blood products",
+      "Monitor",
+      "Possible",
+      "Yes",
+      "Massive transfusion protocol"
+     ]
+    ]
+   },
+   {
+    "title": "Exam-classic (ATLS 9th) version still used in many keys",
+    "head": [
+     "Class",
+     "Loss (70 kg)",
+     "Heart rate",
+     "BP"
+    ],
+    "rows": [
+     [
+      "I",
+      "<750 mL (<15%)",
+      "<100",
+      "Normal"
+     ],
+     [
+      "II",
+      "750–1500 mL (15–30%)",
+      "100–120",
+      "Normal"
+     ],
+     [
+      "III",
+      "1500–2000 mL (30–40%)",
+      "120–140",
+      "Decreased"
+     ],
+     [
+      "IV",
+      ">2000 mL (>40%)",
+      ">140",
+      "Decreased"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Shock index** = HR ÷ SBP; >1 (some use ≥0.9) suggests significant haemorrhage and predicts need for transfusion.",
+   "ATLS 10th: initial crystalloid limited to **1 L in adults (20 mL/kg in children)**; earlier ATLS used 2 L. Large-volume crystalloid worsens dilutional coagulopathy.",
+   "**TXA (CRASH-2)**: 1 g over 10 min then 1 g over 8 h, started **within 3 h** of injury; benefit is greatest when given early and it may be harmful after 3 h.",
+   "**Massive transfusion protocol**: plasma, platelets and RBC in about **1:1:1** (PROPPR: fewer deaths from exsanguination than 1:1:2). Watch for hypocalcaemia from citrate.",
+   "**Lethal triad**: hypothermia, acidosis, coagulopathy → damage-control surgery (stop bleeding, control contamination, close temporarily, correct in ICU, return later).",
+   "**Permissive hypotension**: accept SBP about 80–90 mmHg until haemorrhage is controlled; contraindicated in TBI, where hypotension doubles mortality.",
+   "**Pelvic binder** is centred over the **greater trochanters**, not the iliac crests; it closes an open-book (APC) injury and reduces pelvic volume.",
+   "**eFAST windows**: pericardial (subxiphoid), RUQ/hepatorenal (Morison pouch — most dependent upper-abdominal space), LUQ/splenorenal, pelvic (rectovesical/pouch of Douglas) + both anterior chest walls for pneumothorax.",
+   "**REBOA**: balloon occlusion of the aorta as a bridge to haemorrhage control — Zone I (descending thoracic, above the coeliac axis) for abdominal bleeding, Zone III (infrarenal, above the bifurcation) for pelvic bleeding.",
+   "Signs of urethral injury in pelvic fracture: blood at the meatus, perineal/scrotal haematoma, high-riding prostate → do retrograde urethrogram before a Foley catheter."
+  ],
+  "traps": [
+   {
+    "stem": "Trauma patient: HR 125, BP 118/90, anxious, urine output normal. Which shock class?",
+    "trap": "Class I because the systolic BP is normal.",
+    "fix": "Normal SBP does not exclude significant loss: tachycardia with narrowed pulse pressure = class II (15–30%). SBP falls only from class III."
+   },
+   {
+    "stem": "Head-injured patient with GCS 7 and a bleeding splenic injury. Target systolic BP?",
+    "trap": "Permissive hypotension with SBP 80–90 mmHg.",
+    "fix": "Permissive hypotension is contraindicated in TBI. Keep SBP ≥100–110 mmHg to protect cerebral perfusion."
+   },
+   {
+    "stem": "Where is a pelvic binder applied?",
+    "trap": "Around the iliac crests/waist, where the pelvis is felt.",
+    "fix": "Centred over the greater trochanters (and pubic symphysis level); a high binder does not close the pelvic ring and can splay it."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "ATLS 10th: in class III haemorrhagic shock the blood loss is {{c1::31–40%}} and the base deficit is {{c2::−6 to −10}} mEq/L."
+   },
+   {
+    "type": "basic",
+    "front": "TXA in trauma: dose and time window (CRASH-2)?",
+    "back": "1 g IV over 10 min, then 1 g over 8 h; start within 3 h of injury (earlier is better; late use may harm)."
+   },
+   {
+    "type": "cloze",
+    "text": "Shock index = {{c1::heart rate ÷ systolic BP}}; a value above {{c2::1}} suggests significant blood loss."
+   },
+   {
+    "type": "basic",
+    "front": "Four abdominal windows of FAST and the extra views of eFAST?",
+    "back": "Pericardial (subxiphoid), right upper quadrant (Morison pouch), left upper quadrant (splenorenal), pelvic. eFAST adds bilateral anterior thoracic views for pneumothorax (± haemothorax)."
+   },
+   {
+    "type": "cloze",
+    "text": "A pelvic binder is centred over the {{c1::greater trochanters}}; the ratio of plasma:platelets:RBC in a massive transfusion protocol is about {{c2::1:1:1}}."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "haemorrhagic shock",
+   "hemorrhagic shock",
+   "shock class",
+   "base deficit",
+   "shock index",
+   "massive transfusion",
+   "tranexamic acid",
+   "crash-2",
+   "permissive hypotension",
+   "pelvic binder",
+   "pelvic fracture",
+   "open book",
+   "efast",
+   "fast scan",
+   "morison pouch",
+   "reboa",
+   "damage control",
+   "lethal triad",
+   "proppr"
+  ],
+  "wiki": [
+   "Hypovolemic_shock",
+   "Massive_transfusion",
+   "Focused_assessment_with_sonography_for_trauma"
+  ],
+  "verify": "ATLS 10th shock table (with base deficit) and 1 L initial crystalloid; CRASH-2 for TXA; PROPPR for 1:1:1. Older keys use the ATLS 9th HR/volume table."
+ },
+ {
+  "id": "surg-head-injury",
+  "title": "Head injury: GCS, intracranial haematomas & herniation",
+  "subject": "Surgery",
+  "system": "Neurosurgery / Trauma",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Temporal blow → lucid interval → deterioration with ipsilateral dilated pupil = extradural haematoma (middle meningeal artery); biconvex on CT.",
+   "Elderly/alcoholic, minor fall, fluctuating confusion over days–weeks = chronic subdural (bridging veins); crescentic on CT, crosses sutures.",
+   "Coma out of proportion to a near-normal CT after high-speed deceleration = diffuse axonal injury (MRI SWI/GRE better)."
+  ],
+  "algorithm": "Head injury\n  → ABCDE; C-spine; avoid hypoxia (SpO₂ <90%) and hypotension\n  → GCS + pupils (GCS-P)\n    GCS ≤8 → intubate (secure airway), neurosurgical referral\n  → Minor head injury (GCS 13–15 + LOC/amnesia/disorientation): apply Canadian CT Head Rule\n  → NCCT head\n    EDH ≥30 mL (any GCS) → craniotomy and evacuation\n    Acute SDH >10 mm thick or midline shift >5 mm → evacuation\n    Raised ICP → head up 30°, normocapnia (PaCO₂ 35–40), mannitol or hypertonic saline;\n      brief hyperventilation only as a bridge for impending herniation",
+  "tables": [
+   {
+    "title": "Glasgow Coma Scale (total 3–15)",
+    "head": [
+     "Score",
+     "Eye opening (E)",
+     "Verbal (V)",
+     "Motor (M)"
+    ],
+    "rows": [
+     [
+      "6",
+      "—",
+      "—",
+      "Obeys commands"
+     ],
+     [
+      "5",
+      "—",
+      "Oriented",
+      "Localises to pain"
+     ],
+     [
+      "4",
+      "Spontaneous",
+      "Confused",
+      "Normal flexion / withdraws"
+     ],
+     [
+      "3",
+      "To sound (speech)",
+      "Inappropriate words",
+      "Abnormal flexion (decorticate)"
+     ],
+     [
+      "2",
+      "To pressure (pain)",
+      "Incomprehensible sounds",
+      "Extension (decerebrate)"
+     ],
+     [
+      "1",
+      "None",
+      "None",
+      "None"
+     ]
+    ]
+   },
+   {
+    "title": "Intracranial bleeds on CT",
+    "head": [
+     "Feature",
+     "Extradural (EDH)",
+     "Acute subdural (SDH)",
+     "Subarachnoid (SAH)",
+     "Diffuse axonal injury"
+    ],
+    "rows": [
+     [
+      "Vessel",
+      "Middle meningeal artery (temporal fracture)",
+      "Bridging (cortical) veins",
+      "Trauma (commonest overall); aneurysm if spontaneous",
+      "Shearing of axons"
+     ],
+     [
+      "CT shape",
+      "Biconvex/lentiform",
+      "Crescentic, concave inner border",
+      "Blood in sulci/basal cisterns",
+      "Often normal; petechiae at grey-white junction, corpus callosum, brainstem"
+     ],
+     [
+      "Sutures",
+      "Does NOT cross sutures",
+      "Crosses sutures, not the falx/midline",
+      "—",
+      "—"
+     ],
+     [
+      "Course",
+      "Lucid interval classic",
+      "Usually primary brain injury; elderly, anticoagulated",
+      "Headache, meningism",
+      "Coma from impact"
+     ],
+     [
+      "Prognosis",
+      "Good if evacuated early",
+      "Worse than EDH",
+      "Vasospasm risk",
+      "Poor; MRI (SWI/GRE) shows lesions"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "GCS severity: **mild 13–15, moderate 9–12, severe 3–8**; 'GCS 8 — intubate'. Best motor response is the most prognostic component.",
+   "**GCS-P** = GCS minus pupil reactivity score (0 both react, 1 one unreactive, 2 both unreactive); range 1–15.",
+   "**Canadian CT Head Rule** (high risk): GCS <15 at 2 h after injury, suspected open/depressed skull fracture, any sign of basal skull fracture, ≥2 episodes of vomiting, age ≥65. Medium risk: retrograde amnesia ≥30 min, dangerous mechanism.",
+   "Basal skull fracture signs: **raccoon eyes, Battle sign** (mastoid ecchymosis), CSF rhinorrhoea/otorrhoea, haemotympanum; avoid nasal tubes.",
+   "**Cushing reflex**: hypertension (widened pulse pressure) + bradycardia + irregular respiration → late sign of raised ICP/brainstem compression.",
+   "**Monro-Kellie doctrine**: skull volume is fixed (brain + blood + CSF); a mass first displaces CSF and venous blood, then ICP rises steeply.",
+   "**Uncal (transtentorial) herniation**: ipsilateral fixed dilated pupil (CN III compression) + contralateral hemiparesis; **Kernohan notch** gives ipsilateral hemiparesis (false localising).",
+   "**Duret haemorrhages**: brainstem bleeds from downward herniation stretching pontine perforators.",
+   "EDH: pterion is the weak point overlying the anterior branch of the middle meningeal artery; most EDHs are temporal/temporoparietal.",
+   "Chronic SDH: hypodense crescent after ~3 weeks; treated by burr-hole drainage when symptomatic."
+  ],
+  "traps": [
+   {
+    "stem": "CT: biconvex hyperdensity limited by the coronal suture after a blow to the temple. Which vessel?",
+    "trap": "Bridging veins — mixing up EDH and SDH.",
+    "fix": "Biconvex, does not cross sutures = EDH from the middle meningeal artery. Crescentic and crossing sutures = SDH from bridging veins."
+   },
+   {
+    "stem": "Patient with left temporal EDH has right-sided weakness and a dilated left pupil. Later the weakness is on the left. Why?",
+    "trap": "A new right-sided lesion.",
+    "fix": "Kernohan notch phenomenon: the contralateral cerebral peduncle is compressed against the tentorium, giving ipsilateral hemiparesis (false localising). The pupil is the more reliable side marker."
+   },
+   {
+    "stem": "Patient opens eyes to pain, makes incomprehensible sounds and shows decerebrate posturing. GCS?",
+    "trap": "Scoring decerebrate (extension) as 3.",
+    "fix": "E2 V2 M2 = 6. Extension (decerebrate) = M2; abnormal flexion (decorticate) = M3."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "GCS motor: {{c1::abnormal flexion (decorticate)}} scores 3 and {{c2::extension (decerebrate)}} scores 2."
+   },
+   {
+    "type": "basic",
+    "front": "CT shape and vessel: extradural vs acute subdural haematoma?",
+    "back": "EDH: biconvex/lentiform, does not cross sutures, middle meningeal artery.\nSDH: crescentic, crosses sutures but not midline, bridging veins."
+   },
+   {
+    "type": "cloze",
+    "text": "Cushing reflex = {{c1::hypertension}}, {{c2::bradycardia}} and irregular respiration, a late sign of raised ICP."
+   },
+   {
+    "type": "basic",
+    "front": "Classic signs of uncal herniation?",
+    "back": "Ipsilateral fixed dilated pupil (CN III) + contralateral hemiparesis; declining consciousness. Kernohan notch can give ipsilateral hemiparesis."
+   },
+   {
+    "type": "cloze",
+    "text": "Canadian CT Head Rule high-risk criteria include GCS <15 at {{c1::2 hours}}, ≥2 episodes of vomiting and age ≥{{c2::65}} years."
+   },
+   {
+    "type": "basic",
+    "front": "Deep coma after a high-speed RTA, CT shows only tiny haemorrhages at the grey-white junction and corpus callosum. Diagnosis and best imaging?",
+    "back": "Diffuse axonal injury; MRI with SWI/GRE sequences."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:EpiduralHematoma.jpg",
+    "caption": "Extradural haematoma (arrow): biconvex/lentiform hyperdensity limited by sutures, with an associated skull fracture."
+   },
+   {
+    "commons": "File:Trauma subdural.jpg",
+    "caption": "Traumatic subdural haematoma: crescent-shaped collection over the convexity with mass effect and midline shift (crosses sutures, not the midline)."
+   }
+  ],
+  "keywords": [
+   "glasgow coma scale",
+   "gcs",
+   "extradural haematoma",
+   "epidural hematoma",
+   "subdural haematoma",
+   "subdural hematoma",
+   "subarachnoid haemorrhage",
+   "diffuse axonal injury",
+   "lucid interval",
+   "middle meningeal artery",
+   "cushing reflex",
+   "monro-kellie",
+   "uncal herniation",
+   "kernohan notch",
+   "canadian ct head rule",
+   "raised intracranial pressure",
+   "battle sign",
+   "raccoon eyes",
+   "basal skull fracture",
+   "duret haemorrhage"
+  ],
+  "wiki": [
+   "Epidural_hematoma",
+   "Subdural_hematoma",
+   "Glasgow_Coma_Scale"
+  ],
+  "verify": "ATLS 10th / Brain Trauma Foundation 4th ed. GCS uses 'to sound' and 'to pressure' wording (Teasdale 2014 update)."
+ },
+ {
+  "id": "surg-burns",
+  "title": "Burns: area, depth, fluid resuscitation & inhalation injury",
+  "subject": "Surgery",
+  "system": "Plastic surgery / Trauma",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Burn in a closed space + facial burns, singed nasal hair, carbonaceous sputum, hoarseness = inhalation injury → early intubation.",
+   "Parkland: 4 mL × kg × %TBSA (partial + full thickness only) of Ringer lactate; half in the first 8 h counted from the TIME OF BURN.",
+   "Painless, leathery, white/charred, non-blanching = full thickness; blisters, pink, very painful, blanching = superficial partial thickness."
+  ],
+  "algorithm": "Burn patient\n  → Stop the burning; cool with running water (not ice); remove clothes/jewellery\n  → Airway: inhalation signs → early intubation (oedema worsens over hours)\n  → Breathing: 100% O₂ if CO suspected (SpO₂ falsely normal; check COHb)\n  → Estimate %TBSA (Rule of 9s adults; Lund-Browder for children; palm ≈ 1%)\n  → IV fluids if >20% TBSA adult (>10–15% child) → Ringer lactate\n    Parkland 4 mL/kg/%TBSA in 24 h: ½ in first 8 h from burn, ½ over next 16 h\n    Children: add maintenance fluid with dextrose\n  → Titrate to urine output: adult 0.5 mL/kg/h; child (<30 kg) 1 mL/kg/h; electrical with myoglobinuria ~1–1.5 mL/kg/h\n  → Circumferential full-thickness burn of limb/chest with compromised circulation or ventilation → escharotomy",
+  "tables": [
+   {
+    "title": "Burn depth",
+    "head": [
+     "Depth",
+     "Appearance",
+     "Pain/sensation",
+     "Blanching",
+     "Healing"
+    ],
+    "rows": [
+     [
+      "Superficial (epidermal, 1st degree)",
+      "Red, dry, no blisters (sunburn)",
+      "Painful",
+      "Yes",
+      "~1 week, no scar; not counted in %TBSA"
+     ],
+     [
+      "Superficial partial thickness",
+      "Blisters, moist, pink",
+      "Very painful",
+      "Yes, brisk",
+      "~2 weeks, minimal scar"
+     ],
+     [
+      "Deep partial thickness",
+      "Blotchy red/white, dry, fixed staining",
+      "Reduced",
+      "Sluggish/absent",
+      ">3 weeks; hypertrophic scar → excise and graft"
+     ],
+     [
+      "Full thickness (3rd degree)",
+      "White, leathery or charred; thrombosed vessels",
+      "Painless",
+      "No",
+      "Only from edges → excise and graft"
+     ],
+     [
+      "4th degree",
+      "Involves fat, muscle, bone",
+      "Painless",
+      "No",
+      "Debridement, flaps/amputation"
+     ]
+    ]
+   },
+   {
+    "title": "Rule of nines vs child",
+    "head": [
+     "Region",
+     "Adult (Rule of 9s)",
+     "Infant (approx.)"
+    ],
+    "rows": [
+     [
+      "Head and neck",
+      "9%",
+      "18%"
+     ],
+     [
+      "Each upper limb",
+      "9%",
+      "9%"
+     ],
+     [
+      "Anterior trunk",
+      "18%",
+      "18%"
+     ],
+     [
+      "Posterior trunk",
+      "18%",
+      "18%"
+     ],
+     [
+      "Each lower limb",
+      "18%",
+      "14%"
+     ],
+     [
+      "Perineum",
+      "1%",
+      "—"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Lund-Browder chart** is the most accurate method and is preferred in children (head proportionally larger, legs smaller, changes with age).",
+   "Patient's palm including fingers ≈ **1% TBSA** — useful for small or patchy burns.",
+   "Exam-classic: **Parkland 4 mL/kg/%TBSA**. ATLS 10th starts adults at **2 mL/kg/%TBSA** (children 3 mL, electrical 4 mL) and titrates to urine output; modified Brooke also uses 2 mL.",
+   "Time for Parkland is counted **from the time of burn**, not arrival; fluid delayed by 2 h must be caught up in the remaining 6 h.",
+   "Only partial- and full-thickness burns are counted for %TBSA; erythema (superficial) is excluded.",
+   "**CO poisoning**: pulse oximeter reads falsely normal; 100% O₂ shortens COHb half-life (from ~4–5 h on air to ~1 h); consider hyperbaric O₂ in severe cases. Cyanide (burning plastics) → hydroxocobalamin.",
+   "**Electrical burns**: small skin wounds hide deep muscle damage (iceberg); ECG monitoring for arrhythmias, myoglobinuria → AKI (keep urine output high, ~100 mL/h adult until clear), compartment syndrome → fasciotomy; late cataract.",
+   "**Escharotomy** cuts through the eschar only (insensate, can be done bedside) along mid-medial/mid-lateral lines of limbs or the chest; **fasciotomy** opens the fascia for compartment syndrome (often electrical/crush).",
+   "**Curling ulcer** = stress ulcer of the stomach/duodenum after major burns (Cushing ulcer is after head injury); Marjolin ulcer = SCC in a chronic burn scar."
+  ],
+  "traps": [
+   {
+    "stem": "70 kg man with 40% partial/full thickness burns arrives 2 h after injury. How much fluid in the next 6 h (Parkland)?",
+    "trap": "5600 mL over 8 h counted from arrival.",
+    "fix": "Total 4 × 70 × 40 = 11 200 mL; half (5600 mL) is due in the first 8 h from the burn, so all 5600 mL go over the remaining 6 h; the rest over the next 16 h."
+   },
+   {
+    "stem": "Child with scalds: calculate %TBSA using the adult rule of nines?",
+    "trap": "Using adult proportions (head 9%, each leg 18%).",
+    "fix": "Children have a larger head and smaller legs; use the Lund-Browder chart (infant head ≈18%, each leg ≈14%)."
+   },
+   {
+    "stem": "House-fire victim, alert, SpO₂ 99% on air, cherry-red appearance, headache. Next step?",
+    "trap": "Reassured by the normal SpO₂.",
+    "fix": "Pulse oximetry cannot tell COHb from oxyhaemoglobin. Give 100% O₂ by non-rebreather mask and measure COHb on ABG co-oximetry."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Parkland formula: {{c1::4}} mL × weight (kg) × %TBSA of Ringer lactate in 24 h; half in the first {{c2::8 hours from the time of burn}}."
+   },
+   {
+    "type": "basic",
+    "front": "Target urine output during burn resuscitation: adult, child, electrical injury?",
+    "back": "Adult 0.5 mL/kg/h (30–50 mL/h); child <30 kg 1 mL/kg/h; electrical injury with myoglobinuria ~1–1.5 mL/kg/h (~100 mL/h adult) until urine clears."
+   },
+   {
+    "type": "basic",
+    "front": "Burn depth that is painless, leathery, white and does not blanch?",
+    "back": "Full thickness (3rd degree) — needs excision and skin grafting."
+   },
+   {
+    "type": "cloze",
+    "text": "Signs of inhalation injury: facial burns, singed {{c1::nasal hairs}}, {{c2::carbonaceous sputum}}, hoarseness and stridor → early intubation."
+   },
+   {
+    "type": "cloze",
+    "text": "Escharotomy divides the {{c1::eschar}} for circumferential full-thickness burns; fasciotomy divides the {{c2::deep fascia}} for compartment syndrome."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Wallace rule of nines-en.svg",
+    "caption": "Wallace rule of nines (adult): head and neck 9%, each upper limb 9%, trunk 36% (front 18 + back 18), each lower limb 18%, genitalia 1%. Use Lund-Browder for children."
+   }
+  ],
+  "keywords": [
+   "burns",
+   "parkland formula",
+   "rule of nines",
+   "lund and browder",
+   "lund-browder",
+   "tbsa",
+   "inhalation injury",
+   "carbon monoxide",
+   "carboxyhaemoglobin",
+   "electrical burn",
+   "escharotomy",
+   "fasciotomy",
+   "full thickness burn",
+   "partial thickness burn",
+   "curling ulcer",
+   "marjolin ulcer",
+   "modified brooke",
+   "burn resuscitation"
+  ],
+  "wiki": [
+   "Burn",
+   "Parkland_formula",
+   "Total_body_surface_area"
+  ],
+  "verify": "Bailey & Love 28e; ATLS 10th (2 mL/kg/%TBSA adult start). Indian exam keys use Parkland 4 mL/kg/%TBSA."
+ },
+ {
+  "id": "surg-acute-abdomen-pancreatitis",
+  "title": "Acute abdomen: appendicitis, diverticulitis & acute pancreatitis",
+  "subject": "Surgery",
+  "system": "Gastrointestinal",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Periumbilical pain migrating to the RIF + anorexia + fever + McBurney tenderness = appendicitis (Alvarado/MANTRELS).",
+   "Elderly, LIF pain, fever, tender mass = sigmoid diverticulitis ('left-sided appendicitis'); CT grades it (Hinchey).",
+   "Epigastric pain radiating to the back + lipase/amylase >3× ULN after alcohol or gallstones = acute pancreatitis; severity = persistent organ failure >48 h."
+  ],
+  "algorithm": "Acute pancreatitis (2 of 3: typical pain, lipase/amylase >3× ULN, imaging)\n  → No CT on day 1 if diagnosis is clear (CT if diagnosis doubtful or no improvement)\n  → Goal-directed fluids (Ringer lactate; avoid aggressive overload), analgesia, early oral/enteral feeding\n  → Severity: BISAP ≥3 / persistent SIRS → HDU/ICU; organ failure >48 h = severe\n  → Gallstone pancreatitis + cholangitis → ERCP within 24 h; cholecystectomy in the same admission (mild)\n  → CECT after 72 h (or 5–7 days) to assess necrosis\n  → Infected necrosis (gas in collection, sepsis) → antibiotics (carbapenem) → STEP-UP:\n      percutaneous/endoscopic drainage → minimally invasive necrosectomy if no response\n      delay intervention ≥4 weeks until walled-off necrosis forms",
+  "tables": [
+   {
+    "title": "Revised Atlanta 2012: severity and collections",
+    "head": [
+     "Item",
+     "Definition"
+    ],
+    "rows": [
+     [
+      "Mild",
+      "No organ failure, no local or systemic complications"
+     ],
+     [
+      "Moderately severe",
+      "Transient organ failure (<48 h) and/or local or systemic complications"
+     ],
+     [
+      "Severe",
+      "Persistent organ failure >48 h (modified Marshall score ≥2)"
+     ],
+     [
+      "Interstitial oedematous pancreatitis",
+      "<4 weeks: acute peripancreatic fluid collection (APFC) → >4 weeks: pseudocyst (well-defined wall, no solid debris)"
+     ],
+     [
+      "Necrotising pancreatitis",
+      "<4 weeks: acute necrotic collection (ANC) → >4 weeks: walled-off necrosis (WON)"
+     ]
+    ]
+   },
+   {
+    "title": "Scores at a glance",
+    "head": [
+     "Score",
+     "Components",
+     "Cut-off"
+    ],
+    "rows": [
+     [
+      "Alvarado (MANTRELS, /10)",
+      "Migration of pain 1, Anorexia 1, Nausea/vomiting 1, Tenderness RIF 2, Rebound 1, Elevated temp 1, Leucocytosis 2, Shift to left 1",
+      "≥7 likely appendicitis; ≤4 unlikely"
+     ],
+     [
+      "RIPASA",
+      "Age, sex, clinical signs, WBC, urine; designed for Asian populations",
+      "≥7.5 likely appendicitis"
+     ],
+     [
+      "Hinchey (diverticulitis)",
+      "I pericolic abscess; II pelvic/distant abscess; III purulent peritonitis; IV faecal peritonitis",
+      "I–II antibiotics ± percutaneous drainage; III–IV surgery"
+     ],
+     [
+      "BISAP",
+      "BUN >25 mg/dL, Impaired mental status, SIRS, Age >60, Pleural effusion",
+      "≥3 = high mortality risk"
+     ],
+     [
+      "Ranson",
+      "Admission: age >55, WBC >16 000, glucose >200, LDH >350, AST >250. At 48 h: Hct fall >10%, BUN rise >5, Ca <8, PaO₂ <60, base deficit >4, fluid sequestration >6 L",
+      "≥3 = severe (needs 48 h)"
+     ],
+     [
+      "CT severity index (Balthazar)",
+      "Balthazar grade A–E (0–4) + necrosis (none 0, ≤30% 2, 30–50% 4, >50% 6)",
+      "Max 10; 7–10 severe"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Lipase** is more specific and stays elevated longer than amylase; the level does not correlate with severity.",
+   "**CECT is best done after 72 h**: necrosis is under-estimated earlier. Early CT only if the diagnosis is uncertain.",
+   "Commonest causes of acute pancreatitis: **gallstones** (overall) and **alcohol**; others — hypertriglyceridaemia (>1000 mg/dL), hypercalcaemia, post-ERCP, drugs (azathioprine, valproate), scorpion sting.",
+   "**Prophylactic antibiotics are not recommended** in sterile necrosis; give them for proven/suspected infected necrosis (gas bubbles on CT).",
+   "**Step-up approach** (PANTER): drainage first, necrosectomy only if needed, ideally **after 4 weeks** when the collection is walled off.",
+   "Pseudocyst: drain only if symptomatic/complicated (endoscopic cystogastrostomy preferred); size alone (>6 cm) is the old indication.",
+   "Cullen sign (periumbilical) and Grey Turner sign (flank) ecchymosis = retroperitoneal haemorrhage in severe pancreatitis.",
+   "Appendicitis: **McBurney point** (lateral 1/3 of spinous-umbilical line), Rovsing, psoas (retrocaecal), obturator (pelvic) signs; CT is most accurate in adults, ultrasound first in children and pregnancy.",
+   "Appendicular mass (lump) → conservative **Ochsner-Sherren** regime; abscess → percutaneous drainage; interval appendicectomy is optional.",
+   "Diverticulitis: **CT abdomen** is investigation of choice; avoid colonoscopy and barium enema in the acute phase (perforation risk); colonoscopy at ~6 weeks to exclude cancer."
+  ],
+  "traps": [
+   {
+    "stem": "Acute pancreatitis, day 1, diagnosis clear on pain and lipase. Next step to assess severity?",
+    "trap": "Urgent contrast CT abdomen.",
+    "fix": "CT is not needed for diagnosis when pain + enzymes are typical, and necrosis is underestimated before 72 h. Assess severity clinically (SIRS, BISAP, organ failure); CECT after 72 h if not improving."
+   },
+   {
+    "stem": "Infected walled-off pancreatic necrosis on day 10, patient stable on antibiotics. Next step?",
+    "trap": "Immediate open necrosectomy.",
+    "fix": "Step-up approach: continue antibiotics, delay; percutaneous or endoscopic drainage first, minimally invasive necrosectomy if no response, ideally after 4 weeks."
+   },
+   {
+    "stem": "Severe pancreatitis defined in Revised Atlanta by?",
+    "trap": "Ranson ≥3 or presence of necrosis on CT.",
+    "fix": "Persistent organ failure >48 h. Transient organ failure or local complications only = moderately severe."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Revised Atlanta: severe acute pancreatitis = persistent organ failure lasting more than {{c1::48 hours}}; a peripancreatic collection becomes a pseudocyst or WON after {{c2::4 weeks}}."
+   },
+   {
+    "type": "basic",
+    "front": "Components of BISAP score?",
+    "back": "BUN >25 mg/dL, Impaired mental status, SIRS, Age >60, Pleural effusion. Score ≥3 = high risk."
+   },
+   {
+    "type": "basic",
+    "front": "Timing of CECT in acute pancreatitis and why?",
+    "back": "After 72 h (often 5–7 days) — earlier scans underestimate necrosis; early CT only if diagnosis is in doubt."
+   },
+   {
+    "type": "cloze",
+    "text": "Alvarado score: the two items scoring 2 points are {{c1::right iliac fossa tenderness}} and {{c2::leucocytosis}}; total = 10."
+   },
+   {
+    "type": "cloze",
+    "text": "Hinchey stage {{c1::III}} = purulent peritonitis and stage {{c2::IV}} = faecal peritonitis."
+   },
+   {
+    "type": "basic",
+    "front": "Management sequence for infected pancreatic necrosis?",
+    "back": "Antibiotics (e.g. carbapenem) → delay → step-up: percutaneous/endoscopic drainage → minimally invasive necrosectomy, ideally after 4 weeks (walled-off)."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "acute pancreatitis",
+   "revised atlanta",
+   "bisap",
+   "ranson",
+   "balthazar",
+   "ct severity index",
+   "walled-off necrosis",
+   "pseudocyst",
+   "infected necrosis",
+   "step-up approach",
+   "necrosectomy",
+   "appendicitis",
+   "alvarado score",
+   "ripasa",
+   "mcburney",
+   "diverticulitis",
+   "hinchey",
+   "appendicular mass",
+   "cullen sign",
+   "grey turner sign"
+  ],
+  "wiki": [
+   "Acute_pancreatitis",
+   "Appendicitis",
+   "Diverticulitis"
+  ],
+  "verify": "Revised Atlanta 2012; IAP/APA 2013 and AGA guidance; Bailey & Love 28e. RIPASA cut-off 7.5."
+ },
+ {
+  "id": "surg-obstruction-volvulus",
+  "title": "Intestinal obstruction, volvulus, intussusception & mesenteric ischaemia",
+  "subject": "Surgery",
+  "system": "Gastrointestinal",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Colicky pain, vomiting, distension, absolute constipation = obstruction; early vomiting = proximal small bowel, early distension = large bowel.",
+   "Elderly, chronically constipated, massive distension, 'coffee bean' loop rising from the pelvis to the RUQ = sigmoid volvulus.",
+   "AF patient with severe abdominal pain out of proportion to a soft abdomen + rising lactate = acute mesenteric ischaemia → CT angiography."
+  ],
+  "algorithm": "Suspected obstruction\n  → Erect/supine X-ray → CECT abdomen (cause, level, closed loop, ischaemia)\n  → Strangulation signs (fever, tachycardia, constant pain, peritonism, ↑lactate) → urgent surgery\n  → Adhesive SBO without strangulation → drip and suck ± water-soluble contrast\n      (contrast in colon by 24 h predicts resolution)\n  → Sigmoid volvulus, no gangrene → flexible sigmoidoscopic detorsion + flatus tube\n      → elective sigmoid colectomy later (high recurrence)\n      gangrene/perforation → Hartmann procedure\n  → Caecal volvulus → right hemicolectomy (endoscopic detorsion rarely works)\n  → Acute mesenteric ischaemia → heparin + resuscitation → CTA →\n      embolectomy/bypass + resect dead bowel + second-look laparotomy",
+  "tables": [
+   {
+    "title": "Small vs large bowel obstruction vs ileus",
+    "head": [
+     "Feature",
+     "Small bowel obstruction",
+     "Large bowel obstruction",
+     "Paralytic ileus"
+    ],
+    "rows": [
+     [
+      "Commonest cause",
+      "Adhesions (then hernias)",
+      "Colorectal cancer (then volvulus, diverticular)",
+      "Post-op, hypokalaemia, peritonitis"
+     ],
+     [
+      "Pain",
+      "Colicky, central",
+      "Colicky, lower",
+      "Painless or mild"
+     ],
+     [
+      "Vomiting / distension",
+      "Early vomiting, less distension",
+      "Late vomiting, marked distension",
+      "Distension"
+     ],
+     [
+      "Bowel sounds",
+      "Hyperactive, tinkling",
+      "Hyperactive",
+      "Absent"
+     ],
+     [
+      "X-ray",
+      "Central loops, valvulae conniventes cross whole width (stack of coins), >3 cm",
+      "Peripheral, haustra cross part of width, >6 cm (caecum >9 cm)",
+      "Gas throughout small and large bowel"
+     ]
+    ]
+   },
+   {
+    "title": "Sigmoid vs caecal volvulus",
+    "head": [
+     "Feature",
+     "Sigmoid volvulus",
+     "Caecal volvulus"
+    ],
+    "rows": [
+     [
+      "Patient",
+      "Elderly, constipated, institutionalised, psychiatric",
+      "Younger, mobile caecum"
+     ],
+     [
+      "X-ray",
+      "Coffee bean / bent inner tube from pelvis to RUQ; Frimann-Dahl sign",
+      "Dilated caecum displaced to LUQ/epigastrium; single air-fluid level"
+     ],
+     [
+      "Contrast enema",
+      "Bird-beak tapering at rectosigmoid",
+      "Bird-beak at the twist"
+     ],
+     [
+      "Treatment",
+      "Endoscopic detorsion → elective sigmoidectomy",
+      "Right hemicolectomy"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**3-6-9 rule**: upper limit of normal diameter — small bowel 3 cm, colon 6 cm, caecum 9 cm.",
+   "**Closed-loop obstruction** (volvulus, LBO with competent ileocaecal valve) risks caecal perforation; caecum >12 cm is a danger sign.",
+   "**Intussusception**: 6 months–3 years (mostly ileocolic), colicky pain with drawing up of legs, **red-currant-jelly stool**, sausage-shaped mass, empty RIF (**Dance sign**); USG shows **target/doughnut** (transverse) and **pseudokidney** (longitudinal) signs.",
+   "Intussusception treatment: **pneumatic or hydrostatic reduction** under image guidance; surgery if peritonitis, perforation or shock, or failed reduction. In adults, a lead point (often tumour) → resection.",
+   "**Acute mesenteric ischaemia**: SMA embolism (usually from AF) is commonest; embolus lodges beyond the middle colic origin, so proximal jejunum is spared. Thrombosis affects the SMA origin (atherosclerotic, prior intestinal angina).",
+   "Non-occlusive mesenteric ischaemia (low-flow, vasopressors, digoxin) → catheter angiography with intra-arterial papaverine.",
+   "**Gallstone ileus**: Rigler triad = pneumobilia + SBO + ectopic gallstone; stone usually impacts at the **terminal ileum**; treat by enterolithotomy.",
+   "**Ogilvie syndrome** (acute colonic pseudo-obstruction): massive colonic dilatation without mechanical cause → IV **neostigmine** if caecum >10–12 cm despite conservative care.",
+   "Water-soluble contrast (Gastrografin) is both diagnostic and possibly therapeutic in adhesive SBO.",
+   "Strangulation is most likely with femoral hernia and closed-loop obstruction; it does not always show peritonism early — lactate and CT signs help."
+  ],
+  "traps": [
+   {
+    "stem": "Elderly man, sigmoid volvulus, no peritonitis, successful sigmoidoscopic detorsion. Further plan?",
+    "trap": "Discharge after detorsion — problem solved.",
+    "fix": "Recurrence is high (about half); plan elective sigmoid colectomy in the same admission if fit."
+   },
+   {
+    "stem": "30-year-old with caecal volvulus. Treatment?",
+    "trap": "Colonoscopic detorsion as for sigmoid volvulus.",
+    "fix": "Endoscopic detorsion is rarely successful and risky in caecal volvulus; right hemicolectomy (ileocolic resection) is the treatment."
+   },
+   {
+    "stem": "Patient with AF has severe abdominal pain; examination is soft with minimal tenderness. Most likely?",
+    "trap": "Non-specific abdominal pain or gastritis because signs are minimal.",
+    "fix": "Pain out of proportion to signs = acute mesenteric ischaemia until proven otherwise; CT angiography is the investigation of choice."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "X-ray feature distinguishing small from large bowel loops?",
+    "back": "Small bowel: central, valvulae conniventes cross the full width. Large bowel: peripheral, haustra cross only part of the width."
+   },
+   {
+    "type": "cloze",
+    "text": "Sigmoid volvulus: X-ray shows the {{c1::coffee bean (bent inner tube)}} sign; first-line treatment is {{c2::flexible sigmoidoscopic detorsion with a flatus tube}}."
+   },
+   {
+    "type": "cloze",
+    "text": "Intussusception on ultrasound: {{c1::target (doughnut)}} sign in transverse section and {{c2::pseudokidney}} sign in longitudinal section."
+   },
+   {
+    "type": "basic",
+    "front": "Investigation of choice for acute mesenteric ischaemia?",
+    "back": "CT angiography (multidetector CTA). Lactate rises late; plain X-ray is often normal early."
+   },
+   {
+    "type": "cloze",
+    "text": "Rigler triad of gallstone ileus: {{c1::pneumobilia}}, small bowel obstruction and an {{c2::ectopic gallstone}}, usually at the terminal ileum."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Sigmavolvulus - Coffee-bean-sign - LSL.jpg",
+    "caption": "Sigmoid volvulus (left lateral decubitus film): hugely distended inverted-U sigmoid loop — the 'coffee bean' sign."
+   },
+   {
+    "commons": "File:Ultrasound of target sign in intussusception of the right bowel.png",
+    "caption": "Intussusception on ultrasound: target (doughnut) sign — concentric rings of bowel wall within bowel in transverse section."
+   }
+  ],
+  "keywords": [
+   "intestinal obstruction",
+   "small bowel obstruction",
+   "large bowel obstruction",
+   "paralytic ileus",
+   "adhesions",
+   "sigmoid volvulus",
+   "coffee bean sign",
+   "caecal volvulus",
+   "cecal volvulus",
+   "intussusception",
+   "red currant jelly",
+   "target sign",
+   "mesenteric ischaemia",
+   "mesenteric ischemia",
+   "gallstone ileus",
+   "rigler triad",
+   "ogilvie syndrome",
+   "closed loop obstruction",
+   "gastrografin"
+  ],
+  "wiki": [
+   "Bowel_obstruction",
+   "Volvulus",
+   "Intussusception_(medical_disorder)"
+  ],
+  "verify": "Bailey & Love 28e; ESVS 2017 mesenteric guideline. Rigler triad (gallstone ileus) is distinct from Rigler sign (double-wall sign of pneumoperitoneum)."
+ },
+ {
+  "id": "surg-upper-gi",
+  "title": "Upper GI: achalasia, GERD/Barrett, peptic ulcer, bariatrics, ZES & GOO",
+  "subject": "Surgery",
+  "system": "Gastrointestinal",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Dysphagia to solids AND liquids from the start + regurgitation + bird-beak on barium = achalasia; confirm with high-resolution manometry.",
+   "Sudden severe epigastric pain → board-like rigidity + free gas under the diaphragm on erect CXR = perforated peptic ulcer.",
+   "Long-standing ulcer + projectile non-bilious vomiting of old food + succussion splash = gastric outlet obstruction → hypochloraemic hypokalaemic metabolic alkalosis with paradoxical aciduria."
+  ],
+  "algorithm": "Dysphagia to solids and liquids\n  → Endoscopy first (exclude pseudo-achalasia / GEJ cancer)\n  → Barium swallow (bird-beak, dilated oesophagus)\n  → High-resolution manometry (gold standard): raised IRP + absent peristalsis\n    Type II → best response to any therapy (pneumatic dilatation, Heller, POEM)\n    Type III (spastic) → POEM preferred (longer myotomy)\n    Unfit → botulinum toxin\nGastric outlet obstruction\n  → NG aspiration, IV 0.9% saline + KCl (correct alkalosis and hypokalaemia first)\n  → Endoscopy + biopsy (exclude malignancy) → dilatation or surgery",
+  "tables": [
+   {
+    "title": "Achalasia: Chicago classification subtypes",
+    "head": [
+     "Type",
+     "Manometry",
+     "Treatment response"
+    ],
+    "rows": [
+     [
+      "I (classic)",
+      "Raised IRP, 100% failed peristalsis, no pressurisation",
+      "Intermediate"
+     ],
+     [
+      "II",
+      "Raised IRP, pan-oesophageal pressurisation",
+      "Best response to all treatments"
+     ],
+     [
+      "III (spastic)",
+      "Raised IRP, premature (spastic) contractions",
+      "Poorest with dilatation; POEM preferred"
+     ]
+    ]
+   },
+   {
+    "title": "Bariatric procedures",
+    "head": [
+     "Procedure",
+     "Mechanism",
+     "Key complications"
+    ],
+    "rows": [
+     [
+      "Sleeve gastrectomy",
+      "Restrictive (+ ↓ghrelin)",
+      "Staple-line leak near angle of His; new/worse GERD"
+     ],
+     [
+      "Roux-en-Y gastric bypass",
+      "Restrictive + malabsorptive",
+      "Dumping, marginal ulcer, internal (Petersen) hernia, iron/B12/Ca/vit D deficiency"
+     ],
+     [
+      "Adjustable gastric band",
+      "Restrictive",
+      "Slippage, erosion, port problems; now rarely done"
+     ],
+     [
+      "Biliopancreatic diversion ± duodenal switch",
+      "Mainly malabsorptive",
+      "Greatest weight loss; protein-calorie and fat-soluble vitamin deficiency"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Achalasia: loss of inhibitory (NO/VIP) neurons of the **myenteric plexus**; Chagas disease (T. cruzi) causes secondary achalasia; long-term risk of **squamous cell carcinoma**.",
+   "**Heller myotomy + partial fundoplication (Dor/Toupet)** or **POEM**; POEM has more post-procedure reflux than Heller + Dor.",
+   "**Barrett oesophagus**: columnar metaplasia with **goblet cells (intestinal metaplasia)** ≥1 cm above the GEJ → risk of adenocarcinoma; dysplasia → endoscopic resection + radiofrequency ablation.",
+   "**Nissen fundoplication** = 360° posterior wrap for refractory GERD; manometry before surgery to exclude achalasia/aperistalsis.",
+   "Perforated ulcer: commonest is **anterior duodenal**; erect CXR free gas is missed in a proportion, so **CT** is more sensitive; treatment = resuscitation + **Graham omental patch**, then H. pylori eradication.",
+   "Bleeding **posterior duodenal ulcer** erodes the **gastroduodenal artery**; gastric ulcer on lesser curve → left gastric artery.",
+   "**Zollinger-Ellison**: gastrinoma (duodenum commonest site; ~25% MEN1), multiple/distal duodenal or jejunal ulcers + diarrhoea; fasting gastrin >10× ULN with gastric pH <2 is diagnostic; **secretin test** paradoxically raises gastrin. Gastrinoma triangle: cystic–CBD junction, 2nd/3rd part of duodenum, neck/body of pancreas.",
+   "**GOO metabolic picture**: loss of HCl → hypochloraemic metabolic alkalosis; kidney conserves Na⁺ by excreting K⁺ and later H⁺ → **paradoxical aciduria**. Correct with **0.9% saline + KCl**.",
+   "Bariatric surgery indication (classic NIH): BMI ≥40, or ≥35 with comorbidity; Asian/Indian cut-offs are lower (≈ BMI ≥37.5, or ≥32.5 with comorbidity); ASMBS/IFSO 2022 lowered thresholds further (≥35 regardless; consider ≥30 with metabolic disease)."
+  ],
+  "traps": [
+   {
+    "stem": "60-year-old with 3 months of progressive dysphagia and weight loss; barium shows bird-beak narrowing. Next step?",
+    "trap": "Manometry and pneumatic dilatation for achalasia.",
+    "fix": "Short history, older age and weight loss suggest pseudo-achalasia from GEJ cancer; do endoscopy (± EUS/CT) first."
+   },
+   {
+    "stem": "Pyloric obstruction from chronic ulcer: urine is acidic despite metabolic alkalosis. Why?",
+    "trap": "Coexisting renal tubular acidosis.",
+    "fix": "Paradoxical aciduria: with volume, Cl⁻ and K⁺ depletion the distal nephron reabsorbs Na⁺ in exchange for H⁺ (and K⁺). Treat with normal saline + KCl."
+   },
+   {
+    "stem": "Which achalasia subtype responds best to treatment?",
+    "trap": "Type I (classic), because it is the 'typical' form.",
+    "fix": "Type II (pan-oesophageal pressurisation) responds best; type III (spastic) does worst with dilatation and is best treated by POEM."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Achalasia: manometry shows {{c1::incomplete LES relaxation (raised IRP)}} with {{c2::absent peristalsis}}; type {{c3::II}} has the best prognosis."
+   },
+   {
+    "type": "basic",
+    "front": "Metabolic picture of gastric outlet obstruction and its correction?",
+    "back": "Hypochloraemic, hypokalaemic metabolic alkalosis with paradoxical aciduria. Correct with IV 0.9% NaCl + KCl."
+   },
+   {
+    "type": "cloze",
+    "text": "Bleeding posterior duodenal ulcer erodes the {{c1::gastroduodenal artery}}; perforated anterior duodenal ulcer is repaired with a {{c2::Graham omental patch}}."
+   },
+   {
+    "type": "basic",
+    "front": "Diagnostic test for Zollinger-Ellison syndrome when gastrin is equivocal?",
+    "back": "Secretin stimulation test — gastrin rises paradoxically in gastrinoma (falls or no change normally)."
+   },
+   {
+    "type": "cloze",
+    "text": "Barrett oesophagus is defined by {{c1::intestinal metaplasia with goblet cells}} in the distal oesophagus and predisposes to {{c2::adenocarcinoma}}."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Pneumoperitoneum.jpg",
+    "caption": "Erect chest X-ray: free gas under the right hemidiaphragm (between the green and red arrows) = pneumoperitoneum, e.g. perforated duodenal ulcer. Gas in the colon under the left dome (blue arrows) is normal."
+   },
+   {
+    "commons": "File:Barium imaging for Achalasia - Flickr - brewbooks.jpg",
+    "caption": "Timed barium oesophagogram in achalasia: before myotomy (a–c) a barium column is retained above a tapered LES at 1–2 min; after surgery (d–f) it empties faster."
+   }
+  ],
+  "keywords": [
+   "achalasia",
+   "bird beak",
+   "manometry",
+   "chicago classification",
+   "heller myotomy",
+   "poem",
+   "gerd",
+   "barrett oesophagus",
+   "nissen fundoplication",
+   "peptic ulcer perforation",
+   "pneumoperitoneum",
+   "graham patch",
+   "gastroduodenal artery",
+   "zollinger-ellison",
+   "gastrinoma",
+   "gastric outlet obstruction",
+   "paradoxical aciduria",
+   "bariatric surgery",
+   "sleeve gastrectomy",
+   "roux-en-y gastric bypass"
+  ],
+  "wiki": [
+   "Achalasia",
+   "Zollinger–Ellison_syndrome",
+   "Gastric_outlet_obstruction"
+  ],
+  "verify": "Chicago classification v4.0 (2021); ASMBS/IFSO 2022 bariatric indications; Bailey & Love 28e."
+ },
+ {
+  "id": "surg-gi-malignancy",
+  "title": "GI malignancy: oesophagus, stomach, colorectum, anal canal, carcinoid",
+  "subject": "Surgery",
+  "system": "Gastrointestinal oncology",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Smoker/drinker, mid-oesophagus, progressive dysphagia = SCC; obese man with GERD/Barrett, lower oesophagus = adenocarcinoma.",
+   "Young patient, signet-ring cells, leather-bottle stomach, CDH1 = diffuse (Lauren) gastric cancer; elderly, H. pylori, distal glandular tumour = intestinal type.",
+   "Right colon cancer → anaemia and mass; left colon → altered bowel habit, obstruction, apple-core lesion on barium."
+  ],
+  "algorithm": "Rectal cancer\n  → Colonoscopy + biopsy; CEA; CT chest-abdomen-pelvis; pelvic MRI (local stage, CRM)\n  → Early (T1–T2, N0) → surgery with TME (low anterior resection; APR if sphincter involved)\n  → Locally advanced (T3–T4 or N+, threatened CRM) → neoadjuvant chemoradiation / total neoadjuvant therapy → TME\nColon cancer\n  → Resection with ≥12 nodes → stage III (N+) → adjuvant FOLFOX/CAPOX\nAnal canal SCC\n  → Nigro protocol: chemoradiation (5-FU + mitomycin C + RT) first-line\n  → APR only for residual/recurrent disease",
+  "tables": [
+   {
+    "title": "Oesophageal SCC vs adenocarcinoma",
+    "head": [
+     "Feature",
+     "Squamous cell carcinoma",
+     "Adenocarcinoma"
+    ],
+    "rows": [
+     [
+      "Site",
+      "Middle third (commonest)",
+      "Lower third / GEJ"
+     ],
+     [
+      "Risk factors",
+      "Smoking, alcohol, hot beverages, achalasia, caustic stricture, Plummer-Vinson, tylosis, HPV",
+      "GERD, Barrett, obesity, smoking"
+     ],
+     [
+      "Epidemiology",
+      "Commonest type in India/Asia",
+      "Commonest in the West"
+     ],
+     [
+      "Treatment",
+      "Definitive chemoradiation option (cervical/upper); neoadjuvant CRT + oesophagectomy",
+      "Neoadjuvant CRT (CROSS) or perioperative chemo (FLOT) + oesophagectomy"
+     ]
+    ]
+   },
+   {
+    "title": "Gastric cancer: Lauren classification",
+    "head": [
+     "Feature",
+     "Intestinal type",
+     "Diffuse type"
+    ],
+    "rows": [
+     [
+      "Histology",
+      "Gland-forming",
+      "Signet-ring cells, no glands, linitis plastica"
+     ],
+     [
+      "Patient",
+      "Older, male",
+      "Younger, equal sex"
+     ],
+     [
+      "Association",
+      "H. pylori, atrophic gastritis, intestinal metaplasia, diet",
+      "CDH1 (E-cadherin) germline mutation, blood group A"
+     ],
+     [
+      "Spread",
+      "Haematogenous (liver)",
+      "Transmural, peritoneal, Krukenberg (ovary)"
+     ],
+     [
+      "Prognosis",
+      "Better",
+      "Worse"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Gastric cancer surgery: **D2 lymphadenectomy** is the standard with gastrectomy; T1a mucosal lesions may be treated by endoscopic resection (EMR/ESD).",
+   "Signs of spread in gastric cancer: **Virchow node** (left supraclavicular, Troisier sign), **Sister Mary Joseph nodule** (umbilicus), **Blumer shelf** (rectovesical/rectouterine pouch), **Irish node** (left axilla), Krukenberg tumour.",
+   "Colorectal T stage: T1 submucosa, T2 muscularis propria, T3 through muscularis into pericolorectal tissue, T4a visceral peritoneum, T4b other organs; N1 = 1–3 nodes, N2 = ≥4.",
+   "**Total mesorectal excision (Heald)** removes the rectum with its intact mesorectal envelope → lowers local recurrence; circumferential resection margin >1 mm.",
+   "**MSI-H/dMMR** tumours: right-sided, mucinous, lymphocytic infiltrate, better stage-for-stage prognosis, respond to **immune checkpoint inhibitors** (pembrolizumab); ~15% of sporadic CRC (mostly MLH1 promoter hypermethylation).",
+   "**Lynch syndrome**: germline MLH1, MSH2, MSH6, PMS2 (or EPCAM); **Amsterdam II 3-2-1** rule; commonest extracolonic cancer = **endometrium**.",
+   "**FAP**: APC gene on **5q21**, >100 adenomas, near-100% cancer risk → restorative proctocolectomy with **ileal pouch-anal anastomosis**; CHRPE; Gardner (osteomas, desmoids), Turcot (brain tumours). Leading causes of death after colectomy: periampullary/duodenal cancer and desmoids.",
+   "**Anal canal**: SCC (HPV 16, HIV, receptive anal intercourse); below the dentate line drains to **superficial inguinal nodes**. Nigro protocol = 5-FU + mitomycin C + radiotherapy.",
+   "**Carcinoid (NET)**: commonest in small intestine (ileum) and appendix; appendiceal NET <2 cm at the tip → appendicectomy; >2 cm or base/mesoappendix involvement → right hemicolectomy.",
+   "**Carcinoid syndrome** (flushing, diarrhoea, bronchospasm, right-sided valve disease — tricuspid regurgitation, pulmonary stenosis) needs **liver metastases**; diagnose with urinary **5-HIAA**; treat with octreotide; niacin deficiency (pellagra) possible."
+  ],
+  "traps": [
+   {
+    "stem": "Squamous cell carcinoma of the anal canal, T2N0. First-line treatment?",
+    "trap": "Abdominoperineal resection, as for low rectal adenocarcinoma.",
+    "fix": "Nigro protocol chemoradiation (5-FU + mitomycin C + RT) preserves the sphincter; APR is salvage for persistent/recurrent disease."
+   },
+   {
+    "stem": "Appendicectomy specimen shows a 2.5 cm carcinoid at the base of the appendix. Next step?",
+    "trap": "Nothing further; appendicectomy is curative for carcinoid.",
+    "fix": "Size >2 cm or base/mesoappendix involvement → right hemicolectomy. Simple appendicectomy is enough only for small (<2 cm) tip lesions."
+   },
+   {
+    "stem": "Carcinoid of the ileum without liver metastasis. Will the patient have flushing and diarrhoea?",
+    "trap": "Yes — all midgut carcinoids cause carcinoid syndrome.",
+    "fix": "Serotonin is inactivated by the liver; carcinoid syndrome usually needs hepatic metastases (or primary draining outside the portal system, e.g. bronchial/ovarian)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Lauren diffuse gastric cancer: histology, gene and spread?",
+    "back": "Signet-ring cells without glands (linitis plastica); germline CDH1 (E-cadherin) in hereditary form; transmural and peritoneal spread (Krukenberg)."
+   },
+   {
+    "type": "cloze",
+    "text": "Nigro protocol for anal canal SCC = {{c1::5-FU}} + {{c2::mitomycin C}} + radiotherapy."
+   },
+   {
+    "type": "cloze",
+    "text": "Commonest extracolonic cancer in Lynch syndrome is {{c1::endometrial carcinoma}}; FAP is caused by {{c2::APC}} gene mutation on chromosome 5q21."
+   },
+   {
+    "type": "basic",
+    "front": "Investigation and marker for carcinoid syndrome?",
+    "back": "24-h urinary 5-HIAA (and serum chromogranin A); somatostatin receptor imaging (Ga-68 DOTATATE PET) for localisation."
+   },
+   {
+    "type": "cloze",
+    "text": "In rectal cancer, {{c1::total mesorectal excision}} reduces local recurrence; locally advanced tumours (T3/T4 or N+) receive {{c2::neoadjuvant chemoradiation}} first."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "oesophageal cancer",
+   "gastric cancer",
+   "lauren classification",
+   "signet ring",
+   "linitis plastica",
+   "d2 lymphadenectomy",
+   "virchow node",
+   "krukenberg",
+   "colorectal cancer",
+   "tnm",
+   "total mesorectal excision",
+   "microsatellite instability",
+   "lynch syndrome",
+   "fap",
+   "apc gene",
+   "anal canal carcinoma",
+   "nigro protocol",
+   "carcinoid",
+   "5-hiaa"
+  ],
+  "wiki": [
+   "Colorectal_cancer",
+   "Stomach_cancer",
+   "Carcinoid_syndrome"
+  ],
+  "verify": "AJCC 8th TNM; Bailey & Love 28e; Sabiston 21e. Commonest carcinoid site: older texts say appendix, current series say small intestine."
+ },
+ {
+  "id": "surg-hepatobiliary",
+  "title": "Hepatobiliary: gallstones, cholangitis, choledochal cyst, liver lesions, Whipple",
+  "subject": "Surgery",
+  "system": "Hepatobiliary & pancreas",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Fever with rigors + RUQ pain + jaundice = Charcot triad (acute cholangitis); add hypotension + confusion = Reynolds pentad → urgent biliary drainage (ERCP).",
+   "Painless progressive jaundice + palpable non-tender gallbladder (Courvoisier) ± weight loss = periampullary/pancreatic head cancer → Whipple if resectable.",
+   "Infant with persistent jaundice beyond 2 weeks, pale stools, dark urine = biliary atresia → Kasai portoenterostomy, best before 60 days."
+  ],
+  "algorithm": "Acute cholangitis (Tokyo 2018)\n  → Blood cultures, IV antibiotics, fluids\n  → Grade III (organ dysfunction) → urgent biliary drainage (ERCP) after resuscitation\n  → Grade II (moderate) → early drainage (within 24–48 h)\n  → Grade I (mild) → antibiotics; drain if no response\n  → Interval cholecystectomy for stones\nAcute calculous cholecystitis\n  → Early laparoscopic cholecystectomy (within 72 h–7 days of onset), not interval surgery, if fit\nPeriampullary mass\n  → CECT pancreas protocol → resectable → pancreaticoduodenectomy (Whipple)\n    (no routine preoperative biliary stenting unless cholangitis or delayed surgery)",
+  "tables": [
+   {
+    "title": "Todani classification of choledochal cyst",
+    "head": [
+     "Type",
+     "Description",
+     "Treatment"
+    ],
+    "rows": [
+     [
+      "I (commonest, ~50–80%)",
+      "Fusiform or cystic dilatation of the extrahepatic CBD",
+      "Excision + Roux-en-Y hepaticojejunostomy"
+     ],
+     [
+      "II",
+      "Supraduodenal diverticulum of the CBD",
+      "Diverticulum excision"
+     ],
+     [
+      "III",
+      "Choledochocele (intraduodenal CBD dilatation)",
+      "Endoscopic sphincterotomy/unroofing"
+     ],
+     [
+      "IVa / IVb",
+      "IVa: multiple intra + extrahepatic cysts; IVb: multiple extrahepatic only",
+      "Excision + hepaticojejunostomy ± hepatectomy"
+     ],
+     [
+      "V (Caroli disease)",
+      "Multiple intrahepatic cysts only",
+      "Hepatectomy if localised; transplant if diffuse"
+     ]
+    ]
+   },
+   {
+    "title": "Amoebic vs pyogenic liver abscess",
+    "head": [
+     "Feature",
+     "Amoebic",
+     "Pyogenic"
+    ],
+    "rows": [
+     [
+      "Patient",
+      "Young adult male, endemic area, alcohol",
+      "Older; biliary disease, diabetes"
+     ],
+     [
+      "Source",
+      "E. histolytica via portal vein",
+      "Biliary tree (commonest), portal, haematogenous"
+     ],
+     [
+      "Lesion",
+      "Usually single, right lobe (posterosuperior)",
+      "Often multiple"
+     ],
+     [
+      "Pus",
+      "'Anchovy sauce', usually sterile",
+      "Foul; E. coli, Klebsiella"
+     ],
+     [
+      "Treatment",
+      "Metronidazole (+ luminal agent); aspirate only if large/left lobe/impending rupture/no response",
+      "Antibiotics + percutaneous drainage"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Tokyo 2018 cholangitis severity**: III = any organ dysfunction; II = two of WBC >12 000 or <4000, fever ≥39 °C, age ≥75, bilirubin ≥5 mg/dL, low albumin; I = neither.",
+   "**Biliary atresia**: triangular cord sign on USG, no excretion on HIDA, **intraoperative cholangiogram** confirms; **Kasai** portoenterostomy best within **60 days**; failure → liver transplant (commonest indication in children).",
+   "**Klatskin tumour** (hilar cholangiocarcinoma) — **Bismuth-Corlette**: I below confluence, II at confluence, IIIa extends into right hepatic duct, IIIb into left, IV both sides/multifocal.",
+   "**Hydatid cyst** (E. granulosus): 'water-lily' sign (detached membranes), daughter cysts; **PAIR** (puncture, aspiration, injection of scolicide, re-aspiration) under albendazole cover — contraindicated when the cyst communicates with the biliary tree; avoid formalin as scolicide in that case (sclerosing cholangitis).",
+   "**Gallbladder cancer**: commonest in north India; risk — gallstones, **porcelain gallbladder**, anomalous pancreaticobiliary junction, choledochal cyst; T1a → simple cholecystectomy; **T1b and beyond → extended cholecystectomy** (segments IVb/V + lymphadenectomy).",
+   "**Couinaud**: 8 functional segments based on portal and hepatic vein branches; **segment I (caudate)** drains directly into the IVC, so it hypertrophies in Budd-Chiari.",
+   "Whipple (pancreaticoduodenectomy) removes pancreatic head, duodenum, distal CBD, gallbladder ± distal stomach; commonest serious complication = **pancreatic fistula**; delayed gastric emptying is the commonest overall.",
+   "Ampullary carcinoma: intermittent jaundice, **silver stool** (bleeding + acholic stool), best prognosis among periampullary cancers.",
+   "**Mirizzi syndrome**: stone in Hartmann pouch/cystic duct compresses the CHD → obstructive jaundice; Csendes classification.",
+   "Investigation of choice for gallstones = **USG**; for CBD stones without intervention = **MRCP**; ERCP is therapeutic."
+  ],
+  "traps": [
+   {
+    "stem": "Fever, jaundice, RUQ pain, BP 80/50 and confusion. Most important step after resuscitation and antibiotics?",
+    "trap": "Urgent laparoscopic cholecystectomy.",
+    "fix": "Reynolds pentad = Tokyo grade III cholangitis → urgent biliary decompression, preferably ERCP (PTBD if ERCP fails). Cholecystectomy later."
+   },
+   {
+    "stem": "Choledochal cyst type I. Best operation?",
+    "trap": "Cystoduodenostomy/cystojejunostomy (internal drainage).",
+    "fix": "Complete cyst excision with Roux-en-Y hepaticojejunostomy; internal drainage leaves the cyst wall with high cholangiocarcinoma and cholangitis risk."
+   },
+   {
+    "stem": "Hydatid liver cyst with bile-stained aspirate. Proceed with PAIR?",
+    "trap": "Yes — inject hypertonic saline/alcohol as usual.",
+    "fix": "Bile in the cyst = cysto-biliary communication: PAIR is contraindicated (risk of chemical sclerosing cholangitis). Treat surgically/endoscopically under albendazole cover."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Charcot triad = fever, {{c1::RUQ pain}} and jaundice; Reynolds pentad adds {{c2::hypotension}} and {{c3::altered mental status}}."
+   },
+   {
+    "type": "basic",
+    "front": "Commonest Todani type and its treatment?",
+    "back": "Type I (fusiform/cystic extrahepatic CBD dilatation) → complete excision + Roux-en-Y hepaticojejunostomy."
+   },
+   {
+    "type": "cloze",
+    "text": "Kasai portoenterostomy for biliary atresia gives the best results when done before {{c1::60 days}} of age."
+   },
+   {
+    "type": "basic",
+    "front": "Bismuth-Corlette type IIIa vs IIIb?",
+    "back": "IIIa: hilar tumour extends into the right hepatic duct; IIIb: into the left hepatic duct. IV: both sides or multifocal."
+   },
+   {
+    "type": "cloze",
+    "text": "In Couinaud anatomy, segment {{c1::I (caudate lobe)}} drains directly into the IVC and enlarges in {{c2::Budd-Chiari syndrome}}."
+   },
+   {
+    "type": "basic",
+    "front": "Gallbladder cancer found to be T1b after cholecystectomy. Next step?",
+    "back": "Re-operate for extended (radical) cholecystectomy: resection of liver bed (segments IVb/V) + regional lymphadenectomy. T1a needs only simple cholecystectomy."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "cholangitis",
+   "charcot triad",
+   "reynolds pentad",
+   "tokyo guidelines",
+   "choledochal cyst",
+   "todani",
+   "biliary atresia",
+   "kasai",
+   "hydatid cyst",
+   "pair",
+   "klatskin tumour",
+   "bismuth-corlette",
+   "gallbladder cancer",
+   "porcelain gallbladder",
+   "couinaud",
+   "liver abscess",
+   "whipple",
+   "periampullary carcinoma",
+   "courvoisier",
+   "mirizzi"
+  ],
+  "wiki": [
+   "Ascending_cholangitis",
+   "Choledochal_cysts",
+   "Pancreaticoduodenectomy"
+  ],
+  "verify": "Tokyo Guidelines 2018; Bailey & Love 28e; Sabiston 21e."
+ },
+ {
+  "id": "surg-thyroid-breast",
+  "title": "Thyroid nodule & cancer; breast cancer workup and subtypes",
+  "subject": "Surgery",
+  "system": "Endocrine & breast",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Thyroid nodule workup = TSH → ultrasound → FNAC reported in Bethesda I–VI; low TSH → radionuclide scan first (hot nodule rarely malignant).",
+   "Young woman, radiation history, cervical node, Orphan Annie nuclei + psammoma bodies = papillary carcinoma; calcitonin + amyloid stroma + MEN2/RET = medullary.",
+   "Breast lump workup = triple assessment: clinical exam + imaging (mammogram ≥35–40 y / USG if younger) + core-needle biopsy."
+  ],
+  "algorithm": "Thyroid nodule\n  → TSH\n    Low → radionuclide scan → hot nodule: treat hyperthyroidism (FNA usually not needed)\n    Normal/high → USG neck → FNAC if suspicious features/size criteria\n  → Bethesda I: repeat USG-guided FNA\n    II: follow-up\n    III (AUS): repeat FNA / molecular testing / lobectomy\n    IV (follicular neoplasm): molecular testing or diagnostic lobectomy\n    V: lobectomy or total thyroidectomy\n    VI: surgery (lobectomy for low-risk 1–4 cm PTC; total thyroidectomy for >4 cm, nodes, extrathyroidal extension)\nBreast lump\n  → Triple assessment → core biopsy with ER/PR/HER2/Ki-67\n  → Clinically node-negative → sentinel node biopsy; node-positive → axillary dissection (or neoadjuvant then re-stage)",
+  "tables": [
+   {
+    "title": "Thyroid carcinomas",
+    "head": [
+     "Feature",
+     "Papillary",
+     "Follicular",
+     "Medullary",
+     "Anaplastic"
+    ],
+    "rows": [
+     [
+      "Frequency",
+      "Commonest (~80%)",
+      "~10–15%; iodine-deficient areas",
+      "~5%; 25% familial",
+      "Rare; elderly"
+     ],
+     [
+      "Cell / key histology",
+      "Orphan Annie (ground-glass) nuclei, nuclear grooves, pseudo-inclusions, psammoma bodies",
+      "Capsular and/or vascular invasion (cannot diagnose on FNAC)",
+      "Parafollicular C cells; amyloid stroma (calcitonin)",
+      "Undifferentiated, spindle/giant cells"
+     ],
+     [
+      "Spread",
+      "Lymphatic (cervical nodes)",
+      "Haematogenous (bone, lung)",
+      "Lymph + blood",
+      "Local invasion, rapid"
+     ],
+     [
+      "Genetics / risk",
+      "RET/PTC, BRAF V600E; radiation",
+      "RAS, PAX8-PPARγ",
+      "RET (MEN 2A/2B)",
+      "TP53"
+     ],
+     [
+      "Marker / treatment",
+      "Thyroglobulin; surgery ± RAI",
+      "Thyroglobulin; surgery ± RAI",
+      "Calcitonin, CEA; total thyroidectomy + central neck dissection; RAI useless",
+      "Poor prognosis; palliation, BRAF-targeted therapy if mutated"
+     ]
+    ]
+   },
+   {
+    "title": "Breast cancer molecular subtypes",
+    "head": [
+     "Subtype",
+     "Receptors",
+     "Therapy",
+     "Notes"
+    ],
+    "rows": [
+     [
+      "Luminal A",
+      "ER/PR+, HER2−, low Ki-67",
+      "Endocrine (tamoxifen pre-menopause; aromatase inhibitor post-menopause)",
+      "Best prognosis"
+     ],
+     [
+      "Luminal B",
+      "ER+, HER2− with high Ki-67 or HER2+",
+      "Endocrine + chemo ± anti-HER2",
+      "—"
+     ],
+     [
+      "HER2-enriched",
+      "ER/PR−, HER2+",
+      "Chemo + trastuzumab (± pertuzumab)",
+      "Trastuzumab cardiotoxicity → monitor LVEF"
+     ],
+     [
+      "Triple-negative (basal-like)",
+      "ER−, PR−, HER2−",
+      "Chemotherapy; immunotherapy (pembrolizumab) in selected; PARP inhibitor if BRCA",
+      "BRCA1 association, young, aggressive"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Bethesda (TBSRTC)**: I non-diagnostic, II benign, III atypia of undetermined significance, IV follicular neoplasm, V suspicious for malignancy, VI malignant.",
+   "Follicular carcinoma vs adenoma needs **capsular/vascular invasion on histology** → FNAC can only say 'follicular neoplasm' (Bethesda IV).",
+   "**Recurrent laryngeal nerve**: unilateral injury → hoarseness; bilateral → stridor/airway obstruction (cords in paramedian position) → tracheostomy. **External branch of superior laryngeal nerve** (with superior thyroid artery) → loss of high-pitched voice, voice fatigue.",
+   "**Post-thyroidectomy hypocalcaemia** (parathyroid injury/devascularisation): perioral tingling, **Chvostek** and **Trousseau** signs, usually 24–72 h → IV calcium gluconate.",
+   "Other early complications: **haematoma causing airway compromise** → open the wound at the bedside; thyroid storm.",
+   "**MTC**: prophylactic total thyroidectomy in RET carriers (age by risk level — earliest in MEN2B, within the first year of life); exclude **phaeochromocytoma** before surgery.",
+   "**BI-RADS**: 0 incomplete, 1 negative, 2 benign, 3 probably benign (<2% malignancy, short-interval follow-up), 4 suspicious (biopsy), 5 highly suggestive (≥95%), 6 known biopsy-proven cancer.",
+   "**Sentinel node biopsy**: blue dye (isosulfan/methylene blue) ± Tc-99m sulfur colloid; standard for clinically node-negative early breast cancer; contraindicated in **inflammatory breast cancer**.",
+   "**Phyllodes tumour vs fibroadenoma**: phyllodes in older women (40s), rapidly growing, large, leaf-like stromal overgrowth → **wide local excision with ≥1 cm margin**, no axillary dissection (spreads haematogenously). Fibroadenoma: young, mobile 'breast mouse', reassure/excise.",
+   "Breast-conserving surgery + radiotherapy is equivalent to mastectomy for suitable early cancers; contraindications include multicentric disease, inability to get radiotherapy, and diffuse malignant microcalcifications."
+  ],
+  "traps": [
+   {
+    "stem": "FNAC of a thyroid nodule reports 'follicular neoplasm'. Can it be called follicular carcinoma?",
+    "trap": "Yes — cytology shows follicular malignant cells.",
+    "fix": "No. Follicular carcinoma needs capsular/vascular invasion on histology; Bethesda IV → molecular testing or diagnostic lobectomy."
+   },
+   {
+    "stem": "Opera singer after thyroidectomy can no longer reach high notes; voice tires easily. Which nerve?",
+    "trap": "Recurrent laryngeal nerve.",
+    "fix": "External branch of the superior laryngeal nerve (supplies cricothyroid), at risk while ligating the superior thyroid pedicle. RLN injury → hoarseness or stridor."
+   },
+   {
+    "stem": "45-year-old woman with a rapidly enlarging 8 cm well-circumscribed breast mass; core biopsy shows leaf-like stromal overgrowth. Surgery?",
+    "trap": "Mastectomy with axillary clearance as for carcinoma.",
+    "fix": "Phyllodes tumour → wide local excision with ≥1 cm margins; axillary dissection not needed as nodal spread is rare."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Papillary thyroid carcinoma shows {{c1::Orphan Annie (ground-glass)}} nuclei and {{c2::psammoma bodies}} and spreads mainly by {{c3::lymphatics}}."
+   },
+   {
+    "type": "basic",
+    "front": "Bethesda categories I–VI for thyroid cytology?",
+    "back": "I non-diagnostic; II benign; III atypia of undetermined significance; IV follicular neoplasm; V suspicious for malignancy; VI malignant."
+   },
+   {
+    "type": "cloze",
+    "text": "Medullary carcinoma thyroid arises from {{c1::parafollicular C cells}}, secretes {{c2::calcitonin}} and is linked to {{c3::RET}} mutations (MEN 2)."
+   },
+   {
+    "type": "basic",
+    "front": "Bilateral recurrent laryngeal nerve palsy after thyroidectomy: presentation and management?",
+    "back": "Stridor and respiratory distress soon after extubation (cords near midline); needs re-intubation/tracheostomy."
+   },
+   {
+    "type": "cloze",
+    "text": "BI-RADS {{c1::3}} = probably benign (<2% risk) → short-interval follow-up; BI-RADS {{c2::4}} = suspicious → biopsy."
+   },
+   {
+    "type": "basic",
+    "front": "Phyllodes tumour vs fibroadenoma: age, growth, treatment?",
+    "back": "Phyllodes: 40s, rapid growth, large, leaf-like stroma → wide excision ≥1 cm margin, no axillary surgery. Fibroadenoma: teens–20s, slow, mobile; observe or simple excision."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Thyroid papillary carcinoma histopathology (4).jpg",
+    "caption": "Papillary thyroid carcinoma (H&E, high power): overlapping nuclei with optical clearing (Orphan Annie / ground-glass), nuclear grooves and an intranuclear pseudo-inclusion."
+   }
+  ],
+  "keywords": [
+   "thyroid nodule",
+   "bethesda",
+   "papillary carcinoma thyroid",
+   "orphan annie",
+   "psammoma bodies",
+   "follicular carcinoma",
+   "medullary carcinoma",
+   "calcitonin",
+   "anaplastic carcinoma",
+   "recurrent laryngeal nerve",
+   "superior laryngeal nerve",
+   "post-thyroidectomy hypocalcaemia",
+   "triple assessment",
+   "bi-rads",
+   "her2",
+   "triple negative",
+   "sentinel lymph node",
+   "phyllodes tumour",
+   "fibroadenoma",
+   "trastuzumab"
+  ],
+  "wiki": [
+   "Papillary_thyroid_cancer",
+   "Bethesda_system_for_reporting_thyroid_cytopathology",
+   "Phyllodes_tumor"
+  ],
+  "verify": "Bethesda 3rd ed. (2023, category III renamed 'atypia of undetermined significance' only); ATA 2015; BI-RADS 5th ed.; St Gallen subtypes."
+ },
+ {
+  "id": "surg-vascular",
+  "title": "Vascular: limb ischaemia, PAD, aortic disease, DVT & varicose veins",
+  "subject": "Surgery",
+  "system": "Vascular",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Sudden cold, pale, painful leg in a patient with AF = acute embolic limb ischaemia (6 Ps); sensory/motor loss = threatened limb → urgent revascularisation.",
+   "Tearing chest pain radiating to the back + BP difference between arms + widened mediastinum = aortic dissection; ascending (Stanford A) = surgery.",
+   "Calf pain on walking relieved by rest = claudication; ABI <0.9 confirms PAD; rest pain/ulcer = chronic limb-threatening ischaemia."
+  ],
+  "algorithm": "Acute limb ischaemia\n  → IV heparin bolus immediately\n  → Rutherford class\n    I (viable) → imaging (CTA/duplex) → planned revascularisation\n    IIa (marginally threatened) → prompt revascularisation (catheter thrombolysis or surgery)\n    IIb (immediately threatened) → emergency embolectomy/bypass\n    III (irreversible) → primary amputation\n  → Fasciotomy if reperfusion compartment syndrome\nAortic dissection\n  → IV β-blocker (esmolol/labetalol): HR <60, SBP 100–120 → CTA\n    Stanford A (ascending) → emergency open surgery\n    Stanford B (descending) → medical; TEVAR if complicated (malperfusion, rupture, refractory pain/HTN)",
+  "tables": [
+   {
+    "title": "Rutherford classification of acute limb ischaemia",
+    "head": [
+     "Class",
+     "Prognosis",
+     "Sensory loss",
+     "Motor weakness",
+     "Doppler (arterial / venous)"
+    ],
+    "rows": [
+     [
+      "I Viable",
+      "Not immediately threatened",
+      "None",
+      "None",
+      "Audible / audible"
+     ],
+     [
+      "IIa Marginally threatened",
+      "Salvageable if treated promptly",
+      "Minimal (toes) or none",
+      "None",
+      "Inaudible / audible"
+     ],
+     [
+      "IIb Immediately threatened",
+      "Salvageable with immediate revascularisation",
+      "More than toes, rest pain",
+      "Mild–moderate",
+      "Inaudible / audible"
+     ],
+     [
+      "III Irreversible",
+      "Major tissue loss/amputation",
+      "Profound, anaesthetic",
+      "Paralysis (rigor)",
+      "Inaudible / inaudible"
+     ]
+    ]
+   },
+   {
+    "title": "Chronic PAD: Fontaine vs Rutherford and ABI",
+    "head": [
+     "Fontaine",
+     "Rutherford (chronic)",
+     "Clinical",
+     "Typical ABI"
+    ],
+    "rows": [
+     [
+      "I",
+      "0",
+      "Asymptomatic",
+      "<0.9"
+     ],
+     [
+      "IIa / IIb",
+      "1–3",
+      "Claudication: mild (>200 m) / moderate–severe (<200 m)",
+      "0.5–0.9"
+     ],
+     [
+      "III",
+      "4",
+      "Ischaemic rest pain",
+      "Often <0.4"
+     ],
+     [
+      "IV",
+      "5–6",
+      "Ulceration / gangrene",
+      "Often <0.4"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**6 Ps**: pain, pallor, pulselessness, paraesthesia, paralysis, perishing cold (poikilothermia); paraesthesia and paralysis mark a threatened limb.",
+   "**ABI**: normal 1.0–1.4; <0.9 = PAD; <0.4 = severe/critical; **>1.4 = non-compressible calcified vessels** (diabetes, CKD — Mönckeberg) → use toe-brachial index.",
+   "**Embolus vs thrombosis**: embolus — sudden, AF/recent MI, normal contralateral pulses, commonest at the **common femoral bifurcation**; thrombosis — prior claudication, absent contralateral pulses, collaterals.",
+   "**AAA**: elective repair at **≥5.5 cm** in men (≥5.0 cm in women per ESVS), growth >1 cm/year, or symptoms; commonest site infrarenal; screening men ≥65 by ultrasound.",
+   "**Stanford A** involves the ascending aorta (DeBakey I & II) → surgery; **Stanford B** spares it (DeBakey III) → medical BP/HR control, TEVAR if complicated. CTA is the investigation of choice (TEE if unstable).",
+   "**DVT prophylaxis**: early mobilisation, graduated compression/intermittent pneumatic compression, LMWH (e.g. enoxaparin 40 mg SC daily) according to Caprini risk; Virchow triad = stasis, endothelial injury, hypercoagulability.",
+   "**Varicose veins**: commonest cause is **saphenofemoral junction** incompetence (GSV); duplex ultrasound is the investigation of choice; endovenous ablation (laser/RFA) is now first-line over high ligation and stripping.",
+   "**Trendelenburg test** (Brodie-Trendelenburg): tests SFJ/GSV valve competence; **Perthes test**: tests deep vein patency (pain/engorgement on walking with tourniquet = deep vein obstruction → avoid superficial vein surgery).",
+   "**CEAP 'C'**: C0 none, C1 telangiectasia/reticular, C2 varicose veins, C3 oedema, C4 skin changes (pigmentation, eczema, lipodermatosclerosis, atrophie blanche), C5 healed ulcer, C6 active ulcer.",
+   "Venous ulcer: gaiter area (medial malleolus), treated with **multilayer compression** after confirming ABI >0.8; arterial ulcer: toes/pressure points, punched out, painful."
+  ],
+  "traps": [
+   {
+    "stem": "Diabetic with non-healing toe ulcer and absent pedal pulses has ABI 1.5. Interpretation?",
+    "trap": "Normal — no PAD.",
+    "fix": "ABI >1.4 = non-compressible calcified arteries; it is falsely high. Use toe-brachial index or duplex to assess PAD."
+   },
+   {
+    "stem": "Acute limb ischaemia with sensory loss beyond the toes and mild weakness, arterial Doppler inaudible, venous audible. Class and action?",
+    "trap": "Class III → amputation because there is motor weakness.",
+    "fix": "Rutherford IIb (immediately threatened) → emergency revascularisation. Class III needs profound anaesthesia, paralysis and inaudible venous signals."
+   },
+   {
+    "stem": "Type B aortic dissection, pain controlled, no malperfusion. Treatment?",
+    "trap": "Emergency open surgical repair like type A.",
+    "fix": "Uncomplicated type B → medical therapy (IV β-blocker first, target HR <60 and SBP 100–120). TEVAR for complicated type B."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "ABI below {{c1::0.9}} indicates PAD; above {{c2::1.4}} suggests non-compressible calcified vessels."
+   },
+   {
+    "type": "basic",
+    "front": "Rutherford acute limb ischaemia class III: findings and management?",
+    "back": "Profound sensory loss, paralysis/rigor, inaudible arterial AND venous Doppler → irreversible → primary amputation."
+   },
+   {
+    "type": "cloze",
+    "text": "Stanford type {{c1::A}} dissection involves the ascending aorta and needs surgery; type {{c2::B}} is managed medically unless complicated (TEVAR)."
+   },
+   {
+    "type": "basic",
+    "front": "Elective repair threshold for an asymptomatic AAA?",
+    "back": "Diameter ≥5.5 cm in men (≥5.0 cm in women, ESVS), or growth >1 cm/year, or symptoms."
+   },
+   {
+    "type": "cloze",
+    "text": "The {{c1::Perthes}} test assesses deep vein patency, while the {{c2::Trendelenburg}} test assesses saphenofemoral junction competence."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "acute limb ischaemia",
+   "acute limb ischemia",
+   "6 ps",
+   "rutherford classification",
+   "fontaine classification",
+   "peripheral arterial disease",
+   "ankle brachial index",
+   "abi",
+   "embolectomy",
+   "aortic dissection",
+   "stanford",
+   "debakey",
+   "tevar",
+   "abdominal aortic aneurysm",
+   "aaa",
+   "dvt prophylaxis",
+   "varicose veins",
+   "trendelenburg test",
+   "perthes test",
+   "venous ulcer"
+  ],
+  "wiki": [
+   "Acute_limb_ischaemia",
+   "Aortic_dissection",
+   "Varicose_veins"
+  ],
+  "verify": "SVS/ISCVS Rutherford 1997 ALI classes; ESVS 2019 (AAA) and 2022 (venous); CEAP 2020 revision."
+ },
+ {
+  "id": "surg-urology",
+  "title": "Urology: stones, renal & testicular tumours, torsion, BPH, bladder cancer, PUV",
+  "subject": "Surgery",
+  "system": "Urology",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Loin-to-groin colic + haematuria = ureteric stone → NCCT KUB (investigation of choice).",
+   "Adolescent with sudden severe testicular pain, high-riding horizontal testis, absent cremasteric reflex = torsion → surgical exploration without waiting for imaging.",
+   "Male infant with poor stream, palpable bladder, bilateral hydronephrosis (antenatal oligohydramnios) = posterior urethral valves → VCUG."
+  ],
+  "algorithm": "Renal/ureteric stone (confirmed on NCCT KUB)\n  → Analgesia (NSAID first-line)\n  → Obstructed + infected kidney → urgent decompression (DJ stent or PCN) + antibiotics; stone later\n  → Distal ureteric stone ≤10 mm → medical expulsive therapy (tamsulosin)\n  → Ureteric stone not passing → URS (or ESWL for proximal)\n  → Renal stone <10 mm → ESWL or RIRS\n    10–20 mm → ESWL or endourology (lower pole: PCNL/RIRS)\n    >20 mm or staghorn → PCNL\nSuspected torsion\n  → Immediate scrotal exploration → detorsion + bilateral orchidopexy (orchidectomy if non-viable)",
+  "tables": [
+   {
+    "title": "Wilms tumour vs neuroblastoma",
+    "head": [
+     "Feature",
+     "Wilms (nephroblastoma)",
+     "Neuroblastoma"
+    ],
+    "rows": [
+     [
+      "Age",
+      "Peak 3–4 years",
+      "Mostly <2 years"
+     ],
+     [
+      "Origin",
+      "Kidney (intrarenal, claw sign)",
+      "Adrenal medulla / sympathetic chain; displaces kidney (drooping lily)"
+     ],
+     [
+      "Midline",
+      "Rarely crosses",
+      "Often crosses"
+     ],
+     [
+      "Calcification",
+      "Uncommon",
+      "Common (~85–90%)"
+     ],
+     [
+      "Markers / genes",
+      "WT1 (WAGR, Denys-Drash), WT2 (Beckwith-Wiedemann)",
+      "↑ urinary VMA/HVA; N-MYC amplification = poor"
+     ],
+     [
+      "Clues",
+      "Well child, abdominal mass, haematuria, hypertension",
+      "Ill child, raccoon eyes, opsoclonus-myoclonus, blueberry muffin skin, bone marrow"
+     ]
+    ]
+   },
+   {
+    "title": "Testicular tumour markers",
+    "head": [
+     "Tumour",
+     "AFP",
+     "β-hCG",
+     "Notes"
+    ],
+    "rows": [
+     [
+      "Seminoma",
+      "Normal (raised AFP excludes pure seminoma)",
+      "May be mildly ↑",
+      "Commonest; 30s; radiosensitive; PLAP"
+     ],
+     [
+      "Yolk sac tumour",
+      "↑↑",
+      "Normal",
+      "Commonest in infants/children; Schiller-Duval bodies"
+     ],
+     [
+      "Choriocarcinoma",
+      "Normal",
+      "↑↑↑",
+      "Early haematogenous spread (lungs); gynaecomastia/thyrotoxicosis"
+     ],
+     [
+      "Embryonal carcinoma",
+      "± ↑",
+      "± ↑",
+      "Aggressive, haemorrhagic"
+     ],
+     [
+      "Teratoma",
+      "Normal",
+      "Normal",
+      "Mature in children benign; post-pubertal malignant"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Stones: **calcium oxalate** commonest; **struvite** (Mg-NH₄-PO₄) from urease organisms (Proteus) → staghorn, coffin-lid crystals; **uric acid** radiolucent on X-ray (seen on CT), dissolved by urinary alkalinisation; **cystine** hexagonal crystals, faintly radiopaque.",
+   "ESWL contraindications: **pregnancy**, uncorrected bleeding disorder, untreated UTI, distal obstruction, aortic aneurysm near the stone; less effective for cystine, calcium oxalate monohydrate and dense stones (>1000 HU).",
+   "**RCC**: clear-cell (VHL, chromosome 3p) commonest; classic triad (haematuria, flank pain, mass) seen in a minority. Paraneoplastic: **polycythaemia (EPO)**, **hypercalcaemia (PTHrP)**, hypertension (renin), **Stauffer syndrome** (non-metastatic hepatic dysfunction); left varicocele that does not empty lying down (left renal vein tumour thrombus).",
+   "Testicular tumour → **high inguinal orchidectomy** (never scrotal approach; para-aortic node drainage). LDH reflects tumour burden.",
+   "**Torsion**: bell-clapper deformity; salvage is high within **6 h** and falls steeply after; **Prehn sign** negative (pain not relieved by elevation); Doppler must not delay exploration; fix both testes.",
+   "**BPH**: arises in the **transition zone** (prostate cancer mainly peripheral zone); α-blockers (tamsulosin) for quick symptom relief, 5α-reductase inhibitors (finasteride) shrink gland and lower PSA by ~50%; TURP for refractory/complicated.",
+   "**TURP syndrome**: absorption of hypotonic glycine irrigant → dilutional **hyponatraemia**, fluid overload, transient blindness (glycine); prevented by bipolar TURP with saline.",
+   "**Bladder cancer**: urothelial carcinoma (smoking, aniline dyes, cyclophosphamide); **SCC with schistosomiasis**; painless haematuria → cystoscopy + **TURBT**; high-risk NMIBC → intravesical **BCG**; muscle-invasive → neoadjuvant cisplatin chemo + radical cystectomy.",
+   "**PUV**: commonest cause of lower urinary tract obstruction in boys; **VCUG** shows dilated posterior urethra; antenatal USG — **keyhole sign**; treatment = endoscopic valve ablation (vesicostomy in small infants)."
+  ],
+  "traps": [
+   {
+    "stem": "Testicular mass with markedly raised AFP; biopsy reported as seminoma. Interpretation?",
+    "trap": "Pure seminoma — treat as seminoma.",
+    "fix": "Pure seminoma does not raise AFP; an elevated AFP means a non-seminomatous (e.g. yolk sac) component — manage as NSGCT."
+   },
+   {
+    "stem": "Suspected testicular tumour. Biopsy approach?",
+    "trap": "Trans-scrotal biopsy or scrotal orchidectomy.",
+    "fix": "High inguinal orchidectomy with early cord clamping; scrotal violation changes lymphatic drainage to inguinal nodes and risks seeding."
+   },
+   {
+    "stem": "Child with abdominal mass crossing the midline with calcification on CT. Most likely?",
+    "trap": "Wilms tumour (most common renal tumour of childhood).",
+    "fix": "Crossing midline + calcification + age <2 suggests neuroblastoma; Wilms is intrarenal, rarely crosses midline and rarely calcifies."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Investigation of choice for suspected ureteric colic?",
+    "back": "Non-contrast CT KUB (low-dose). USG first in pregnancy and children."
+   },
+   {
+    "type": "cloze",
+    "text": "Stone >{{c1::20 mm}} or staghorn → {{c2::PCNL}}; distal ureteric stone ≤10 mm → medical expulsive therapy with {{c3::tamsulosin}}."
+   },
+   {
+    "type": "cloze",
+    "text": "Yolk sac tumour raises {{c1::AFP}} and shows {{c2::Schiller-Duval bodies}}; choriocarcinoma raises {{c3::β-hCG}}."
+   },
+   {
+    "type": "basic",
+    "front": "Investigation of choice for posterior urethral valves?",
+    "back": "Voiding cystourethrogram (VCUG/MCU): dilated, elongated posterior urethra with a thick bladder; treat by endoscopic valve ablation."
+   },
+   {
+    "type": "cloze",
+    "text": "Testicular torsion: explore within {{c1::6 hours}} for best salvage; {{c2::Prehn}} sign is negative and the {{c3::cremasteric}} reflex is absent."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "renal stone",
+   "urolithiasis",
+   "ureteric colic",
+   "ncct kub",
+   "eswl",
+   "pcnl",
+   "struvite",
+   "staghorn",
+   "renal cell carcinoma",
+   "wilms tumour",
+   "neuroblastoma",
+   "testicular tumour",
+   "seminoma",
+   "beta hcg",
+   "testicular torsion",
+   "bph",
+   "turp syndrome",
+   "bladder cancer",
+   "bcg",
+   "posterior urethral valves"
+  ],
+  "wiki": [
+   "Kidney_stone_disease",
+   "Testicular_torsion",
+   "Posterior_urethral_valve"
+  ],
+  "verify": "EAU urolithiasis guidelines (stone-size cut-offs); Bailey & Love 28e; Campbell-Walsh."
+ },
+ {
+  "id": "surg-hernia-ped-surg",
+  "title": "Hernias & paediatric surgery (CDH, pyloric stenosis, Hirschsprung, TEF, NEC)",
+  "subject": "Surgery",
+  "system": "Abdominal wall / Paediatric surgery",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Groin lump above and medial to the pubic tubercle = inguinal; below and lateral = femoral (women, highest strangulation risk).",
+   "First-born boy, 3–6 weeks, non-bilious projectile vomiting, hungry after feeds, olive-shaped mass = hypertrophic pyloric stenosis.",
+   "Newborn with frothing, choking on feeds, NG tube coiling in the pouch + gas in stomach = oesophageal atresia with distal TEF (Gross C)."
+  ],
+  "algorithm": "Hypertrophic pyloric stenosis\n  → USG (pyloric muscle thickness ≥3–4 mm, length ≥15–17 mm)\n  → Correct dehydration and alkalosis FIRST (0.45–0.9% saline + dextrose + KCl once passing urine)\n  → Ramstedt pyloromyotomy (open or laparoscopic) — not an emergency\nHirschsprung disease\n  → Suspect: delayed meconium (>48 h), distension, explosive stool on PR (squirt sign)\n  → Contrast enema: transition zone (do not prepare bowel); rectal suction biopsy = diagnostic\n  → Decompress (rectal washouts) → pull-through (Swenson / Duhamel / Soave)\nCongenital diaphragmatic hernia\n  → Avoid bag-mask ventilation; intubate + NG decompression → stabilise pulmonary hypertension → delayed repair",
+  "tables": [
+   {
+    "title": "Direct vs indirect inguinal hernia",
+    "head": [
+     "Feature",
+     "Indirect",
+     "Direct"
+    ],
+    "rows": [
+     [
+      "Relation to inferior epigastric vessels",
+      "Lateral",
+      "Medial (through Hesselbach triangle)"
+     ],
+     [
+      "Path",
+      "Through deep ring along the cord (patent processus vaginalis)",
+      "Through weak posterior wall (transversalis fascia)"
+     ],
+     [
+      "Age",
+      "Any age; commonest hernia in children and overall",
+      "Older men"
+     ],
+     [
+      "Deep ring occlusion test",
+      "Controlled",
+      "Not controlled"
+     ],
+     [
+      "Strangulation / reaches scrotum",
+      "More likely",
+      "Rare"
+     ]
+    ]
+   },
+   {
+    "title": "Eponymous hernias",
+    "head": [
+     "Hernia",
+     "Content / feature"
+    ],
+    "rows": [
+     [
+      "Richter",
+      "Only part of the antimesenteric bowel wall → strangulation without obstruction"
+     ],
+     [
+      "Littre",
+      "Meckel diverticulum in a hernia sac"
+     ],
+     [
+      "Amyand",
+      "Appendix in an inguinal hernia"
+     ],
+     [
+      "De Garengeot",
+      "Appendix in a femoral hernia"
+     ],
+     [
+      "Spigelian",
+      "Through Spigelian fascia at the linea semilunaris, usually at/below the arcuate line; interparietal"
+     ],
+     [
+      "Maydl (W)",
+      "Two loops in the sac; the strangulated loop is inside the abdomen"
+     ],
+     [
+      "Pantaloon",
+      "Direct + indirect on the same side, straddling the inferior epigastric vessels"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Hesselbach triangle**: medially lateral border of rectus abdominis, laterally inferior epigastric vessels, inferiorly inguinal ligament.",
+   "Inguinal canal walls (MALT): roof — internal oblique/transversus (conjoint), anterior — external oblique aponeurosis, floor — inguinal (lacunar) ligament, posterior — transversalis fascia + conjoint tendon.",
+   "**Femoral hernia**: neck below and lateral to the pubic tubercle, through the femoral canal (medial to femoral vein); **highest strangulation risk** → always repair; commoner in women, but inguinal hernia is still the commonest hernia in women.",
+   "**CDH**: **Bochdalek** (posterolateral, mostly left) is commonest; **Morgagni** (anterior, retrosternal, mostly right); mortality driven by **pulmonary hypoplasia + pulmonary hypertension**; scaphoid abdomen, bowel sounds in chest.",
+   "**Pyloric stenosis** metabolic picture: **hypochloraemic hypokalaemic metabolic alkalosis** with paradoxical aciduria; association with early **erythromycin** exposure.",
+   "**Hirschsprung**: absent ganglion cells in submucosal (Meissner) and myenteric (Auerbach) plexuses of the distal bowel (rectosigmoid commonest); RET gene, Down syndrome; biopsy shows **↑ acetylcholinesterase-positive nerve fibres, absent calretinin**; risk of enterocolitis.",
+   "**Oesophageal atresia/TEF (Gross)**: **type C** (EA + distal TEF) commonest ~85%; type A pure EA = gasless abdomen; **H-type** (type E) presents later with recurrent pneumonia and coughing on feeds; look for **VACTERL**.",
+   "**NEC**: preterm, formula-fed, day 7–14; bilious aspirates, bloody stools; X-ray **pneumatosis intestinalis**, portal venous gas; modified **Bell staging**; pneumoperitoneum → laparotomy/peritoneal drain.",
+   "Infant inguinal hernia → herniotomy soon after diagnosis (high incarceration risk); umbilical hernia usually closes spontaneously by 4–5 years."
+  ],
+  "traps": [
+   {
+    "stem": "Baby with pyloric stenosis, pH 7.55, K⁺ 2.8, Cl⁻ 85. Take to theatre today?",
+    "trap": "Immediate pyloromyotomy because the diagnosis is confirmed.",
+    "fix": "Pyloric stenosis is a medical emergency, not a surgical one: correct dehydration, alkalosis and hypokalaemia first (risk of post-op apnoea with alkalosis), then pyloromyotomy."
+   },
+   {
+    "stem": "Elderly woman with small bowel strangulation but no obstructive symptoms; tender groin lump below and lateral to the pubic tubercle.",
+    "trap": "Simple irreducible inguinal hernia; no obstruction means no bowel compromise.",
+    "fix": "Femoral hernia with Richter type: only part of the bowel wall is trapped, so it can strangulate without obstruction. Emergency repair."
+   },
+   {
+    "stem": "Newborn with respiratory distress, scaphoid abdomen and bowel sounds in the left chest. First step?",
+    "trap": "Bag-and-mask ventilation.",
+    "fix": "CDH: avoid bag-mask (distends herniated bowel, compresses lung); intubate, NG decompression, gentle ventilation; surgery after stabilisation."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Boundaries of Hesselbach triangle: {{c1::inferior epigastric vessels}} laterally, {{c2::lateral border of rectus abdominis}} medially and {{c3::inguinal ligament}} inferiorly."
+   },
+   {
+    "type": "basic",
+    "front": "Richter vs Littre vs Amyand hernia?",
+    "back": "Richter: part of the bowel wall (antimesenteric) → strangulation without obstruction.\nLittre: Meckel diverticulum.\nAmyand: appendix in an inguinal hernia (de Garengeot: in a femoral hernia)."
+   },
+   {
+    "type": "cloze",
+    "text": "Hypertrophic pyloric stenosis causes {{c1::hypochloraemic hypokalaemic metabolic alkalosis}}; definitive surgery is {{c2::Ramstedt pyloromyotomy}}."
+   },
+   {
+    "type": "basic",
+    "front": "Gold-standard diagnostic test for Hirschsprung disease and its findings?",
+    "back": "Rectal suction biopsy: absent ganglion cells, hypertrophied nerve trunks, ↑ acetylcholinesterase staining, absent calretinin."
+   },
+   {
+    "type": "cloze",
+    "text": "Commonest type of oesophageal atresia is {{c1::proximal atresia with distal TEF (Gross C)}}; {{c2::H-type}} fistula presents later with recurrent aspiration pneumonia."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Pneumatosis intestinalis und hepatis bei NEC 0W - CR ap - 001.jpg",
+    "caption": "Necrotising enterocolitis in a neonate: dilated loops with intramural gas (pneumatosis intestinalis) and portal venous gas — Bell stage II or higher."
+   }
+  ],
+  "keywords": [
+   "inguinal hernia",
+   "hesselbach triangle",
+   "direct hernia",
+   "indirect hernia",
+   "femoral hernia",
+   "richter hernia",
+   "littre hernia",
+   "amyand hernia",
+   "spigelian hernia",
+   "maydl hernia",
+   "congenital diaphragmatic hernia",
+   "bochdalek",
+   "morgagni",
+   "pyloric stenosis",
+   "pyloromyotomy",
+   "hirschsprung",
+   "tracheoesophageal fistula",
+   "oesophageal atresia",
+   "necrotising enterocolitis",
+   "pneumatosis intestinalis"
+  ],
+  "wiki": [
+   "Inguinal_hernia",
+   "Pyloric_stenosis",
+   "Hirschsprung's_disease"
+  ],
+  "verify": "Bailey & Love 28e; Nelson 21e; Ghai. USG cut-offs for pyloric stenosis vary by source (≥3–4 mm thickness, ≥15–17 mm length)."
+ },
+ {
+  "id": "surg-perioperative",
+  "title": "Perioperative care: ASA, wound classes, healing, sutures, fluids, transfusion",
+  "subject": "Surgery",
+  "system": "General principles",
+  "yield": 1,
+  "kind": "volatile",
+  "anchor": [
+   "ASA grades I–VI ('E' added for emergency); wound classes clean → clean-contaminated → contaminated → dirty predict SSI risk.",
+   "Fever and chills within the first hour of transfusion in a multiparous recipient? Think febrile non-haemolytic (commonest); hypoxia + bilateral infiltrates within 6 h, normal JVP = TRALI.",
+   "Prolene for vascular anastomosis; PDS/Vicryl absorbable; silk most reactive."
+  ],
+  "tables": [
+   {
+    "title": "Surgical wound classification",
+    "head": [
+     "Class",
+     "Definition",
+     "Example"
+    ],
+    "rows": [
+     [
+      "I Clean",
+      "No inflammation; GI, respiratory, genital or urinary tract not entered",
+      "Hernia repair, thyroidectomy"
+     ],
+     [
+      "II Clean-contaminated",
+      "Controlled entry into GI/resp/GU tract without unusual contamination",
+      "Elective cholecystectomy, bowel resection with prepared bowel"
+     ],
+     [
+      "III Contaminated",
+      "Fresh open traumatic wound, major break in asepsis, gross GI spillage, acute non-purulent inflammation",
+      "Non-perforated acute appendicitis, open fresh fracture"
+     ],
+     [
+      "IV Dirty-infected",
+      "Old traumatic wound with devitalised tissue, existing infection or perforated viscus",
+      "Perforated appendix, faecal peritonitis, abscess drainage"
+     ]
+    ]
+   },
+   {
+    "title": "Transfusion reactions",
+    "head": [
+     "Reaction",
+     "Timing / clue",
+     "Mechanism / action"
+    ],
+    "rows": [
+     [
+      "Acute haemolytic",
+      "Minutes; fever, loin pain, hypotension, haemoglobinuria, DIC",
+      "ABO incompatibility (clerical error) → stop, recheck, supportive"
+     ],
+     [
+      "Febrile non-haemolytic (commonest)",
+      "During/within hours; fever, chills",
+      "Cytokines/anti-leucocyte antibodies → leucoreduction prevents"
+     ],
+     [
+      "Allergic / anaphylactic",
+      "Urticaria; anaphylaxis in IgA-deficient recipient with anti-IgA",
+      "Antihistamine; adrenaline; washed products/IgA-deficient donors"
+     ],
+     [
+      "TRALI",
+      "Within 6 h; hypoxia, bilateral infiltrates, normal/low JVP, fever, hypotension",
+      "Donor anti-HLA/anti-HNA antibodies (multiparous female donors) → supportive"
+     ],
+     [
+      "TACO",
+      "Within 12 h; hypertension, ↑JVP, raised BNP",
+      "Volume overload → diuretics, slow transfusion"
+     ],
+     [
+      "Delayed haemolytic",
+      "3–14 days; falling Hb, jaundice",
+      "Anamnestic alloantibody (e.g. Kidd)"
+     ],
+     [
+      "TA-GVHD",
+      "1–6 weeks; rash, diarrhoea, pancytopenia, high mortality",
+      "Donor T cells → prevent with irradiation"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**ASA**: I healthy; II mild systemic disease; III severe systemic disease; IV severe systemic disease that is a constant threat to life; V moribund, not expected to survive without the operation; VI brain-dead organ donor.",
+   "**Wound healing phases**: haemostasis → inflammation (neutrophils first, **macrophage is the key cell**) → proliferation (fibroblasts, type III collagen, angiogenesis, granulation) → remodelling (type III replaced by type I; scar reaches ~70–80% of normal strength, never 100%).",
+   "Vitamin C (hydroxylation of proline/lysine) and zinc are needed for collagen synthesis; steroids impair healing (vitamin A partly reverses it).",
+   "**Absorbable sutures**: catgut (natural; plain/chromic), polyglactin 910 (**Vicryl**), polyglycolic acid (Dexon), poliglecaprone (**Monocryl**), polydioxanone (**PDS** — longest-lasting). **Non-absorbable**: silk (natural, braided, most tissue reaction), nylon, polypropylene (**Prolene** — least thrombogenic, vascular anastomosis), polyester (Ethibond), stainless steel (sternal closure).",
+   "Synthetic absorbable sutures are absorbed by **hydrolysis** (less inflammation); catgut by **proteolysis**.",
+   "**Maintenance fluid (Holliday-Segar)**: 4 mL/kg/h for the first 10 kg, 2 mL/kg/h for the next 10 kg, 1 mL/kg/h thereafter; adult roughly 25–30 mL/kg/day water with ~1 mmol/kg/day Na⁺ and K⁺.",
+   "**Enteral feeding preferred** whenever the gut works (maintains mucosal barrier); start early post-op. **Refeeding syndrome**: hypophosphataemia (hallmark), hypokalaemia, hypomagnesaemia, thiamine deficiency → start slowly, give thiamine.",
+   "Massive transfusion complications: **hypocalcaemia** (citrate), hyperkalaemia, hypothermia, dilutional coagulopathy.",
+   "**SSI prophylaxis**: single dose of cefazolin within 60 min before incision; redose for long surgery or major blood loss; not needed beyond 24 h."
+  ],
+  "traps": [
+   {
+    "stem": "Acute non-perforated appendicitis operated: wound class?",
+    "trap": "Dirty (class IV) because of inflamed appendix.",
+    "fix": "Acute non-purulent inflammation = contaminated (class III). Perforation/pus = dirty (class IV). Elective appendicectomy without inflammation = clean-contaminated."
+   },
+   {
+    "stem": "Transfusion: dyspnoea, hypoxia, bilateral infiltrates within 2 h, JVP normal, BNP normal.",
+    "trap": "TACO — treat with diuretics.",
+    "fix": "TRALI (non-cardiogenic oedema, normal JVP/BNP, often hypotension). TACO has hypertension, raised JVP and BNP and responds to diuretics."
+   },
+   {
+    "stem": "Best suture for a vascular anastomosis?",
+    "trap": "Silk — strong and traditional.",
+    "fix": "Polypropylene (Prolene): monofilament, non-absorbable, least thrombogenic and least reactive. Silk is the most reactive suture."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "ASA {{c1::IV}} = severe systemic disease that is a constant threat to life; ASA {{c2::V}} = moribund patient not expected to survive without surgery."
+   },
+   {
+    "type": "basic",
+    "front": "Wound class of a laparotomy for perforated appendix with pus?",
+    "back": "Class IV dirty-infected."
+   },
+   {
+    "type": "cloze",
+    "text": "The most important cell in wound healing is the {{c1::macrophage}}; immature granulation tissue contains type {{c2::III}} collagen, later replaced by type {{c3::I}}."
+   },
+   {
+    "type": "basic",
+    "front": "Commonest transfusion reaction and its prevention?",
+    "back": "Febrile non-haemolytic transfusion reaction; prevented by pre-storage leucoreduction."
+   },
+   {
+    "type": "cloze",
+    "text": "{{c1::Polypropylene (Prolene)}} is preferred for vascular anastomosis; {{c2::silk}} causes the most tissue reaction."
+   },
+   {
+    "type": "cloze",
+    "text": "Hallmark electrolyte abnormality of refeeding syndrome is {{c1::hypophosphataemia}}."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "asa grade",
+   "asa classification",
+   "wound classification",
+   "surgical site infection",
+   "clean contaminated",
+   "wound healing",
+   "sutures",
+   "vicryl",
+   "prolene",
+   "silk",
+   "catgut",
+   "maintenance fluid",
+   "holliday-segar",
+   "refeeding syndrome",
+   "enteral nutrition",
+   "transfusion reaction",
+   "trali",
+   "taco",
+   "febrile non-haemolytic",
+   "ta-gvhd"
+  ],
+  "wiki": [
+   "ASA_physical_status_classification_system",
+   "Surgical_suture",
+   "Transfusion-related_acute_lung_injury"
+  ],
+  "verify": "ASA 2020 update; CDC/NHSN wound classes; Bailey & Love 28e; AABB/SHOT definitions for reactions."
+ }
+]

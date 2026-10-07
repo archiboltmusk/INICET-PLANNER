@@ -1,0 +1,2229 @@
+[
+ {
+  "id": "ort-bone-tumours",
+  "title": "Bone tumours: age, site, X-ray sign & genetics",
+  "subject": "Orthopedics",
+  "system": "Musculoskeletal oncology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Teen + distal femur metaphysis + sunburst/Codman triangle → osteosarcoma; child + diaphysis + onion peel + fever/↑ESR → Ewing sarcoma.",
+   "Skeletally mature 20–40 y + eccentric epiphyseal lytic 'soap bubble' reaching subchondral bone → giant cell tumour.",
+   "Night pain relieved by aspirin/NSAID + small radiolucent nidus with dense sclerosis → osteoid osteoma.",
+   "Central metaphyseal cyst proximal humerus + 'fallen fragment' → unicameral bone cyst; eccentric expansile 'blow-out' with fluid–fluid levels → ABC."
+  ],
+  "algorithm": "Bone lesion on X-ray\n→ Note age, site along bone (epiphysis / metaphysis / diaphysis), margins, matrix, periosteal reaction\n  Aggressive (wide zone of transition, permeative, sunburst/Codman/onion peel) → MRI whole bone (skip lesions) + CT chest + bone scan → biopsy LAST, along planned incision line, at the treating centre\n  Benign-looking & asymptomatic (osteochondroma, NOF) → observe\n→ Stage (Enneking) → treat:\n  Osteosarcoma → neoadjuvant chemo (MAP: methotrexate, doxorubicin, cisplatin) → limb salvage wide resection → adjuvant chemo\n  Ewing → chemo + surgery and/or radiotherapy (radiosensitive)\n  GCT → extended curettage + adjuvant (phenol/cement) ± denosumab\n  Chondrosarcoma → wide excision (chemo- & radio-resistant)\n  Osteoid osteoma → NSAIDs or CT-guided radiofrequency ablation\nPathological fracture risk in metastasis → Mirels' score: ≥9 prophylactic fixation, 8 borderline, ≤7 radiotherapy/observe",
+  "tables": [
+   {
+    "title": "Primary bone lesions: the discriminators",
+    "head": [
+     "Lesion",
+     "Age",
+     "Site",
+     "X-ray / key tag"
+    ],
+    "rows": [
+     [
+      "Osteosarcoma",
+      "10–25 y (2nd peak >60 y with Paget/irradiation)",
+      "Metaphysis: distal femur > proximal tibia > proximal humerus",
+      "Sunburst, Codman triangle, osteoid matrix; RB1, TP53; lung mets (cannonball)"
+     ],
+     [
+      "Ewing sarcoma",
+      "5–20 y",
+      "Diaphysis (or metadiaphysis) of long bones, pelvis",
+      "Onion peel lamellated periosteal reaction, permeative; t(11;22) EWSR1-FLI1, CD99+, small round blue cells, Homer-Wright rosettes"
+     ],
+     [
+      "Giant cell tumour",
+      "20–40 y (physis closed)",
+      "Epiphysis → subarticular: distal femur, proximal tibia, distal radius",
+      "Eccentric lytic soap bubble, no sclerotic rim; RANKL-driven (denosumab); can give lung mets"
+     ],
+     [
+      "Chondroblastoma",
+      "10–20 y (physis open)",
+      "Epiphysis: proximal humerus, distal femur",
+      "Lytic with sclerotic rim, chicken-wire calcification"
+     ],
+     [
+      "Osteochondroma",
+      "10–20 y",
+      "Metaphysis near knee, points away from joint",
+      "Cortex & medulla continuous with parent bone; cartilage cap >2 cm in adult → suspect chondrosarcoma; EXT1/EXT2"
+     ],
+     [
+      "Osteoid osteoma",
+      "10–30 y, M>F",
+      "Cortex of proximal femur/tibia",
+      "Nidus <1.5–2 cm + dense sclerosis; PGE₂ → night pain relieved by NSAIDs"
+     ],
+     [
+      "Osteoblastoma",
+      "10–30 y",
+      "Posterior elements of spine",
+      "Nidus >2 cm; pain NOT relieved by NSAIDs"
+     ],
+     [
+      "Unicameral (simple) bone cyst",
+      "5–15 y",
+      "Central metaphysis proximal humerus > proximal femur",
+      "Fallen fragment sign; presents as pathological fracture"
+     ],
+     [
+      "Aneurysmal bone cyst",
+      "10–20 y",
+      "Eccentric metaphysis; spine posterior elements",
+      "Expansile blow-out, fluid–fluid levels on MRI; USP6 rearrangement"
+     ],
+     [
+      "Chondrosarcoma",
+      ">40 y",
+      "Pelvis, proximal femur, shoulder girdle",
+      "Popcorn / rings-and-arcs calcification, endosteal scalloping; chemo- & radio-resistant"
+     ]
+    ]
+   },
+   {
+    "title": "Mirels' score (impending pathological fracture in metastasis)",
+    "head": [
+     "Points",
+     "Site",
+     "Pain",
+     "Lesion",
+     "Size (of cortex)"
+    ],
+    "rows": [
+     [
+      "1",
+      "Upper limb",
+      "Mild",
+      "Blastic",
+      "<1/3"
+     ],
+     [
+      "2",
+      "Lower limb",
+      "Moderate",
+      "Mixed",
+      "1/3–2/3"
+     ],
+     [
+      "3",
+      "Peritrochanteric",
+      "Functional (mechanical)",
+      "Lytic",
+      ">2/3"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Most common primary malignant bone tumour** (excluding myeloma) = osteosarcoma; most common malignant bone tumour overall = metastasis; most common primary malignant overall incl. haematological = multiple myeloma.",
+   "**Most common benign bone tumour** = osteochondroma; malignant change in a solitary lesion is rare (<1%), higher in hereditary multiple exostoses.",
+   "Ewing sarcoma mimics osteomyelitis: fever, leucocytosis, ↑ESR — biopsy differentiates.",
+   "GCT is the classic epiphyseal tumour of the skeletally MATURE; chondroblastoma is the epiphyseal tumour of the skeletally IMMATURE.",
+   "**Enneking staging**: benign 1 latent / 2 active / 3 aggressive; malignant I low grade, II high grade, III metastasis; A intracompartmental, B extracompartmental.",
+   "**Mirels' score** (4 items, each 1–3, total 4–12): ≥9 → prophylactic internal fixation; 8 → clinical judgement; ≤7 → radiotherapy and observe.",
+   "Biopsy is the last step of work-up and should be done by the surgeon who will resect, with the track excised en bloc at definitive surgery.",
+   "Lytic metastases: kidney, thyroid, lung; blastic: prostate, breast (mixed), carcinoid; most common site of skeletal metastasis = spine (vertebral body; pedicle 'winking owl' sign).",
+   "Osteosarcoma variants: parosteal (posterior distal femur, low grade, best prognosis), telangiectatic (lytic, mimics ABC), secondary (Paget's, post-radiation)."
+  ],
+  "traps": [
+   {
+    "stem": "A 14-year-old with a painful lytic epiphyseal lesion of the proximal humerus with sclerotic rim and stippled calcification; physis is open.",
+    "trap": "Giant cell tumour — because it is the 'epiphyseal tumour'.",
+    "fix": "Chondroblastoma. GCT occurs after physeal closure (20–40 y); epiphyseal lesion with an open physis = chondroblastoma."
+   },
+   {
+    "stem": "Young man with nocturnal tibial pain dramatically relieved by aspirin; X-ray shows cortical sclerosis with a tiny lucency.",
+    "trap": "Brodie abscess or stress fracture — both cause cortical sclerosis.",
+    "fix": "Osteoid osteoma (nidus on CT is diagnostic); PGE₂ production explains NSAID response; treat with CT-guided radiofrequency ablation."
+   },
+   {
+    "stem": "Metastatic breast cancer: lytic lesion in the subtrochanteric femur involving >2/3 cortex with pain on walking.",
+    "trap": "Radiotherapy alone, since metastases are radiosensitive.",
+    "fix": "Mirels' = 3 (peritrochanteric) + 3 (functional pain) + 3 (lytic) + 3 (>2/3) = 12 → prophylactic fixation first (then radiotherapy)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Ewing sarcoma: translocation {{c1::t(11;22)}} (EWSR1-FLI1), marker {{c2::CD99}}, X-ray {{c3::onion peel}} periosteal reaction in the diaphysis."
+   },
+   {
+    "type": "basic",
+    "front": "Epiphyseal lytic 'soap bubble' lesion in a 30-year-old at the distal radius — diagnosis and the drug that targets its biology?",
+    "back": "Giant cell tumour of bone; denosumab (anti-RANKL)."
+   },
+   {
+    "type": "cloze",
+    "text": "The 'fallen fragment' sign is characteristic of a {{c1::unicameral (simple) bone cyst}}, most often in the {{c2::proximal humerus}}."
+   },
+   {
+    "type": "basic",
+    "front": "Mirels' score threshold for prophylactic fixation?",
+    "back": "≥9 (8 = borderline, ≤7 = radiotherapy/observe)."
+   },
+   {
+    "type": "basic",
+    "front": "Osteoid osteoma vs osteoblastoma — size and NSAID response?",
+    "back": "Osteoid osteoma: nidus <1.5–2 cm, pain relieved by NSAIDs. Osteoblastoma: >2 cm, spine posterior elements, pain not relieved by NSAIDs."
+   },
+   {
+    "type": "cloze",
+    "text": "Osteosarcoma: classic site {{c1::distal femur metaphysis}}; radiographic signs {{c2::sunburst}} and {{c3::Codman triangle}}; commonest site of metastasis {{c4::lung}}."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Osteosarcoma1.jpg",
+    "caption": "Osteosarcoma of the distal femoral metaphysis (boxed): ill-defined sclerotic, bone-forming lesion in a skeletally immature knee."
+   },
+   {
+    "commons": "File:Osteoidosteom Fibula CT KF.png",
+    "caption": "Osteoid osteoma on CT (bone window): small lucent nidus (arrow) within the fibular cortex — CT is the best test to show the nidus."
+   }
+  ],
+  "keywords": [
+   "osteosarcoma",
+   "ewing sarcoma",
+   "giant cell tumour",
+   "osteoclastoma",
+   "chondroblastoma",
+   "osteochondroma",
+   "osteoid osteoma",
+   "osteoblastoma",
+   "aneurysmal bone cyst",
+   "unicameral bone cyst",
+   "chondrosarcoma",
+   "codman triangle",
+   "sunburst",
+   "onion peel",
+   "soap bubble",
+   "fallen fragment",
+   "mirels",
+   "enneking",
+   "t(11;22)",
+   "bone metastasis"
+  ],
+  "wiki": [
+   "Osteosarcoma",
+   "Ewing_sarcoma",
+   "Giant-cell_tumor_of_bone"
+  ],
+  "verify": "Maheshwari 7e / Robbins 10e; Mirels 1989 scoring; WHO bone tumours 5th ed."
+ },
+ {
+  "id": "ort-fractures-upper",
+  "title": "Upper limb fractures & shoulder dislocation",
+  "subject": "Orthopedics",
+  "system": "Trauma — upper limb",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Child, FOOSH, swollen elbow with S-shaped deformity, absent radial pulse → extension supracondylar fracture; watch for Volkmann ischaemia (pain on passive finger extension).",
+   "Elderly woman, FOOSH, 'dinner fork' → Colles (dorsal tilt); 'garden spade' → Smith (volar); intra-articular rim + carpal subluxation → Barton.",
+   "Snuffbox tenderness with normal X-ray → treat as scaphoid fracture (proximal pole AVN).",
+   "Arm held abducted & externally rotated, flattened deltoid, regimental-badge numbness → anterior shoulder dislocation with axillary nerve injury."
+  ],
+  "algorithm": "Supracondylar humerus fracture (child)\n→ Check radial pulse, capillary refill, AIN (OK sign), radial, ulnar nerve\n→ Gartland I (undisplaced) → above-elbow cast ~3 wk\n→ Gartland II (posterior cortex intact, hinged) → closed reduction ± percutaneous K-wires (CRPP)\n→ Gartland III (completely displaced) → urgent CRPP; open reduction if irreducible/vascular injury\n  Pink pulseless hand after reduction → close observation; white pulseless → explore brachial artery\n  Pain on passive finger stretch, pain out of proportion → compartment syndrome → fasciotomy\nScaphoid suspected (snuffbox/scaphoid tubercle tenderness)\n→ X-ray scaphoid views → if negative: immobilise + repeat X-ray at 10–14 days, or MRI (best early test)\n→ Undisplaced waist → cast (or percutaneous screw); displaced/proximal pole → ORIF (Herbert screw)",
+  "tables": [
+   {
+    "title": "Forearm & wrist eponyms",
+    "head": [
+     "Injury",
+     "Fracture",
+     "Dislocation / feature",
+     "Nerve / pearl"
+    ],
+    "rows": [
+     [
+      "Monteggia",
+      "Proximal 1/3 ulna",
+      "Radial head dislocation (Bado I anterior commonest)",
+      "PIN palsy; in children closed reduction often works"
+     ],
+     [
+      "Galeazzi",
+      "Distal 1/3 radius shaft",
+      "DRUJ dislocation",
+      "'Fracture of necessity' — ORIF in adults (MUGR: Monteggia Ulna, Galeazzi Radius)"
+     ],
+     [
+      "Colles",
+      "Distal radius within ~2.5 cm of wrist",
+      "Dorsal displacement & tilt, radial shortening — dinner fork",
+      "Commonest complication malunion; late EPL rupture; CRPS (Sudeck); median nerve"
+     ],
+     [
+      "Smith",
+      "Distal radius",
+      "Volar displacement — reverse Colles, garden spade",
+      "Fall on flexed wrist; usually needs volar plate"
+     ],
+     [
+      "Barton",
+      "Intra-articular dorsal or volar rim",
+      "Carpus subluxes with the fragment",
+      "Unstable → ORIF"
+     ],
+     [
+      "Chauffeur",
+      "Radial styloid",
+      "—",
+      "Check scapholunate ligament"
+     ]
+    ]
+   },
+   {
+    "title": "Rockwood AC joint injury",
+    "head": [
+     "Type",
+     "Injury",
+     "Management"
+    ],
+    "rows": [
+     [
+      "I",
+      "AC ligament sprain",
+      "Conservative"
+     ],
+     [
+      "II",
+      "AC torn, CC intact; slight elevation",
+      "Conservative"
+     ],
+     [
+      "III",
+      "AC + CC torn; 25–100% displacement",
+      "Mostly conservative; surgery in labourers/athletes"
+     ],
+     [
+      "IV",
+      "Clavicle displaced posteriorly into trapezius",
+      "Surgery"
+     ],
+     [
+      "V",
+      "100–300% superior displacement; deltotrapezial fascia torn",
+      "Surgery"
+     ],
+     [
+      "VI",
+      "Clavicle inferior (subacromial/subcoracoid)",
+      "Surgery"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Supracondylar fracture: **extension type ~95%**; most commonly injured nerve overall = **anterior interosseous nerve** (loss of OK sign); posteromedial displacement → radial nerve; flexion type → ulnar nerve; medial K-wire → iatrogenic ulnar nerve.",
+   "Most common complication of supracondylar fracture = **malunion → cubitus varus (gunstock)**; it is cosmetic, carrying angle lost.",
+   "**Volkmann ischaemic contracture**: brachial artery injury → forearm flexor (FDP, FPL) ischaemia; earliest sign is pain on passive finger extension; pulse may still be present.",
+   "**Scaphoid**: commonest carpal fracture, waist commonest site; retrograde blood supply (dorsal branch of radial artery enters distally) → proximal pole AVN and non-union.",
+   "**Neer classification** of proximal humerus: 4 parts (head, shaft, greater and lesser tuberosity); a part is 'displaced' if >1 cm or >45° angulation.",
+   "**Shoulder dislocation**: anterior (subcoracoid) >95%; Bankart lesion = anteroinferior labral tear; Hill-Sachs = posterolateral humeral head impaction; recurrent dislocation commonest in young.",
+   "**Posterior dislocation**: epileptic seizure or electric shock; arm locked in internal rotation; 'light bulb' sign on AP; reverse Hill-Sachs (McLaughlin) lesion; easily missed — get axillary view.",
+   "Tests for anterior dislocation: Duga's test (cannot touch opposite shoulder), Hamilton ruler test, Callaway (↑ axillary girth); reduction — Kocher, Hippocratic, Stimson, external rotation.",
+   "Fracture surgical neck humerus and anterior dislocation → **axillary nerve**; shaft (spiral groove) → radial nerve; medial epicondyle → ulnar nerve."
+  ],
+  "traps": [
+   {
+    "stem": "7-year-old with displaced extension supracondylar fracture cannot flex the IP joint of the thumb and DIP of the index finger; sensation intact.",
+    "trap": "Median nerve injury — but sensation would be lost.",
+    "fix": "Anterior interosseous nerve (pure motor branch of median) — the commonest nerve injured in extension-type supracondylar fracture."
+   },
+   {
+    "stem": "Fall on outstretched hand; anatomical snuffbox tender; wrist X-ray normal.",
+    "trap": "Discharge as wrist sprain because X-ray is normal.",
+    "fix": "Immobilise in a scaphoid/thumb spica cast and repeat X-ray at 10–14 days or get MRI; missed scaphoid fracture → non-union/AVN of proximal pole."
+   },
+   {
+    "stem": "Man after a seizure has a painful shoulder held in internal rotation; AP X-ray 'looks normal'.",
+    "trap": "Frozen shoulder or contusion.",
+    "fix": "Posterior shoulder dislocation — light bulb sign; confirm with axillary/scapular Y view."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Gartland II supracondylar fracture = displaced with {{c1::intact posterior cortex}}; Gartland III = {{c2::completely displaced}} — treated by {{c3::closed reduction and percutaneous pinning}}."
+   },
+   {
+    "type": "basic",
+    "front": "Monteggia vs Galeazzi — which bone fractures and what dislocates?",
+    "back": "Monteggia: proximal ulna fracture + radial head dislocation (PIN at risk). Galeazzi: distal radius shaft fracture + DRUJ dislocation."
+   },
+   {
+    "type": "cloze",
+    "text": "Hill-Sachs lesion is impaction of the {{c1::posterolateral humeral head}}; Bankart lesion is a tear of the {{c2::anteroinferior glenoid labrum}}."
+   },
+   {
+    "type": "basic",
+    "front": "Why does the proximal pole of the scaphoid undergo AVN?",
+    "back": "Retrograde blood supply: branches of the radial artery enter the distal pole/waist dorsally, so a waist fracture devascularises the proximal pole."
+   },
+   {
+    "type": "basic",
+    "front": "Earliest and most reliable sign of impending Volkmann ischaemia after a supracondylar fracture?",
+    "back": "Pain on passive extension of the fingers (pain out of proportion); pulselessness is late/unreliable."
+   },
+   {
+    "type": "cloze",
+    "text": "Rockwood AC injury: type {{c1::III}} = AC and CC ligaments torn with 25–100% displacement; types {{c2::IV–VI}} need surgery."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Supracondylar09.JPG",
+    "caption": "Lateral elbow X-ray in a child: extension-type supracondylar fracture (arrow) with posterior displacement of the distal fragment."
+   },
+   {
+    "commons": "File:Colles fracture.JPG",
+    "caption": "Colles fracture: distal radius with dorsal displacement and angulation of the distal fragment (dinner-fork deformity)."
+   }
+  ],
+  "keywords": [
+   "supracondylar fracture",
+   "gartland",
+   "anterior interosseous nerve",
+   "volkmann ischaemic contracture",
+   "cubitus varus",
+   "colles fracture",
+   "smith fracture",
+   "barton fracture",
+   "scaphoid fracture",
+   "anatomical snuffbox",
+   "monteggia",
+   "galeazzi",
+   "neer classification",
+   "shoulder dislocation",
+   "bankart lesion",
+   "hill-sachs",
+   "axillary nerve",
+   "rockwood",
+   "acromioclavicular"
+  ],
+  "wiki": [
+   "Supracondylar_humerus_fracture",
+   "Distal_radius_fracture",
+   "Scaphoid_fracture"
+  ],
+  "verify": "Maheshwari 7e / Apley 10e; Rockwood & Green 9e"
+ },
+ {
+  "id": "ort-fractures-lower",
+  "title": "Lower limb fractures, open fractures, physeal injuries & compartment syndrome",
+  "subject": "Orthopedics",
+  "system": "Trauma — lower limb",
+  "yield": 3,
+  "kind": "volatile",
+  "anchor": [
+   "Elderly woman, trivial fall, shortened slightly externally rotated leg → intracapsular neck of femur (AVN, non-union); marked external rotation + more shortening → intertrochanteric.",
+   "Dashboard injury, limb flexed–adducted–internally rotated, foot drop → posterior hip dislocation with sciatic (peroneal division) nerve injury.",
+   "Pain out of proportion + pain on passive stretch after tibial fracture → compartment syndrome → fasciotomy."
+  ],
+  "algorithm": "Neck of femur fracture\n→ Age <60–65 / physiologically young → urgent anatomical reduction + internal fixation (cancellous screws / DHS) regardless of Garden type\n→ Elderly:\n  Garden I–II (undisplaced) → internal fixation\n  Garden III–IV (displaced) → hemiarthroplasty; total hip replacement if active/independent or pre-existing arthritis\nIntertrochanteric → stable: DHS; unstable/reverse oblique/subtrochanteric extension → proximal femoral nail\nOpen fracture\n→ IV antibiotics as early as possible (ideally within 1 h) + tetanus prophylaxis + photo, saline-soaked dressing, splint\n→ Formal debridement in theatre; classify Gustilo-Anderson AFTER debridement\n→ Skeletal stabilisation; soft-tissue cover (ideally within 72 h–7 days for III B)\nCompartment syndrome\n→ Clinical diagnosis; if equivocal measure pressure: ΔP (diastolic − compartment) <30 mmHg (or absolute >30 mmHg) → fasciotomy (leg: 2 incisions, 4 compartments)",
+  "tables": [
+   {
+    "title": "Key classifications",
+    "head": [
+     "Classification",
+     "Grades"
+    ],
+    "rows": [
+     [
+      "Garden (NOF)",
+      "I incomplete/valgus impacted · II complete undisplaced · III complete, partially displaced · IV completely displaced (AVN risk ↑ with grade)"
+     ],
+     [
+      "Pauwels (NOF, fracture-line angle from horizontal)",
+      "I <30° · II 30–50° · III >50° (vertical shear — worst, highest non-union)"
+     ],
+     [
+      "Pipkin (femoral head with posterior dislocation)",
+      "I below fovea · II above fovea (involves weight-bearing) · III + neck fracture · IV + acetabular fracture"
+     ],
+     [
+      "Schatzker (tibial plateau)",
+      "I lateral split · II lateral split-depression (commonest) · III pure lateral depression · IV medial plateau · V bicondylar · VI metaphyseal–diaphyseal dissociation"
+     ],
+     [
+      "Weber (lateral malleolus vs syndesmosis)",
+      "A below (stable) · B at level · C above (syndesmosis torn — unstable, needs fixation); Lauge-Hansen: supination–external rotation commonest"
+     ],
+     [
+      "Hawkins (talar neck)",
+      "I undisplaced · II subtalar subluxation · III subtalar + ankle · IV + talonavicular; AVN risk rises I→IV"
+     ],
+     [
+      "Gustilo-Anderson (open)",
+      "I wound <1 cm, clean · II 1–10 cm, moderate soft tissue · III >10 cm/high energy: IIIA adequate cover · IIIB periosteal stripping, needs flap · IIIC arterial injury needing repair"
+     ],
+     [
+      "Salter-Harris (physis)",
+      "I straight through physis · II physis + metaphysis (commonest; Thurston-Holland fragment) · III physis + epiphysis (intra-articular) · IV through metaphysis, physis, epiphysis · V crush (worst, often missed)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Main blood supply to the adult femoral head = **medial circumflex femoral artery** (retinacular branches) → displaced intracapsular fractures risk AVN and non-union; intertrochanteric (extracapsular) rarely gets AVN but malunites into coxa vara.",
+   "**Posterior hip dislocation** (commonest, ~90%): flexion, adduction, internal rotation, shortening; sciatic nerve (peroneal division) injury; reduce urgently (ideally <6 h) to reduce AVN.",
+   "**Anterior hip dislocation**: flexion, abduction, external rotation; femoral/obturator neurovascular structures at risk.",
+   "**Hawkins sign**: subchondral lucency of the talar dome at 6–8 weeks = revascularisation → AVN unlikely.",
+   "**Gustilo antibiotics**: I/II → first-generation cephalosporin (cefazolin); III → add Gram-negative cover (gentamicin); farmyard/soil contamination → add high-dose penicillin (Clostridium).",
+   "**Maisonneuve fracture**: proximal fibula fracture + medial malleolus/deltoid injury with syndesmotic disruption — always X-ray the whole leg in medial ankle injury.",
+   "**Compartment syndrome**: earliest symptom = pain out of proportion; earliest sign = pain on passive stretch; pulselessness is a LATE sign; commonest cause = tibial shaft fracture; commonest compartment = anterior of leg.",
+   "Salter-Harris mnemonic SALTR: Straight, Above, Lower, Through, Rammed (crush). V has worst growth prognosis.",
+   "Clinical: NOF fracture → slight external rotation, can't SLR; intertrochanteric → marked external rotation (>45°, lateral border of foot on bed), more shortening, more bruising."
+  ],
+  "traps": [
+   {
+    "stem": "42-year-old manual labourer, Garden IV fracture neck of femur after a road accident.",
+    "trap": "Hemiarthroplasty, because Garden III–IV is treated by replacement.",
+    "fix": "Young patient → urgent anatomical reduction + internal fixation to save the head; arthroplasty is for the elderly."
+   },
+   {
+    "stem": "Tibial fracture in plaster; severe pain, dorsalis pedis pulse palpable.",
+    "trap": "Compartment syndrome excluded because the pulse is present.",
+    "fix": "Compartment pressure exceeds capillary perfusion long before arterial occlusion; pulses persist — split cast and do fasciotomy if pain on passive stretch."
+   },
+   {
+    "stem": "Open tibial fracture with 3 cm wound, extensive periosteal stripping requiring a flap, no vascular injury.",
+    "trap": "Type II — wound is <10 cm.",
+    "fix": "Gustilo IIIB: grade by soft-tissue damage/energy (and need for flap), not wound length alone."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Posterior hip dislocation: limb in {{c1::flexion, adduction and internal rotation}}; nerve at risk {{c2::sciatic (peroneal division)}}."
+   },
+   {
+    "type": "basic",
+    "front": "Gustilo IIIB vs IIIC?",
+    "back": "IIIB: extensive soft-tissue loss with periosteal stripping needing flap cover. IIIC: arterial injury requiring repair."
+   },
+   {
+    "type": "cloze",
+    "text": "Commonest Salter-Harris type is {{c1::II}}; the type with the worst prognosis for growth is {{c2::V (crush)}}."
+   },
+   {
+    "type": "basic",
+    "front": "Pauwels type III femoral neck fracture — why does it matter?",
+    "back": "Fracture line >50° from horizontal → vertical shear forces → highest risk of non-union and fixation failure."
+   },
+   {
+    "type": "cloze",
+    "text": "Fasciotomy is indicated when ΔP (diastolic BP − compartment pressure) is {{c1::<30 mmHg}}; the earliest sign is {{c2::pain on passive stretch}}."
+   },
+   {
+    "type": "basic",
+    "front": "Weber C ankle fracture — level and significance?",
+    "back": "Fibular fracture above the syndesmosis → syndesmosis disrupted → unstable, usually needs ORIF ± syndesmotic screw."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "neck of femur fracture",
+   "garden classification",
+   "pauwels",
+   "intertrochanteric fracture",
+   "hemiarthroplasty",
+   "posterior hip dislocation",
+   "pipkin",
+   "schatzker",
+   "tibial plateau",
+   "weber",
+   "lauge-hansen",
+   "maisonneuve",
+   "hawkins",
+   "talar neck",
+   "gustilo anderson",
+   "open fracture",
+   "salter-harris",
+   "compartment syndrome",
+   "fasciotomy",
+   "avascular necrosis"
+  ],
+  "wiki": [
+   "Hip_fracture",
+   "Salter–Harris_fracture",
+   "Compartment_syndrome"
+  ],
+  "verify": "Maheshwari 7e / Rockwood & Green 9e; BOAST open fractures (antibiotics within 1 h)"
+ },
+ {
+  "id": "ort-nerve-injuries",
+  "title": "Peripheral nerve & brachial plexus injuries",
+  "subject": "Orthopedics",
+  "system": "Peripheral nerves",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Wrist drop + finger drop + numb first dorsal web space after mid-shaft humerus fracture or sleeping with arm over chair → radial nerve at spiral groove.",
+   "Claw of ring & little fingers, positive card test and Froment sign → ulnar nerve; ape thumb + pointing index → high median nerve.",
+   "Newborn after shoulder dystocia with arm adducted, internally rotated, elbow extended ('waiter's tip') → Erb palsy (C5–C6)."
+  ],
+  "tables": [
+   {
+    "title": "Nerve injury cheat-sheet",
+    "head": [
+     "Nerve",
+     "Common cause",
+     "Motor sign",
+     "Sensory loss / test"
+    ],
+    "rows": [
+     [
+      "Radial (spiral groove)",
+      "Shaft humerus (Holstein-Lewis distal 1/3), Saturday night palsy",
+      "Wrist drop + finger drop at MCP; triceps spared",
+      "First dorsal web space"
+     ],
+     [
+      "Radial (axilla)",
+      "Crutch palsy",
+      "As above + triceps weakness",
+      "Also posterior arm"
+     ],
+     [
+      "Posterior interosseous",
+      "Monteggia, radial head, Frohse arcade",
+      "Finger & thumb drop, wrist extends with radial deviation (ECRL spared)",
+      "None"
+     ],
+     [
+      "Ulnar (elbow)",
+      "Medial epicondyle fracture, cubitus valgus (tardy ulnar palsy)",
+      "Less claw (ulnar paradox: FDP to ring/little also weak)",
+      "Medial 1½ fingers incl. dorsum"
+     ],
+     [
+      "Ulnar (wrist/Guyon)",
+      "Lacerations, cyclists",
+      "Marked claw of ring & little; card test (palmar interossei), Froment (adductor pollicis), Egawa, Wartenberg",
+      "Palmar medial 1½ (dorsal branch may be spared)"
+     ],
+     [
+      "Median (elbow)",
+      "Supracondylar fracture, elbow dislocation",
+      "Pointing index (Ochsner clasp), hand of benediction on making fist, ape thumb",
+      "Lateral 3½ fingers + thenar skin"
+     ],
+     [
+      "Median (wrist)",
+      "Carpal tunnel, wrist laceration",
+      "Ape thumb (thenar wasting, loss of opposition/abduction); pen test",
+      "Lateral 3½ fingers (palmar cutaneous spared in CTS)"
+     ],
+     [
+      "Axillary",
+      "Anterior shoulder dislocation, surgical neck fracture",
+      "Deltoid weakness (abduction 15–90°)",
+      "Regimental badge area"
+     ],
+     [
+      "Long thoracic",
+      "Mastectomy/axillary clearance, carrying load on shoulder",
+      "Medial winging of scapula (push against wall)",
+      "None"
+     ],
+     [
+      "Common peroneal",
+      "Fibular neck fracture, tight POP, lithotomy",
+      "Foot drop, high-stepping gait, loss of eversion (inversion spared)",
+      "Dorsum of foot; first web space (deep peroneal)"
+     ]
+    ]
+   },
+   {
+    "title": "Seddon vs Sunderland",
+    "head": [
+     "Seddon",
+     "Sunderland",
+     "Structure disrupted",
+     "Recovery"
+    ],
+    "rows": [
+     [
+      "Neurapraxia",
+      "1",
+      "Myelin only (conduction block); no Wallerian degeneration",
+      "Complete, days–weeks"
+     ],
+     [
+      "Axonotmesis",
+      "2",
+      "Axon (endoneurium intact)",
+      "Good; ~1 mm/day, Tinel advances"
+     ],
+     [
+      "Axonotmesis",
+      "3",
+      "Axon + endoneurium",
+      "Incomplete, misdirection"
+     ],
+     [
+      "Axonotmesis",
+      "4",
+      "+ perineurium (only epineurium intact)",
+      "Poor — needs repair"
+     ],
+     [
+      "Neurotmesis",
+      "5",
+      "Complete transection incl. epineurium",
+      "None without surgical repair"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Erb palsy**: upper trunk C5–C6 (Erb's point), excessive neck-shoulder separation; loss of shoulder abduction/external rotation and elbow flexion/supination; biceps reflex absent; 'waiter's tip'.",
+   "**Klumpke palsy**: lower trunk C8–T1, hyperabduction (grabbing a branch, breech delivery); claw hand of all fingers (intrinsics) ± **Horner syndrome** (T1 sympathetic) → pre-ganglionic, poor prognosis.",
+   "**Carpal tunnel syndrome**: Phalen (wrist flexion ~60 s), Tinel (tapping), Durkan compression test; NCS confirms; night splint/steroid injection → surgical release of flexor retinaculum.",
+   "**Froment sign**: pinching paper → thumb IP flexes (FPL, median) to compensate for weak adductor pollicis (ulnar).",
+   "**Ulnar paradox**: proximal (elbow) lesion gives LESS clawing than distal (wrist) because FDP to ring & little is also paralysed.",
+   "**Winging**: serratus anterior/long thoracic → medial winging; trapezius/spinal accessory → lateral winging.",
+   "Rate of regeneration ≈ 1 mm/day (≈1 inch/month); an advancing Tinel sign indicates regeneration.",
+   "Common peroneal is the most commonly injured nerve in the lower limb (winds around fibular neck); tibialis posterior (tibial nerve) keeps inversion intact."
+  ],
+  "traps": [
+   {
+    "stem": "Patient can extend the wrist (with radial deviation) but cannot extend the fingers at MCP; no sensory loss.",
+    "trap": "Radial nerve injury at spiral groove.",
+    "fix": "Posterior interosseous nerve palsy — ECRL (supplied above the split) is preserved and there is no sensory deficit."
+   },
+   {
+    "stem": "Ulnar nerve lesion at the elbow shows milder clawing than one at the wrist.",
+    "trap": "So the elbow lesion must be partial.",
+    "fix": "Ulnar paradox: high lesion also paralyses ulnar half of FDP, so there is less DIP/PIP flexion and less clawing."
+   },
+   {
+    "stem": "Brachial plexus injury in a newborn with ptosis and miosis on the same side.",
+    "trap": "Erb palsy.",
+    "fix": "Klumpke (C8–T1) with Horner — T1 root avulsion near the sympathetic chain; poor prognosis."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Card test checks the {{c1::palmar interossei}} (adduction) and Froment sign checks the {{c2::adductor pollicis}} — both supplied by the {{c3::ulnar}} nerve."
+   },
+   {
+    "type": "basic",
+    "front": "Fracture of the shaft humerus at the spiral groove: which nerve and which muscle is classically spared?",
+    "back": "Radial nerve; triceps spared (branches arise proximal to the groove) → wrist drop with intact elbow extension."
+   },
+   {
+    "type": "cloze",
+    "text": "Seddon {{c1::neurapraxia}} = conduction block without Wallerian degeneration; {{c2::neurotmesis}} = complete transection needing surgical repair."
+   },
+   {
+    "type": "basic",
+    "front": "Foot drop after fracture of the fibular neck — which movement is preserved and why?",
+    "back": "Inversion (tibialis posterior, tibial nerve). Common peroneal nerve loses dorsiflexion and eversion."
+   },
+   {
+    "type": "basic",
+    "front": "Medial winging of the scapula after axillary clearance?",
+    "back": "Long thoracic nerve injury → serratus anterior paralysis."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Ulnar claw hand.JPG",
+    "caption": "Ulnar claw (demonstrated): hyperextension at MCP with flexion at IP joints of the ring and little fingers."
+   }
+  ],
+  "keywords": [
+   "radial nerve palsy",
+   "wrist drop",
+   "saturday night palsy",
+   "posterior interosseous nerve",
+   "ulnar nerve",
+   "claw hand",
+   "froment sign",
+   "card test",
+   "ulnar paradox",
+   "median nerve",
+   "ape thumb",
+   "pointing index",
+   "carpal tunnel syndrome",
+   "phalen test",
+   "tinel sign",
+   "axillary nerve",
+   "long thoracic nerve",
+   "winging of scapula",
+   "foot drop",
+   "erb palsy"
+  ],
+  "wiki": [
+   "Brachial_plexus_injury",
+   "Carpal_tunnel_syndrome",
+   "Ulnar_claw"
+  ],
+  "verify": "Maheshwari 7e; BD Chaurasia upper limb"
+ },
+ {
+  "id": "ort-peds-metabolic",
+  "title": "Paediatric hip & foot, metabolic bone disease, TB spine, osteomyelitis",
+  "subject": "Orthopedics",
+  "system": "Paediatric orthopaedics / bone infection",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "First-born breech girl, asymmetric thigh folds, Ortolani clunk → DDH → USG → Pavlik harness.",
+   "Boy 4–8 y, painless limp, ↓abduction & internal rotation → Perthes; obese 10–16 y boy with knee pain and obligatory external rotation on hip flexion → SCFE.",
+   "Back pain, gibbus, cold psoas abscess, paradiscal destruction → Pott's spine."
+  ],
+  "algorithm": "DDH by age\n→ Newborn: Barlow (dislocatable: adduct + push posteriorly), Ortolani (reduces dislocated hip with abduction — clunk)\n→ <4–6 months: ultrasound (Graf; α angle ≥60° normal) → Pavlik harness\n→ 6–18 months: closed reduction (± adductor tenotomy) + hip spica\n→ >18 months: open reduction ± pelvic/femoral osteotomy\n→ X-ray after femoral head ossifies: Hilgenreiner & Perkin lines, broken Shenton line, ↑ acetabular index\nSCFE\n→ AP + frog-leg lateral (lateral more sensitive); Trethowan/Klein line fails to cut the epiphysis\n→ Stable slip → in situ single cannulated screw fixation (no forcible reduction — AVN)\n→ Unstable (cannot bear weight) → urgent fixation; consider prophylactic fixation of other hip in high-risk (endocrine, <10 y)",
+  "tables": [
+   {
+    "title": "Perthes vs SCFE",
+    "head": [
+     "Feature",
+     "Perthes",
+     "SCFE"
+    ],
+    "rows": [
+     [
+      "Age / build",
+      "4–8 y, thin, active boy; delayed bone age",
+      "10–16 y, obese adolescent boy"
+     ],
+     [
+      "Pathology",
+      "Idiopathic AVN of femoral head",
+      "Epiphysis slips posteroinferiorly (metaphysis moves up & out)"
+     ],
+     [
+      "Clinical",
+      "Painless limp; ↓abduction & internal rotation",
+      "Knee/thigh pain; obligatory external rotation on flexion (Drehmann sign)"
+     ],
+     [
+      "X-ray",
+      "Crescent sign (subchondral fracture), sclerosis, fragmentation, Gage sign",
+      "Trethowan (Klein) line misses epiphysis; widened physis"
+     ],
+     [
+      "Prognosis tool",
+      "Herring lateral pillar, Catterall; age <6 y better",
+      "Stability (Loder): unstable → high AVN"
+     ],
+     [
+      "Treatment",
+      "Containment (bracing/osteotomy) to keep head in acetabulum",
+      "In situ screw fixation"
+     ]
+    ]
+   },
+   {
+    "title": "Rickets vs scurvy on X-ray",
+    "head": [
+     "Rickets (defective mineralisation)",
+     "Scurvy (defective collagen/osteoid)"
+    ],
+    "rows": [
+     [
+      "Widened physis, cupping, splaying, fraying of metaphysis",
+      "Dense zone of provisional calcification = white line of Frankel"
+     ],
+     [
+      "Loss of zone of provisional calcification (earliest)",
+      "Lucent band beneath it (Trümmerfeld zone), Pelkan spur, corner (Park) sign"
+     ],
+     [
+      "Rachitic rosary — rounded, non-tender",
+      "Scorbutic rosary — sharp, angular step, tender"
+     ],
+     [
+      "Craniotabes, Harrison sulcus, bow legs",
+      "Wimberger ring (sclerotic rim around epiphysis), subperiosteal haemorrhage, pseudoparalysis"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**CTEV** components: Cavus, forefoot Adductus, hindfoot Varus, Equinus — Ponseti corrects in **CAVE** order; cavus first by supinating forefoot (elevating first metatarsal), equinus last (percutaneous tendo-Achilles tenotomy in most); then foot abduction brace 23 h/day ~3 months then nights till ~4 y.",
+   "Primary deformity in CTEV is at the **talar neck** (medially and plantarly deviated); severity: Pirani score.",
+   "**Osteoporosis (DEXA)**: T-score ≤ −2.5 osteoporosis; −1 to −2.5 osteopenia; ≤ −2.5 + fragility fracture = severe; Z-score for children, premenopausal women, men <50; Ca, PO₄, ALP normal.",
+   "Osteoporosis drugs: bisphosphonates first-line; denosumab; teriparatide (anabolic, limited to ~2 y; osteosarcoma in rats).",
+   "**TB spine**: commonest skeletal TB; lower thoracic/thoracolumbar; paradiscal type commonest; MRI investigation of choice; cold abscess tracks (psoas → groin); ATT is mainstay ('middle path').",
+   "**Pott's paraplegia**: early onset (active disease, oedema/abscess/granulation — better prognosis) vs late onset (healed disease, >2 y; fibrosis/bony ridge/internal gibbus — poor prognosis).",
+   "**Acute osteomyelitis**: metaphysis of long bones in children (sluggish flow in hairpin vessels); S. aureus commonest; sickle cell disease classically Salmonella; MRI earliest; X-ray changes after ~10–14 days.",
+   "**Sequestrum** = dead bone; **involucrum** = new periosteal bone; **cloaca** = opening in involucrum; **Brodie abscess** = subacute localized metaphyseal abscess with sclerotic rim (proximal tibia).",
+   "Non-healing sinus of chronic osteomyelitis can develop squamous cell carcinoma (Marjolin ulcer)."
+  ],
+  "traps": [
+   {
+    "stem": "3-month-old girl with DDH; best initial imaging?",
+    "trap": "Pelvic X-ray — Shenton's line.",
+    "fix": "Ultrasound: femoral head is cartilaginous until ~4–6 months; X-ray becomes useful after ossification."
+   },
+   {
+    "stem": "Obese 13-year-old boy complains only of knee pain; knee examination normal.",
+    "trap": "Osgood-Schlatter / knee X-ray only.",
+    "fix": "Examine & X-ray the hip (frog-leg lateral) — SCFE refers pain to knee via obturator nerve."
+   },
+   {
+    "stem": "Child with sickle cell disease and osteomyelitis — characteristic organism?",
+    "trap": "Staph aureus is always the answer.",
+    "fix": "Salmonella is the classic exam association in sickle cell disease (S. aureus still common overall)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Ponseti corrects CTEV in the order {{c1::C-A-V-E (cavus, adductus, varus, equinus)}}; equinus is usually corrected by {{c2::percutaneous tendo-Achilles tenotomy}}."
+   },
+   {
+    "type": "basic",
+    "front": "Ortolani vs Barlow test?",
+    "back": "Ortolani: abduction reduces a dislocated hip (clunk). Barlow: adduction + posterior pressure dislocates a dislocatable hip."
+   },
+   {
+    "type": "cloze",
+    "text": "In SCFE, {{c1::Trethowan (Klein)}} line drawn along the superior femoral neck fails to intersect the epiphysis; treatment is {{c2::in situ screw fixation}}."
+   },
+   {
+    "type": "basic",
+    "front": "White line of Frankel and Wimberger ring are features of?",
+    "back": "Scurvy (vitamin C deficiency)."
+   },
+   {
+    "type": "cloze",
+    "text": "WHO DEXA definition: osteoporosis is a T-score of {{c1::≤ −2.5}}; osteopenia is {{c2::between −1 and −2.5}}."
+   },
+   {
+    "type": "basic",
+    "front": "Sequestrum vs involucrum?",
+    "back": "Sequestrum: piece of dead, infected bone. Involucrum: new periosteal bone formed around it (openings = cloacae)."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Slipped capital femoral epiphysis.jpg",
+    "caption": "SCFE on frog-leg lateral: femoral capital epiphysis displaced posteriorly off the neck (outlined) — like ice-cream slipping off the cone."
+   }
+  ],
+  "keywords": [
+   "developmental dysplasia of hip",
+   "ddh",
+   "ortolani",
+   "barlow",
+   "pavlik harness",
+   "perthes disease",
+   "scfe",
+   "slipped capital femoral epiphysis",
+   "trethowan line",
+   "ctev",
+   "clubfoot",
+   "ponseti",
+   "rickets",
+   "scurvy",
+   "osteoporosis",
+   "t-score",
+   "pott spine",
+   "pott paraplegia",
+   "osteomyelitis",
+   "brodie abscess"
+  ],
+  "wiki": [
+   "Hip_dysplasia",
+   "Slipped_capital_femoral_epiphysis",
+   "Legg–Calvé–Perthes_disease"
+  ],
+  "verify": "Maheshwari 7e; WHO DEXA criteria; Ponseti method (Global HELP)"
+ },
+ {
+  "id": "psy-psychopharm",
+  "title": "Psychopharmacology: antipsychotics, clozapine, lithium, NMS vs serotonin syndrome",
+  "subject": "Psychiatry",
+  "system": "Psychopharmacology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Fever + lead-pipe rigidity + ↑CK + altered sensorium days after haloperidol → NMS; hyperreflexia + clonus + diarrhoea + mydriasis within hours of adding a serotonergic drug → serotonin syndrome.",
+   "Lithium patient on a thiazide/NSAID with coarse tremor, ataxia, vomiting, confusion → lithium toxicity.",
+   "Treatment-resistant schizophrenia (failed 2 antipsychotics) → clozapine with ANC monitoring."
+  ],
+  "algorithm": "Clozapine initiation\n→ Indication: treatment-resistant schizophrenia (≥2 adequate antipsychotic trials) or persistent suicidality in schizophrenia\n→ Baseline ANC ≥1500/µL (≥1000 in benign ethnic neutropenia), ECG, weight, glucose, lipids\n→ ANC weekly × 6 months → fortnightly months 6–12 → monthly thereafter\n  ANC 1000–1499 (mild) → continue, monitor 3×/week\n  ANC 500–999 (moderate) → interrupt, daily ANC, re-challenge when ≥1000\n  ANC <500 (severe) → stop; usually no re-challenge\n→ Fever, chest pain, tachycardia in first 4–8 weeks → troponin, CRP, echo (myocarditis)\nLithium\n→ Pre-start: renal function, TSH, calcium, ECG, pregnancy test\n→ Level 12 h post-dose; target 0.6–1.0 mEq/L maintenance, up to 1.2 in acute mania\n→ Toxicity (>1.5): stop lithium, IV saline, avoid charcoal (does not bind) → whole bowel irrigation for SR\n  Severe (neurological signs, renal failure, very high levels) → haemodialysis",
+  "tables": [
+   {
+    "title": "NMS vs serotonin syndrome",
+    "head": [
+     "Feature",
+     "NMS",
+     "Serotonin syndrome"
+    ],
+    "rows": [
+     [
+      "Drug",
+      "Dopamine antagonists (or abrupt stop of levodopa)",
+      "SSRIs/SNRIs, MAOIs, linezolid, tramadol, triptans, ondansetron combos"
+     ],
+     [
+      "Onset",
+      "Days–weeks (often first 2 weeks), evolves slowly",
+      "Hours (usually <24 h)"
+     ],
+     [
+      "Neuromuscular",
+      "Lead-pipe rigidity, bradyreflexia",
+      "Hyperreflexia, inducible/ocular clonus, tremor"
+     ],
+     [
+      "Other",
+      "Hyperthermia, autonomic instability, mutism, ↑CK, leucocytosis",
+      "Mydriasis, diarrhoea, hyperactive bowel sounds, shivering, agitation"
+     ],
+     [
+      "Treatment",
+      "Stop drug, cooling, fluids, dantrolene, bromocriptine, BZD; ECT if refractory",
+      "Stop drug, BZD, cyproheptadine"
+     ],
+     [
+      "Resolution",
+      "~1–2 weeks",
+      "Usually within 24 h"
+     ]
+    ]
+   },
+   {
+    "title": "EPS timeline",
+    "head": [
+     "EPS",
+     "Timing",
+     "Features",
+     "Treatment"
+    ],
+    "rows": [
+     [
+      "Acute dystonia",
+      "Hours–first few days",
+      "Torticollis, oculogyric crisis, opisthotonus; young males, high-potency",
+      "IM promethazine / benztropine / diphenhydramine"
+     ],
+     [
+      "Akathisia",
+      "Days–weeks",
+      "Subjective restlessness, pacing (mistaken for agitation)",
+      "Reduce dose, propranolol, BZD"
+     ],
+     [
+      "Parkinsonism",
+      "Weeks (~1–4 wk)",
+      "Bradykinesia, rigidity, tremor; elderly women",
+      "Reduce dose, anticholinergic (trihexyphenidyl)"
+     ],
+     [
+      "Tardive dyskinesia",
+      "Months–years (>3 mo)",
+      "Orofacial-lingual choreoathetosis; elderly women, long-term",
+      "Stop/reduce, switch to clozapine, VMAT2 inhibitors (tetrabenazine, valbenazine, deutetrabenazine); anticholinergics worsen"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Metabolic risk hierarchy**: clozapine ≈ olanzapine > quetiapine ≈ risperidone/paliperidone > ziprasidone ≈ aripiprazole ≈ lurasidone (lowest).",
+   "**Clozapine** adverse effects: agranulocytosis (~1%, mostly first 18 weeks), myocarditis (first 1–2 months), dose-related seizures, sialorrhoea (hypersalivation), constipation/ileus, weight gain, orthostasis; least EPS and lowest TD risk.",
+   "**Lithium**: therapeutic 0.6–1.2 mEq/L; toxicity >1.5; fine tremor at therapeutic level (propranolol) → coarse tremor in toxicity.",
+   "Lithium long-term: hypothyroidism (commonest endocrine), nephrogenic DI (polyuria — treat with amiloride), hyperparathyroidism/hypercalcaemia, weight gain, acne, psoriasis flare, leucocytosis, T-wave flattening, sinus node dysfunction.",
+   "Lithium in pregnancy: **Ebstein anomaly** (absolute risk small); levels ↑ by thiazides, NSAIDs, ACE inhibitors, dehydration, low-salt diet.",
+   "**Valproate**: neural tube defects (highest among AEDs), fetal valproate syndrome, ↓IQ/autism → avoid in women of child-bearing potential; also hepatotoxicity (<2 y), pancreatitis, PCOS, alopecia, thrombocytopenia.",
+   "**Carbamazepine**: NTD, craniofacial defects; SJS/TEN with HLA-B*15:02 (Asians); agranulocytosis/aplastic anaemia; hyponatraemia (SIADH); enzyme inducer (OCP failure). Lamotrigine: SJS (slow titration), relatively safer in pregnancy.",
+   "**SSRIs**: commonest early ADR GI upset; sexual dysfunction (commonest reason for stopping); hyponatraemia (elderly); bleeding with NSAIDs; QT (citalopram); suicidality warning <25 y; discontinuation syndrome worst with paroxetine, least with fluoxetine (long half-life); paroxetine – cardiac defects in pregnancy; sertraline preferred post-MI.",
+   "Hyperprolactinaemia worst with risperidone/paliperidone and typicals; aripiprazole lowers prolactin (partial agonist)."
+  ],
+  "traps": [
+   {
+    "stem": "Patient on lithium is started on hydrochlorothiazide for hypertension and develops coarse tremor and ataxia.",
+    "trap": "Cerebellar stroke / new neurological disease.",
+    "fix": "Lithium toxicity — thiazides reduce lithium clearance (↑ proximal reabsorption); check level, stop drug."
+   },
+   {
+    "stem": "Restless patient pacing the ward 1 week after starting haloperidol; nurse requests more haloperidol for 'agitation'.",
+    "trap": "Increase antipsychotic dose for worsening psychosis.",
+    "fix": "Akathisia — reduce dose, add propranolol/benzodiazepine; increasing the dose worsens it."
+   },
+   {
+    "stem": "Tardive dyskinesia in a patient on long-term haloperidol — add trihexyphenidyl?",
+    "trap": "Anticholinergic, since it helps parkinsonism.",
+    "fix": "Anticholinergics worsen TD; reduce/stop the drug, switch to clozapine, use a VMAT2 inhibitor."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Lithium therapeutic range {{c1::0.6–1.2 mEq/L}} (12 h post-dose); in pregnancy it is linked to {{c2::Ebstein anomaly}}; polyuria from {{c3::nephrogenic diabetes insipidus}} is treated with amiloride."
+   },
+   {
+    "type": "basic",
+    "front": "NMS vs serotonin syndrome — the single best bedside discriminator?",
+    "back": "Reflexes/tone: NMS has lead-pipe rigidity with bradyreflexia; serotonin syndrome has hyperreflexia with clonus (and onset in hours)."
+   },
+   {
+    "type": "cloze",
+    "text": "Clozapine is stopped when ANC falls below {{c1::500/µL}} (severe neutropenia); its most dangerous early cardiac complication is {{c2::myocarditis}}."
+   },
+   {
+    "type": "basic",
+    "front": "Order of appearance of antipsychotic EPS?",
+    "back": "Acute dystonia (hours–days) → akathisia (days–weeks) → parkinsonism (weeks) → tardive dyskinesia (months–years)."
+   },
+   {
+    "type": "basic",
+    "front": "Antipsychotics with the highest and lowest metabolic risk?",
+    "back": "Highest: clozapine, olanzapine. Lowest: aripiprazole, ziprasidone, lurasidone."
+   },
+   {
+    "type": "cloze",
+    "text": "SSRI with the worst discontinuation syndrome is {{c1::paroxetine}}; least is {{c2::fluoxetine}} because of its long-acting metabolite norfluoxetine."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "clozapine",
+   "agranulocytosis",
+   "absolute neutrophil count",
+   "olanzapine",
+   "metabolic syndrome antipsychotic",
+   "neuroleptic malignant syndrome",
+   "serotonin syndrome",
+   "dantrolene",
+   "cyproheptadine",
+   "lithium toxicity",
+   "ebstein anomaly",
+   "nephrogenic diabetes insipidus",
+   "valproate",
+   "carbamazepine",
+   "hla-b*1502",
+   "ssri",
+   "akathisia",
+   "acute dystonia",
+   "tardive dyskinesia",
+   "extrapyramidal"
+  ],
+  "wiki": [
+   "Clozapine",
+   "Lithium_(medication)",
+   "Neuroleptic_malignant_syndrome"
+  ],
+  "verify": "ANC thresholds follow the US clozapine REMS (2015) — FDA ended the REMS requirement in 2025 but kept monitoring advice; older Indian keys use 'stop if WBC <3000/mm³ or ANC <1500/mm³'. Kaplan & Sadock 12e."
+ },
+ {
+  "id": "psy-psychosis-mood",
+  "title": "Schizophrenia spectrum, mood disorders, ECT & defence mechanisms",
+  "subject": "Psychiatry",
+  "system": "Psychotic & mood disorders",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Voices commenting on actions, thought insertion/withdrawal/broadcast, delusional perception → Schneider first-rank symptoms (schizophrenia).",
+   "Duration decides the label: <1 month brief psychotic, 1–6 months schizophreniform, ≥6 months schizophrenia (DSM-5).",
+   "Mania ≥7 days (or hospitalised) → bipolar I; hypomania ≥4 days + major depression → bipolar II."
+  ],
+  "tables": [
+   {
+    "title": "Duration-based diagnoses (DSM-5)",
+    "head": [
+     "Disorder",
+     "Duration / rule"
+    ],
+    "rows": [
+     [
+      "Brief psychotic disorder",
+      "≥1 day, <1 month, full return to baseline"
+     ],
+     [
+      "Schizophreniform",
+      "≥1 month, <6 months"
+     ],
+     [
+      "Schizophrenia",
+      "≥6 months total incl. ≥1 month active symptoms; ≥2 of delusions, hallucinations, disorganised speech, disorganised/catatonic behaviour, negative symptoms (one must be among first three). ICD-11: ≥1 month"
+     ],
+     [
+      "Schizoaffective",
+      "Mood episode concurrent with psychosis + ≥2 weeks of psychosis without mood symptoms"
+     ],
+     [
+      "Delusional disorder",
+      "≥1 month of delusions; functioning relatively preserved; no prominent hallucinations"
+     ],
+     [
+      "Manic episode",
+      "≥7 days (any duration if hospitalised); ≥3 symptoms (4 if mood only irritable)"
+     ],
+     [
+      "Hypomanic episode",
+      "≥4 days; no marked impairment, no psychosis, no hospitalisation"
+     ],
+     [
+      "Major depressive episode",
+      "≥2 weeks, ≥5 of 9 symptoms incl. depressed mood or anhedonia"
+     ],
+     [
+      "Cyclothymia / dysthymia",
+      "≥2 years (1 year in children/adolescents)"
+     ]
+    ]
+   },
+   {
+    "title": "Defence mechanisms",
+    "head": [
+     "Level",
+     "Examples (classic association)"
+    ],
+    "rows": [
+     [
+      "Mature",
+      "Sublimation, altruism, humour, suppression (conscious), anticipation"
+     ],
+     [
+      "Neurotic",
+      "Repression (unconscious), displacement (phobia), reaction formation, isolation of affect & undoing (OCD), intellectualisation, rationalisation"
+     ],
+     [
+      "Immature",
+      "Projection (paranoid), splitting (borderline), acting out, passive aggression, regression, somatisation"
+     ],
+     [
+      "Psychotic",
+      "Denial (of external reality), distortion, delusional projection"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Schneider FRS**: audible thoughts (thought echo), voices arguing/discussing, voices commenting, somatic passivity, thought withdrawal, insertion, broadcasting, made feelings, made impulses, made volitional acts, delusional perception — suggestive, not pathognomonic.",
+   "**Delusional perception** = normal perception followed by a delusional interpretation (two-stage); delusional mood (Wahnstimmung) often precedes it.",
+   "**Bleuler's 4 As**: autism, ambivalence, loosening of associations, affect (blunted).",
+   "Good prognosis schizophrenia: acute onset, late onset, clear precipitant, mood symptoms, positive symptoms, female, married, good premorbid function, family history of mood disorder.",
+   "**Delusional disorder types**: persecutory (commonest), jealous (Othello), erotomanic (de Clérambault), grandiose, somatic (incl. delusional parasitosis/Ekbom), mixed. Capgras = familiar person replaced by impostor; Fregoli = strangers are a familiar person in disguise; Cotard = nihilistic (psychotic depression, elderly).",
+   "**Bipolar I** needs only one manic episode; **bipolar II** never mania; rapid cycling = ≥4 episodes/year. Lithium is the mood stabiliser that reduces suicide.",
+   "**ECT indications**: severe depression with suicidality, psychotic depression, depressive stupor/food refusal, **catatonia** (best response; lorazepam first), refractory mania, NMS, treatment resistance; safe in pregnancy.",
+   "ECT has no absolute contraindication; raised intracranial pressure/space-occupying lesion is the most important relative one; also recent MI/stroke, aneurysm. Commonest side effect: transient memory impairment (retrograde > anterograde) and headache; bilateral more effective but more cognitive effects than right unilateral.",
+   "DSM-5 removed the bereavement exclusion for MDD; prolonged grief disorder added (DSM-5-TR)."
+  ],
+  "traps": [
+   {
+    "stem": "Psychotic symptoms with FRS for 3 months, no mood episode.",
+    "trap": "Schizophrenia — FRS present.",
+    "fix": "Schizophreniform disorder (DSM-5: 1–6 months). Note: ICD-11 would call it schizophrenia (≥1 month)."
+   },
+   {
+    "stem": "Patient with recurrent major depression and a 5-day episode of elevated mood without impairment.",
+    "trap": "Bipolar I.",
+    "fix": "Bipolar II — hypomania (≥4 days, no marked impairment/psychosis) + major depression; any true mania = bipolar I."
+   },
+   {
+    "stem": "Catatonic patient refusing food and fluids — first-line treatment?",
+    "trap": "Antipsychotic injection.",
+    "fix": "Lorazepam challenge; ECT if no response. Antipsychotics can precipitate NMS in catatonia."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "DSM-5: brief psychotic disorder lasts {{c1::<1 month}}, schizophreniform {{c2::1–6 months}}, schizophrenia {{c3::≥6 months}}."
+   },
+   {
+    "type": "basic",
+    "front": "Delusion that a spouse has been replaced by an identical impostor?",
+    "back": "Capgras syndrome (delusional misidentification)."
+   },
+   {
+    "type": "cloze",
+    "text": "Hypomania requires ≥{{c1::4}} days; mania requires ≥{{c2::7}} days or hospitalisation."
+   },
+   {
+    "type": "basic",
+    "front": "Best-responding indication for ECT?",
+    "back": "Catatonia (also psychotic/suicidal depression)."
+   },
+   {
+    "type": "basic",
+    "front": "Suppression vs repression?",
+    "back": "Suppression: conscious, mature defence. Repression: unconscious pushing away of unacceptable thoughts (neurotic)."
+   },
+   {
+    "type": "cloze",
+    "text": "In {{c1::delusional perception}}, a normal perception is given a sudden delusional meaning — a Schneiderian first-rank symptom."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "schizophrenia",
+   "first rank symptoms",
+   "schneider",
+   "delusional perception",
+   "thought insertion",
+   "schizophreniform",
+   "brief psychotic disorder",
+   "schizoaffective",
+   "delusional disorder",
+   "capgras",
+   "cotard",
+   "bipolar i",
+   "bipolar ii",
+   "hypomania",
+   "cyclothymia",
+   "major depressive disorder",
+   "ect",
+   "catatonia",
+   "defence mechanisms",
+   "sublimation"
+  ],
+  "wiki": [
+   "Schizophrenia",
+   "Bipolar_disorder",
+   "Electroconvulsive_therapy"
+  ],
+  "verify": "DSM-5-TR (2022) criteria; ICD-11 uses ≥1 month for schizophrenia. Kaplan & Sadock 12e."
+ },
+ {
+  "id": "psy-substance-neurotic",
+  "title": "Alcohol & opioids, anxiety/OCD/trauma, somatic, personality, child psychiatry, MHCA 2017",
+  "subject": "Psychiatry",
+  "system": "Substance use & neurotic disorders",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Day 3 after last drink: confusion, visual hallucinations, tremor, tachycardia, fever → delirium tremens → benzodiazepines.",
+   "Alcoholic with confusion, ophthalmoplegia/nystagmus, ataxia → Wernicke → IV thiamine BEFORE glucose.",
+   "Pinpoint pupils + respiratory depression + coma → opioid overdose → naloxone; dilated pupils, yawning, lacrimation, piloerection, diarrhoea → opioid withdrawal."
+  ],
+  "algorithm": "Alcohol withdrawal\n→ Assess CIWA-Ar (10 items, max 67)\n  <8–10 → supportive, monitor\n  ≥10 → symptom-triggered benzodiazepine (chlordiazepoxide/diazepam)\n  Liver disease / elderly → lorazepam or oxazepam (no active metabolites)\n→ Thiamine for all (IV high dose if Wernicke suspected) before glucose; correct Mg, K\n→ Seizure → benzodiazepine (phenytoin not useful)\n→ After detox: relapse prevention — naltrexone, acamprosate (safe in liver disease), disulfiram (supervised, motivated, abstinent ≥12 h), baclofen\nOpioid overdose → airway + naloxone IV/IM/IN, repeat (short half-life → re-sedation)\nOpioid dependence → buprenorphine (± naloxone) or methadone maintenance; naltrexone after 7–10 days opioid-free",
+  "tables": [
+   {
+    "title": "Alcohol withdrawal timeline (after last drink)",
+    "head": [
+     "Syndrome",
+     "Onset",
+     "Key feature"
+    ],
+    "rows": [
+     [
+      "Minor withdrawal",
+      "6–12 h",
+      "Tremor, anxiety, sweating, insomnia, tachycardia"
+     ],
+     [
+      "Alcoholic hallucinosis",
+      "12–48 h",
+      "Hallucinations (often auditory) with CLEAR sensorium"
+     ],
+     [
+      "Withdrawal seizures",
+      "12–48 h",
+      "Generalised tonic-clonic ('rum fits')"
+     ],
+     [
+      "Delirium tremens",
+      "48–96 h",
+      "Disorientation, visual hallucinations, autonomic hyperactivity, fever — medical emergency"
+     ]
+    ]
+   },
+   {
+    "title": "Opioid pharmacotherapy",
+    "head": [
+     "Drug",
+     "Action",
+     "Use / pearl"
+    ],
+    "rows": [
+     [
+      "Naloxone",
+      "μ antagonist, short-acting",
+      "Overdose reversal; repeat or infuse"
+     ],
+     [
+      "Methadone",
+      "Full μ agonist, long half-life",
+      "Maintenance; QT prolongation"
+     ],
+     [
+      "Buprenorphine",
+      "Partial μ agonist, κ antagonist, high affinity",
+      "Ceiling on respiratory depression; precipitates withdrawal if started too early — start when in withdrawal; combined with naloxone to deter injection"
+     ],
+     [
+      "Naltrexone",
+      "Long-acting antagonist",
+      "Relapse prevention after detox; also alcohol craving"
+     ],
+     [
+      "Clonidine / lofexidine",
+      "α₂ agonist",
+      "Symptomatic relief of autonomic withdrawal"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Wernicke** (reversible): confusion, ophthalmoplegia (lateral rectus palsy, nystagmus), ataxia — full triad uncommon; mammillary bodies. **Korsakoff** (largely irreversible): anterograde > retrograde amnesia, confabulation; dorsomedial thalamus.",
+   "Most specific lab marker of chronic heavy drinking: carbohydrate-deficient transferrin; GGT and MCV raised; AST:ALT >2.",
+   "**OCD**: ego-dystonic obsessions + compulsions; contamination commonest; first-line SSRI (higher doses, longer trial) + ERP; clomipramine; antipsychotic augmentation; DBS for refractory.",
+   "**PTSD** symptoms >1 month (acute stress disorder: 3 days–1 month); intrusion, avoidance, negative cognition/mood, hyperarousal; trauma-focused CBT/EMDR + SSRI; prazosin for nightmares. **Adjustment disorder**: within 3 months of stressor.",
+   "**Panic disorder**: recurrent unexpected attacks peaking within minutes + ≥1 month worry; SSRI + CBT. **GAD** ≥6 months. Specific phobia → systematic desensitisation (Wolpe); performance anxiety → propranolol.",
+   "**Conversion (functional neurological) disorder**: unconscious, primary gain, la belle indifférence; **factitious**: intentional production for sick role (Munchausen; by proxy); **malingering**: intentional for external gain; **illness anxiety**: fear of having disease with minimal symptoms.",
+   "**Personality clusters**: A odd (paranoid, schizoid, schizotypal); B dramatic (antisocial, borderline, histrionic, narcissistic); C anxious (avoidant, dependent, obsessive-compulsive). Borderline → splitting, self-harm, DBT. Antisocial needs age ≥18 + conduct disorder before 15.",
+   "**ADHD**: symptoms before age 12, ≥6 months, ≥2 settings; methylphenidate first-line (≥6 y), atomoxetine non-stimulant. **Autism**: social-communication deficit + restricted repetitive behaviour from early childhood; M-CHAT screen 18–24 months; risperidone/aripiprazole for irritability only.",
+   "**MHCA 2017**: attempted suicide presumed due to severe stress (Sec 115) — effectively decriminalised; advance directives & nominated representative; ECT without anaesthesia and muscle relaxant prohibited; ECT banned for minors except with guardian consent + Mental Health Review Board permission; no chaining, no sterilisation as treatment; emergency treatment up to 72 h; supported admission up to 30 days (Sec 89)."
+  ],
+  "traps": [
+   {
+    "stem": "Alcoholic with cirrhosis in withdrawal — benzodiazepine of choice?",
+    "trap": "Chlordiazepoxide — the classic withdrawal drug.",
+    "fix": "Lorazepam/oxazepam: conjugated by glucuronidation, no active metabolites — safe in hepatic impairment (and elderly)."
+   },
+   {
+    "stem": "Malnourished alcoholic, hypoglycaemic and confused, in ED.",
+    "trap": "IV dextrose immediately alone.",
+    "fix": "Give IV thiamine before/with glucose — glucose load can precipitate or worsen Wernicke encephalopathy."
+   },
+   {
+    "stem": "Heroin user who used 2 h ago is given the first dose of buprenorphine and becomes acutely ill with withdrawal.",
+    "trap": "Buprenorphine overdose.",
+    "fix": "Precipitated withdrawal — high-affinity partial agonist displaces full agonist; start only once objective withdrawal is present (COWS)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Alcohol withdrawal: tremor at {{c1::6–12 h}}, seizures at {{c2::12–48 h}}, delirium tremens at {{c3::48–96 h}}."
+   },
+   {
+    "type": "basic",
+    "front": "Alcohol relapse-prevention drug safe in liver disease?",
+    "back": "Acamprosate (renally excreted, NMDA modulator); avoid in renal failure."
+   },
+   {
+    "type": "cloze",
+    "text": "Korsakoff syndrome: {{c1::anterograde}} amnesia with {{c2::confabulation}}, largely irreversible; Wernicke is reversible with {{c3::thiamine}}."
+   },
+   {
+    "type": "basic",
+    "front": "Conversion disorder vs factitious disorder vs malingering?",
+    "back": "Conversion: unconscious symptom production (primary gain). Factitious: intentional, to assume sick role. Malingering: intentional, for external gain (money, avoiding duty)."
+   },
+   {
+    "type": "cloze",
+    "text": "Under MHCA 2017, ECT may not be given without {{c1::anaesthesia and muscle relaxant}}, and attempted suicide is presumed to result from {{c2::severe stress}} (Section 115)."
+   },
+   {
+    "type": "basic",
+    "front": "Cluster C personality disorders?",
+    "back": "Avoidant, dependent, obsessive-compulsive (anxious/fearful cluster)."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "alcohol withdrawal",
+   "delirium tremens",
+   "alcoholic hallucinosis",
+   "ciwa",
+   "chlordiazepoxide",
+   "lorazepam",
+   "wernicke encephalopathy",
+   "korsakoff",
+   "thiamine",
+   "disulfiram",
+   "acamprosate",
+   "naltrexone",
+   "opioid overdose",
+   "naloxone",
+   "buprenorphine",
+   "methadone",
+   "ocd",
+   "ptsd",
+   "panic disorder",
+   "conversion disorder"
+  ],
+  "wiki": [
+   "Alcohol_withdrawal_syndrome",
+   "Wernicke_encephalopathy",
+   "Mental_Healthcare_Act,_2017"
+  ],
+  "verify": "DSM-5-TR; CIWA-Ar; Mental Healthcare Act 2017 (India)."
+ },
+ {
+  "id": "der-papulosquamous",
+  "title": "Papulosquamous disorders: psoriasis, lichen planus, pityriasis rosea, PRP, seborrhoeic dermatitis",
+  "subject": "Dermatology",
+  "system": "Papulosquamous",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Well-demarcated erythematous plaques with silvery scale on extensors/scalp, nail pitting, Auspitz sign → psoriasis.",
+   "Pruritic, purple, polygonal, planar papules on wrist flexors with Wickham striae and lacy buccal white lines → lichen planus.",
+   "Single oval herald patch followed in 1–2 weeks by a 'Christmas tree' truncal eruption in a young adult → pityriasis rosea."
+  ],
+  "tables": [
+   {
+    "title": "Psoriasis vs lichen planus histology",
+    "head": [
+     "Feature",
+     "Psoriasis",
+     "Lichen planus"
+    ],
+    "rows": [
+     [
+      "Keratin layer",
+      "Confluent parakeratosis; Munro microabscess (neutrophils in stratum corneum)",
+      "Compact orthohyperkeratosis (no parakeratosis)"
+     ],
+     [
+      "Granular layer",
+      "Thinned/absent",
+      "Wedge-shaped hypergranulosis (= Wickham striae)"
+     ],
+     [
+      "Epidermis",
+      "Regular acanthosis, elongated clubbed rete ridges; spongiform pustule of Kogoj; suprapapillary thinning",
+      "Irregular acanthosis with saw-tooth rete ridges"
+     ],
+     [
+      "Basal layer / dermis",
+      "Dilated tortuous papillary capillaries (→ Auspitz sign)",
+      "Basal cell vacuolar (liquefactive) degeneration, band-like lymphocytic infiltrate, Civatte (colloid) bodies, Max-Joseph spaces"
+     ]
+    ]
+   },
+   {
+    "title": "Psoriasis treatment by setting",
+    "head": [
+     "Setting",
+     "Preferred"
+    ],
+    "rows": [
+     [
+      "Limited plaque",
+      "Topical steroid + calcipotriol; coal tar, dithranol, tazarotene"
+     ],
+     [
+      "Moderate–severe (BSA/PASI/DLQI >10)",
+      "NB-UVB, methotrexate, cyclosporine, acitretin, apremilast, biologics (TNF, IL-17, IL-23, IL-12/23)"
+     ],
+     [
+      "Psoriatic arthritis",
+      "Methotrexate; biologics"
+     ],
+     [
+      "Generalised pustular / palmoplantar pustular",
+      "Acitretin (avoid pregnancy for 3 years after stopping); cyclosporine for rapid control"
+     ],
+     [
+      "Pregnancy",
+      "Topicals, NB-UVB; cyclosporine if severe; avoid methotrexate & acitretin"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Grattage test**: scraping → candle-grease scale → Bulkley membrane → **Auspitz sign** (pinpoint bleeding from dilated papillary capillaries).",
+   "**Koebner (isomorphic) phenomenon**: psoriasis, lichen planus, vitiligo, (pseudo-Koebner in warts, molluscum).",
+   "**Psoriasis types**: plaque (commonest), guttate (children, after streptococcal throat infection), erythrodermic, pustular (von Zumbusch — after systemic steroid withdrawal; impetigo herpetiformis in pregnancy), inverse/flexural, palmoplantar; HLA-C*06:02 (Cw6).",
+   "**Nails**: pitting commonest; oil-drop (salmon patch) most specific; onycholysis, subungual hyperkeratosis. Psoriatic arthritis: DIP involvement, arthritis mutilans, pencil-in-cup.",
+   "**Drugs that worsen psoriasis**: lithium, β-blockers, antimalarials, NSAIDs, ACE inhibitors, interferon, abrupt systemic steroid withdrawal.",
+   "**PASI** scores erythema, induration, scaling (0–4) and area (0–6) for head, trunk, upper & lower limbs → 0–72; PASI 75 = 75% improvement (trial endpoint); 'rule of tens' for severe disease.",
+   "**Lichen planus**: 6 Ps (pruritic, purple, polygonal, planar, papules, plaques); oral reticular LP commonest oral form; nail pterygium; association with **hepatitis C**; erosive oral LP → SCC risk; lichenoid drugs: gold, antimalarials, β-blockers, thiazides.",
+   "**Pityriasis rosea**: herald patch with peripheral collarette scale; lesions along Langer's lines (Christmas tree on back); HHV-6/7 implicated; self-limited 6–8 weeks; always exclude secondary syphilis (VDRL) if palms/soles involved.",
+   "**PRP**: follicular 'nutmeg-grater' papules on dorsal proximal phalanges, salmon-orange erythroderma with islands of sparing, orange waxy palmoplantar keratoderma; histology checkerboard ortho-/parakeratosis; Griffiths type I (classic adult) commonest.",
+   "**Seborrhoeic dermatitis**: greasy yellow scales on scalp, eyebrows, nasolabial folds, presternum; Malassezia; cradle cap in infants; severe in HIV and Parkinson's disease; ketoconazole."
+  ],
+  "traps": [
+   {
+    "stem": "Lesion with Koebner phenomenon and thick scale; biopsy shows saw-tooth rete ridges and band-like lymphocytic infiltrate.",
+    "trap": "Psoriasis — Koebner is positive.",
+    "fix": "Lichen planus; Koebner occurs in both. Saw-tooth rete + hypergranulosis + band-like infiltrate = LP; psoriasis has regular acanthosis, parakeratosis and Munro microabscesses."
+   },
+   {
+    "stem": "Psoriasis patient whose plaques turn into widespread sterile pustules with fever after oral prednisolone is stopped.",
+    "trap": "Secondary bacterial infection — start antibiotics.",
+    "fix": "Generalised pustular (von Zumbusch) psoriasis triggered by systemic steroid withdrawal — avoid systemic steroids in psoriasis; acitretin/cyclosporine."
+   },
+   {
+    "stem": "Herald-patch-like eruption on trunk with lesions on palms and soles.",
+    "trap": "Pityriasis rosea — reassure.",
+    "fix": "Palm/sole involvement is atypical for PR — test for secondary syphilis (VDRL/TPHA)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "In psoriasis, neutrophils in the stratum corneum form {{c1::Munro microabscesses}}, and in the stratum spinosum form the {{c2::spongiform pustule of Kogoj}}."
+   },
+   {
+    "type": "basic",
+    "front": "Histological correlate of Wickham striae?",
+    "back": "Focal wedge-shaped hypergranulosis (thickened granular layer) in lichen planus."
+   },
+   {
+    "type": "cloze",
+    "text": "Civatte (colloid) bodies are {{c1::apoptotic basal keratinocytes}} seen in {{c2::lichen planus}}."
+   },
+   {
+    "type": "basic",
+    "front": "Most common and most specific nail findings in psoriasis?",
+    "back": "Commonest: pitting. Most specific: oil-drop (salmon) patch."
+   },
+   {
+    "type": "cloze",
+    "text": "Pityriasis rosea starts with a {{c1::herald patch}} and the secondary eruption follows {{c2::Langer's (cleavage) lines}} in a Christmas-tree pattern."
+   },
+   {
+    "type": "basic",
+    "front": "Systemic drug of choice for generalised pustular psoriasis (non-pregnant) and the key counselling point?",
+    "back": "Acitretin — teratogenic; avoid pregnancy for 3 years after stopping."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:An Arm Covered With Plaque Type Psoriasis.jpg",
+    "caption": "Chronic plaque psoriasis: sharply demarcated erythematous plaques with silvery-white scale on the extensor arm."
+   },
+   {
+    "commons": "File:Sequeira Plate 44.jpg",
+    "caption": "Lichen planus: lilac, flat-topped polygonal papules on the forearm; close look shows the silvery Wickham striae."
+   },
+   {
+    "commons": "File:Pityriasis rosea-1.jpg",
+    "caption": "Pityriasis rosea: the larger herald patch (upper lesion) with smaller secondary oval scaly lesions."
+   }
+  ],
+  "keywords": [
+   "psoriasis",
+   "auspitz sign",
+   "koebner phenomenon",
+   "munro microabscess",
+   "kogoj",
+   "guttate psoriasis",
+   "pustular psoriasis",
+   "nail pitting",
+   "pasi",
+   "lichen planus",
+   "wickham striae",
+   "civatte bodies",
+   "saw-tooth rete ridges",
+   "pityriasis rosea",
+   "herald patch",
+   "christmas tree pattern",
+   "pityriasis rubra pilaris",
+   "seborrhoeic dermatitis",
+   "acitretin",
+   "methotrexate"
+  ],
+  "wiki": [
+   "Psoriasis",
+   "Lichen_planus",
+   "Pityriasis_rosea"
+  ],
+  "verify": "Rook 10e / IADVL Textbook 5e"
+ },
+ {
+  "id": "der-vesiculobullous",
+  "title": "Immunobullous disorders & SJS/TEN",
+  "subject": "Dermatology",
+  "system": "Vesiculobullous",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Middle-aged, painful oral erosions first, then flaccid bullae, Nikolsky +, intercellular 'fishnet' IgG → pemphigus vulgaris.",
+   "Elderly, itchy urticarial plaques with tense bullae, Nikolsky −, linear IgG/C3 at BMZ → bullous pemphigoid.",
+   "Intensely itchy grouped vesicles on elbows/knees/buttocks + gluten enteropathy, granular IgA in dermal papillae → dermatitis herpetiformis."
+  ],
+  "algorithm": "Blistering disease\n→ Flaccid vs tense? Mucosa? Nikolsky?\n→ Biopsy edge of fresh blister for H&E (level of split) + perilesional skin for DIF\n→ Serology: ELISA anti-Dsg1/Dsg3, anti-BP180/BP230, anti-tTG/eTG; IIF (monkey oesophagus; salt-split skin)\n→ Treat:\n  PV → systemic corticosteroid + rituximab (first-line now) ± azathioprine/MMF; DCP pulse (Indian regimen)\n  BP → super-potent topical clobetasol (even for extensive) or oral steroid; doxycycline; stop gliptin\n  DH → dapsone (check G6PD) for rapid itch relief + lifelong gluten-free diet\nDrug rash with skin detachment\n→ BSA detached: <10% SJS, 10–30% overlap, >30% TEN\n→ Stop culprit drug immediately → SCORTEN within 24 h (and day 3) → burns/ICU care, eye care\n→ Cyclosporine / IVIG / etanercept (evidence varies)",
+  "tables": [
+   {
+    "title": "Immunobullous disease comparison",
+    "head": [
+     "Disease",
+     "Split",
+     "Antigen",
+     "DIF",
+     "Clinical"
+    ],
+    "rows": [
+     [
+      "Pemphigus vulgaris",
+      "Suprabasal (row of tombstones)",
+      "Desmoglein 3 (mucosal) ± Dsg1",
+      "Intercellular IgG/C3 — fishnet/chicken-wire",
+      "Oral first, flaccid bullae, Nikolsky & Asboe-Hansen +, acantholytic Tzanck cells"
+     ],
+     [
+      "Pemphigus foliaceus",
+      "Subcorneal / granular layer",
+      "Desmoglein 1",
+      "Intercellular IgG (upper epidermis)",
+      "Crusted 'cornflake' scaly erosions, seborrhoeic areas, NO mucosa; fogo selvagem"
+     ],
+     [
+      "Paraneoplastic pemphigus",
+      "Suprabasal + interface",
+      "Plakins (envoplakin, periplakin), Dsg3",
+      "Intercellular + BMZ",
+      "Severe stomatitis; NHL, CLL, Castleman; bronchiolitis obliterans; rat bladder IIF"
+     ],
+     [
+      "Bullous pemphigoid",
+      "Subepidermal, eosinophil-rich",
+      "BP180 (collagen XVII, NC16A) & BP230",
+      "Linear IgG + C3 at BMZ; roof on salt-split skin",
+      "Elderly, tense bullae on urticarial base, itchy; mucosa uncommon; Nikolsky −"
+     ],
+     [
+      "Dermatitis herpetiformis",
+      "Subepidermal; neutrophil microabscesses at dermal papillae",
+      "Epidermal transglutaminase (TG3)",
+      "Granular IgA at dermal papillary tips",
+      "Grouped excoriated vesicles on extensors; coeliac disease; HLA-DQ2/DQ8"
+     ],
+     [
+      "Linear IgA disease",
+      "Subepidermal, neutrophils",
+      "LAD-1 / BP180 fragment (97/120 kDa)",
+      "Linear IgA at BMZ",
+      "'String of pearls/cluster of jewels'; childhood form; vancomycin-induced in adults; dapsone"
+     ],
+     [
+      "Epidermolysis bullosa acquisita",
+      "Subepidermal",
+      "Type VII collagen",
+      "Linear IgG; floor on salt-split skin",
+      "Trauma-induced blisters, scarring, milia"
+     ]
+    ]
+   },
+   {
+    "title": "SCORTEN (1 point each; score at 24 h and day 3)",
+    "head": [
+     "Factor",
+     "Cut-off"
+    ],
+    "rows": [
+     [
+      "Age",
+      "≥40 years"
+     ],
+     [
+      "Malignancy",
+      "Present"
+     ],
+     [
+      "Heart rate",
+      "≥120/min"
+     ],
+     [
+      "Epidermal detachment (day 1)",
+      ">10% BSA"
+     ],
+     [
+      "Serum urea",
+      ">10 mmol/L (BUN >28 mg/dL)"
+     ],
+     [
+      "Serum glucose",
+      ">14 mmol/L (>252 mg/dL)"
+     ],
+     [
+      "Serum bicarbonate",
+      "<20 mmol/L"
+     ],
+     [
+      "Predicted mortality",
+      "0–1: ~3% · 2: ~12% · 3: ~35% · 4: ~58% · ≥5: ~90%"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Nikolsky sign** positive: pemphigus vulgaris & foliaceus, SSSS, TEN; negative in BP, DH.",
+   "**Pemphigus antigen rule**: mucosal-dominant PV = anti-Dsg3 only; mucocutaneous PV = Dsg3 + Dsg1; PF = Dsg1 only (desmoglein compensation theory).",
+   "**Drug-induced pemphigus**: thiol drugs (penicillamine, captopril) — usually foliaceus pattern. **Drug-induced BP**: DPP-4 inhibitors (gliptins), furosemide, spironolactone.",
+   "**SSSS vs TEN**: SSSS — child, exfoliative toxin cleaves Dsg1 → subcorneal/granular split, mucosa spared, no drug; TEN — full-thickness epidermal necrosis, mucosa involved, drug-induced.",
+   "**SJS/TEN culprits**: allopurinol, carbamazepine (HLA-B*15:02), phenytoin, lamotrigine, phenobarbital, sulfonamides (cotrimoxazole), nevirapine, oxicam NSAIDs; typically 4–28 days after starting drug.",
+   "**DH**: almost all patients have gluten-sensitive enteropathy (mostly asymptomatic); dapsone relieves itch within days but not the gut; gluten-free diet reduces enteropathy-associated lymphoma risk.",
+   "**Mucous membrane (cicatricial) pemphigoid**: mucosal scarring, ocular symblepharon → blindness; **pemphigoid gestationis**: BP180, linear C3, periumbilical onset in pregnancy.",
+   "Tzanck smear: acantholytic cells (PV); multinucleated giant cells (herpes)."
+  ],
+  "traps": [
+   {
+    "stem": "Elderly diabetic on sitagliptin with tense bullae, Nikolsky negative.",
+    "trap": "Pemphigus vulgaris — commonest blistering disease asked.",
+    "fix": "Bullous pemphigoid (gliptin-induced); tense subepidermal blisters with linear IgG/C3 at BMZ; stop the gliptin."
+   },
+   {
+    "stem": "DIF shows granular IgA in dermal papillae; what is the target antigen?",
+    "trap": "Tissue transglutaminase (TG2), the coeliac antigen.",
+    "fix": "Epidermal transglutaminase (TG3) is the cutaneous autoantigen; anti-tTG serology is still used for screening."
+   },
+   {
+    "stem": "Feverish 3-year-old with tender erythema and superficial peeling, mouth spared; no drug history.",
+    "trap": "TEN.",
+    "fix": "Staphylococcal scalded skin syndrome — subcorneal split (Dsg1 cleavage by exfoliative toxin), mucosa spared; antistaphylococcal antibiotics."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Pemphigus vulgaris: {{c1::suprabasal}} split with {{c2::'row of tombstones'}} basal cells; DIF shows {{c3::intercellular (fishnet)}} IgG."
+   },
+   {
+    "type": "basic",
+    "front": "Bullous pemphigoid antigens and DIF pattern?",
+    "back": "BP180 (BPAG2, collagen XVII) and BP230 (BPAG1); linear IgG and C3 along the basement membrane zone."
+   },
+   {
+    "type": "cloze",
+    "text": "Dermatitis herpetiformis: {{c1::granular IgA}} at dermal papillae; rapid response to {{c2::dapsone}}; long-term control with {{c3::gluten-free diet}}."
+   },
+   {
+    "type": "basic",
+    "front": "SJS vs overlap vs TEN by body surface area detached?",
+    "back": "SJS <10%; SJS/TEN overlap 10–30%; TEN >30%."
+   },
+   {
+    "type": "cloze",
+    "text": "SCORTEN includes age ≥{{c1::40}}, heart rate ≥{{c2::120}}/min, detachment >10%, malignancy, urea >10 mmol/L, glucose >14 mmol/L and bicarbonate <{{c3::20}} mmol/L."
+   },
+   {
+    "type": "basic",
+    "front": "Pemphigus foliaceus vs vulgaris — mucosa and antigen?",
+    "back": "Foliaceus: Dsg1, subcorneal split, mucosa spared. Vulgaris: Dsg3 (± Dsg1), suprabasal split, mucosa involved."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Pemphigus immunofluorescence.jpg",
+    "caption": "Direct immunofluorescence in pemphigus vulgaris: intercellular IgG outlining keratinocytes — the 'fishnet/chicken-wire' pattern."
+   },
+   {
+    "commons": "File:Bullous pemphgoid in a 72 year old bedridden female.JPG",
+    "caption": "Bullous pemphigoid in an elderly woman: tense, intact bullae (contrast with the flaccid bullae/erosions of pemphigus)."
+   }
+  ],
+  "keywords": [
+   "pemphigus vulgaris",
+   "pemphigus foliaceus",
+   "paraneoplastic pemphigus",
+   "bullous pemphigoid",
+   "dermatitis herpetiformis",
+   "linear iga disease",
+   "epidermolysis bullosa acquisita",
+   "desmoglein",
+   "bp180",
+   "nikolsky sign",
+   "tombstone",
+   "fishnet",
+   "direct immunofluorescence",
+   "acantholysis",
+   "tzanck",
+   "dapsone",
+   "stevens-johnson syndrome",
+   "toxic epidermal necrolysis",
+   "scorten",
+   "staphylococcal scalded skin"
+  ],
+  "wiki": [
+   "Pemphigus_vulgaris",
+   "Bullous_pemphigoid",
+   "Dermatitis_herpetiformis"
+  ],
+  "verify": "Rook 10e / IADVL 5e; SCORTEN (Bastuji-Garin 2000)"
+ },
+ {
+  "id": "der-infections-sti",
+  "title": "Leprosy, dermatophytes, scabies, genital ulcers & NACO syndromic kits",
+  "subject": "Dermatology",
+  "system": "Infections & STI",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Hypopigmented anaesthetic patch + thickened nerve → leprosy (WHO cardinal signs; slit-skin smear for AFB).",
+   "Painless indurated clean ulcer = syphilis; painful soft ragged ulcer with suppurative bubo = chancroid; beefy-red painless bleeding ulcer = donovanosis; transient ulcer then groove sign = LGV; grouped painful vesicles = herpes.",
+   "Nocturnal itch in several family members, burrows in finger webs → scabies → permethrin 5% for all contacts."
+  ],
+  "tables": [
+   {
+    "title": "Genital ulcer disease",
+    "head": [
+     "Disease (organism)",
+     "Ulcer",
+     "Lymph nodes",
+     "Diagnosis",
+     "Treatment"
+    ],
+    "rows": [
+     [
+      "Primary syphilis (T. pallidum)",
+      "Single, painless, indurated, clean base (Hunterian chancre)",
+      "Bilateral, rubbery, non-tender",
+      "Dark-ground microscopy; serology",
+      "Benzathine penicillin 2.4 MU IM single dose"
+     ],
+     [
+      "Chancroid (H. ducreyi)",
+      "Multiple, painful, soft, ragged undermined edge, purulent, bleeds",
+      "Unilateral painful suppurative bubo (may rupture)",
+      "Gram stain 'school of fish'",
+      "Azithromycin 1 g single dose or ceftriaxone 250 mg IM"
+     ],
+     [
+      "LGV (C. trachomatis L1–L3)",
+      "Small painless transient papule/ulcer (often missed)",
+      "Painful inguinal LN, groove sign, multiple sinuses; later esthiomene, rectal stricture",
+      "NAAT",
+      "Doxycycline 100 mg BD × 21 days"
+     ],
+     [
+      "Donovanosis (K. granulomatis)",
+      "Painless beefy-red granulomatous ulcer, bleeds on touch",
+      "Pseudobubo (subcutaneous granulation, no true LN)",
+      "Donovan bodies (safety-pin) in tissue smear",
+      "Azithromycin weekly/daily ≥3 weeks until healed"
+     ],
+     [
+      "Genital herpes (HSV-2 > HSV-1)",
+      "Multiple painful grouped vesicles → shallow erosions",
+      "Bilateral tender LN; fever in primary",
+      "Tzanck (multinucleated giant cells), PCR",
+      "Acyclovir 400 mg TDS × 7–10 days"
+     ]
+    ]
+   },
+   {
+    "title": "NACO syndromic STI kits (colour-coded)",
+    "head": [
+     "Kit",
+     "Syndrome",
+     "Contents"
+    ],
+    "rows": [
+     [
+      "1 Grey",
+      "Urethral discharge / cervicitis",
+      "Azithromycin 1 g + cefixime 400 mg (single dose)"
+     ],
+     [
+      "2 Green",
+      "Vaginal discharge (vaginitis)",
+      "Secnidazole 2 g + fluconazole 150 mg"
+     ],
+     [
+      "3 White",
+      "Genital ulcer, non-herpetic",
+      "Benzathine penicillin 2.4 MU + azithromycin 1 g"
+     ],
+     [
+      "4 Blue",
+      "Genital ulcer, non-herpetic, penicillin-allergic",
+      "Doxycycline 100 mg BD × 15 days + azithromycin 1 g"
+     ],
+     [
+      "5 Red",
+      "Genital ulcer, herpetic",
+      "Acyclovir 400 mg TDS × 7 days"
+     ],
+     [
+      "6 Yellow",
+      "Lower abdominal pain (PID)",
+      "Cefixime 400 mg + metronidazole 400 mg BD × 14 days + doxycycline 100 mg BD × 14 days"
+     ],
+     [
+      "7 Black",
+      "Inguinal bubo",
+      "Doxycycline 100 mg BD × 21 days + azithromycin 1 g"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Ridley-Jopling**: TT – BT – BB – BL – LL (+ indeterminate). Lepromin (Mitsuda) test: strongly positive TT, negative LL — prognostic, not diagnostic.",
+   "**WHO classification**: PB = 1–5 skin lesions, no bacilli on smear; MB = ≥6 lesions, or nerve involvement, or smear-positive regardless of lesion count (NLEP: PB ≤1 nerve, MB >1 nerve).",
+   "**WHO MDT (2018)**: rifampicin + dapsone + clofazimine for both — PB 6 months, MB 12 months. Monthly supervised: rifampicin 600 mg + clofazimine 300 mg; daily: dapsone 100 mg + clofazimine 50 mg (adult). Older regimen: PB = rifampicin + dapsone only.",
+   "**Type 1 (reversal) reaction**: borderline cases, type IV hypersensitivity, existing lesions inflame + neuritis → oral prednisolone. **Type 2 (ENL)**: BL/LL, immune-complex (type III), crops of tender evanescent nodules with fever, neuritis, iritis, orchitis → prednisolone; thalidomide for recurrent ENL; continue MDT during reactions.",
+   "LL features: leonine facies, madarosis (lateral eyebrow first), saddle nose, glove-and-stocking anaesthesia, globi/lepra (Virchow) cells, Grenz zone; Fite-Faraco stain; M. leprae not cultivable (mouse footpad, armadillo).",
+   "**Dermatophytes**: Trichophyton (skin, hair, nail), Microsporum (skin, hair — not nail), Epidermophyton (skin, nail — not hair). Tinea capitis needs oral therapy (griseofulvin for Microsporum, terbinafine for Trichophyton).",
+   "**Wood's lamp**: Microsporum tinea capitis — bright green; favus (T. schoenleinii) — dull green; T. tonsurans (endothrix) — none; pityriasis versicolor — yellow/golden; erythrasma — coral red; Pseudomonas — green; vitiligo — chalky white; porphyria (urine) — pink-red.",
+   "**Scabies**: burrow pathognomonic; finger webs, wrists, axillae, nipples, umbilicus, genitalia (nodules), face spared in adults but not infants; permethrin 5% neck-down, repeat at 1 week, treat all contacts; oral ivermectin 200 µg/kg × 2 doses (not <15 kg/pregnancy); crusted (Norwegian) scabies in immunocompromised — huge mite load.",
+   "**Syphilis serology**: non-treponemal (VDRL/RPR) — screening, titre for activity & response (4-fold fall), become negative after cure, biological false positives (pregnancy, SLE/APLA, leprosy, malaria, HIV), prozone in secondary syphilis; treponemal (TPHA, FTA-ABS) — confirmatory, stay positive for life; FTA-ABS earliest serology to turn positive.",
+   "**Jarisch-Herxheimer reaction**: fever, myalgia within 24 h of first penicillin dose (commonest in secondary syphilis) — not allergy, continue treatment."
+  ],
+  "traps": [
+   {
+    "stem": "Painful genital ulcer with a single fluctuant unilateral inguinal bubo; Gram stain shows chains of Gram-negative rods.",
+    "trap": "LGV — bubo is its hallmark.",
+    "fix": "Chancroid: painful ulcer + suppurative unilateral bubo + 'school of fish'; LGV's primary ulcer is painless and transient and buboes show the groove sign."
+   },
+   {
+    "stem": "Secondary syphilis with florid rash but VDRL non-reactive on undiluted serum.",
+    "trap": "Rule out syphilis.",
+    "fix": "Prozone phenomenon — antibody excess; repeat VDRL on diluted serum."
+   },
+   {
+    "stem": "Leprosy patient on MDT develops new painful red nodules with fever and orchitis.",
+    "trap": "Drug reaction — stop MDT.",
+    "fix": "Type 2 reaction (ENL); continue MDT, give prednisolone (thalidomide for recurrent ENL)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "NACO kit {{c1::1 (grey)}} treats urethral discharge with azithromycin 1 g + cefixime 400 mg; kit {{c2::6 (yellow)}} treats lower abdominal pain (PID)."
+   },
+   {
+    "type": "basic",
+    "front": "NACO kit 7 — colour, syndrome, contents?",
+    "back": "Black; inguinal bubo; doxycycline 100 mg BD × 21 days + azithromycin 1 g."
+   },
+   {
+    "type": "cloze",
+    "text": "WHO MDT: PB {{c1::6}} months and MB {{c2::12}} months, both with rifampicin, dapsone and {{c3::clofazimine}}."
+   },
+   {
+    "type": "basic",
+    "front": "Wood's lamp colours: Microsporum tinea capitis, pityriasis versicolor, erythrasma?",
+    "back": "Bright green; yellow-golden; coral red."
+   },
+   {
+    "type": "cloze",
+    "text": "Donovanosis shows {{c1::Donovan bodies}} (safety-pin appearance) and a {{c2::pseudobubo}} rather than true lymphadenopathy."
+   },
+   {
+    "type": "basic",
+    "front": "Type 1 vs type 2 lepra reaction — immunology and who gets it?",
+    "back": "Type 1 (reversal): delayed (type IV) hypersensitivity in borderline leprosy. Type 2 (ENL): immune-complex (type III) in BL/LL."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Leprosy thigh demarcated cutaneous lesions.jpg",
+    "caption": "Leprosy: well-demarcated hypopigmented/erythematous skin lesions on the thigh — test for sensory loss and thickened nerves."
+   },
+   {
+    "commons": "File:Scabies-burrow.jpg",
+    "caption": "Scabies burrow: thin, wavy grey line with the mite at its end — the pathognomonic lesion."
+   }
+  ],
+  "keywords": [
+   "leprosy",
+   "ridley jopling",
+   "lepromatous",
+   "tuberculoid",
+   "multibacillary",
+   "paucibacillary",
+   "mdt",
+   "clofazimine",
+   "lepra reaction",
+   "erythema nodosum leprosum",
+   "dermatophyte",
+   "tinea capitis",
+   "wood's lamp",
+   "scabies",
+   "permethrin",
+   "chancroid",
+   "lgv",
+   "donovanosis",
+   "genital ulcer",
+   "naco kit"
+  ],
+  "wiki": [
+   "Leprosy",
+   "Scabies",
+   "Chancroid"
+  ],
+  "verify": "WHO leprosy guidelines 2018 (uniform 3-drug MDT; NLEP adoption for PB may lag — older Indian keys: PB = rifampicin + dapsone 6 months); NACO STI/RTI technical guidelines 2014/2024."
+ },
+ {
+  "id": "der-pigment-tumours-misc",
+  "title": "Pigmentary disorders, skin tumours, acne, alopecia, nails & cutaneous markers",
+  "subject": "Dermatology",
+  "system": "Pigment, tumours & appendages",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Changing mole: Asymmetry, Border irregular, Colour variegated, Diameter >6 mm, Evolving → melanoma → excision biopsy; Breslow thickness drives prognosis.",
+   "Elderly, central face, pearly rolled edge with telangiectasia, slowly eroding → BCC (rodent ulcer); ulcer with everted edge in a burn scar → SCC (Marjolin).",
+   "Velvety hyperpigmented neck/axillae in obese → insulin resistance; sudden widespread with tripe palms in elderly → gastric adenocarcinoma."
+  ],
+  "tables": [
+   {
+    "title": "Melanoma subtypes",
+    "head": [
+     "Subtype",
+     "Who / where",
+     "Pearl"
+    ],
+    "rows": [
+     [
+      "Superficial spreading",
+      "Commonest overall (~70%); back (men), legs (women)",
+      "Long radial growth phase"
+     ],
+     [
+      "Nodular",
+      "Any site",
+      "Vertical growth from start; worst prognosis for given duration (EFG: elevated, firm, growing)"
+     ],
+     [
+      "Lentigo maligna melanoma",
+      "Elderly, chronically sun-damaged face",
+      "Arises in Hutchinson melanotic freckle; best prognosis"
+     ],
+     [
+      "Acral lentiginous",
+      "Palms, soles, subungual; commonest in dark skin (Indians, Africans, Asians)",
+      "Hutchinson's nail sign (periungual pigment); not UV-related"
+     ]
+    ]
+   },
+   {
+    "title": "BCC vs SCC",
+    "head": [
+     "Feature",
+     "BCC",
+     "SCC"
+    ],
+    "rows": [
+     [
+      "Frequency",
+      "Commonest skin cancer",
+      "Second commonest; commonest in transplant recipients"
+     ],
+     [
+      "Site",
+      "Upper face above line from mouth angle to ear lobe (inner canthus, nose)",
+      "Sun-exposed, lower lip, scars/chronic ulcers, mucosa"
+     ],
+     [
+      "Precursor",
+      "None (de novo)",
+      "Actinic keratosis, Bowen disease, Marjolin ulcer, arsenic, HPV, XP"
+     ],
+     [
+      "Morphology",
+      "Pearly rolled edge, telangiectasia, rodent ulcer",
+      "Everted edge, keratotic nodule/ulcer"
+     ],
+     [
+      "Histology",
+      "Peripheral palisading, retraction artefact",
+      "Keratin pearls, intercellular bridges"
+     ],
+     [
+      "Spread",
+      "Local invasion; metastasis very rare",
+      "Regional lymph nodes"
+     ],
+     [
+      "Genetics / therapy",
+      "PTCH1 (hedgehog), Gorlin syndrome; Mohs surgery; vismodegib",
+      "TP53; excision with margins; cemiplimab for advanced"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Breslow thickness** (granular layer to deepest tumour cell, mm) = most important prognostic factor of a localised primary melanoma; sentinel-node status is the strongest overall predictor. AJCC 8: T1 ≤1.0 mm (T1a <0.8 mm, no ulceration), T2 >1–2, T3 >2–4, T4 >4 mm; ulceration adds 'b'. **Clark level** (I epidermis → V subcutis) is anatomical and no longer used in AJCC 8.",
+   "Melanoma margins: in situ 0.5–1 cm; ≤1 mm → 1 cm; 1–2 mm → 1–2 cm; >2 mm → 2 cm. Markers S-100, HMB-45, Melan-A, SOX10; BRAF V600E (~50%) → BRAF + MEK inhibitors; immunotherapy (anti-PD-1, anti-CTLA-4).",
+   "**Fitzpatrick skin types**: I always burns, never tans · II usually burns, tans minimally · III sometimes burns, tans gradually · IV rarely burns, tans well · V very rarely burns, brown skin · VI never burns, deeply pigmented. Most Indians are types IV–V.",
+   "**Vitiligo**: autoimmune loss of melanocytes; Koebner +; leukotrichia = poor prognosis for repigmentation; segmental (early onset, stable, poor medical response → grafting) vs non-segmental (commonest); stable ≥1 year before surgery; treatment topical steroid/tacrolimus, NB-UVB, oral mini-pulse dexamethasone for spreading disease, topical ruxolitinib; associations thyroid disease, diabetes, pernicious anaemia, alopecia areata.",
+   "**Melasma**: symmetric facial hyperpigmentation (centrofacial commonest) in women; pregnancy (chloasma), OCPs, UV; Wood's lamp accentuates epidermal type; strict sunscreen + triple combination (hydroquinone + tretinoin + fluocinolone) ± oral tranexamic acid; hydroquinone overuse → exogenous ochronosis.",
+   "**Acne (Indian grading)**: Grade 1 comedones ± occasional papules · Grade 2 papules, comedones, few pustules · Grade 3 predominant pustules, nodules, abscesses · Grade 4 cysts, abscesses, sinuses (acne conglobata). **Isotretinoin** for nodulocystic/scarring/refractory acne: teratogenic (pregnancy test, contraception, avoid pregnancy 1 month after stopping), cheilitis commonest, ↑TG/LFTs; never with tetracyclines (pseudotumour cerebri); no blood donation.",
+   "**Alopecia**: areata — patchy smooth, exclamation-mark hairs, nail pitting, ophiasis = poor prognosis, intralesional triamcinolone/JAK inhibitors; androgenetic — miniaturisation, Hamilton-Norwood/Ludwig, minoxidil ± finasteride; telogen effluvium — diffuse shedding 2–3 months after a stressor, self-limiting; anagen effluvium — chemotherapy within weeks; scarring — DLE, lichen planopilaris, pseudopelade ('footprints in snow').",
+   "**Nails**: pitting (psoriasis, alopecia areata), pterygium (LP), koilonychia (iron deficiency), Beau lines (systemic illness), Mees lines (arsenic), Muehrcke lines (hypoalbuminaemia, blanch on pressure), Terry nails (cirrhosis), half-and-half/Lindsay (CKD), splinter haemorrhage (endocarditis), blue lunula (Wilson, argyria), periungual fibroma/Koenen tumour (tuberous sclerosis).",
+   "**Cutaneous markers**: necrobiosis lipoidica (diabetes; yellow-brown atrophic shin plaques with telangiectasia), diabetic dermopathy (commonest diabetic skin sign), erythema nodosum (septal panniculitis without vasculitis — streptococcal infection, TB, sarcoidosis/Löfgren, IBD, OCP, pregnancy), pyoderma gangrenosum (IBD, RA, myeloma; pathergy), Sweet syndrome (AML), necrolytic migratory erythema (glucagonoma), Leser-Trélat (sudden seborrhoeic keratoses — GI adenocarcinoma), Bazex (aerodigestive SCC), Gottron papules/heliotrope (dermatomyositis)."
+  ],
+  "traps": [
+   {
+    "stem": "Pigmented lesion on the sole of an Indian man with pigment extending onto the proximal nail fold.",
+    "trap": "Superficial spreading melanoma — commonest type overall.",
+    "fix": "Acral lentiginous melanoma — commonest melanoma in dark-skinned populations; periungual pigment = Hutchinson's sign."
+   },
+   {
+    "stem": "Which single feature best predicts outcome of a clinically localised primary melanoma?",
+    "trap": "Clark level.",
+    "fix": "Breslow thickness (with ulceration); Clark level is dropped from AJCC 8 staging."
+   },
+   {
+    "stem": "Acne patient on doxycycline is started on isotretinoin and develops headache with papilloedema.",
+    "trap": "Migraine from drug side effect — continue both.",
+    "fix": "Idiopathic intracranial hypertension — isotretinoin + tetracyclines are contraindicated together; stop them."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Breslow thickness is measured from the {{c1::granular layer}} to the {{c2::deepest tumour cell}}; AJCC 8 T1a is <{{c3::0.8}} mm without ulceration."
+   },
+   {
+    "type": "basic",
+    "front": "Commonest melanoma subtype overall vs in Indians?",
+    "back": "Overall: superficial spreading. Indians/dark skin: acral lentiginous."
+   },
+   {
+    "type": "cloze",
+    "text": "BCC histology shows {{c1::peripheral palisading}} with retraction artefact; it is linked to {{c2::PTCH1}} mutation (Gorlin syndrome)."
+   },
+   {
+    "type": "basic",
+    "front": "Exclamation-mark hairs indicate?",
+    "back": "Alopecia areata (hairs tapering towards the scalp)."
+   },
+   {
+    "type": "cloze",
+    "text": "Necrobiosis lipoidica is associated with {{c1::diabetes mellitus}}; erythema nodosum is a {{c2::septal}} panniculitis without vasculitis."
+   },
+   {
+    "type": "basic",
+    "front": "Fitzpatrick type IV vs V?",
+    "back": "IV: rarely burns, tans well (moderate brown). V: very rarely burns, dark brown skin."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Melanoma vs normal mole ABCD rule NCI Visuals Online.jpg",
+    "caption": "ABCD rule: melanomas (left) show asymmetry, irregular border, colour variegation and diameter >6 mm compared with benign moles (right)."
+   }
+  ],
+  "keywords": [
+   "vitiligo",
+   "melasma",
+   "melanoma",
+   "abcde",
+   "breslow thickness",
+   "clark level",
+   "acral lentiginous melanoma",
+   "basal cell carcinoma",
+   "squamous cell carcinoma",
+   "marjolin ulcer",
+   "fitzpatrick skin type",
+   "acne vulgaris",
+   "isotretinoin",
+   "alopecia areata",
+   "androgenetic alopecia",
+   "telogen effluvium",
+   "nail signs",
+   "acanthosis nigricans",
+   "necrobiosis lipoidica",
+   "erythema nodosum"
+  ],
+  "wiki": [
+   "Melanoma",
+   "Basal-cell_carcinoma",
+   "Vitiligo"
+  ],
+  "verify": "AJCC 8th melanoma staging; Rook 10e / IADVL 5e; Indian acne grading (Adityan/Thappa)."
+ }
+]

@@ -1,0 +1,2770 @@
+[
+ {
+  "id": "med-stroke",
+  "title": "Acute ischaemic stroke: thrombolysis, thrombectomy & ASPECTS",
+  "subject": "Medicine",
+  "system": "Neurology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Sudden focal deficit + a clear 'last known well' (LKW) time → stroke code: glucose first, then NCCT to exclude bleed",
+   "≤4.5 h from LKW → IV thrombolysis (TNK or alteplase) once BP <185/110",
+   "Large-vessel occlusion (ICA / M1) on CTA → mechanical thrombectomy up to 24 h (6–24 h needs perfusion/clinical-core mismatch)"
+  ],
+  "algorithm": "Suspected stroke → ABC + capillary glucose (hypoglycaemia is the commonest mimic)\n→ NCCT head (+ CTA for LVO; CTP/MRI if late or unknown onset)\n  Haemorrhage → ICH pathway (no lysis)\n  No haemorrhage →\n    ≤4.5 h from LKW & no contraindication →\n      BP ≥185/110 → IV labetalol / nicardipine first\n      BP <185/110 → TNK 0.25 mg/kg single bolus (max 25 mg) OR alteplase 0.9 mg/kg (max 90 mg; 10% bolus over 1 min, rest over 60 min)\n      After lysis: BP <180/105 for 24 h; no antiplatelet/anticoagulant for 24 h; repeat CT at 24 h\n    Unknown onset / wake-up → MRI: DWI+ / FLAIR− mismatch → lysis eligible (WAKE-UP)\n    LVO (ICA or M1) →\n      0–6 h: pre-stroke mRS 0–1, NIHSS ≥6, ASPECTS ≥6 → thrombectomy (give IVT too if eligible; do not wait for response)\n      6–24 h: DAWN (6–24 h) / DEFUSE-3 (6–16 h) mismatch → thrombectomy\n    Not lysed → permissive BP up to 220/120; aspirin within 24–48 h\n    Minor stroke (NIHSS ≤3) / high-risk TIA → aspirin + clopidogrel for 21 days",
+  "tables": [
+   {
+    "title": "ASPECTS (10 MCA regions; subtract 1 for each with early ischaemic change)",
+    "head": [
+     "Level",
+     "Regions",
+     "Note"
+    ],
+    "rows": [
+     [
+      "Ganglionic (basal ganglia/thalamus) level",
+      "C (caudate), L (lentiform), IC (internal capsule), I (insular ribbon), M1, M2, M3",
+      "Loss of insular ribbon & obscured lentiform = earliest CT signs"
+     ],
+     [
+      "Supraganglionic (corona radiata) level",
+      "M4, M5, M6",
+      "Cortex above the basal ganglia"
+     ],
+     [
+      "Interpretation",
+      "Normal CT = 10; each involved region −1",
+      "ASPECTS ≥6 = classic EVT cut-off; ≤7 predicts worse outcome and more sICH"
+     ]
+    ]
+   },
+   {
+    "title": "IV thrombolytics in stroke",
+    "head": [
+     "Feature",
+     "Tenecteplase (TNK)",
+     "Alteplase (rtPA)"
+    ],
+    "rows": [
+     [
+      "Dose",
+      "0.25 mg/kg, max 25 mg",
+      "0.9 mg/kg, max 90 mg"
+     ],
+     [
+      "Administration",
+      "Single IV bolus over 5 s",
+      "10% IV bolus over 1 min, remaining 90% infused over 60 min"
+     ],
+     [
+      "Fibrin specificity",
+      "Higher; longer half-life",
+      "Lower; short half-life (needs infusion)"
+     ],
+     [
+      "Note",
+      "Do not use the cardiac (MI) weight-band dose",
+      "Classic exam drug of choice"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Glucose first**: hypoglycaemia (<50 mg/dL) mimics stroke and must be corrected before lysis",
+   "Earliest CT signs: **hyperdense MCA sign** (thrombus), loss of insular ribbon, obscured lentiform nucleus, loss of grey–white differentiation",
+   "**DWI** MRI is the most sensitive test for acute infarct (positive within minutes); NCCT is the first test because its job is to exclude haemorrhage",
+   "Key lysis exclusions: any ICH on CT, ischaemic stroke/serious head trauma within 3 months, intracranial/spinal surgery within 3 months, GI bleed within 21 days, platelets <1,00,000, INR >1.7, aortic dissection, infective endocarditis, glucose <50 mg/dL",
+   "**sICH** after alteplase ≈ 6% (NINDS) – the main complication; also orolingual angioedema (more with ACE inhibitors)",
+   "**Bridging**: IVT and thrombectomy are given together – never delay groin puncture to watch the response to lysis",
+   "Thrombectomy 0–6 h criteria (AHA/ASA): age ≥18, pre-stroke mRS 0–1, ICA or M1 occlusion, NIHSS ≥6, ASPECTS ≥6",
+   "Post-lysis: BP <180/105 for 24 h, neuro checks, no antithrombotics for 24 h until repeat imaging excludes bleed",
+   "Minor non-cardioembolic stroke (NIHSS ≤3) or high-risk TIA (ABCD² ≥4): **DAPT 21 days** then single antiplatelet (CHANCE/POINT)"
+  ],
+  "traps": [
+   {
+    "stem": "64-year-old, left hemiparesis 2 h ago, NCCT no bleed, BP 195/115. Next step?",
+    "trap": "Start alteplase immediately because the patient is inside the 4.5 h window.",
+    "fix": "Lower BP first with IV labetalol or nicardipine to <185/110, then lyse. Lysis above this BP raises the risk of symptomatic ICH."
+   },
+   {
+    "stem": "Terminal ICA occlusion at 2 h. IVT started. Wait to see if the deficit improves before calling interventional radiology?",
+    "trap": "Wait 60 min for the alteplase response – looks conservative.",
+    "fix": "Activate thrombectomy at once in parallel with IVT (bridging). IVT alone rarely recanalises an ICA/M1 clot."
+   },
+   {
+    "stem": "Woke up with aphasia; LKW unknown. MRI: DWI-bright infarct, no FLAIR signal in that area.",
+    "trap": "Not eligible – onset unknown, so lysis is contraindicated.",
+    "fix": "DWI-positive/FLAIR-negative mismatch means the infarct is probably <4.5 h old → IV thrombolysis can be given (WAKE-UP trial)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Acute stroke, BP 198/112, no bleed on CT: first lower BP to below {{c1::185/110 mmHg}} with IV labetalol/nicardipine; after lysis keep it below {{c2::180/105 mmHg}} for 24 h."
+   },
+   {
+    "type": "cloze",
+    "text": "Tenecteplase dose in stroke is {{c1::0.25 mg/kg single bolus (max 25 mg)}}; alteplase is {{c2::0.9 mg/kg, max 90 mg, 10% as bolus and the rest over 60 min}}."
+   },
+   {
+    "type": "basic",
+    "front": "What does a DWI-positive / FLAIR-negative mismatch mean in a wake-up stroke?",
+    "back": "The infarct is likely <4.5 h old → patient is eligible for IV thrombolysis (WAKE-UP trial)."
+   },
+   {
+    "type": "basic",
+    "front": "Thrombectomy criteria in the 0–6 h window (AHA/ASA)?",
+    "back": "Age ≥18, pre-stroke mRS 0–1, causative ICA or M1 occlusion, NIHSS ≥6, ASPECTS ≥6. 6–24 h: DAWN/DEFUSE-3 mismatch selection."
+   },
+   {
+    "type": "cloze",
+    "text": "ASPECTS scores {{c1::10}} MCA regions on NCCT; a normal scan scores {{c2::10}} and each region with early ischaemic change subtracts 1."
+   },
+   {
+    "type": "basic",
+    "front": "Untreated (not lysed) acute ischaemic stroke: when do you lower BP?",
+    "back": "Only if BP >220/120 mmHg (permissive hypertension protects the penumbra); then lower by about 15% in 24 h."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Right dense MCA sign as seen on CT brain.jpg",
+    "caption": "Hyperdense (dense) right MCA sign on NCCT = thrombus in the MCA – an early sign of MCA territory infarction before parenchymal hypodensity appears"
+   },
+   {
+    "commons": "File:DWE MRI of cerebral infarction.png",
+    "caption": "Diffusion-weighted MRI: acute infarct is bright (restricted diffusion) within minutes – the most sensitive imaging for early ischaemia"
+   }
+  ],
+  "keywords": [
+   "ischemic stroke",
+   "ischaemic stroke",
+   "thrombolysis",
+   "alteplase",
+   "tenecteplase",
+   "thrombectomy",
+   "aspects",
+   "hyperdense mca sign",
+   "insular ribbon",
+   "dwi flair mismatch",
+   "wake-up stroke",
+   "last known well",
+   "nihss",
+   "large vessel occlusion",
+   "dawn trial",
+   "defuse-3",
+   "penumbra",
+   "labetalol",
+   "tia",
+   "abcd2"
+  ],
+  "wiki": [
+   "Stroke",
+   "Thrombolysis",
+   "Alberta_stroke_programme_early_CT_score"
+  ],
+  "verify": "AHA/ASA 2019 AIS guideline + TNK 0.25 mg/kg endorsement (2023–24); large-core trials (SELECT2, ANGEL-ASPECT 2023) now allow thrombectomy in selected ASPECTS 3–5 patients – exam-classic cut-off remains ASPECTS ≥6."
+ },
+ {
+  "id": "med-status-epilepticus",
+  "title": "Status epilepticus: refractory & super-refractory escalation",
+  "subject": "Medicine",
+  "system": "Neurology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Convulsive seizure ≥5 min, or ≥2 seizures without regaining consciousness between them = status epilepticus (t1 = 5 min)",
+   "Neuronal injury from t2 = 30 min → treat by the clock: benzodiazepine → one non-sedating IV ASM → anaesthetic infusion",
+   "Failing BZD + one second-line ASM = refractory; persisting ≥24 h after starting anaesthesia = super-refractory"
+  ],
+  "algorithm": "0–5 min: ABC, O2, monitor, capillary glucose (hypoglycaemia → thiamine 100 mg IV then 50 mL of 50% dextrose)\n5–20 min (Phase 1, benzodiazepine):\n  IV access → lorazepam 0.1 mg/kg (max 4 mg/dose), repeat once after 5–10 min\n    or diazepam 0.15–0.2 mg/kg (max 10 mg/dose), repeat once\n  No IV → IM midazolam 10 mg (>40 kg) / 5 mg (13–40 kg) (RAMPART); or intranasal/buccal midazolam, rectal diazepam\n20–40 min (Phase 2, one non-sedating IV ASM):\n  Levetiracetam 60 mg/kg (max 4500 mg) OR fosphenytoin 20 mg PE/kg (max 1500 mg PE) OR valproate 40 mg/kg (max 3000 mg)\n  (phenobarbital 15–20 mg/kg if none available)\n>40 min / still seizing → refractory SE (Phase 3):\n  Intubate, ICU, continuous EEG\n  Infusion: midazolam, propofol or thiopental/pentobarbital (± ketamine)\n  Target: seizure suppression or burst suppression for 24–48 h, then slow wean\nRecurs or persists ≥24 h after starting anaesthesia → super-refractory SE:\n  Ketamine, ketogenic diet, immunotherapy (steroids, IVIG, PLEX) for NORSE/FIRES, inhaled isoflurane, look for cause",
+  "tables": [
+   {
+    "title": "Second-line agents (ESETT: equal efficacy, about half stop seizing)",
+    "head": [
+     "Drug",
+     "Loading dose (max)",
+     "Key caution"
+    ],
+    "rows": [
+     [
+      "Levetiracetam",
+      "60 mg/kg (4500 mg)",
+      "Few interactions; safe in liver disease; renal dose adjust"
+     ],
+     [
+      "Fosphenytoin",
+      "20 mg PE/kg (1500 mg PE); ≤150 mg PE/min",
+      "Hypotension, arrhythmia – ECG monitoring; can be given IM"
+     ],
+     [
+      "Phenytoin",
+      "20 mg/kg; ≤50 mg/min",
+      "Propylene glycol vehicle → hypotension, bradyarrhythmia; purple glove syndrome; not IM"
+     ],
+     [
+      "Valproate",
+      "40 mg/kg (3000 mg)",
+      "Avoid in liver disease, mitochondrial disease (POLG), pregnancy if possible; hyperammonaemia"
+     ],
+     [
+      "Phenobarbital",
+      "15–20 mg/kg",
+      "Respiratory depression, hypotension"
+     ]
+    ]
+   },
+   {
+    "title": "ILAE 2015 operational time points",
+    "head": [
+     "Type",
+     "t1 (start treatment)",
+     "t2 (long-term injury)"
+    ],
+    "rows": [
+     [
+      "Tonic–clonic",
+      "5 min",
+      "30 min"
+     ],
+     [
+      "Focal with impaired awareness",
+      "10 min",
+      ">60 min"
+     ],
+     [
+      "Absence",
+      "10–15 min",
+      "Unknown"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**IV lorazepam** = drug of choice for initial treatment; **IM midazolam** is the choice without IV access (RAMPART: at least as effective as IV lorazepam pre-hospital)",
+   "Give a maximum of **two** benzodiazepine doses – further doses add respiratory depression without benefit",
+   "Benzodiazepine resistance develops because synaptic **GABA-A receptors are internalised** while NMDA/AMPA receptors move to the surface → rationale for **ketamine** (NMDA antagonist) in prolonged SE",
+   "**Fosphenytoin** is a water-soluble prodrug dosed in phenytoin equivalents (PE); can be infused 3× faster than phenytoin and given IM",
+   "**Propofol infusion syndrome**: metabolic acidosis, rhabdomyolysis, hyperkalaemia, hypertriglyceridaemia, cardiac failure – with high dose/prolonged infusion",
+   "Non-convulsive SE is a common cause of persistent coma after the convulsions stop → **EEG** is mandatory if the patient does not wake",
+   "Special causes: **eclampsia → MgSO₄**; **isoniazid toxicity → pyridoxine**; hypoglycaemia → dextrose; hyponatraemia → 3% saline",
+   "**NORSE** (new-onset refractory SE in a healthy person) – commonest identified cause autoimmune/paraneoplastic encephalitis (e.g., anti-NMDAR); **FIRES** = NORSE preceded by a febrile illness → early immunotherapy"
+  ],
+  "traps": [
+   {
+    "stem": "Lorazepam 4 mg at 5 min, repeated at 12 min; still seizing at 22 min. Next?",
+    "trap": "A third lorazepam dose or rectal diazepam – 'one more try' with a benzodiazepine.",
+    "fix": "Escalate to a second-line IV ASM (levetiracetam, fosphenytoin or valproate). More than two BZD doses causes respiratory depression and does not work."
+   },
+   {
+    "stem": "Why is fosphenytoin preferred over phenytoin for loading?",
+    "trap": "Because it is more effective at stopping seizures.",
+    "fix": "Efficacy is the same; fosphenytoin lacks the propylene glycol vehicle, can be given faster (≤150 mg PE/min vs ≤50 mg/min), causes less hypotension/tissue injury (no purple glove) and can be given IM."
+   },
+   {
+    "stem": "Healthy 16-year-old, fever a week ago, now refractory SE with normal MRI.",
+    "trap": "Just keep adding anti-seizure drugs and anaesthetics.",
+    "fix": "Think NORSE/FIRES: send autoimmune encephalitis panel (anti-NMDAR etc.) and start early immunotherapy (steroids, IVIG/PLEX)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Status epilepticus without IV access: first-line is {{c1::IM midazolam 10 mg (>40 kg)}}, supported by the {{c2::RAMPART}} trial."
+   },
+   {
+    "type": "cloze",
+    "text": "Operational t1 for convulsive status epilepticus is {{c1::5 min}} and t2 (risk of neuronal injury) is {{c2::30 min}}."
+   },
+   {
+    "type": "basic",
+    "front": "ESETT second-line loading doses?",
+    "back": "Levetiracetam 60 mg/kg (max 4500 mg); fosphenytoin 20 mg PE/kg (max 1500 mg PE); valproate 40 mg/kg (max 3000 mg). All roughly equally effective (~half respond)."
+   },
+   {
+    "type": "basic",
+    "front": "Definition of super-refractory status epilepticus?",
+    "back": "SE that continues or recurs ≥24 h after starting anaesthetic infusion, including recurrence on weaning."
+   },
+   {
+    "type": "cloze",
+    "text": "Benzodiazepines fail in prolonged SE because synaptic {{c1::GABA-A receptors are internalised}}, while {{c2::NMDA}} receptors are upregulated – hence ketamine."
+   },
+   {
+    "type": "basic",
+    "front": "Maximum infusion rate: phenytoin vs fosphenytoin?",
+    "back": "Phenytoin ≤50 mg/min; fosphenytoin ≤150 mg PE/min (with cardiac monitoring for both)."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "status epilepticus",
+   "refractory status epilepticus",
+   "super-refractory",
+   "lorazepam",
+   "midazolam",
+   "rampart",
+   "esett",
+   "levetiracetam",
+   "fosphenytoin",
+   "phenytoin",
+   "valproate",
+   "propofol infusion syndrome",
+   "burst suppression",
+   "norse",
+   "fires",
+   "ketamine",
+   "purple glove"
+  ],
+  "wiki": [
+   "Status_epilepticus",
+   "Fosphenytoin"
+  ],
+  "verify": "ILAE 2015 definitions; AES 2016 guideline + ESETT (2019); Neurocritical Care Society escalation."
+ },
+ {
+  "id": "med-brainstem-syndromes",
+  "title": "Brainstem & vascular stroke localisation",
+  "subject": "Medicine",
+  "system": "Neurology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Crossed signs = brainstem: IPSILATERAL cranial nerve + CONTRALATERAL long tract",
+   "Medial (paramedian) syndromes hit motor (pyramid/corticospinal), medial lemniscus, and the nerve that exits medially (III, VI, XII)",
+   "Lateral syndromes hit spinothalamic, sympathetic (Horner), trigeminal sensory, cerebellar peduncles, vestibular, IX/X – and spare power"
+  ],
+  "tables": [
+   {
+    "title": "Classic brainstem syndromes",
+    "head": [
+     "Syndrome",
+     "Site / artery",
+     "Ipsilateral",
+     "Contralateral"
+    ],
+    "rows": [
+     [
+      "Weber",
+      "Ventral midbrain (cerebral peduncle) / PCA paramedian branches",
+      "CN III palsy (down & out, ptosis, dilated pupil)",
+      "Hemiplegia incl. lower face"
+     ],
+     [
+      "Benedikt",
+      "Midbrain tegmentum (red nucleus) / PCA paramedian",
+      "CN III palsy",
+      "Tremor/ataxia, involuntary movements (± hemiparesis)"
+     ],
+     [
+      "Claude",
+      "Dorsal midbrain tegmentum (red nucleus, superior cerebellar peduncle)",
+      "CN III palsy",
+      "Ataxia (no hemiplegia)"
+     ],
+     [
+      "Parinaud (dorsal midbrain)",
+      "Pretectum / pineal tumour, hydrocephalus",
+      "Bilateral: upgaze palsy, light–near dissociation, convergence–retraction nystagmus, lid retraction",
+      "—"
+     ],
+     [
+      "Millard-Gubler",
+      "Ventral caudal pons / basilar paramedian",
+      "CN VI (abduction) + CN VII (LMN face) palsy",
+      "Hemiplegia"
+     ],
+     [
+      "Foville",
+      "Dorsal caudal pons (VI nucleus/PPRF)",
+      "Horizontal gaze palsy to side of lesion + CN VII palsy",
+      "Hemiplegia"
+     ],
+     [
+      "Locked-in",
+      "Bilateral ventral pons / basilar artery",
+      "—",
+      "Quadriplegia + anarthria; consciousness, vertical gaze and blinking preserved"
+     ],
+     [
+      "Wallenberg (lateral medullary)",
+      "Vertebral artery (commonest) or PICA",
+      "Face pain/temp loss (spinal V), Horner, ataxia, dysphagia/hoarseness/↓gag (nucleus ambiguus), vertigo/nystagmus",
+      "Body pain/temp loss; NO weakness"
+     ],
+     [
+      "Medial medullary (Dejerine)",
+      "Anterior spinal artery / vertebral",
+      "Tongue deviates TO the lesion (CN XII)",
+      "Hemiplegia (arm & leg, face spared) + loss of vibration/position (medial lemniscus)"
+     ]
+    ]
+   },
+   {
+    "title": "Supratentorial & lacunar localisation",
+    "head": [
+     "Lesion",
+     "Deficit"
+    ],
+    "rows": [
+     [
+      "ACA",
+      "Contralateral leg > arm, urinary incontinence, abulia, grasp reflex"
+     ],
+     [
+      "MCA (superior division)",
+      "Contralateral face & arm > leg weakness/sensory loss; Broca aphasia (dominant); eyes deviate TOWARD lesion"
+     ],
+     [
+      "MCA (inferior division)",
+      "Wernicke aphasia (dominant) / neglect (non-dominant, usually right parietal); contralateral superior quadrantanopia"
+     ],
+     [
+      "PCA",
+      "Contralateral homonymous hemianopia with macular sparing; dominant PCA + splenium → alexia without agraphia"
+     ],
+     [
+      "Posterior limb internal capsule (lenticulostriate)",
+      "Pure motor hemiplegia face + arm + leg equally"
+     ],
+     [
+      "Thalamus VPL/VPM",
+      "Pure sensory stroke; later thalamic pain (Dejerine–Roussy)"
+     ],
+     [
+      "Basis pontis / genu of IC",
+      "Dysarthria–clumsy hand; ataxic hemiparesis"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Lateral medullary syndrome**: commonest cause is **vertebral artery** occlusion (more than PICA itself); no limb weakness and no tongue involvement",
+   "**Medial medullary**: tongue deviates **towards** the lesion; hemiplegia is contralateral (pyramids decussate below)",
+   "**Weber** = III + contralateral hemiplegia; **Benedikt** = III + contralateral tremor/ataxia (red nucleus)",
+   "**Millard-Gubler** = VI + VII + contralateral hemiplegia; **Foville** adds a horizontal **gaze** palsy (PPRF/VI nucleus)",
+   "**Locked-in syndrome**: basilar occlusion with bilateral ventral pons infarct – communicate by vertical eye movement/blinking; EEG normal (not coma)",
+   "**AICA** (lateral pontine) syndrome = Wallenberg-like + ipsilateral facial palsy and **deafness** (labyrinthine artery)",
+   "**Gerstmann syndrome** (dominant angular gyrus): agraphia, acalculia, finger agnosia, left–right disorientation",
+   "**Anton syndrome**: bilateral occipital (PCA) infarcts → cortical blindness with denial; pupils react normally",
+   "Lacunes = small deep infarcts from **lipohyalinosis** of penetrating arteries in hypertension/diabetes; no cortical signs (no aphasia, neglect, field cut)"
+  ],
+  "traps": [
+   {
+    "stem": "Vertigo, hoarseness, right Horner, right facial and left body pain/temperature loss, normal power.",
+    "trap": "Medial medullary syndrome – because it is medullary.",
+    "fix": "Lateral medullary (Wallenberg) syndrome – crossed pain/temperature loss + Horner + nucleus ambiguus signs and NO weakness; commonest culprit is the vertebral artery."
+   },
+   {
+    "stem": "Tongue deviates to the right; left hemiparesis; left loss of joint position sense.",
+    "trap": "Left-sided lesion because the hemiparesis is on the left.",
+    "fix": "Right medial medullary syndrome: the tongue points TO the lesion (ipsilateral XII), long tract signs are contralateral."
+   },
+   {
+    "stem": "Right gaze deviation in acute stroke with left hemiparesis.",
+    "trap": "Pontine lesion on the left (eyes look away from the lesion).",
+    "fix": "Hemispheric (frontal eye field) lesions push the eyes TOWARD the lesion (right MCA). Pontine lesions make the eyes look AWAY from the lesion, i.e. towards the hemiparesis."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Weber syndrome: ipsilateral {{c1::CN III palsy}} + contralateral {{c2::hemiplegia}}; site {{c3::ventral midbrain (cerebral peduncle)}}."
+   },
+   {
+    "type": "cloze",
+    "text": "In medial medullary syndrome the tongue deviates {{c1::towards}} the lesion and the limbs are weak on the {{c2::opposite}} side."
+   },
+   {
+    "type": "basic",
+    "front": "Lateral medullary syndrome – what is NOT involved?",
+    "back": "Corticospinal tract (no weakness), medial lemniscus (vibration/position preserved) and CN XII (tongue normal)."
+   },
+   {
+    "type": "basic",
+    "front": "Millard-Gubler vs Foville syndrome?",
+    "back": "Both: ipsilateral VII + contralateral hemiplegia. Millard-Gubler (ventral pons) adds VI palsy (abduction); Foville (dorsal pons) adds conjugate horizontal gaze palsy to the lesion side."
+   },
+   {
+    "type": "cloze",
+    "text": "Alexia without agraphia = dominant {{c1::PCA}} infarct involving the occipital cortex and the {{c2::splenium of the corpus callosum}}."
+   },
+   {
+    "type": "basic",
+    "front": "Pure motor hemiplegia (face, arm, leg equally, no cortical signs) – site and vessel?",
+    "back": "Posterior limb of internal capsule (or basis pontis); lenticulostriate branches of MCA – lacunar infarct."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "weber syndrome",
+   "benedikt syndrome",
+   "claude syndrome",
+   "parinaud syndrome",
+   "millard-gubler",
+   "foville syndrome",
+   "locked-in syndrome",
+   "wallenberg",
+   "lateral medullary syndrome",
+   "medial medullary syndrome",
+   "pica",
+   "aica",
+   "anterior spinal artery",
+   "internal capsule",
+   "lacunar infarct",
+   "gerstmann syndrome",
+   "anton syndrome",
+   "alexia without agraphia",
+   "crossed hemiplegia",
+   "brainstem stroke"
+  ],
+  "wiki": [
+   "Lateral_medullary_syndrome",
+   "Weber's_syndrome",
+   "Lacunar_stroke"
+  ],
+  "verify": "Harrison 21e (cerebrovascular diseases) / Adams & Victor."
+ },
+ {
+  "id": "med-movement-disorders",
+  "title": "Parkinsonism & movement disorders: PD vs MSA vs PSP vs DLB vs CBD",
+  "subject": "Medicine",
+  "system": "Neurology",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Asymmetric rest tremor + bradykinesia + rigidity + clear levodopa response = idiopathic Parkinson disease",
+   "'Parkinson-plus' red flags: early falls, early autonomic failure, vertical gaze palsy, early dementia/hallucinations, apraxia/alien limb, poor levodopa response",
+   "Chorea + psychiatric change + dementia + autosomal dominant with anticipation = Huntington (CAG repeat, caudate atrophy)"
+  ],
+  "tables": [
+   {
+    "title": "Parkinsonian syndromes",
+    "head": [
+     "Disorder",
+     "Key clinical clue",
+     "Imaging / pathology",
+     "Levodopa"
+    ],
+    "rows": [
+     [
+      "Parkinson disease",
+      "Asymmetric pill-rolling rest tremor, hyposmia, REM sleep behaviour disorder, constipation",
+      "Loss of substantia nigra pars compacta; Lewy bodies (α-synuclein)",
+      "Good, sustained"
+     ],
+     [
+      "MSA (P or C type)",
+      "Early severe autonomic failure (orthostatic hypotension, urinary, erectile), cerebellar signs, stridor, antecollis",
+      "'Hot cross bun' sign in pons; glial cytoplasmic inclusions (α-synuclein in oligodendrocytes)",
+      "Poor/transient"
+     ],
+     [
+      "PSP",
+      "Vertical (downgaze first) supranuclear gaze palsy, early backward falls, axial rigidity, retrocollis, surprised stare",
+      "Midbrain atrophy: 'hummingbird/penguin' sign, 'Mickey Mouse' sign; 4-repeat tau",
+      "Poor"
+     ],
+     [
+      "Dementia with Lewy bodies",
+      "Dementia before or within 1 year of parkinsonism, fluctuating cognition, visual hallucinations, RBD",
+      "Cortical Lewy bodies; reduced occipital metabolism",
+      "Modest; severe neuroleptic sensitivity"
+     ],
+     [
+      "Corticobasal degeneration",
+      "Very asymmetric rigidity, limb apraxia, alien limb, cortical sensory loss, myoclonus",
+      "Asymmetric frontoparietal atrophy; 4-repeat tau",
+      "Poor"
+     ]
+    ]
+   },
+   {
+    "title": "Drug-induced movement disorders (antipsychotics)",
+    "head": [
+     "Reaction",
+     "Onset",
+     "Treatment"
+    ],
+    "rows": [
+     [
+      "Acute dystonia (oculogyric crisis, torticollis)",
+      "Hours–days",
+      "IV/IM anticholinergic (benztropine, promethazine) or diphenhydramine"
+     ],
+     [
+      "Akathisia",
+      "Days–weeks",
+      "Reduce dose; propranolol; benzodiazepine"
+     ],
+     [
+      "Drug-induced parkinsonism (symmetric)",
+      "Weeks",
+      "Reduce/switch drug; anticholinergic (not levodopa)"
+     ],
+     [
+      "Tardive dyskinesia (orofacial)",
+      "Months–years",
+      "Stop/switch (clozapine); VMAT2 inhibitor (tetrabenazine, deutetrabenazine, valbenazine)"
+     ],
+     [
+      "Neuroleptic malignant syndrome",
+      "Usually first 2 weeks",
+      "Stop drug, cooling, dantrolene / bromocriptine; CK markedly ↑"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Huntington disease**: autosomal dominant **CAG** repeat in *HTT* (chromosome 4p); ≥40 repeats fully penetrant, 36–39 reduced penetrance; **anticipation** mainly with paternal transmission",
+   "HD pathology: loss of GABAergic medium spiny neurons of the **caudate** → 'box-car' lateral ventricles on imaging; chorea treated with **tetrabenazine**",
+   "**Wilson disease**: AR *ATP7B* (chromosome 13); low ceruloplasmin, ↑24-h urinary copper, **KF ring** (Descemet membrane) almost always present with neuro disease; wing-beating tremor, dystonia, 'face of the giant panda' on MRI midbrain",
+   "Wilson treatment: chelation (penicillamine, trientine) + zinc (blocks gut absorption); liver transplant for fulminant failure",
+   "**Levodopa + carbidopa** is the most effective PD drug; long-term problems = wearing-off, on–off, peak-dose dyskinesia",
+   "**DaT scan** (ioflupane SPECT) is reduced in PD/MSA/PSP/DLB but **normal in essential tremor and drug-induced parkinsonism**",
+   "**DLB**: avoid typical antipsychotics (life-threatening sensitivity); cholinesterase inhibitor (rivastigmine) helps cognition/hallucinations",
+   "**Essential tremor**: bilateral postural/action tremor, family history, improves with alcohol; treat propranolol or primidone",
+   "Deep brain stimulation targets: **STN** or GPi (PD), Vim thalamus (essential tremor)"
+  ],
+  "traps": [
+   {
+    "stem": "Parkinsonism with frequent backward falls in year 1 and inability to look down.",
+    "trap": "Idiopathic PD with postural instability.",
+    "fix": "PSP – early falls + vertical (especially downward) supranuclear gaze palsy; postural instability appears late in PD."
+   },
+   {
+    "stem": "Parkinsonism with marked orthostatic hypotension, urinary incontinence and poor levodopa response; pons shows a cross-shaped hyperintensity.",
+    "trap": "PD with autonomic dysfunction (PD can have dysautonomia).",
+    "fix": "MSA – early severe autonomic failure, poor levodopa response and the 'hot cross bun' sign; inclusions are in oligodendroglia (glial cytoplasmic inclusions)."
+   },
+   {
+    "stem": "Elderly patient with visual hallucinations and fluctuating cognition becomes rigid and confused after haloperidol.",
+    "trap": "Delirium – give more haloperidol.",
+    "fix": "Dementia with Lewy bodies with neuroleptic sensitivity – avoid typical antipsychotics; use rivastigmine (quetiapine/clozapine if an antipsychotic is unavoidable)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Huntington disease: {{c1::CAG}} trinucleotide repeat in the HTT gene on chromosome {{c2::4}}; atrophy of the {{c3::caudate nucleus}}."
+   },
+   {
+    "type": "basic",
+    "front": "MSA vs PD – inclusion body location?",
+    "back": "Both α-synuclein. PD: Lewy bodies in neurons. MSA: glial cytoplasmic inclusions in oligodendrocytes (Papp–Lantos)."
+   },
+   {
+    "type": "cloze",
+    "text": "PSP: supranuclear gaze palsy affecting {{c1::vertical (downward first)}} gaze; MRI {{c2::hummingbird}} sign from midbrain atrophy; protein {{c3::4-repeat tau}}."
+   },
+   {
+    "type": "basic",
+    "front": "Which antipsychotic side-effect appears after months–years and what treats it?",
+    "back": "Tardive dyskinesia – switch to clozapine/stop offending drug; VMAT2 inhibitors (valbenazine, deutetrabenazine, tetrabenazine)."
+   },
+   {
+    "type": "basic",
+    "front": "DaT scan normal in a tremulous patient – what are the options?",
+    "back": "Essential tremor, drug-induced parkinsonism, psychogenic tremor (normal presynaptic dopamine terminals)."
+   },
+   {
+    "type": "cloze",
+    "text": "Wilson disease gene {{c1::ATP7B}} on chromosome 13; serum ceruloplasmin is {{c2::low}} and 24-h urinary copper is {{c3::high}}."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "parkinson disease",
+   "parkinsonism",
+   "multiple system atrophy",
+   "hot cross bun",
+   "progressive supranuclear palsy",
+   "hummingbird sign",
+   "dementia with lewy bodies",
+   "corticobasal degeneration",
+   "alien limb",
+   "huntington disease",
+   "cag repeat",
+   "tetrabenazine",
+   "wilson disease",
+   "kayser-fleischer ring",
+   "tardive dyskinesia",
+   "acute dystonia",
+   "akathisia",
+   "levodopa",
+   "essential tremor",
+   "dat scan"
+  ],
+  "wiki": [
+   "Parkinson's_disease",
+   "Progressive_supranuclear_palsy",
+   "Huntington's_disease"
+  ],
+  "verify": "Harrison 21e; MDS clinical diagnostic criteria for PD (2015); DLB consortium 2017."
+ },
+ {
+  "id": "med-demyelinating",
+  "title": "MS vs NMOSD/MOGAD vs GBS vs myasthenia gravis",
+  "subject": "Medicine",
+  "system": "Neurology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Young woman, episodes separated in time and space: optic neuritis, INO, Lhermitte, Uhthoff → MS (periventricular 'Dawson fingers', CSF oligoclonal bands)",
+   "Severe optic neuritis + longitudinally extensive myelitis (≥3 segments) + intractable hiccups/vomiting → NMOSD (anti-AQP4)",
+   "Ascending flaccid weakness with areflexia after diarrhoea → GBS; fatigable ptosis/diplopia, normal reflexes and sensation → myasthenia"
+  ],
+  "tables": [
+   {
+    "title": "Central demyelination: MS vs NMOSD vs MOGAD",
+    "head": [
+     "Feature",
+     "MS",
+     "NMOSD (AQP4+)",
+     "MOGAD"
+    ],
+    "rows": [
+     [
+      "Target",
+      "Myelin (T-cell, B-cell mediated)",
+      "Aquaporin-4 on astrocytes (astrocytopathy)",
+      "Myelin oligodendrocyte glycoprotein"
+     ],
+     [
+      "Optic neuritis",
+      "Unilateral, mild–moderate, good recovery",
+      "Severe, bilateral/chiasmal, poor recovery",
+      "Bilateral, disc swelling, steroid-responsive"
+     ],
+     [
+      "Spinal cord",
+      "Short (<2–3 segments), peripheral lesions",
+      "Longitudinally extensive (≥3 segments), central",
+      "Long lesions, conus involvement"
+     ],
+     [
+      "Brain MRI",
+      "Periventricular ovoid lesions perpendicular to ventricles (Dawson fingers), juxtacortical, infratentorial",
+      "Often normal or area postrema/periependymal",
+      "Fluffy ADEM-like lesions"
+     ],
+     [
+      "CSF OCB",
+      "Present in >90%",
+      "Usually absent; neutrophils may be present",
+      "Usually absent"
+     ],
+     [
+      "Treatment (maintenance)",
+      "Interferon-β, glatiramer, ocrelizumab, natalizumab, fingolimod, etc.",
+      "Rituximab, eculizumab, inebilizumab, satralizumab; interferon-β may worsen",
+      "Often monophasic; steroids/IVIG if relapsing"
+     ]
+    ]
+   },
+   {
+    "title": "Peripheral: GBS vs myasthenia gravis vs LEMS",
+    "head": [
+     "Feature",
+     "GBS (AIDP)",
+     "Myasthenia gravis",
+     "LEMS"
+    ],
+    "rows": [
+     [
+      "Lesion",
+      "Peripheral nerve demyelination (AMAN = axonal)",
+      "Postsynaptic AChR antibodies",
+      "Presynaptic P/Q-type VGCC antibodies"
+     ],
+     [
+      "Weakness",
+      "Ascending, symmetric, flaccid; may involve respiratory & facial muscles",
+      "Fatigable ocular → bulbar → proximal limb",
+      "Proximal legs; improves briefly with use"
+     ],
+     [
+      "Reflexes",
+      "Absent",
+      "Normal",
+      "Reduced; increase after exercise"
+     ],
+     [
+      "Autonomic",
+      "Common (arrhythmia, BP swings)",
+      "Absent",
+      "Dry mouth, erectile dysfunction"
+     ],
+     [
+      "Key test",
+      "CSF albuminocytological dissociation; NCS",
+      "AChR antibodies; decremental RNS; single-fibre EMG",
+      "Incremental response (>100%) at high-rate RNS"
+     ],
+     [
+      "Treatment",
+      "IVIG 0.4 g/kg/day × 5 d or PLEX; steroids NOT useful",
+      "Pyridostigmine, steroids, immunosuppressants, thymectomy; crisis → IVIG/PLEX",
+      "3,4-diaminopyridine; search for small cell lung cancer"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**McDonald 2017**: dissemination in space = T2 lesions in ≥2 of 4 areas (periventricular, cortical/juxtacortical, infratentorial, spinal cord); time = new/enhancing + non-enhancing lesions or new lesion on follow-up; **CSF-specific OCB can substitute for dissemination in time**; symptomatic lesions now count",
+   "MS clinical clues: **INO** (MLF lesion – adducting eye fails, abducting eye nystagmus), **Lhermitte** sign, **Uhthoff** (worse with heat), painful optic neuritis with RAPD",
+   "MS relapse: **IV methylprednisolone 1 g/day for 3–5 days**; PLEX if steroid-refractory. Ocrelizumab is the first drug approved for **primary progressive MS**",
+   "Natalizumab → **PML** (JC virus); fingolimod → first-dose bradycardia, macular oedema",
+   "**NMOSD** core: optic neuritis, LETM, **area postrema syndrome** (intractable hiccups/vomiting); acute attacks need steroids + early PLEX",
+   "**GBS**: commonest preceding infection *Campylobacter jejuni* (AMAN, anti-GM1); CSF high protein with **<10 cells/µL** (may be normal in week 1)",
+   "GBS ventilation trigger: **FVC <20 mL/kg**, MIP weaker than −30 cmH₂O or MEP <40 cmH₂O ('20/30/40 rule'); single-breath count is a bedside screen",
+   "**Miller Fisher**: ophthalmoplegia, ataxia, areflexia – **anti-GQ1b**; CIDP = progression >8 weeks, steroid-responsive",
+   "**Myasthenia**: anti-AChR (~85% generalised), anti-MuSK (bulbar, women, poor pyridostigmine response), thymoma in ~10–15% (CT chest in all); ice-pack test improves ptosis",
+   "MG worsened by aminoglycosides, fluoroquinolones, macrolides, magnesium, β-blockers, neuromuscular blockers; **thymectomy** benefits AChR+ generalised MG (MGTX)"
+  ],
+  "traps": [
+   {
+    "stem": "GBS patient, day 3: CSF protein normal, cells 2/µL.",
+    "trap": "Normal CSF excludes GBS.",
+    "fix": "Albuminocytological dissociation may take 1–2 weeks to appear; diagnosis is clinical + nerve conduction. Treat with IVIG/PLEX without waiting."
+   },
+   {
+    "stem": "GBS with severe weakness – add IV methylprednisolone?",
+    "trap": "Steroids, as for most autoimmune neurological diseases.",
+    "fix": "Corticosteroids are of no benefit in GBS (alone or with IVIG). Treat with IVIG or plasma exchange (not combined sequentially)."
+   },
+   {
+    "stem": "Myasthenic patient on pyridostigmine becomes weak with fasciculations, miosis, salivation and diarrhoea.",
+    "trap": "Myasthenic crisis – increase pyridostigmine.",
+    "fix": "Cholinergic crisis from excess anticholinesterase → stop pyridostigmine, support ventilation, atropine for muscarinic effects. (Muscarinic signs point to cholinergic crisis.)"
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "NMOSD antibody targets {{c1::aquaporin-4}} on {{c2::astrocytes}}; spinal lesion spans ≥{{c3::3}} vertebral segments."
+   },
+   {
+    "type": "cloze",
+    "text": "In McDonald 2017, CSF-specific {{c1::oligoclonal bands}} can substitute for dissemination in {{c2::time}}."
+   },
+   {
+    "type": "basic",
+    "front": "Dawson fingers – what and where?",
+    "back": "Ovoid periventricular demyelinating plaques oriented perpendicular to the lateral ventricles (along medullary veins), best on sagittal FLAIR – classic MS."
+   },
+   {
+    "type": "cloze",
+    "text": "GBS CSF: {{c1::raised protein}} with {{c2::normal cell count}} = albuminocytological dissociation."
+   },
+   {
+    "type": "basic",
+    "front": "Repetitive nerve stimulation: myasthenia vs LEMS?",
+    "back": "MG: decremental response at low-rate (2–3 Hz). LEMS: low CMAP that increments >100% after exercise/high-rate stimulation."
+   },
+   {
+    "type": "basic",
+    "front": "Miller Fisher syndrome antibody and triad?",
+    "back": "Anti-GQ1b; ophthalmoplegia, ataxia, areflexia."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Axial DIR MRI of a brain with multiple sclerosis lesions.jpg",
+    "caption": "MS: double inversion recovery MRI showing cortical and juxtacortical lesions (circled) – one of the McDonald 2017 locations for dissemination in space"
+   }
+  ],
+  "keywords": [
+   "multiple sclerosis",
+   "mcdonald criteria",
+   "dawson fingers",
+   "oligoclonal bands",
+   "internuclear ophthalmoplegia",
+   "optic neuritis",
+   "neuromyelitis optica",
+   "nmosd",
+   "aquaporin-4",
+   "mog antibody",
+   "mogad",
+   "guillain-barre syndrome",
+   "albuminocytological dissociation",
+   "miller fisher",
+   "anti-gq1b",
+   "ivig",
+   "plasmapheresis",
+   "myasthenia gravis",
+   "anti-achr",
+   "lambert-eaton"
+  ],
+  "wiki": [
+   "Multiple_sclerosis",
+   "Neuromyelitis_optica",
+   "Guillain–Barré_syndrome"
+  ],
+  "verify": "McDonald 2017 (exam standard); McDonald 2024 revision adds optic nerve as a 5th DIS site and central vein sign / paramagnetic rim lesions. IPND 2015 NMOSD criteria."
+ },
+ {
+  "id": "med-head-ich-sah",
+  "title": "Intracerebral & subarachnoid haemorrhage",
+  "subject": "Medicine",
+  "system": "Neurology",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Thunderclap 'worst headache of life' peaking within a minute ± neck stiffness, collapse → SAH until proven otherwise",
+   "NCCT first; if negative and clinical suspicion stays high → LP for xanthochromia (≥12 h after onset)",
+   "Hypertensive elderly with sudden deficit + headache/vomiting/↓GCS → ICH (putamen commonest); lobar bleed in the elderly → amyloid angiopathy"
+  ],
+  "algorithm": "Thunderclap headache → NCCT head\n  Blood in basal cisterns/sylvian fissures → SAH → CTA (DSA = gold standard) to find aneurysm\n  NCCT negative → LP (ideally ≥12 h after onset) → xanthochromia / non-clearing RBCs → CTA\nConfirmed aneurysmal SAH →\n  Grade: Hunt & Hess / WFNS; modified Fisher for vasospasm risk\n  Nimodipine 60 mg orally every 4 h for 21 days\n  Control BP (commonly SBP <160) until aneurysm secured; reverse anticoagulants\n  Secure aneurysm early (within 24–72 h): endovascular coiling if feasible, else clipping\n  Hydrocephalus → external ventricular drain\n  Days 3–14: watch for delayed cerebral ischaemia (vasospasm) → TCD; keep euvolaemia; induced hypertension if DCI\n  Hyponatraemia → cerebral salt wasting (do NOT fluid restrict) vs SIADH",
+  "tables": [
+   {
+    "title": "SAH grading scales",
+    "head": [
+     "Scale",
+     "What it grades",
+     "Key grades"
+    ],
+    "rows": [
+     [
+      "Hunt & Hess",
+      "Clinical severity → prognosis",
+      "1 asymptomatic/mild headache; 2 severe headache, neck stiffness, only cranial nerve palsy; 3 drowsy/confused, mild focal deficit; 4 stupor, hemiparesis; 5 deep coma, decerebrate"
+     ],
+     [
+      "WFNS",
+      "GCS + motor deficit",
+      "I GCS 15; II 13–14 no deficit; III 13–14 with deficit; IV 7–12; V 3–6"
+     ],
+     [
+      "Modified Fisher (CT)",
+      "Risk of vasospasm/DCI",
+      "0 no SAH/IVH; 1 thin SAH, no IVH; 2 thin SAH + IVH; 3 thick SAH, no IVH; 4 thick SAH + IVH (highest risk)"
+     ]
+    ]
+   },
+   {
+    "title": "ICH: hypertensive vs amyloid",
+    "head": [
+     "Feature",
+     "Hypertensive ICH",
+     "Cerebral amyloid angiopathy"
+    ],
+    "rows": [
+     [
+      "Site",
+      "Deep: putamen (commonest), thalamus, pons, cerebellum",
+      "Lobar (cortical–subcortical), often recurrent"
+     ],
+     [
+      "Vessel lesion",
+      "Lipohyalinosis; Charcot–Bouchard microaneurysms of penetrating arteries",
+      "β-amyloid in cortical/leptomeningeal vessel walls"
+     ],
+     [
+      "Age / clue",
+      "Long-standing hypertension",
+      "Elderly; cortical microbleeds & superficial siderosis on gradient-echo MRI (Boston criteria)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Commonest cause of SAH overall = **trauma**; of spontaneous SAH = **ruptured saccular (berry) aneurysm** (~80–85%)",
+   "Commonest aneurysm site: **anterior communicating artery**; **posterior communicating artery** aneurysm → pupil-involving CN III palsy",
+   "Berry aneurysm associations: **ADPKD**, Ehlers–Danlos type IV, Marfan, coarctation of aorta, smoking, hypertension",
+   "NCCT sensitivity for SAH is highest in the first 6 h and falls over days; **xanthochromia** (bilirubin from RBC breakdown) needs ~12 h to develop",
+   "**Nimodipine** 60 mg q4h × 21 days improves outcome (neuroprotection) – it does not reliably prevent angiographic vasospasm",
+   "**Rebleeding** risk is highest in the first 24 h; **vasospasm** begins ~day 3, peaks days 7–10, resolves by ~day 14–21",
+   "Triple-H therapy is obsolete → maintain **euvolaemia**; induced hypertension for symptomatic DCI",
+   "ICH BP target: lower SBP to ~**140 mmHg** (avoid <130) if presenting 150–220 mmHg",
+   "Anticoagulant reversal: warfarin → **4-factor PCC + IV vitamin K**; dabigatran → **idarucizumab**; factor Xa inhibitors → **andexanet alfa** (or PCC)",
+   "**Cerebellar haemorrhage >3 cm** or with brainstem compression/hydrocephalus → urgent surgical evacuation; CTA **spot sign** predicts haematoma expansion"
+  ],
+  "traps": [
+   {
+    "stem": "Sudden severe headache 8 h ago, NCCT normal, neck mildly stiff.",
+    "trap": "Normal CT rules out SAH – discharge with analgesics.",
+    "fix": "CT sensitivity falls with time; perform LP (≥12 h after onset) for xanthochromia, or CTA, before excluding SAH."
+   },
+   {
+    "stem": "Day 6 after aneurysmal SAH: new confusion and hemiparesis, CT shows no rebleed.",
+    "trap": "Rebleeding – rebleed is the commonest early complication.",
+    "fix": "Delayed cerebral ischaemia from vasospasm (peak days 7–10; window 3–14): continue nimodipine, keep euvolaemia, induced hypertension, consider endovascular therapy."
+   },
+   {
+    "stem": "SAH patient with Na 126 mmol/L, dehydrated, high urine output.",
+    "trap": "SIADH → fluid restriction.",
+    "fix": "Cerebral salt wasting (hypovolaemic) – give isotonic/hypertonic saline (± fludrocortisone). Fluid restriction risks vasospasm-related infarction."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Commonest site of berry aneurysm: {{c1::anterior communicating artery}}; aneurysm causing pupil-involving third nerve palsy: {{c2::posterior communicating artery}}."
+   },
+   {
+    "type": "cloze",
+    "text": "After aneurysmal SAH, vasospasm starts around day {{c1::3}}, peaks at days {{c2::7–10}}; prevention of poor outcome uses {{c3::nimodipine 60 mg every 4 h for 21 days}}."
+   },
+   {
+    "type": "basic",
+    "front": "CT-negative suspected SAH – what is the next test and when?",
+    "back": "Lumbar puncture ≥12 h after headache onset for xanthochromia (spectrophotometry) and RBC count; or CTA."
+   },
+   {
+    "type": "basic",
+    "front": "Modified Fisher grade 4?",
+    "back": "Thick cisternal SAH with intraventricular haemorrhage – highest risk of vasospasm/delayed cerebral ischaemia."
+   },
+   {
+    "type": "basic",
+    "front": "Commonest site of hypertensive intracerebral haemorrhage and its vascular lesion?",
+    "back": "Putamen (basal ganglia) – rupture of lenticulostriate penetrating arteries with Charcot–Bouchard microaneurysms/lipohyalinosis."
+   },
+   {
+    "type": "basic",
+    "front": "Warfarin-associated ICH reversal?",
+    "back": "Stop warfarin; 4-factor prothrombin complex concentrate + IV vitamin K 10 mg (FFP if PCC unavailable)."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:CT scan - subarachnoid hemorrhage.jpg",
+    "caption": "NCCT: hyperdense blood filling the basal cisterns and sulci = subarachnoid haemorrhage (classically 'star-shaped' around the circle of Willis)"
+   }
+  ],
+  "keywords": [
+   "subarachnoid hemorrhage",
+   "subarachnoid haemorrhage",
+   "thunderclap headache",
+   "xanthochromia",
+   "berry aneurysm",
+   "hunt and hess",
+   "fisher scale",
+   "wfns",
+   "nimodipine",
+   "vasospasm",
+   "delayed cerebral ischemia",
+   "cerebral salt wasting",
+   "intracerebral hemorrhage",
+   "putamen",
+   "charcot-bouchard",
+   "cerebral amyloid angiopathy",
+   "ich score",
+   "andexanet",
+   "idarucizumab",
+   "prothrombin complex concentrate"
+  ],
+  "wiki": [
+   "Subarachnoid_hemorrhage",
+   "Intracerebral_hemorrhage",
+   "Hunt_and_Hess_scale"
+  ],
+  "verify": "AHA/ASA aSAH guideline 2023; AHA/ASA spontaneous ICH guideline 2022."
+ },
+ {
+  "id": "med-acs",
+  "title": "Acute coronary syndrome: STEMI vs NSTEMI, reperfusion & complications",
+  "subject": "Medicine",
+  "system": "Cardiology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Ischaemic chest pain + new ST elevation in 2 contiguous leads (or STEMI equivalent) → reperfusion now: primary PCI ≤90 min (≤120 min if transfer), else lysis within 30 min",
+   "Chest pain + troponin rise/fall without ST elevation → NSTEMI: risk stratify (GRACE/TIMI), DAPT + anticoagulant, invasive strategy by risk; never thrombolyse",
+   "New murmur/shock days 3–7 after MI → mechanical complication (papillary muscle rupture, VSR, free-wall rupture)"
+  ],
+  "algorithm": "Chest pain → 12-lead ECG within 10 min of first medical contact (FMC)\n  STEMI (or new LBBB with Sgarbossa / posterior MI / de Winter) →\n    Aspirin 150–325 mg chewed + P2Y12 (ticagrelor 180 / prasugrel 60 / clopidogrel 600 mg) + UFH\n    PCI-capable centre → primary PCI, FMC-to-device ≤90 min\n    Non-PCI centre: if FMC-to-device would exceed 120 min → fibrinolysis, door-to-needle ≤30 min (within 12 h of symptoms)\n      → transfer for angiography 2–24 h (pharmaco-invasive)\n      → failed lysis (<50% ST resolution at 60–90 min, ongoing pain) → rescue PCI\n  No ST elevation → serial hs-troponin (0/1 h or 0/2 h)\n    Very high risk (shock, refractory pain, VT/VF, mechanical complication, acute HF, recurrent dynamic ST change) → angiography <2 h\n    High risk (NSTEMI confirmed, GRACE >140, dynamic ST/T) → angiography <24 h\n    Low risk → selective invasive / stress testing\nAll: high-intensity statin, β-blocker (if no HF/shock), ACEi/ARB, DAPT 12 months",
+  "tables": [
+   {
+    "title": "ECG localisation of STEMI",
+    "head": [
+     "Territory",
+     "Leads with ST elevation",
+     "Usual artery"
+    ],
+    "rows": [
+     [
+      "Septal",
+      "V1–V2",
+      "LAD (septal branches)"
+     ],
+     [
+      "Anterior",
+      "V3–V4",
+      "LAD"
+     ],
+     [
+      "Anterolateral / extensive anterior",
+      "V1–V6, I, aVL",
+      "Proximal LAD / left main"
+     ],
+     [
+      "Lateral (high)",
+      "I, aVL (± V5–V6)",
+      "Left circumflex / diagonal"
+     ],
+     [
+      "Inferior",
+      "II, III, aVF",
+      "RCA (~80%) or LCx"
+     ],
+     [
+      "Right ventricular",
+      "V4R (≥1 mm), with inferior STEMI",
+      "Proximal RCA"
+     ],
+     [
+      "Posterior",
+      "ST depression + tall R in V1–V3; ST elevation V7–V9",
+      "LCx or RCA"
+     ],
+     [
+      "Left main / 3-vessel",
+      "ST elevation aVR (± V1) with widespread ST depression",
+      "Left main or severe multivessel"
+     ]
+    ]
+   },
+   {
+    "title": "Post-MI complications by time",
+    "head": [
+     "Time",
+     "Complication",
+     "Clue"
+    ],
+    "rows": [
+     [
+      "0–24 h",
+      "Arrhythmia (VF – commonest cause of early death), acute LV failure, cardiogenic shock",
+      "Sudden death; pulmonary oedema"
+     ],
+     [
+      "1–3 days",
+      "Fibrinous (early) pericarditis",
+      "Pleuritic pain, rub"
+     ],
+     [
+      "3–14 days (peak 3–7)",
+      "Free-wall rupture → tamponade; interventricular septal rupture; papillary muscle rupture",
+      "PEA/tamponade; new harsh pansystolic murmur with O2 step-up (VSR) or acute MR with pulmonary oedema (posteromedial papillary muscle – inferior MI)"
+     ],
+     [
+      "Weeks–months",
+      "True LV aneurysm (persistent ST elevation, mural thrombus), Dressler syndrome (autoimmune pericarditis), LV thrombus",
+      "Persistent STE weeks after anterior MI; fever + pericarditis weeks later"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "STEMI ECG: new STE at J point in 2 contiguous leads ≥1 mm (all leads except V2–V3); V2–V3 ≥2 mm men ≥40 y, ≥2.5 mm men <40 y, ≥1.5 mm women",
+   "**Absolute contraindications to fibrinolysis**: any prior ICH; known cerebral vascular lesion (AVM) or malignant intracranial neoplasm; ischaemic stroke within 3 months; suspected aortic dissection; active bleeding/bleeding diathesis (not menses); significant closed head/facial trauma within 3 months; intracranial/spinal surgery within 2 months",
+   "Relative contraindications: BP >180/110 at presentation, traumatic/prolonged CPR, pregnancy, active peptic ulcer, oral anticoagulant, prior streptokinase (for streptokinase)",
+   "**Troponin**: rises 3–4 h (hs-troponin earlier), stays raised 7–14 days; **CK-MB** normalises by 48–72 h → useful for reinfarction",
+   "**RV infarct** (inferior STEMI + hypotension + clear lungs + raised JVP): give fluids, avoid nitrates/diuretics/morphine",
+   "**Wellens** pattern (deep or biphasic T in V2–V3, pain-free) = critical proximal LAD stenosis → angiography, avoid stress testing",
+   "**TIMI** score for UA/NSTEMI (7 items, 1 point each): age ≥65, ≥3 CAD risk factors, known CAD (stenosis ≥50%), aspirin in last 7 days, ≥2 anginal episodes in 24 h, ST deviation ≥0.5 mm, positive marker. **GRACE** predicts mortality best and guides timing of angiography",
+   "**Killip** class: I no HF; II rales/S3; III pulmonary oedema; IV cardiogenic shock",
+   "Oxygen only if SpO₂ <90%; nitrates contraindicated with PDE-5 inhibitor use (sildenafil within 24 h, tadalafil within 48 h)",
+   "Histology timeline (Robbins): neutrophils 1–3 days; macrophages & maximal softening 3–7 days (rupture window); granulation tissue from ~7–10 days; dense scar by ~2 months"
+  ],
+  "traps": [
+   {
+    "stem": "Inferior STEMI, BP 80/50, clear lungs, raised JVP. Next drug?",
+    "trap": "Sublingual nitroglycerine for the chest pain.",
+    "fix": "RV infarction is preload-dependent: give IV fluids and avoid nitrates/diuretics; reperfuse urgently (check V4R)."
+   },
+   {
+    "stem": "NSTEMI patient, troponin positive, ongoing mild pain, nearest cath lab 3 h away. Thrombolyse?",
+    "trap": "Yes – thrombolysis for any MI when PCI is delayed.",
+    "fix": "Fibrinolysis has no benefit (and is harmful) in NSTE-ACS. Give DAPT + anticoagulant and arrange early invasive strategy."
+   },
+   {
+    "stem": "Day 5 after anterior MI: sudden hypotension, new pansystolic murmur at left sternal edge, no pulmonary oedema initially; RV saturation higher than RA.",
+    "trap": "Papillary muscle rupture – both give a new pansystolic murmur.",
+    "fix": "Ventricular septal rupture: oxygen step-up from RA to RV on right-heart catheter. Papillary muscle rupture gives acute MR (apical murmur, pulmonary oedema, large v waves in PCWP)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "STEMI reperfusion targets: door/FMC-to-device ≤{{c1::90 min}} for primary PCI; door-to-needle ≤{{c2::30 min}} for fibrinolysis."
+   },
+   {
+    "type": "cloze",
+    "text": "Inferior wall MI shows ST elevation in {{c1::II, III, aVF}} and is usually due to the {{c2::right coronary artery}}."
+   },
+   {
+    "type": "basic",
+    "front": "Posterior MI ECG?",
+    "back": "ST depression with tall broad R waves and upright T in V1–V3 (mirror image); confirm with ST elevation in V7–V9."
+   },
+   {
+    "type": "basic",
+    "front": "Free-wall rupture after MI – timing and presentation?",
+    "back": "Typically days 3–7 (macrophage/softening phase): sudden haemopericardium → tamponade → PEA arrest."
+   },
+   {
+    "type": "cloze",
+    "text": "CK-MB returns to normal in {{c1::48–72 h}}, so it is used to detect {{c2::reinfarction}}; troponin stays raised for 7–14 days."
+   },
+   {
+    "type": "basic",
+    "front": "Persistent ST elevation 4 weeks after anterior MI?",
+    "back": "Left ventricular aneurysm (dyskinetic scar) – risk of mural thrombus, HF and ventricular arrhythmia."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:12 Lead EKG ST Elevation tracing only.jpg",
+    "caption": "Anterior STEMI: convex ST elevation across the precordial leads (LAD territory) – identify the territory by contiguous leads and look for reciprocal ST depression"
+   }
+  ],
+  "keywords": [
+   "stemi",
+   "nstemi",
+   "acute coronary syndrome",
+   "myocardial infarction",
+   "primary pci",
+   "door to balloon",
+   "door to needle",
+   "fibrinolysis",
+   "thrombolysis contraindications",
+   "troponin",
+   "ck-mb",
+   "right ventricular infarction",
+   "posterior mi",
+   "wellens",
+   "papillary muscle rupture",
+   "ventricular septal rupture",
+   "dressler syndrome",
+   "ventricular aneurysm",
+   "timi score",
+   "grace score",
+   "killip"
+  ],
+  "wiki": [
+   "Myocardial_infarction",
+   "Acute_coronary_syndrome",
+   "Wellens'_syndrome"
+  ],
+  "verify": "ACC/AHA STEMI 2013 + ACC/AHA/SCAI ACS 2025; ESC ACS 2023; Fourth Universal Definition of MI (2018)."
+ },
+ {
+  "id": "med-acls-arrhythmia",
+  "title": "ACLS: cardiac arrest, tachycardia & bradycardia algorithms",
+  "subject": "Medicine",
+  "system": "Cardiology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Pulseless → CPR 30:2, 100–120/min, 5–6 cm; check rhythm: shockable (VF/pVT) → shock first; non-shockable (PEA/asystole) → adrenaline first",
+   "Pulse + tachycardia: UNSTABLE (hypotension, altered mentation, shock, ischaemic chest pain, acute HF) → synchronised cardioversion",
+   "Stable regular narrow-complex → vagal manoeuvre → adenosine 6 mg rapid push, then 12 mg"
+  ],
+  "algorithm": "Cardiac arrest → start CPR, attach defibrillator\n  VF / pulseless VT →\n    Shock (biphasic 120–200 J per device; monophasic 360 J) → CPR 2 min\n    Shock → CPR + adrenaline 1 mg IV/IO, repeat every 3–5 min\n    Shock → CPR + amiodarone 300 mg (2nd dose 150 mg) or lidocaine 1–1.5 mg/kg (then 0.5–0.75 mg/kg)\n  PEA / asystole →\n    CPR + adrenaline 1 mg as soon as possible, every 3–5 min\n    No shock, no atropine; search & treat H's and T's\n  Advanced airway → 1 breath every 6 s with continuous compressions; waveform capnography\nTachycardia with pulse →\n  Unstable → synchronised cardioversion (narrow regular 50–100 J; narrow irregular/AF 120–200 J; wide regular 100 J)\n  Polymorphic VT → unsynchronised defibrillation (torsades → MgSO4 2 g IV)\n  Stable narrow regular → vagal manoeuvres → adenosine 6 mg → 12 mg → β-blocker / diltiazem\n  Stable wide regular → adenosine only if regular & monomorphic → procainamide / amiodarone 150 mg over 10 min / sotalol\nBradycardia with poor perfusion →\n  Atropine 1 mg IV every 3–5 min (max 3 mg)\n  → ineffective: transcutaneous pacing OR dopamine 5–20 µg/kg/min OR adrenaline 2–10 µg/min → transvenous pacing",
+  "tables": [
+   {
+    "title": "Reversible causes: H's and T's",
+    "head": [
+     "H's",
+     "T's"
+    ],
+    "rows": [
+     [
+      "Hypovolaemia",
+      "Tension pneumothorax"
+     ],
+     [
+      "Hypoxia",
+      "Tamponade (cardiac)"
+     ],
+     [
+      "Hydrogen ion (acidosis)",
+      "Toxins"
+     ],
+     [
+      "Hypo-/hyperkalaemia",
+      "Thrombosis – pulmonary (PE)"
+     ],
+     [
+      "Hypothermia",
+      "Thrombosis – coronary (MI)"
+     ]
+    ]
+   },
+   {
+    "title": "Energy & drug doses (adult)",
+    "head": [
+     "Situation",
+     "Dose"
+    ],
+    "rows": [
+     [
+      "VF/pVT defibrillation",
+      "Biphasic 120–200 J (device-specific; use maximum if unknown); monophasic 360 J"
+     ],
+     [
+      "Adrenaline in arrest",
+      "1 mg IV/IO every 3–5 min"
+     ],
+     [
+      "Amiodarone in arrest",
+      "300 mg bolus, then 150 mg"
+     ],
+     [
+      "Adenosine (SVT)",
+      "6 mg rapid IV push + saline flush, then 12 mg"
+     ],
+     [
+      "Atropine (bradycardia)",
+      "1 mg every 3–5 min, max 3 mg"
+     ],
+     [
+      "Paediatric defibrillation",
+      "2 J/kg, then 4 J/kg, subsequent ≥4 J/kg (max 10 J/kg)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "High-quality CPR: rate **100–120/min**, depth **5–6 cm**, full recoil, interruptions <10 s, compression fraction ≥60% (aim 80%)",
+   "Shockable rhythm: adrenaline after the **2nd** shock; amiodarone after the **3rd** shock. Non-shockable: adrenaline **immediately**",
+   "Atropine is **not** used in PEA/asystole (removed 2010). Bradycardia atropine dose raised to **1 mg** (2020)",
+   "**ETCO₂** <10 mmHg after 20 min of CPR suggests poor prognosis; an abrupt rise to ≥35–40 mmHg suggests **ROSC**",
+   "Atropine fails in **Mobitz II / complete heart block with wide QRS** and in transplanted hearts → pace",
+   "Adenosine: halve dose (3 mg) via central line, with dipyridamole/carbamazepine, or in heart transplant; larger dose needed with theophylline/caffeine; avoid in severe asthma",
+   "**WPW + AF** (irregular, very fast, wide/variable QRS): **avoid AV-nodal blockers** (adenosine, β-blocker, verapamil/diltiazem, digoxin; IV amiodarone also discouraged) → procainamide/ibutilide or synchronised cardioversion; definitive = accessory-pathway ablation",
+   "WPW ECG: short PR (<120 ms), **delta wave**, wide QRS; orthodromic AVRT (narrow) is the commonest tachycardia in WPW",
+   "Post-ROSC: SpO₂ 92–98%, PaCO₂ 35–45 mmHg, MAP ≥65, temperature control 32–37.5 °C and avoid fever; emergent angiography if STEMI",
+   "**Torsades de pointes**: IV magnesium sulfate 2 g; correct K⁺/Mg²⁺; overdrive pacing or isoprenaline; stop QT-prolonging drugs"
+  ],
+  "traps": [
+   {
+    "stem": "Irregular wide-complex tachycardia at 240/min with varying QRS morphology in a young man with known WPW; BP 110/70.",
+    "trap": "IV adenosine or verapamil to slow the rate.",
+    "fix": "Pre-excited AF: AV-nodal blockade drives conduction down the accessory pathway → VF. Use procainamide or ibutilide (or synchronised cardioversion if unstable)."
+   },
+   {
+    "stem": "Asystole on the monitor during arrest.",
+    "trap": "Defibrillate (or give atropine).",
+    "fix": "Asystole is non-shockable: CPR + adrenaline 1 mg every 3–5 min, look for H's & T's. Confirm asystole in two leads/gain (fine VF can mimic it)."
+   },
+   {
+    "stem": "Narrow-complex regular tachycardia 180/min, BP 70/40, confused.",
+    "trap": "Adenosine 6 mg because the rhythm is SVT.",
+    "fix": "Unstable tachycardia → synchronised cardioversion (50–100 J) without delay; adenosine may be tried only if it does not delay cardioversion."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "In VF arrest adrenaline 1 mg is given after the {{c1::second}} shock and amiodarone {{c2::300 mg}} after the {{c3::third}} shock."
+   },
+   {
+    "type": "cloze",
+    "text": "Stable SVT: adenosine {{c1::6 mg}} rapid IV push, then {{c2::12 mg}} if no response."
+   },
+   {
+    "type": "basic",
+    "front": "Bradycardia with hypotension – first drug and dose? If it fails?",
+    "back": "Atropine 1 mg IV every 3–5 min (max 3 mg). Then transcutaneous pacing or dopamine 5–20 µg/kg/min / adrenaline 2–10 µg/min infusion."
+   },
+   {
+    "type": "basic",
+    "front": "Synchronised cardioversion energy: narrow regular vs AF?",
+    "back": "Narrow regular (SVT, flutter): 50–100 J. AF: 120–200 J biphasic. Monomorphic VT with pulse: 100 J."
+   },
+   {
+    "type": "basic",
+    "front": "Why avoid AV-nodal blockers in pre-excited AF (WPW)?",
+    "back": "Blocking the AV node lets all impulses pass via the accessory pathway (no decremental conduction) → very fast ventricular rate → VF."
+   },
+   {
+    "type": "cloze",
+    "text": "Compression rate {{c1::100–120/min}}, depth {{c2::5–6 cm}}, ratio {{c3::30:2}} without an advanced airway."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Wolff-Parkinson-White syndrome 12 lead EKG.png",
+    "caption": "WPW: short PR interval with slurred upstroke of QRS (delta wave) and wide QRS – in AF this pathway allows dangerously fast conduction"
+   }
+  ],
+  "keywords": [
+   "acls",
+   "cardiac arrest",
+   "ventricular fibrillation",
+   "pulseless ventricular tachycardia",
+   "pea",
+   "asystole",
+   "adrenaline",
+   "epinephrine",
+   "amiodarone",
+   "defibrillation",
+   "synchronized cardioversion",
+   "adenosine",
+   "svt",
+   "bradycardia",
+   "atropine",
+   "transcutaneous pacing",
+   "wpw",
+   "delta wave",
+   "pre-excited atrial fibrillation",
+   "torsades de pointes",
+   "hs and ts",
+   "rosc"
+  ],
+  "wiki": [
+   "Advanced_cardiac_life_support",
+   "Wolff–Parkinson–White_syndrome",
+   "Supraventricular_tachycardia"
+  ],
+  "verify": "AHA ACLS 2020 + 2023 focused update (algorithms unchanged in 2025 update); ACC/AHA 2023 AF guideline for pre-excited AF."
+ },
+ {
+  "id": "med-heart-failure-valves",
+  "title": "Heart failure, valvular murmurs, endocarditis & rheumatic fever",
+  "subject": "Medicine",
+  "system": "Cardiology",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Dyspnoea, orthopnoea, PND, raised JVP, S3, basal crackles, oedema + raised BNP → heart failure; echo EF classifies it",
+   "HFrEF mortality benefit = four pillars: ARNI/ACEi/ARB, β-blocker, MRA, SGLT2 inhibitor",
+   "Systolic murmur louder with Valsalva/standing and softer with squatting/handgrip = HOCM (or MVP); AS does the opposite"
+  ],
+  "tables": [
+   {
+    "title": "Murmur response to manoeuvres",
+    "head": [
+     "Manoeuvre (effect)",
+     "HOCM",
+     "AS",
+     "MR / VSD / AR",
+     "MVP"
+    ],
+    "rows": [
+     [
+      "Valsalva strain / standing (↓ preload)",
+      "↑ louder",
+      "↓ softer",
+      "↓ softer",
+      "Click earlier, murmur longer"
+     ],
+     [
+      "Squatting / passive leg raise (↑ preload ± afterload)",
+      "↓ softer",
+      "↑ louder",
+      "↑ louder",
+      "Click later, murmur shorter"
+     ],
+     [
+      "Handgrip (↑ afterload)",
+      "↓ softer",
+      "↓ softer",
+      "↑ louder",
+      "Murmur shorter/softer"
+     ],
+     [
+      "Inspiration (↑ venous return to right heart)",
+      "—",
+      "—",
+      "Right-sided murmurs ↑ (Carvallo sign in TR)",
+      "—"
+     ]
+    ]
+   },
+   {
+    "title": "Revised Jones criteria (AHA 2015) – needs evidence of preceding group A strep infection",
+    "head": [
+     "Criteria",
+     "Low-risk population",
+     "Moderate/high-risk population (e.g. India)"
+    ],
+    "rows": [
+     [
+      "Major",
+      "Carditis (clinical or subclinical on echo), polyarthritis only, chorea, erythema marginatum, subcutaneous nodules",
+      "Carditis (clinical/subclinical), monoarthritis OR polyarthritis OR polyarthralgia, chorea, erythema marginatum, subcutaneous nodules"
+     ],
+     [
+      "Minor",
+      "Polyarthralgia, fever ≥38.5 °C, ESR ≥60 mm/h and/or CRP ≥3.0 mg/dL, prolonged PR (unless carditis)",
+      "Monoarthralgia, fever ≥38 °C, ESR ≥30 mm/h and/or CRP ≥3.0 mg/dL, prolonged PR (unless carditis)"
+     ],
+     [
+      "Diagnosis",
+      "Initial ARF: 2 major, or 1 major + 2 minor. Recurrent ARF: 2 major, 1 major + 2 minor, or 3 minor",
+      "Same rule; chorea alone or indolent carditis alone may suffice"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Framingham**: HF = 2 major, or 1 major + 2 minor. Major: PND, neck vein distension, crackles, cardiomegaly, acute pulmonary oedema, S3, hepatojugular reflux, ↑JVP. Minor: ankle oedema, nocturnal cough, exertional dyspnoea, hepatomegaly, pleural effusion, tachycardia ≥120, vital capacity ↓ by ⅓",
+   "**BNP** <100 pg/mL or **NT-proBNP** <300 pg/mL makes acute HF unlikely; BNP is falsely low in obesity, high in renal failure/age; sacubitril raises BNP but not NT-proBNP",
+   "EF classes: **HFrEF ≤40%**, HFmrEF 41–49%, **HFpEF ≥50%**; SGLT2 inhibitors also benefit HFpEF",
+   "Other HFrEF tools: ivabradine (sinus HR ≥70), hydralazine + nitrate, digoxin (symptoms only), ICD if EF ≤35% despite ≥3 months GDMT, **CRT** if EF ≤35% + LBBB with QRS ≥150 ms; diuretics relieve congestion but do not reduce mortality",
+   "**Aortic stenosis**: ejection systolic murmur radiating to carotids, slow-rising pulse, soft A2; severe = Vmax ≥4 m/s, mean gradient ≥40 mmHg, AVA <1.0 cm²; symptoms (angina, syncope, HF) = valve replacement",
+   "**HOCM**: asymmetric septal hypertrophy, systolic anterior motion of the mitral valve, bisferiens pulse; commonest cause of sudden death in young athletes; avoid nitrates, diuretics, digoxin; β-blocker, mavacamten",
+   "**Mitral stenosis**: loud S1, opening snap, mid-diastolic rumble with presystolic accentuation (lost in AF); shorter S2–OS gap = more severe",
+   "**Modified Duke**: definite IE = 2 major, or 1 major + 3 minor, or 5 minor; possible = 1 major + 1 minor, or 3 minor. Major = typical organism in 2 separate blood cultures (or persistent bacteraemia, Coxiella phase I IgG >1:800) + endocardial involvement on echo",
+   "IE organisms: **S. aureus** commonest overall & IV drug users (tricuspid); viridans streptococci after dental work (subacute); **S. gallolyticus (bovis)** → colonoscopy for colon cancer; coagulase-negative staph in early prosthetic valve IE",
+   "**RHD secondary prophylaxis**: benzathine penicillin G 1.2 million units IM every 3–4 weeks (3-weekly in India); no carditis → 5 years or till age 21; carditis without residual disease → 10 years or till 21; residual valve disease → 10 years or till 40 (often lifelong)"
+  ],
+  "traps": [
+   {
+    "stem": "Young athlete with systolic murmur that becomes louder on standing up from squatting.",
+    "trap": "Aortic stenosis – both are ejection systolic murmurs.",
+    "fix": "HOCM: ↓ preload (standing/Valsalva) increases LVOT obstruction and the murmur; AS murmur softens with ↓ preload."
+   },
+   {
+    "stem": "Child in India with fever, monoarthritis of the knee, ESR 40, high ASO, prolonged PR.",
+    "trap": "Not ARF – Jones needs polyarthritis and ESR ≥60.",
+    "fix": "India is a moderate/high-risk population: monoarthritis counts as major; fever ≥38 °C, ESR ≥30 and prolonged PR count as minor → meets criteria."
+   },
+   {
+    "stem": "HFrEF patient with leg oedema: which drug class improves survival – furosemide?",
+    "trap": "Loop diuretics, because they relieve congestion fastest.",
+    "fix": "Diuretics only relieve symptoms. Survival benefit: ARNI/ACEi/ARB, β-blocker (carvedilol, bisoprolol, metoprolol succinate), MRA, SGLT2 inhibitor."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "The four pillars of HFrEF therapy: {{c1::ARNI/ACEi/ARB}}, {{c2::β-blocker}}, {{c3::MRA}} and {{c4::SGLT2 inhibitor}}."
+   },
+   {
+    "type": "cloze",
+    "text": "Framingham heart failure diagnosis requires {{c1::2 major}} or {{c2::1 major + 2 minor}} criteria."
+   },
+   {
+    "type": "basic",
+    "front": "Modified Duke – definite IE?",
+    "back": "2 major; or 1 major + 3 minor; or 5 minor."
+   },
+   {
+    "type": "basic",
+    "front": "S. gallolyticus (bovis) endocarditis – what next?",
+    "back": "Colonoscopy – strong association with colorectal neoplasia."
+   },
+   {
+    "type": "cloze",
+    "text": "Jones 2015 in moderate/high-risk populations: monoarthritis or {{c1::polyarthralgia}} counts as a major criterion; ESR ≥{{c2::30}} mm/h is a minor criterion."
+   },
+   {
+    "type": "basic",
+    "front": "Severe aortic stenosis echo thresholds?",
+    "back": "Peak velocity ≥4 m/s, mean gradient ≥40 mmHg, valve area <1.0 cm² (indexed <0.6 cm²/m²)."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "heart failure",
+   "framingham criteria",
+   "bnp",
+   "nt-probnp",
+   "hfref",
+   "hfpef",
+   "sacubitril",
+   "sglt2 inhibitor",
+   "spironolactone",
+   "aortic stenosis",
+   "hocm",
+   "hypertrophic cardiomyopathy",
+   "mitral stenosis",
+   "murmur",
+   "valsalva",
+   "infective endocarditis",
+   "duke criteria",
+   "streptococcus gallolyticus",
+   "rheumatic fever",
+   "jones criteria",
+   "benzathine penicillin"
+  ],
+  "wiki": [
+   "Heart_failure",
+   "Duke_criteria",
+   "Jones_criteria"
+  ],
+  "verify": "AHA/ACC/HFSA HF 2022; ACC/AHA valve 2020; modified Duke (Li 2000) – 2023 Duke-ISCVID adds cardiac CT/PET-CT and intra-operative findings and widens 'typical' organisms; AHA 2015 revised Jones."
+ },
+ {
+  "id": "med-ecg-volatile",
+  "title": "ECG & cardiology scores sheet",
+  "subject": "Medicine",
+  "system": "Cardiology",
+  "yield": 2,
+  "kind": "volatile",
+  "anchor": [
+   "Voltage criteria, CHA₂DS₂-VASc/HAS-BLED, QT drugs, potassium ECG, Brugada, pericarditis vs STEMI – pure recall numbers"
+  ],
+  "tables": [
+   {
+    "title": "CHA₂DS₂-VASc vs HAS-BLED",
+    "head": [
+     "CHA₂DS₂-VASc (stroke risk in AF)",
+     "Points",
+     "HAS-BLED (bleeding risk on OAC)",
+     "Points"
+    ],
+    "rows": [
+     [
+      "C – CHF / LV dysfunction",
+      "1",
+      "H – Hypertension (uncontrolled, SBP >160)",
+      "1"
+     ],
+     [
+      "H – Hypertension",
+      "1",
+      "A – Abnormal renal / liver function",
+      "1 each"
+     ],
+     [
+      "A₂ – Age ≥75",
+      "2",
+      "S – Stroke",
+      "1"
+     ],
+     [
+      "D – Diabetes",
+      "1",
+      "B – Bleeding history/predisposition",
+      "1"
+     ],
+     [
+      "S₂ – Stroke / TIA / thromboembolism",
+      "2",
+      "L – Labile INR",
+      "1"
+     ],
+     [
+      "V – Vascular disease (MI, PAD, aortic plaque)",
+      "1",
+      "E – Elderly >65",
+      "1"
+     ],
+     [
+      "A – Age 65–74",
+      "1",
+      "D – Drugs (antiplatelet/NSAID) / alcohol",
+      "1 each"
+     ],
+     [
+      "Sc – Sex category female",
+      "1",
+      "Max",
+      "9"
+     ],
+     [
+      "Anticoagulate: ≥2 (men) / ≥3 (women); consider at 1 / 2",
+      "Max 9",
+      "≥3 = high risk → fix modifiable factors; NOT a reason to withhold OAC",
+      ""
+     ]
+    ]
+   },
+   {
+    "title": "Electrolyte & pattern ECGs",
+    "head": [
+     "Condition",
+     "ECG"
+    ],
+    "rows": [
+     [
+      "Hyperkalaemia",
+      "Peaked tented T → PR prolongation, flat/absent P → wide QRS → sine wave → VF/asystole"
+     ],
+     [
+      "Hypokalaemia",
+      "Flat/inverted T, ST depression, prominent U waves, apparent long QT (QU)"
+     ],
+     [
+      "Hypercalcaemia / hypocalcaemia",
+      "Short QT / long QT (prolonged ST segment)"
+     ],
+     [
+      "Pericarditis",
+      "Diffuse concave ST elevation, PR depression (PR elevation in aVR), no reciprocal change except aVR/V1, no Q waves"
+     ],
+     [
+      "STEMI",
+      "Territorial convex ST elevation with reciprocal depression, evolving Q waves"
+     ],
+     [
+      "Brugada type 1",
+      "Coved ST elevation ≥2 mm in V1–V2 with negative T (only diagnostic type)"
+     ],
+     [
+      "Digoxin effect / toxicity",
+      "Scooped 'reverse tick' ST depression / bidirectional VT, atrial tachycardia with block"
+     ],
+     [
+      "Hypothermia",
+      "Osborn (J) waves, bradycardia, long QT"
+     ],
+     [
+      "PE",
+      "Sinus tachycardia (commonest); S1Q3T3, RBBB, right axis, T inversion V1–V4"
+     ],
+     [
+      "Tamponade / large effusion",
+      "Low voltage + electrical alternans"
+     ],
+     [
+      "ARVC",
+      "Epsilon wave, T inversion V1–V3"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Sokolow–Lyon** LVH: S in V1 + R in V5 or V6 ≥35 mm (or R in aVL ≥11 mm)",
+   "**Cornell** LVH: R in aVL + S in V3 >28 mm (men), >20 mm (women)",
+   "RVH: R/S ratio >1 in V1, right axis deviation, RV strain pattern",
+   "QTc (Bazett) = QT/√RR; prolonged >450 ms (men), >460–470 ms (women); >500 ms = high torsades risk",
+   "**QT-prolonging drugs**: class IA (quinidine, procainamide) & III (sotalol, dofetilide; amiodarone rarely torsades), macrolides, fluoroquinolones, azoles, haloperidol & other antipsychotics, TCAs, methadone, ondansetron, chloroquine/quinine",
+   "Hyperkalaemia emergency: **10 mL 10% calcium gluconate** to stabilise membrane → insulin + dextrose, salbutamol nebulisation → remove K⁺ (binders, diuretic, dialysis)",
+   "**Brugada**: *SCN5A* loss of function; unmasked by fever and sodium-channel blockers (ajmaline/flecainide/procainamide challenge); treat **ICD**; quinidine; avoid triggers",
+   "WPW: PR <120 ms, delta wave, QRS >110 ms; LGL: short PR without delta wave",
+   "Paper: 1 small square = 0.04 s & 0.1 mV; 1 large square = 0.2 s; HR = 300 ÷ large squares between R waves",
+   "ESC 2024 uses **CHA₂DS₂-VA** (sex removed): OAC recommended at ≥2, considered at 1"
+  ],
+  "traps": [
+   {
+    "stem": "Young man after a viral illness: pleuritic chest pain, diffuse concave ST elevation in most leads, PR depression, ST depression only in aVR.",
+    "trap": "Extensive anterior STEMI – thrombolyse.",
+    "fix": "Acute pericarditis: diffuse concave STE + PR depression, reciprocal changes only in aVR (and V1). Treat with NSAID/aspirin + colchicine; lysis would risk haemopericardium."
+   },
+   {
+    "stem": "Woman, 70 y, AF, hypertension only. CHA₂DS₂-VASc?",
+    "trap": "1 (hypertension only) – so no anticoagulation.",
+    "fix": "Age 65–74 = 1, female = 1, hypertension = 1 → total 3 → anticoagulate (≥3 in women)."
+   },
+   {
+    "stem": "HAS-BLED of 4 in a patient with AF and CHA₂DS₂-VASc 5.",
+    "trap": "High bleeding risk – withhold anticoagulation.",
+    "fix": "HAS-BLED identifies modifiable bleeding risks (BP, NSAIDs, alcohol, labile INR) to correct; it is not used to deny OAC."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Sokolow–Lyon LVH criterion: S in {{c1::V1}} + R in {{c2::V5 or V6}} ≥ {{c3::35 mm}}."
+   },
+   {
+    "type": "cloze",
+    "text": "Cornell voltage: R in {{c1::aVL}} + S in {{c2::V3}} >28 mm in men and >20 mm in women."
+   },
+   {
+    "type": "basic",
+    "front": "Earliest ECG sign of hyperkalaemia?",
+    "back": "Tall, narrow, peaked (tented) T waves."
+   },
+   {
+    "type": "cloze",
+    "text": "CHA₂DS₂-VASc gives 2 points each for {{c1::age ≥75}} and {{c2::prior stroke/TIA/thromboembolism}}."
+   },
+   {
+    "type": "basic",
+    "front": "Brugada type 1 pattern?",
+    "back": "Coved ST elevation ≥2 mm in V1–V2 followed by a negative T wave; SCN5A; ICD for survivors of arrest/syncope."
+   },
+   {
+    "type": "basic",
+    "front": "ECG of hypokalaemia?",
+    "back": "T flattening, ST depression, prominent U waves (QU prolongation)."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Hyperkalemia ECG.jpg",
+    "caption": "Hyperkalaemia (K⁺ 8.2 mmol/L): tall peaked T waves – the earliest ECG sign"
+   },
+   {
+    "commons": "File:Brugada syndrome type1 example2 (CardioNetworks ECGpedia).png",
+    "caption": "Brugada type 1: coved ST elevation with negative T in V1 (more obvious with V1/V2 placed one space higher)"
+   }
+  ],
+  "keywords": [
+   "ecg",
+   "lvh",
+   "sokolow-lyon",
+   "cornell voltage",
+   "cha2ds2-vasc",
+   "has-bled",
+   "atrial fibrillation anticoagulation",
+   "qt prolongation",
+   "torsades",
+   "hyperkalemia ecg",
+   "peaked t waves",
+   "hypokalemia u wave",
+   "brugada",
+   "pericarditis",
+   "pr depression",
+   "osborn wave",
+   "electrical alternans",
+   "epsilon wave",
+   "digoxin toxicity",
+   "s1q3t3"
+  ],
+  "wiki": [
+   "Left_ventricular_hypertrophy",
+   "CHA2DS2–VASc_score",
+   "Brugada_syndrome"
+  ],
+  "verify": "ACC/AHA 2023 AF guideline (thresholds ≥2 men/≥3 women); ESC 2024 AF switched to CHA₂DS₂-VA – exam keys still use CHA₂DS₂-VASc."
+ },
+ {
+  "id": "med-ards-ventilation",
+  "title": "ARDS, lung-protective ventilation, COPD exacerbation & ABG oxygen indices",
+  "subject": "Medicine",
+  "system": "Respiratory / Critical care",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Within 1 week of an insult (sepsis, pneumonia, aspiration, pancreatitis, trauma, transfusion) → bilateral opacities + hypoxaemia not explained by heart failure = ARDS",
+   "Grade by PaO₂/FiO₂ on PEEP ≥5: mild 200–300, moderate 100–200, severe ≤100",
+   "Ventilate gently: VT 6 mL/kg predicted body weight, plateau ≤30 cmH₂O, adequate PEEP, prone if P/F <150"
+  ],
+  "algorithm": "Hypoxaemic respiratory failure with bilateral infiltrates →\n  Exclude cardiogenic oedema (echo, BNP) → ARDS (Berlin)\n  Intubate if failing → volume-control ventilation\n    VT 6 mL/kg PBW (range 4–8) → check plateau pressure ≤30 cmH₂O (driving pressure ideally <15)\n    PEEP/FiO₂ table (higher PEEP for moderate–severe); target SpO₂ 88–95% / PaO₂ 55–80 mmHg\n    Accept permissive hypercapnia (pH ≥7.20–7.25)\n  P/F <150 → prone position ≥12–16 h/day (PROSEVA) ± short neuromuscular blockade\n  Refractory → VV-ECMO\n  Conservative fluids once shock resolved; treat the cause\nCOPD exacerbation → controlled O₂ to SpO₂ 88–92%, bronchodilators, prednisolone 40 mg × 5 days, antibiotics if purulent sputum\n  pH ≤7.35 and PaCO₂ >45 mmHg despite therapy → NIV (BiPAP)\n  NIV contraindicated / fails (worsening pH, GCS falling, arrest, can't protect airway, haemodynamic instability) → intubate",
+  "tables": [
+   {
+    "title": "Peak vs plateau pressure on the ventilator",
+    "head": [
+     "Pattern",
+     "Meaning",
+     "Causes"
+    ],
+    "rows": [
+     [
+      "↑ Peak, normal plateau",
+      "↑ Airway resistance",
+      "Bronchospasm, secretions/mucus plug, kinked/bitten tube, small ETT"
+     ],
+     [
+      "↑ Peak and ↑ plateau",
+      "↓ Respiratory system compliance",
+      "Pneumothorax, ARDS/pulmonary oedema, right mainstem intubation, atelectasis, abdominal distension, auto-PEEP"
+     ]
+    ]
+   },
+   {
+    "title": "Hypoxaemia mechanisms",
+    "head": [
+     "Mechanism",
+     "A–a gradient",
+     "Corrects with 100% O₂?",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Hypoventilation",
+      "Normal",
+      "Yes",
+      "Opioid overdose, neuromuscular weakness"
+     ],
+     [
+      "Low inspired O₂",
+      "Normal",
+      "Yes",
+      "High altitude"
+     ],
+     [
+      "V/Q mismatch",
+      "↑",
+      "Yes",
+      "COPD, asthma, PE (commonest mechanism overall)"
+     ],
+     [
+      "Shunt",
+      "↑",
+      "No (poor response)",
+      "ARDS, lobar consolidation, intracardiac R→L shunt"
+     ],
+     [
+      "Diffusion limitation",
+      "↑",
+      "Yes",
+      "ILD, emphysema (worse on exercise)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Berlin 2012**: timing ≤1 week; bilateral opacities not explained by effusion/collapse/nodules; not fully explained by cardiac failure or fluid overload; PaO₂/FiO₂ measured with PEEP ≥5 cmH₂O",
+   "Exam-classic (AECC 1994) used PCWP ≤18 mmHg and 'ALI' for P/F ≤300 – both dropped in Berlin; 2023 global definition allows SpO₂/FiO₂ ≤315 and high-flow nasal oxygen ≥30 L/min",
+   "**Predicted body weight**: men = 50 + 0.91 × (height cm − 152.4); women = 45.5 + 0.91 × (height cm − 152.4)",
+   "Pathology: **diffuse alveolar damage** with **hyaline membranes** (exudative phase) → type II pneumocyte proliferation → fibrosis",
+   "Alveolar gas equation: PAO₂ = FiO₂ × (760 − 47) − PaCO₂/0.8 (≈150 − 1.25 × PaCO₂ on room air at sea level); normal A–a gradient ≈ age/4 + 4 mmHg",
+   "**NIV indication in COPD**: acute hypercapnic respiratory acidosis (pH ≤7.35, PaCO₂ >45 mmHg); strongest evidence of benefit (↓ intubation & mortality)",
+   "NIV contraindications: respiratory arrest, haemodynamic instability, unable to protect airway/copious secretions, facial trauma/burns, recent upper GI/facial surgery, undrained pneumothorax, uncooperative",
+   "**Auto-PEEP** in COPD/asthma on ventilator → hypotension: disconnect briefly, reduce RR, shorten inspiratory time",
+   "Modes: **assist-control (VC)** delivers set VT for every breath; **pressure support** = patient-triggered, used for weaning; **SIMV** mixes mandatory and spontaneous breaths",
+   "Weaning: spontaneous breathing trial 30–120 min; **RSBI (f/VT in litres) <105** predicts successful extubation"
+  ],
+  "traps": [
+   {
+    "stem": "ARDS patient: VT 500 mL (8.5 mL/kg actual weight) for a 165 cm, 85 kg man; plateau 34 cmH₂O.",
+    "trap": "Tidal volume is fine because it is <10 mL/kg of actual weight.",
+    "fix": "Use predicted body weight (~61 kg) → target ~370 mL (6 mL/kg PBW) and plateau ≤30 cmH₂O."
+   },
+   {
+    "stem": "COPD exacerbation, SpO₂ 82% on air; give 15 L/min non-rebreather to reach 100%.",
+    "trap": "Maximal oxygen for hypoxaemia.",
+    "fix": "Controlled O₂ (Venturi 24–28%) targeting SpO₂ 88–92%; high FiO₂ worsens hypercapnia (V/Q mismatch, Haldane effect)."
+   },
+   {
+    "stem": "Bilateral infiltrates with P/F 150 and PCWP 22 mmHg after massive IV fluids.",
+    "trap": "ARDS – the P/F ratio fits.",
+    "fix": "Raised filling pressures and fluid overload suggest hydrostatic (cardiogenic) pulmonary oedema; Berlin requires that oedema is not fully explained by heart failure/fluid overload."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Berlin ARDS severity (PEEP ≥5): mild P/F {{c1::200–300}}, moderate {{c2::100–200}}, severe {{c3::≤100}}."
+   },
+   {
+    "type": "cloze",
+    "text": "Lung-protective ventilation: tidal volume {{c1::6 mL/kg predicted body weight}} and plateau pressure ≤{{c2::30 cmH₂O}}."
+   },
+   {
+    "type": "basic",
+    "front": "Which ARDS intervention showed a mortality benefit for P/F <150 in PROSEVA?",
+    "back": "Prone positioning for ≥16 h/day early in severe ARDS."
+   },
+   {
+    "type": "basic",
+    "front": "High peak but normal plateau pressure on the ventilator – what is the problem?",
+    "back": "Increased airway resistance: bronchospasm, secretions, kinked or bitten tube."
+   },
+   {
+    "type": "cloze",
+    "text": "NIV is indicated in COPD exacerbation when pH is ≤{{c1::7.35}} with PaCO₂ >{{c2::45 mmHg}} despite medical therapy."
+   },
+   {
+    "type": "basic",
+    "front": "Which hypoxaemia mechanism does not correct with 100% oxygen?",
+    "back": "True shunt (e.g., ARDS, consolidation, intracardiac right-to-left shunt)."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:ARDS X-Ray.jpg",
+    "caption": "ARDS: bilateral diffuse alveolar opacities without cardiomegaly – 'bilateral opacities not explained by effusion, collapse or nodules' (Berlin)"
+   }
+  ],
+  "keywords": [
+   "ards",
+   "acute respiratory distress syndrome",
+   "berlin definition",
+   "pao2/fio2",
+   "lung protective ventilation",
+   "tidal volume 6 ml/kg",
+   "plateau pressure",
+   "peep",
+   "prone position",
+   "hyaline membrane",
+   "diffuse alveolar damage",
+   "niv",
+   "bipap",
+   "copd exacerbation",
+   "a-a gradient",
+   "alveolar gas equation",
+   "shunt",
+   "auto-peep",
+   "rsbi",
+   "pressure support"
+  ],
+  "wiki": [
+   "Acute_respiratory_distress_syndrome",
+   "Mechanical_ventilation",
+   "Alveolar_gas_equation"
+  ],
+  "verify": "Berlin 2012 (exam standard) + 2023 global ARDS definition; ARDSNet; GOLD 2024/2025 for COPD exacerbation."
+ },
+ {
+  "id": "med-pe-dvt-pleural",
+  "title": "Pulmonary embolism & DVT work-up; pleural fluid analysis",
+  "subject": "Medicine",
+  "system": "Respiratory",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Sudden dyspnoea, pleuritic pain, tachycardia, hypoxia, risk factor (surgery, immobility, cancer, OCP) → PE: pretest probability decides D-dimer vs CTPA",
+   "Hypotension (SBP <90 for ≥15 min) or arrest from PE = high-risk (massive) → systemic thrombolysis",
+   "Pleural effusion: Light's criteria separate exudate from transudate; low glucose, high ADA, pH, TG, amylase narrow the cause"
+  ],
+  "algorithm": "Suspected PE → haemodynamically stable?\n  Unstable (SBP <90 / shock / arrest) → bedside echo (RV dilatation) → UFH + systemic thrombolysis (alteplase 100 mg over 2 h)\n    lysis contraindicated/failed → surgical embolectomy or catheter-directed therapy\n  Stable → clinical probability (Wells / revised Geneva)\n    Low (gestalt <15%) → PERC: all 8 negative → no test\n    PE unlikely (Wells ≤4) → D-dimer (age-adjusted: age × 10 µg/L if >50 y) → normal = PE excluded; raised → CTPA\n    PE likely (Wells >4) → CTPA directly (start anticoagulation while waiting)\n    CTPA contraindicated (renal failure, contrast allergy) / pregnancy with normal CXR → V/Q scan\n  Confirmed → risk stratify (sPESI, RV dysfunction, troponin)\n    Intermediate-high (RV strain + troponin, normotensive) → anticoagulate, monitor, rescue lysis if deteriorates\n    Anticoagulation: DOAC (apixaban/rivaroxaban) preferred; LMWH in pregnancy; warfarin in antiphospholipid syndrome\n    Provoked → 3 months; unprovoked → ≥3 months, consider extended",
+  "tables": [
+   {
+    "title": "Wells score for PE",
+    "head": [
+     "Item",
+     "Points"
+    ],
+    "rows": [
+     [
+      "Clinical signs of DVT",
+      "3"
+     ],
+     [
+      "PE is the most likely diagnosis",
+      "3"
+     ],
+     [
+      "Heart rate >100",
+      "1.5"
+     ],
+     [
+      "Immobilisation ≥3 days or surgery in previous 4 weeks",
+      "1.5"
+     ],
+     [
+      "Previous DVT/PE",
+      "1.5"
+     ],
+     [
+      "Haemoptysis",
+      "1"
+     ],
+     [
+      "Active malignancy",
+      "1"
+     ],
+     [
+      "Interpretation",
+      "≤4 PE unlikely → D-dimer; >4 PE likely → CTPA"
+     ]
+    ]
+   },
+   {
+    "title": "Pleural fluid clues",
+    "head": [
+     "Finding",
+     "Think of"
+    ],
+    "rows": [
+     [
+      "Light's: fluid/serum protein >0.5, fluid/serum LDH >0.6, or fluid LDH >⅔ upper normal serum LDH (any one)",
+      "Exudate"
+     ],
+     [
+      "Serum–pleural albumin gradient >1.2 g/dL in a 'Light's exudate' on diuretics",
+      "Actually a transudate (CHF)"
+     ],
+     [
+      "Glucose <60 mg/dL",
+      "Empyema/complicated parapneumonic, rheumatoid (very low, <30), TB, malignancy, oesophageal rupture, lupus"
+     ],
+     [
+      "ADA >40 U/L with lymphocytic exudate",
+      "Tuberculous pleuritis"
+     ],
+     [
+      "pH <7.2 in parapneumonic effusion",
+      "Complicated – needs chest tube drainage"
+     ],
+     [
+      "Amylase ↑",
+      "Pancreatitis (left), oesophageal rupture (salivary amylase), malignancy"
+     ],
+     [
+      "Triglyceride >110 mg/dL",
+      "Chylothorax (thoracic duct injury, lymphoma)"
+     ],
+     [
+      "Pleural Hct >50% of blood Hct",
+      "Haemothorax"
+     ],
+     [
+      "Pleural/serum creatinine >1",
+      "Urinothorax (transudate with low pH)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**PERC** (use only when pretest probability is low): age <50, HR <100, SpO₂ ≥95%, no haemoptysis, no oestrogen use, no prior DVT/PE, no unilateral leg swelling, no surgery/trauma needing hospitalisation in last 4 weeks",
+   "**D-dimer** is sensitive but non-specific – useful only to **rule out** in low/unlikely probability; never in high probability",
+   "**CTPA** = investigation of choice; **V/Q** in renal failure/contrast allergy and often in pregnancy (normal CXR); compression ultrasound for DVT",
+   "Commonest ECG finding in PE = **sinus tachycardia**; S1Q3T3 is classic but uncommon",
+   "CXR signs: **Westermark** (focal oligaemia), **Hampton hump** (peripheral wedge infarct), **Fleischner** (enlarged pulmonary artery), **Palla** sign",
+   "Echo: RV dilatation, **McConnell sign** (RV free-wall hypokinesia with apical sparing)",
+   "Commonest cause of pleural effusion = **congestive heart failure** (transudate); commonest exudate = **parapneumonic**",
+   "Rheumatoid effusion: very low glucose, low pH, high LDH, cholesterol crystals; **TB effusion**: lymphocytic exudate, ADA >40 U/L, few mesothelial cells (<5%) – pleural biopsy shows granulomas",
+   "Empyema/complicated parapneumonic (pus, positive Gram stain/culture, pH <7.2, glucose <60) → **intercostal drainage**"
+  ],
+  "traps": [
+   {
+    "stem": "Post-op day 5, sudden dyspnoea, HR 120, Wells 7.5. Order D-dimer first?",
+    "trap": "D-dimer first – it is the screening test for PE.",
+    "fix": "With PE likely (Wells >4) go straight to CTPA (and start anticoagulation); a normal D-dimer cannot exclude PE in high probability, and post-op D-dimer is almost always raised."
+   },
+   {
+    "stem": "Normotensive PE with RV dilatation and raised troponin.",
+    "trap": "Thrombolyse – RV strain means massive PE.",
+    "fix": "That is intermediate-high risk (submassive). Anticoagulate and monitor; systemic lysis only if haemodynamic decompensation (PEITHO: lysis increased major bleeding/stroke)."
+   },
+   {
+    "stem": "CHF patient on furosemide: pleural protein ratio 0.55 (exudate by Light's).",
+    "trap": "Exudate → tap for malignancy/TB.",
+    "fix": "Diuretics concentrate pleural protein; check serum–effusion albumin gradient >1.2 g/dL → transudate from heart failure."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Light's criteria: exudate if pleural/serum protein >{{c1::0.5}}, pleural/serum LDH >{{c2::0.6}}, or pleural LDH >{{c3::2/3}} of the upper normal serum LDH."
+   },
+   {
+    "type": "cloze",
+    "text": "Wells score >{{c1::4}} = PE likely → {{c2::CTPA}}; ≤4 = PE unlikely → {{c3::D-dimer}}."
+   },
+   {
+    "type": "basic",
+    "front": "Massive (high-risk) PE definition and treatment?",
+    "back": "SBP <90 mmHg for ≥15 min (or fall ≥40 mmHg, needing vasopressors, or arrest) due to PE → systemic thrombolysis (alteplase 100 mg over 2 h) unless contraindicated."
+   },
+   {
+    "type": "basic",
+    "front": "Very low pleural glucose (<30 mg/dL) with high LDH, low pH and RA factor?",
+    "back": "Rheumatoid pleural effusion."
+   },
+   {
+    "type": "cloze",
+    "text": "Pleural ADA above {{c1::40 U/L}} in a {{c2::lymphocytic}} exudate supports tuberculous pleuritis."
+   },
+   {
+    "type": "basic",
+    "front": "Commonest ECG finding in pulmonary embolism?",
+    "back": "Sinus tachycardia (S1Q3T3 is classic but seen in a minority)."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:SaddlePE.PNG",
+    "caption": "CTPA: filling defect straddling the bifurcation of the main pulmonary artery = saddle embolus"
+   }
+  ],
+  "keywords": [
+   "pulmonary embolism",
+   "deep vein thrombosis",
+   "wells score",
+   "geneva score",
+   "perc rule",
+   "d-dimer",
+   "ctpa",
+   "v/q scan",
+   "s1q3t3",
+   "westermark sign",
+   "hampton hump",
+   "mcconnell sign",
+   "massive pe",
+   "thrombolysis",
+   "light's criteria",
+   "pleural effusion",
+   "exudate",
+   "transudate",
+   "adenosine deaminase",
+   "empyema",
+   "chylothorax",
+   "rheumatoid effusion"
+  ],
+  "wiki": [
+   "Pulmonary_embolism",
+   "Light's_criteria",
+   "Pleural_effusion"
+  ],
+  "verify": "ESC 2019 PE guideline; ACCP/CHEST 2021 VTE; Light's criteria (1972)."
+ },
+ {
+  "id": "med-pneumonia-tb-lung",
+  "title": "Pneumonia, ILD, sarcoidosis, bronchiectasis, lung cancer & flow–volume loops",
+  "subject": "Medicine",
+  "system": "Respiratory",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "CAP severity = CURB-65 (Confusion, Urea >7 mmol/L, RR ≥30, BP <90/≤60, age ≥65): 0–1 home, 2 admit, ≥3 severe",
+   "Elderly smoker with basal 'velcro' crackles, clubbing, honeycombing → IPF (UIP pattern); young woman with BHL + erythema nodosum → sarcoidosis (Löfgren)",
+   "Central tumour + hyponatraemia/Cushingoid/LEMS → small cell; central + hypercalcaemia → squamous; peripheral in non-smoker → adenocarcinoma"
+  ],
+  "tables": [
+   {
+    "title": "Lung cancer types",
+    "head": [
+     "Type",
+     "Location / clue",
+     "Paraneoplastic / marker"
+    ],
+    "rows": [
+     [
+      "Adenocarcinoma (commonest overall)",
+      "Peripheral; women, non-smokers; EGFR, ALK, ROS1 targets",
+      "Hypertrophic pulmonary osteoarthropathy, Trousseau migratory thrombophlebitis"
+     ],
+     [
+      "Squamous cell",
+      "Central, cavitation; strongly smoking-linked",
+      "PTHrP → hypercalcaemia; keratin pearls"
+     ],
+     [
+      "Small cell (neuroendocrine)",
+      "Central; very smoking-linked; early metastasis; treated with chemo-radiation",
+      "SIADH, ectopic ACTH, LEMS, anti-Hu encephalomyelitis, cerebellar degeneration; chromogranin, synaptophysin, CD56"
+     ],
+     [
+      "Large cell",
+      "Peripheral, poorly differentiated",
+      "Gynaecomastia/β-hCG"
+     ],
+     [
+      "Carcinoid",
+      "Endobronchial; younger, non-smokers",
+      "Carcinoid syndrome rare; chromogranin"
+     ]
+    ]
+   },
+   {
+    "title": "Flow–volume loops",
+    "head": [
+     "Pattern",
+     "Loop shape",
+     "Examples"
+    ],
+    "rows": [
+     [
+      "Obstructive",
+      "Scooped (concave) expiratory limb; FEV1/FVC <0.7",
+      "COPD, asthma"
+     ],
+     [
+      "Restrictive",
+      "Narrow, tall 'witch's hat'; normal/↑ FEV1/FVC, ↓ TLC",
+      "ILD, chest wall, neuromuscular"
+     ],
+     [
+      "Fixed upper airway obstruction",
+      "Flattened inspiratory AND expiratory limbs (box)",
+      "Tracheal stenosis (post-intubation), goitre"
+     ],
+     [
+      "Variable extrathoracic",
+      "Flattened inspiratory limb only",
+      "Vocal cord palsy, laryngeal tumour"
+     ],
+     [
+      "Variable intrathoracic",
+      "Flattened expiratory limb only",
+      "Tracheomalacia, intrathoracic tracheal tumour"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Commonest CAP organism: **S. pneumoniae** (lobar, rusty sputum). **Mycoplasma**: young, cold agglutinins (anti-I IgM), bullous myringitis, erythema multiforme",
+   "**Legionella**: high fever with relative bradycardia, diarrhoea, **hyponatraemia**, deranged LFTs; urinary antigen (serogroup 1), BCYE agar; treat macrolide/fluoroquinolone",
+   "**Klebsiella**: alcoholics, currant-jelly sputum, upper-lobe cavitation, bulging fissure; **S. aureus**: post-influenza, pneumatoceles; aspiration in supine patient → posterior segment of upper lobe/superior segment of lower lobe (right)",
+   "**UIP (IPF)**: subpleural, basal reticulation with honeycombing and traction bronchiectasis, temporal heterogeneity with fibroblastic foci; antifibrotics **pirfenidone, nintedanib**; steroids harmful",
+   "**NSIP**: uniform (temporally homogeneous) ground-glass with subpleural sparing; linked to connective tissue disease (scleroderma); steroid-responsive, better prognosis",
+   "Upper-lobe fibrosis: sarcoidosis, silicosis, coal workers', TB, ankylosing spondylitis, chronic hypersensitivity pneumonitis, Langerhans cell histiocytosis; lower-lobe: IPF, asbestosis, CTD, drugs (amiodarone, bleomycin, methotrexate, nitrofurantoin)",
+   "**Sarcoidosis**: non-caseating granulomas, bilateral hilar lymphadenopathy, ↑ ACE, hypercalcaemia (macrophage 1α-hydroxylase), BAL CD4:CD8 >3.5; **Löfgren** (BHL + erythema nodosum + ankle arthritis + fever, good prognosis); **Heerfordt** (uveitis, parotid swelling, facial palsy, fever)",
+   "**Bronchiectasis** HRCT: **signet-ring sign** (bronchus wider than adjacent artery), tram-tracks, no tapering; post-infective (incl. TB) commonest in India; CF → upper lobes; ABPA → central bronchiectasis; Kartagener → situs inversus + sinusitis + infertility (dynein arm defect)",
+   "**DLCO**: ↓ in emphysema, ILD, PE, pulmonary hypertension, anaemia; ↑ in asthma, alveolar haemorrhage, polycythaemia, left-to-right shunt; normal in chronic bronchitis and chest-wall/neuromuscular restriction",
+   "**Pancoast tumour** (superior sulcus): shoulder/arm pain in C8–T1, Horner syndrome; SVC syndrome commonest malignant cause = small cell carcinoma"
+  ],
+  "traps": [
+   {
+    "stem": "Pneumonia in a 70-year-old: confused, urea 9 mmol/L, RR 24, BP 120/80.",
+    "trap": "CURB-65 = 2 (confusion, urea) – ward admission.",
+    "fix": "Count age ≥65 as well: confusion + urea + age = 3 → severe CAP, consider HDU/ICU."
+   },
+   {
+    "stem": "Flow–volume loop: plateau on both inspiration and expiration in a patient extubated after 3 weeks of ventilation.",
+    "trap": "Restrictive lung disease – reduced flows.",
+    "fix": "Fixed upper airway obstruction (post-intubation tracheal stenosis): flattening of BOTH limbs; restrictive loops are narrow but keep a normal shape."
+   },
+   {
+    "stem": "IPF patient worsening; start high-dose prednisolone + azathioprine?",
+    "trap": "Steroid-based immunosuppression for fibrosis.",
+    "fix": "PANTHER-IPF showed harm with prednisone + azathioprine + NAC; use antifibrotics (pirfenidone or nintedanib), O₂, pulmonary rehab, transplant referral."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "CURB-65: Confusion, Urea >{{c1::7 mmol/L}}, Respiratory rate ≥{{c2::30}}, BP systolic <90 or diastolic ≤60, age ≥{{c3::65}}."
+   },
+   {
+    "type": "basic",
+    "front": "Flattened inspiratory limb only on flow–volume loop?",
+    "back": "Variable extrathoracic upper airway obstruction (e.g., vocal cord paralysis)."
+   },
+   {
+    "type": "cloze",
+    "text": "Small cell lung cancer paraneoplastic syndromes: {{c1::SIADH}}, {{c2::ectopic ACTH}} and {{c3::Lambert–Eaton}} syndrome."
+   },
+   {
+    "type": "basic",
+    "front": "UIP vs NSIP on HRCT?",
+    "back": "UIP: basal subpleural reticulation, honeycombing, traction bronchiectasis, heterogeneous. NSIP: uniform ground-glass with subpleural sparing; CTD-associated; better prognosis."
+   },
+   {
+    "type": "basic",
+    "front": "Löfgren syndrome?",
+    "back": "Acute sarcoidosis: bilateral hilar lymphadenopathy + erythema nodosum + ankle periarthritis + fever – good prognosis, often self-limiting."
+   },
+   {
+    "type": "cloze",
+    "text": "Legionella pneumonia classically causes {{c1::hyponatraemia}} and is diagnosed rapidly by {{c2::urinary antigen}} testing."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:CT scan in usual interstitial pneumonia (UIP).jpg",
+    "caption": "UIP (IPF) on HRCT: subpleural reticulation with honeycombing and traction bronchiectasis"
+   }
+  ],
+  "keywords": [
+   "community acquired pneumonia",
+   "curb-65",
+   "legionella",
+   "mycoplasma",
+   "atypical pneumonia",
+   "klebsiella",
+   "idiopathic pulmonary fibrosis",
+   "usual interstitial pneumonia",
+   "nsip",
+   "honeycombing",
+   "pirfenidone",
+   "sarcoidosis",
+   "lofgren syndrome",
+   "bronchiectasis",
+   "signet ring sign",
+   "kartagener",
+   "lung cancer",
+   "small cell carcinoma",
+   "paraneoplastic",
+   "pancoast tumor",
+   "flow volume loop",
+   "dlco"
+  ],
+  "wiki": [
+   "Idiopathic_pulmonary_fibrosis",
+   "CURB-65",
+   "Spirometry"
+  ],
+  "verify": "BTS CAP (CURB-65); ATS/IDSA CAP 2019; ATS/ERS/JRS/ALAT IPF 2018/2022; WHO lung tumours 2021."
+ },
+ {
+  "id": "med-shock-sepsis",
+  "title": "Shock haemodynamics & Sepsis-3 management",
+  "subject": "Medicine",
+  "system": "Critical care",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Sepsis = infection + acute organ dysfunction (SOFA rise ≥2); septic shock = vasopressor needed for MAP ≥65 AND lactate >2 mmol/L despite fluids",
+   "Warm peripheries + low SVR + high CO = distributive; cold, clammy + high SVR + low CO = hypovolaemic/cardiogenic/obstructive",
+   "Hour-1 bundle: lactate, cultures, antibiotics, 30 mL/kg crystalloid, norepinephrine"
+  ],
+  "algorithm": "Suspected sepsis → within 1 hour (SSC hour-1 bundle):\n  Measure lactate (repeat if >2 mmol/L)\n  Blood cultures before antibiotics (do not delay antibiotics)\n  Broad-spectrum antibiotics (≤1 h if shock or probable sepsis; ≤3 h if sepsis only possible and no shock)\n  Hypotension or lactate ≥4 → 30 mL/kg balanced crystalloid within 3 h\n  MAP <65 during/after fluids → norepinephrine (peripheral start acceptable)\n    NE 0.25–0.5 µg/kg/min → add vasopressin 0.03 U/min\n    NE ≥0.25 µg/kg/min for ≥4 h → hydrocortisone 200 mg/day\n    Cardiac dysfunction with hypoperfusion → add dobutamine (or switch to adrenaline)\n  Source control (drain abscess, remove infected line) as soon as practical\n  Reassess with dynamic measures, capillary refill, lactate clearance",
+  "tables": [
+   {
+    "title": "Haemodynamic profile of shock",
+    "head": [
+     "Type",
+     "CO",
+     "SVR",
+     "PCWP",
+     "CVP",
+     "SvO₂"
+    ],
+    "rows": [
+     [
+      "Hypovolaemic",
+      "↓",
+      "↑",
+      "↓",
+      "↓",
+      "↓"
+     ],
+     [
+      "Cardiogenic",
+      "↓",
+      "↑",
+      "↑",
+      "↑",
+      "↓"
+     ],
+     [
+      "Obstructive – PE",
+      "↓",
+      "↑",
+      "↓/N",
+      "↑",
+      "↓"
+     ],
+     [
+      "Obstructive – tamponade",
+      "↓",
+      "↑",
+      "↑ (equalised diastolic pressures)",
+      "↑",
+      "↓"
+     ],
+     [
+      "Septic (distributive, warm)",
+      "↑ (or N)",
+      "↓",
+      "↓/N",
+      "↓/N",
+      "↑/N"
+     ],
+     [
+      "Neurogenic",
+      "↓/N (bradycardia)",
+      "↓",
+      "↓",
+      "↓",
+      "N"
+     ],
+     [
+      "Anaphylactic",
+      "↓/N",
+      "↓",
+      "↓",
+      "↓",
+      "N/↑"
+     ]
+    ]
+   },
+   {
+    "title": "SIRS vs qSOFA vs SOFA",
+    "head": [
+     "Tool",
+     "Components",
+     "Use"
+    ],
+    "rows": [
+     [
+      "SIRS (≥2)",
+      "T >38 or <36 °C; HR >90; RR >20 or PaCO₂ <32; WBC >12,000, <4,000 or >10% bands",
+      "Old sepsis-1/2 definition; sensitive, non-specific"
+     ],
+     [
+      "qSOFA (≥2)",
+      "RR ≥22; altered mentation (GCS <15); SBP ≤100",
+      "Bedside prognostic flag – SSC 2021 advises NOT to use alone for screening"
+     ],
+     [
+      "SOFA (rise ≥2)",
+      "PaO₂/FiO₂, platelets, bilirubin, MAP/vasopressors, GCS, creatinine/urine output (each 0–4)",
+      "Defines organ dysfunction in Sepsis-3"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Sepsis-3 (2016)**: 'life-threatening organ dysfunction caused by a dysregulated host response to infection'; 'severe sepsis' term abandoned",
+   "**Norepinephrine** = first-line vasopressor in septic shock; target **MAP ≥65 mmHg**; dopamine only in selected bradycardic patients",
+   "**Balanced crystalloids** (Ringer lactate) preferred over 0.9% saline; albumin if large volumes needed; **avoid starches** (HES → AKI)",
+   "Neurogenic shock (cord injury above T6): **hypotension + bradycardia + warm skin** → fluids, norepinephrine/phenylephrine, atropine for bradycardia",
+   "**Anaphylaxis**: IM adrenaline 0.5 mg (0.5 mL of 1:1000) in anterolateral thigh, repeat every 5 min; IV adrenaline only by experienced hands/refractory",
+   "Cardiogenic shock: commonest cause is acute MI with LV failure → urgent revascularisation; inotrope dobutamine, NE if hypotensive; mechanical support",
+   "**Shock index** (HR/SBP) >1 suggests significant shock; lactate >4 mmol/L = marker of severe hypoperfusion",
+   "SvO₂/ScvO₂ is **high** in sepsis (impaired O₂ extraction) but **low** in hypovolaemic/cardiogenic shock (high extraction)"
+  ],
+  "traps": [
+   {
+    "stem": "Septic shock, MAP 58 after 2 L crystalloid. First pressor?",
+    "trap": "Dopamine – classic 'renal dose' inotrope.",
+    "fix": "Norepinephrine is first-line; dopamine causes more arrhythmias and no renal protection. Add vasopressin if NE requirement rises."
+   },
+   {
+    "stem": "Spinal cord injury at C6, BP 80/40, HR 48, warm dry skin.",
+    "trap": "Haemorrhagic shock – transfuse.",
+    "fix": "Neurogenic shock (loss of sympathetic tone): hypotension with bradycardia and warm skin. Exclude bleeding, then fluids + vasopressor (± atropine). Haemorrhagic shock gives tachycardia and cold skin."
+   },
+   {
+    "stem": "Patient with infection, qSOFA 1 but SOFA increase of 3 points.",
+    "trap": "Not sepsis because qSOFA is <2.",
+    "fix": "Sepsis is defined by an acute SOFA rise ≥2 due to infection; qSOFA is only a prognostic bedside prompt, not a diagnostic criterion."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Septic shock (Sepsis-3) = vasopressors to keep MAP ≥{{c1::65 mmHg}} AND serum lactate >{{c2::2 mmol/L}} despite adequate fluid resuscitation."
+   },
+   {
+    "type": "cloze",
+    "text": "qSOFA: respiratory rate ≥{{c1::22}}, altered mentation, systolic BP ≤{{c2::100 mmHg}}."
+   },
+   {
+    "type": "basic",
+    "front": "Cardiogenic vs hypovolaemic shock on PA catheter?",
+    "back": "Both: low CO, high SVR. Cardiogenic: high PCWP and CVP. Hypovolaemic: low PCWP and CVP."
+   },
+   {
+    "type": "basic",
+    "front": "Septic shock haemodynamics?",
+    "back": "High/normal CO, low SVR, low/normal PCWP, high ScvO₂ (warm shock)."
+   },
+   {
+    "type": "cloze",
+    "text": "Hour-1 bundle fluid bolus: {{c1::30 mL/kg}} crystalloid for hypotension or lactate ≥{{c2::4 mmol/L}}."
+   },
+   {
+    "type": "basic",
+    "front": "When to add hydrocortisone in septic shock?",
+    "back": "Ongoing norepinephrine (or adrenaline) ≥0.25 µg/kg/min for ≥4 h – IV hydrocortisone 200 mg/day (SSC 2021)."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "shock",
+   "septic shock",
+   "sepsis-3",
+   "qsofa",
+   "sofa score",
+   "sirs",
+   "hour-1 bundle",
+   "lactate",
+   "norepinephrine",
+   "vasopressin",
+   "hydrocortisone septic shock",
+   "cardiogenic shock",
+   "hypovolemic shock",
+   "neurogenic shock",
+   "obstructive shock",
+   "anaphylaxis",
+   "pcwp",
+   "svr",
+   "svo2",
+   "shock index"
+  ],
+  "wiki": [
+   "Septic_shock",
+   "Shock_(circulatory)",
+   "SOFA_score"
+  ],
+  "verify": "Sepsis-3 (JAMA 2016); Surviving Sepsis Campaign 2021 adult guideline; hour-1 bundle (SSC 2018)."
+ },
+ {
+  "id": "med-anemia-basics",
+  "title": "Anaemia basics: microcytic work-up, B12 vs folate, haemolysis labs",
+  "subject": "Medicine",
+  "system": "Haematology",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Microcytic anaemia → ferritin first: low = iron deficiency; normal/high → ACD, thalassaemia trait (Hb electrophoresis/HPLC), sideroblastic (marrow ring sideroblasts)",
+   "Macrocytic + hypersegmented neutrophils = megaloblastic: MMA ↑ only in B12 deficiency; homocysteine ↑ in both",
+   "↑ LDH + ↑ unconjugated bilirubin + ↓ haptoglobin + reticulocytosis = haemolysis → DAT (Coombs) next"
+  ],
+  "tables": [
+   {
+    "title": "Microcytic anaemia: iron studies",
+    "head": [
+     "Test",
+     "Iron deficiency",
+     "Anaemia of chronic disease",
+     "β-thalassaemia trait",
+     "Sideroblastic"
+    ],
+    "rows": [
+     [
+      "Serum ferritin",
+      "↓",
+      "N/↑",
+      "N",
+      "↑"
+     ],
+     [
+      "Serum iron",
+      "↓",
+      "↓",
+      "N",
+      "↑"
+     ],
+     [
+      "TIBC (transferrin)",
+      "↑",
+      "↓/N",
+      "N",
+      "↓/N"
+     ],
+     [
+      "Transferrin saturation",
+      "↓ (<16%)",
+      "↓/N",
+      "N",
+      "↑"
+     ],
+     [
+      "RDW",
+      "↑",
+      "N",
+      "N (RBC count ↑)",
+      "↑ (dimorphic)"
+     ],
+     [
+      "Other",
+      "Soluble transferrin receptor ↑; Mentzer index >13",
+      "Hepcidin ↑",
+      "HbA2 >3.5%; Mentzer <13; target cells",
+      "Ring sideroblasts (Prussian blue); basophilic stippling in lead"
+     ]
+    ]
+   },
+   {
+    "title": "B12 vs folate deficiency",
+    "head": [
+     "Feature",
+     "Vitamin B12",
+     "Folate"
+    ],
+    "rows": [
+     [
+      "Methylmalonic acid",
+      "↑",
+      "Normal"
+     ],
+     [
+      "Homocysteine",
+      "↑",
+      "↑"
+     ],
+     [
+      "Neurology",
+      "Subacute combined degeneration (posterior + lateral columns), neuropathy, dementia",
+      "None"
+     ],
+     [
+      "Body stores",
+      "3–5 years",
+      "~3–4 months"
+     ],
+     [
+      "Common causes",
+      "Pernicious anaemia, gastrectomy, ileal resection/Crohn's, strict vegan, metformin, PPIs, D. latum, blind loop",
+      "Poor diet, alcohol, pregnancy, haemolysis, methotrexate, phenytoin, trimethoprim"
+     ],
+     [
+      "Treatment",
+      "IM hydroxo/cyanocobalamin 1000 µg; correct B12 before or with folate",
+      "Oral folic acid 5 mg/day"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Serum ferritin** is the single best test for iron deficiency (falls first – stores deplete before serum iron); bone marrow iron (Prussian blue) is the gold standard",
+   "Ferritin is an acute-phase reactant: inflammation can mask iron deficiency → use a higher ferritin cut-off or transferrin saturation/sTfR",
+   "Response to iron: **reticulocytosis in 5–10 days**; Hb rises ~1–2 g/dL every 2–3 weeks; continue iron ~3 months after Hb normalises to refill stores",
+   "**Mentzer index** = MCV/RBC count: <13 thalassaemia trait, >13 iron deficiency",
+   "Sideroblastic causes: X-linked *ALAS2*, alcohol, **isoniazid** (B6), lead, copper deficiency, MDS (ring sideroblasts ≥15% of erythroblasts)",
+   "**Pernicious anaemia**: anti-intrinsic factor antibody (specific) and anti-parietal cell antibody (sensitive); atrophic gastritis of body/fundus, ↑ gastrin, ↑ gastric cancer/carcinoid risk",
+   "Giving **folate alone** in B12 deficiency corrects the blood picture but allows neurological damage to progress",
+   "Intravascular haemolysis: haemoglobinaemia, **haemoglobinuria**, **haemosiderinuria**, very low haptoglobin, schistocytes (MAHA); extravascular: spherocytes, splenomegaly",
+   "**Warm AIHA** (IgG, extravascular, spherocytes; SLE, CLL, methyldopa) → steroids; **cold agglutinin** (IgM + C3, Mycoplasma, EBV) → avoid cold, rituximab",
+   "**G6PD deficiency**: X-linked, oxidant trigger (primaquine, dapsone, sulfonamides, nitrofurantoin, fava beans); **Heinz bodies** & **bite cells**; enzyme assay may be falsely normal during acute haemolysis"
+  ],
+  "traps": [
+   {
+    "stem": "Microcytic anaemia, Hb 10, RBC 6.1 million/µL, ferritin normal, RDW normal.",
+    "trap": "Iron deficiency – start oral iron.",
+    "fix": "Thalassaemia trait: high RBC count, normal RDW, Mentzer <13, normal ferritin → HPLC (HbA2 >3.5%). Iron is useless and harmful long-term."
+   },
+   {
+    "stem": "Macrocytic anaemia with ataxia and loss of vibration sense; folate low-normal. Start folic acid?",
+    "trap": "Folate replacement because folate is borderline.",
+    "fix": "Neurology = B12 deficiency (subacute combined degeneration). Check B12/MMA and give IM B12 first; folate alone can worsen neurological damage."
+   },
+   {
+    "stem": "Haemolysis after primaquine; G6PD assay on day 2 is normal.",
+    "trap": "G6PD deficiency excluded.",
+    "fix": "Young RBCs/reticulocytes (high G6PD) dominate after acute haemolysis → false normal. Repeat the assay ~2–3 months later or use a quantitative test with reticulocyte correction."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Raised methylmalonic acid with raised homocysteine indicates {{c1::vitamin B12}} deficiency; raised homocysteine with normal MMA indicates {{c2::folate}} deficiency."
+   },
+   {
+    "type": "cloze",
+    "text": "Iron deficiency iron profile: ferritin {{c1::↓}}, TIBC {{c2::↑}}, transferrin saturation {{c3::↓}}."
+   },
+   {
+    "type": "basic",
+    "front": "Anaemia of chronic disease – central mechanism?",
+    "back": "Hepcidin ↑ (IL-6 driven) → ferroportin degraded → iron trapped in macrophages and poorly absorbed: low iron, low TIBC, normal/high ferritin."
+   },
+   {
+    "type": "basic",
+    "front": "Hallmark labs of haemolysis?",
+    "back": "↑ LDH, ↑ unconjugated bilirubin, ↓ haptoglobin, ↑ reticulocytes; intravascular adds haemoglobinuria & haemosiderinuria."
+   },
+   {
+    "type": "cloze",
+    "text": "Mentzer index (MCV ÷ RBC count) <{{c1::13}} suggests {{c2::thalassaemia trait}}."
+   },
+   {
+    "type": "basic",
+    "front": "Earliest marker to fall in developing iron deficiency?",
+    "back": "Serum ferritin (depletion of stores) – before serum iron, transferrin saturation or Hb fall."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Iron-deficiency Anemia, Peripheral Blood Smear (4422704616).jpg",
+    "caption": "Iron deficiency: microcytic hypochromic RBCs with wide central pallor and pencil cells (MCV 55 fL)"
+   },
+   {
+    "commons": "File:Hypersegmented Neutrophils.jpg",
+    "caption": "Hypersegmented neutrophils (≥6 lobes, or >5% with 5 lobes) – megaloblastic anaemia (B12/folate deficiency)"
+   },
+   {
+    "commons": "File:Schizocyte smear 2009-12-22.JPG",
+    "caption": "Schistocytes (fragmented RBCs) – intravascular microangiopathic haemolysis (here HUS; also TTP, DIC)"
+   }
+  ],
+  "keywords": [
+   "iron deficiency anemia",
+   "microcytic anemia",
+   "ferritin",
+   "tibc",
+   "transferrin saturation",
+   "anemia of chronic disease",
+   "hepcidin",
+   "thalassemia trait",
+   "mentzer index",
+   "sideroblastic anemia",
+   "ring sideroblasts",
+   "vitamin b12 deficiency",
+   "folate deficiency",
+   "methylmalonic acid",
+   "homocysteine",
+   "pernicious anemia",
+   "subacute combined degeneration",
+   "hypersegmented neutrophils",
+   "hemolysis",
+   "haptoglobin",
+   "g6pd deficiency",
+   "autoimmune hemolytic anemia"
+  ],
+  "wiki": [
+   "Iron-deficiency_anemia",
+   "Vitamin_B12_deficiency",
+   "Hemolytic_anemia"
+  ],
+  "verify": "Harrison 21e / Robbins 10e; WHO ferritin thresholds (<15 µg/L adults; higher cut-off with inflammation)."
+ }
+]

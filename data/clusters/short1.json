@@ -1,0 +1,2551 @@
+[
+ {
+  "id": "oph-glaucoma",
+  "title": "Glaucoma: angle anatomy, POAG vs PACG vs congenital, drugs & surgery",
+  "subject": "Ophthalmology",
+  "system": "Glaucoma",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Painless, slowly progressive peripheral field loss + vertical cup enlargement + raised IOP + open angle → POAG",
+   "Hypermetrope, dim light/evening, severe pain, haloes, vomiting, stony-hard red eye, vertically oval mid-dilated fixed pupil, shallow AC → acute PACG",
+   "Infant with photophobia, epiphora, blepharospasm, large hazy cornea (>12 mm), Haab striae → primary congenital glaucoma (buphthalmos)"
+  ],
+  "algorithm": "Acute primary angle closure (IOP often 50–70 mmHg)\n  → Lower IOP first: IV mannitol 20% (or oral glycerol) + IV/oral acetazolamide + topical timolol / α2 agonist + topical steroid\n  → Pilocarpine 2% once IOP falls (ischaemic iris sphincter does not respond at very high IOP)\n  → Definitive: Nd:YAG laser peripheral iridotomy (LPI) in BOTH eyes (fellow eye prophylactic)\n  → >50% of angle closed by peripheral anterior synechiae / uncontrolled → trabeculectomy\nPOAG\n  → PG analogue first line → add β-blocker / CAI / α2 agonist\n  → SLT (selective laser trabeculoplasty) as first-line or add-on\n  → Uncontrolled / progressing → trabeculectomy with MMC or 5-FU → glaucoma drainage device\nPrimary congenital glaucoma → SURGERY is primary\n  → Goniotomy (clear cornea) or trabeculotomy (hazy cornea) → combined trabeculotomy + trabeculectomy\n  → Drugs only to clear cornea / temporise before surgery",
+  "tables": [
+   {
+    "title": "Trabecular meshwork layers (inner → outer) and outflow",
+    "head": [
+     "Layer / structure",
+     "Position",
+     "Structure",
+     "Exam point"
+    ],
+    "rows": [
+     [
+      "Uveal meshwork",
+      "Innermost, faces anterior chamber",
+      "Cord-like bands, largest openings",
+      "Least resistance"
+     ],
+     [
+      "Corneoscleral meshwork",
+      "Middle (largest part)",
+      "Perforated sheets/lamellae from scleral spur to Schwalbe line",
+      "Pores smaller"
+     ],
+     [
+      "Juxtacanalicular (cribriform / endothelial) meshwork",
+      "Outermost, against inner wall of Schlemm's canal",
+      "Cells in dense amorphous extracellular matrix, no lamellae",
+      "MAIN site of outflow resistance (↑ in POAG)"
+     ],
+     [
+      "Schlemm's canal",
+      "Beyond TM",
+      "Endothelium-lined circumferential channel → collector channels → aqueous veins → episcleral veins",
+      "NOT a meshwork layer"
+     ],
+     [
+      "Uveoscleral (unconventional) route",
+      "Ciliary muscle → suprachoroidal space",
+      "Pressure-independent, ~10–20% of outflow",
+      "↑ by PG analogues"
+     ]
+    ]
+   },
+   {
+    "title": "Anti-glaucoma drugs",
+    "head": [
+     "Class (example)",
+     "Mechanism",
+     "Key adverse effects / cautions"
+    ],
+    "rows": [
+     [
+      "PG analogues (latanoprost, travoprost, bimatoprost)",
+      "↑ uveoscleral outflow; once at night; first line POAG",
+      "Iris darkening (heterochromia), eyelash lengthening/hypertrichosis, periorbital fat atrophy, CME (pseudophakia), reactivation of HSV keratitis; avoid in active uveitis"
+     ],
+     [
+      "β-blockers (timolol; betaxolol β1-selective)",
+      "↓ aqueous production (ciliary epithelium)",
+      "Bronchospasm, bradycardia/heart block, masks hypoglycaemia; avoid in asthma/COPD (betaxolol safer)"
+     ],
+     [
+      "Carbonic anhydrase inhibitors (dorzolamide, brinzolamide topical; acetazolamide oral)",
+      "↓ aqueous production",
+      "Oral: paraesthesia, metabolic acidosis, hypokalaemia, renal stones, sulfonamide allergy; topical: bitter taste, stinging"
+     ],
+     [
+      "α2 agonists (brimonidine, apraclonidine)",
+      "↓ production (+ ↑ uveoscleral for brimonidine)",
+      "Allergic follicular conjunctivitis, dry mouth, fatigue; brimonidine CONTRAINDICATED <2 yr (CNS depression, apnoea)"
+     ],
+     [
+      "Miotics (pilocarpine)",
+      "Ciliary muscle contraction pulls scleral spur → opens TM (↑ conventional outflow); miosis pulls iris off angle",
+      "Brow ache, induced myopia, dim vision at night, retinal detachment; avoid in uveitis/neovascular glaucoma"
+     ],
+     [
+      "Hyperosmotics (mannitol IV, glycerol oral)",
+      "Dehydrate vitreous",
+      "Volume overload/heart failure; glycerol causes hyperglycaemia (avoid in diabetics)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Gonioscopy angle structures (posterior → anterior): iris root, ciliary body band, scleral spur, trabecular meshwork, Schwalbe line (end of Descemet); Shaffer grade 0 = closed, 4 = wide open.",
+   "**Earliest clinically significant field defect** in POAG: isolated paracentral scotoma in Bjerrum area (10–20° from fixation) → Seidel (sickle) scotoma → arcuate (Bjerrum) scotoma → Roenne nasal step → ring scotoma → tubular vision → temporal island (last to go).",
+   "Glaucomatous disc: vertical cup enlargement, C:D asymmetry >0.2 between eyes, inferior > superior rim thinning (ISNT rule violated), splinter (Drance) haemorrhage, bayoneting & nasal shift of vessels, laminar dot sign.",
+   "PACG risk: hypermetropia, short axial length, shallow AC, thick anteriorly placed lens, female, Asian; provocative tests: dark room, prone, mydriatic.",
+   "Haab striae = horizontal/curvilinear breaks in Descemet membrane (congenital glaucoma); forceps-injury breaks are vertical/oblique. CYP1B1 is the main gene in primary congenital glaucoma.",
+   "Trabeculectomy = guarded partial-thickness scleral flap fistula draining into a subconjunctival filtering bleb; antimetabolites (MMC/5-FU) reduce bleb fibrosis.",
+   "Neovascular glaucoma (ischaemic CRVO, PDR) – '100-day glaucoma' after CRVO; treat with anti-VEGF + PRP ± drainage device.",
+   "Lens-induced: phacomorphic (swollen intumescent lens → secondary angle closure) vs phacolytic (hypermature lens proteins leak through intact capsule → macrophages block open angle) → both need cataract extraction.",
+   "Steroid-induced glaucoma (open angle) – topical steroids most often; pseudoexfoliation and pigment dispersion (Krukenberg spindle) are other secondary open-angle causes."
+  ],
+  "traps": [
+   {
+    "stem": "Multiple-correct: which are components of the trabecular meshwork?",
+    "trap": "Ticking Schlemm's canal or scleral spur because they sit in the same angle region.",
+    "fix": "Only uveal (inner), corneoscleral (middle) and juxtacanalicular (outer) meshwork; the juxtacanalicular layer gives the main resistance. Schlemm's canal is the collecting channel, not a layer."
+   },
+   {
+    "stem": "Acute angle closure, IOP 62 mmHg, pupil fixed and mid-dilated. Best first drug?",
+    "trap": "Pilocarpine alone first – it is the 'miotic for angle closure'.",
+    "fix": "At very high IOP the iris sphincter is ischaemic and unresponsive; first lower IOP with IV mannitol + acetazolamide + timolol, then pilocarpine; definitive = LPI in both eyes."
+   },
+   {
+    "stem": "A 60-year-old asthmatic with POAG needs medical therapy.",
+    "trap": "Timolol – cheapest, classic first drug.",
+    "fix": "Non-selective β-blockers are contraindicated in asthma; use a PG analogue (latanoprost) as first line."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "The main site of resistance to aqueous outflow is the {{c1::juxtacanalicular (cribriform) meshwork}}, the {{c2::outermost}} trabecular layer lining Schlemm's canal."
+   },
+   {
+    "type": "basic",
+    "front": "Anti-glaucoma drug that darkens the iris and lengthens eyelashes – mechanism?",
+    "back": "Prostaglandin analogue (latanoprost) – ↑ uveoscleral outflow."
+   },
+   {
+    "type": "basic",
+    "front": "Earliest clinically significant field defect in POAG?",
+    "back": "Isolated paracentral scotoma in Bjerrum's area (10–20°); temporal island is the last to be lost."
+   },
+   {
+    "type": "cloze",
+    "text": "Definitive treatment of acute primary angle closure is {{c1::Nd:YAG laser peripheral iridotomy}}, performed in {{c2::both eyes (fellow eye prophylactically)}}."
+   },
+   {
+    "type": "basic",
+    "front": "Haab striae: orientation and meaning?",
+    "back": "Horizontal/curvilinear Descemet breaks from corneal stretching in congenital glaucoma (birth-trauma breaks are vertical/oblique)."
+   },
+   {
+    "type": "basic",
+    "front": "Glaucoma drug contraindicated in infants <2 years?",
+    "back": "Brimonidine (α2 agonist) – crosses blood–brain barrier → CNS depression, apnoea."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Glaukompapille2.jpg",
+    "caption": "Advanced glaucomatous cupping: large vertical cup with thin neuroretinal rim and nasal displacement/bayoneting of vessels."
+   },
+   {
+    "commons": "File:Buphthalmus.jpg",
+    "caption": "Buphthalmos from congenital glaucoma: enlarged globe and cornea (>12 mm in infancy) – surgery (goniotomy/trabeculotomy) is primary treatment."
+   }
+  ],
+  "keywords": [
+   "glaucoma",
+   "trabecular meshwork",
+   "juxtacanalicular",
+   "schlemm's canal",
+   "poag",
+   "angle closure",
+   "pacg",
+   "buphthalmos",
+   "haab striae",
+   "congenital glaucoma",
+   "latanoprost",
+   "timolol",
+   "acetazolamide",
+   "brimonidine",
+   "pilocarpine",
+   "laser peripheral iridotomy",
+   "trabeculectomy",
+   "bjerrum scotoma",
+   "nasal step",
+   "cup disc ratio"
+  ],
+  "wiki": [
+   "Glaucoma",
+   "Trabecular_meshwork",
+   "Primary_juvenile_glaucoma"
+  ],
+  "verify": "Khurana 8e / Parsons 23e; EGS 2020 guidelines for first-line therapy"
+ },
+ {
+  "id": "oph-pupil-neuro",
+  "title": "Pupil & neuro-ophthalmology: RAPD, abnormal pupils, disc swelling, orbital apex",
+  "subject": "Ophthalmology",
+  "system": "Neuro-ophthalmology",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Swinging flashlight: affected pupil dilates when light swings onto it → RAPD (Marcus Gunn pupil) = optic nerve or extensive retinal disease",
+   "Painful ophthalmoplegia (III, IV, VI, V1) + RAPD/↓ vision → orbital apex; same without vision loss → superior orbital fissure; + V2 / Horner / bilateral → cavernous sinus",
+   "Young woman, ↓ vision over days, pain on eye movement, red desaturation, RAPD, normal disc → retrobulbar optic neuritis",
+   "Ptosis + miosis + anhidrosis; apraclonidine reverses anisocoria → Horner syndrome"
+  ],
+  "algorithm": "Third nerve palsy\n  → Pupil involved (dilated, non-reactive) = 'surgical' → urgent CTA/MRA for posterior communicating artery aneurysm (pupillomotor fibres are superficial, dorsomedial)\n  → Pupil spared, complete motor palsy, diabetic/hypertensive = 'medical' (microvascular infarct of nerve core) → observe; recovers in ~3 months\n  → Partial palsy or young patient → image anyway\nSuspected Horner\n  → Cocaine 4–10%: Horner pupil fails to dilate (confirms) | Apraclonidine 0.5–1%: Horner pupil dilates + lid rises (reversal of anisocoria; denervation supersensitivity)\n  → Hydroxyamphetamine 1% (localises, ≥24–48 h later): dilates = 1st/2nd-order (preganglionic); fails = 3rd-order (postganglionic)\nSuspected giant cell arteritis (age >50, jaw claudication, ESR/CRP ↑)\n  → Start high-dose steroids IMMEDIATELY → temporal artery biopsy within 1–2 weeks (does not wait for result)",
+  "tables": [
+   {
+    "title": "Abnormal pupils",
+    "head": [
+     "Feature",
+     "Argyll Robertson",
+     "Adie tonic",
+     "Horner",
+     "CN III palsy"
+    ],
+    "rows": [
+     [
+      "Size",
+      "Small, irregular, usually bilateral",
+      "Large, usually unilateral (becomes smaller with time)",
+      "Small (miosis) + mild ptosis 1–2 mm",
+      "Dilated + complete ptosis, eye 'down and out'"
+     ],
+     [
+      "Light reaction",
+      "Absent",
+      "Absent/very slow, segmental (vermiform)",
+      "Normal (dilation lag in dark)",
+      "Absent"
+     ],
+     [
+      "Near reaction",
+      "Brisk (light–near dissociation)",
+      "Slow, tonic, sustained (light–near dissociation)",
+      "Normal",
+      "Absent"
+     ],
+     [
+      "Lesion",
+      "Dorsal (pretectal) midbrain",
+      "Ciliary ganglion / postganglionic parasympathetic",
+      "Oculosympathetic chain (3 neurons)",
+      "Oculomotor nerve"
+     ],
+     [
+      "Pharmacological test",
+      "Dilates poorly with mydriatics",
+      "Constricts to dilute pilocarpine 0.125% (denervation supersensitivity)",
+      "Cocaine fails to dilate; apraclonidine dilates; hydroxyamphetamine localises",
+      "Not needed – image if pupil involved"
+     ],
+     [
+      "Association",
+      "Neurosyphilis (also diabetes)",
+      "Young women; + absent tendon reflexes = Holmes–Adie",
+      "Pancoast tumour, carotid dissection, brainstem stroke (Wallenberg), congenital (iris heterochromia)",
+      "PComm aneurysm (pupil-involving), diabetes (pupil-sparing)"
+     ]
+    ]
+   },
+   {
+    "title": "Optic disc swelling / acute optic neuropathy",
+    "head": [
+     "Feature",
+     "Optic neuritis",
+     "Papilloedema",
+     "NA-AION",
+     "Arteritic AION (GCA)"
+    ],
+    "rows": [
+     [
+      "Patient",
+      "15–45 yr, female, demyelination",
+      "Raised ICP (tumour, IIH)",
+      ">50 yr, diabetes/HTN, small crowded disc ('disc at risk')",
+      ">50–70 yr, jaw claudication, scalp tenderness, PMR"
+     ],
+     [
+      "Vision",
+      "Markedly ↓ over days",
+      "Normal early; transient obscurations",
+      "Sudden painless ↓, often on waking",
+      "Severe ↓ (often CF/PL), may be bilateral"
+     ],
+     [
+      "Pain",
+      "On eye movement",
+      "Headache",
+      "Painless",
+      "Headache"
+     ],
+     [
+      "RAPD / colour",
+      "Marked RAPD; colour vision severely ↓",
+      "No RAPD (bilateral, nerve function preserved)",
+      "RAPD present",
+      "RAPD present"
+     ],
+     [
+      "Field",
+      "Central / centrocaecal scotoma",
+      "Enlarged blind spot",
+      "Altitudinal (usually inferior)",
+      "Altitudinal / severe"
+     ],
+     [
+      "Disc",
+      "Normal in retrobulbar (~2/3), swollen in papillitis",
+      "Bilateral swelling, venous engorgement, loss of spontaneous venous pulsation, haemorrhages",
+      "Sectoral hyperaemic swelling",
+      "Chalky-white pallid swelling"
+     ],
+     [
+      "Treatment",
+      "IV methylprednisolone 1 g/day × 3 days → oral taper (faster recovery; oral prednisolone alone ↑ recurrence – ONTT)",
+      "Treat cause; IIH: weight loss, acetazolamide",
+      "No proven therapy; control risk factors",
+      "Immediate high-dose steroids (save other eye)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Superior orbital fissure syndrome**: III, IV, VI, V1 (+ superior ophthalmic vein) → ophthalmoplegia, ptosis, forehead numbness; vision normal.",
+   "**Orbital apex syndrome** = SOF syndrome + optic nerve (II) → ↓ vision, RAPD.",
+   "**Cavernous sinus**: III, IV, V1, V2, VI + sympathetic plexus (Horner possible), may become bilateral; CN VI (free in the sinus) often affected first; chemosis/proptosis in thrombosis or carotid-cavernous fistula (bruit, corkscrew vessels).",
+   "**Tolosa–Hunt syndrome**: idiopathic granulomatous inflammation of cavernous sinus/SOF → painful ophthalmoplegia with dramatic response to steroids; diagnosis of exclusion (MRI, rule out tumour/infection).",
+   "RAPD causes: optic neuritis, ischaemic optic neuropathy, compressive optic neuropathy, asymmetric advanced glaucoma, CRAO, large retinal detachment; optic tract lesion → contralateral RAPD. NOT caused by cataract, refractive error or corneal opacity.",
+   "Light–near dissociation: Argyll Robertson, Adie, Parinaud dorsal midbrain syndrome, diabetes, aberrant III regeneration.",
+   "Retrobulbar neuritis: 'patient sees nothing, doctor sees nothing'; Uhthoff phenomenon (worse with heat/exercise); test MOG and AQP4 antibodies in atypical/severe cases (NMOSD).",
+   "Foster Kennedy syndrome: ipsilateral optic atrophy + contralateral papilloedema – olfactory groove/sphenoid wing meningioma; pseudo-Foster Kennedy = sequential NA-AION.",
+   "Horner: 1st-order (hypothalamus→C8–T2: Wallenberg, syrinx), 2nd-order (preganglionic: Pancoast, neck surgery), 3rd-order (postganglionic: carotid dissection, cluster headache, cavernous sinus); anhidrosis absent/limited in 3rd-order lesions beyond the carotid bifurcation."
+  ],
+  "traps": [
+   {
+    "stem": "Painful ophthalmoplegia (III, IV, VI), forehead numbness AND a RAPD with ↓ vision. Site?",
+    "trap": "Superior orbital fissure or cavernous sinus – both give painful III/IV/VI/V1 palsy.",
+    "fix": "RAPD/↓ vision means the optic nerve is involved → orbital apex syndrome (optic canal + SOF)."
+   },
+   {
+    "stem": "Pain on eye movement, marked RAPD, normal-looking disc – but full ocular motility.",
+    "trap": "Calling it orbital apex/Tolosa–Hunt because of pain and RAPD.",
+    "fix": "Preserved motility = no true ophthalmoplegia → retrobulbar optic neuritis."
+   },
+   {
+    "stem": "Diabetic with painful third nerve palsy and a dilated, unreactive pupil.",
+    "trap": "Diabetic microvascular palsy – observe.",
+    "fix": "Pupil involvement = compressive (PComm aneurysm) until proven otherwise → urgent CTA/MRA."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Pharmacological test that confirms Horner by REVERSAL of anisocoria?",
+    "back": "Apraclonidine 0.5–1%: the Horner pupil dilates (α1 denervation supersensitivity) and the lid elevates; normal pupil unchanged/slightly smaller."
+   },
+   {
+    "type": "cloze",
+    "text": "Hydroxyamphetamine dilates the Horner pupil if the lesion is {{c1::pre-ganglionic (1st/2nd order)}} and fails if it is {{c2::post-ganglionic (3rd order)}}."
+   },
+   {
+    "type": "basic",
+    "front": "Adie tonic pupil – diagnostic drop?",
+    "back": "Dilute pilocarpine 0.125%: constricts the Adie pupil (cholinergic denervation supersensitivity), not the normal pupil."
+   },
+   {
+    "type": "cloze",
+    "text": "Orbital apex syndrome = superior orbital fissure syndrome + involvement of {{c1::optic nerve (CN II)}}, producing {{c2::RAPD and visual loss}}."
+   },
+   {
+    "type": "basic",
+    "front": "Field defect typical of anterior ischaemic optic neuropathy?",
+    "back": "Altitudinal defect (usually inferior)."
+   },
+   {
+    "type": "basic",
+    "front": "Third nerve palsy: why is the pupil spared in diabetes but involved with aneurysm?",
+    "back": "Pupillomotor fibres lie superficially (dorsomedial) – compressed by aneurysm; diabetic ischaemia affects the core of the nerve."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Fundal photograph showing severe papilloedema in the right eye.jpg",
+    "caption": "Papilloedema: swollen elevated disc with blurred margins and venous engorgement – vision and pupils preserved early, bilateral (no RAPD)."
+   }
+  ],
+  "keywords": [
+   "rapd",
+   "marcus gunn pupil",
+   "swinging flashlight",
+   "argyll robertson",
+   "adie pupil",
+   "horner syndrome",
+   "apraclonidine",
+   "cocaine test",
+   "hydroxyamphetamine",
+   "optic neuritis",
+   "papilloedema",
+   "aion",
+   "giant cell arteritis",
+   "orbital apex syndrome",
+   "superior orbital fissure",
+   "cavernous sinus",
+   "tolosa-hunt",
+   "third nerve palsy",
+   "light-near dissociation",
+   "foster kennedy"
+  ],
+  "wiki": [
+   "Relative_afferent_pupillary_defect",
+   "Horner's_syndrome",
+   "Orbital_apex_syndrome"
+  ],
+  "verify": "Khurana 8e / Kanski 9e; ONTT for optic neuritis steroid regimen"
+ },
+ {
+  "id": "oph-optics-instruments",
+  "title": "Optics & instruments sheet: Volk lenses, ophthalmoscopes, Hofstetter, retinoscopy, dark adaptation",
+  "subject": "Ophthalmology",
+  "system": "Optics & refraction",
+  "yield": 3,
+  "kind": "volatile",
+  "anchor": [
+   "Slit-lamp (Volk) lens: HIGHER dioptre → LOWER magnification: 60D ≈1.15× > 78D ≈0.93× > 90D ≈0.76×",
+   "Direct ophthalmoscope ≈15×, virtual erect image, small field | Indirect ≈3× with +20D (60/20), real inverted image, wide stereoscopic field",
+   "Hofstetter (amplitude of accommodation, D; A = age in years): Minimum 15 − 0.25A | Mean 18.5 − 0.3A | Maximum 25 − 0.4A"
+  ],
+  "algorithm": "Hofstetter worked example – 7-year-old child\n  → Minimum = 15 − 0.25 × 7 = 15 − 1.75 = 13.25 D\n  → Mean (average) = 18.5 − 0.3 × 7 = 18.5 − 2.1 = 16.4 D\n  → Maximum = 25 − 0.4 × 7 = 25 − 2.8 = 22.2 D\n  → Near point (emmetrope) ≈ 100 / amplitude cm → 100/16.4 ≈ 6 cm\nRetinoscopy (plane mirror, working distance 1 m → subtract 1 D; at 66 cm subtract 1.5 D)\n  → 'With' movement: hypermetropia, emmetropia, or myopia < 1 D\n  → 'Against' movement: myopia > 1 D\n  → No movement (neutral): far point at the observer's eye (myopia of 1 D at 1 m)\n  → Final refraction = neutralising lens − working-distance correction",
+  "tables": [
+   {
+    "title": "Fundus-viewing instruments",
+    "head": [
+     "Instrument / lens",
+     "Magnification",
+     "Image",
+     "Use / field"
+    ],
+    "rows": [
+     [
+      "Volk 60D (slit lamp)",
+      "≈1.15× (highest of the three)",
+      "Real, inverted",
+      "Detailed macula & disc"
+     ],
+     [
+      "Volk 78D",
+      "≈0.93×",
+      "Real, inverted",
+      "General posterior pole examination"
+     ],
+     [
+      "Volk 90D",
+      "≈0.76× (lowest)",
+      "Real, inverted",
+      "Wide view, small pupils, screening"
+     ],
+     [
+      "Direct ophthalmoscope",
+      "≈15× (≈60/4 in emmetrope; more in myopes, less in hypermetropes/aphakes)",
+      "Virtual, erect",
+      "Small field (~2 disc diameters), no stereopsis"
+     ],
+     [
+      "Indirect ophthalmoscope (+20D)",
+      "≈3× (= 60/lens power; +28D ≈2.3×, +30D ≈2×)",
+      "Real, inverted, laterally reversed",
+      "Large field (~8 DD), stereoscopic, periphery to ora serrata with scleral indentation – RD, ROP"
+     ],
+     [
+      "Goldmann 3-mirror (contact)",
+      "Central lens + 3 mirrors",
+      "Central: posterior pole; 73° (largest) mirror: mid-periphery up to equator; 67°: equator to periphery; 59° (smallest, dome): angle (gonioscopy) and ora",
+      "Retina + gonioscopy"
+     ]
+    ]
+   },
+   {
+    "title": "Rods vs cones and adaptation",
+    "head": [
+     "Feature",
+     "Rods",
+     "Cones"
+    ],
+    "rows": [
+     [
+      "Number",
+      "≈120 million",
+      "≈6 million"
+     ],
+     [
+      "Distribution",
+      "Absent at foveola; peak ~20° from fovea",
+      "Maximum at fovea (foveola = cones only)"
+     ],
+     [
+      "Pigment",
+      "Rhodopsin (11-cis retinal + opsin), peak ≈498 nm",
+      "3 opsins: S (blue ≈420 nm), M (green ≈530 nm), L (red ≈560 nm)"
+     ],
+     [
+      "Function",
+      "Scotopic, high sensitivity, low acuity, no colour, high convergence",
+      "Photopic, high acuity, colour vision"
+     ],
+     [
+      "Dark adaptation",
+      "Slow, completes in ~30–40 min; rod–cone break (Kohlrausch kink) at ~7–10 min",
+      "Fast, plateaus in ~5–10 min"
+     ],
+     [
+      "Peak spectral sensitivity",
+      "Scotopic ≈505 nm (blue-green)",
+      "Photopic ≈555 nm (yellow-green) – shift = Purkinje shift"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Rule: lens power ∝ field of view (generally), inversely ∝ magnification – 90D trades magnification for field; 60D gives the largest image.",
+   "**Dark adaptation sequence**: pupil dilates (immediate) → cone threshold falls and plateaus (~5–10 min) → rod–cone break (~7–10 min) → rod sensitivity rises as rhodopsin regenerates (11-cis retinal + opsin; needs vitamin A) → complete at ~30–40 min. Light adaptation is much faster.",
+   "Delayed dark adaptation / night blindness: vitamin A deficiency, retinitis pigmentosa, congenital stationary night blindness, Oguchi disease (Mizuo phenomenon), gyrate atrophy.",
+   "Refractive power: total ≈ +58–60 D; cornea ≈ +43 D (≈2/3, the major refracting surface); crystalline lens ≈ +15–20 D (varies with accommodation).",
+   "Correction: myopia → concave (minus) lens; hypermetropia → convex (plus); astigmatism → cylinder; presbyopia → near add (near point recedes beyond ~25 cm, usually after 40 yr).",
+   "Aphakia: spectacle ≈ +10 to +11 D, ~25–30% image magnification, ring scotoma, 'jack-in-the-box' phenomenon; unilateral aphakic spectacles → aniseikonia/diplopia → contact lens or IOL.",
+   "Duochrome test: letters clearer on red → eye is relatively myopic (needs more minus); clearer on green → over-minused/hypermetropic.",
+   "Jackson cross-cylinder refines axis and power of astigmatic correction; with-the-rule astigmatism = vertical meridian steeper (common in young).",
+   "Anisometropia: difference >2.5–3 D is poorly tolerated with spectacles (aniseikonia) → contact lenses; leading cause of unilateral amblyopia."
+  ],
+  "traps": [
+   {
+    "stem": "Match: which Volk lens gives the HIGHEST magnification?",
+    "trap": "90D – the 'strongest' lens sounds most magnifying.",
+    "fix": "60D (≈1.15×); magnification falls as dioptric power rises (78D ≈0.93×, 90D ≈0.76×)."
+   },
+   {
+    "stem": "Average amplitude of accommodation of a 7-year-old by Hofstetter?",
+    "trap": "13.25 D – applying the minimum formula (15 − 0.25A) because it is the one most often memorised.",
+    "fix": "Average = 18.5 − 0.3A = 16.4 D; minimum 13.25 D; maximum 22.2 D – read which formula the stem asks."
+   },
+   {
+    "stem": "Retinoscopy at 1 m with a plane mirror shows 'with' movement.",
+    "trap": "Hypermetropia only.",
+    "fix": "With movement at 1 m = hypermetropia, emmetropia, or myopia <1 D; always subtract the working-distance dioptres."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Volk lens magnification: 60D ≈ {{c1::1.15×}}, 78D ≈ {{c2::0.93×}}, 90D ≈ {{c3::0.76×}}."
+   },
+   {
+    "type": "cloze",
+    "text": "Hofstetter: minimum = {{c1::15 − 0.25 × age}}, mean = {{c2::18.5 − 0.3 × age}}, maximum = {{c3::25 − 0.4 × age}} dioptres."
+   },
+   {
+    "type": "basic",
+    "front": "Direct vs indirect ophthalmoscope – magnification and image?",
+    "back": "Direct ≈15×, virtual erect, small field. Indirect ≈3× with +20D lens (60/20), real inverted, wide stereoscopic field."
+   },
+   {
+    "type": "basic",
+    "front": "What is the rod–cone break (Kohlrausch kink)?",
+    "back": "The point (~7–10 min into dark adaptation) where rod sensitivity overtakes the plateaued cone threshold."
+   },
+   {
+    "type": "basic",
+    "front": "Gonioscopy mirror of the Goldmann 3-mirror lens?",
+    "back": "The smallest, dome-shaped 59° mirror – views the angle and extreme periphery/ora."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "volk lens",
+   "60d",
+   "78d",
+   "90d",
+   "slit lamp biomicroscopy",
+   "goldmann three mirror",
+   "direct ophthalmoscope",
+   "indirect ophthalmoscope",
+   "hofstetter",
+   "amplitude of accommodation",
+   "near point",
+   "retinoscopy",
+   "dark adaptation",
+   "rod cone break",
+   "purkinje shift",
+   "rhodopsin",
+   "myopia",
+   "hypermetropia",
+   "astigmatism",
+   "aphakia"
+  ],
+  "wiki": [
+   "Accommodation_(vertebrate_eye)",
+   "Ophthalmoscopy",
+   "Adaptation_(eye)"
+  ],
+  "verify": "Volk manufacturer image magnifications (slit-lamp lenses); Hofstetter 1950 formulas; Khurana 8e optics chapter. Indirect magnification: some Indian texts quote higher values – derive as 60/lens power."
+ },
+ {
+  "id": "oph-retina",
+  "title": "Retina: diabetic & hypertensive retinopathy, CRAO/CRVO, ROP, RD, retinoblastoma",
+  "subject": "Ophthalmology",
+  "system": "Retina",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Diabetic: microaneurysms (earliest clinical sign) → dot-blot haemorrhages, hard exudates; NVD/NVE = proliferative DR; vision loss mostly from macular oedema",
+   "Sudden painless profound loss, milky white retina, cherry-red spot, box-carring of arterioles → CRAO | 'blood and thunder' fundus, tortuous veins → CRVO",
+   "Preterm <34 wk or <2000 g (India) → ROP screening; leukocoria in a child under 5 → retinoblastoma until proven otherwise"
+  ],
+  "algorithm": "Diabetic eye disease\n  → Screening: type 1 – 5 yr after diagnosis (from puberty); type 2 – at diagnosis; pregnancy – early first trimester\n  → Centre-involving DME with vision loss → intravitreal anti-VEGF first line (ranibizumab / aflibercept / bevacizumab); dexamethasone implant 2nd line\n  → Non-centre CSME → focal/grid laser (ETDRS)\n  → High-risk PDR → panretinal photocoagulation (anti-VEGF an alternative)\n  → Non-clearing vitreous haemorrhage / tractional RD threatening macula → pars plana vitrectomy\nROP (India: screen <34 wk GA or <2000 g; also 34–36 wk / 2000–2500 g with risk factors)\n  → First exam by day 20–30 of life (earlier in <28 wk / <1200 g)\n  → Type 1 ROP (treat within 48–72 h): zone I any stage with plus; zone I stage 3 without plus; zone II stage 2 or 3 with plus\n  → Laser ablation of avascular retina; anti-VEGF (esp. zone I / aggressive ROP)\n  → Type 2 ROP → close follow-up",
+  "tables": [
+   {
+    "title": "Diabetic retinopathy grading (ETDRS) – 4-2-1 rule",
+    "head": [
+     "Grade",
+     "Findings"
+    ],
+    "rows": [
+     [
+      "Mild NPDR",
+      "Microaneurysms only"
+     ],
+     [
+      "Moderate NPDR",
+      "More than mild, less than severe (haemorrhages, hard exudates, cotton-wool spots)"
+     ],
+     [
+      "Severe NPDR (4-2-1)",
+      "ANY ONE: haemorrhages/microaneurysms in all 4 quadrants, venous beading in ≥2 quadrants, IRMA in ≥1 quadrant"
+     ],
+     [
+      "Very severe NPDR",
+      "Any TWO of the 4-2-1 features"
+     ],
+     [
+      "PDR",
+      "Neovascularisation of disc (NVD) or elsewhere (NVE), vitreous/preretinal haemorrhage"
+     ],
+     [
+      "High-risk PDR (DRS)",
+      "NVD ≥1/4–1/3 disc area, or any NVD with vitreous haemorrhage, or NVE ≥1/2 disc area with vitreous haemorrhage"
+     ],
+     [
+      "CSME (ETDRS)",
+      "Retinal thickening ≤500 µm from fovea centre; hard exudates ≤500 µm with adjacent thickening; thickening ≥1 disc area within 1 DD of centre"
+     ]
+    ]
+   },
+   {
+    "title": "Retinal detachment types",
+    "head": [
+     "Feature",
+     "Rhegmatogenous",
+     "Tractional",
+     "Exudative"
+    ],
+    "rows": [
+     [
+      "Mechanism",
+      "Retinal break → vitreous fluid under retina",
+      "Fibrovascular membranes pull retina",
+      "Fluid from choroid without break"
+     ],
+     [
+      "Causes",
+      "Myopia, lattice degeneration, PVD, trauma, aphakia/pseudophakia",
+      "PDR, ROP, penetrating trauma, sickle cell",
+      "VKH, posterior scleritis, choroidal tumour, pre-eclampsia, malignant HTN"
+     ],
+     [
+      "Symptoms",
+      "Photopsia, floaters, curtain-like field loss",
+      "Often painless, slow",
+      "Variable"
+     ],
+     [
+      "Appearance",
+      "Convex, corrugated, mobile; 'tobacco dust' (Shafer sign)",
+      "Concave, immobile, taut",
+      "Smooth convex, SHIFTING fluid with posture"
+     ],
+     [
+      "Treatment",
+      "Scleral buckle / pneumatic retinopexy / vitrectomy (seal the break)",
+      "Vitrectomy with membrane peeling",
+      "Treat cause (no surgery)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Earliest histological change in DR: thickening of capillary basement membrane and **pericyte loss**; earliest clinical sign: microaneurysms; most common cause of vision loss: diabetic macular oedema.",
+   "Hypertensive retinopathy (Keith–Wagener–Barker): I – mild arteriolar narrowing; II – AV nipping (Salus/Gunn sign), focal narrowing; III – + flame haemorrhages, cotton-wool spots, hard exudates (macular star); IV – + papilloedema.",
+   "**CRAO**: emboli (carotid cholesterol = Hollenhorst plaque), GCA (check ESR/CRP); cherry-red spot = intact choroid visible through thin foveola lacking ganglion cells, against opaque ischaemic retina; cilioretinal artery (present in a minority) spares central vision; irreversible damage within ~90–100 min.",
+   "Cherry-red spot differential: CRAO, Tay–Sachs, Sandhoff, Niemann–Pick, GM1 gangliosidosis, Farber, sialidosis, commotio retinae (Berlin oedema).",
+   "**CRVO**: age, HTN, diabetes, glaucoma (raised IOP), hyperviscosity; ischaemic type (>10 disc areas of non-perfusion on FFA, RAPD) → iris neovascularisation → neovascular glaucoma ('100-day glaucoma'); macular oedema → anti-VEGF. BRVO most often superotemporal (at AV crossings).",
+   "**ROP**: zone I = circle centred on disc with radius twice disc–fovea distance; zone II to nasal ora; zone III residual temporal crescent. Stages: 1 demarcation line, 2 ridge, 3 extraretinal fibrovascular proliferation, 4 partial RD (4A extrafoveal, 4B foveal), 5 total RD. Plus disease = dilated tortuous posterior pole vessels.",
+   "**Retinoblastoma**: RB1 on 13q14 (Knudson two-hit); most common primary intraocular malignancy of childhood; leukocoria (most common sign) > strabismus; calcification on USG/CT; Flexner–Wintersteiner rosettes (Homer Wright also), fleurettes (retinocytoma); bilateral = germline → screen siblings, risk of pinealoblastoma (trilateral RB) and osteosarcoma.",
+   "Retinoblastoma spread mainly along optic nerve → enucleate with long optic nerve stump (≥10 mm); treatment: chemoreduction (vincristine–etoposide–carboplatin) + focal therapy, intra-arterial chemo, enucleation for advanced.",
+   "Leukocoria differentials: retinoblastoma, congenital cataract, Coats disease, persistent fetal vasculature (PHPV), ROP stage 5, toxocariasis, coloboma."
+  ],
+  "traps": [
+   {
+    "stem": "Fundus: haemorrhages in all four quadrants, no new vessels. Grade?",
+    "trap": "PDR because the fundus looks very 'busy'.",
+    "fix": "Severe NPDR (one 4-2-1 criterion). PDR requires neovascularisation (NVD/NVE) or pre-retinal/vitreous haemorrhage."
+   },
+   {
+    "stem": "Why is the macula red in CRAO?",
+    "trap": "Haemorrhage at the fovea.",
+    "fix": "The foveola has no ganglion cell/inner layers, so the normal choroidal circulation shows through while the surrounding ischaemic inner retina turns opaque white."
+   },
+   {
+    "stem": "Child with leukocoria and suspected bilateral retinoblastoma – imaging of choice?",
+    "trap": "CT orbit (shows calcification best – the classic textbook line).",
+    "fix": "Exam-classic: CT demonstrates calcification. | Current practice: USG (B-scan) + MRI orbit/brain; avoid CT radiation in germline RB1 (risk of second cancers)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Severe NPDR (4-2-1 rule): haemorrhages in {{c1::4}} quadrants, venous beading in {{c2::2}} quadrants, IRMA in {{c3::1}} quadrant."
+   },
+   {
+    "type": "basic",
+    "front": "First-line treatment of centre-involving diabetic macular oedema with vision loss?",
+    "back": "Intravitreal anti-VEGF (ranibizumab, aflibercept, bevacizumab). Focal laser was the classic ETDRS answer."
+   },
+   {
+    "type": "cloze",
+    "text": "ROP screening in India: all babies born at {{c1::< 34 weeks}} gestation or birth weight {{c2::< 2000 g}}."
+   },
+   {
+    "type": "basic",
+    "front": "Type 1 ROP (treat) criteria?",
+    "back": "Zone I any stage with plus; zone I stage 3 without plus; zone II stage 2 or 3 with plus."
+   },
+   {
+    "type": "basic",
+    "front": "Retinal detachment with shifting subretinal fluid and no break?",
+    "back": "Exudative RD (e.g. VKH, posterior scleritis, choroidal tumour, pre-eclampsia) – treat the cause."
+   },
+   {
+    "type": "cloze",
+    "text": "Retinoblastoma gene {{c1::RB1}} lies on chromosome {{c2::13q14}}; most common presenting sign is {{c3::leukocoria}}."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Fundus Proliferative retinopathy EDA01.JPG",
+    "caption": "Proliferative diabetic retinopathy: new vessels/fibrovascular tissue on the retinal surface – NVD/NVE define PDR."
+   },
+   {
+    "commons": "File:Cherry Red Spot Fiess.jpg",
+    "caption": "CRAO: pale oedematous retina with cherry-red spot at the fovea and attenuated arterioles."
+   },
+   {
+    "commons": "File:Rb whiteeye.PNG",
+    "caption": "Leukocoria (white pupillary reflex) in retinoblastoma – commonest presenting sign."
+   }
+  ],
+  "keywords": [
+   "diabetic retinopathy",
+   "npdr",
+   "pdr",
+   "4-2-1 rule",
+   "macular oedema",
+   "anti-vegf",
+   "panretinal photocoagulation",
+   "hypertensive retinopathy",
+   "crao",
+   "cherry red spot",
+   "crvo",
+   "neovascular glaucoma",
+   "retinopathy of prematurity",
+   "plus disease",
+   "retinal detachment",
+   "rhegmatogenous",
+   "retinoblastoma",
+   "leukocoria",
+   "hollenhorst plaque",
+   "irma"
+  ],
+  "wiki": [
+   "Diabetic_retinopathy",
+   "Retinopathy_of_prematurity",
+   "Retinoblastoma"
+  ],
+  "verify": "ETDRS/DRS; ICROP3 (2021) + ETROP for ROP; Indian ROP guidelines (RBSK/MoHFW 2017) screening <34 wk/<2000 g; Protocol T/DRCR for anti-VEGF"
+ },
+ {
+  "id": "oph-cornea-uvea-lens",
+  "title": "Keratitis, uveitis, cataract types & ectopia lentis",
+  "subject": "Ophthalmology",
+  "system": "Cornea, uvea & lens",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Vegetative trauma (farmer), dry raised ulcer with feathery margins, satellite lesions, thick immobile hypopyon → fungal keratitis → natamycin",
+   "Contact-lens wearer, pain out of proportion, ring infiltrate, radial keratoneuritis → Acanthamoeba",
+   "Branching dendritic ulcer with terminal end-bulbs, ↓ corneal sensation → HSV epithelial keratitis → antiviral, NO steroids"
+  ],
+  "tables": [
+   {
+    "title": "Infective keratitis",
+    "head": [
+     "Feature",
+     "Bacterial",
+     "Fungal",
+     "Acanthamoeba",
+     "HSV (epithelial)"
+    ],
+    "rows": [
+     [
+      "Setting",
+      "Contact lens (Pseudomonas), trauma, dry eye",
+      "Vegetable-matter trauma, steroids; Fusarium/Aspergillus in India",
+      "Contact lens + tap/pool water",
+      "Recurrence with fever, UV, stress"
+     ],
+     [
+      "Lesion",
+      "Well-defined ulcer, mucopurulent discharge, lid oedema",
+      "Dry, raised, feathery/hyphate margins, satellite lesions, immune ring, endothelial plaque",
+      "Severe pain out of proportion, ring-shaped stromal infiltrate, radial keratoneuritis, pseudodendrites early",
+      "Dendritic ulcer with terminal end-bulbs; geographic ulcer if steroids given; corneal hypoaesthesia"
+     ],
+     [
+      "Hypopyon",
+      "Sterile, mobile",
+      "Thick, immobile, may contain fungus",
+      "Possible late",
+      "Uncommon"
+     ],
+     [
+      "Diagnosis",
+      "Gram stain, culture (blood/chocolate agar)",
+      "KOH mount, culture on Sabouraud agar",
+      "Calcofluor white, non-nutrient agar with E. coli overlay, confocal microscopy (double-walled cysts)",
+      "Clinical; fluorescein stains ulcer base, rose bengal stains margins"
+     ],
+     [
+      "Treatment",
+      "Fortified cefazolin 5% + tobramycin 1.3% or fluoroquinolone",
+      "Natamycin 5% (filamentous, Fusarium – DOC); amphotericin B 0.15% for Candida; voriconazole",
+      "PHMB 0.02% or chlorhexidine 0.02% ± propamidine",
+      "Topical acyclovir 3% ointment / ganciclovir 0.15% gel; NO topical steroids"
+     ]
+    ]
+   },
+   {
+    "title": "Cataract & lens associations",
+    "head": [
+     "Finding",
+     "Association"
+    ],
+    "rows": [
+     [
+      "Snowflake cataract",
+      "Juvenile/uncontrolled diabetes"
+     ],
+     [
+      "Sunflower cataract",
+      "Wilson disease, chalcosis (copper foreign body)"
+     ],
+     [
+      "Christmas-tree (polychromatic) cataract",
+      "Myotonic dystrophy"
+     ],
+     [
+      "Rosette (stellate) cataract",
+      "Blunt trauma (concussion)"
+     ],
+     [
+      "Oil-droplet cataract",
+      "Galactosaemia"
+     ],
+     [
+      "Posterior subcapsular cataract",
+      "Steroids, diabetes, radiation, uveitis (polychromatic lustre/bread-crumb in complicated cataract)"
+     ],
+     [
+      "Glaukomflecken (anterior subcapsular flecks)",
+      "After acute angle-closure attack"
+     ],
+     [
+      "Lamellar (zonular) cataract",
+      "Most common congenital cataract; hypocalcaemia"
+     ],
+     [
+      "Ectopia lentis – up & out (superotemporal)",
+      "Marfan syndrome (FBN1)"
+     ],
+     [
+      "Ectopia lentis – down & in (inferonasal)",
+      "Homocystinuria"
+     ],
+     [
+      "Microspherophakia, anterior subluxation/pupillary block",
+      "Weill–Marchesani syndrome"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Uveitis – granulomatous vs non-granulomatous**: mutton-fat KPs, Koeppe (pupil margin) and Busacca (iris surface) nodules → sarcoidosis, TB, VKH, syphilis; fine KPs → HLA-B27 disease.",
+   "**HLA-B27 acute anterior uveitis**: ankylosing spondylitis, reactive arthritis, IBD, psoriatic arthritis; unilateral/alternating, fibrinous exudate, may have hypopyon.",
+   "Treatment of anterior uveitis: topical steroids + cycloplegic (atropine/homatropine – relieves ciliary spasm pain, prevents/breaks posterior synechiae).",
+   "JIA (ANA+ oligoarticular girls): chronic, white, painless anterior uveitis → band keratopathy, cataract, glaucoma → regular slit-lamp screening.",
+   "Fuchs heterochromic iridocyclitis: diffuse stellate KPs, iris heterochromia, NO posterior synechiae, cataract; steroids not helpful.",
+   "Behçet: recurrent shifting hypopyon in a quiet-ish eye + oral/genital ulcers; Posner–Schlossman: recurrent unilateral iritis with very high IOP.",
+   "HSV stromal (disciform/immune) keratitis is treated with topical steroids under antiviral cover – only epithelial dendritic disease forbids steroids.",
+   "Kayser–Fleischer ring: copper in peripheral Descemet membrane (Wilson); seen best on gonioscopy early; sunflower cataract = copper under anterior lens capsule.",
+   "MUTT-I: natamycin superior to voriconazole for filamentous (especially Fusarium) keratitis."
+  ],
+  "traps": [
+   {
+    "stem": "Dendritic ulcer; GP adds a steroid-antibiotic drop for redness.",
+    "trap": "Steroid to reduce inflammation – it is a red, irritated eye.",
+    "fix": "Topical steroids worsen HSV epithelial keratitis → geographic ulcer, melt, perforation. Treat with acyclovir/ganciclovir alone."
+   },
+   {
+    "stem": "Soft contact-lens wearer, severe pain, ring infiltrate, earlier labelled 'dendritic keratitis' not improving on acyclovir.",
+    "trap": "Resistant HSV – switch antiviral.",
+    "fix": "Pseudodendrites + pain out of proportion + contact lens/tap water → Acanthamoeba; confirm with calcofluor white / non-nutrient agar; treat PHMB/chlorhexidine."
+   },
+   {
+    "stem": "Tall boy with upward-displaced lens vs mentally retarded boy with downward-displaced lens.",
+    "trap": "Swapping the directions.",
+    "fix": "Marfan → superotemporal (up & out); homocystinuria → inferonasal (down & in) – 'Homocystinuria Hangs down'."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Drug of choice for filamentous fungal keratitis (Fusarium)?",
+    "back": "Natamycin 5% topical."
+   },
+   {
+    "type": "cloze",
+    "text": "Acanthamoeba keratitis: {{c1::ring-shaped}} stromal infiltrate, {{c2::radial keratoneuritis}}, treated with {{c3::PHMB / chlorhexidine}}."
+   },
+   {
+    "type": "basic",
+    "front": "Christmas-tree cataract?",
+    "back": "Myotonic dystrophy."
+   },
+   {
+    "type": "basic",
+    "front": "Sunflower cataract – causes?",
+    "back": "Copper: Wilson disease and chalcosis (intraocular copper foreign body)."
+   },
+   {
+    "type": "cloze",
+    "text": "Mutton-fat keratic precipitates indicate {{c1::granulomatous}} uveitis, e.g. {{c2::sarcoidosis / TB}}."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Dendritic corneal ulcer.jpg",
+    "caption": "HSV dendritic ulcer stained with fluorescein: branching ulcer with terminal end-bulbs – antivirals, no steroids."
+   },
+   {
+    "commons": "File:Hypopyon 1.jpg",
+    "caption": "Hypopyon: layered pus in the inferior anterior chamber (bacterial/fungal keratitis, HLA-B27 uveitis, Behçet, endophthalmitis)."
+   },
+   {
+    "commons": "File:KF ring and Sunflower cataract.jpg",
+    "caption": "Wilson disease: Kayser–Fleischer ring (copper in peripheral Descemet membrane) + sunflower cataract (copper under anterior capsule)."
+   }
+  ],
+  "keywords": [
+   "corneal ulcer",
+   "fungal keratitis",
+   "natamycin",
+   "satellite lesions",
+   "hypopyon",
+   "acanthamoeba",
+   "radial keratoneuritis",
+   "dendritic ulcer",
+   "herpes simplex keratitis",
+   "uveitis",
+   "hla-b27",
+   "keratic precipitates",
+   "mutton fat",
+   "snowflake cataract",
+   "sunflower cataract",
+   "christmas tree cataract",
+   "ectopia lentis",
+   "marfan",
+   "homocystinuria",
+   "kayser-fleischer ring"
+  ],
+  "wiki": [
+   "Keratitis",
+   "Uveitis",
+   "Ectopia_lentis"
+  ],
+  "verify": "Khurana 8e; MUTT-I (2013) for natamycin vs voriconazole"
+ },
+ {
+  "id": "oph-squint-orbit-misc",
+  "title": "EOMs & squint, blow-out fracture, thyroid eye, chemical injury, NPCBVI, trachoma",
+  "subject": "Ophthalmology",
+  "system": "Strabismus, orbit & community ophthalmology",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Diplopia on upgaze + enophthalmos + cheek numbness after a punch → orbital floor blow-out fracture (inferior rectus entrapment)",
+   "Lid retraction + lid lag + proptosis, restricted elevation, fusiform muscle bellies with tendon sparing → thyroid eye disease",
+   "Chemical splash → IRRIGATE first, before history or visual acuity",
+   "TF/TI/TS/TT/CO and SAFE → trachoma (Chlamydia trachomatis A–C)"
+  ],
+  "tables": [
+   {
+    "title": "Extraocular muscles (LR6 SO4, rest 3)",
+    "head": [
+     "Muscle",
+     "Primary",
+     "Secondary",
+     "Tertiary",
+     "Nerve"
+    ],
+    "rows": [
+     [
+      "Medial rectus",
+      "Adduction",
+      "–",
+      "–",
+      "III (inferior division)"
+     ],
+     [
+      "Lateral rectus",
+      "Abduction",
+      "–",
+      "–",
+      "VI"
+     ],
+     [
+      "Superior rectus",
+      "Elevation",
+      "Intorsion",
+      "Adduction",
+      "III (superior division)"
+     ],
+     [
+      "Inferior rectus",
+      "Depression",
+      "Extorsion",
+      "Adduction",
+      "III (inferior division)"
+     ],
+     [
+      "Superior oblique",
+      "Intorsion",
+      "Depression",
+      "Abduction",
+      "IV (trochlear)"
+     ],
+     [
+      "Inferior oblique",
+      "Extorsion",
+      "Elevation",
+      "Abduction",
+      "III (inferior division)"
+     ]
+    ]
+   },
+   {
+    "title": "Paralytic vs concomitant squint",
+    "head": [
+     "Feature",
+     "Paralytic (incomitant)",
+     "Concomitant"
+    ],
+    "rows": [
+     [
+      "Onset",
+      "Sudden, any age (often adult)",
+      "Childhood"
+     ],
+     [
+      "Diplopia",
+      "Present",
+      "Absent (suppression), amblyopia common"
+     ],
+     [
+      "Ocular movement",
+      "Limited in field of paralysed muscle",
+      "Full"
+     ],
+     [
+      "Deviation",
+      "Secondary deviation > primary; varies with gaze",
+      "Primary = secondary; same in all gazes"
+     ],
+     [
+      "Other",
+      "Head turn towards action of paralysed muscle, false projection (past-pointing)",
+      "No head posture"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Clinical testing positions: SR – abduction + elevation; IR – abduction + depression; IO – adduction + elevation; SO – adduction + depression.",
+   "Hirschberg corneal reflex: at pupil margin ≈15°, midway pupil–limbus ≈30°, at limbus ≈45° of deviation. Cover test detects manifest squint; cover–uncover/alternate cover detects latent (phoria).",
+   "Amblyopia: patch (occlude) the good eye or atropine penalisation; best results before ~7–8 years.",
+   "**Blow-out fracture**: floor (posteromedial maxillary roof, over infraorbital canal) ± medial wall (lamina papyracea); enophthalmos, diplopia on upgaze, infraorbital anaesthesia, emphysema on nose-blowing; teardrop sign; CT (coronal) investigation of choice. Child with 'white-eyed' trapdoor fracture + bradycardia/vomiting (oculocardiac reflex) → urgent release.",
+   "**Thyroid eye disease**: most common cause of unilateral and bilateral proptosis in adults; lid retraction is the commonest sign (Dalrymple), von Graefe = lid lag on downgaze; muscles: IR > MR > SR > LR; tendon-sparing fusiform enlargement; compressive optic neuropathy → IV methylprednisolone / orbital decompression; smoking and radioiodine worsen; teprotumumab (IGF-1R antibody).",
+   "**Chemical injury**: alkali worse than acid (saponification, deep penetration; acid coagulates surface proteins – except hydrofluoric acid); irrigate copiously (≥30 min / until pH neutral), double-evert lids; limbal ischaemia grades severity (Roper-Hall/Dua); late: symblepharon, limbal stem cell deficiency.",
+   "**NPCB** launched 1976 (100% centrally sponsored) → renamed NPCBVI (2017). Vision 2020: Right to Sight launched 1999 by WHO + IAPB. India blindness definition (2017, WHO-aligned): presenting VA <3/60 in better eye (earlier <6/60) or field <10°. Cataract = leading cause of blindness in India.",
+   "**Trachoma (WHO simplified grading)**: TF ≥5 follicles (≥0.5 mm) on upper tarsus; TI inflammatory thickening obscuring >half of deep tarsal vessels; TS tarsal scarring; TT ≥1 lash touching globe; CO corneal opacity over pupil. Herbert pits (pathognomonic), Arlt line, superior pannus.",
+   "**SAFE**: Surgery for TT, Antibiotics (single-dose azithromycin 20 mg/kg, max 1 g; mass treatment when TF ≥10% in 1–9-year-olds), Facial cleanliness, Environmental improvement. Elimination targets: TF <5% in 1–9 yr and TT <0.2% in ≥15 yr; WHO validated India as having eliminated trachoma as a public health problem (2024)."
+  ],
+  "traps": [
+   {
+    "stem": "Alkali splash to the eye in the emergency room – first step?",
+    "trap": "Record visual acuity first (medicolegal) or check pH.",
+    "fix": "Immediate copious irrigation takes priority over everything (VA after irrigation)."
+   },
+   {
+    "stem": "Child after blunt orbital trauma: minimal external signs, restricted upgaze, bradycardia and vomiting.",
+    "trap": "Head injury/observe because the eye looks white.",
+    "fix": "White-eyed (trapdoor) blow-out fracture with entrapped inferior rectus → oculocardiac reflex → urgent surgical release."
+   },
+   {
+    "stem": "Which muscle is being tested when the ADDUCTED eye looks down?",
+    "trap": "Inferior rectus (depressor).",
+    "fix": "Superior oblique – in adduction the SO is the main depressor; IR is tested in abduction."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Superior oblique: primary action {{c1::intorsion}}, secondary {{c2::depression}}, tertiary {{c3::abduction}}; nerve {{c4::trochlear (IV)}}."
+   },
+   {
+    "type": "basic",
+    "front": "Earliest/commonest sign of thyroid eye disease?",
+    "back": "Upper lid retraction (Dalrymple sign)."
+   },
+   {
+    "type": "basic",
+    "front": "Order of muscle involvement in thyroid eye disease?",
+    "back": "Inferior rectus > medial rectus > superior rectus > lateral rectus ('I'M SLow'); tendons spared."
+   },
+   {
+    "type": "cloze",
+    "text": "Trachoma TF = ≥{{c1::5}} follicles ≥0.5 mm on the upper tarsal conjunctiva; mass azithromycin is given when TF ≥{{c2::10%}} in children aged 1–9."
+   },
+   {
+    "type": "basic",
+    "front": "Pathognomonic sign of trachoma?",
+    "back": "Herbert's pits – cicatrised limbal follicles."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "extraocular muscles",
+   "superior oblique",
+   "squint",
+   "strabismus",
+   "paralytic squint",
+   "concomitant squint",
+   "hirschberg",
+   "amblyopia",
+   "blow-out fracture",
+   "orbital floor",
+   "thyroid eye disease",
+   "dalrymple sign",
+   "chemical injury",
+   "alkali burn",
+   "npcbvi",
+   "vision 2020",
+   "trachoma",
+   "safe strategy",
+   "herbert pits",
+   "azithromycin"
+  ],
+  "wiki": [
+   "Strabismus",
+   "Orbital_blowout_fracture",
+   "Trachoma"
+  ],
+  "verify": "Khurana 8e; WHO simplified trachoma grading (2020 revision); NPCBVI operational guidelines 2017"
+ },
+ {
+  "id": "ent-audiology",
+  "title": "Audiology: tuning forks, PTA, tympanometry, BERA/OAE, otosclerosis, Ménière, acoustic neuroma",
+  "subject": "ENT",
+  "system": "Ear – hearing",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Young woman, bilateral progressive conductive deafness, normal TM, hears better in noise (paracusis Willisii), worse in pregnancy → otosclerosis; As tympanogram, absent stapedial reflex, Carhart notch at 2 kHz",
+   "Episodic vertigo (20 min–12 h) + fluctuating low-frequency SNHL + tinnitus + aural fullness → Ménière's disease",
+   "Unilateral progressive SNHL with speech discrimination worse than pure-tone loss, ↓ corneal reflex → vestibular schwannoma → gadolinium MRI"
+  ],
+  "algorithm": "Newborn hearing screening (1-3-6: screen by 1 month, diagnose by 3, intervene by 6)\n  → Well baby: OAE (otoacoustic emissions) → refer → automated ABR → diagnostic BERA\n  → NICU baby / risk factors: automated ABR directly (OAE misses auditory neuropathy)\nTuning fork (512 Hz)\n  → Rinne negative (BC > AC) + Weber to SAME ear → conductive loss in that ear\n  → Rinne positive + Weber to OPPOSITE ear → SNHL in the tested ear\n  → Rinne negative + Weber to OPPOSITE ear → severe/dead ear: FALSE-NEGATIVE Rinne (cross-hearing by the other cochlea) → confirm with masking (Bárány noise box)",
+  "tables": [
+   {
+    "title": "Tuning fork tests",
+    "head": [
+     "Test",
+     "Normal",
+     "Conductive loss",
+     "Sensorineural loss"
+    ],
+    "rows": [
+     [
+      "Rinne",
+      "Positive (AC > BC)",
+      "Negative (BC > AC)",
+      "Positive (both reduced)"
+     ],
+     [
+      "Weber",
+      "Central",
+      "Lateralised to diseased/worse ear",
+      "Lateralised to better ear"
+     ],
+     [
+      "ABC (absolute bone conduction)",
+      "Same as examiner",
+      "Same as examiner",
+      "Reduced"
+     ],
+     [
+      "Schwabach",
+      "Equal to examiner",
+      "Prolonged",
+      "Shortened"
+     ],
+     [
+      "Gellé",
+      "Positive (BC ↓ on pressurising canal)",
+      "Negative in otosclerosis (fixed stapes)",
+      "Positive"
+     ]
+    ]
+   },
+   {
+    "title": "Tympanometry (Jerger types)",
+    "head": [
+     "Type",
+     "Shape",
+     "Conditions"
+    ],
+    "rows": [
+     [
+      "A",
+      "Normal peak at ~0 daPa",
+      "Normal middle ear; SNHL"
+     ],
+     [
+      "As",
+      "Shallow (low compliance), normal pressure",
+      "Otosclerosis, tympanosclerosis"
+     ],
+     [
+      "Ad",
+      "Very deep (high compliance)",
+      "Ossicular discontinuity, thin/flaccid healed TM"
+     ],
+     [
+      "B",
+      "Flat",
+      "Secretory otitis media (normal canal volume); perforation or patent grommet (large volume); wax (small volume)"
+     ],
+     [
+      "C",
+      "Peak at large negative pressure",
+      "Eustachian tube dysfunction, early/resolving OME"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Carhart notch**: dip in BONE conduction maximal at 2000 Hz in otosclerosis (mechanical artefact – disappears after stapedotomy). **4 kHz notch (boilermaker's)**: noise-induced hearing loss. Presbycusis: bilateral high-frequency sloping SNHL.",
+   "Rinne with 512 Hz becomes negative only when the air–bone gap is ≥15–20 dB or more, so a 'positive' Rinne does not exclude a mild conductive loss.",
+   "Stapedial reflex arc: CN VIII afferent → superior olivary complex → CN VII efferent (stapedius). Absent in otosclerosis; reflex decay suggests retrocochlear lesion; recruitment (cochlear lesions) e.g. Ménière.",
+   "BERA waves (E-COLI): I – distal VIII nerve, II – proximal VIII/cochlear nucleus, III – superior olivary complex, IV – lateral lemniscus, V – inferior colliculus. Acoustic neuroma → prolonged I–V interpeak latency / delayed wave V.",
+   "OAE arise from OUTER hair cells; absent when hearing loss >~30–40 dB; present in auditory neuropathy (where ABR is abnormal).",
+   "**Otosclerosis**: autosomal dominant with variable penetrance, female, bilateral, worse in pregnancy; fissula ante fenestram (anterior to oval window) is the commonest site; **Schwartze sign** = flamingo-pink blush on promontory (active otospongiosis); treatment stapedotomy/stapedectomy with prosthesis, hearing aid; sodium fluoride for active/cochlear disease.",
+   "**Ménière's**: endolymphatic hydrops; glycerol test, ECochG (raised SP/AP ratio); treatment – salt restriction, betahistine, vestibular sedatives in acute attack, intratympanic gentamicin/steroid, endolymphatic sac surgery, vestibular neurectomy (hearing-preserving), labyrinthectomy (dead ear). Tumarkin otolithic crisis = sudden drop attacks.",
+   "**Vestibular schwannoma**: most common cerebellopontine angle tumour; Hitselberger sign (↓ sensation posterior meatal wall, CN VII sensory); earliest cranial nerve sign beyond VIII is ↓ corneal reflex (V); bilateral = NF2; gadolinium-enhanced MRI is the investigation of choice.",
+   "Maximum conductive loss with intact TM and ossicular discontinuity ≈ 60 dB."
+  ],
+  "traps": [
+   {
+    "stem": "Rinne negative on the right, Weber lateralised to the LEFT.",
+    "trap": "Right conductive deafness because Rinne is negative.",
+    "fix": "Weber away from the Rinne-negative ear = right dead/severe SNHL; the 'negative' Rinne is false (sound crossed to left cochlea). Confirm with masking."
+   },
+   {
+    "stem": "Audiogram with a notch at 2 kHz on bone conduction vs a notch at 4 kHz on air and bone.",
+    "trap": "Calling both noise-induced.",
+    "fix": "BC dip at 2 kHz = Carhart notch (otosclerosis); 4 kHz dip = noise-induced hearing loss."
+   },
+   {
+    "stem": "Child with flat (type B) tympanogram – is it glue ear?",
+    "trap": "Type B always means fluid.",
+    "fix": "Check canal volume: normal volume → OME; large volume → perforation/patent grommet; small volume → wax/probe against canal wall."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Weber test in right conductive deafness?",
+    "back": "Lateralised to the right (diseased) ear."
+   },
+   {
+    "type": "cloze",
+    "text": "Carhart notch is a dip in {{c1::bone conduction}} at {{c2::2000 Hz}} in otosclerosis."
+   },
+   {
+    "type": "basic",
+    "front": "Tympanogram type in otosclerosis vs ossicular discontinuity?",
+    "back": "Otosclerosis – As (stiff, shallow); discontinuity – Ad (deep, hypercompliant)."
+   },
+   {
+    "type": "basic",
+    "front": "Wave V of BERA is generated at?",
+    "back": "Inferior colliculus (lateral lemniscus termination) – most robust wave, used for threshold estimation."
+   },
+   {
+    "type": "cloze",
+    "text": "Schwartze sign is a {{c1::flamingo-pink (reddish) blush on the promontory}} seen in {{c2::active otosclerosis (otospongiosis)}}."
+   },
+   {
+    "type": "basic",
+    "front": "Newborn screening test that detects outer hair cell function but misses auditory neuropathy?",
+    "back": "Otoacoustic emissions (OAE) – NICU babies get automated ABR."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "rinne test",
+   "weber test",
+   "absolute bone conduction",
+   "tuning fork",
+   "pure tone audiometry",
+   "carhart notch",
+   "noise induced hearing loss",
+   "tympanometry",
+   "stapedial reflex",
+   "bera",
+   "otoacoustic emissions",
+   "newborn hearing screening",
+   "otosclerosis",
+   "schwartze sign",
+   "paracusis willisii",
+   "menieres disease",
+   "acoustic neuroma",
+   "vestibular schwannoma",
+   "hitselberger sign",
+   "presbycusis"
+  ],
+  "wiki": [
+   "Rinne_test",
+   "Otosclerosis",
+   "Ménière's_disease"
+  ],
+  "verify": "Dhingra 8e / Scott-Brown 8e; JCIH 1-3-6 screening goals; AAO-HNS 2020 Ménière criteria"
+ },
+ {
+  "id": "ent-ear-csom",
+  "title": "CSOM, cholesteatoma & complications; facial nerve and Bell's palsy",
+  "subject": "ENT",
+  "system": "Ear – middle ear & facial nerve",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Scanty, foul-smelling discharge + attic/posterosuperior marginal perforation + white flakes → squamosal (unsafe) CSOM with cholesteatoma → mastoidectomy",
+   "Ear discharge + retro-orbital pain + diplopia (lateral rectus palsy) → Gradenigo syndrome (petrous apicitis)",
+   "Picket-fence fever + oedema over mastoid emissary vein (Griesinger sign) → lateral (sigmoid) sinus thrombosis"
+  ],
+  "tables": [
+   {
+    "title": "Mucosal (tubotympanic) vs squamosal (atticoantral) CSOM",
+    "head": [
+     "Feature",
+     "Mucosal – 'safe'",
+     "Squamosal – 'unsafe'"
+    ],
+    "rows": [
+     [
+      "Perforation",
+      "Central, pars tensa (rim of TM all around)",
+      "Attic (pars flaccida) or posterosuperior marginal"
+     ],
+     [
+      "Discharge",
+      "Profuse, mucoid/mucopurulent, odourless",
+      "Scanty, purulent, foul-smelling (bone necrosis/anaerobes)"
+     ],
+     [
+      "Cholesteatoma",
+      "Absent",
+      "Present"
+     ],
+     [
+      "Granulations / polyp",
+      "Pale, pink polyp",
+      "Red, fleshy granulations"
+     ],
+     [
+      "Hearing",
+      "Mild–moderate conductive",
+      "Variable (cholesteatoma may bridge ossicular gap)"
+     ],
+     [
+      "Complications",
+      "Rare",
+      "Common (bone erosion)"
+     ],
+     [
+      "Treatment",
+      "Aural toilet, topical antibiotic → tympanoplasty when dry",
+      "Surgery mandatory: canal-wall-down (modified radical) or canal-wall-up mastoidectomy"
+     ]
+    ]
+   },
+   {
+    "title": "Facial nerve: segments and topodiagnosis",
+    "head": [
+     "Segment",
+     "Feature / branch",
+     "Clinical test"
+    ],
+    "rows": [
+     [
+      "Meatal (IAM)",
+      "With VIII",
+      "–"
+     ],
+     [
+      "Labyrinthine",
+      "Shortest and NARROWEST part of the canal → most vulnerable to oedema (Bell's)",
+      "–"
+     ],
+     [
+      "Geniculate ganglion",
+      "Greater superficial petrosal nerve (lacrimation)",
+      "Schirmer test"
+     ],
+     [
+      "Tympanic (horizontal)",
+      "Above oval window; commonest site of bony dehiscence",
+      "–"
+     ],
+     [
+      "Mastoid (vertical)",
+      "Nerve to stapedius, chorda tympani (taste anterior 2/3, submandibular/sublingual secretion)",
+      "Stapedial reflex; electrogustometry, submandibular flow"
+     ],
+     [
+      "Extratemporal",
+      "Exits stylomastoid foramen → pes anserinus in parotid: temporal, zygomatic, buccal, marginal mandibular, cervical",
+      "–"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Cholesteatoma** = keratinising stratified squamous epithelium in middle ear/mastoid with keratin debris ('skin in the wrong place'); erodes bone via osteoclasts/collagenase; primary acquired (retraction pocket theory) is commonest; commonest site attic/Prussak's space; congenital = white mass behind intact TM (anterosuperior).",
+   "Most commonly eroded ossicle: long process of incus; commonest labyrinthine fistula: lateral semicircular canal → positive fistula test.",
+   "Imaging: HRCT temporal bone shows bone erosion (scutum, ossicles, tegmen); **non-EPI DWI MRI** shows cholesteatoma as restricted diffusion – used for residual/recurrent disease (avoids second-look surgery).",
+   "Intratemporal complications: mastoiditis (Bezold abscess – under sternocleidomastoid; Citelli – digastric triangle; Luc – under temporalis/meatus without mastoid tenderness), petrositis (Gradenigo: otorrhoea + retro-orbital pain V + VI palsy), labyrinthitis, facial palsy.",
+   "Intracranial: meningitis (commonest), extradural abscess, subdural, brain abscess (temporal lobe > cerebellum; otogenic is a leading cause), lateral sinus thrombosis (Griesinger sign, Tobey–Ayer test, empty-delta sign on contrast CT/MR venography), otitic hydrocephalus.",
+   "**Bell's palsy**: idiopathic LMN palsy (HSV-1 implicated), onset <72 h, forehead involved; oral prednisolone within 72 h (e.g. 1 mg/kg/day, usually 60 mg/day × 5 days then taper, or 50 mg × 10 days); antivirals add little alone; eye protection; ~70–85% recover fully.",
+   "Prognostic test: ENoG between day 3 and 14 – >90% degeneration → consider decompression (Fisch). Sequelae: synkinesis, crocodile tears (gustatory lacrimation from aberrant regeneration).",
+   "**Ramsay Hunt** (VZV geniculate ganglion): vesicles in concha/EAC, severe pain, ± SNHL/vertigo; worse prognosis; acyclovir/valacyclovir + steroids.",
+   "Temporal bone fracture: longitudinal (commoner, ~80%) → conductive loss, CSF otorrhoea, facial palsy less common (~20%); transverse → SNHL/vertigo, facial palsy ~50%. Immediate complete post-traumatic palsy → explore/decompress; delayed onset → conservative."
+  ],
+  "traps": [
+   {
+    "stem": "CSOM with foul scanty discharge and attic perforation; patient wants 'drops only'.",
+    "trap": "Conservative topical antibiotics as in mucosal CSOM.",
+    "fix": "Squamosal disease (cholesteatoma) is surgical – mastoidectomy; medical treatment only prepares the ear."
+   },
+   {
+    "stem": "Gradenigo triad – components?",
+    "trap": "Including facial nerve palsy (VII) because it's an ear complication.",
+    "fix": "Persistent ear discharge + deep retro-orbital/temporal pain (V) + diplopia from VI (lateral rectus) palsy – petrous apex in Dorello's canal region."
+   },
+   {
+    "stem": "Fracture with immediate complete facial palsy vs delayed partial palsy.",
+    "trap": "Steroids and wait in both.",
+    "fix": "Immediate complete palsy → early surgical exploration/decompression; delayed or incomplete → conservative (steroids), good prognosis."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Narrowest segment of the facial canal?",
+    "back": "Labyrinthine segment – site of entrapment in Bell's palsy."
+   },
+   {
+    "type": "cloze",
+    "text": "Griesinger sign is {{c1::oedema over the mastoid emissary vein}} seen in {{c2::lateral sinus thrombosis}}."
+   },
+   {
+    "type": "basic",
+    "front": "Imaging to detect residual/recurrent cholesteatoma after surgery?",
+    "back": "Non-echo-planar diffusion-weighted MRI (restricted diffusion)."
+   },
+   {
+    "type": "cloze",
+    "text": "Bezold abscess lies deep to the {{c1::sternocleidomastoid}}; Citelli abscess in the {{c2::digastric triangle}}."
+   },
+   {
+    "type": "basic",
+    "front": "Schirmer test in facial palsy localises a lesion to?",
+    "back": "At or proximal to the geniculate ganglion (greater superficial petrosal nerve)."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Attic Cholesteatoma.jpg",
+    "caption": "Granulation tissue at the pars flaccida (attic) – marker of underlying attic cholesteatoma (unsafe CSOM)."
+   }
+  ],
+  "keywords": [
+   "csom",
+   "chronic suppurative otitis media",
+   "cholesteatoma",
+   "attic perforation",
+   "mastoidectomy",
+   "atticoantral",
+   "tubotympanic",
+   "gradenigo syndrome",
+   "lateral sinus thrombosis",
+   "griesinger sign",
+   "bezold abscess",
+   "brain abscess",
+   "mastoiditis",
+   "facial nerve",
+   "bell's palsy",
+   "ramsay hunt",
+   "schirmer test",
+   "chorda tympani",
+   "temporal bone fracture",
+   "fistula test"
+  ],
+  "wiki": [
+   "Cholesteatoma",
+   "Chronic_suppurative_otitis_media",
+   "Bell's_palsy"
+  ],
+  "verify": "Dhingra 8e; AAO-HNS 2013 Bell's palsy guideline (steroids within 72 h)"
+ },
+ {
+  "id": "ent-larynx-neck",
+  "title": "Larynx, epistaxis, nasopharynx & deep neck spaces",
+  "subject": "ENT",
+  "system": "Larynx, nose & neck",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Teacher/singer, hoarseness, bilateral symmetrical nodules at junction of anterior 1/3 and posterior 2/3 of cords → vocal nodules → voice therapy",
+   "Adolescent male, profuse recurrent epistaxis + nasal obstruction, mass near sphenopalatine foramen, anterior bowing of posterior maxillary wall (Holman–Miller) → juvenile nasopharyngeal angiofibroma; NO biopsy",
+   "Neck node + unilateral serous otitis media in an adult (esp. NE India/Chinese) → nasopharyngeal carcinoma (EBV, fossa of Rosenmüller)",
+   "Infant with inspiratory stridor worse supine/feeding, omega-shaped epiglottis → laryngomalacia"
+  ],
+  "algorithm": "Anterior epistaxis (Little's area – most common)\n  → Sit up, lean forward, pinch soft part of nose 10–20 min (Trotter's method) + ABC/resuscitate\n  → Topical vasoconstrictor + LA → chemical (silver nitrate) or electro-cautery (one side of septum at a time)\n  → Anterior nasal packing (BIPP/ribbon gauze, Merocel)\n  → Posterior bleed: posterior pack / Foley balloon\n  → Refractory: endoscopic sphenopalatine artery ligation (posterior); anterior ethmoidal artery ligation (bleeds from above middle turbinate); ECA ligation / embolisation (not for ethmoidal – ICA territory)\nLudwig's angina\n  → Secure airway FIRST (awake fibre-optic intubation or tracheostomy under LA)\n  → High-dose IV antibiotics (aerobic + anaerobic) ± surgical decompression",
+  "tables": [
+   {
+    "title": "Benign vocal cord lesions",
+    "head": [
+     "Feature",
+     "Vocal nodule",
+     "Vocal polyp",
+     "Recurrent respiratory papilloma"
+    ],
+    "rows": [
+     [
+      "Site",
+      "Junction of anterior 1/3 and posterior 2/3 of free edge; bilateral, symmetrical",
+      "Same site; usually unilateral, sessile/pedunculated",
+      "Anywhere in airway; glottis commonest; multiple"
+     ],
+     [
+      "Cause / patient",
+      "Vocal abuse – singers, teachers, children (screamer's nodes), women",
+      "Vocal abuse, smoking; adult men",
+      "HPV 6 and 11; juvenile form from maternal genital warts at vaginal birth"
+     ],
+     [
+      "Treatment",
+      "Voice therapy first; microlaryngeal excision if organised",
+      "Microlaryngoscopic excision",
+      "Repeated CO₂ laser/microdebrider excision; avoid tracheostomy (seeding); adjuvant cidofovir/bevacizumab; HPV vaccination"
+     ]
+    ]
+   },
+   {
+    "title": "Deep neck space infections",
+    "head": [
+     "Space",
+     "Source / patient",
+     "Key features",
+     "Drainage"
+    ],
+    "rows": [
+     [
+      "Ludwig's angina (submandibular + sublingual, bilateral)",
+      "Lower 2nd/3rd molar infection (roots below mylohyoid line)",
+      "Woody/brawny floor of mouth, tongue pushed up and back, no fluctuation, airway threat",
+      "Airway first; IV antibiotics; external decompression"
+     ],
+     [
+      "Acute retropharyngeal abscess",
+      "Child <3–5 yr – suppuration of retropharyngeal (Rouvière) nodes after URTI",
+      "Unilateral bulge (fascial raphe), drooling, neck stiffness, widened prevertebral soft tissue on lateral X-ray",
+      "Intra-oral incision (Rose position)"
+     ],
+     [
+      "Chronic retropharyngeal abscess",
+      "Adult – tuberculosis of cervical spine (cold abscess)",
+      "Midline bulge, behind prevertebral fascia",
+      "External approach (avoid intra-oral – fistula); ATT"
+     ],
+     [
+      "Parapharyngeal abscess",
+      "Tonsil, pharynx, teeth, parotid",
+      "Trismus (medial pterygoid), tonsil pushed medially, swelling behind angle of jaw; carotid erosion/IJV thrombosis risk",
+      "External (neck) incision"
+     ],
+     [
+      "Peritonsillar abscess (quinsy)",
+      "Adolescents/adults, after tonsillitis",
+      "Trismus, 'hot potato' voice, uvula pushed to opposite side, bulge above tonsil",
+      "Needle aspiration / incision at point of maximum bulge; tonsillectomy later"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Little's area / Kiesselbach plexus** (anteroinferior septum): anterior ethmoidal, sphenopalatine (septal branch), greater palatine, superior labial (septal branch of facial) arteries – 'LEGS'. Woodruff plexus (posterior lateral wall, below posterior end of inferior turbinate) – posterior bleeds in elderly hypertensives.",
+   "**Laryngeal carcinoma**: SCC; glottic most common overall and best prognosis (early hoarseness, true cords have sparse lymphatics → late node spread); supraglottic – rich lymphatics, early bilateral level II–III nodes, dysphagia; subglottic – rarest, stridor, prelaryngeal (Delphian), pretracheal/paratracheal nodes. Early glottic → RT or transoral laser; advanced → chemoradiation (organ preservation) or total laryngectomy.",
+   "**Laryngomalacia**: commonest cause of congenital stridor; omega-shaped epiglottis, short aryepiglottic folds; inspiratory stridor worse supine/crying/feeding, better prone; self-limiting by ~18–24 months; severe (failure to thrive, apnoea) → supraglottoplasty. Second commonest: vocal cord palsy.",
+   "Stridor level: inspiratory → supraglottic/glottic (extrathoracic); biphasic → glottic/subglottic; expiratory → intrathoracic trachea/bronchi.",
+   "Tracheostomy: through 2nd–4th tracheal rings (avoid 1st ring/cricoid → subglottic stenosis); Bjork (inferiorly based) flap in adults; vertical slit, no cartilage excision in children; emergency surgical airway = cricothyroidotomy through cricothyroid membrane, converted to tracheostomy within ~24–72 h. Late massive bleed → tracheo-innominate fistula.",
+   "**JNA**: almost exclusively adolescent males (testosterone-dependent), arises posterolateral nasal wall at sphenopalatine foramen, supplied by internal maxillary artery; Holman–Miller (antral) sign on CT/lateral X-ray; CECT/MRI ± angiography – biopsy contraindicated; pre-operative embolisation then endoscopic excision.",
+   "**Nasopharyngeal carcinoma**: EBV (IgA anti-VCA/EA), salted fish nitrosamines, Southern Chinese & NE India; bimodal with a peak in adolescence; arises in fossa of Rosenmüller; commonest presentation = neck node (upper jugular/posterior triangle); unilateral SOM in an adult; CN VI commonest cranial nerve palsy; Trotter triad (conductive deafness, immobile ipsilateral soft palate, neuralgic pain in V3 distribution); WHO type III undifferentiated commonest and radiosensitive → RT ± concurrent cisplatin (surgery not primary).",
+   "Unilateral foul blood-stained nasal discharge in a child → foreign body; in adult → malignancy until proven otherwise."
+  ],
+  "traps": [
+   {
+    "stem": "Adolescent boy with recurrent profuse epistaxis and a nasopharyngeal mass – next step?",
+    "trap": "Biopsy the mass to get histology.",
+    "fix": "Suspected JNA → biopsy is contraindicated (torrential bleed); CECT/MRI, embolisation, then excision."
+   },
+   {
+    "stem": "Adult with new unilateral serous otitis media and no URTI.",
+    "trap": "Grommet insertion / decongestants only.",
+    "fix": "Examine the nasopharynx (endoscopy ± biopsy) to exclude nasopharyngeal carcinoma blocking the Eustachian tube."
+   },
+   {
+    "stem": "Ludwig's angina, stridor, woody floor of mouth – the first step?",
+    "trap": "Incision and drainage or rapid-sequence intubation with paralysis.",
+    "fix": "Secure the airway without abolishing spontaneous breathing (awake fibre-optic intubation or tracheostomy under LA), then IV antibiotics ± decompression."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Vocal nodules occur at the junction of the {{c1::anterior one-third and posterior two-thirds}} of the vocal cords; first-line treatment is {{c2::voice therapy}}."
+   },
+   {
+    "type": "basic",
+    "front": "HPV types causing recurrent respiratory papillomatosis?",
+    "back": "HPV 6 and 11."
+   },
+   {
+    "type": "basic",
+    "front": "Holman–Miller sign?",
+    "back": "Anterior bowing of the posterior wall of the maxillary antrum – juvenile nasopharyngeal angiofibroma."
+   },
+   {
+    "type": "cloze",
+    "text": "Commonest cause of congenital stridor is {{c1::laryngomalacia}}; endoscopy shows an {{c2::omega-shaped}} epiglottis."
+   },
+   {
+    "type": "basic",
+    "front": "Arteries forming Kiesselbach plexus?",
+    "back": "Anterior ethmoidal, sphenopalatine (septal), greater palatine, superior labial (septal branch) – 'LEGS'."
+   },
+   {
+    "type": "basic",
+    "front": "Commonest site of origin of nasopharyngeal carcinoma?",
+    "back": "Fossa of Rosenmüller (lateral pharyngeal recess)."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Laryngomalacia.jpg",
+    "caption": "Omega-shaped (curled) epiglottis of laryngomalacia – commonest cause of congenital stridor."
+   },
+   {
+    "commons": "File:Ludwig angina.jpg",
+    "caption": "Ludwig's angina: diffuse brawny bilateral submandibular swelling – secure the airway first."
+   }
+  ],
+  "keywords": [
+   "vocal nodule",
+   "vocal polyp",
+   "laryngeal papilloma",
+   "hpv 6 11",
+   "laryngeal carcinoma",
+   "glottic cancer",
+   "laryngomalacia",
+   "omega shaped epiglottis",
+   "stridor",
+   "tracheostomy",
+   "cricothyroidotomy",
+   "ludwig's angina",
+   "retropharyngeal abscess",
+   "parapharyngeal abscess",
+   "quinsy",
+   "epistaxis",
+   "little's area",
+   "kiesselbach plexus",
+   "juvenile nasopharyngeal angiofibroma",
+   "holman-miller sign",
+   "nasopharyngeal carcinoma",
+   "ebv"
+  ],
+  "wiki": [
+   "Juvenile_nasopharyngeal_angiofibroma",
+   "Laryngomalacia",
+   "Ludwig's_angina"
+  ],
+  "verify": "Dhingra 8e / Scott-Brown 8e"
+ },
+ {
+  "id": "ana-agents",
+  "title": "Anaesthetic agents: inhalational (MAC, blood:gas), IV induction agents, opioids",
+  "subject": "Anesthesia",
+  "system": "Pharmacology of anaesthesia",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "LOW blood:gas coefficient → fast induction & recovery (desflurane lowest volatile; xenon lowest overall); LOW MAC → high potency",
+   "Child/difficult airway gas induction → sevoflurane (sweet, non-pungent); desflurane irritates airway → never for induction",
+   "Shock/hypovolaemia → ketamine (sympathomimetic) or etomidate (CVS stable); porphyria → avoid thiopentone"
+  ],
+  "tables": [
+   {
+    "title": "Inhalational agents",
+    "head": [
+     "Agent",
+     "MAC (%)",
+     "Blood:gas",
+     "Key features"
+    ],
+    "rows": [
+     [
+      "Nitrous oxide",
+      "104",
+      "0.47",
+      "Good analgesic, weak anaesthetic; second-gas effect; diffusion hypoxia at end (give 100% O₂); expands closed air spaces (pneumothorax, bowel obstruction, middle ear, pneumocephalus, air embolism, intraocular SF6/C3F8 gas); inactivates vitamin B12 (methionine synthase) → megaloblastic anaemia, SACD"
+     ],
+     [
+      "Halothane",
+      "0.75",
+      "2.4",
+      "Sensitises myocardium to catecholamines (arrhythmias), halothane hepatitis (repeated exposure), potent bronchodilator, uterine relaxation"
+     ],
+     [
+      "Isoflurane",
+      "1.15",
+      "1.4",
+      "Pungent; coronary vasodilator ('coronary steal' theory); cheap maintenance agent"
+     ],
+     [
+      "Sevoflurane",
+      "2.0",
+      "0.65",
+      "Non-pungent → agent of choice for inhalational induction; Compound A with CO₂ absorbent (soda lime/baralyme) at low flows (nephrotoxic in rats); emergence delirium in children"
+     ],
+     [
+      "Desflurane",
+      "6.0",
+      "0.42",
+      "Lowest blood:gas of volatiles → fastest emergence; very pungent (cough, laryngospasm); sympathetic surge on rapid ↑; boils near room temp (23 °C) → heated, pressurised Tec 6 vaporiser; most CO with desiccated absorbent"
+     ],
+     [
+      "Xenon",
+      "~71",
+      "0.115",
+      "Lowest blood:gas; near-ideal, CVS-stable, very expensive"
+     ]
+    ]
+   },
+   {
+    "title": "IV induction agents",
+    "head": [
+     "Agent",
+     "Induction dose",
+     "Advantages",
+     "Drawbacks / avoid in"
+    ],
+    "rows": [
+     [
+      "Thiopentone",
+      "3–5 mg/kg",
+      "Rapid; anticonvulsant, ↓ ICP and CMRO₂; recovery by redistribution",
+      "Acute intermittent porphyria (absolute CI); intra-arterial injection → gangrene; hypotension; alkaline (pH ~10.5)"
+     ],
+     [
+      "Propofol",
+      "1.5–2.5 mg/kg",
+      "Smooth fast clear-headed recovery, antiemetic, suppresses airway reflexes (LMA insertion), TIVA, day care",
+      "Pain on injection, most hypotension; propofol infusion syndrome (prolonged high-dose: acidosis, rhabdomyolysis, hyperkalaemia, cardiac failure)"
+     ],
+     [
+      "Ketamine",
+      "1–2 mg/kg IV (IM also possible)",
+      "Dissociative anaesthesia + strong analgesia; ↑ HR/BP (shock), bronchodilator (asthma), airway reflexes and breathing largely preserved; NMDA antagonist",
+      "Emergence hallucinations (reduce with benzodiazepine); ↑ secretions; ↑ IOP; classic CI: IHD, uncontrolled HTN, raised ICP, psychosis"
+     ],
+     [
+      "Etomidate",
+      "0.2–0.3 mg/kg",
+      "Best cardiovascular stability (cardiac disease, unstable patient)",
+      "Adrenocortical suppression (11β-hydroxylase inhibition), myoclonus, highest PONV, pain on injection"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**MAC** = alveolar concentration preventing movement in 50% of patients to surgical incision; inversely proportional to potency (Meyer–Overton: potency ∝ lipid solubility). Methoxyflurane – most potent (MAC 0.16), nephrotoxic (fluoride).",
+   "MAC ↓: increasing age (~6% per decade), pregnancy, hypothermia, opioids, benzodiazepines, α2 agonists, acute alcohol intoxication, hyponatraemia. MAC ↑: infants (peak ~6 months), hyperthermia, chronic alcoholism, hypernatraemia, red hair. Unchanged: sex, duration of anaesthesia, thyroid status, K⁺.",
+   "Blood:gas coefficient = speed (solubility in blood); oil:gas = potency.",
+   "All volatile agents + succinylcholine trigger malignant hyperthermia; N₂O, propofol, ketamine, opioids, NDMRs are safe.",
+   "**Opioids**: morphine – histamine release, active metabolite M6G accumulates in renal failure; fentanyl ~100× morphine, chest-wall rigidity with rapid bolus; sufentanil most potent clinically used; remifentanil – ester hydrolysed by non-specific plasma/tissue esterases, context-sensitive half-time ~3–4 min regardless of infusion length; pethidine – normeperidine seizures, serotonin syndrome with MAOIs, used for post-op shivering.",
+   "Naloxone reverses opioids but is shorter-acting than most → watch for re-narcotisation; buprenorphine is a partial agonist with high receptor affinity (hard to reverse).",
+   "Dexmedetomidine (α2 agonist): sedation and analgesia without respiratory depression ('cooperative sedation').",
+   "Intra-arterial thiopentone: leave cannula in situ, inject heparin, papaverine/lignocaine/prostacyclin, sympathetic (stellate/brachial plexus) block."
+  ],
+  "traps": [
+   {
+    "stem": "Patient with acute intermittent porphyria needs GA – induction agent?",
+    "trap": "Thiopentone – the 'classic' barbiturate induction agent.",
+    "fix": "Barbiturates induce ALA synthase and precipitate crises – absolutely contraindicated; propofol is safe."
+   },
+   {
+    "stem": "Fastest induction and recovery among listed volatiles?",
+    "trap": "The agent with the highest MAC (most 'gas' needed) or halothane (high potency).",
+    "fix": "Speed depends on LOW blood:gas coefficient → desflurane (0.42) among volatiles; xenon overall; N₂O 0.47."
+   },
+   {
+    "stem": "Child for gas induction – sevoflurane or desflurane?",
+    "trap": "Desflurane because it is faster.",
+    "fix": "Desflurane is pungent → coughing, breath-holding, laryngospasm; sevoflurane is the agent of choice for inhalational induction."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Induction agent that causes adrenal suppression?",
+    "back": "Etomidate – inhibits 11β-hydroxylase."
+   },
+   {
+    "type": "cloze",
+    "text": "N₂O is avoided in {{c1::pneumothorax / bowel obstruction / middle-ear surgery}} because it {{c2::diffuses into and expands closed air spaces}}."
+   },
+   {
+    "type": "basic",
+    "front": "Diffusion hypoxia – cause and prevention?",
+    "back": "At end of N₂O anaesthesia, outpouring of N₂O into alveoli dilutes O₂; give 100% O₂ for 5–10 minutes."
+   },
+   {
+    "type": "cloze",
+    "text": "MAC of sevoflurane ≈ {{c1::2%}}; desflurane ≈ {{c2::6%}}; isoflurane ≈ {{c3::1.15%}}."
+   },
+   {
+    "type": "basic",
+    "front": "Induction agent of choice in hypovolaemic shock with bronchospasm?",
+    "back": "Ketamine – sympathomimetic and bronchodilator."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "mac",
+   "minimum alveolar concentration",
+   "blood gas partition coefficient",
+   "nitrous oxide",
+   "diffusion hypoxia",
+   "sevoflurane",
+   "compound a",
+   "desflurane",
+   "isoflurane",
+   "halothane hepatitis",
+   "xenon",
+   "propofol",
+   "propofol infusion syndrome",
+   "ketamine",
+   "etomidate",
+   "thiopentone",
+   "porphyria",
+   "remifentanil",
+   "fentanyl",
+   "naloxone"
+  ],
+  "wiki": [
+   "Minimum_alveolar_concentration",
+   "Inhalational_anaesthetic",
+   "Propofol"
+  ],
+  "verify": "Morgan & Mikhail 7e (MAC values for ~40-year-old adult in O₂)"
+ },
+ {
+  "id": "ana-nmb-airway-la",
+  "title": "Neuromuscular blockers, malignant hyperthermia, airway assessment, local anaesthetics, neuraxial block, fasting",
+  "subject": "Anesthesia",
+  "system": "Muscle relaxants, airway & regional",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Fasciculations, no fade on TOF, worsened by neostigmine → depolarising block (succinylcholine)",
+   "Unexplained rise in EtCO₂ + tachycardia + masseter rigidity after sux/volatile → malignant hyperthermia → dantrolene",
+   "Perioral numbness, tinnitus, metallic taste → seizures → arrhythmia/cardiac arrest after regional block → LAST → 20% lipid emulsion"
+  ],
+  "algorithm": "Malignant hyperthermia\n  → Stop volatile & sux; call for help; hyperventilate with 100% O₂ at high fresh-gas flow (change to TIVA)\n  → Dantrolene 2.5 mg/kg IV, repeat until signs settle (up to ~10 mg/kg)\n  → Active cooling; treat hyperkalaemia (insulin–dextrose, calcium), acidosis, arrhythmias (avoid CCBs); maintain urine output (myoglobinuria)\n  → Later: caffeine–halothane contracture test / RYR1 genetics; counsel family\nLocal anaesthetic systemic toxicity (LAST)\n  → Stop injection, airway + 100% O₂, benzodiazepine for seizures\n  → 20% lipid emulsion: bolus 1.5 mL/kg (≈100 mL if >70 kg) over 2–3 min → infusion 0.25 mL/kg/min; repeat bolus / double infusion if unstable\n  → CPR with small adrenaline doses (≤1 µg/kg); AVOID vasopressin, CCBs, β-blockers, further LA\nDAS difficult intubation (2015)\n  → Plan A: face-mask/intubation (≤3 + 1 attempts, videolaryngoscope)\n  → Plan B: 2nd-generation supraglottic airway (≤3 attempts)\n  → Plan C: final face-mask ventilation → wake patient\n  → Plan D: CICO → scalpel–bougie–tube cricothyroidotomy",
+  "tables": [
+   {
+    "title": "Depolarising vs non-depolarising block",
+    "head": [
+     "Feature",
+     "Depolarising (succinylcholine)",
+     "Non-depolarising (rocuronium, vecuronium, atracurium…)"
+    ],
+    "rows": [
+     [
+      "Mechanism",
+      "nAChR agonist → persistent depolarisation (phase I); phase II after large/repeated doses",
+      "Competitive antagonist at nAChR"
+     ],
+     [
+      "Fasciculations",
+      "Yes",
+      "No"
+     ],
+     [
+      "TOF / tetanus",
+      "No fade, no post-tetanic facilitation (phase I)",
+      "Fade + post-tetanic facilitation"
+     ],
+     [
+      "Anticholinesterase",
+      "Potentiates phase I block",
+      "Reverses (neostigmine + glycopyrrolate)"
+     ],
+     [
+      "Metabolism",
+      "Plasma (pseudo/butyryl) cholinesterase; prolonged apnoea if atypical enzyme (dibucaine number ~20 homozygous vs ~80 normal)",
+      "Atracurium/cisatracurium – Hofmann elimination (organ-independent; laudanosine); vecuronium/rocuronium – liver; pancuronium – kidney, vagolytic"
+     ],
+     [
+      "Use",
+      "RSI: 1–1.5 mg/kg, onset 30–60 s, lasts 5–10 min",
+      "Rocuronium 1–1.2 mg/kg for RSI (reversed by sugammadex)"
+     ],
+     [
+      "Side effects",
+      "Hyperkalaemia, myalgia, bradycardia (children/repeat dose), ↑ IOP/ICP/intragastric pressure, MH trigger, masseter spasm",
+      "Histamine release (atracurium, mivacurium), tachycardia (pancuronium)"
+     ]
+    ]
+   },
+   {
+    "title": "Local anaesthetics: maximum doses",
+    "head": [
+     "Agent",
+     "Max plain",
+     "Max with adrenaline",
+     "Note"
+    ],
+    "rows": [
+     [
+      "Lignocaine (amide)",
+      "3–4.5 mg/kg (~300 mg)",
+      "7 mg/kg (~500 mg)",
+      "Most commonly used; also class Ib antiarrhythmic"
+     ],
+     [
+      "Bupivacaine (amide)",
+      "2 mg/kg (~150–175 mg)",
+      "~2.5 mg/kg",
+      "Most cardiotoxic (avid Na⁺-channel binding; resuscitation difficult); 0.75% banned in obstetric epidural"
+     ],
+     [
+      "Ropivacaine (amide)",
+      "3 mg/kg",
+      "–",
+      "S-enantiomer, less cardiotoxic, more sensory-selective"
+     ],
+     [
+      "Prilocaine (amide)",
+      "6 mg/kg",
+      "8 mg/kg",
+      "Methaemoglobinaemia (o-toluidine); used in Bier's block"
+     ],
+     [
+      "Chloroprocaine / procaine (esters)",
+      "–",
+      "–",
+      "Esters: plasma cholinesterase, PABA → allergy; cocaine is the only LA that vasoconstricts"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Succinylcholine hyperkalaemia** (normal rise ~0.5 mEq/L) becomes life-threatening with receptor up-regulation: burns and major trauma/crush (after ~24–48 h), denervation (spinal cord injury, stroke, GBS), prolonged immobilisation, severe sepsis, muscular dystrophies (Duchenne → rhabdomyolysis, cardiac arrest in undiagnosed boys).",
+   "**Sugammadex**: modified γ-cyclodextrin that encapsulates rocuronium (> vecuronium); no effect on sux or benzylisoquinoliniums; 2 mg/kg (moderate), 4 mg/kg (deep), 16 mg/kg (immediate after RSI dose); reduces efficacy of hormonal contraceptives.",
+   "**Malignant hyperthermia**: AD, RYR1 (also CACNA1S); EARLIEST sign = unexplained ↑ EtCO₂ (with tachycardia); hyperthermia is late; masseter spasm; dantrolene blocks Ca²⁺ release from RyR1. Associated with central core disease, King–Denborough syndrome.",
+   "**Mallampati** (seated, mouth open, tongue protruded, no phonation): I – soft palate, fauces, uvula, pillars; II – soft palate, fauces, uvula; III – soft palate + base of uvula; IV – hard palate only. Cormack–Lehane grades the laryngoscopic view (1–4).",
+   "**LEMON**: Look externally, Evaluate 3-3-2 (mouth opening 3 fingers, hyomental 3, thyromental 2), Mallampati, Obstruction/obesity, Neck mobility. Thyromental distance <6 cm predicts difficulty.",
+   "Systemic absorption of LA (highest → lowest): intravenous > tracheal > intercostal > caudal > epidural > brachial plexus > sciatic/femoral > subcutaneous.",
+   "**Spinal vs epidural**: spinal – subarachnoid, below L1–L2 (adult cord end; L3 in neonates), small dose, fast dense block, more hypotension, PDPH (postural fronto-occipital headache; ↓ with small-gauge pencil-point needles; epidural blood patch); epidural – loss-of-resistance, catheter for continuous/segmental block (labour), ~10× dose, slower onset, test dose (lignocaine + adrenaline) detects intravascular/intrathecal placement. Tuffier's line (iliac crests) ≈ L4/L4–5.",
+   "Order of nerve block: sympathetic (B fibres) → temperature → pain → touch → motor; sympathetic level ~2 segments higher than sensory, motor ~2 lower.",
+   "**ASA fasting**: clear fluids 2 h, breast milk 4 h, infant formula / non-human milk / light meal 6 h, fried-fatty food or meat 8 h."
+  ],
+  "traps": [
+   {
+    "stem": "Burns patient on day 10 for dressing under GA – muscle relaxant for intubation?",
+    "trap": "Succinylcholine for quick intubation.",
+    "fix": "After ~24–48 h of burns, extra-junctional receptors → massive hyperkalaemia/arrest; use rocuronium (sugammadex for reversal)."
+   },
+   {
+    "stem": "Earliest sign of malignant hyperthermia under GA?",
+    "trap": "High temperature (name of the disease).",
+    "fix": "Unexplained rise in end-tidal CO₂ (with tachycardia, masseter rigidity); fever is a late sign."
+   },
+   {
+    "stem": "Prolonged apnoea for 3 hours after a single dose of succinylcholine.",
+    "trap": "Give neostigmine to reverse.",
+    "fix": "Atypical pseudocholinesterase (low dibucaine number) – ventilate and sedate until it wears off; FFP supplies enzyme; neostigmine can worsen/phase II."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Antidote for local anaesthetic systemic toxicity?",
+    "back": "20% lipid emulsion – 1.5 mL/kg bolus over 2–3 min, then 0.25 mL/kg/min infusion."
+   },
+   {
+    "type": "cloze",
+    "text": "Mallampati class {{c1::III}} shows only the soft palate and base of uvula; class {{c2::IV}} shows only the hard palate."
+   },
+   {
+    "type": "basic",
+    "front": "Muscle relaxant of choice in hepatic + renal failure?",
+    "back": "Atracurium/cisatracurium – Hofmann elimination (organ-independent)."
+   },
+   {
+    "type": "cloze",
+    "text": "Sugammadex is a modified {{c1::γ-cyclodextrin}} that encapsulates {{c2::rocuronium}} (and vecuronium)."
+   },
+   {
+    "type": "basic",
+    "front": "ASA fasting time for breast milk vs formula?",
+    "back": "Breast milk 4 h; infant formula 6 h (clear fluids 2 h; fatty meal 8 h)."
+   },
+   {
+    "type": "basic",
+    "front": "LA causing methaemoglobinaemia?",
+    "back": "Prilocaine (also benzocaine)."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Mallampati.svg",
+    "caption": "Mallampati classes I–IV: I – pillars, uvula, fauces, soft palate visible; IV – only hard palate."
+   }
+  ],
+  "keywords": [
+   "succinylcholine",
+   "depolarizing block",
+   "non depolarizing",
+   "rocuronium",
+   "atracurium",
+   "hofmann elimination",
+   "sugammadex",
+   "neostigmine",
+   "pseudocholinesterase",
+   "dibucaine number",
+   "hyperkalemia",
+   "malignant hyperthermia",
+   "dantrolene",
+   "mallampati",
+   "lemon",
+   "difficult airway",
+   "local anaesthetic toxicity",
+   "lipid emulsion",
+   "bupivacaine",
+   "spinal anaesthesia",
+   "epidural",
+   "post dural puncture headache",
+   "fasting guidelines"
+  ],
+  "wiki": [
+   "Malignant_hyperthermia",
+   "Mallampati_score",
+   "Local_anesthetic_systemic_toxicity"
+  ],
+  "verify": "Morgan & Mikhail 7e; ASRA 2020 LAST checklist; DAS 2015 adult difficult intubation; ASA 2017/2023 fasting guidelines. LA maximum doses vary slightly between texts."
+ },
+ {
+  "id": "rad-imaging-signs",
+  "title": "Classic radiological signs & modality of choice",
+  "subject": "Radiology",
+  "system": "Imaging signs",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Sign → disease pairs are asked as image-based or match-the-following: learn the sign, the modality it appears on, and the one disease it points to",
+   "Neonate with bilious vomiting + Down syndrome + two gas bubbles, no distal gas → duodenal atresia (double bubble)",
+   "Supine ICU film with deep lucent costophrenic angle → pneumothorax (deep sulcus sign)"
+  ],
+  "algorithm": "Modality of choice (common scenarios)\n  → Suspected stroke: NCCT first (exclude haemorrhage); DWI-MRI most sensitive for acute infarct\n  → Suspected SAH: NCCT (highly sensitive within 6 h) → LP if negative and suspicion high\n  → Head injury: NCCT | Spinal cord compression / early osteomyelitis: MRI\n  → PE: CT pulmonary angiography (V/Q scan if contrast contraindicated); aortic dissection: CT angiography (TEE if unstable)\n  → Gallstones/acute cholecystitis: USG (HIDA scan most accurate for cholecystitis); CBD stones: MRCP\n  → Renal colic: NCCT KUB | Pneumoperitoneum: erect CXR (CT most sensitive)\n  → Intussusception, pyloric stenosis, DDH <6 months: USG\n  → Bone metastases: Tc-99m MDP bone scan (EXCEPT myeloma – cold; use skeletal survey/whole-body MRI/PET-CT)\n  → Meckel's diverticulum: Tc-99m pertechnetate scan | VUR: micturating cystourethrogram | renal scar: DMSA | split function/obstruction: DTPA/MAG3",
+  "tables": [
+   {
+    "title": "Chest signs",
+    "head": [
+     "Sign",
+     "What is seen",
+     "Meaning"
+    ],
+    "rows": [
+     [
+      "Silhouette sign",
+      "Loss of a normal border where an opacity touches a structure of the same density",
+      "Localises: right heart border → RML; left heart border → lingula; hemidiaphragm → lower lobe; aortic knob → LUL"
+     ],
+     [
+      "Air bronchogram",
+      "Air-filled bronchi visible within opacified lung",
+      "Alveolar (airspace) process – pneumonia, HMD/ARDS, oedema; absent in obstructive collapse/pleural fluid"
+     ],
+     [
+      "Deep sulcus sign",
+      "Abnormally deep, lucent lateral costophrenic angle on supine film",
+      "Pneumothorax in supine patient"
+     ],
+     [
+      "Golden S sign",
+      "Reverse-S fissure: RUL collapse + central hilar mass",
+      "Central bronchogenic carcinoma"
+     ],
+     [
+      "Hampton hump",
+      "Peripheral, pleural-based wedge/dome opacity, apex to hilum",
+      "Pulmonary infarction (PE)"
+     ],
+     [
+      "Westermark sign",
+      "Regional oligaemia (hyperlucency) distal to occluded artery",
+      "Pulmonary embolism"
+     ],
+     [
+      "Bat-wing opacity / Kerley B lines",
+      "Perihilar alveolar shadowing / short horizontal peripheral lines",
+      "Pulmonary oedema / interstitial oedema"
+     ],
+     [
+      "Air-crescent (Monod) sign",
+      "Crescent of air around a mobile mass in a cavity",
+      "Aspergilloma"
+     ],
+     [
+      "Water-lily (camalote) sign",
+      "Floating collapsed membranes in cyst",
+      "Ruptured hydatid cyst"
+     ],
+     [
+      "Egg-shell calcification",
+      "Rim calcification of hilar nodes",
+      "Silicosis (also sarcoidosis)"
+     ]
+    ]
+   },
+   {
+    "title": "Abdominal, neuro & bone signs",
+    "head": [
+     "Sign",
+     "Modality",
+     "Meaning"
+    ],
+    "rows": [
+     [
+      "Double bubble",
+      "Plain X-ray",
+      "Duodenal atresia (Down syndrome); also annular pancreas, malrotation; single bubble = pyloric atresia, triple = jejunal atresia"
+     ],
+     [
+      "Coffee-bean / bent inner tube",
+      "Plain X-ray",
+      "Sigmoid volvulus"
+     ],
+     [
+      "String sign (of Kantor)",
+      "Barium follow-through",
+      "Crohn's disease (terminal ileum); 'string sign' also in pyloric stenosis on barium"
+     ],
+     [
+      "Apple-core lesion",
+      "Barium enema",
+      "Annular colorectal carcinoma"
+     ],
+     [
+      "Bird-beak",
+      "Barium swallow",
+      "Achalasia cardia (smooth taper) – vs irregular 'rat-tail' shouldering in carcinoma"
+     ],
+     [
+      "Target / doughnut, pseudokidney",
+      "USG",
+      "Intussusception"
+     ],
+     [
+      "Hyperdense MCA sign",
+      "NCCT",
+      "Thrombus in MCA – early sign of acute ischaemic stroke"
+     ],
+     [
+      "Ring-enhancing lesions",
+      "CECT/MRI",
+      "Abscess, metastasis, glioblastoma, tuberculoma, neurocysticercosis (cyst with eccentric scolex), toxoplasmosis, demyelination (open/incomplete ring), resolving haematoma, radiation necrosis"
+     ],
+     [
+      "Butterfly lesion",
+      "CT/MRI",
+      "Glioblastoma crossing corpus callosum (also lymphoma)"
+     ],
+     [
+      "Biconvex vs crescentic haematoma",
+      "NCCT",
+      "Extradural (does not cross sutures) vs subdural (crosses sutures, not falx)"
+     ],
+     [
+      "Sunburst / Codman triangle",
+      "X-ray",
+      "Osteosarcoma (aggressive periosteal reaction)"
+     ],
+     [
+      "Onion-peel (lamellated periosteal reaction)",
+      "X-ray",
+      "Ewing sarcoma (also osteomyelitis)"
+     ],
+     [
+      "Soap-bubble, eccentric epiphyseal lytic lesion to subchondral bone",
+      "X-ray",
+      "Giant cell tumour (soap-bubble also in ABC, adamantinoma)"
+     ],
+     [
+      "Punched-out lytic skull lesions / hair-on-end / pepper-pot",
+      "X-ray",
+      "Multiple myeloma / thalassaemia & sickle cell / hyperparathyroidism"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Erect CXR can show as little as ~1 mL of free gas under the diaphragm; Rigler (double-wall) sign and football sign appear on supine films.",
+   "Earliest CT signs of MCA infarct: hyperdense MCA, loss of insular ribbon, obscuration of lentiform nucleus, loss of grey–white differentiation (ASPECTS scoring).",
+   "Diffusion restriction (bright DWI, dark ADC) distinguishes brain abscess (restricts centrally) from necrotic tumour (usually does not).",
+   "HIV ring lesions: toxoplasmosis (multiple, basal ganglia, eccentric target sign) vs primary CNS lymphoma (single, periventricular/subependymal, thallium-SPECT/PET 'hot').",
+   "Cardiac silhouettes: boot-shaped (TOF), egg-on-a-string (TGA), snowman/figure-of-8 (supracardiac TAPVC), figure-of-3 + rib notching (coarctation).",
+   "Bone: bamboo spine (ankylosing spondylitis), pencil-in-cup (psoriatic arthritis), rugger-jersey spine (renal osteodystrophy), picture-frame vertebra (Paget), H-shaped vertebrae (sickle cell).",
+   "Lead-pipe colon (chronic UC), thumbprinting (ischaemic colitis), step-ladder air–fluid levels (small-bowel obstruction)."
+  ],
+  "traps": [
+   {
+    "stem": "Opacity on CXR obscures the right heart border. Lobe?",
+    "trap": "Right lower lobe (the lower lobe is 'next to the heart').",
+    "fix": "Right heart border is formed against the right MIDDLE lobe; RLL opacity obscures the right hemidiaphragm, not the heart border."
+   },
+   {
+    "stem": "Suspected skeletal metastases in multiple myeloma – best test?",
+    "trap": "Tc-99m MDP bone scan (standard for metastases).",
+    "fix": "Myeloma lesions are purely lytic with no osteoblastic response → bone scan is often negative; use skeletal survey / whole-body low-dose CT / MRI / PET-CT."
+   },
+   {
+    "stem": "Supine trauma patient: CXR shows a deep lucent costophrenic angle, no visible pleural line.",
+    "trap": "Normal film because no lung edge is seen.",
+    "fix": "In supine patients air collects anteriorly/basally → deep sulcus sign = pneumothorax."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Hampton hump?",
+    "back": "Peripheral wedge-shaped pleural-based opacity = pulmonary infarction from PE."
+   },
+   {
+    "type": "cloze",
+    "text": "Coffee-bean sign = {{c1::sigmoid volvulus}}; double-bubble sign = {{c2::duodenal atresia}}."
+   },
+   {
+    "type": "basic",
+    "front": "Onion-peel vs sunburst periosteal reaction?",
+    "back": "Onion-peel (lamellated) – Ewing sarcoma; sunburst + Codman triangle – osteosarcoma."
+   },
+   {
+    "type": "basic",
+    "front": "Golden S sign?",
+    "back": "Right upper lobe collapse with a central hilar mass – bronchogenic carcinoma."
+   },
+   {
+    "type": "cloze",
+    "text": "Investigation of choice for suspected Meckel's diverticulum bleed is {{c1::Tc-99m pertechnetate scan}} (detects {{c2::ectopic gastric mucosa}})."
+   }
+  ],
+  "images": [
+   {
+    "commons": "File:Radiograph with Double Bubble Sign.jpg",
+    "caption": "Double bubble: gas-distended stomach and proximal duodenum with no distal gas – duodenal atresia."
+   },
+   {
+    "commons": "File:Deep sulcus sign 59jm - Roe - 001.jpg",
+    "caption": "Supine AP film: deep, lucent lateral costophrenic angle on the patient's left = deep sulcus sign of pneumothorax."
+   }
+  ],
+  "keywords": [
+   "silhouette sign",
+   "air bronchogram",
+   "deep sulcus sign",
+   "golden s sign",
+   "hampton hump",
+   "westermark sign",
+   "double bubble",
+   "coffee bean sign",
+   "string sign",
+   "apple core",
+   "bird beak",
+   "hyperdense mca",
+   "ring enhancing lesion",
+   "butterfly glioma",
+   "sunburst",
+   "onion peel",
+   "soap bubble",
+   "codman triangle",
+   "investigation of choice",
+   "pneumoperitoneum"
+  ],
+  "wiki": [
+   "Silhouette_sign",
+   "Hampton's_hump",
+   "Double_bubble_sign"
+  ],
+  "verify": "Grainger & Allison 7e / Sutton; ACR Appropriateness Criteria for modality choice"
+ },
+ {
+  "id": "rad-safety-physics",
+  "title": "Radiation units, dose limits, radiosensitivity, pregnancy & contrast safety, MRI sequences",
+  "subject": "Radiology",
+  "system": "Radiation physics & safety",
+  "yield": 2,
+  "kind": "volatile",
+  "anchor": [
+   "Gray = absorbed dose (J/kg); Sievert = equivalent/effective dose (biological effect) – Gy × weighting factor",
+   "Occupational limit 20 mSv/yr averaged over 5 yr (≤50 mSv in any one year); public 1 mSv/yr; lens 20 mSv/yr (ICRP 2011)",
+   "Water bright on T2, dark on T1; fat bright on both; DWI bright + ADC dark = true restricted diffusion (acute infarct)"
+  ],
+  "tables": [
+   {
+    "title": "Radiation units",
+    "head": [
+     "Quantity",
+     "SI unit",
+     "Old unit",
+     "Note"
+    ],
+    "rows": [
+     [
+      "Activity",
+      "Becquerel (Bq) = 1 disintegration/s",
+      "Curie (Ci) = 3.7 × 10¹⁰ Bq",
+      "Radioactive source strength"
+     ],
+     [
+      "Exposure",
+      "Coulomb/kg",
+      "Roentgen (R)",
+      "Ionisation in air (X/γ only)"
+     ],
+     [
+      "Absorbed dose",
+      "Gray (Gy) = 1 J/kg",
+      "rad (1 Gy = 100 rad)",
+      "Energy deposited in tissue"
+     ],
+     [
+      "Equivalent dose",
+      "Sievert (Sv) = Gy × radiation weighting factor",
+      "rem (1 Sv = 100 rem)",
+      "Weighting: X-ray/γ/β = 1, protons 2, α = 20, neutrons energy-dependent"
+     ],
+     [
+      "Effective dose",
+      "Sievert",
+      "rem",
+      "Sum of equivalent doses × tissue weighting factors – whole-body stochastic risk"
+     ]
+    ]
+   },
+   {
+    "title": "MRI sequences",
+    "head": [
+     "Sequence",
+     "Bright",
+     "Dark",
+     "Best for"
+    ],
+    "rows": [
+     [
+      "T1",
+      "Fat, subacute haemorrhage (methaemoglobin), gadolinium, melanin, proteinaceous fluid",
+      "CSF/water, oedema, cortical bone",
+      "Anatomy, contrast enhancement"
+     ],
+     [
+      "T2",
+      "CSF/water, oedema, most pathology",
+      "Haemosiderin, calcification, flow voids, cortical bone",
+      "Pathology detection"
+     ],
+     [
+      "FLAIR",
+      "Oedema, periventricular lesions (T2-weighted)",
+      "CSF suppressed",
+      "MS plaques, SAH, cortical/periventricular lesions"
+     ],
+     [
+      "DWI / ADC",
+      "Restricted diffusion bright on DWI, dark on ADC",
+      "Free diffusion",
+      "Acute infarct (within minutes), abscess, epidermoid vs arachnoid cyst, cholesteatoma, hypercellular tumours"
+     ],
+     [
+      "GRE / SWI",
+      "–",
+      "Blooming of haemosiderin, calcium, microbleeds",
+      "Diffuse axonal injury, cavernoma, amyloid angiopathy"
+     ],
+     [
+      "STIR",
+      "Oedema (fat-suppressed)",
+      "Fat",
+      "Bone marrow oedema, occult fracture"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "**Law of Bergonié–Tribondeau**: radiosensitivity ∝ mitotic activity and inversely ∝ differentiation. Most sensitive: lymphocytes (most radiosensitive blood cell), spermatogonia, erythroblasts, bone marrow, intestinal crypts, lens (posterior subcapsular cataract); least: nerve, muscle, mature bone. Cell cycle: G2/M most sensitive, late S most resistant.",
+   "Radiosensitive tumours: seminoma, dysgerminoma, lymphoma, Ewing sarcoma, Wilms; radioresistant: osteosarcoma, melanoma.",
+   "**ALARA** – time (minimise), distance (inverse square law: doubling distance → ¼ dose), shielding (lead apron 0.25–0.5 mm Pb equivalent).",
+   "Other ICRP limits: skin/hands/feet 500 mSv/yr (occupational); declared pregnant worker – 1 mSv to the fetus for the rest of pregnancy. India (AERB) follows 20 mSv/yr averaged over 5 years with ≤30 mSv in any single year.",
+   "**Pregnancy imaging**: prefer USG and MRI (avoid gadolinium); fetal dose <50 mGy – no measurable increase in anomalies; deterministic effects (microcephaly, intellectual disability) mainly above ~100 mGy at 8–15 weeks; first 2 weeks 'all-or-none'. Necessary imaging should not be withheld; iodinated contrast allowed (check neonatal thyroid).",
+   "**Iodinated contrast reactions**: risk ↑ with prior reaction, asthma, atopy; anaphylaxis → IM adrenaline 0.5 mg (1:1000); premedication with steroid + antihistamine for prior reactors.",
+   "**Contrast-associated AKI**: creatinine rise within 48–72 h; highest risk eGFR <30; prevention = IV isotonic saline hydration (NAC/bicarbonate add no benefit); withhold metformin after contrast if eGFR <30 or AKI.",
+   "**Gadolinium**: nephrogenic systemic fibrosis in eGFR <30 (lowest risk with macrocyclic agents); brain deposition (dentate nucleus, globus pallidus) with linear agents.",
+   "**MRI contraindications**: non-MR-conditional pacemaker/ICD, ferromagnetic aneurysm clips, cochlear implants (most), metallic intra-ocular foreign body (screen welders with orbital X-ray), some neurostimulators; relative – first trimester, claustrophobia. Most prosthetic heart valves and orthopaedic implants are MR-safe/conditional.",
+   "Typical effective doses: CXR PA ~0.02 mSv; CT head ~2 mSv; CT abdomen-pelvis ~8–10 mSv; natural background ~2.4 mSv/yr (world average)."
+  ],
+  "traps": [
+   {
+    "stem": "Unit used for occupational dose limits?",
+    "trap": "Gray – it is the SI dose unit.",
+    "fix": "Limits are in sievert (effective dose, accounts for radiation and tissue type); Gy is absorbed physical dose."
+   },
+   {
+    "stem": "Current occupational dose limit for the lens of the eye?",
+    "trap": "150 mSv/yr (old ICRP 60 figure).",
+    "fix": "20 mSv/yr averaged over 5 years (ICRP 2011 statement) – cataract threshold now considered ~0.5 Gy."
+   },
+   {
+    "stem": "Lesion bright on DWI and also bright on ADC.",
+    "trap": "Acute infarct – 'bright on DWI'.",
+    "fix": "True restriction = bright DWI + dark ADC; bright on both = T2 shine-through (e.g. older/subacute lesion)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Absorbed dose is measured in {{c1::gray (Gy)}}; equivalent/effective dose in {{c2::sievert (Sv)}}."
+   },
+   {
+    "type": "basic",
+    "front": "Most radiosensitive blood cell?",
+    "back": "Lymphocyte (lymphopenia is the earliest haematological sign of radiation exposure)."
+   },
+   {
+    "type": "cloze",
+    "text": "ICRP dose limit: occupational {{c1::20 mSv/yr (averaged over 5 yr)}}; general public {{c2::1 mSv/yr}}."
+   },
+   {
+    "type": "basic",
+    "front": "Tissue that is bright on both T1 and T2?",
+    "back": "Fat (also late subacute haemorrhage – extracellular methaemoglobin)."
+   },
+   {
+    "type": "basic",
+    "front": "Best prophylaxis against contrast-associated AKI?",
+    "back": "IV isotonic (0.9%) saline hydration around the study; N-acetylcysteine has no proven benefit."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "gray",
+   "sievert",
+   "becquerel",
+   "radiation units",
+   "dose limits",
+   "icrp",
+   "alara",
+   "inverse square law",
+   "radiosensitivity",
+   "bergonie tribondeau",
+   "lymphocyte",
+   "pregnancy imaging",
+   "contrast nephropathy",
+   "contrast reaction",
+   "gadolinium",
+   "nephrogenic systemic fibrosis",
+   "mri contraindications",
+   "t1 weighted",
+   "t2 weighted",
+   "flair",
+   "diffusion weighted imaging"
+  ],
+  "wiki": [
+   "Sievert",
+   "Radiation_protection",
+   "Magnetic_resonance_imaging"
+  ],
+  "verify": "ICRP 103 (2007) + ICRP 118/2011 lens statement; AERB safety code; ACR Manual on Contrast Media 2023; ACOG Committee Opinion 723"
+ }
+]
