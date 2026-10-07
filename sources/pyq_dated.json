@@ -1,0 +1,2508 @@
+[
+{
+"s": "Anatomy",
+"q": "Which of the following intercellular junctions seals the paracellular space and is classified as a tight (occluding) junction?",
+"o": [
+"Fascia adherens",
+"Desmosome (macula adherens)",
+"Gap junction",
+"Zonula occludens"
+],
+"a": 3,
+"y": 2026,
+"t": "HIS",
+"e": "Zonula occludens (tight junction) seals paracellular space via claudins/occludins, blocking free diffusion between cells."
+},
+{
+"s": "Anatomy",
+"q": "Lesion at which site is associated with impaired emotional prosody (loss of emotional tone/melody of speech)?",
+"o": [
+"Cingulate gyrus",
+"Superior temporal gyrus",
+"Parietal lobe",
+"Precentral gyrus"
+],
+"a": 0,
+"y": 2026,
+"t": "NEU",
+"e": "Cingulate gyrus lesion → impaired emotional prosody (limbic contribution to affective tone of speech)."
+},
+{
+"s": "Anatomy",
+"q": "Neuropraxia (the mildest grade of nerve injury) is best described as:",
+"o": [
+"A reversible physiological conduction block with intact axon",
+"Cut/disruption of the endoneurium",
+"Cut/disruption of the nerve sheath (epineurium)",
+"Complete transection of the whole nerve trunk"
+],
+"a": 0,
+"y": 2026,
+"t": "NEU",
+"e": "Neuropraxia = reversible physiological conduction block c̅ axon & nerve sheath intact (mildest Seddon grade)."
+},
+{
+"s": "Anatomy",
+"q": "Neurapraxia is best described as:",
+"o": [
+"Physiological conduction block with intact axon",
+"Endoneurium and axon cut",
+"Nerve sheath (perineurium) cut",
+"Complete transection of the whole nerve trunk"
+],
+"a": 0,
+"y": 2026,
+"t": "NEU",
+"e": "Neurapraxia = physiological conduction block, axon & sheath both intact — recovers fully once block resolves."
+},
+{
+"s": "Anatomy",
+"q": "Hand-eye coordination, integration of visual and somatosensory information, and spatial awareness are mainly functions of which lobe of the cerebral cortex?",
+"o": [
+"Parietal lobe",
+"Frontal lobe",
+"Occipital lobe",
+"Temporal lobe"
+],
+"a": 0,
+"y": 2026,
+"t": "NEU",
+"e": "Parietal lobe integrates vision + somatosensation → hand-eye coordination & spatial awareness."
+},
+{
+"s": "Anatomy",
+"q": "The inguinal ligament (Poupart’s ligament), forming the floor of the inguinal canal, is a modification of the lower border of the aponeurosis of which muscle?",
+"o": [
+"External oblique muscle of the abdomen",
+"Internal oblique muscle of the abdomen",
+"Transversus abdominis muscle",
+"Rectus abdominis muscle"
+],
+"a": 0,
+"y": 2026,
+"t": "ABP",
+"e": "Inguinal ligament is the rolled-under free lower border of the external oblique aponeurosis."
+},
+{
+"s": "Anatomy",
+"q": "An inhaled foreign body more commonly lodges in the right main bronchus than the left. Which set of features of the right main bronchus BEST explains this tendency?",
+"o": [
+"It is wider, shorter and more vertical (in line with the trachea), and the right lung has three lobes",
+"It is narrower, longer and more horizontal, and the right lung has two lobes",
+"It is wider but more horizontal, and the right lung has two lobes",
+"It is narrower and more vertical, and the right lung has three lobes"
+],
+"a": 0,
+"y": 2026,
+"t": "THX",
+"e": "Right main bronchus is wider, shorter & more vertical (in line c̅ trachea) → foreign bodies lodge here more often."
+},
+{
+"s": "Anatomy",
+"q": "Which muscle attaches to the cartilaginous portion of the Eustachian tube and also blends with the soft palate?",
+"o": [
+"Stylopharyngeus",
+"Tensor veli palatini",
+"Levator veli palatini",
+"Palatopharyngeus"
+],
+"a": 2,
+"y": 2026,
+"t": "HNK",
+"e": "Levator veli palatini: arises from the cartilaginous part of Eustachian tube and blends c̅ the soft palate, elevating it.\nTensor veli palatini: hooks around the hamulus, opens the tube."
+},
+{
+"s": "Anatomy",
+"q": "Match each of the following organs with its correct embryological tissue of origin:\nA. Thyroid gland\nB. Adrenal medulla\nC. Kidney\n1. Neural crest cells\n2. Intermediate mesoderm\n3. Endoderm",
+"o": [
+"A-3, B-1, C-2",
+"A-1, B-3, C-2",
+"A-2, B-1, C-3",
+"A-1, B-2, C-3"
+],
+"a": 0,
+"y": 2026,
+"t": "EMB",
+"e": "Thyroid = endoderm, adrenal medulla = neural crest cells, kidney = intermediate mesoderm."
+},
+{
+"s": "Anatomy",
+"q": "Match each of the following gastrointestinal organs with its distinctive histological feature:\n1. Ileum\n2. Transverse colon\n3. Oesophagus\n4. Duodenum\na. Taenia coli\nb. Villi\nc. Peyer's patches\nd. Non-keratinised stratified squamous epithelium",
+"o": [
+"1-c, 2-a, 3-d, 4-b",
+"1-a, 2-c, 3-d, 4-b",
+"1-c, 2-b, 3-a, 4-d",
+"1-d, 2-a, 3-c, 4-b"
+],
+"a": 0,
+"y": 2026,
+"t": "HIS",
+"e": "Ileum → Peyer's patches; transverse colon → taenia coli; oesophagus → non-keratinised stratified squamous; duodenum → villi (c̅ Brunner's glands)."
+},
+{
+"s": "Anatomy",
+"q": "A developmental remnant of the embryological hindgut persisting in the retrorectal (presacral) space is most likely to give rise to which of the following lesions?",
+"o": [
+"Chondroma",
+"Tailgut cyst",
+"Epidermoid cyst",
+"Dermoid cyst"
+],
+"a": 1,
+"y": 2026,
+"t": "EMB",
+"e": "Tailgut cyst = remnant of the embryonic postanal hindgut, seen in the retrorectal/presacral space."
+},
+{
+"s": "Anatomy",
+"q": "[Image: Histological section of a gland showing predominantly serous acini]\nThe histological section shown, characterised by predominantly serous acini, is best identified as which organ?",
+"o": [
+"Sublingual salivary gland",
+"Pancreas",
+"Parotid gland",
+"Liver"
+],
+"a": 2,
+"y": 2026,
+"t": "HIS",
+"e": "Parotid is a purely serous gland (serous acini only).\nSublingual is predominantly mucous."
+},
+{
+"s": "Anatomy",
+"q": "A failure of fusion of the maxillary process with the medial nasal process during embryonic development results in which type of cleft anomaly?",
+"o": [
+"Oblique cleft lip",
+"Midline cleft lip",
+"Bilateral cleft",
+"Cleft palate"
+],
+"a": 1,
+"y": 2026,
+"t": "EMB",
+"e": "Midline cleft lip = midline upper-lip/philtrum defect from the medial nasal process (intermaxillary segment)."
+},
+{
+"s": "Anesthesia",
+"q": "A 40-year-old female is scheduled for parotid surgery and is administered general anaesthesia. Approximately 10 minutes into the procedure, the following findings are noted: rise in end-tidal CO2 (EtCO2), temperature 104°F (40°C), heart rate 150 bpm, blood pressure 180/110 mmHg. What is the most likely diagnosis?",
+"o": [
+"Heat stroke",
+"Malignant hyperthermia",
+"Heat cramps",
+"Heat pyrexia"
+],
+"a": 1,
+"y": 2026,
+"t": "AIV",
+"e": "Malignant hyperthermia: EtCO2 ↑es, tachycardia and hyperpyrexia after a volatile agent/succinylcholine → treat c̅ dantrolene."
+},
+{
+"s": "Anesthesia",
+"q": "Regarding the hemodynamic effects of halothane anaesthesia, which of the following statements are correct?\n1. Halothane causes direct myocardial depression, reducing cardiac output\n2. Blood pressure initially falls after induction and subsequently plateaus at a lower level\n3. Blood pressure progressively decreases throughout surgery, irrespective of anaesthetic depth\n4. Halothane increases myocardial sensitivity to catecholamines, increasing arrhythmia risk",
+"o": [
+"1, 3, 4",
+"1, 2, 3",
+"1, 2, 4",
+"2, 3, 4"
+],
+"a": 2,
+"y": 2026,
+"t": "AIV",
+"e": "Halothane depresses the myocardium (CO ↓es); BP falls then plateaus.\nIt sensitises the heart to catecholamines → arrhythmias."
+},
+{
+"s": "Anesthesia",
+"q": "During a lumbar puncture, the following structures are pierced:\n1. Ligamentum flavum\n2. Dura mater\n3. Interspinous ligament\n4. Arachnoid mater\n5. Supraspinous ligament\nWhich option correctly represents the order in which they are pierced?",
+"o": [
+"5 -> 3 -> 1 -> 2 -> 4",
+"3 -> 5 -> 1 -> 2 -> 4",
+"5 -> 1 -> 3 -> 2 -> 4",
+"5 -> 3 -> 2 -> 1 -> 4"
+],
+"a": 0,
+"y": 2026,
+"t": "ARG",
+"e": "Skin → supraspinous → interspinous → ligamentum flavum → dura → arachnoid (5→3→1→2→4)."
+},
+{
+"s": "Anesthesia",
+"q": "Which of the following drugs does NOT typically cause respiratory paralysis/depression in overdose?",
+"o": [
+"Phenobarbitone",
+"Opioids",
+"Thiopentone",
+"Ketamine"
+],
+"a": 3,
+"y": 2026,
+"t": "AIV",
+"e": "Ketamine (dissociative) preserves respiratory drive and airway reflexes.\nBarbiturates and opioids depress respiration."
+},
+{
+"s": "Anesthesia",
+"q": "Which is the most characteristic cardiovascular effect of the inhalational anaesthetic halothane?",
+"o": [
+"Dose-dependent fall in cardiac output and blood pressure (often a 20-30 mm Hg drop) from myocardial depression",
+"Increase in cardiac output with reflex tachycardia",
+"Rise in systemic vascular resistance with hypertension",
+"No measurable effect on cardiac output or blood pressure"
+],
+"a": 0,
+"y": 2026,
+"t": "AIV",
+"e": "Halothane: dose-dependent myocardial depression → CO ↓es and BP ↓es."
+},
+{
+"s": "Biochemistry",
+"q": "High serum triglycerides are seen in all of the following conditions EXCEPT:",
+"o": [
+"High fructose intake",
+"Diabetes mellitus",
+"Nephrotic syndrome",
+"Abetalipoproteinemia"
+],
+"a": 3,
+"y": 2026,
+"t": "LIP",
+"e": "Abetalipoproteinemia → absent apoB → no chylomicron/VLDL assembly → ↓es triglycerides, unlike the other options which ↑es TG."
+},
+{
+"s": "Biochemistry",
+"q": "Ultraviolet (UV) radiation causes DNA damage primarily by which of the following mechanisms?",
+"o": [
+"Formation of pyrimidine dimers",
+"Inhibition of p53",
+"Deamination of cytosine",
+"Increase in cyclins"
+],
+"a": 0,
+"y": 2026,
+"t": "MOL",
+"e": "UV light forms covalent pyrimidine (thymine-thymine) dimers, distorting the DNA helix."
+},
+{
+"s": "Biochemistry",
+"q": "Which vitamin-derived coenzyme is required for a transamination reaction?",
+"o": [
+"Thiamine (Vitamin B1)",
+"Pyridoxine (Vitamin B6)",
+"FAD (Riboflavin / Vitamin B2)",
+"NAD (Niacin / Vitamin B3)"
+],
+"a": 1,
+"y": 2026,
+"t": "PRO",
+"e": "Transamination requires PLP (active vitamin B6) as coenzyme to shuttle the amino group."
+},
+{
+"s": "Biochemistry",
+"q": "Which of the following enzymes is active in its dephosphorylated state?",
+"o": [
+"Glycogen synthase",
+"Glycogen phosphorylase",
+"PFK-2 (phosphofructokinase-2)",
+"Fructose-2,6-bisphosphatase"
+],
+"a": 0,
+"y": 2026,
+"t": "CAR",
+"e": "Glycogen synthase is active in its dephosphorylated state.\nGlycogen phosphorylase is active in its phosphorylated state (opposite regulation)."
+},
+{
+"s": "Biochemistry",
+"q": "Which of the following carbohydrates is a NON-reducing sugar and therefore gives a NEGATIVE Benedict’s (and Fehling’s) test?",
+"o": [
+"Sucrose",
+"Maltose",
+"Lactose",
+"Glucose"
+],
+"a": 0,
+"y": 2026,
+"t": "CAR",
+"e": "Sucrose's glycosidic bond involves both anomeric carbons → no free reducing end → negative Benedict's/Fehling's."
+},
+{
+"s": "Biochemistry",
+"q": "[Image: Schematic of a molecular biotechnology technique (gene-editing/nucleic acid system)]\nWhich molecular biotechnology is depicted in the image shown?",
+"o": [
+"Microarray analysis",
+"In situ hybridisation",
+"CRISPR-Cas9 gene editing system",
+"DNA sequencing"
+],
+"a": 2,
+"y": 2026,
+"t": "MOL",
+"e": "CRISPR-Cas9 = guide RNA directs Cas9 nuclease to cut target DNA → gene editing."
+},
+{
+"s": "Biochemistry",
+"q": "Match the following:\n1. Metabolic acidosis\n2. Metabolic alkalosis\n3. Respiratory acidosis\n4. Respiratory alkalosis\na. Hyperventilation\nb. Bronchopneumonia\nc. Pyloric stenosis\nd. Glycol poisoning",
+"o": [
+"1-c, 2-d, 3-b, 4-a",
+"1-c, 2-d, 3-a, 4-b",
+"1-a, 2-c, 3-b, 4-d",
+"1-d, 2-c, 3-b, 4-a"
+],
+"a": 3,
+"y": 2026,
+"t": "MSC",
+"e": "Ethylene glycol poisoning → metabolic acidosis; pyloric stenosis (vomiting) → metabolic alkalosis.\nBronchopneumonia → respiratory acidosis; hyperventilation → respiratory alkalosis."
+},
+{
+"s": "Biochemistry",
+"q": "Match the following:\n1. Most essential fatty acid\n2. Amino acid (AA) score\n3. Oil rich in essential fatty acids\n4. Net Protein Utilisation (NPU)\na. Safflower oil\nb. Protein scoring system\nc. Protein quality + digestibility\nd. Linoleic acid",
+"o": [
+"1-d, 2-c, 3-a, 4-b",
+"1-b, 2-d, 3-c, 4-a",
+"1-d, 2-b, 3-a, 4-c",
+"1-a, 2-b, 3-d, 4-c"
+],
+"a": 2,
+"y": 2026,
+"t": "MSC",
+"e": "Linoleic acid = most essential fatty acid; safflower oil is rich in EFA.\nAA score = protein scoring system; NPU = protein quality c̅ digestibility."
+},
+{
+"s": "Biochemistry",
+"q": "Assertion: The structural diversity of glycans exceeds that of proteins.\nReason: Glycans are not assembled using a genetic template and can form branched chains with variable linkages.",
+"o": [
+"A is true, but R is false",
+"A is false, but R is true",
+"Both A and R are true, and R is the correct explanation of A",
+"Both A and R are true, but R is not the correct explanation of A"
+],
+"a": 2,
+"y": 2026,
+"t": "CAR",
+"e": "Glycans are not template-driven and branch c̅ variable linkages → diversity exceeds proteins; R explains A."
+},
+{
+"s": "Biochemistry",
+"q": "In DNA replication, which enzyme synthesises RNA primers?",
+"o": [
+"Topoisomerase",
+"DNA polymerase II",
+"DNA polymerase III",
+"Primase"
+],
+"a": 3,
+"y": 2026,
+"t": "MOL",
+"e": "Primase (a DNA-dependent RNA polymerase) synthesises the RNA primer; DNA pol III then extends it."
+},
+{
+"s": "Biochemistry",
+"q": "Which of the following amino acid classifications are correctly matched?\n1. Uncharged polar AA - Cysteine\n2. Nonpolar AA - Histidine\n3. Basic AA - Proline\n4. Basic AA - Lysine",
+"o": [
+"1 and 2",
+"3 and 4",
+"2 and 3",
+"1 and 4"
+],
+"a": 3,
+"y": 2026,
+"t": "PRO",
+"e": "Cysteine = uncharged polar; lysine = basic.\nHistidine is basic (not nonpolar); proline is nonpolar (not basic)."
+},
+{
+"s": "Biochemistry",
+"q": "A newborn presents with craniofacial abnormalities, severely reduced muscle tone, and seizures. Biochemical analysis reveals elevated very long-chain fatty acids in serum. What is the most likely underlying cause?",
+"o": [
+"Mitochondrial inheritance",
+"Lysosomal storage disorder",
+"Peroxisomal biogenesis defect",
+"Simultaneously activate multiple tumour suppressor genes"
+],
+"a": 2,
+"y": 2026,
+"t": "MSC",
+"e": "Zellweger syndrome (peroxisomal biogenesis defect) → VLCFA accumulation c̅ hypotonia, seizures, craniofacial dysmorphism."
+},
+{
+"s": "Biochemistry",
+"q": "A laboratory worker accidentally inhales fumes of an oxidative phosphorylation uncoupling agent. Which of the following physiological changes is most likely to occur?",
+"o": [
+"Decreased O2 consumption, increased body temperature, increased ATP production",
+"Increased O2 consumption, increased body temperature, decreased ATP production",
+"Increased O2 consumption, decreased body temperature, increased ATP production",
+"Decreased O2 consumption, decreased body temperature, decreased ATP production"
+],
+"a": 1,
+"y": 2026,
+"t": "MSC",
+"e": "Uncoupler dissipates the proton gradient → O2 consumption ↑es, heat ↑es, ATP synthesis ↓es."
+},
+{
+"s": "Community Medicine",
+"q": "A propagated (progressive) epidemic showing multiple peaks separated by the incubation period is characteristically seen in which of the following diseases?",
+"o": [
+"Measles",
+"Staphylococcal food poisoning",
+"Typhoid fever (common-source)",
+"Salmonella food poisoning (salmonellosis)"
+],
+"a": 0,
+"y": 2026,
+"t": "EPI",
+"e": "Propagated (person-to-person) epidemics show repeated peaks, each ~1 incubation period apart, e.g. measles.\nCommon-source outbreaks (food poisoning, typhoid) give a single sharp peak."
+},
+{
+"s": "Community Medicine",
+"q": "Under the RMNCAH+ (Reproductive, Maternal, Newborn, Child and Adolescent Health) framework, districts are colour-coded for performance. Which of the following indicators, when meeting the stated criterion, would be marked as a RED card (poor performance)?",
+"o": [
+"IMR less than 20%",
+"TFR more than 20%",
+"MMR <20%",
+"Children receiving healthcare <20%"
+],
+"a": 3,
+"y": 2026,
+"t": "NHP",
+"e": "A district is flagged 'red' when key RMNCAH+ coverage/outcome indicators fail to cross the defined performance threshold."
+},
+{
+"s": "Community Medicine",
+"q": "The Pearl Index, used to express contraceptive failure rate, is defined as:",
+"o": [
+"Number of accidental pregnancies per woman year",
+"Number of accidental pregnancies per 100 woman-years of exposure",
+"Number of pregnancies over number of losses per 100 woman-years",
+"Number of accidental pregnancies per 1000 women per year"
+],
+"a": 1,
+"y": 2026,
+"t": "FPD",
+"e": "Pearl Index = number of accidental pregnancies per 100 woman-years of contraceptive exposure."
+},
+{
+"s": "Community Medicine",
+"q": "If X percent of stroke in a population is attributable to hypertension, and removing hypertension from the population would prevent this proportion of strokes, this scenario is an example of:",
+"o": [
+"Relative risk",
+"Attributable risk",
+"Population attributable risk",
+"Odds ratio"
+],
+"a": 2,
+"y": 2026,
+"t": "EPI",
+"e": "Population attributable risk = the proportion of disease in the whole population attributable to (and preventable by removing) the exposure."
+},
+{
+"s": "Community Medicine",
+"q": "In a meta-analysis, assessing heterogeneity (e.g. using the statistic or Cochran's Q test):",
+"o": [
+"Evaluates the variation between the included studies",
+"Detects publication bias directly",
+"Measures confounding within a single study",
+"Quantifies the precision of an individual study"
+],
+"a": 0,
+"y": 2026,
+"t": "EPI",
+"e": "I²/Cochran's Q in meta-analysis quantifies statistical heterogeneity — variation in effect size between included studies."
+},
+{
+"s": "Community Medicine",
+"q": "Regarding the HPV vaccine, which of the following statements is INCORRECT?",
+"o": [
+"It guarantees 100% complete protection against cervical cancer",
+"The primary target group for vaccination is girls aged 9-14 years",
+"A single-dose schedule is now endorsed by WHO and national guidelines for the targeted age group",
+"It is highly immunogenic, with high seroconversion rates in the target age group"
+],
+"a": 0,
+"y": 2026,
+"t": "VAC",
+"e": "HPV vaccine ↓es cervical cancer risk markedly but doesn't cover every oncogenic HPV type, so it can't guarantee 100% protection."
+},
+{
+"s": "Community Medicine",
+"q": "A researcher plots the average per-capita alcohol intake of 10 different countries against the cirrhosis mortality rate of each of those countries, using one data point per country, to look for an association. Which type of epidemiological study design does this represent?",
+"o": [
+"Ecological study",
+"Cohort study",
+"Case-control study",
+"Cross-sectional study"
+],
+"a": 0,
+"y": 2026,
+"t": "EPI",
+"e": "One data point per population/country (group-level exposure vs outcome) defines an ecological study."
+},
+{
+"s": "Community Medicine",
+"q": "In a case-control study, among the cases there are 60 exposed and 20 unexposed individuals, while among the controls there are 40 exposed and 80 unexposed individuals. What is the odds ratio of exposure?",
+"o": [
+"6",
+"3",
+"1.5",
+"0.17"
+],
+"a": 0,
+"y": 2026,
+"t": "EPI",
+"e": "Odds ratio of exposure = (a×d)/(b×c) = (60×80)/(20×40) = 6."
+},
+{
+"s": "Community Medicine",
+"q": "A new screening test is applied. It yields 90 true positives and 50 false positives. What is the positive predictive value (PPV) of the test?",
+"o": [
+"64.3%",
+"90%",
+"50%",
+"35.7%"
+],
+"a": 0,
+"y": 2026,
+"t": "EPI",
+"e": "PPV = TP/(TP+FP) = 90/(90+50) = 64.3%."
+},
+{
+"s": "Community Medicine",
+"q": "An influenza vaccine shows 90% efficacy in a randomized controlled trial but only 85% performance when used in the routine community programme. Which value represents the effectiveness of the vaccine?",
+"o": [
+"85% (performance in real-world field conditions)",
+"90% (performance in the ideal trial setting)",
+"5% (difference between the two values)",
+"87.5% (average of the two values)"
+],
+"a": 0,
+"y": 2026,
+"t": "VAC",
+"e": "Effectiveness = vaccine performance under real-world/routine field conditions (85%)."
+},
+{
+"s": "Community Medicine",
+"q": "An influenza vaccine is evaluated in a well-conducted randomized controlled trial and again during routine community use. The trial value is 90% and the field value is 85%. Which value represents the efficacy of the vaccine?",
+"o": [
+"90% (performance in the ideal trial setting)",
+"85% (performance in real-world field conditions)",
+"5% (difference between the two values)",
+"87.5% (average of the two values)"
+],
+"a": 0,
+"y": 2026,
+"t": "VAC",
+"e": "Efficacy = vaccine performance under ideal, controlled trial conditions (90%)."
+},
+{
+"s": "Community Medicine",
+"q": "Assertion: In a nested case-control study, incidence rates can be derived from the parent cohort.\nReason: Nested case-control studies can estimate relative risk accurately.",
+"o": [
+"Both assertion and reason are correct, and the reason is the correct explanation of the assertion",
+"Both assertion and reason are correct, but they are unrelated",
+"The assertion is correct, but the reason is incorrect",
+"The assertion is incorrect, but the reason is correct"
+],
+"a": 1,
+"y": 2026,
+"t": "EPI",
+"e": "Nested case-control: controls sampled from the parent cohort → incidence rates derivable, and OR approximates RR.\nBoth statements true, but R does not explain A."
+},
+{
+"s": "Dermatology",
+"q": "A 2-day-old neonate presents with blistering/erosive skin lesions over the face and abdomen. There is no fever and no mucosal involvement. The mother has a history of an autoimmune blistering disorder. What is the most likely diagnosis?",
+"o": [
+"Neonatal pemphigus from transplacental transfer of maternal antibodies",
+"Staphylococcal scalded skin syndrome (SSSS)",
+"Bullous pemphigoid (BP)",
+"Epidermolysis bullosa (EB)"
+],
+"a": 0,
+"y": 2026,
+"t": "BLA",
+"e": "Maternal anti-desmoglein IgG crosses the placenta → transient neonatal pemphigus in a pemphigus-affected mother."
+},
+{
+"s": "Dermatology",
+"q": "Match the clinical sign with the correct dermatological condition and select the correctly matched pair(s): (i) Positive Nikolsky sign - Pemphigus vulgaris (ii) Negative/absent Nikolsky sign - Bullous pemphigoid (iii) Pseudo-Nikolsky sign - Stevens-Johnson syndrome / Toxic epidermal necrolysis (iv) Cerebriform tongue - Pemphigus vegetans",
+"o": [
+"Positive Nikolsky - Pemphigus vulgaris",
+"Negative/absent Nikolsky - Bullous pemphigoid",
+"Pseudo-Nikolsky - Stevens-Johnson syndrome",
+"Cerebriform tongue - Pemphigus vegetans"
+],
+"a": 3,
+"y": 2026,
+"t": "BLA",
+"e": "Pemphigus vegetans → hypertrophic papillomatous plaques c̅ a characteristic cerebriform tongue."
+},
+{
+"s": "Dermatology",
+"q": "[Image: Irregular black pigmented lesion on the heel/sole]\nWhich is the investigation of choice to establish the diagnosis?",
+"o": [
+"Biopsy",
+"KOH mount",
+"Gram stain",
+"Tzanck smear"
+],
+"a": 0,
+"y": 2026,
+"t": "SKT",
+"e": "Any pigmented acral lesion suspicious for melanoma requires biopsy for histopathological confirmation."
+},
+{
+"s": "Dermatology",
+"q": "A patient presents with painful grouped vesicles over the penile/genital region associated with fever and malaise. What is the most likely causative organism?",
+"o": [
+"Herpes simplex virus (HSV)",
+"Haemophilus ducreyi",
+"Human papillomavirus (HPV)",
+"Treponema pallidum (Syphilis)"
+],
+"a": 0,
+"y": 2026,
+"t": "STI",
+"e": "HSV → painful grouped genital vesicles c̅ fever/malaise (primary herpes genitalis)."
+},
+{
+"s": "Dermatology",
+"q": "[Image: Scalp lesion]\nThe lesion shown is consistent with tinea capitis. What is the treatment of choice?",
+"o": [
+"Oral antifungals",
+"Antibiotics",
+"Methotrexate",
+"Topical steroids"
+],
+"a": 0,
+"y": 2026,
+"t": "FVI",
+"e": "Tinea capitis needs oral antifungals — topical agents can't penetrate the hair follicle/shaft."
+},
+{
+"s": "Dermatology",
+"q": "[Image: Scalp lesion]\nThe clinical photograph shows a scalp lesion consistent with tinea capitis. What is the treatment of choice?",
+"o": [
+"Oral antifungals",
+"Antibiotics",
+"Methotrexate",
+"Topical steroids"
+],
+"a": 0,
+"y": 2026,
+"t": "FVI",
+"e": "Tinea capitis needs oral antifungals — topical agents can't penetrate the hair follicle/shaft."
+},
+{
+"s": "Dermatology",
+"q": "An infant presents with intensely itchy erythematous papules and vesicles distributed over the palms, soles and umbilical region, with similar lesions in family members. The most likely diagnosis is:",
+"o": [
+"Scabies",
+"Psoriasis",
+"Atopic dermatitis",
+"Seborrhoeic dermatitis"
+],
+"a": 0,
+"y": 2026,
+"t": "MSD",
+"e": "Itchy papulovesicles on palms, soles & umbilicus c̅ similar lesions in family contacts = scabies."
+},
+{
+"s": "Dermatology",
+"q": "A patient has an irregular black pigmented lesion on the heel/sole suspicious for acral melanoma. The most appropriate confirmatory investigation is:",
+"o": [
+"Excisional / full-thickness biopsy with histopathology",
+"KOH mount / Gram stain",
+"Tzanck smear",
+"Wood's lamp examination"
+],
+"a": 0,
+"y": 2026,
+"t": "SKT",
+"e": "Suspected acral melanoma → excisional/full-thickness biopsy c̅ histopathology is the confirmatory test."
+},
+{
+"s": "ENT",
+"q": "The posterior cricoarytenoid (PCA) muscle of the larynx is the only muscle that performs which action on the vocal cords?",
+"o": [
+"Abduction (opening) of the vocal cords",
+"Adduction (closing) of the vocal cords",
+"Tensing (lengthening) of the vocal cords",
+"Relaxation (shortening) of the vocal cords"
+],
+"a": 0,
+"y": 2026,
+"t": "LRY",
+"e": "Posterior cricoarytenoid is the sole abductor (opener) of the vocal cords — all other laryngeal muscles adduct/tense."
+},
+{
+"s": "ENT",
+"q": "Sudden sensorineural hearing loss (SSNHL) is defined as >= 30 dB of SNHL over at least three contiguous frequencies developing within 3 days. What is the mainstay of treatment?",
+"o": [
+"Corticosteroids (systemic, with intratympanic steroids as salvage)",
+"Oral antiviral therapy alone",
+"Immediate cochlear implantation",
+"Broad-spectrum intravenous antibiotics"
+],
+"a": 0,
+"y": 2026,
+"t": "EAR",
+"e": "SSNHL mainstay = urgent systemic corticosteroids, c̅ intratympanic steroids reserved as salvage."
+},
+{
+"s": "ENT",
+"q": "A patient is evaluated for a rare orofacial syndrome. Which of the following is NOT a component of the Melkersson-Rosenthal syndrome triad?",
+"o": [
+"Lower motor neuron facial palsy",
+"Proptosis (forward displacement of the eyeball)",
+"Orofacial granulomatous oedema",
+"Fissured (scrotal) tongue"
+],
+"a": 1,
+"y": 2026,
+"t": "EAR",
+"e": "Melkersson-Rosenthal triad = recurrent LMN facial palsy + orofacial granulomatous oedema + fissured tongue; proptosis is not part of it."
+},
+{
+"s": "Forensic Medicine",
+"q": "In poisoning with which of the following is central respiratory depression not a feature?",
+"o": [
+"Strychnine",
+"Opium (opioids)",
+"Barbiturates",
+"Datura (atropine-type)"
+],
+"a": 0,
+"y": 2026,
+"t": "TOX",
+"e": "Strychnine kills via tetanic muscular convulsions → asphyxia, not by central respiratory depression."
+},
+{
+"s": "Forensic Medicine",
+"q": "Match the poison with its characteristic feature. Which of the following is correctly matched?",
+"o": [
+"Cyanide - bitter almond smell",
+"Carbon monoxide - cherry red discolouration",
+"Phosphorus - garlic odour",
+"Organophosphate - excessive secretions"
+],
+"a": 0,
+"y": 2026,
+"t": "TOX",
+"e": "Cyanide poisoning classically gives a bitter-almond odour on the breath."
+},
+{
+"s": "Forensic Medicine",
+"q": "Which of the following is a type of blunt-force mechanical injury produced without a break in the continuity of the skin?",
+"o": [
+"Stab wound of the abdomen",
+"Laceration",
+"Bomb blast injury",
+"Contusion"
+],
+"a": 3,
+"y": 2026,
+"t": "TRM",
+"e": "Contusion (bruise) is blunt-force injury c̅ skin continuity intact — no external break."
+},
+{
+"s": "Forensic Medicine",
+"q": "A 16-year-old girl raped by a neighbour presents at 16 weeks of gestation. Which of the following is NOT a part of her management?",
+"o": [
+"Inform the police",
+"Preserve fetal tissue for DNA analysis",
+"Take consent from the parents/guardian",
+"MTP can be done on the opinion of a single doctor"
+],
+"a": 3,
+"y": 2026,
+"t": "SXO",
+"e": "MTP beyond 12 weeks legally needs the opinion of two registered doctors — a single doctor's opinion isn't sufficient here."
+},
+{
+"s": "Forensic Medicine",
+"q": "An Afghan national arriving at the airport is found to have swallowed multiple well-sealed, professionally prepared condoms/packets filled with narcotic drugs for the purpose of international trafficking. This practice is termed:",
+"o": [
+"Body packing",
+"Body stuffing",
+"Masking",
+"Body pushing"
+],
+"a": 0,
+"y": 2026,
+"t": "TOX",
+"e": "Swallowing well-sealed drug packets for trafficking = body packing (vs. body stuffing = hastily swallowing to hide evidence)."
+},
+{
+"s": "Forensic Medicine",
+"q": "[Image: Skin photograph showing a permanent tattoo (ink pigment marking)]\nIn which layer of the skin is the tattoo pigment chiefly deposited and retained?",
+"o": [
+"Dermis",
+"Stratum corneum of the epidermis",
+"Subcutaneous fat",
+"Deep fascia"
+],
+"a": 0,
+"y": 2026,
+"t": "THA",
+"e": "Tattoo pigment is deposited & permanently retained in the dermis, taken up by dermal macrophages."
+},
+{
+"s": "Forensic Medicine",
+"q": "A firearm wound shows an entry with an abraded collar and a grease (dirt) collar, but there is NO tattooing (no gunpowder stippling), no soot blackening, and no burning around the wound. What is the range of fire?",
+"o": [
+"Distant range",
+"Contact range",
+"Close range",
+"Near (intermediate) range"
+],
+"a": 0,
+"y": 2026,
+"t": "TRM",
+"e": "Abraded + grease collar c̅ no tattooing, soot or singeing = distant-range firearm wound."
+},
+{
+"s": "Forensic Medicine",
+"q": "A victim of a bomb blast sustains burns to the chest and face caused by the fireball and the heat of the explosion (not by the blast wave, flying fragments, or being thrown against a structure). This burn injury is best classified as which category of blast injury?",
+"o": [
+"Quaternary blast injury",
+"Primary blast injury",
+"Secondary blast injury",
+"Tertiary blast injury"
+],
+"a": 0,
+"y": 2026,
+"t": "TRM",
+"e": "Quaternary blast injury = burns/thermal & toxic effects from the explosion itself (not the pressure wave, fragments, or displacement)."
+},
+{
+"s": "Forensic Medicine",
+"q": "An entry firearm wound demonstrates an abrasion collar and a grease collar but completely lacks gunpowder tattooing (stippling), soot, and singeing of hair. The most appropriate interpretation of the firing distance is:",
+"o": [
+"Distant range",
+"Contact (tight) range",
+"Close range",
+"Intermediate (near) range"
+],
+"a": 0,
+"y": 2026,
+"t": "TRM",
+"e": "Abraded + grease collar c̅ no tattooing, soot or singeing = distant-range firearm wound."
+},
+{
+"s": "Forensic Medicine",
+"q": "A characteristic pattern of multiple radiating, brush-like abrasions resembling a bird’s foot (“sparrow-foot” or crow-foot marks) is found on the skin of a deceased. This injury pattern is most characteristic of:",
+"o": [
+"Motor vehicle (road traffic) accident",
+"Fall from height onto a flat surface",
+"Firearm injury",
+"Electrocution"
+],
+"a": 0,
+"y": 2026,
+"t": "TRM",
+"e": "Radiating bird's-foot/crow's-foot abrasions are described as a patterned injury seen c̅ blunt impact/dragging in road traffic accidents."
+},
+{
+"s": "Medicine",
+"q": "Among the following neurodegenerative disorders, which one has a distinct (potentially curable) treatment?",
+"o": [
+"Pantothenate kinase-associated neurodegeneration (PKAN)",
+"Wilson disease",
+"Progressive multifocal leukoencephalopathy (PML)",
+"PLA2G6-associated neurodegeneration"
+],
+"a": 1,
+"y": 2026,
+"t": "NRL",
+"e": "Wilson disease is a treatable/reversible copper-storage disorder (chelation) — unlike the other progressive neurodegenerations listed."
+},
+{
+"s": "Medicine",
+"q": "Which cardiac abnormality is most characteristically associated with systemic sclerosis (scleroderma)?",
+"o": [
+"Aortic regurgitation (AR)",
+"Mitral stenosis (MS)",
+"Pericarditis / pericardial effusion",
+"Dilated cardiomyopathy (DCM) from myocardial fibrosis"
+],
+"a": 3,
+"y": 2026,
+"t": "RHU",
+"e": "Systemic sclerosis → patchy myocardial fibrosis from microvascular disease → dilated-cardiomyopathy-like picture, its most characteristic cardiac lesion."
+},
+{
+"s": "Medicine",
+"q": "Which of the following is the least likely direct cause of falls in the elderly?",
+"o": [
+"Balance disturbance",
+"Rheumatoid arthritis",
+"Muscle weakness",
+"Hearing impairment"
+],
+"a": 3,
+"y": 2026,
+"t": "MSM",
+"e": "Hearing impairment contributes least directly to falls compared to balance disturbance, muscle weakness or joint disease."
+},
+{
+"s": "Medicine",
+"q": "Frailty in the elderly is most directly characterised/affected by which of the following?",
+"o": [
+"Age",
+"Sarcopenia",
+"Male gender",
+"Gait alone"
+],
+"a": 1,
+"y": 2026,
+"t": "MSM",
+"e": "Frailty is driven mainly by sarcopenia — ↓es muscle mass & strength."
+},
+{
+"s": "Medicine",
+"q": "A patient has symptomatic hypercalcemia due to malignancy. Which of the following is the most appropriate first step in acute management?",
+"o": [
+"Administration of bisphosphonates",
+"Intravenous fluids (isotonic saline volume expansion)",
+"Loop diuretics",
+"Find the source of exogenous calcium"
+],
+"a": 1,
+"y": 2026,
+"t": "END",
+"e": "First step in malignancy-related hypercalcemia = aggressive isotonic saline volume expansion before bisphosphonates."
+},
+{
+"s": "Medicine",
+"q": "In refeeding syndrome, which electrolyte abnormality is the most important and characteristic?",
+"o": [
+"Hypocalcemia",
+"Hypophosphatemia",
+"Hypokalemia",
+"Hyponatremia"
+],
+"a": 1,
+"y": 2026,
+"t": "MSM",
+"e": "Refeeding syndrome: insulin surge drives phosphate intracellularly → hypophosphatemia is the key, most characteristic abnormality."
+},
+{
+"s": "Medicine",
+"q": "A patient with HIV and a CD4 count <40 cells/mm³ presents with a ring- enhancing lesion in the brain on contrast imaging. What is the most likely diagnosis?",
+"o": [
+"Lymphoma",
+"Toxoplasma",
+"Tuberculosis",
+"Progressive multifocal leukoencephalopathy (PML)"
+],
+"a": 1,
+"y": 2026,
+"t": "IFD",
+"e": "CD4 <40 c̅ ring-enhancing brain lesion → toxoplasma encephalitis is the most likely (usually multiple lesions, vs solitary in lymphoma)."
+},
+{
+"s": "Medicine",
+"q": "[Image: ECG showing ST-segment elevation in leads II, III and aVF]\nA patient presents with acute chest pain. Which coronary artery is most likely occluded?",
+"o": [
+"Right coronary artery (RCA)",
+"Left anterior descending artery (LAD)",
+"Left circumflex artery (LCx)",
+"Left main coronary artery"
+],
+"a": 0,
+"y": 2026,
+"t": "CAD",
+"e": "ST elevation in II, III, aVF = inferior MI → right coronary artery occlusion (supplies inferior wall in most people)."
+},
+{
+"s": "Medicine",
+"q": "In the Ann Arbor staging of Hodgkin lymphoma, a mediastinal mass is designated “bulky” (the X modifier) when its maximum width exceeds what proportion of the intrathoracic diameter on chest radiograph?",
+"o": [
+"Greater than one-third (>1/3) of the maximum intrathoracic diameter",
+"Greater than one-half (>1/2) of the maximum intrathoracic diameter",
+"Greater than one-quarter (>1/4) of the maximum intrathoracic diameter",
+"Greater than two-thirds (>2/3) of the maximum intrathoracic diameter"
+],
+"a": 0,
+"y": 2026,
+"t": "HML",
+"e": "Ann Arbor 'bulky' (X) modifier = mediastinal mass width >1/3 of the maximum intrathoracic diameter on CXR."
+},
+{
+"s": "Microbiology",
+"q": "Regarding Extended-Spectrum Beta-Lactamase (ESBL)-producing organisms, which of the following statements are TRUE?",
+"o": [
+"Carbapenems can be used for treatment",
+"Resistance is plasmid-transmitted",
+"Piperacillin-tazobactam is the reliable drug of choice",
+"Third-generation cephalosporins can be used"
+],
+"a": 0,
+"y": 2026,
+"t": "BAC",
+"e": "ESBLs hydrolyse penicillins/cephalosporins but spare carbapenems → carbapenems remain the reliable treatment."
+},
+{
+"s": "Microbiology",
+"q": "Which bacterium possesses two circular chromosomes?",
+"o": [
+"Escherichia coli",
+"Vibrio cholerae",
+"Mycobacterium tuberculosis",
+"Mycoplasma genitalium"
+],
+"a": 1,
+"y": 2026,
+"t": "GEN",
+"e": "Vibrio cholerae uniquely possesses two circular chromosomes (chromosome I & II)."
+},
+{
+"s": "Microbiology",
+"q": "A middle-aged woman from Assam presents with chronic cough, fever, weight loss and cavitary lung lesions. Lung biopsy shows granulomatous inflammation with caseous necrosis and histiocyte-rich infiltrates. Which of the following should be strongly considered in the differential diagnosis?",
+"o": [
+"Sarcoidosis",
+"Aspergillosis",
+"Histoplasmosis",
+"Granulomatosis with polyangiitis"
+],
+"a": 2,
+"y": 2026,
+"t": "MYC",
+"e": "Assam + chronic cough + cavitary lung + caseating granulomas → consider histoplasmosis, a river-valley-endemic TB mimic."
+},
+{
+"s": "Microbiology",
+"q": "Which of the following are advantages/benefits of non-treponemal tests (e.g., VDRL, RPR) in the diagnosis and follow-up of syphilis? (Select all that apply)",
+"o": [
+"They can be used to monitor response to treatment",
+"A standard dilution is used",
+"They remain positive for life",
+"They are quantitative"
+],
+"a": 0,
+"y": 2026,
+"t": "BAC",
+"e": "Non-treponemal titres (VDRL/RPR) fall c̅ treatment, making them useful for monitoring disease response."
+},
+{
+"s": "Microbiology",
+"q": "Which of the following bacterial toxins acts by inhibiting elongation factor 2 (EF- 2)?",
+"o": [
+"Diphtheria toxin",
+"Cholera toxin",
+"Tetanospasmin",
+"Heat-labile toxin of E. coli"
+],
+"a": 0,
+"y": 2026,
+"t": "BAC",
+"e": "Diphtheria toxin ADP-ribosylates & inactivates elongation factor-2, halting host protein synthesis."
+},
+{
+"s": "Microbiology",
+"q": "A patient presents with septic arthritis. Culture grows a Gram-positive coccus that is catalase positive and cefoxitin sensitive. What is the drug of choice?",
+"o": [
+"Cloxacillin",
+"Penicillin",
+"Vancomycin",
+"Linezolid"
+],
+"a": 0,
+"y": 2026,
+"t": "BAC",
+"e": "Catalase-positive GPC that's cefoxitin-sensitive = MSSA → cloxacillin is the drug of choice."
+},
+{
+"s": "Microbiology",
+"q": "A poorly controlled diabetic patient presents with facial pain and a black eschar over the nasal/palatal region. Which organism is most likely responsible?",
+"o": [
+"Rhizopus species (mucormycosis)",
+"Aspergillus species",
+"Candida species",
+"Cryptococcus neoformans"
+],
+"a": 0,
+"y": 2026,
+"t": "MYC",
+"e": "Poorly controlled diabetic c̅ facial pain & black nasal/palatal eschar → mucormycosis (Rhizopus)."
+},
+{
+"s": "Microbiology",
+"q": "In Bacillus anthracis, the poly-D-glutamic acid (poly- -D-glutamate) capsule is encoded by which plasmid?",
+"o": [
+"pXO1 (toxin plasmid)",
+"pXO2 (capsule plasmid)",
+"Chromosomal genes only",
+"pXO1 and pXO2 jointly"
+],
+"a": 1,
+"y": 2026,
+"t": "BAC",
+"e": "Poly-D-glutamate capsule of B. anthracis is encoded on the pXO2 plasmid.\npXO1 instead encodes the toxin genes."
+},
+{
+"s": "Microbiology",
+"q": "What is the mode of infection (route of entry into the human host) of Necator americanus (New World hookworm)?",
+"o": [
+"Skin penetration by filariform larvae",
+"Ingestion of embryonated eggs",
+"Bite of an infected female sandfly",
+"Ingestion of undercooked pork containing cysts"
+],
+"a": 0,
+"y": 2026,
+"t": "PAR",
+"e": "Necator americanus infects via skin penetration by filariform larvae (soil contact, e.g. bare feet)."
+},
+{
+"s": "Microbiology",
+"q": "[Image: Photograph of a sterilisation equipment (autoclave)]\nThe image shown depicts a piece of sterilisation equipment. Which of the following statements regarding its sterilisation properties is INCORRECT?",
+"o": [
+"It is a method of moist heat sterilisation operating above 100 degrees C",
+"Bowie-Dick test positive",
+"Prions are destroyed at 121 degrees C for 15 minutes",
+"It is commonly used for sterilising culture media"
+],
+"a": 2,
+"y": 2026,
+"t": "GEN",
+"e": "Prions are NOT destroyed at 121°C for 15 min; need 134°C for ≥18 min (or NaOH exposure)."
+},
+{
+"s": "Microbiology",
+"q": "Which of the following reagents is used for the digestion and decontamination of a sputum sample collected for tuberculosis diagnosis?",
+"o": [
+"HCl with NAC",
+"H2SO4 with NAC",
+"HNO3 with NALC",
+"NaOH with NALC"
+],
+"a": 3,
+"y": 2026,
+"t": "BAC",
+"e": "NALC-NaOH method: NALC = mucolytic (digests), NaOH = decontaminant for sputum AFB."
+},
+{
+"s": "Microbiology",
+"q": "A patient presents with fever, headache, and neck stiffness suggestive of meningitis. CSF examination is performed, and Nigrosin stain reveals encapsulated budding yeast cells. Which of the following organisms is the most likely causative agent?",
+"o": [
+"Aspergillus fumigatus",
+"Pneumocystis jirovecii",
+"Histoplasma capsulatum",
+"Cryptococcus neoformans"
+],
+"a": 3,
+"y": 2026,
+"t": "MYC",
+"e": "Cryptococcus neoformans: encapsulated budding yeast, capsule shown c̅ India ink/nigrosin; meningitis in immunocompromised."
+},
+{
+"s": "Microbiology",
+"q": "A female presents with high-grade fever, diffuse erythematous rash and hypotension. She is currently menstruating and using tampons. The toxin responsible acts by?",
+"o": [
+"MHC class I molecule only",
+"CD4 receptor only",
+"B-cell receptor and IgG",
+"Vbeta region of the T-cell receptor and MHC class II molecule"
+],
+"a": 3,
+"y": 2026,
+"t": "BAC",
+"e": "Toxic shock syndrome toxin-1 is a superantigen: binds Vβ region of TCR + MHC II → massive T-cell activation and cytokine storm."
+},
+{
+"s": "Microbiology",
+"q": "A 38-year-old man with advanced HIV infection (CD4 count: 60 cells/mm3) presents with chronic watery diarrhea for 2 months, significant weight loss, intermittent fever, and fatigue. Colonoscopy is performed, and biopsy from the colonic mucosa demonstrates trophozoites with RBCs. What is the most likely causative organism?",
+"o": [
+"Giardia lamblia",
+"Cryptococcus neoformans",
+"Cryptosporidium parvum",
+"Entamoeba histolytica"
+],
+"a": 3,
+"y": 2026,
+"t": "PAR",
+"e": "Trophozoites c̅ ingested RBCs = Entamoeba histolytica (invasive colitis).\nCryptosporidium shows acid-fast oocysts, not RBC-containing trophozoites."
+},
+{
+"s": "OBGY",
+"q": "On defecography, a rectocele is considered significant when the anterior bulging of the rectal wall into the posterior vaginal wall exceeds:",
+"o": [
+"1 cm",
+"2 cm",
+"5 cm",
+"7 cm"
+],
+"a": 1,
+"y": 2026,
+"t": "PLF",
+"e": "Rectocele on defecography is significant once anterior rectal wall bulge exceeds 2 cm."
+},
+{
+"s": "OBGY",
+"q": "Which of the following correctly matches a gynaecological cause of amenorrhoea with its mechanism?",
+"o": [
+"Asherman syndrome - intrauterine adhesions (endometrial scarring after curettage)",
+"PCOD - hypogonadotropic hypogonadism with low LH",
+"Sheehan syndrome - primary ovarian (gonadal) failure",
+"Premature ovarian failure (POF) - outflow tract obstruction with normal FSH"
+],
+"a": 0,
+"y": 2026,
+"t": "MNA",
+"e": "Asherman syndrome = intrauterine adhesions/endometrial scarring, classically post-curettage."
+},
+{
+"s": "OBGY",
+"q": "Which of the following is NOT a complication of a monochorionic diamniotic (MCDA) twin pregnancy?",
+"o": [
+"Cord entanglement",
+"Selective fetal growth restriction (sFGR)",
+"Congenital deformities",
+"Need for first-trimester medical termination of pregnancy (MTP)"
+],
+"a": 0,
+"y": 2026,
+"t": "FTP",
+"e": "Cord entanglement is a monoamniotic-twin risk (shared sac); MCDA twins have a dividing membrane so this isn't typical."
+},
+{
+"s": "OBGY",
+"q": "A woman develops a painful, tense, fluctuant swelling in the vulvovaginal region following a forceps delivery, along with difficulty in passing urine. The most likely diagnosis is:",
+"o": [
+"Vulvovaginal hematoma",
+"Urethral diverticulum",
+"Cervical tear",
+"Local infection / abscess"
+],
+"a": 0,
+"y": 2026,
+"t": "PPP",
+"e": "Forceps delivery → painful vulvovaginal hematoma, c̅ urinary retention from local pressure on the urethra."
+},
+{
+"s": "OBGY",
+"q": "Which of the following is a probable sign of pregnancy?",
+"o": [
+"Hegar sign",
+"Braxton Hicks contractions",
+"Osiander sign",
+"Goodell sign"
+],
+"a": 3,
+"y": 2026,
+"t": "NPA",
+"e": "Goodell sign (cervical softening) is classified as a probable sign of pregnancy."
+},
+{
+"s": "OBGY",
+"q": "In a woman at high risk because of a past history of pre-eclampsia, which is the best method to prevent pre-eclampsia in the current pregnancy?",
+"o": [
+"Low-dose aspirin started from 12 weeks of gestation",
+"Aspirin combined with low-molecular-weight heparin (LMWH)",
+"Strict salt (sodium) restriction",
+"Calcium supplementation"
+],
+"a": 0,
+"y": 2026,
+"t": "HRP",
+"e": "Low-dose aspirin started from 12 weeks is the best evidence-based method to ↓es pre-eclampsia recurrence."
+},
+{
+"s": "OBGY",
+"q": "In the management of shoulder dystocia, after calling for help the first/next manoeuvre to be performed is:",
+"o": [
+"McRoberts manoeuvre (with suprapubic pressure)",
+"Zavanelli manoeuvre",
+"Wood's corkscrew manoeuvre",
+"Symphysiotomy"
+],
+"a": 0,
+"y": 2026,
+"t": "LBD",
+"e": "After calling for help, McRoberts manoeuvre c̅ suprapubic pressure is the first step in shoulder dystocia."
+},
+{
+"s": "OBGY",
+"q": "A phenotypic female presents with primary amenorrhoea, an absent uterus, normally developed breasts and sparse/absent pubic and axillary hair. What is the most likely diagnosis?",
+"o": [
+"Androgen insensitivity syndrome (complete AIS)",
+"Mayer-Rokitansky-Küster-Hauser (MRKH) syndrome",
+"Turner syndrome (45,XO)",
+"Kallmann syndrome"
+],
+"a": 0,
+"y": 2026,
+"t": "IFR",
+"e": "CAIS: 46XY c̅ testes present, AMH suppresses Müllerian structures (no uterus), but androgen resistance → female phenotype c̅ scanty pubic/axillary hair despite normal breast development."
+},
+{
+"s": "Ophthalmology",
+"q": "What is the approximate amplitude (power) of accommodation in a 7-year-old child?",
+"o": [
+"+14 D",
+"+10 D",
+"+5 D",
+"+2 D"
+],
+"a": 0,
+"y": 2026,
+"t": "RFQ",
+"e": "Amplitude of accommodation declines c̅ age; ~+14D is typical around 7 years (Duane's curve)."
+},
+{
+"s": "Ophthalmology",
+"q": "A patient has a sudden, painful loss of vision with RAPD but a normal-appearing optic disc on fundoscopy. What is the diagnosis?",
+"o": [
+"AION",
+"Central retinal artery occlusion",
+"Retrobulbar neuritis",
+"Papilledema"
+],
+"a": 2,
+"y": 2026,
+"t": "UVO",
+"e": "Retrobulbar neuritis: painful ↓ vision c̅ RAPD and a normal disc (patient sees nothing, doctor sees nothing)."
+},
+{
+"s": "Orthopedics",
+"q": "[Image: X-ray of the limb showing a long-bone fracture]\nA young adult sustains chest trauma with haemodynamic instability and bilateral femur and tibia fractures. Once the patient has been resuscitated and is haemodynamically stabilized, what is the most appropriate definitive management of the fractures?",
+"o": [
+"Intramedullary nailing of both femurs and external fixation of the tibiae",
+"Plating of the tibiae and external fixation of the femurs",
+"Nailing / plating / external fixation chosen by whichever procedure the surgeon can perform fastest",
+"External fixation of both femurs and both tibiae"
+],
+"a": 0,
+"y": 2026,
+"t": "FRG",
+"e": "Once haemodynamically stable, definitive fixation follows damage-control principles — IM nailing for the femurs, external fixation for the tibiae."
+},
+{
+"s": "Orthopedics",
+"q": "A young adult presents with chest trauma, haemodynamic instability and fractures of bilateral femur and tibia. After the patient has been resuscitated and rendered haemodynamically stable, what is the most appropriate definitive management of the long-bone fractures?",
+"o": [
+"Intramedullary nailing of the femurs and external fixation of the tibiae",
+"Plating of the tibiae and external fixation of the femurs",
+"Nailing / plating / external fixation as per whichever procedure the surgeon can perform fastest",
+"External fixation of both femurs and both tibiae"
+],
+"a": 0,
+"y": 2026,
+"t": "FRG",
+"e": "Once haemodynamically stable, definitive fixation follows damage-control principles — IM nailing for the femurs, external fixation for the tibiae."
+},
+{
+"s": "Orthopedics",
+"q": "[Image: AP X-ray of both lower limbs showing bowing of one leg compared with the other]\nWhat is the most likely cause of unilateral genu varum (bow-leg deformity of one leg) in a patient with a history of a previous injury to that limb?",
+"o": [
+"Malunion of a previous fracture",
+"Rickets",
+"Non-ossifying fibroma",
+"Osteofibrous dysplasia"
+],
+"a": 0,
+"y": 2026,
+"t": "FLL",
+"e": "Unilateral bow-leg c̅ a history of prior injury to that limb → malunion of an old fracture."
+},
+{
+"s": "Orthopedics",
+"q": "[Image: Sagittal fat-saturated ankle MRI showing discontinuity of the Achilles tendon]\nAn athlete presents with sudden pain in the back of the ankle after a push-off, with weakness of plantarflexion. Imaging suggests Achilles tendon rupture. Which of the following is the relevant clinical finding/sign for this condition?",
+"o": [
+"Positive Thompson (Simmonds) test",
+"Positive McMurray test",
+"Steroid injection",
+"Plaster cast immobilisation"
+],
+"a": 0,
+"y": 2026,
+"t": "FLL",
+"e": "Achilles tendon rupture → positive Thompson (Simmonds) test (no plantarflexion on calf squeeze)."
+},
+{
+"s": "Orthopedics",
+"q": "A 30-year-old female post-RTA has persistent pain uncontrolled by analgesics. Compartment pressure is 90 mmHg with absent pulse. What is the treatment?",
+"o": [
+"Emergency fasciotomy",
+"Observation",
+"Increase IV analgesics",
+"External fixation"
+],
+"a": 0,
+"y": 2026,
+"t": "FRG",
+"e": "Compartment syndrome → emergency fasciotomy; absent pulse is a late sign."
+},
+{
+"s": "Pathology",
+"q": "[Image: Lower esophageal mucosa showing columnar (intestinal-type) epithelium with goblet cells replacing the normal stratified squamous epithelium]\nWhich condition does this represent?",
+"o": [
+"Barrett's esophagus",
+"Squamous cell carcinoma",
+"Adenocarcinoma",
+"Low grade dysplasia"
+],
+"a": 0,
+"y": 2026,
+"t": "GIP",
+"e": "Squamous-to-columnar (intestinal) metaplasia c̅ goblet cells defines Barrett's esophagus."
+},
+{
+"s": "Pathology",
+"q": "Which pedigree pattern best characterises a trait showing INCOMPLETE PENETRANCE?",
+"o": [
+"A generation appears skipped - an obligate carrier is unaffected so affected individuals occur in alternate generations",
+"Only one gender is ever affected",
+"None of the family members are affected",
+"Every individual in all generations is affected"
+],
+"a": 0,
+"y": 2026,
+"t": "GNC",
+"e": "Incomplete penetrance → an obligate carrier remains unaffected, giving the appearance of a skipped generation."
+},
+{
+"s": "Pathology",
+"q": "Which of the following is a classic example of a MEDIUM-vessel vasculitis?",
+"o": [
+"Leukocytoclastic (cutaneous small-vessel) vasculitis",
+"Polyarteritis nodosa (PAN)",
+"Granulomatosis with polyangiitis (GPA)",
+"Microscopic polyangiitis (MPA)"
+],
+"a": 1,
+"y": 2026,
+"t": "CVP",
+"e": "Polyarteritis nodosa is the classic example of a medium-vessel vasculitis."
+},
+{
+"s": "Pathology",
+"q": "Which special stain is used to demonstrate fibrosis (collagen deposition) in a liver biopsy?",
+"o": [
+"Masson trichrome",
+"Periodic acid-Schiff (PAS)",
+"Gomori methenamine silver (GMS)",
+"Gram stain"
+],
+"a": 0,
+"y": 2026,
+"t": "LVR",
+"e": "Masson trichrome selectively stains collagen/fibrosis (blue-green) against red-staining muscle."
+},
+{
+"s": "Pathology",
+"q": "Regarding the pathophysiology of beta-thalassemia major, which of the following correctly describes the disease mechanism?",
+"o": [
+"Ineffective (defective) erythropoiesis",
+"Hepcidin is markedly increased",
+"Hepcidin is suppressed, causing iron overload",
+"Predominantly intravascular hemolysis"
+],
+"a": 0,
+"y": 2026,
+"t": "HAM",
+"e": "β-thalassemia major: imbalanced globin chain synthesis → precipitated α-chains cause marrow precursor apoptosis → ineffective erythropoiesis."
+},
+{
+"s": "Pathology",
+"q": "A patient has Hb 9 g/dL, MCV 68 fL and a low serum ferritin. The most likely type of anemia is:",
+"o": [
+"Iron deficiency anemia",
+"Megaloblastic anemia",
+"Aplastic anemia",
+"Hemolytic anemia"
+],
+"a": 0,
+"y": 2026,
+"t": "HAM",
+"e": "Microcytic anemia (MCV 68) c̅ low ferritin = iron deficiency anemia."
+},
+{
+"s": "Pathology",
+"q": "Which technique is best suited for identifying a specific protein in a formalin-fixed paraffin-embedded (FFPE) tissue section?",
+"o": [
+"Immunohistochemistry (IHC)",
+"Fluorescence in situ hybridization (FISH)",
+"Western blot",
+"Flow cytometry"
+],
+"a": 0,
+"y": 2026,
+"t": "IMP",
+"e": "IHC uses labelled antibodies to detect specific antigens/proteins directly in FFPE tissue sections."
+},
+{
+"s": "Pathology",
+"q": "A patient with long-standing rheumatoid arthritis develops nephrotic-range proteinuria. Renal biopsy with Congo red stain shows apple-green birefringence under polarised light. Which type of amyloid protein is most likely deposited?",
+"o": [
+"AA (serum amyloid A-derived) amyloid",
+"AL (immunoglobulin light chain) amyloid",
+"Abeta₂-microglobulin amyloid",
+"ATTR (transthyretin) amyloid"
+],
+"a": 0,
+"y": 2026,
+"t": "IMP",
+"e": "RA c̅ nephrotic-range proteinuria + apple-green birefringence = secondary (AA) amyloidosis from chronic inflammation."
+},
+{
+"s": "Pathology",
+"q": "A child develops cola-coloured urine, periorbital oedema and hypertension two weeks after a sore throat. Urine microscopy shows red blood cell casts. On electron microscopy of the renal biopsy, which finding is characteristic of this condition?",
+"o": [
+"Subepithelial electron-dense “humps”",
+"Subendothelial deposits with “tram-track” basement membrane splitting",
+"Diffuse effacement of podocyte foot processes with no deposits",
+"Linear ribbon-like deposits along the glomerular basement membrane"
+],
+"a": 0,
+"y": 2026,
+"t": "RNP",
+"e": "Post-streptococcal GN: EM shows subepithelial electron-dense 'humps' (immune complex deposits)."
+},
+{
+"s": "Pathology",
+"q": "A histology slide of myocardium is taken from a patient who died 1-3 days after an acute myocardial infarction. Which of the following cellular changes is MOST characteristic of this time interval?",
+"o": [
+"Dense neutrophilic (polymorphonuclear) infiltration of necrotic myocardium",
+"Coagulative necrosis with wavy fibres and contraction bands only",
+"Macrophage infiltration with phagocytosis of dead myocytes",
+"Dense collagenous scar with few cells"
+],
+"a": 0,
+"y": 2026,
+"t": "CVP",
+"e": "1-3 days post-MI: coagulative necrosis c̅ dense neutrophilic infiltration is the dominant histological finding."
+},
+{
+"s": "Pediatrics",
+"q": "A 20-month-old child says only one word and is otherwise developmentally normal in motor and social domains. What is the most appropriate next step?",
+"o": [
+"Reassure the parents",
+"Speech and hearing evaluation",
+"Diagnose as autism",
+"Reassess at 5 years of age"
+],
+"a": 1,
+"y": 2026,
+"t": "GRW",
+"e": "Single word at 20 months c̅ otherwise normal motor/social milestones = isolated expressive language delay → refer for speech & hearing evaluation."
+},
+{
+"s": "Pediatrics",
+"q": "A 6-week-old infant presents with bacterial meningitis. Which organism is the most likely cause?",
+"o": [
+"Staphylococcus aureus",
+"Streptococcus pneumoniae",
+"Haemophilus influenzae",
+"Listeria monocytogenes"
+],
+"a": 3,
+"y": 2026,
+"t": "NEN",
+"e": "Listeria monocytogenes is a classic late-neonatal (beyond first week) meningitis pathogen."
+},
+{
+"s": "Pediatrics",
+"q": "A neonate presents with prolonged jaundice and an umbilical hernia. The most likely diagnosis is:",
+"o": [
+"Down syndrome",
+"Congenital hypothyroidism",
+"Cerebral palsy",
+"Biliary atresia"
+],
+"a": 1,
+"y": 2026,
+"t": "PEM",
+"e": "Prolonged jaundice + umbilical hernia → congenital hypothyroidism."
+},
+{
+"s": "Pediatrics",
+"q": "Differential cyanosis (pink upper limbs with cyanosed lower limbs) is characteristically seen in:",
+"o": [
+"Patent ductus arteriosus (PDA) with reversal of shunt / Eisenmenger",
+"Osler-Weber-Rendu syndrome",
+"Peripheral arterial disease",
+"Transposition of great arteries (simple)"
+],
+"a": 0,
+"y": 2026,
+"t": "PCR",
+"e": "PDA c̅ reversed (R→L)/Eisenmenger shunt sends deoxygenated blood to the lower body → differential cyanosis."
+},
+{
+"s": "Pediatrics",
+"q": "An infant girl shows normal early development followed by regression of acquired milestones at around 6-18 months, with deceleration of head growth and loss of purposeful hand use replaced by stereotyped hand-wringing movements. The most likely diagnosis is:",
+"o": [
+"Rett syndrome",
+"Childhood disintegrative disorder (Heller syndrome)",
+"Classic autism spectrum disorder",
+"Attention-deficit/hyperactivity disorder"
+],
+"a": 0,
+"y": 2026,
+"t": "PGS",
+"e": "Regression at 6-18 months, ↓es head growth & stereotypic hand-wringing = Rett syndrome."
+},
+{
+"s": "Pediatrics",
+"q": "[Image: Slit-lamp view showing multiple small tan-colored iris nodules; skin photograph showing flat light-brown patches, in a child with neurofibromatosis type 1 (NF1)]\nWhich cutaneous lesion is the earliest and most characteristic feature of NF1?",
+"o": [
+"Café-au-lait macules",
+"Ash-leaf (hypopigmented) macules",
+"Port-wine stain",
+"Shagreen patch"
+],
+"a": 0,
+"y": 2026,
+"t": "PGS",
+"e": "Café-au-lait macules are the earliest, most characteristic cutaneous sign of NF1."
+},
+{
+"s": "Pediatrics",
+"q": "Which of the following is NOT a feature of Kawasaki disease?",
+"o": [
+"Purulent conjunctivitis",
+"Bilateral non-exudative conjunctival injection",
+"Strawberry tongue and cracked lips",
+"Cervical lymphadenopathy"
+],
+"a": 0,
+"y": 2026,
+"t": "PCR",
+"e": "Kawasaki disease → bilateral non-exudative/non-purulent conjunctival injection, NOT purulent discharge."
+},
+{
+"s": "Pediatrics",
+"q": "A term neonate has a blood glucose of 36 mg/dL. The infant is feeding well and has no clinical signs. Which characteristic of this neonate favours continued breastfeeding (with monitoring) rather than immediate intravenous dextrose infusion?",
+"o": [
+"The neonate is asymptomatic",
+"The neonate is symptomatic with jitteriness",
+"The neonate is having seizures",
+"The neonate is lethargic and not feeding"
+],
+"a": 0,
+"y": 2026,
+"t": "NEN",
+"e": "Asymptomatic neonatal hypoglycemia c̅ good feeding → continue breastfeeding & monitor rather than IV dextrose."
+},
+{
+"s": "Pediatrics",
+"q": "Transplacental transfer of maternal anti-Ro (SS-A) and anti-La (SS-B) antibodies is most characteristically associated with which neonatal condition?",
+"o": [
+"Neonatal lupus erythematosus (with congenital complete heart block)",
+"Neonatal myasthenia gravis",
+"Haemolytic disease of the newborn",
+"Neonatal Graves’ (thyrotoxicosis)"
+],
+"a": 0,
+"y": 2026,
+"t": "NEN",
+"e": "Transplacental anti-Ro/anti-La → neonatal lupus erythematosus c̅ congenital complete heart block."
+},
+{
+"s": "Pharmacology",
+"q": "Lamotrigine is a broad-spectrum antiepileptic. For which of the following seizure types is lamotrigine particularly useful and a recognised first/adjunctive choice?",
+"o": [
+"Generalised tonic-clonic seizures (GTCS)",
+"Myoclonic seizures",
+"Absence seizures",
+"Atonic seizures"
+],
+"a": 0,
+"y": 2026,
+"t": "CNF",
+"e": "Lamotrigine is a recognised first/adjunctive choice for GTCS; it can worsen myoclonic seizures."
+},
+{
+"s": "Pharmacology",
+"q": "Cilnidipine is unique among dihydropyridine calcium channel blockers in not causing reflex tachycardia. This is because, in addition to L-type channels, it also blocks which type of voltage-gated calcium channel located on sympathetic nerve endings?",
+"o": [
+"T-type",
+"R-type",
+"N-type",
+"L-type"
+],
+"a": 2,
+"y": 2026,
+"t": "CVF",
+"e": "Cilnidipine additionally blocks N-type Ca²⁺ channels on sympathetic nerve terminals → ↓es NE release → avoids reflex tachycardia."
+},
+{
+"s": "Pharmacology",
+"q": "All of the following are ligand-gated ion channel (ionotropic) receptors EXCEPT:",
+"o": [
+"5-HT3 receptor",
+"Nicotinic acetylcholine receptor",
+"GABA-A receptor",
+"Histamine H2 receptor"
+],
+"a": 3,
+"y": 2026,
+"t": "GNP",
+"e": "Histamine H2 receptor is a metabotropic GPCR, not a ligand-gated ion channel like 5-HT3, nicotinic-ACh or GABA-A receptors."
+},
+{
+"s": "Pharmacology",
+"q": "Regarding nicotine replacement therapy (NRT), which of the following statements is correct?",
+"o": [
+"Acidic foods/beverages should be avoided for about 15 minutes before using nicotine gum or lozenge",
+"Nicotine gum delivers more nicotine than an equivalent lozenge",
+"Varenicline carries a black box warning for cardiovascular risk",
+"Swallowed nicotine is well absorbed from the gastrointestinal tract"
+],
+"a": 0,
+"y": 2026,
+"t": "ANS",
+"e": "Acidic beverages ↓es buccal pH → ↓es nicotine absorption from gum/lozenge, so should be avoided ~15 min before use."
+},
+{
+"s": "Pharmacology",
+"q": "Which of the following receptors is coupled to the stimulatory G protein (Gs)?",
+"o": [
+"M2 muscarinic receptor",
+"M1 muscarinic receptor",
+"Beta-adrenergic receptor",
+"Alpha-2-adrenergic receptor"
+],
+"a": 2,
+"y": 2026,
+"t": "GNP",
+"e": "β-adrenergic receptors couple to Gs protein → ↑es adenylate cyclase/cAMP."
+},
+{
+"s": "Pharmacology",
+"q": "Match each targeted anticancer drug with its molecular target. Which of the following pairings is entirely correct?",
+"o": [
+"Sunitinib - c-KIT/VEGFR; Nilotinib - BCR-ABL; Trastuzumab - HER2; Gefitinib - EGFR",
+"Sunitinib - HER2; Nilotinib - EGFR; Trastuzumab - BCR-ABL; Gefitinib - c-KIT",
+"Sunitinib - BCR-ABL; Nilotinib - c-KIT; Trastuzumab - EGFR; Gefitinib - HER2",
+"Sunitinib - EGFR; Nilotinib - HER2; Trastuzumab - c-KIT; Gefitinib - BCR-ABL"
+],
+"a": 0,
+"y": 2026,
+"t": "ACI",
+"e": "Sunitinib – c-KIT/VEGFR\nNilotinib – BCR-ABL\nTrastuzumab – HER2\nGefitinib – EGFR."
+},
+{
+"s": "Pharmacology",
+"q": "Regarding anti-ageing/longevity drugs and their molecular targets, which of the following pairs is incorrectly matched?",
+"o": [
+"Rapamycin - mTOR inhibitor",
+"Metformin - AMPK activator",
+"Resveratrol - Sirtuin (SIRT1) activator",
+"Spermidine - decreases autophagy"
+],
+"a": 3,
+"y": 2026,
+"t": "GNP",
+"e": "Spermidine actually ↑es autophagy (its proposed longevity mechanism) — the stated pairing (decreases autophagy) is reversed/incorrect."
+},
+{
+"s": "Pharmacology",
+"q": "A child with Dravet syndrome is started on fenfluramine for seizure control. Which of the following must be specifically monitored during therapy?",
+"o": [
+"Cardiovascular status (echocardiography for valvulopathy/pulmonary hypertension)",
+"Agranulocytosis",
+"Hepatic failure",
+"Renal failure"
+],
+"a": 0,
+"y": 2026,
+"t": "CNF",
+"e": "Fenfluramine carries valvulopathy/pulmonary hypertension risk → needs monitoring c̅ serial echocardiography."
+},
+{
+"s": "Pharmacology",
+"q": "Which of the following antifungal agents is NOT effective for the treatment of mucormycosis?",
+"o": [
+"Isavuconazole",
+"Posaconazole",
+"Voriconazole",
+"Amphotericin B"
+],
+"a": 2,
+"y": 2026,
+"t": "AMI",
+"e": "Voriconazole has no activity against Mucorales, making it ineffective in mucormycosis."
+},
+{
+"s": "Pharmacology",
+"q": "In organophosphate (OP) poisoning, which drug reverses the inhibited activity of acetylcholinesterase (AChE)?",
+"o": [
+"Atropine",
+"Pralidoxime",
+"Flumazenil",
+"Naloxone"
+],
+"a": 1,
+"y": 2026,
+"t": "ANS",
+"e": "Pralidoxime reactivates AChE that has been phosphorylated by organophosphates (before enzyme 'ageing')."
+},
+{
+"s": "Pharmacology",
+"q": "Which of the following statements about ticagrelor is TRUE?",
+"o": [
+"It is a reversible P2Y12 receptor inhibitor",
+"It is a prodrug requiring hepatic activation",
+"It causes more cerebral bleeding than clopidogrel",
+"It is given once daily"
+],
+"a": 0,
+"y": 2026,
+"t": "CVF",
+"e": "Ticagrelor is a reversible, direct-acting (non-prodrug) P2Y12 inhibitor given twice daily."
+},
+{
+"s": "Pharmacology",
+"q": "From the quantal dose-response curves shown, the median toxic dose is 400 mg and the median effective dose is 100 mg. Calculate the therapeutic index. (Refer to the figure.)",
+"o": [
+"4",
+"0.25",
+"1",
+"500"
+],
+"a": 0,
+"y": 2026,
+"t": "GNP",
+"e": "Therapeutic index = TD50/ED50 = 400/100 = 4."
+},
+{
+"s": "Pharmacology",
+"q": "Which adverse effect is most characteristically associated with the antiepileptic drug lamotrigine?",
+"o": [
+"Severe cutaneous reactions including Stevens-Johnson syndrome / dizziness",
+"Marked dose-independent hepatotoxicity",
+"Gingival hyperplasia",
+"Irreversible visual field constriction"
+],
+"a": 0,
+"y": 2026,
+"t": "CNF",
+"e": "Lamotrigine's characteristic adverse effect is a severe cutaneous reaction (SJS/TEN risk), especially c̅ rapid dose escalation or valproate co-therapy."
+},
+{
+"s": "Pharmacology",
+"q": "Which of the following is a novel (newer) antidepressant that acts as a serotonin partial agonist and reuptake inhibitor (SPARI)?",
+"o": [
+"Vilazodone",
+"Trazodone",
+"Imipramine",
+"Amitriptyline"
+],
+"a": 0,
+"y": 2026,
+"t": "CNF",
+"e": "Vilazodone is a serotonin partial agonist & reuptake inhibitor (SPARI) — a newer-generation antidepressant."
+},
+{
+"s": "Pharmacology",
+"q": "What is the specific antidote used in acute opioid (e.g. heroin, morphine) poisoning?",
+"o": [
+"Naloxone",
+"Flumazenil",
+"Atropine",
+"N-acetylcysteine"
+],
+"a": 0,
+"y": 2026,
+"t": "CNF",
+"e": "Naloxone is the specific opioid-receptor antagonist antidote for opioid overdose."
+},
+{
+"s": "Pharmacology",
+"q": "The plasma drug-concentration versus time curve shown declines such that the half-life remains constant regardless of the starting concentration, and a constant fraction of drug is eliminated per unit time. This pattern best represents which type of elimination kinetics?",
+"o": [
+"First-order kinetics",
+"Zero-order kinetics",
+"Michaelis-Menten (saturation) kinetics at saturating dose",
+"Mixed-order kinetics"
+],
+"a": 0,
+"y": 2026,
+"t": "GNP",
+"e": "First-order kinetics: half-life stays constant and a constant fraction (not amount) of drug is eliminated per unit time, regardless of dose."
+},
+{
+"s": "Pharmacology",
+"q": "Pretomanid, a nitroimidazole used in the BPaL/BPaLM regimen for drug-resistant tuberculosis, acts mainly by which mechanism?",
+"o": [
+"Inhibition of mycolic acid synthesis (and generation of reactive nitrogen species), impairing cell-wall formation and anaerobic respiration",
+"Inhibition of the RNA polymerase beta-subunit (rpoB)",
+"Inhibition of mycobacterial ATP synthase",
+"Inhibition of DNA gyrase (topoisomerase II)"
+],
+"a": 0,
+"y": 2026,
+"t": "AMI",
+"e": "Pretomanid ↓es mycolic acid synthesis and generates reactive nitrogen species, impairing anaerobic mycobacterial metabolism."
+},
+{
+"s": "Pharmacology",
+"q": "Which class of antibiotics characteristically shows concentration-dependent killing?",
+"o": [
+"Aminoglycosides",
+"Beta-lactams (penicillins)",
+"Glycopeptides (vancomycin)",
+"Macrolides (erythromycin)"
+],
+"a": 0,
+"y": 2026,
+"t": "AMI",
+"e": "Aminoglycosides show concentration-dependent killing — higher peak levels give greater bactericidal effect (basis of once-daily dosing)."
+},
+{
+"s": "Pharmacology",
+"q": "A patient is brought to the emergency department with pin-point pupils, depressed respiration, and a reduced level of consciousness following suspected opioid (e.g., morphine/heroin) overdose. Which drug is the specific antidote?",
+"o": [
+"Naloxone",
+"Flumazenil",
+"Atropine",
+"N-acetylcysteine"
+],
+"a": 0,
+"y": 2026,
+"t": "CNF",
+"e": "Naloxone reverses the opioid toxidrome (miosis, ↓es respiration, ↓es consciousness)."
+},
+{
+"s": "Pharmacology",
+"q": "What is the mechanism of action of Resmetirom?",
+"o": [
+"Blockage at NPC1L1 transporter",
+"Activation of PPAR-gamma",
+"Blockage of Acetyl-CoA carboxylase",
+"Stimulation of Thyroid Hormone Receptor-beta"
+],
+"a": 3,
+"y": 2026,
+"t": "GRF",
+"e": "Resmetirom = selective thyroid hormone receptor-β agonist in the liver → ↓es hepatic fat (MASH/NASH)."
+},
+{
+"s": "Physiology",
+"q": "Which of the following is a respiratory effect of progesterone during pregnancy?",
+"o": [
+"Increased respiratory drive (hyperventilation)",
+"Decreased tidal volume",
+"Decreased arterial PO2",
+"Increased arterial PCO2"
+],
+"a": 0,
+"y": 2026,
+"t": "ENR",
+"e": "Progesterone ↑es central respiratory drive → hyperventilation in pregnancy."
+},
+{
+"s": "Physiology",
+"q": "Renin secretion from the juxtaglomerular apparatus is stimulated in response to:",
+"o": [
+"Elevated sodium delivery to the macula densa",
+"Elevated renal perfusion pressure",
+"Reduced renal perfusion pressure",
+"Increased extracellular fluid volume"
+],
+"a": 2,
+"y": 2026,
+"t": "REN",
+"e": "↓es renal perfusion pressure → ↑es renin release from JG cells (baroreceptor-mediated)."
+},
+{
+"s": "Physiology",
+"q": "Hyperpolarization of the receptor cell on stimulation is characteristically seen with which of the following sensory modalities?",
+"o": [
+"Olfactory",
+"Visual",
+"Taste",
+"Tactile"
+],
+"a": 1,
+"y": 2026,
+"t": "SPS",
+"e": "Photoreceptors are unique among sensory receptors in hyperpolarizing (not depolarizing) on stimulation by light."
+},
+{
+"s": "Physiology",
+"q": "In which region of the adult human brain can neurons regenerate and increase in number (adult neurogenesis)?",
+"o": [
+"Ventral part of spinal cord",
+"Dentate gyrus of the hippocampus",
+"Substantia nigra",
+"Locus ceruleus"
+],
+"a": 1,
+"y": 2026,
+"t": "NPH",
+"e": "Dentate gyrus of the hippocampus is a recognised site of adult neurogenesis."
+},
+{
+"s": "Physiology",
+"q": "The graph shows the relative filterability of molecules across the glomerular capillary wall plotted against effective molecular radius, for three curves A, B and C carrying different charges. Based on charge, which molecule is filtered most readily? (Refer to the figure; for a given molecular radius, filterability order A > B > C, with C marked as anions.)",
+"o": [
+"A (cation)",
+"B (neutral)",
+"C (anion)",
+"All are filtered equally"
+],
+"a": 0,
+"y": 2026,
+"t": "REN",
+"e": "The negatively-charged glomerular basement membrane repels anions → cations filtered most readily at a given radius."
+},
+{
+"s": "Physiology",
+"q": "Which intestinal membrane transporter is exploited in the therapeutic management (oral rehydration) of secretory diarrhea?",
+"o": [
+"CFTR chloride channel",
+"SGLT (sodium-glucose cotransporter)",
+"Na /K ATPase pump",
+"Aquaporin-2 water channel"
+],
+"a": 1,
+"y": 2026,
+"t": "GIT",
+"e": "SGLT1 co-transports Na⁺ c̅ glucose, driving water absorption independent of the defective CFTR channel — the basis of oral rehydration therapy."
+},
+{
+"s": "Physiology",
+"q": "Regarding the pattern of coronary blood flow, how does flow in the right coronary artery (RCA) differ from that in the left coronary artery (LCA) during the cardiac cycle?",
+"o": [
+"RCA receives appreciable flow in both systole and diastole (biphasic), whereas LCA flow occurs predominantly in diastole",
+"RCA flow occurs almost entirely in diastole, while LCA flow is biphasic",
+"Both RCA and LCA are perfused only during systole",
+"Both RCA and LCA are perfused only during diastole"
+],
+"a": 0,
+"y": 2026,
+"t": "CVS",
+"e": "RCA flow is biphasic (systole + diastole) since RV pressure stays low throughout the cycle.\nLCA flow is mainly diastolic, as high LV systolic pressure compresses intramural vessels."
+},
+{
+"s": "Physiology",
+"q": "Damage to the glomerular capillary wall causes which of the following to appear in urine?",
+"o": [
+"Uric acid",
+"Glucose",
+"Ketones",
+"Proteins"
+],
+"a": 3,
+"y": 2026,
+"t": "REN",
+"e": "Damaged glomerular filtration barrier → proteinuria (albumin leaks into urine)."
+},
+{
+"s": "Physiology",
+"q": "Which structure in the nephron functions as the counter-current multiplier to help concentrate urine?",
+"o": [
+"Thick ascending loop of Henle",
+"Thin ascending loop of Henle",
+"Collecting duct",
+"Vasa recta"
+],
+"a": 0,
+"y": 2026,
+"t": "REN",
+"e": "Thick ascending limb (NKCC2) actively pumps out NaCl but is water-impermeable → counter-current multiplier.\nVasa recta = counter-current exchanger."
+},
+{
+"s": "Physiology",
+"q": "Following a bolus administration of insulin, which of the following occurs?",
+"o": [
+"Glucose uptake into the liver via GLUT4",
+"Glucose uptake into muscle via GLUT4",
+"Glucose uptake into muscle via GLUT2",
+"Glucose uptake into the liver via GLUT2"
+],
+"a": 1,
+"y": 2026,
+"t": "ENR",
+"e": "Insulin ↑es GLUT4 translocation in skeletal muscle (and adipose).\nLiver uses GLUT2, which is insulin-independent."
+},
+{
+"s": "Physiology",
+"q": "If a patient is on testosterone therapy, what changes can one see in LH and FSH levels?",
+"o": [
+"Increased LH, decreased FSH",
+"Decreased LH, increased FSH",
+"Increased LH, increased FSH",
+"Decreased LH, decreased FSH"
+],
+"a": 3,
+"y": 2026,
+"t": "ENR",
+"e": "Exogenous testosterone → negative feedback on hypothalamus/pituitary → LH ↓es and FSH ↓es."
+},
+{
+"s": "Physiology",
+"q": "[Image: Histology/diagram of a skin receptor (encapsulated sensory nerve ending in the dermis)]\nIdentify the skin receptor shown in the image.",
+"o": [
+"Pacinian corpuscle",
+"Merkel disc",
+"Ruffini ending",
+"Meissner corpuscle"
+],
+"a": 0,
+"y": 2026,
+"t": "NPH",
+"e": "Pacinian corpuscle = onion-like lamellated encapsulated ending in the deep dermis; senses vibration and deep pressure."
+},
+{
+"s": "Physiology",
+"q": "The intercalated disc is composed of:\n1. Cadherins\n2. Desmosomes\n3. Gap junctions\n4. Tight junctions",
+"o": [
+"1, 2 and 3",
+"2, 3 and 4",
+"1, 3 and 4",
+"1, 2, 3 and 4"
+],
+"a": 0,
+"y": 2026,
+"t": "CVS",
+"e": "Intercalated disc = fascia adherens (cadherins) + desmosomes + gap junctions; tight junctions are absent."
+},
+{
+"s": "Physiology",
+"q": "Which of the following statements regarding hormones and their metabolic actions are correct?\nA. Insulin increases protein synthesis\nB. Thyroxine decreases basal metabolic rate\nC. Insulin decreases blood glucose levels\nD. Epinephrine increases glycogenolysis\nE. Glucagon increases gluconeogenesis",
+"o": [
+"A, B and C only",
+"A, C and D only",
+"A, C, D and E only",
+"All of the above"
+],
+"a": 2,
+"y": 2026,
+"t": "ENR",
+"e": "Insulin ↑es protein synthesis and ↓es blood glucose; epinephrine ↑es glycogenolysis; glucagon ↑es gluconeogenesis.\nThyroxine ↑es (not ↓es) BMR."
+},
+{
+"s": "Psychiatry",
+"q": "A divorced, alcoholic man with major depression presents stating, \"What is the point in living?\" What is the most appropriate next step in management?",
+"o": [
+"Hospitalize",
+"Cognitive behavioural therapy (CBT)",
+"Antidepressant",
+"Reassure that it is a normal part of life"
+],
+"a": 0,
+"y": 2026,
+"t": "MOD",
+"e": "High suicide-risk profile (male, alcoholic, divorced, depressed, active ideation) → hospitalize for safety first."
+},
+{
+"s": "Psychiatry",
+"q": "Which of the following statements best describes classical conditioning?",
+"o": [
+"Unconditioned stimulus producing an unconditioned response",
+"Conditioned stimulus producing a conditioned response",
+"Association between a conditioned stimulus and a conditioned response",
+"Association between an unconditioned stimulus and an unconditioned response"
+],
+"a": 1,
+"y": 2026,
+"t": "ANX",
+"e": "Classical conditioning = a conditioned stimulus alone now elicits the conditioned response."
+},
+{
+"s": "Psychiatry",
+"q": "A chronic alcoholic with thiamine deficiency develops a memory disturbance in which he is unable to form new memories, though older memories are relatively preserved. This Korsakoff syndrome is characterised by which type of memory deficit?",
+"o": [
+"Anterograde amnesia",
+"Retrograde amnesia",
+"Transient global amnesia",
+"Dissociative amnesia"
+],
+"a": 0,
+"y": 2026,
+"t": "SUB",
+"e": "Korsakoff syndrome → anterograde amnesia c̅ relatively preserved remote memory."
+},
+{
+"s": "Radiology",
+"q": "According to ACR guidelines, a Group II gadolinium-based contrast agent (lowest risk of nephrogenic systemic fibrosis) can be safely administered in which of the following?",
+"o": [
+"A patient with GFR <50 mL/min/1.73m²",
+"A 30-year-old with no renal function test done",
+"A 60-year-old with no renal function test done",
+"A child with normal renal function"
+],
+"a": 0,
+"y": 2026,
+"t": "RDB",
+"e": "Group II GBCAs carry minimal NSF risk even c̅ ↓es GFR → safe to give without renal screening."
+},
+{
+"s": "Radiology",
+"q": "A 12-year-old child presents with an uncomplicated upper respiratory tract infection (URTI). What is the most appropriate next radiological investigation?",
+"o": [
+"No radiological investigation",
+"HRCT chest",
+"CECT chest",
+"Chest X-ray"
+],
+"a": 0,
+"y": 2026,
+"t": "RDB",
+"e": "Uncomplicated URTI is a clinical diagnosis — no imaging is indicated."
+},
+{
+"s": "Radiology",
+"q": "A Group II gadolinium-based contrast agent (per ACR/RCR guidance, lowest risk of nephrogenic systemic fibrosis) can be safely administered in which of the following patients?",
+"o": [
+"A patient with GFR <50 mL/min/1.73m²",
+"A 30-year-old with no renal function test done",
+"A 60-year-old with no renal function test done",
+"A patient with normal renal function tests"
+],
+"a": 0,
+"y": 2026,
+"t": "RDB",
+"e": "Group II GBCAs carry minimal NSF risk even c̅ ↓es GFR → safe to give without renal screening."
+},
+{
+"s": "Radiology",
+"q": "A 12-year-old child presents with an uncomplicated upper respiratory tract infection (URTI). What should be the next step regarding radiological imaging?",
+"o": [
+"No radiological investigation",
+"HRCT chest",
+"CECT chest",
+"Chest X-ray"
+],
+"a": 0,
+"y": 2026,
+"t": "RDB",
+"e": "Uncomplicated URTI is a clinical diagnosis — no imaging is indicated."
+},
+{
+"s": "Radiology",
+"q": "A 70-year-old man with a past history of pulmonary tuberculosis, currently on anti-tubercular therapy (ATT), presents with back pain. An MRI of the spine is performed and shows a vertebral lesion. What is the next investigation of choice to reach a definitive diagnosis?",
+"o": [
+"Mantoux test",
+"Biopsy",
+"Serum protein electrophoresis",
+"CT chest"
+],
+"a": 1,
+"y": 2026,
+"t": "RDN",
+"e": "New vertebral lesion on ATT c̅ back pain needs biopsy for definitive tissue diagnosis (rule out relapse/malignancy)."
+},
+{
+"s": "Radiology",
+"q": "An elderly female patient presents to the emergency department with acute onset left flank pain radiating to the groin. What is the most appropriate imaging protocol for initial evaluation?",
+"o": [
+"Direct MRI of the abdomen and pelvis",
+"Ultrasound of the abdomen followed by CT if inconclusive",
+"Plain X-ray of the abdomen followed by CT urogram",
+"Non-contrast CT (NCCT) followed by contrast-enhanced CT (CECT)"
+],
+"a": 1,
+"y": 2026,
+"t": "RDW",
+"e": "Ultrasound = radiation-free first-line for flank pain/renal colic (detects hydronephrosis); CT if inconclusive."
+},
+{
+"s": "Surgery",
+"q": "In laparoscopic (TAPP/TEP) inguinal hernia repair, what is the minimum distance of dissection below the inguinal ligament required to adequately expose the entire myopectineal orifice of Fruchaud?",
+"o": [
+"0.5 cm",
+"1 cm",
+"2 cm",
+"10 cm"
+],
+"a": 2,
+"y": 2026,
+"t": "GNS",
+"e": "≥2 cm of dissection below the inguinal ligament is needed to fully expose the myopectineal orifice of Fruchaud."
+},
+{
+"s": "Surgery",
+"q": "Which clinical feature best differentiates mechanical small intestinal obstruction from paralytic ileus?",
+"o": [
+"Colicky pain",
+"Tachycardia",
+"Abdominal distension",
+"Vomiting"
+],
+"a": 0,
+"y": 2026,
+"t": "GIS",
+"e": "Colicky pain (peristalsis fighting an obstruction) is the key clue to mechanical obstruction — absent in atonic paralytic ileus."
+},
+{
+"s": "Surgery",
+"q": "[Image: Bilateral defect of the upper lip with associated nasal deformity, with clefts on both sides of the midline and an isolated central segment]\nIdentify the facial anomaly depicted.",
+"o": [
+"Bilateral cleft lip",
+"Midline cleft lip",
+"Cleft palate",
+"Oblique facial cleft"
+],
+"a": 0,
+"y": 2026,
+"t": "PDS",
+"e": "Bilateral clefts flanking an isolated central prolabial/premaxillary segment = bilateral cleft lip."
+},
+{
+"s": "Surgery",
+"q": "Total Mesorectal Excision (TME), the standard operation for rectal cancer, is best described as:",
+"o": [
+"Excision of only the peritumoral fat",
+"Sharp dissection of the entire mesorectum as a single intact unit",
+"Blunt dissection of the mesorectum",
+"Ligation of the internal iliac artery"
+],
+"a": 1,
+"y": 2026,
+"t": "GIS",
+"e": "TME = sharp dissection along the 'holy plane', removing the mesorectum as one intact envelope."
+},
+{
+"s": "Surgery",
+"q": "In the modern trauma resuscitation protocol used for a patient with exsanguinating external hemorrhage, what is the correct order of priorities?",
+"o": [
+"Catastrophic hemorrhage control to Airway to Breathing to Circulation to Disability to Exposure (C-ABCDE)",
+"Airway to Breathing to Circulation to Disability to Exposure (ABCDE)",
+"Circulation to Airway to Breathing to Disability to Exposure (CABDE)",
+"Disability to Airway to Breathing to Circulation to Exposure"
+],
+"a": 0,
+"y": 2026,
+"t": "TCC",
+"e": "C-ABCDE — catastrophic external haemorrhage control now precedes airway in modern trauma resuscitation."
+},
+{
+"s": "Surgery",
+"q": "A prostate biopsy reports a Gleason score of 4+4. Which ISUP/WHO Grade Group does this correspond to?",
+"o": [
+"Grade Group 1",
+"Grade Group 2",
+"Grade Group 3",
+"Grade Group 4"
+],
+"a": 3,
+"y": 2026,
+"t": "URO",
+"e": "Gleason 4+4=8 corresponds to ISUP Grade Group 4."
+},
+{
+"s": "Surgery",
+"q": "All of the following are sphincter-preserving surgical techniques for anal fistula EXCEPT:",
+"o": [
+"LIFT (Ligation of Intersphincteric Fistula Tract)",
+"FiLaC (Fistula-tract Laser Closure)",
+"VAAFT (Video-Assisted Anal Fistula Treatment)",
+"Fistulectomy"
+],
+"a": 3,
+"y": 2026,
+"t": "GIS",
+"e": "Fistulectomy divides the sphincter complex — unlike LIFT, FiLaC or VAAFT, it is not sphincter-sparing."
+},
+{
+"s": "Surgery",
+"q": "The \"lethal triad\" (deadly triad) associated with massive blood transfusion classically comprises hypothermia, coagulopathy and acidosis. Which of the following is NOT a component of this classic lethal triad?",
+"o": [
+"Hyperkalemia",
+"Coagulopathy",
+"Hypothermia",
+"Hypocalcemia"
+],
+"a": 0,
+"y": 2026,
+"t": "TCC",
+"e": "Hyperkalemia is not part of the classic lethal triad (hypothermia, coagulopathy, acidosis) of massive transfusion."
+},
+{
+"s": "Surgery",
+"q": "[Image: Ultrasound with colour Doppler showing a non-compressible, blind-ending tubular structure over 6 mm in diameter with a target (bull's-eye) pattern, peri-appendiceal fluid, and increased colour-Doppler flow in the wall]\nA patient presents with right iliac fossa (RIF) pain of 48 hours' duration. What is the most appropriate next step in management?",
+"o": [
+"Surgery (appendicectomy)",
+"CECT abdomen",
+"USG-guided drainage",
+"Conservative management with antibiotics only"
+],
+"a": 0,
+"y": 2026,
+"t": "GIS",
+"e": "Doppler features diagnostic of acute, non-perforated appendicitis → proceed directly to appendicectomy."
+},
+{
+"s": "Surgery",
+"q": "When should a prophylactic antibiotic be administered before elective entry into the GI tract (e.g., elective cholecystectomy)?",
+"o": [
+"Within 1 hour before incision",
+"4 hours before incision",
+"6 hours before incision",
+"At the time of skin closure"
+],
+"a": 0,
+"y": 2026,
+"t": "GNS",
+"e": "Prophylactic antibiotics are given within 1 hour before incision, to ensure peak tissue levels at the time of contamination."
+},
+{
+"s": "Surgery",
+"q": "According to the AAST (American Association for the Surgery of Trauma) Colon Injury Scale, a laceration involving more than 50% of the bowel circumference (without transection) corresponds to which grade?",
+"o": [
+"Grade I",
+"Grade II",
+"Grade III",
+"Grade IV"
+],
+"a": 2,
+"y": 2026,
+"t": "TCC",
+"e": "AAST colon injury scale: laceration ≥50% circumference without transection = Grade III."
+},
+{
+"s": "Surgery",
+"q": "A trauma patient opens his eyes only to painful stimulus, makes incomprehensible sounds, and localises to pain. What is his total Glasgow Coma Scale (GCS) score?",
+"o": [
+"8",
+"9",
+"10",
+"11"
+],
+"a": 1,
+"y": 2026,
+"t": "TCC",
+"e": "GCS = Eye 2 + Verbal 2 + Motor 5 = 9."
+},
+{
+"s": "Surgery",
+"q": "An elderly man with a history of atrial fibrillation presents with sudden severe abdominal pain that is out of proportion to physical findings. Which laboratory finding most strongly supports the diagnosis of acute mesenteric ischemia?",
+"o": [
+"Raised serum lactate (and LDH)",
+"Raised serum amylase only",
+"Hypocalcaemia",
+"Raised serum bilirubin"
+],
+"a": 0,
+"y": 2026,
+"t": "VAS",
+"e": "Raised serum lactate (± LDH) reflects bowel ischemia in AF-associated acute mesenteric ischemia."
+},
+{
+"s": "Surgery",
+"q": "A post-splenectomy patient is at greatest risk of overwhelming sepsis from which organism?",
+"o": [
+"Streptococcus pneumoniae",
+"Staphylococcus aureus",
+"Escherichia coli",
+"Pseudomonas aeruginosa"
+],
+"a": 0,
+"y": 2026,
+"t": "GNS",
+"e": "Post-splenectomy overwhelming sepsis (OPSI) is most often due to the encapsulated Streptococcus pneumoniae."
+},
+{
+"s": "Surgery",
+"q": "A patient with a thyroid nodule undergoes FNAC, which yields a result suggestive of follicular carcinoma. What is the most appropriate next step in management?",
+"o": [
+"Hemithyroidectomy",
+"Total thyroidectomy",
+"Radioactive iodine therapy",
+"Repeat FNAC"
+],
+"a": 0,
+"y": 2026,
+"t": "ENS",
+"e": "FNAC cannot separate follicular adenoma from carcinoma (needs capsular/vascular invasion) → diagnostic hemithyroidectomy."
+}
+]

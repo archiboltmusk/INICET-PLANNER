@@ -336,12 +336,14 @@ const MODES = {
   drill: { label: 'Cluster drill', n: 10, secs: 0 },
   sprint: { label: 'Sprint drills', n: 50, secs: 0 },
   image: { label: 'Image questions', n: 25, secs: 25 * 45 },
+  pyq26: { label: 'INI-CET 2026 PYQs', n: 50, secs: 0 },
 };
 function startBlock(mode, cid, subject) {
   questions();
   let ids;
   if (mode === 'diagnostic') ids = pickDiagnostic(50);
   else if (mode === 'purge') ids = pickPurge(50);
+  else if (mode === 'pyq26') ids = shuffle(questions().filter(q => /^PYQ/.test(q.t)).map(q => q.id));
   else if (mode === 'image') ids = pickImages(25, subject);
   else if (mode === 'sprint') ids = questions().filter(q => q.t === 'drill').map(q => q.id);
   else if (mode === 'drill') ids = pickCluster(cid, clusterStats()[cid].status === 'new' ? 5 : 10);
@@ -401,6 +403,8 @@ function vBlockSetup() {
       <button class="btn" data-act="start" data-mode="diagnostic">Start</button></div>
     <div class="card"><h3>Speed run</h3><p class="small">25 questions in 12.5 minutes (30 s each). Makes the real 45 s pace feel slow.</p>
       <button class="btn" data-act="start" data-mode="speed">Start</button></div>
+    <div class="card"><h3>INI-CET 2026 PYQs</h3><p class="small">${(questions().filter(q => /^PYQ/.test(q.t)).length)} dated INI-CET questions with explanations, untimed. Also searchable under PYQs.</p>
+      <button class="btn" data-act="start" data-mode="pyq26">Start</button></div>
     <div class="card"><h3>Image questions</h3><p class="small">25 INI-CET-style image questions (ECG, X-ray, smear, histology, clinical signs), 45 s each. Weak clusters first; uses the subject picker in the mixed-block card.</p>
       <button class="btn" data-act="start" data-mode="image">Start</button></div>
     <div class="card"><h3>Sprint drills</h3><p class="small">Toxic alcohols and 50/50 vignettes, untimed, full explanations.</p>

@@ -28,3 +28,5 @@ Rebuild + drills merged to main; live at https://archiboltmusk.github.io/INICET-
 - Other repos seen: medicetamol.github.io/PYQs/INI-CET/<subject>/questions.json (~6 real 2026 PYQs per subject, with explanations; to import as tag `pyq`), MedLadder/subjects/<subject>/<topic> (topic MCQ pages), spandana-neetpg-inicet (186k MedMCQA/MedQA, Next.js, data/raw not in repo).
 - Image MCQs cover 105 of 121 images; unused: diagrams (Mallampati, pharyngeal arches, brachial plexus, cardiac cycle, O2 curve, RFLP, MS DIR MRI, cleft lip/Patau, Wilson sunflower cataract, duplicate bitot/falciparum/hyperK). Need more images for: Ewing onion peel, Hampton hump, scrub eschar, smudge cells, TAPVC snowman, rib notching, ROC curve, polyp/spotters.
 - Multi-image 'spot diagnosis' (two-panel) and answer-explained image sets per subject not yet built.
+- PYQ gaps: no dated 2021-2025 INI-CET papers or PYQ pictures in any connected repo/Drive. If user has paper PDFs/screenshots, import per year (sources/pyq_dated.json schema: s,q,o[4],a,y,t,e). Do not invent.
+- 2026 PYQ set has near-duplicate stems (e.g. gadolinium Group II, URTI imaging); deduped by exact stem only.
