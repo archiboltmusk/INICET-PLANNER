@@ -1,0 +1,1013 @@
+[
+ {
+  "id": "rad-chest-xray-lung",
+  "title": "Chest X-ray: signs, effusion, pneumothorax, TB, lung tumours, sarcoid",
+  "subject": "Radiology",
+  "system": "Thoracic imaging",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Name the sign first: each CXR sign maps to one diagnosis (silhouette, air bronchogram, Golden S, Westermark, Hampton hump, Pancoast).",
+   "Silhouette sign localises the lesion: right heart border = right middle lobe, left heart border = lingula, right hemidiaphragm = right lower lobe, aortic knob = left upper lobe.",
+   "Primary TB = Ghon focus + hilar nodes (Ghon complex); post-primary (reactivation) TB = apical/posterior upper lobe with cavitation."
+  ],
+  "tables": [
+   {
+    "title": "CXR sign → diagnosis",
+    "head": [
+     "Sign",
+     "Diagnosis"
+    ],
+    "rows": [
+     [
+      "Air bronchogram",
+      "Alveolar (airspace) consolidation: pneumonia, pulmonary oedema, ARDS"
+     ],
+     [
+      "Golden S sign",
+      "Right upper lobe collapse due to a central mass"
+     ],
+     [
+      "Westermark sign",
+      "Focal oligaemia distal to a pulmonary embolus"
+     ],
+     [
+      "Hampton hump",
+      "Peripheral wedge-shaped pleural-based opacity of pulmonary infarct"
+     ],
+     [
+      "Fleischner sign",
+      "Enlarged central pulmonary artery in PE"
+     ],
+     [
+      "Deep sulcus sign",
+      "Pneumothorax on a supine film"
+     ],
+     [
+      "Meniscus sign",
+      "Pleural effusion on erect film"
+     ],
+     [
+      "Pancoast tumour",
+      "Apical mass: Horner syndrome, C8–T1 pain, rib destruction"
+     ],
+     [
+      "Signet-ring sign",
+      "Bronchiectasis (bronchus wider than its accompanying artery)"
+     ],
+     [
+      "Tram-track opacities",
+      "Bronchiectasis / bronchial wall thickening"
+     ],
+     [
+      "Bilateral hilar lymphadenopathy (potato nodes)",
+      "Sarcoidosis; Garland (1-2-3) sign = right paratracheal + bilateral hilar nodes"
+     ],
+     [
+      "Cavity with air-fluid level",
+      "Lung abscess, post-primary TB, cavitating squamous carcinoma"
+     ],
+     [
+      "Popcorn calcification",
+      "Pulmonary hamartoma"
+     ],
+     [
+      "Concentric / laminated calcification of a nodule",
+      "Benign granuloma (healed TB, histoplasma)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Pleural effusion: blunting of the costophrenic angle needs roughly 200 ml on PA erect film; lateral decubitus shows smaller volumes; ultrasound is the most sensitive bedside test and guides aspiration.",
+   "Tension pneumothorax is a clinical diagnosis: immediate needle decompression, not an X-ray.",
+   "Miliary TB: innumerable 1–3 mm nodules uniformly distributed; HRCT is more sensitive than CXR.",
+   "Foreign body aspiration in a child: obstructive emphysema (air trapping) on the affected side, best on expiratory or lateral decubitus film; mediastinum shifts toward the normal side on expiration.",
+   "Lung cancer: central masses are usually squamous or small-cell; peripheral masses usually adenocarcinoma; cavitation favours squamous.",
+   "A solitary nodule is benign if stable ≥2 years or with central, laminated, diffuse or popcorn calcification."
+  ],
+  "traps": [
+   {
+    "stem": "Opacity with air bronchogram and no volume loss",
+    "trap": "Collapse",
+    "fix": "Air bronchograms mean patent airways: consolidation. Collapse shows volume loss with shift toward the lesion."
+   },
+   {
+    "stem": "Apical mass with Horner syndrome",
+    "trap": "Apical TB",
+    "fix": "Think Pancoast tumour (superior sulcus)."
+   },
+   {
+    "stem": "Tension pneumothorax: next step",
+    "trap": "Confirm with chest X-ray",
+    "fix": "Treat immediately with needle decompression; do not wait for imaging."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Westermark sign = {{c1::focal oligaemia}} distal to {{c2::pulmonary embolism}}; Hampton hump = {{c3::pleural-based wedge infarct}}."
+   },
+   {
+    "type": "basic",
+    "front": "Silhouette sign: loss of the right heart border means disease in?",
+    "back": "Right middle lobe (left heart border = lingula)."
+   },
+   {
+    "type": "basic",
+    "front": "CXR contents of the Ghon complex?",
+    "back": "Primary parenchymal focus (Ghon focus) plus ipsilateral hilar lymphadenopathy."
+   },
+   {
+    "type": "cloze",
+    "text": "Signet-ring sign suggests {{c1::bronchiectasis}}; best test is {{c2::HRCT}}."
+   },
+   {
+    "type": "basic",
+    "front": "Foreign body in the bronchus: CXR finding in a child?",
+    "back": "Unilateral obstructive emphysema (air trapping), best on expiratory or lateral decubitus film."
+   },
+   {
+    "type": "cloze",
+    "text": "Garland triad (1-2-3 sign) occurs in {{c1::sarcoidosis}}."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "silhouette sign",
+   "air bronchogram",
+   "golden s sign",
+   "westermark",
+   "hampton hump",
+   "pancoast",
+   "signet ring",
+   "popcorn calcification",
+   "bilateral hilar lymphadenopathy",
+   "garland triad",
+   "ghon complex",
+   "miliary",
+   "pneumothorax",
+   "pleural effusion",
+   "chest x-ray",
+   "cxr",
+   "foreign body aspiration",
+   "hamartoma"
+  ],
+  "wiki": [
+   "Chest_radiograph",
+   "Silhouette_sign",
+   "Pancoast_tumor"
+  ],
+  "verify": "Standard radiology texts (Felson, Radiopaedia); volume thresholds approximate"
+ },
+ {
+  "id": "rad-cardiac-cxr",
+  "title": "Cardiac silhouettes on CXR: CHD shapes, rib notching, MS, pericardial effusion, constriction",
+  "subject": "Radiology",
+  "system": "Cardiac imaging",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "Silhouette first: boot, egg-on-string, snowman, scimitar, water-bottle, 3-sign, double density each point to one lesion.",
+   "Plethora (shunt vascularity): ASD, VSD, PDA, TGA, TAPVC. Oligaemia: TOF, pulmonary stenosis, Ebstein, tricuspid atresia."
+  ],
+  "tables": [
+   {
+    "title": "Cardiac shape → lesion",
+    "head": [
+     "Shape / sign",
+     "Lesion"
+    ],
+    "rows": [
+     [
+      "Boot-shaped heart (coeur en sabot)",
+      "Tetralogy of Fallot (upturned apex, concave pulmonary bay, oligaemic lungs)"
+     ],
+     [
+      "Egg on a string",
+      "Transposition of great arteries (narrow pedicle, plethora)"
+     ],
+     [
+      "Snowman / figure-of-8",
+      "Supracardiac TAPVC"
+     ],
+     [
+      "Scimitar sign",
+      "Partial anomalous pulmonary venous return to the IVC (scimitar syndrome, hypoplastic right lung)"
+     ],
+     [
+      "Box-shaped / wall-to-wall heart",
+      "Ebstein anomaly"
+     ],
+     [
+      "Rib notching (3rd–9th ribs), figure-3 sign",
+      "Coarctation of the aorta (intercostal collaterals); appears after ~5–6 years"
+     ],
+     [
+      "Water-bottle heart",
+      "Large pericardial effusion"
+     ],
+     [
+      "Straight left heart border, double density, splayed carina, Kerley B lines",
+      "Mitral stenosis (left atrial enlargement)"
+     ],
+     [
+      "Pericardial calcification, small tubular heart",
+      "Constrictive pericarditis"
+     ],
+     [
+      "Cephalisation, Kerley B, bat-wing, effusion",
+      "Pulmonary venous congestion / left heart failure"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Pericardial effusion needs a few hundred ml to enlarge the silhouette; echocardiography is the investigation of choice and detects small effusions.",
+   "Coarctation: bilateral inferior rib notching; reverse-3 (E) sign on barium swallow marks the oesophageal indentation at the coarctation.",
+   "Constrictive pericarditis: calcification best on lateral film or CT; echo/CMR show septal bounce and thickened pericardium.",
+   "Kerley B lines (short horizontal septal lines at the lower lateral periphery) mean interstitial oedema."
+  ],
+  "traps": [
+   {
+    "stem": "Boot-shaped heart with decreased pulmonary vascularity",
+    "trap": "TGA",
+    "fix": "TGA is egg-on-string with plethora; boot with oligaemia is TOF."
+   },
+   {
+    "stem": "Rib notching in a 2-year-old with coarctation",
+    "trap": "Always present",
+    "fix": "Notching appears after ~5–6 years; absence in a child does not exclude coarctation."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Snowman sign refers to?",
+    "back": "Supracardiac total anomalous pulmonary venous connection."
+   },
+   {
+    "type": "cloze",
+    "text": "Boot-shaped heart = {{c1::Tetralogy of Fallot}}; egg on string = {{c2::transposition}}."
+   },
+   {
+    "type": "basic",
+    "front": "Scimitar sign?",
+    "back": "Curvilinear vein draining right lung into IVC (PAPVC, hypoplastic right lung)."
+   },
+   {
+    "type": "cloze",
+    "text": "Rib notching affects ribs {{c1::3–9}} and spares {{c2::1–2}}."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "boot shaped heart",
+   "egg on string",
+   "snowman sign",
+   "scimitar sign",
+   "rib notching",
+   "coarctation",
+   "water bottle heart",
+   "pericardial effusion",
+   "mitral stenosis",
+   "double density",
+   "kerley b",
+   "constrictive pericarditis",
+   "cephalisation",
+   "tapvc",
+   "ebstein"
+  ],
+  "wiki": [
+   "Tetralogy_of_Fallot",
+   "Coarctation_of_the_aorta",
+   "Scimitar_syndrome"
+  ],
+  "verify": "Standard radiology texts; sparing of ribs 1–2 per classic teaching"
+ },
+ {
+  "id": "rad-abdomen-gi-imaging",
+  "title": "Acute abdomen imaging: pneumoperitoneum, obstruction, volvulus, barium signs, gallbladder/biliary",
+  "subject": "Radiology",
+  "system": "Abdominal imaging",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Erect chest X-ray for free air; CT abdomen is the most sensitive and the next step in a stable patient.",
+   "Small bowel dilated >3 cm with valvulae conniventes crossing the lumen; large bowel >6 cm (caecum >9 cm) with haustra that do not cross.",
+   "Ultrasound first for gallbladder; HIDA for acute cholecystitis (non-filling gallbladder); MRCP for ducts; ERCP is therapeutic."
+  ],
+  "tables": [
+   {
+    "title": "Abdominal / GI sign → diagnosis",
+    "head": [
+     "Sign",
+     "Diagnosis"
+    ],
+    "rows": [
+     [
+      "Rigler (double wall) sign, football sign, cupola sign, falciform ligament sign",
+      "Pneumoperitoneum"
+     ],
+     [
+      "Coffee-bean sign",
+      "Sigmoid volvulus (bird's beak on contrast enema)"
+     ],
+     [
+      "Double bubble",
+      "Duodenal atresia (annular pancreas also)"
+     ],
+     [
+      "Corkscrew sign",
+      "Midgut volvulus (malrotation)"
+     ],
+     [
+      "Rigler triad (SBO + pneumobilia + ectopic stone)",
+      "Gallstone ileus"
+     ],
+     [
+      "Thumbprinting",
+      "Ischaemic colitis"
+     ],
+     [
+      "Lead-pipe colon",
+      "Ulcerative colitis (chronic)"
+     ],
+     [
+      "String sign of Kantor, cobblestone, skip lesions",
+      "Crohn disease"
+     ],
+     [
+      "Apple-core lesion",
+      "Colorectal carcinoma"
+     ],
+     [
+      "Bird's beak oesophagus",
+      "Achalasia cardia"
+     ],
+     [
+      "Corkscrew / rosary-bead oesophagus",
+      "Diffuse oesophageal spasm"
+     ],
+     [
+      "Whirl sign on CT",
+      "Volvulus"
+     ],
+     [
+      "Porcelain gallbladder",
+      "Calcified wall; associated with carcinoma risk"
+     ],
+     [
+      "Portal venous gas vs biliary gas",
+      "Portal: peripheral (bowel ischaemia). Biliary: central (gallstone ileus, post-ERCP)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Toxic megacolon: colon >6 cm with systemic toxicity; avoid barium enema and colonoscopy.",
+   "Acute cholecystitis on USG: stones, wall thickening >3 mm, pericholecystic fluid, sonographic Murphy sign.",
+   "CBD above ~6 mm with an intact gallbladder is dilated (wider after cholecystectomy and with age).",
+   "Pneumatosis intestinalis with portal venous gas in a sick adult is bowel infarction until proved otherwise."
+  ],
+  "traps": [
+   {
+    "stem": "Pneumoperitoneum in a stable patient: best next test",
+    "trap": "Repeat erect X-ray",
+    "fix": "CT abdomen is the most sensitive and shows the source; unstable patients go to theatre."
+   },
+   {
+    "stem": "Investigation for CBD stones that also treats them",
+    "trap": "MRCP",
+    "fix": "MRCP is diagnostic only; ERCP is diagnostic and therapeutic."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Coffee-bean sign?",
+    "back": "Sigmoid volvulus."
+   },
+   {
+    "type": "basic",
+    "front": "Rigler triad?",
+    "back": "Small bowel obstruction + pneumobilia + ectopic gallstone: gallstone ileus."
+   },
+   {
+    "type": "cloze",
+    "text": "Double bubble sign = {{c1::duodenal atresia}}; corkscrew = {{c2::midgut volvulus}}."
+   },
+   {
+    "type": "basic",
+    "front": "Non-visualisation of gallbladder on HIDA means?",
+    "back": "Cystic duct obstruction: acute cholecystitis."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "pneumoperitoneum",
+   "rigler sign",
+   "football sign",
+   "coffee bean",
+   "sigmoid volvulus",
+   "double bubble",
+   "corkscrew",
+   "gallstone ileus",
+   "thumbprinting",
+   "lead pipe",
+   "string sign",
+   "apple core",
+   "bird's beak",
+   "achalasia",
+   "hida",
+   "mrcp",
+   "porcelain gallbladder",
+   "bowel obstruction",
+   "toxic megacolon",
+   "whirl sign"
+  ],
+  "wiki": [
+   "Pneumoperitoneum",
+   "Sigmoid_volvulus",
+   "Gallstone_ileus"
+  ],
+  "verify": "Standard radiology texts; dimensions are conventional cut-offs"
+ },
+ {
+  "id": "rad-bone-joint-imaging",
+  "title": "Bone imaging: tumour signs, Pott spine, paediatric hip, rickets/scurvy, Honda sign",
+  "subject": "Radiology",
+  "system": "Musculoskeletal imaging",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Match the lesion to its sign: sunburst/Codman = osteosarcoma; onion peel = Ewing; soap bubble = giant cell tumour; popcorn = chondroid; punched-out = myeloma.",
+   "Pott spine: paradiscal vertebral destruction with disc preserved until late, paravertebral abscess; pyogenic spondylitis hits the disc early.",
+   "DDH: ultrasound (Graf) in infants under about 4–6 months; X-ray after the femoral head ossific nucleus appears."
+  ],
+  "tables": [
+   {
+    "title": "Bone lesion → imaging sign",
+    "head": [
+     "Lesion",
+     "Sign"
+    ],
+    "rows": [
+     [
+      "Osteosarcoma",
+      "Sunburst, Codman triangle; metaphysis of long bones, 10–20 yr"
+     ],
+     [
+      "Ewing sarcoma",
+      "Onion-peel periosteal reaction; diaphysis; t(11;22)"
+     ],
+     [
+      "Giant cell tumour",
+      "Soap-bubble, eccentric lytic epiphyseal lesion after physeal closure"
+     ],
+     [
+      "Aneurysmal bone cyst",
+      "Blown-out expansile cyst with fluid-fluid levels on MRI"
+     ],
+     [
+      "Osteoid osteoma",
+      "Nidus <1.5 cm with sclerosis; night pain relieved by NSAIDs"
+     ],
+     [
+      "Chondrosarcoma / enchondroma",
+      "Popcorn / rings-and-arcs calcification"
+     ],
+     [
+      "Osteochondroma",
+      "Cartilage-capped exostosis continuous with medulla"
+     ],
+     [
+      "Fibrous dysplasia",
+      "Ground-glass matrix, shepherd's crook deformity"
+     ],
+     [
+      "Paget disease",
+      "Cotton-wool skull, picture-frame vertebra, ivory vertebra"
+     ],
+     [
+      "Multiple myeloma",
+      "Punched-out lytic lesions, raindrop skull"
+     ],
+     [
+      "Rickets",
+      "Cupping, fraying, splaying of metaphysis; widened growth plate"
+     ],
+     [
+      "Scurvy",
+      "Wimberger ring, Pelkan spur, Trümmerfeld zone, Frankel line"
+     ],
+     [
+      "Sacral insufficiency fracture",
+      "Honda (H) sign on bone scan"
+     ],
+     [
+      "Perthes disease",
+      "Flattened, fragmented femoral epiphysis; Waldenström stages"
+     ],
+     [
+      "SCFE",
+      "Klein line fails to cross the epiphysis; ice-cream slipping off the cone"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Hilgenreiner line is horizontal through the triradiate cartilages and Perkin line is vertical from the lateral acetabular edge; the femoral head ossific nucleus normally lies in the inferomedial quadrant.",
+   "MRI is the investigation of choice for local staging of bone sarcoma; CT chest looks for lung metastases.",
+   "Skeletal TB: bone scan can be negative; sclerosis is late.",
+   "Osteoid osteoma is best seen on thin-slice CT and treated by radiofrequency ablation."
+  ],
+  "traps": [
+   {
+    "stem": "Eccentric lytic epiphyseal lesion in an adult",
+    "trap": "Osteosarcoma",
+    "fix": "An eccentric soap-bubble epiphyseal lesion after physeal closure is a giant cell tumour."
+   },
+   {
+    "stem": "Disc space narrowing with endplate erosion early in spinal infection",
+    "trap": "Pott disease",
+    "fix": "TB preserves the disc early; early disc loss suggests pyogenic infection."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Onion-peel periosteal reaction = {{c1::Ewing sarcoma}}; sunburst + Codman = {{c2::osteosarcoma}}."
+   },
+   {
+    "type": "basic",
+    "front": "Honda sign?",
+    "back": "H-shaped uptake on bone scan in sacral insufficiency fracture."
+   },
+   {
+    "type": "basic",
+    "front": "Klein line in SCFE?",
+    "back": "Line along the superior femoral neck fails to intersect the epiphysis."
+   },
+   {
+    "type": "cloze",
+    "text": "Scurvy: {{c1::Wimberger ring}} and {{c2::Pelkan spur}}."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "sunburst",
+   "codman triangle",
+   "onion peel",
+   "soap bubble",
+   "giant cell tumour",
+   "aneurysmal bone cyst",
+   "osteoid osteoma",
+   "fibrous dysplasia",
+   "shepherd crook",
+   "cotton wool",
+   "picture frame",
+   "punched out",
+   "rickets",
+   "scurvy",
+   "wimberger",
+   "honda sign",
+   "perthes",
+   "scfe",
+   "klein line",
+   "hilgenreiner",
+   "pott spine",
+   "ddh"
+  ],
+  "wiki": [
+   "Osteosarcoma",
+   "Ewing_sarcoma",
+   "Slipped_capital_femoral_epiphysis"
+  ],
+  "verify": "Standard orthopaedic radiology texts"
+ },
+ {
+  "id": "rad-neuro-imaging",
+  "title": "Neuro imaging: head trauma, SAH, tumours, classic MRI signs, Circle of Willis",
+  "subject": "Radiology",
+  "system": "Neuroimaging",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Non-contrast CT head first for trauma, suspected haemorrhage and acute stroke; MRI DWI is the most sensitive for early infarct.",
+   "Epidural: biconvex, does not cross sutures. Subdural: crescent, crosses sutures, not dural reflections (falx, tentorium).",
+   "Suspected SAH: NCCT within 6 h is very sensitive; if negative and still suspected, lumbar puncture for xanthochromia; CT angiography locates the aneurysm."
+  ],
+  "tables": [
+   {
+    "title": "Neuro imaging sign → diagnosis",
+    "head": [
+     "Sign",
+     "Diagnosis"
+    ],
+    "rows": [
+     [
+      "Butterfly glioma crossing corpus callosum, ring enhancing",
+      "Glioblastoma"
+     ],
+     [
+      "Dural tail, calcified, CSF cleft",
+      "Meningioma"
+     ],
+     [
+      "Cyst with mural nodule in cerebellum",
+      "Haemangioblastoma (VHL)"
+     ],
+     [
+      "Hyperdense midline vermis mass in a child",
+      "Medulloblastoma"
+     ],
+     [
+      "Calcified suprasellar cystic mass",
+      "Craniopharyngioma"
+     ],
+     [
+      "Tram-track gyral calcification",
+      "Sturge–Weber"
+     ],
+     [
+      "Candle-guttering, subependymal nodules",
+      "Tuberous sclerosis"
+     ],
+     [
+      "Dawson fingers",
+      "Multiple sclerosis"
+     ],
+     [
+      "Hot cross bun sign (pons)",
+      "Multiple system atrophy-C"
+     ],
+     [
+      "Hummingbird / penguin sign (midbrain)",
+      "Progressive supranuclear palsy"
+     ],
+     [
+      "Eye-of-the-tiger sign",
+      "PKAN"
+     ],
+     [
+      "Face of the giant panda",
+      "Wilson disease"
+     ],
+     [
+      "Hyperdense MCA sign",
+      "Acute MCA thrombus"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Acute blood is hyperdense on CT; subacute subdural can be isodense; chronic is hypodense.",
+   "ECA branches (8): superior thyroid, ascending pharyngeal, lingual, facial, occipital, posterior auricular, maxillary, superficial temporal.",
+   "Circle of Willis: anterior communicating joins the ACAs; posterior communicating joins ICA to PCA; berry aneurysms are commonest at the anterior communicating/ACA junction.",
+   "Diffuse axonal injury: small haemorrhages at grey-white junction, corpus callosum and dorsolateral brainstem; MRI (SWI/GRE) shows best."
+  ],
+  "traps": [
+   {
+    "stem": "Crescentic collection crossing sutures",
+    "trap": "Epidural",
+    "fix": "Epidural does not cross sutures; a crescent crossing sutures is subdural."
+   },
+   {
+    "stem": "Thunderclap headache with normal CT at 10 hours",
+    "trap": "SAH excluded",
+    "fix": "After 6 hours do LP for xanthochromia or CTA."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Epidural haematoma shape on CT?",
+    "back": "Biconvex (lentiform), limited by sutures."
+   },
+   {
+    "type": "cloze",
+    "text": "Hot cross bun sign: {{c1::MSA-C}}; hummingbird sign: {{c2::PSP}}."
+   },
+   {
+    "type": "basic",
+    "front": "Cystic cerebellar lesion with mural nodule?",
+    "back": "Haemangioblastoma (think VHL)."
+   },
+   {
+    "type": "cloze",
+    "text": "ECA has {{c1::8}} branches; the terminal branches are {{c2::maxillary and superficial temporal}}."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "epidural haematoma",
+   "subdural haematoma",
+   "subarachnoid haemorrhage",
+   "sah",
+   "butterfly glioma",
+   "glioblastoma",
+   "meningioma",
+   "dural tail",
+   "haemangioblastoma",
+   "medulloblastoma",
+   "craniopharyngioma",
+   "tram track",
+   "dawson fingers",
+   "hot cross bun",
+   "hummingbird sign",
+   "eye of the tiger",
+   "giant panda",
+   "hyperdense mca",
+   "circle of willis",
+   "diffuse axonal injury",
+   "external carotid"
+  ],
+  "wiki": [
+   "Epidural_hematoma",
+   "Subarachnoid_hemorrhage",
+   "Glioblastoma"
+  ],
+  "verify": "Standard neuroradiology texts; SAH CT within 6 h per ACEP/AHA guidance"
+ },
+ {
+  "id": "rad-nuclear-radiotherapy",
+  "title": "Nuclear medicine, PET and radiotherapy: isotopes, scans, fractionation, brachytherapy",
+  "subject": "Radiology",
+  "system": "Nuclear medicine & oncology",
+  "yield": 2,
+  "kind": "volatile",
+  "anchor": [
+   "Tc-99m: 140 keV gamma, half-life 6 h, from a Mo-99 generator; the most used isotope.",
+   "PET: F-18 FDG (half-life ~110 min); positron annihilation gives two 511 keV photons at 180°.",
+   "Radiotherapy: dose in gray; conventional 1.8–2 Gy/day, 5 days a week; the 4 Rs are repair, repopulation, reassortment, reoxygenation."
+  ],
+  "tables": [
+   {
+    "title": "Scan / isotope → use",
+    "head": [
+     "Scan / isotope",
+     "Use"
+    ],
+    "rows": [
+     [
+      "Tc-99m MDP",
+      "Bone scan"
+     ],
+     [
+      "Tc-99m DMSA",
+      "Renal cortical scarring (static)"
+     ],
+     [
+      "Tc-99m DTPA / MAG3",
+      "Dynamic renal: GFR / tubular secretion, obstruction"
+     ],
+     [
+      "Tc-99m pertechnetate",
+      "Thyroid, Meckel scan, testicular torsion"
+     ],
+     [
+      "Tc-99m HIDA",
+      "Acute cholecystitis, biliary leak"
+     ],
+     [
+      "Tc-99m sestamibi",
+      "Parathyroid adenoma, myocardial perfusion"
+     ],
+     [
+      "Tc-99m sulphur colloid",
+      "Liver–spleen, GI bleeding, sentinel node"
+     ],
+     [
+      "Thallium-201",
+      "Myocardial viability"
+     ],
+     [
+      "I-131",
+      "Thyroid cancer ablation (beta); I-123 for imaging"
+     ],
+     [
+      "MIBG (I-123/131)",
+      "Pheochromocytoma, neuroblastoma"
+     ],
+     [
+      "Ga-67 citrate",
+      "Lymphoma, sarcoid, infection"
+     ],
+     [
+      "V/Q scan",
+      "Pulmonary embolism when CTPA is contraindicated"
+     ]
+    ]
+   },
+   {
+    "title": "Radiotherapy modalities",
+    "head": [
+     "Modality",
+     "Key point"
+    ],
+    "rows": [
+     [
+      "Cobalt-60 teletherapy",
+      "1.17 and 1.33 MeV gamma, average 1.25 MeV"
+     ],
+     [
+      "Linear accelerator (LINAC)",
+      "Photons and electrons; standard external beam"
+     ],
+     [
+      "Protons / carbon ions",
+      "Bragg peak: dose at depth, sparing tissue beyond"
+     ],
+     [
+      "Gamma Knife",
+      "Co-60 sources (192–201 by model), intracranial stereotactic radiosurgery"
+     ],
+     [
+      "CyberKnife",
+      "Robotic LINAC SBRT"
+     ],
+     [
+      "Brachytherapy",
+      "Ir-192 (HDR), Cs-137, I-125 seeds (prostate), Pd-103"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "PET false negatives: low-grade tumours, mucinous tumours, bronchioloalveolar carcinoma; normal high uptake in brain, heart, bladder.",
+   "Hyperfractionation spares late-responding tissue; hypofractionation uses larger doses per fraction.",
+   "Hypoxic cells are radioresistant; oxygen enhancement ratio ~3 for X-rays.",
+   "Gamma Knife source count depends on the model."
+  ],
+  "traps": [
+   {
+    "stem": "Isotope for thyroid cancer ablation",
+    "trap": "I-123",
+    "fix": "I-131 is therapeutic (beta); I-123 is for imaging."
+   },
+   {
+    "stem": "Static renal scan for scarring",
+    "trap": "DTPA",
+    "fix": "DMSA is for cortical scarring; DTPA/MAG3 are dynamic."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Tc-99m half-life {{c1::6 hours}}; energy {{c2::140 keV}}; generated from {{c3::Mo-99}}."
+   },
+   {
+    "type": "basic",
+    "front": "Renal scan for scarring?",
+    "back": "Tc-99m DMSA."
+   },
+   {
+    "type": "basic",
+    "front": "Bragg peak benefit?",
+    "back": "Maximum dose at depth with no exit dose: protons/carbon ions."
+   },
+   {
+    "type": "cloze",
+    "text": "4 Rs of radiobiology: {{c1::repair, repopulation, reassortment, reoxygenation}}."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "tc-99m",
+   "technetium",
+   "dmsa",
+   "dtpa",
+   "mag3",
+   "hida scan",
+   "sestamibi",
+   "thallium",
+   "i-131",
+   "mibg",
+   "gallium",
+   "pet scan",
+   "fdg",
+   "bragg peak",
+   "brachytherapy",
+   "cobalt-60",
+   "gamma knife",
+   "cyberknife",
+   "fractionation",
+   "linac"
+  ],
+  "wiki": [
+   "Technetium-99m",
+   "Positron_emission_tomography",
+   "Brachytherapy"
+  ],
+  "verify": "Standard nuclear medicine / radiation oncology texts"
+ },
+ {
+  "id": "rad-xray-usg-basics",
+  "title": "X-ray, ultrasound, Doppler, contrast and FAST basics",
+  "subject": "Radiology",
+  "system": "Imaging physics",
+  "yield": 2,
+  "kind": "topic",
+  "anchor": [
+   "kVp sets penetration and contrast; mAs sets film blackening (quantity); ~99% of tube energy becomes heat (tungsten target).",
+   "Higher ultrasound frequency = better resolution, less penetration: curvilinear 2–5 MHz for abdomen, linear 7–15 MHz for small parts and vessels.",
+   "FAST: free fluid in the hepatorenal (Morison) pouch is the commonest early positive site."
+  ],
+  "tables": [
+   {
+    "title": "Probe / test",
+    "head": [
+     "Probe / test",
+     "Use"
+    ],
+    "rows": [
+     [
+      "Linear 7–15 MHz",
+      "Thyroid, breast, vascular, MSK"
+     ],
+     [
+      "Curvilinear 2–5 MHz",
+      "Abdomen, obstetrics"
+     ],
+     [
+      "Phased array",
+      "Cardiac echo"
+     ],
+     [
+      "Colour Doppler aliasing",
+      "Velocity exceeds the Nyquist limit"
+     ],
+     [
+      "Ring of fire",
+      "Vascularity around ectopic pregnancy / corpus luteum"
+     ],
+     [
+      "TLD badge",
+      "Cumulative dose; lithium fluoride thermoluminescent dosimeter"
+     ],
+     [
+      "Water-soluble contrast",
+      "Suspected perforation; barium causes peritonitis"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Ultrasound cannot image through bone or gas; MRI avoids ionising radiation.",
+   "FAST views: pericardial, hepatorenal, splenorenal, pelvic; e-FAST adds lung views for pneumothorax (absent lung sliding).",
+   "Gadolinium: nephrogenic systemic fibrosis risk in severe renal failure, mainly with older linear agents.",
+   "Distance and shielding reduce dose (inverse square law); grid reduces scatter."
+  ],
+  "traps": [
+   {
+    "stem": "Contrast study for suspected perforation",
+    "trap": "Barium swallow",
+    "fix": "Use water-soluble contrast."
+   },
+   {
+    "stem": "Bedside test for pneumothorax in trauma",
+    "trap": "Chest X-ray only",
+    "fix": "e-FAST lung ultrasound is rapid."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Earliest positive FAST site?",
+    "back": "Hepatorenal (Morison) pouch."
+   },
+   {
+    "type": "cloze",
+    "text": "{{c1::kVp}} controls penetration; {{c2::mAs}} controls blackening."
+   },
+   {
+    "type": "basic",
+    "front": "TLD badge material?",
+    "back": "Lithium fluoride (LiF)."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "fast scan",
+   "morison pouch",
+   "kvp",
+   "mas",
+   "tungsten",
+   "linear probe",
+   "doppler",
+   "aliasing",
+   "tld",
+   "film badge",
+   "water soluble contrast",
+   "gadolinium",
+   "nephrogenic systemic fibrosis",
+   "inverse square law"
+  ],
+  "wiki": [
+   "Medical_ultrasound",
+   "Focused_assessment_with_sonography_for_trauma"
+  ],
+  "verify": "Standard radiology physics texts"
+ }
+]
