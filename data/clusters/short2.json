@@ -1257,6 +1257,16 @@
    {
     "type": "cloze",
     "text": "In {{c1::delusional perception}}, a normal perception is given a sudden delusional meaning — a Schneiderian first-rank symptom."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: NMS vs serotonin syndrome — deciding feature?",
+    "back": "NMS: slow onset (days), lead-pipe rigidity, bradyreflexia, ↑CPK, dopamine blocker. Serotonin syndrome: rapid onset (<24 h), clonus + hyperreflexia, diarrhoea, mydriasis, serotonergic drug."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Schizophrenia vs schizophreniform vs brief psychotic disorder — duration?",
+    "back": "Brief psychotic: <1 month; schizophreniform: 1–6 months; schizophrenia: ≥6 months (DSM-5)."
    }
   ],
   "images": [],
@@ -1802,6 +1812,16 @@
     "type": "basic",
     "front": "Pemphigus foliaceus vs vulgaris — mucosa and antigen?",
     "back": "Foliaceus: Dsg1, subcorneal split, mucosa spared. Vulgaris: Dsg3 (± Dsg1), suprabasal split, mucosa involved."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Pemphigus vulgaris vs bullous pemphigoid — deciding feature?",
+    "back": "Pemphigus: intraepidermal acantholysis, flaccid bullae, Nikolsky +, IgG to desmoglein 3 (net-like/'chicken-wire' IF), oral lesions. Pemphigoid: subepidermal split, tense bullae, Nikolsky −, anti-BP180/BP230, linear IF at BMZ, elderly."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Dermatitis herpetiformis vs linear IgA disease — deciding feature?",
+    "back": "DH: granular IgA at dermal papillary tips, coeliac association. Linear IgA: linear IgA along BMZ, drug-induced (vancomycin)."
    }
   ],
   "images": [

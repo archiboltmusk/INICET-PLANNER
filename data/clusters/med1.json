@@ -1778,6 +1778,11 @@
     "type": "basic",
     "front": "ECG of hypokalaemia?",
     "back": "T flattening, ST depression, prominent U waves (QU prolongation)."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: ECG leads → infarct territory?",
+    "back": "II, III, aVF = inferior (RCA); V1–V4 = anterior (LAD); I, aVL, V5–V6 = lateral (LCx); V1–V2 ST depression with tall R = posterior MI."
    }
   ],
   "images": [

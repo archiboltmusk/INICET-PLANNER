@@ -1079,6 +1079,11 @@
     "type": "basic",
     "front": "Increased preload: which volume rises most?",
     "back": "EDV → SV rises; ESV roughly unchanged (Frank–Starling)."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: JVP waves — what produces a, c, v, x, y?",
+    "back": "a = atrial contraction (absent in AF, giant in tricuspid stenosis/pulmonary hypertension); c = tricuspid bulge; x descent = atrial relaxation; v = venous filling against closed tricuspid (large in tricuspid regurgitation); y = rapid ventricular filling (slow in tamponade, steep in constrictive pericarditis)."
    }
   ],
   "images": [

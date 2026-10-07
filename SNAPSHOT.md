@@ -26,3 +26,4 @@ attempts, errors{et:G|R|A|T|P (legacy K→G)}, cards, blocks, read, newLog, acti
 
 - 7 Oct: +579 INI-CET 2022 recall MCQs (AglaSem OCR, unofficial keys) → 4,126 MCQs, 4,161 PYQ rows. Cache v5-9.
 - 7 Oct: algorithm→flowchart renderer (flowHtml in app.js); +11 algorithms. Cache v5-10.
+- 7 Oct: +28 'Discriminator:' cards on confusable pairs (TTP/HUS, NMS/SS, pemphigus/pemphigoid, Crohn/UC, transudate/exudate...). Cache v5-11. Next: distractor 'why wrong' (needs per-option explanations), daily auto-plan.

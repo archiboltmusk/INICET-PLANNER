@@ -2149,6 +2149,11 @@
     "type": "basic",
     "front": "Drug to keep the ductus open in a duct-dependent lesion? Main side effect?",
     "back": "PGE1 (alprostadil); apnoea"
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Cyanotic vs acyanotic CHD — mnemonic?",
+    "back": "Cyanotic 5 Ts: Tetralogy, TGA, Truncus, TAPVC, Tricuspid atresia. Acyanotic (L→R): VSD, ASD, PDA."
    }
   ],
   "images": [

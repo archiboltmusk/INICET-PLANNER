@@ -138,6 +138,16 @@
     "type": "basic",
     "front": "Fever, dyspnoea, pulmonary infiltrates and weight gain 10 days after starting ATRA for APL: diagnosis and first step?",
     "back": "Differentiation syndrome → dexamethasone 10 mg IV twice daily immediately; hold ATRA/ATO only if severe."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: AML vs ALL — deciding stain/marker?",
+    "back": "AML: Auer rods, myeloperoxidase+, CD13/33. ALL: TdT+, PAS+ (blocks), MPO−, CD10/19; children."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: CML vs leukaemoid reaction — deciding feature?",
+    "back": "CML: ↓LAP score, t(9;22), basophilia. Leukaemoid: ↑LAP, toxic granulation."
    }
   ],
   "images": [
@@ -333,6 +343,11 @@
    {
     "type": "cloze",
     "text": "Waldenström macroglobulinaemia: {{c1::IgM}} paraprotein, hyperviscosity, and the {{c2::MYD88 L265P}} mutation."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Hodgkin vs non-Hodgkin lymphoma — deciding feature?",
+    "back": "Hodgkin: Reed-Sternberg cells (CD15+, CD30+), contiguous spread, cervical nodes, B symptoms. NHL: noncontiguous spread, extranodal involvement."
    }
   ],
   "images": [
@@ -543,6 +558,16 @@
    {
     "type": "cloze",
     "text": "Howell–Jolly bodies indicate {{c1::asplenia/hyposplenism}}; basophilic stippling suggests {{c2::lead poisoning}} or thalassaemia."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Intravascular vs extravascular haemolysis — deciding feature?",
+    "back": "Intravascular: haemoglobinuria, ↓haptoglobin, haemosiderinuria (PNH, G6PD crisis, MAHA). Extravascular: splenomegaly, spherocytes (hereditary spherocytosis, warm AIHA)."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Warm vs cold AIHA — deciding feature?",
+    "back": "Warm: IgG, 37 °C, spleen, steroids; (SLE, CLL). Cold: IgM + complement, C3 on Coombs, <30 °C, Mycoplasma/EBV, agglutination, avoid cold."
    }
   ],
   "images": [
@@ -759,6 +784,26 @@
     "type": "basic",
     "front": "HIT: timing, mechanism, and management",
     "back": "Platelets fall >50% 5–10 days after heparin (sooner if recent exposure); IgG to heparin–PF4 → platelet activation and thrombosis. Stop all heparin, start argatroban/bivalirudin/fondaparinux/DOAC; no platelet transfusion; delay warfarin."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: TTP vs HUS — deciding feature?",
+    "back": "Both: MAHA + thrombocytopenia, normal PT/aPTT. TTP = ADAMTS13 <10% (neurological signs, fever, adults); HUS = Shiga-toxin/complement, renal failure dominant (children, bloody diarrhoea). Treat TTP with plasma exchange; typical HUS supportive."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: DIC vs TTP — deciding lab?",
+    "back": "DIC: prolonged PT/aPTT, ↓fibrinogen, ↑D-dimer. TTP: PT/aPTT normal."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: ITP vs TTP — deciding feature?",
+    "back": "ITP: isolated thrombocytopenia, no anaemia/schistocytes. TTP: schistocytes (MAHA) + organ dysfunction."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Haemophilia A vs von Willebrand disease — deciding feature?",
+    "back": "Haemophilia A: X-linked, joint/muscle bleeds, prolonged aPTT, normal bleeding time. vWD: mucosal bleeding, prolonged bleeding time, ↓ristocetin aggregation, aPTT may be prolonged."
    }
   ],
   "images": [],

@@ -336,6 +336,11 @@
     "type": "basic",
     "front": "Antiglaucoma drug that causes iris hyperpigmentation and hypertrichosis of lashes",
     "back": "Latanoprost (PGF2α analogue) – increases uveoscleral outflow"
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Gq vs Gs vs Gi receptors?",
+    "back": "Gs (↑cAMP): β1, β2, D1, H2, V2. Gi (↓cAMP): α2, M2, D2. Gq (↑IP3/DAG/Ca²⁺): α1, M1, M3, H1, V1."
    }
   ],
   "images": [],
@@ -1986,6 +1991,11 @@
    {
     "type": "cloze",
     "text": "Dengue NS1 antigen is useful in days {{c1::1–5}} of fever; IgM ELISA after day {{c2::5}}"
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Hepatitis B acute vs chronic vs vaccinated — markers?",
+    "back": "Acute: HBsAg+, IgM anti-HBc+. Chronic: HBsAg+ >6 months, IgG anti-HBc. Window: only IgM anti-HBc. Immune by vaccine: anti-HBs only. Recovered: anti-HBs + anti-HBc."
    }
   ],
   "images": [

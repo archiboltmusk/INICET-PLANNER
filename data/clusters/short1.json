@@ -151,6 +151,11 @@
     "type": "basic",
     "front": "Glaucoma drug contraindicated in infants <2 years?",
     "back": "Brimonidine (α2 agonist) – crosses blood–brain barrier → CNS depression, apnoea."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: POAG vs primary angle closure — deciding feature?",
+    "back": "POAG: open angle on gonioscopy, painless, cupping. PACG: shallow chamber, narrow angle, painful red eye, halos, mid-dilated fixed pupil, steamy cornea."
    }
   ],
   "images": [
@@ -749,6 +754,11 @@
    {
     "type": "cloze",
     "text": "Retinoblastoma gene {{c1::RB1}} lies on chromosome {{c2::13q14}}; most common presenting sign is {{c3::leukocoria}}."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Papilloedema vs optic neuritis — deciding feature?",
+    "back": "Papilloedema: bilateral, vision normal early, enlarged blind spot, raised ICP. Optic neuritis: unilateral, ↓vision, painful eye movement, RAPD, colour desaturation (MS)."
    }
   ],
   "images": [
@@ -1338,6 +1348,11 @@
     "type": "basic",
     "front": "Newborn screening test that detects outer hair cell function but misses auditory neuropathy?",
     "back": "Otoacoustic emissions (OAE) – NICU babies get automated ABR."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Conductive vs sensorineural loss — Rinne/Weber?",
+    "back": "Conductive: Rinne negative (BC>AC), Weber lateralises to the worse ear. SNHL: Rinne positive, Weber to the better ear."
    }
   ],
   "images": [],
