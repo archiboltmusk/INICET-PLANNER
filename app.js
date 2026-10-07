@@ -325,12 +325,14 @@ const MODES = {
   speed: { label: 'Speed run', n: 25, secs: 25 * 30 },
   purge: { label: 'Mistake purge', n: 50, secs: 0 },
   drill: { label: 'Cluster drill', n: 10, secs: 0 },
+  sprint: { label: 'Sprint drills', n: 50, secs: 0 },
 };
 function startBlock(mode, cid, subject) {
   questions();
   let ids;
   if (mode === 'diagnostic') ids = pickDiagnostic(50);
   else if (mode === 'purge') ids = pickPurge(50);
+  else if (mode === 'sprint') ids = questions().filter(q => q.t === 'drill').map(q => q.id);
   else if (mode === 'drill') ids = pickCluster(cid, clusterStats()[cid].status === 'new' ? 5 : 10);
   else ids = pickMixed(MODES[mode].n, subject);
   if (!ids.length) { toast('No questions available for that selection'); return false; }
@@ -388,6 +390,8 @@ function vBlockSetup() {
       <button class="btn" data-act="start" data-mode="diagnostic">Start</button></div>
     <div class="card"><h3>Speed run</h3><p class="small">25 questions in 12.5 minutes (30 s each). Makes the real 45 s pace feel slow.</p>
       <button class="btn" data-act="start" data-mode="speed">Start</button></div>
+    <div class="card"><h3>Sprint drills</h3><p class="small">Toxic alcohols and 50/50 vignettes, untimed, full explanations.</p>
+      <button class="btn" data-act="start" data-mode="sprint">Start</button></div>
     <div class="card"><h3>Mistake purge</h3><p class="small">Re-attempt your unresolved wrong answers (${unres}). A question you get right here is marked as a plugged leak.</p>
       <button class="btn" data-act="start" data-mode="purge" ${unres ? '' : 'disabled'}>Start</button></div>
   </div>
