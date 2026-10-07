@@ -9,7 +9,7 @@
 - `legacy/` v4 tracker, read-only.
 
 ## Data
-- 141 clusters in 10 group files (med1, med2, surg, obpeds, short1, short2, path, pharmmicro, fmtpsm, preclin). Schema: id, title, subject (19 fixed), system, yield 1–3, kind topic|volatile, anchor[], algorithm?, tables[], points[], traps[{stem,trap,fix}], cards[basic|cloze], images[], keywords[], wiki[], verify.
+- 147 clusters in 10 group files (med1, med2, surg, obpeds, short1, short2, path, pharmmicro, fmtpsm, preclin). Schema: id, title, subject (19 fixed), system, yield 1–3, kind topic|volatile, anchor[], algorithm?, tables[], points[], traps[{stem,trap,fix}], cards[basic|cloze], images[], keywords[], wiki[], verify.
 - 746 cards, 121 images, 1,990 MCQs tagged to clusters.
 
 ## Diagnosis
@@ -20,3 +20,4 @@ attempts, errors{et:G|R|A|T|P (legacy K→G)}, cards, blocks, read, newLog, acti
 - Block has a Sprint drills mode (questions with t==='drill').
 - Coverage tab (coverage.js + data/coverage.js, built by tools/coverage.py from sources/marrow_topics.json): 475/1066 Marrow chapter topics mapped to clusters.
 - Radiology expanded: data/clusters/rad2.json (7 clusters: chest, cardiac, abdomen, bone, neuro, nuclear/RT, physics/FAST). Coverage now 500/1066.
+- OBGY expanded: data/clusters/obg2.json (6 clusters: puerperium/instrumental, early pregnancy/ANC/MTP, preterm/PPROM/FGR/liquor, prolapse/SUI/fistula, anatomy/puberty/menopause/vaginitis/PID, infertility/ART/contraception lapses). Coverage 525/1066.

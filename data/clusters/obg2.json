@@ -1,0 +1,951 @@
+[
+ {
+  "id": "obg-puerperium-instrumental",
+  "title": "Third stage, puerperium, lactation, forceps/vacuum, cord prolapse, VBAC",
+  "subject": "OBGY",
+  "system": "Obstetrics: delivery & postpartum",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Active management of the third stage: oxytocin 10 IU IM within 1 minute of birth, controlled cord traction, uterine massage; delay cord clamping 1–3 minutes.",
+   "Puerperium lasts 6 weeks; the fundus is at the umbilicus after delivery, falls ~1 cm/day and is no longer palpable per abdomen by about 2 weeks.",
+   "Cord prolapse: relieve pressure on the cord, then immediate caesarean (category 1) unless vaginal delivery is imminent."
+  ],
+  "tables": [
+   {
+    "title": "Lochia and postpartum timeline",
+    "head": [
+     "Item",
+     "Fact"
+    ],
+    "rows": [
+     [
+      "Lochia rubra",
+      "Days 1–4: blood, decidua"
+     ],
+     [
+      "Lochia serosa",
+      "Days 5–9: paler, pinkish-brown"
+     ],
+     [
+      "Lochia alba",
+      "From ~day 10 up to about 6 weeks: leucocytes, mucus"
+     ],
+     [
+      "Puerperal pyrexia",
+      "≥38 °C on any 2 of the first 10 days after delivery, excluding the first 24 h"
+     ],
+     [
+      "Postpartum blues",
+      "Day 3–5, resolves by 2 weeks, reassurance only"
+     ],
+     [
+      "Postpartum depression",
+      "Weeks to months; screen with EPDS; SSRIs compatible with breastfeeding (sertraline preferred)"
+     ],
+     [
+      "Postpartum psychosis",
+      "Within first 2 weeks, emergency, admit; antipsychotic ± lithium"
+     ],
+     [
+      "Lactational amenorrhoea method",
+      "Effective if exclusively breastfeeding, amenorrhoeic and baby <6 months"
+     ]
+    ]
+   },
+   {
+    "title": "Assisted vaginal delivery",
+    "head": [
+     "Point",
+     "Forceps",
+     "Vacuum"
+    ],
+    "rows": [
+     [
+      "Prerequisites",
+      "Fully dilated cervix, ruptured membranes, head engaged, known position, empty bladder, adequate analgesia, no CPD",
+      "Same, plus gestation ≥34 weeks (many guidelines advise ≥36)"
+     ],
+     [
+      "Contraindications",
+      "Face presentation with chin posterior, fetal bone/bleeding disorder is relative",
+      "Face/brow presentation, <34 weeks, fetal bleeding disorder"
+     ],
+     [
+      "Fetal complications",
+      "Facial nerve palsy, skull fracture, intracranial haemorrhage",
+      "Cephalohaematoma, subgaleal haemorrhage, retinal haemorrhage"
+     ],
+     [
+      "Maternal complications",
+      "More perineal tears (3rd/4th degree)",
+      "Fewer perineal tears"
+     ],
+     [
+      "Limits",
+      "Rotational forceps: Kielland",
+      "Stop after 3 pulls or 2 pop-offs or 20 minutes"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Retained placenta: no delivery by 30 minutes (WHO) needs manual removal under anaesthesia with prophylactic antibiotics.",
+   "Signs of placental separation: gush of blood, lengthening of cord, uterus becomes firm, globular and rises (Calkins).",
+   "Cord prolapse management: knee–chest or Sims (head-down left lateral) position, elevate the presenting part manually, bladder filling (500–750 ml), tocolysis (terbutaline) as a bridge to caesarean.",
+   "VBAC/TOLAC: success ~60–80%; contraindications include prior classical caesarean, prior uterine rupture; the most consistent sign of rupture is abnormal CTG; uterine rupture risk with TOLAC is under 1%.",
+   "Postpartum IUCD (Cu-T 380A) can be inserted within 48 hours of delivery (best within 10 minutes of placental delivery) or after 4 weeks.",
+   "Puerperal sepsis: polymicrobial; group A Streptococcus is the most dangerous organism; give broad-spectrum IV antibiotics (clindamycin + gentamicin / piperacillin-tazobactam)."
+  ],
+  "traps": [
+   {
+    "stem": "Vacuum extraction in a 33-week fetus",
+    "trap": "Acceptable",
+    "fix": "Avoid vacuum before 34 weeks (subgaleal bleed, intracranial haemorrhage)."
+   },
+   {
+    "stem": "Retained placenta",
+    "trap": "Wait 2 hours",
+    "fix": "Intervene at 30 minutes of the third stage per WHO."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Lochia alba duration?",
+    "back": "From ~day 10 up to about 6 weeks."
+   },
+   {
+    "type": "cloze",
+    "text": "Puerperal pyrexia = ≥{{c1::38 °C}} on {{c2::2}} of the first {{c3::10}} days (excluding the first 24 h)."
+   },
+   {
+    "type": "basic",
+    "front": "Most dangerous complication of vacuum in a neonate?",
+    "back": "Subgaleal haemorrhage."
+   },
+   {
+    "type": "basic",
+    "front": "Cord prolapse: definitive management?",
+    "back": "Immediate caesarean; meanwhile elevate presenting part and put mother knee–chest."
+   },
+   {
+    "type": "cloze",
+    "text": "Active management of the third stage: {{c1::oxytocin 10 IU IM}} + {{c2::controlled cord traction}}."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "puerperium",
+   "lochia",
+   "involution",
+   "puerperal pyrexia",
+   "puerperal sepsis",
+   "postpartum blues",
+   "postpartum depression",
+   "lactational amenorrhoea",
+   "third stage of labour",
+   "active management of third stage",
+   "retained placenta",
+   "forceps",
+   "vacuum",
+   "ventouse",
+   "kielland",
+   "subgaleal",
+   "cord prolapse",
+   "vbac",
+   "tolac",
+   "uterine rupture",
+   "postpartum iucd",
+   "bandl ring",
+   "obstructed labour"
+  ],
+  "wiki": [
+   "Puerperium",
+   "Vacuum_extraction",
+   "Umbilical_cord_prolapse"
+  ],
+  "verify": "WHO/FOGSI postpartum haemorrhage and ACOG VBAC guidance; thresholds for vacuum gestation vary by guideline"
+ },
+ {
+  "id": "obg-early-pregnancy-antenatal",
+  "title": "Antenatal care, USG dating, aneuploidy screening, NTD, hyperemesis, abortion and MTP Act",
+  "subject": "OBGY",
+  "system": "Obstetrics: antenatal",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Crown-rump length in the first trimester is the most accurate dating method (±5–7 days up to 13+6 weeks).",
+   "NT scan 11–13+6 weeks; level II (anomaly) scan 18–20 weeks; Td/Tdap and iron-folate are core ANC interventions.",
+   "MTP Act (amended 2021): up to 20 weeks one RMP; 20–24 weeks two RMPs for special categories; beyond 24 weeks only for substantial fetal abnormality by Medical Board."
+  ],
+  "tables": [
+   {
+    "title": "Screening tests",
+    "head": [
+     "Test",
+     "Timing",
+     "Down syndrome pattern"
+    ],
+    "rows": [
+     [
+      "Double marker (free β-hCG + PAPP-A) + NT",
+      "11–13+6 wk",
+      "β-hCG high, PAPP-A low, NT increased"
+     ],
+     [
+      "Triple test (AFP, hCG, uE3)",
+      "15–20 wk",
+      "AFP low, hCG high, uE3 low"
+     ],
+     [
+      "Quad test",
+      "15–20 wk",
+      "Adds inhibin A (high)"
+     ],
+     [
+      "NIPT (cell-free fetal DNA)",
+      "From ~10 wk",
+      "Highest sensitivity screen for T21; confirm positives with amniocentesis"
+     ]
+    ]
+   },
+   {
+    "title": "Early pregnancy ultrasound milestones (TVS)",
+    "head": [
+     "Finding",
+     "Time"
+    ],
+    "rows": [
+     [
+      "Gestational sac",
+      "~4.5–5 weeks"
+     ],
+     [
+      "Yolk sac",
+      "~5.5 weeks"
+     ],
+     [
+      "Cardiac activity",
+      "~6–6.5 weeks"
+     ],
+     [
+      "β-hCG discriminatory zone",
+      "~1500–2000 IU/L: sac should be visible; absent = ectopic suspicion"
+     ]
+    ]
+   },
+   {
+    "title": "Abortion types",
+    "head": [
+     "Type",
+     "Os",
+     "Products",
+     "Management"
+    ],
+    "rows": [
+     [
+      "Threatened",
+      "Closed",
+      "Not passed",
+      "Rest, reassure, progesterone if recurrent"
+     ],
+     [
+      "Inevitable",
+      "Open",
+      "Not passed",
+      "Evacuation"
+     ],
+     [
+      "Incomplete",
+      "Open",
+      "Partially passed",
+      "Evacuate (MVA/misoprostol)"
+     ],
+     [
+      "Complete",
+      "Closed",
+      "All passed",
+      "Observe"
+     ],
+     [
+      "Missed",
+      "Closed",
+      "Retained, no growth",
+      "Misoprostol or evacuation"
+     ],
+     [
+      "Septic",
+      "Open",
+      "Infected",
+      "IV antibiotics then evacuation"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Folic acid 0.4 mg daily from preconception; 4 mg/day if previous NTD pregnancy (India and US guidance); NTD screen: raised maternal serum AFP and acetylcholinesterase in amniotic fluid.",
+   "Hyperemesis gravidarum: IV fluids; give thiamine before glucose (Wernicke); first-line drug combination doxylamine–pyridoxine.",
+   "Medical abortion in India: mifepristone 200 mg followed 24–48 h later by misoprostol 800 mcg, approved up to 9 weeks (63 days).",
+   "Recurrent pregnancy loss: antiphospholipid syndrome is the commonest treatable cause (low-dose aspirin + LMWH); cervical insufficiency treated with McDonald cerclage at 12–14 weeks.",
+   "Superfecundation = two ova fertilised at separate coital acts within one cycle (different fathers possible); superfetation = fertilisation of a second ovum in a pregnant woman at a later cycle (very rare).",
+   "India's PMSMA (9th of every month) offers a free specialist ANC check; at least 4 ANC visits."
+  ],
+  "traps": [
+   {
+    "stem": "Best dating in first trimester",
+    "trap": "Last menstrual period",
+    "fix": "CRL is more accurate than LMP and BPD."
+   },
+   {
+    "stem": "Folic acid dose after a previous child with NTD",
+    "trap": "0.4 mg",
+    "fix": "4 mg daily from at least 1 month before conception through 12 weeks."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Down syndrome on double marker: {{c1::β-hCG high}}, {{c2::PAPP-A low}}."
+   },
+   {
+    "type": "basic",
+    "front": "Most accurate parameter for dating in first trimester?",
+    "back": "Crown–rump length."
+   },
+   {
+    "type": "basic",
+    "front": "Medical abortion regimen under Indian guidance?",
+    "back": "Mifepristone 200 mg then misoprostol 800 mcg after 24–48 h, up to 9 weeks."
+   },
+   {
+    "type": "cloze",
+    "text": "Thiamine must be given {{c1::before}} glucose in hyperemesis gravidarum."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "antenatal care",
+   "anc",
+   "tetanus",
+   "crown rump length",
+   "nuchal translucency",
+   "double marker",
+   "triple test",
+   "quad test",
+   "nipt",
+   "neural tube defect",
+   "folic acid",
+   "hyperemesis",
+   "superfecundation",
+   "superfetation",
+   "abortion",
+   "missed abortion",
+   "threatened abortion",
+   "mtp act",
+   "mifepristone",
+   "misoprostol",
+   "recurrent pregnancy loss",
+   "cervical insufficiency",
+   "cerclage",
+   "antiphospholipid"
+  ],
+  "wiki": [
+   "Prenatal_care",
+   "Miscarriage",
+   "Medical_Termination_of_Pregnancy_Act"
+  ],
+  "verify": "MTP (Amendment) Act 2021; FOGSI/ACOG; verify current ANC schedule against MoHFW guidance"
+ },
+ {
+  "id": "obg-preterm-prom-fgr-liquor",
+  "title": "Preterm labour, PROM/PPROM, FGR, amniotic fluid disorders",
+  "subject": "OBGY",
+  "system": "Obstetrics: complications",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Preterm labour before 37 weeks: tocolysis (nifedipine), antenatal steroids 24–34 weeks, magnesium sulphate for neuroprotection under 32 weeks.",
+   "PPROM: avoid digital examination; confirm with pooling/nitrazine/ferning or placental alpha-microglobulin; antibiotics erythromycin + amoxicillin/ampicillin.",
+   "FGR with Doppler sequence: raised umbilical artery PI → absent EDF → reversed EDF → abnormal ductus venosus; deliver by gestation and Doppler stage."
+  ],
+  "tables": [
+   {
+    "title": "Tocolytics",
+    "head": [
+     "Drug",
+     "Notes"
+    ],
+    "rows": [
+     [
+      "Nifedipine",
+      "First line in most guidelines"
+     ],
+     [
+      "Atosiban",
+      "Oxytocin-receptor antagonist; fewest side effects"
+     ],
+     [
+      "Indomethacin",
+      "Only before 32 weeks (premature ductus closure, oligohydramnios)"
+     ],
+     [
+      "Terbutaline",
+      "Avoid orally; maternal tachycardia, hypokalaemia, pulmonary oedema"
+     ],
+     [
+      "MgSO4",
+      "Neuroprotection, not a recommended tocolytic"
+     ]
+    ]
+   },
+   {
+    "title": "Amniotic fluid",
+    "head": [
+     "Item",
+     "Value / cause"
+    ],
+    "rows": [
+     [
+      "Oligohydramnios",
+      "AFI <5 cm or deepest vertical pocket <2 cm"
+     ],
+     [
+      "Causes of oligo",
+      "Renal agenesis/obstructive uropathy, PPROM, FGR, post-term, NSAIDs/ACE inhibitors"
+     ],
+     [
+      "Polyhydramnios",
+      "AFI >24–25 cm or DVP >8 cm"
+     ],
+     [
+      "Causes of poly",
+      "Idiopathic, diabetes, oesophageal/duodenal atresia, anencephaly, hydrops"
+     ],
+     [
+      "Pulmonary hypoplasia",
+      "Complication of prolonged early-onset oligohydramnios (Potter sequence)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Antenatal corticosteroids: betamethasone 12 mg IM 24 h apart ×2 doses (or dexamethasone 6 mg IM 12-hourly ×4).",
+   "Cervical length <25 mm at 16–24 weeks predicts preterm birth; vaginal progesterone 200 mg nightly reduces risk in short cervix.",
+   "PPROM with infection signs (maternal fever, tachycardia, fetal tachycardia, tender uterus) = chorioamnionitis: antibiotics and delivery.",
+   "SGA = EFW <10th centile; FGR adds growth failure or abnormal Doppler (AC/EFW <3rd centile or <10th with Doppler change).",
+   "Middle cerebral artery low PI with raised cerebroplacental ratio inversion = brain sparing.",
+   "Polyhydramnios treated by serial amnioreduction or indomethacin (before 32 weeks)."
+  ],
+  "traps": [
+   {
+    "stem": "Co-amoxiclav for PPROM",
+    "trap": "Preferred broad cover",
+    "fix": "Avoid co-amoxiclav (necrotising enterocolitis); use erythromycin + amoxicillin/ampicillin."
+   },
+   {
+    "stem": "Indomethacin as tocolytic at 34 weeks",
+    "trap": "Acceptable",
+    "fix": "Restrict to <32 weeks."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "First-line tocolytic?",
+    "back": "Nifedipine."
+   },
+   {
+    "type": "cloze",
+    "text": "Oligohydramnios: AFI {{c1::<5 cm}} or DVP {{c2::<2 cm}}."
+   },
+   {
+    "type": "basic",
+    "front": "Neuroprotective agent before 32 weeks?",
+    "back": "Magnesium sulphate."
+   },
+   {
+    "type": "cloze",
+    "text": "Betamethasone course: {{c1::12 mg IM ×2, 24 h apart}}."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "preterm labour",
+   "tocolysis",
+   "nifedipine",
+   "atosiban",
+   "betamethasone",
+   "antenatal steroids",
+   "magnesium sulphate",
+   "pprom",
+   "premature rupture of membranes",
+   "nitrazine",
+   "chorioamnionitis",
+   "fgr",
+   "iugr",
+   "intrauterine growth restriction",
+   "umbilical artery doppler",
+   "brain sparing",
+   "oligohydramnios",
+   "polyhydramnios",
+   "amniotic fluid index",
+   "potter sequence",
+   "cervical length"
+  ],
+  "wiki": [
+   "Preterm_birth",
+   "Preterm_prelabor_rupture_of_membranes",
+   "Polyhydramnios"
+  ],
+  "verify": "RCOG GTG 74/ACOG 171; Indian FOGSI preterm guidance; FGR definitions per consensus (Gordijn 2016)"
+ },
+ {
+  "id": "obg-prolapse-sui-fistula",
+  "title": "Genital prolapse, stress incontinence, urinary fistula",
+  "subject": "OBGY",
+  "system": "Gynaecology: pelvic floor",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Prolapse is staged by POP-Q; main support of the uterus is the cardinal (Mackenrodt) ligament complex with uterosacral ligaments.",
+   "Surgery by situation: uterine prolapse with elongated cervix = Manchester; vault prolapse = sacrocolpopexy (gold standard) or sacrospinous fixation; frail elderly not sexually active = colpocleisis.",
+   "Obstetric VVF (obstructed labour) is common in India; continuous painless leak; methylene blue three-swab test; ureterovaginal needs IVP/CT urogram."
+  ],
+  "tables": [
+   {
+    "title": "POP-Q stages",
+    "head": [
+     "Stage",
+     "Leading edge"
+    ],
+    "rows": [
+     [
+      "0",
+      "No prolapse"
+     ],
+     [
+      "I",
+      "More than 1 cm above hymen"
+     ],
+     [
+      "II",
+      "Within 1 cm above or below hymen"
+     ],
+     [
+      "III",
+      "More than 1 cm beyond hymen but not complete (< TVL – 2 cm)"
+     ],
+     [
+      "IV",
+      "Complete eversion"
+     ]
+    ]
+   },
+   {
+    "title": "Incontinence",
+    "head": [
+     "Type",
+     "Mechanism",
+     "Treatment"
+    ],
+    "rows": [
+     [
+      "Stress",
+      "Urethral hypermobility / sphincter weakness; leak on cough",
+      "Pelvic floor exercises; mid-urethral sling (TVT/TOT) is the standard surgery; Burch colposuspension"
+     ],
+     [
+      "Urge/OAB",
+      "Detrusor overactivity",
+      "Bladder training; anticholinergics (oxybutynin) or mirabegron; botulinum toxin"
+     ],
+     [
+      "Overflow",
+      "Bladder outlet obstruction / atony",
+      "Treat cause, catheterise"
+     ],
+     [
+      "Fistula",
+      "Continuous leak",
+      "Surgical repair"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Fistula repair: fresh small fistula catheter drainage for 2–4 weeks; established fistula repaired when tissues are healthy (often after about 3 months, earlier repair is acceptable); Latzko or flap repairs; Martius flap for complex fistulae.",
+   "Cystocele and rectocele are anterior and posterior vaginal wall prolapse; enterocele is herniation of the pouch of Douglas.",
+   "Pessary (ring) is the non-surgical option; treat vaginal atrophy with local oestrogen.",
+   "First-line treatment for stress incontinence is pelvic floor muscle training."
+  ],
+  "traps": [
+   {
+    "stem": "Gold standard for vault prolapse",
+    "trap": "Vaginal hysterectomy",
+    "fix": "Sacrocolpopexy is the gold standard for apical (vault) prolapse."
+   },
+   {
+    "stem": "Dye test for VVF",
+    "trap": "Single swab",
+    "fix": "Three-swab (tampon) test distinguishes VVF from ureterovaginal fistula."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Main support of uterus?",
+    "back": "Cardinal (Mackenrodt) ligament complex."
+   },
+   {
+    "type": "cloze",
+    "text": "Standard surgery for SUI: {{c1::mid-urethral sling (TVT/TOT)}}."
+   },
+   {
+    "type": "basic",
+    "front": "Manchester repair indication?",
+    "back": "Uterine prolapse with cervical elongation in a woman wishing to preserve fertility/uterus."
+   },
+   {
+    "type": "basic",
+    "front": "Test for VVF?",
+    "back": "Methylene blue dye test (three-swab test), cystoscopy."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "prolapse",
+   "pop-q",
+   "cystocele",
+   "rectocele",
+   "enterocele",
+   "manchester operation",
+   "fothergill",
+   "sacrocolpopexy",
+   "sacrospinous",
+   "colpocleisis",
+   "pessary",
+   "stress incontinence",
+   "urge incontinence",
+   "mid urethral sling",
+   "tvt",
+   "burch",
+   "vesicovaginal fistula",
+   "vvf",
+   "ureterovaginal",
+   "three swab test",
+   "martius flap",
+   "latzko"
+  ],
+  "wiki": [
+   "Pelvic_organ_prolapse",
+   "Urinary_incontinence",
+   "Obstetric_fistula"
+  ],
+  "verify": "ACOG/AUGS pelvic floor guidance; timing of fistula repair varies by centre"
+ },
+ {
+  "id": "obg-gyn-anatomy-puberty-menopause",
+  "title": "Mullerian anomalies, puberty, menopause/HRT, vaginitis and PID",
+  "subject": "OBGY",
+  "system": "Gynaecology: basics",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Septate uterus is the commonest Mullerian anomaly (poorest reproductive outcome; hysteroscopic septal resection).",
+   "Puberty sequence: thelarche → pubarche → growth spurt → menarche; precocious puberty <8 years, delayed if no breast development by 13 or no menarche by 15.",
+   "HRT: combined oestrogen + progestogen if uterus present; oestrogen alone after hysterectomy."
+  ],
+  "tables": [
+   {
+    "title": "Mullerian / DSD causes of primary amenorrhoea",
+    "head": [
+     "Condition",
+     "Karyotype",
+     "Features"
+    ],
+    "rows": [
+     [
+      "MRKH",
+      "46,XX",
+      "Absent uterus and upper vagina, normal ovaries, normal breasts and pubic hair, renal anomalies"
+     ],
+     [
+      "Complete androgen insensitivity",
+      "46,XY",
+      "Female phenotype, breasts present, scant pubic/axillary hair, testes (inguinal), blind vagina; gonadectomy after puberty"
+     ],
+     [
+      "Turner",
+      "45,X",
+      "Streak ovaries, short stature, high FSH"
+     ],
+     [
+      "Imperforate hymen",
+      "46,XX",
+      "Cyclical pain, haematocolpos, bulging bluish membrane; cruciate incision"
+     ]
+    ]
+   },
+   {
+    "title": "Vaginitis and PID",
+    "head": [
+     "Condition",
+     "Features",
+     "Treatment"
+    ],
+    "rows": [
+     [
+      "Bacterial vaginosis",
+      "Thin grey discharge, pH >4.5, whiff test, clue cells (Amsel)",
+      "Metronidazole 400–500 mg BD ×7 days"
+     ],
+     [
+      "Candidiasis",
+      "Curdy white discharge, itching, pH ≤4.5, pseudohyphae",
+      "Fluconazole 150 mg single dose"
+     ],
+     [
+      "Trichomoniasis",
+      "Frothy yellow-green discharge, strawberry cervix, motile flagellates",
+      "Metronidazole 2 g single or 500 mg BD ×7 days; treat partner"
+     ],
+     [
+      "PID",
+      "Lower abdominal pain, cervical motion tenderness",
+      "Ceftriaxone 500 mg IM + doxycycline 100 mg BD + metronidazole 500 mg BD for 14 days (CDC)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Premature ovarian insufficiency: amenorrhoea before 40 with FSH >25 IU/L on two occasions 4 weeks apart.",
+   "HRT contraindications: breast or endometrial cancer, undiagnosed vaginal bleeding, active venous thromboembolism, active liver disease.",
+   "Tibolone has oestrogenic, progestogenic and androgenic effects; fezolinetant (NK3 antagonist) is a non-hormonal option for vasomotor symptoms.",
+   "Fitz-Hugh–Curtis syndrome: perihepatitis with violin-string adhesions in PID (chlamydia, gonorrhoea).",
+   "Sequelae of PID: tubal infertility, ectopic pregnancy, chronic pelvic pain."
+  ],
+  "traps": [
+   {
+    "stem": "Primary amenorrhoea with breasts, absent uterus and 46,XX",
+    "trap": "Androgen insensitivity",
+    "fix": "46,XY with scant pubic hair is CAIS; 46,XX with absent uterus is MRKH."
+   },
+   {
+    "stem": "Clue cells with pH 4",
+    "trap": "Bacterial vaginosis",
+    "fix": "BV pH is >4.5; normal pH suggests candidiasis."
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Commonest Mullerian anomaly?",
+    "back": "Septate uterus."
+   },
+   {
+    "type": "cloze",
+    "text": "Amsel criteria: thin discharge, {{c1::pH >4.5}}, {{c2::whiff test}}, {{c3::clue cells}}."
+   },
+   {
+    "type": "basic",
+    "front": "Fitz-Hugh–Curtis syndrome?",
+    "back": "Perihepatitis in PID with violin-string adhesions."
+   },
+   {
+    "type": "basic",
+    "front": "46,XY female with breasts and sparse pubic hair?",
+    "back": "Complete androgen insensitivity syndrome."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "mullerian",
+   "septate uterus",
+   "bicornuate",
+   "mrkh",
+   "rokitansky",
+   "androgen insensitivity",
+   "imperforate hymen",
+   "haematocolpos",
+   "puberty",
+   "thelarche",
+   "precocious puberty",
+   "delayed puberty",
+   "menopause",
+   "hrt",
+   "hormone replacement",
+   "premature ovarian insufficiency",
+   "tibolone",
+   "bacterial vaginosis",
+   "amsel",
+   "candidiasis",
+   "trichomonas",
+   "pid",
+   "pelvic inflammatory disease",
+   "fitz hugh curtis"
+  ],
+  "wiki": [
+   "Mullerian_agenesis",
+   "Menopause",
+   "Pelvic_inflammatory_disease"
+  ],
+  "verify": "CDC STI 2021; NAMS 2022 position statement; ESHRE POI guideline 2024"
+ },
+ {
+  "id": "obg-infertility-art-contraception",
+  "title": "Infertility work-up, semen analysis, ART, OHSS, missed pills, DMPA and IUCD pregnancy",
+  "subject": "OBGY",
+  "system": "Reproductive medicine",
+  "yield": 3,
+  "kind": "volatile",
+  "anchor": [
+   "Tubal patency: HSG in the follicular phase (day 7–10, after bleeding stops); laparoscopic chromopertubation is the gold standard.",
+   "WHO 2021 (6th edition) semen lower reference limits: volume 1.4 ml, concentration 16 million/ml, total 39 million, total motility 42%, progressive 30%, vitality 54%, normal forms 4%.",
+   "Letrozole is now first-line ovulation induction in PCOS; clomiphene 50 mg days 2–5."
+  ],
+  "tables": [
+   {
+    "title": "Ovulation induction and ART",
+    "head": [
+     "Item",
+     "Fact"
+    ],
+    "rows": [
+     [
+      "Midluteal progesterone",
+      "> 3 ng/ml (ovulation confirmed); day 21 of 28-day cycle"
+     ],
+     [
+      "Clomiphene",
+      "SERM; risks: multiple pregnancy, endometrial thinning"
+     ],
+     [
+      "IUI",
+      "Needs patent tube and adequate sperm count"
+     ],
+     [
+      "IVF",
+      "Tubal factor, endometriosis, unexplained after failure"
+     ],
+     [
+      "ICSI",
+      "Severe male factor"
+     ],
+     [
+      "OHSS prevention",
+      "Antagonist protocol, GnRH-agonist trigger, cabergoline, freeze-all"
+     ],
+     [
+      "ART (Regulation) Act and Surrogacy (Regulation) Act 2021",
+      "Altruistic surrogacy for eligible Indian married couples; regulated registry"
+     ]
+    ]
+   },
+   {
+    "title": "Contraception lapses",
+    "head": [
+     "Situation",
+     "Action"
+    ],
+    "rows": [
+     [
+      "COC: 1 pill missed (<24 h late)",
+      "Take it now; continue; no extra protection"
+     ],
+     [
+      "COC: ≥2 missed pills",
+      "Take the latest pill, condoms 7 days; emergency contraception if unprotected sex in week 1"
+     ],
+     [
+      "Progestin-only pill >3 h late (12 h for desogestrel)",
+      "Take now, condoms 2 days"
+     ],
+     [
+      "DMPA (Antara) 150 mg IM every 3 months",
+      "Grace period up to 4 weeks late (≈ 16 weeks)"
+     ],
+     [
+      "IUCD in situ with pregnancy",
+      "Remove if threads visible (reduces miscarriage/infection); ultrasound to exclude ectopic"
+     ],
+     [
+      "Emergency contraception",
+      "Ulipristal 30 mg ≤120 h; levonorgestrel 1.5 mg best ≤72 h; Cu-IUD ≤5 days most effective"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Hysterosalpingography: contraindicated in active pelvic infection and pregnancy; give antibiotics if hydrosalpinx suspected.",
+   "OHSS: ascites, haemoconcentration, hypovolaemia; severe form needs admission, albumin, thromboprophylaxis; avoid hCG trigger in high risk.",
+   "Cu-T 380A is effective for 10 years; LNG-IUS 52 mg is licensed for 5 years (extended to 8 in some regions).",
+   "DMPA: delayed return to fertility, bone density loss, irregular bleeding; safe in lactation after 6 weeks.",
+   "Basal body temperature rises 0.3–0.5 °C after ovulation (progesterone)."
+  ],
+  "traps": [
+   {
+    "stem": "Semen volume 1.4 ml reported in the 5th edition",
+    "trap": "Normal limit is 1.5 ml",
+    "fix": "State the edition: 5th = 1.5 ml, 6th = 1.4 ml; exams often follow the 5th."
+   },
+   {
+    "stem": "HSG timing",
+    "trap": "Premenstrual",
+    "fix": "Follicular phase after menses stops and before ovulation."
+   }
+  ],
+  "cards": [
+   {
+    "type": "cloze",
+    "text": "Letrozole is first line in {{c1::PCOS}}; clomiphene dose {{c2::50 mg days 2–5}}."
+   },
+   {
+    "type": "basic",
+    "front": "ICSI indication?",
+    "back": "Severe male factor infertility."
+   },
+   {
+    "type": "basic",
+    "front": "Cu-T 380A duration?",
+    "back": "10 years."
+   },
+   {
+    "type": "cloze",
+    "text": "DMPA: injection every {{c1::3 months}} with a grace period of {{c2::4 weeks}}."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "infertility",
+   "semen analysis",
+   "hsg",
+   "hysterosalpingography",
+   "chromopertubation",
+   "ovulation induction",
+   "clomiphene",
+   "letrozole",
+   "iui",
+   "ivf",
+   "icsi",
+   "ohss",
+   "surrogacy",
+   "art act",
+   "missed pill",
+   "dmpa",
+   "antara",
+   "iucd pregnancy",
+   "cu-t 380a",
+   "emergency contraception",
+   "ulipristal",
+   "levonorgestrel",
+   "basal body temperature"
+  ],
+  "wiki": [
+   "Infertility",
+   "Ovarian_hyperstimulation_syndrome",
+   "Emergency_contraception"
+  ],
+  "verify": "WHO 2021 semen manual; ART/Surrogacy (Regulation) Acts 2021; WHO MEC/Indian family planning guidelines 2023; LNG-IUS duration verify"
+ }
+]
