@@ -26,3 +26,5 @@ Rebuild + drills merged to main; live at https://archiboltmusk.github.io/INICET-
 - path-cns-tumours dropped below 3 tagged MCQs after rad-neuro-imaging; tune keywords.
 - User OKed copyrighted sources for personal learning (7 Oct), but the site is public: write own-words notes, no verbatim dumps; offer private repo if verbatim wanted.
 - Other repos seen: medicetamol.github.io/PYQs/INI-CET/<subject>/questions.json (~6 real 2026 PYQs per subject, with explanations; to import as tag `pyq`), MedLadder/subjects/<subject>/<topic> (topic MCQ pages), spandana-neetpg-inicet (186k MedMCQA/MedQA, Next.js, data/raw not in repo).
+- Image MCQs cover 105 of 121 images; unused: diagrams (Mallampati, pharyngeal arches, brachial plexus, cardiac cycle, O2 curve, RFLP, MS DIR MRI, cleft lip/Patau, Wilson sunflower cataract, duplicate bitot/falciparum/hyperK). Need more images for: Ewing onion peel, Hampton hump, scrub eschar, smudge cells, TAPVC snowman, rib notching, ROC curve, polyp/spotters.
+- Multi-image 'spot diagnosis' (two-panel) and answer-explained image sets per subject not yet built.

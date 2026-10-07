@@ -142,6 +142,27 @@ def tag_questions(clusters):
     return out, hits
 
 
+def image_questions(clusters):
+    """Hand-written image MCQs (sources/image_questions.json); the stem shows the verified Commons image."""
+    meta = {}
+    for c in clusters:
+        for im in c["images"]:
+            meta[im["src"]] = im
+    out = []
+    for n, x in enumerate(json.loads((ROOT / "sources" / "image_questions.json").read_text()), 1):
+        im = next((m for s, m in meta.items() if s.startswith("img/" + x["src"])), None)
+        if not im:
+            err(f"image question {n}: no image {x['src']}")
+            continue
+        if x["s"] not in SUBJECTS or len(x["o"]) != 4 or not 0 <= x["a"] < 4:
+            err(f"image question {n}: bad subject/options/answer")
+            continue
+        out.append({"id": f"img_{n:03d}", "s": x["s"], "c": [x["c"]], "q": x["q"], "o": x["o"], "a": x["a"],
+                    "e": x["e"], "t": "image", "x": "Image",
+                    "i": {"src": im["src"], "cap": im["caption"], "credit": im["credit"], "lic": im["licence"], "page": im["page"]}})
+    return out
+
+
 def tag_recall(clusters):
     """Recalled PYQ stems → per-cluster 'asked before' lists (stem, keyed answer, sitting)."""
     match = matcher(clusters)
@@ -164,6 +185,10 @@ def main():
         print("\n".join(errors))
         sys.exit(1)
     questions, hits = tag_questions(clusters)
+    iq = image_questions(clusters)
+    for q in iq:
+        hits.update(q["c"])
+    questions += iq
     tag_recall(clusters)
     if errors:
         print("\n".join(errors))

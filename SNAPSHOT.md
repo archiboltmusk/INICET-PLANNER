@@ -4,7 +4,7 @@
 - `index.html` shell + nav; loads data/clusters.js, data/questions.js, sprint.js, app.js (defer order matters).
 - `app.js` core: state (localStorage `inicet-os-v5`), diagnosis engine `clusterStats()`, router, views Today/Matrix/Cluster/Block/Review/Errors/Playbook/Settings, SRS (`grade`, `srsQueue`), Anki export (`ankiText`).
 - `sprint.js` extra views via `window.EXTRA_VIEWS`: Sprint (SPRINT array, 8–31 Oct), Spotters (SPOT, 30 items), Notebook (`S.nb`). Also `sprintToday()` and `PLAYBOOK_EXTRA`.
-- `tools/build.py` validates clusters, keyword-tags MCQs (sources/practice_sets, 3,263 incl. 8 sprint drills tagged `drill`) and recall stems (sources/pyq_recall.json → cluster.pyq).
+- `tools/build.py` validates clusters, keyword-tags MCQs (sources/practice_sets, 3,368 incl. 105 image MCQs (sources/image_questions.json, t='image', carry q.i) and 8 sprint drills tagged `drill`) and recall stems (sources/pyq_recall.json → cluster.pyq).
 - `tools/fetch_images.py` → img/ + data/images.json.
 - `legacy/` v4 tracker, read-only.
 
@@ -21,3 +21,4 @@ attempts, errors{et:G|R|A|T|P (legacy K→G)}, cards, blocks, read, newLog, acti
 - Coverage tab (coverage.js + data/coverage.js, built by tools/coverage.py from sources/marrow_topics.json): 475/1066 Marrow chapter topics mapped to clusters.
 - Radiology expanded: data/clusters/rad2.json (7 clusters: chest, cardiac, abdomen, bone, neuro, nuclear/RT, physics/FAST). Coverage now 500/1066.
 - OBGY expanded: data/clusters/obg2.json (6 clusters: puerperium/instrumental, early pregnancy/ANC/MTP, preterm/PPROM/FGR/liquor, prolapse/SUI/fistula, anatomy/puberty/menopause/vaginitis/PID, infertility/ART/contraception lapses). Coverage 525/1066.
+- Block → Image questions mode (pickImages; image shown by qImg() in block, result review and mistake cards; caption shown only after answering). Image MCQs authored in tools-free JSON; build.py image_questions() links each to a cluster image by file-hash prefix.

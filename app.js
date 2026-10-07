@@ -43,6 +43,9 @@ const md = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/\n/g, '<b
 const pct = x => Math.round(x * 100) + '%';
 const today = () => new Date().toISOString().slice(0, 10);
 const fmtT = s => { s = Math.max(0, Math.round(s)); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
+function qImg(q) {
+  return q.i ? `<figure class="qimg"><img src="${esc(q.i.src)}" alt="Question image" loading="lazy"><figcaption class="credit">${esc(q.i.credit)} · ${esc(q.i.lic)} · <a href="${esc(q.i.page)}" target="_blank" rel="noopener">source</a></figcaption></figure>` : '';
+}
 function stemHTML(t) {
   const out = [], lines = String(t).split('\n');
   for (let i = 0; i < lines.length; i++) {
@@ -151,6 +154,12 @@ function pickCluster(cid, n) {
   const pool = questions().filter(q => q.c.includes(cid));
   pool.sort((a, b) => (lc[a.id] || 0) - (lc[b.id] || 0) || Math.random() - 0.5);
   return shuffle(pool.slice(0, n).map(q => q.id));
+}
+function pickImages(n, subject) {
+  const st = clusterStats(), now = Date.now(), lc = lastCorrect();
+  const pool = questions().filter(q => q.i && (!subject || q.s === subject) && !(lc[q.id] && now - lc[q.id] < 30 * 864e5));
+  const w = q => 1 + Math.max(0, ...q.c.map(c => (st[c] ? st[c].priority : 0)));
+  return pool.map(q => [Math.random() * w(q) * 2, q.id]).sort((a, b) => b[0] - a[0]).slice(0, n).map(x => x[1]);
 }
 function pickPurge(n) {
   const ids = [...new Set(S.errors.filter(e => !e.resolved).sort((a, b) => b.ts - a.ts).map(e => e.qid))];
@@ -326,12 +335,14 @@ const MODES = {
   purge: { label: 'Mistake purge', n: 50, secs: 0 },
   drill: { label: 'Cluster drill', n: 10, secs: 0 },
   sprint: { label: 'Sprint drills', n: 50, secs: 0 },
+  image: { label: 'Image questions', n: 25, secs: 25 * 45 },
 };
 function startBlock(mode, cid, subject) {
   questions();
   let ids;
   if (mode === 'diagnostic') ids = pickDiagnostic(50);
   else if (mode === 'purge') ids = pickPurge(50);
+  else if (mode === 'image') ids = pickImages(25, subject);
   else if (mode === 'sprint') ids = questions().filter(q => q.t === 'drill').map(q => q.id);
   else if (mode === 'drill') ids = pickCluster(cid, clusterStats()[cid].status === 'new' ? 5 : 10);
   else ids = pickMixed(MODES[mode].n, subject);
@@ -357,7 +368,7 @@ function vBlock() {
   <div class="card">
     <div class="row small muted"><span>Q ${i + 1} / ${n}</span><span>${esc(q.s)}</span>${q.t ? `<span class="pill">${esc(q.t)}</span>` : ''}
       <button class="btn sm" data-act="flag" style="margin-left:auto">${B.flags[i] ? '⚑ Flagged' : '⚐ Flag'}</button></div>
-    <div class="stem">${stemHTML(q.q)}</div>
+    <div class="stem">${stemHTML(q.q)}</div>${qImg(q)}
     ${q.o.map((o, k) => `<div class="opt"><button class="o ${B.ans[i] === k ? 'sel' : ''} ${(B.elim[i] || []).includes(k) ? 'elim' : ''}" data-act="ans" data-k="${k}">
       <b>${'ABCD'[k]}.</b> ${esc(o)}</button><button class="x" data-act="elim" data-k="${k}" title="Strike out">✕</button></div>`).join('')}
     <div class="row" style="margin-top:10px"><button class="btn" data-act="go" data-d="-1" ${i ? '' : 'disabled'}>← Prev</button>
@@ -390,6 +401,8 @@ function vBlockSetup() {
       <button class="btn" data-act="start" data-mode="diagnostic">Start</button></div>
     <div class="card"><h3>Speed run</h3><p class="small">25 questions in 12.5 minutes (30 s each). Makes the real 45 s pace feel slow.</p>
       <button class="btn" data-act="start" data-mode="speed">Start</button></div>
+    <div class="card"><h3>Image questions</h3><p class="small">25 INI-CET-style image questions (ECG, X-ray, smear, histology, clinical signs), 45 s each. Weak clusters first; uses the subject picker in the mixed-block card.</p>
+      <button class="btn" data-act="start" data-mode="image">Start</button></div>
     <div class="card"><h3>Sprint drills</h3><p class="small">Toxic alcohols and 50/50 vignettes, untimed, full explanations.</p>
       <button class="btn" data-act="start" data-mode="sprint">Start</button></div>
     <div class="card"><h3>Mistake purge</h3><p class="small">Re-attempt your unresolved wrong answers (${unres}). A question you get right here is marked as a plugged leak.</p>
@@ -445,9 +458,9 @@ function vBlockResult() {
     const et = att.et || suggestType(B, a.i), err = S.errors.find(e => e.b === B.id && e.i === a.i);
     return `<div class="card" style="margin:10px 0" id="r${a.i}"><div class="row small muted"><span>Q ${a.i + 1}</span><span>${esc(q.s)}</span>
       ${q.c.map(cid => CI[cid] ? `<a href="#/c/${cid}">${esc(CI[cid].title)}</a>` : '').join(' · ')}<span>${Math.round(a.t)} s</span>${a.skip ? '<span class="pill">skipped</span>' : ''}</div>
-      <div class="stem">${stemHTML(q.q)}</div>
+      <div class="stem">${stemHTML(q.q)}</div>${qImg(q)}
       ${q.o.map((o, k) => `<div class="opt"><button class="o ${k === q.a ? 'right' : ''} ${k === ch && k !== q.a ? 'wrong' : ''}" disabled><b>${'ABCD'[k]}.</b> ${esc(o)}</button></div>`).join('')}
-      <div class="expl">${esc(q.e)}${q.x ? `\n\nAsked: ${esc(q.x)}` : ''}</div>
+      <div class="expl">${esc(q.e)}${q.i ? `\n\nImage: ${esc(q.i.cap)}` : ''}${q.x ? `\n\nAsked: ${esc(q.x)}` : ''}</div>
       ${a.skip ? '' : `<div class="row"><span class="seg" data-i="${a.i}">${ETYPES.map(t => `<button class="${(err ? err.et : '') === t ? 'on' : ''}" data-act="cls" data-i="${a.i}" data-t="${t}" title="${ET[t]}">${t} · ${ET[t].split(' (')[0]}</button>`).join('')}</span>
         ${err ? '' : `<span class="small muted">suggested: ${et}</span>`}</div>
       <textarea placeholder="Anchor I missed / why the tempting option was wrong" data-note="${a.i}">${esc(err ? err.note : '')}</textarea>`}
@@ -496,7 +509,7 @@ function cardFace(key, reveal) {
     const q = QI[key.slice(2)]; if (!q) return null;
     const e = S.errors.filter(x => x.qid === q.id).pop();
     return { title: 'Your mistake' + (e ? ' · ' + ET[e.et] : ''), cid: q.c[0],
-      front: `${stemHTML(q.q)}<br><br>${q.o.map((o, k) => `${'ABCD'[k]}. ${esc(o)}`).join('<br>')}`,
+      front: `${stemHTML(q.q)}${qImg(q)}<br><br>${q.o.map((o, k) => `${'ABCD'[k]}. ${esc(o)}`).join('<br>')}`,
       back: `<b>${'ABCD'[q.a]}. ${esc(q.o[q.a])}</b><br>${esc(q.e)}${e && e.note ? `<br><br><i>Your note:</i> ${esc(e.note)}` : ''}` };
   }
   const [cid, i, n] = key.split('#'), c = CI[cid]; if (!c) return null;
