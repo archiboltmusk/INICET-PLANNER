@@ -27,7 +27,7 @@
       <select id="pfs"><option value="">All subjects</option>${subs.map(s => `<option ${s === f.s ? 'selected' : ''}>${s}</option>`).join('')}</select>
       <select id="pfe"><option value="">All exams</option>${['INI', 'AIIMS', 'NEET'].map(x => `<option ${x === f.ex ? 'selected' : ''}>${x}</option>`).join('')}</select>
       <select id="pfn"><option value="">Any repeats</option><option value="2" ${f.n === '2' ? 'selected' : ''}>Asked ≥2×</option><option value="3" ${f.n === '3' ? 'selected' : ''}>Asked ≥3×</option></select>
-      <select id="pfy"><option value="">Any year</option><option value="2026" ${f.y === '2026' ? 'selected' : ''}>2026 (dated)</option></select></div><div id="pq"></div>`;
+      <select id="pfy"><option value="">Any year</option><option value="2026" ${f.y === "2026" ? "selected" : ""}>2026</option><option value="2022" ${f.y === "2022" ? "selected" : ""}>2022 (recall)</option></select></div><div id="pq"></div>`;
       const bind = (id, k) => document.getElementById(id).addEventListener('input', e => { f[k] = e.target.value; f.lim = 40; draw(); });
       bind('pqs', 'q'); bind('pfs', 's'); bind('pfe', 'ex'); bind('pfn', 'n'); bind('pfy', 'y');
       draw();

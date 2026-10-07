@@ -31,3 +31,8 @@ Rebuild + drills merged to main; live at https://archiboltmusk.github.io/INICET-
 - PYQ gaps: no dated 2021-2025 INI-CET papers or PYQ pictures in any connected repo/Drive. If user has paper PDFs/screenshots, import per year (sources/pyq_dated.json schema: s,q,o[4],a,y,t,e). Do not invent.
 - 2026 PYQ set has near-duplicate stems (e.g. gadolinium Group II, URTI imaging); deduped by exact stem only.
 - Drive check (7 Oct): three folders the user added (1nJm2plP…, 1Mf1hlgi…, 1KlYa13r…) return "not found" for the Drive connector account (not shared with it). Parent folder 0AAVDnc5… holds only Marrow/BTR PDFs; no year-wise INI-CET papers. surgery-2.pdf and pathology-2.pdf exist (61–72 MB, image-only, no extractable text); Vol 1/2/3.pdf (170–250 MB) and CoreBTR QBank.pdf (350 MB) also return no text. Need: share the three folders with the connected Google account, or upload papers as text-readable PDF/photos.
+
+## Dated PYQ web search (7 Oct 2026)
+- FOUND + imported: INI-CET 2022 May+Nov, 37 AglaSem subject PDFs (docs.aglasem.com, "based on memory recall", image-only → rapidocr OCR). 579 MCQs kept; 116 dropped (no parseable options), 78 image-dependent, 30 OCR-garbage/dupes. Keys are UNOFFICIAL recall keys; OCR may leave typos. Tag `x` = "INI-CET May/Nov 2022 (memory recall)".
+- NOT imported: Careers360 2025 page (few stems, no options), PW/Prepp/Doctutorials 2023-2025 (paywalled/analysis only/links not public). AglaSem blog lists 2021 memory-recall paper — not yet fetched. 2023, 2024, 2025 full papers: none found open.
+- OCR route: `pip install rapidocr-onnxruntime`; AglaSem PDFs at cdn.aglasem.com/aglasem-doc/<id>/<id>.pdf.
