@@ -1,7 +1,8 @@
 # BACKLOG
 
 ## >>RESUME HERE
-PR #1 (draft) holds the rebuild + sprint. Next, in order:
+Rebuild + drills merged to main; live at https://archiboltmusk.github.io/INICET-PLANNER/ (case-sensitive). Coverage view lists 591 Marrow chapter topics with no cluster (data/coverage.js). Next, in order:
+0. Fill coverage gaps by exam yield, one subject per PR: Radiology (44 gaps), OBGY (55), Community Med (57), Physiology (49), Pharm (39), Peds (38), Micro (36), Ophthal (35), Anaesthesia (35), Forensic (32), ENT (32). Open Coverage → Gaps only. Surgery/Pathology have no Marrow file in Drive.
 1. "20 easy-mark topics" sheet as one volatile cluster (tests-of-significance tree, PK formulas, porphyrias, sterilisation indicators, parasite eggs, arches, tympanometry, field defects, defence mechanisms, sleep stages, STI kits, radiation units, MAC, cold chain/VVM, lead-time bias, GCS, Pearl index/MEC, primitive reflexes, CSF profiles).
 2. Missing clusters: gestational trophoblastic disease (snowstorm spotter), CSF/meningitis profiles, visual field defects (own cluster), defence mechanisms + sleep, primitive reflexes, toxic alcohols, airway infections (croup/epiglottitis).
 3. Multi-correct and assertion-reason question formats in Block (user wants INI-CET formats).
@@ -17,3 +18,8 @@ PR #1 (draft) holds the rebuild + sprint. Next, in order:
 
 ## Done
 - Sprint drills (8 Q, tag `drill`, sources/practice_sets/drills_sprint.json) + Block → Sprint drills mode.
+
+## Source rules
+- Marrow/BTR Drive files are subscriber-only and watermarked: use for topic names and coverage only; never paste their text, images or questions into the repo. Author own notes from standard references.
+- Drive: 17 subject files `<subject>-2.pdf` (Marrow World of Revision), Core BTR QBank + Elite HTML. Drive connector dropped mid-session; re-read via read_file_content if needed.
+- sources/marrow_topics.json = chapter names only; rebuild map with `python3 tools/coverage.py`.

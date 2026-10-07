@@ -9,3 +9,4 @@
 - Bump CACHE in sw.js on every shipped change.
 - Branch claude/*, draft PR to main. User is terse; reply with results only.
 - On task completion update SNAPSHOT.md, BACKLOG.md and this file.
+- Marrow/BTR notes are licensed: topic names only, never copy text/images/questions.

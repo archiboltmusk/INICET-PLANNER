@@ -18,3 +18,4 @@ Beta posterior per cluster, 21-day half-life. Error weights G 1, A 1, R 0.7, T 0
 ## State keys
 attempts, errors{et:G|R|A|T|P (legacy K→G)}, cards, blocks, read, newLog, active, sprint, spot, nb, settings.
 - Block has a Sprint drills mode (questions with t==='drill').
+- Coverage tab (coverage.js + data/coverage.js, built by tools/coverage.py from sources/marrow_topics.json): 475/1066 Marrow chapter topics mapped to clusters.
