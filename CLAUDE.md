@@ -13,3 +13,4 @@
 
 - Dated PYQs: sources/pyq_dated.json (2026 + 2022 recall); `x` field overrides sitting label. 2023-25 not openly available.
 - Algorithms: write as indented text; app renders as flowchart. Trap check requests: discriminator + next vs definitive step.
+- Instrument clusters live in data/clusters/instruments.json; MCQs tagged INSTRUMENT in sources/practice_sets/instruments.json.

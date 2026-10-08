@@ -1,0 +1,2131 @@
+[
+ {
+  "id": "ins-anaesthesia",
+  "title": "Anaesthesia instruments: airway, laryngoscopes, needles, circuits",
+  "subject": "Anesthesia",
+  "system": "Instruments",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Name the instrument from its shape, then the one decisive use. Airway tools are graded by size; spinal vs epidural needles differ by tip and bevel.",
+   "Macintosh lifts the epiglottis indirectly (tip in vallecula); Miller lifts it directly (tip under epiglottis)."
+  ],
+  "tables": [
+   {
+    "title": "Airway and breathing",
+    "head": [
+     "Instrument",
+     "How to recognise",
+     "Use / key fact"
+    ],
+    "rows": [
+     [
+      "Macintosh laryngoscope",
+      "Curved blade",
+      "Tip placed in the vallecula; adults; indirect epiglottis lift"
+     ],
+     [
+      "Miller laryngoscope",
+      "Straight blade",
+      "Tip under epiglottis; preferred in infants and neonates (floppy, omega-shaped epiglottis)"
+     ],
+     [
+      "Guedel airway",
+      "Flanged curved plastic tube, colour coded",
+      "Oropharyngeal airway; unconscious patient only (stimulates gag in awake)"
+     ],
+     [
+      "Nasopharyngeal airway",
+      "Soft tube with flared end",
+      "Tolerated in semi-conscious; avoid in base-of-skull fracture, coagulopathy"
+     ],
+     [
+      "Laryngeal mask airway (LMA)",
+      "Elliptical cuff on a tube, sits over larynx",
+      "Supraglottic device; does not protect against aspiration; used in difficult airway rescue"
+     ],
+     [
+      "Magill forceps",
+      "Angled forceps with offset handles",
+      "Guide NG tube / ET tube; remove foreign body from pharynx"
+     ],
+     [
+      "Bougie (gum elastic)",
+      "Long flexible introducer, angled tip",
+      "Difficult intubation: pass blindly then railroad tube"
+     ],
+     [
+      "Ambu bag (BVM)",
+      "Self-inflating bag, valve, mask",
+      "Emergency ventilation, 15 L/min O2, reservoir"
+     ],
+     [
+      "Cuffed ET tube",
+      "Tube with inflatable cuff",
+      "Cuff pressure 20–30 cmH2O; uncuffed tubes classically for children <8 years (cuffed acceptable now)"
+     ]
+    ]
+   },
+   {
+    "title": "Regional anaesthesia needles and circuits",
+    "head": [
+     "Item",
+     "Feature",
+     "Key fact"
+    ],
+    "rows": [
+     [
+      "Quincke needle",
+      "Cutting bevel spinal needle",
+      "Highest post-dural-puncture headache (PDPH)"
+     ],
+     [
+      "Whitacre / Sprotte",
+      "Pencil-point (atraumatic) tip",
+      "Lowest PDPH; preferred in young women, obstetrics"
+     ],
+     [
+      "Tuohy needle",
+      "Curved (Huber) tip with wings",
+      "Epidural space identification by loss of resistance; catheter threaded through"
+     ],
+     [
+      "Jackson-Rees (Mapleson F)",
+      "T-piece with open-ended bag",
+      "Paediatric anaesthesia, minimal dead space; fresh gas flow 2–3 × minute ventilation"
+     ],
+     [
+      "Bain circuit (Mapleson D)",
+      "Coaxial tube",
+      "Controlled ventilation; FGF 70–100 mL/kg/min"
+     ],
+     [
+      "Circle system with CO2 absorber",
+      "Soda lime canister",
+      "Closed circuit; absorber contains NaOH/Ca(OH)2; colour change on exhaustion"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Spinal anaesthesia is given below L2 in adults (conus ends L1–L2); in children the cord ends lower (L3).",
+   "Epidural: Tuohy needle, loss of resistance to air or saline; test dose with lignocaine + adrenaline detects intravascular/intrathecal placement.",
+   "LMA is contraindicated when aspiration risk is high (full stomach, pregnancy).",
+   "Capnography is the gold-standard confirmation of ET tube placement (persistent waveform); chest rise and auscultation are supportive.",
+   "Pulse oximeter: red (660 nm) and infrared (940 nm) light; cannot tell CO-Hb apart from O2-Hb (reads falsely high).",
+   "Difficult airway: plan A intubation, B supraglottic (LMA), C face mask, D surgical airway (cricothyroidotomy)."
+  ],
+  "traps": [
+   {
+    "stem": "Child needs intubation: choose blade",
+    "trap": "Choose a Macintosh because it is the standard",
+    "fix": "Miller (straight) blade in infants: the epiglottis is long and floppy"
+   },
+   {
+    "stem": "Needle chosen for obstetric spinal to reduce headache",
+    "trap": "Quincke, because it is the thinnest",
+    "fix": "Pencil-point Whitacre/Sprotte; Quincke is a cutting tip with higher PDPH"
+   },
+   {
+    "stem": "Patient with CO poisoning, SpO2 100%",
+    "trap": "Oxygenation is fine",
+    "fix": "Pulse oximeter reads COHb as oxyHb; check co-oximetry"
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Curved vs straight laryngoscope blade — site of tip?",
+    "back": "Macintosh (curved): vallecula. Miller (straight): lifts the epiglottis directly; used in infants."
+   },
+   {
+    "type": "basic",
+    "front": "Which spinal needle has least PDPH?",
+    "back": "Pencil-point tip (Whitacre / Sprotte)."
+   },
+   {
+    "type": "basic",
+    "front": "Needle used to find the epidural space?",
+    "back": "Tuohy (Huber-tipped, curved, winged); loss-of-resistance technique."
+   },
+   {
+    "type": "basic",
+    "front": "Circuit for paediatric anaesthesia?",
+    "back": "Jackson-Rees modification of Ayre's T-piece (Mapleson F)."
+   },
+   {
+    "type": "basic",
+    "front": "Gold-standard confirmation of ET tube position?",
+    "back": "Continuous waveform capnography (EtCO2)."
+   },
+   {
+    "type": "basic",
+    "front": "Which airway adjunct is used only in unconscious patients?",
+    "back": "Guedel (oropharyngeal) airway."
+   },
+   {
+    "type": "basic",
+    "front": "Intubation aid when the view is poor?",
+    "back": "Gum elastic bougie, then railroad the tube."
+   },
+   {
+    "type": "basic",
+    "front": "Pulse oximeter wavelengths?",
+    "back": "660 nm red and 940 nm infrared."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "laryngoscope",
+   "macintosh",
+   "miller",
+   "guedel",
+   "oropharyngeal airway",
+   "laryngeal mask",
+   "lma",
+   "magill forceps",
+   "bougie",
+   "ambu bag",
+   "spinal needle",
+   "quincke",
+   "whitacre",
+   "tuohy",
+   "epidural needle",
+   "jackson rees",
+   "mapleson",
+   "bain circuit",
+   "capnography",
+   "pulse oximeter",
+   "endotracheal tube",
+   "cuff pressure"
+  ],
+  "wiki": [
+   "Laryngoscopy",
+   "Laryngeal_mask_airway",
+   "Epidural_administration"
+  ],
+  "verify": "Standard anaesthesia texts (Miller, Morgan & Mikhail); fresh gas flow values approximate"
+ },
+ {
+  "id": "ins-surgery-general",
+  "title": "Surgical instruments: forceps, retractors, clamps, drains, sutures",
+  "subject": "Surgery",
+  "system": "Instruments",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Name the instrument from the jaw / blade / tip, then state the one structure it holds or retracts.",
+   "Atraumatic bowel clamps (Doyen) vs crushing clamps (Kocher, Payr); sponge-holding Rampley is ring-jawed."
+  ],
+  "tables": [
+   {
+    "title": "Forceps and clamps",
+    "head": [
+     "Instrument",
+     "How to recognise",
+     "Use"
+    ],
+    "rows": [
+     [
+      "Allis forceps",
+      "Teeth at tip; fenestrated jaws",
+      "Grasps tissue/fascia/bowel wall to be excised; mildly traumatic"
+     ],
+     [
+      "Babcock forceps",
+      "Fenestrated, rounded atraumatic jaws",
+      "Holds bowel, fallopian tube, appendix, ureter"
+     ],
+     [
+      "Kocher forceps",
+      "Toothed straight jaws, heavy",
+      "Crushing clamp for fascia, aponeurosis; haemostat for thyroid ligaments"
+     ],
+     [
+      "Spencer Wells artery forceps",
+      "Transverse serrations on jaws",
+      "Haemostat for medium vessels"
+     ],
+     [
+      "Mosquito forceps",
+      "Small artery forceps",
+      "Small vessels, paediatric"
+     ],
+     [
+      "Rampley sponge-holding forceps",
+      "Ring jaws",
+      "Holds swabs for skin preparation; hold uterine cervix"
+     ],
+     [
+      "Doyen intestinal clamp",
+      "Long non-crushing clamp",
+      "Occludes bowel lumen (atraumatic)"
+     ],
+     [
+      "Satinsky clamp",
+      "Curved vascular clamp",
+      "Partial occlusion of major vessels (IVC, aorta)"
+     ],
+     [
+      "Bulldog clamp",
+      "Small spring clamp",
+      "Temporary occlusion of small vessels"
+     ],
+     [
+      "Lane tissue forceps",
+      "Heavy toothed forceps",
+      "Holds thick tissue / fascia"
+     ],
+     [
+      "Adson forceps",
+      "Fine toothed (1×2) forceps",
+      "Skin closure"
+     ]
+    ]
+   },
+   {
+    "title": "Retractors, saws, drains, sutures",
+    "head": [
+     "Instrument",
+     "Feature",
+     "Use"
+    ],
+    "rows": [
+     [
+      "Morris retractor",
+      "Broad flat blade for deep wound",
+      "Abdominal wall / deep"
+     ],
+     [
+      "Doyen retractor",
+      "Wide blade, handle at right angle",
+      "Pelvic / lower abdominal surgery"
+     ],
+     [
+      "Langenbeck retractor",
+      "Narrow right-angled blade",
+      "Superficial tissue; thyroid, hernia"
+     ],
+     [
+      "Czerny retractor",
+      "Double-ended",
+      "Skin / superficial wound"
+     ],
+     [
+      "Deaver retractor",
+      "Curved blade",
+      "Deep pelvic / liver surgery"
+     ],
+     [
+      "Gigli saw",
+      "Flexible wire saw",
+      "Bone cutting (craniotomy, amputation)"
+     ],
+     [
+      "Penrose drain",
+      "Soft rubber tube (passive/capillary)",
+      "Drainage of abscess, subhepatic"
+     ],
+     [
+      "Redivac / Jackson-Pratt",
+      "Closed suction drain",
+      "Prevents seroma/haematoma"
+     ],
+     [
+      "Cutting needle",
+      "Triangular tip",
+      "Tough tissue — skin"
+     ],
+     [
+      "Round-body (taper) needle",
+      "Round",
+      "Delicate tissue — bowel, vessels"
+     ],
+     [
+      "Prolene (polypropylene)",
+      "Non-absorbable monofilament",
+      "Vascular, hernia mesh; reaction minimal"
+     ],
+     [
+      "Vicryl (polyglactin)",
+      "Absorbable braided; 56–70 days",
+      "Bowel, fascia (not under tension long)"
+     ],
+     [
+      "Silk",
+      "Non-absorbable braided; high reactivity",
+      "Ties, drains; avoid in infected field"
+     ],
+     [
+      "PDS (polydioxanone)",
+      "Absorbable monofilament ~180 days",
+      "Abdominal wall closure"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Veress needle: spring-loaded blunt stylet; inserted at Palmer's point or umbilicus; pneumoperitoneum to 12–15 mmHg.",
+   "Harmonic scalpel (ultrasonic): vibrates at 55.5 kHz, cuts and coagulates with less lateral spread than diathermy.",
+   "Bipolar diathermy is safe for pacemaker patients and digits; monopolar needs a return pad (risk of burns at pad site).",
+   "Surgical staplers: linear cutter-staplers divide bowel; circular staplers make end-to-end anastomosis.",
+   "Penrose drain acts by capillary action; closed suction drains need a bulb or vacuum."
+  ],
+  "traps": [
+   {
+    "stem": "Needle for bowel anastomosis",
+    "trap": "Cutting needle",
+    "fix": "Taper (round-bodied) needle; cutting needles tear delicate tissue"
+   },
+   {
+    "stem": "Instrument for atraumatic bowel occlusion",
+    "trap": "Kocher",
+    "fix": "Doyen clamp; Kocher crushes tissue"
+   },
+   {
+    "stem": "Cardiac pacemaker patient needs cautery",
+    "trap": "Monopolar",
+    "fix": "Bipolar (or short bursts with the return pad away from the heart)"
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Instrument to hold swabs for painting?",
+    "back": "Rampley sponge-holding forceps."
+   },
+   {
+    "type": "basic",
+    "front": "Atraumatic bowel clamp?",
+    "back": "Doyen intestinal clamp."
+   },
+   {
+    "type": "basic",
+    "front": "Which retractor is used in thyroid surgery for skin?",
+    "back": "Langenbeck; Czerny for skin edges."
+   },
+   {
+    "type": "basic",
+    "front": "Wire saw for bone?",
+    "back": "Gigli saw."
+   },
+   {
+    "type": "basic",
+    "front": "Veress needle site?",
+    "back": "Palmer's point (left subcostal) or umbilicus."
+   },
+   {
+    "type": "basic",
+    "front": "Passive drain?",
+    "back": "Penrose (capillary action)."
+   },
+   {
+    "type": "basic",
+    "front": "Absorbable suture lasting 180 days?",
+    "back": "PDS (polydioxanone)."
+   },
+   {
+    "type": "basic",
+    "front": "Suture with least tissue reaction?",
+    "back": "Monofilament non-absorbable such as Prolene."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "allis forceps",
+   "babcock",
+   "kocher forceps",
+   "spencer wells",
+   "mosquito forceps",
+   "rampley",
+   "doyen clamp",
+   "satinsky",
+   "bulldog clamp",
+   "retractor",
+   "morris retractor",
+   "langenbeck",
+   "czerny",
+   "deaver",
+   "gigli",
+   "penrose drain",
+   "veress needle",
+   "harmonic scalpel",
+   "diathermy",
+   "cutting needle",
+   "vicryl",
+   "prolene",
+   "silk suture",
+   "pds suture",
+   "surgical stapler"
+  ],
+  "wiki": [
+   "Surgical_instrument",
+   "Suture",
+   "Hemostat"
+  ],
+  "verify": "Standard surgical texts (Bailey & Love, SRB); suture absorption times approximate"
+ },
+ {
+  "id": "ins-obgy",
+  "title": "Obstetric and gynaecology instruments: forceps, speculum, vacuum, IUDs",
+  "subject": "OBGY",
+  "system": "Instruments",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Instrument OSCE: name, then 'used for', then one complication or contraindication.",
+   "Forceps: cephalic curve (fits head) and pelvic curve (fits birth canal); Kielland has minimal pelvic curve and sliding lock."
+  ],
+  "tables": [
+   {
+    "title": "Obstetric",
+    "head": [
+     "Instrument",
+     "Recognition",
+     "Use / key fact"
+    ],
+    "rows": [
+     [
+      "Simpson forceps",
+      "Long blades, pelvic + cephalic curves, English lock",
+      "Outlet/low forceps in occipito-anterior position"
+     ],
+     [
+      "Wrigley forceps",
+      "Short, light",
+      "Low-cavity / outlet forceps, often at caesarean"
+     ],
+     [
+      "Kielland forceps",
+      "Almost no pelvic curve, sliding lock",
+      "Rotation in deep transverse arrest / persistent OP"
+     ],
+     [
+      "Piper forceps",
+      "Long shanks",
+      "After-coming head of breech"
+     ],
+     [
+      "Ventouse (vacuum) cup",
+      "Silastic / Malmström metal cup with traction",
+      "Contraindicated: <34 weeks, face/brow, bleeding disorder"
+     ],
+     [
+      "Pinard stethoscope",
+      "Wooden/metal horn",
+      "Fetal heart sounds from 20 weeks"
+     ],
+     [
+      "Amnihook (Drew-Smythe)",
+      "Hooked",
+      "Artificial rupture of membranes"
+     ],
+     [
+      "Episiotomy scissors",
+      "Blunt-angled blade",
+      "Mediolateral cut at 60° (right)"
+     ],
+     [
+      "Mucus extractor (Delee)",
+      "Suction trap",
+      "Neonatal oropharyngeal suction"
+     ],
+     [
+      "Cardiotocograph",
+      "Two transducers",
+      "Doppler for FHR + tocodynamometer"
+     ],
+     [
+      "Bakri balloon",
+      "Silicone balloon",
+      "PPH tamponade"
+     ]
+    ]
+   },
+   {
+    "title": "Gynaecology",
+    "head": [
+     "Instrument",
+     "Recognition",
+     "Use"
+    ],
+    "rows": [
+     [
+      "Sims speculum",
+      "Double-ended, duck-bill, no hinge",
+      "Posterior vaginal wall retraction in prolapse and fistula"
+     ],
+     [
+      "Cusco (bivalve) speculum",
+      "Hinged two blades",
+      "Pap smear, cervix inspection"
+     ],
+     [
+      "Sim's anterior wall retractor",
+      "Flat blade",
+      "Anterior vaginal wall"
+     ],
+     [
+      "Vulsellum / tenaculum",
+      "Hooked, toothed jaws",
+      "Grasp cervix"
+     ],
+     [
+      "Uterine sound",
+      "Graduated thin probe",
+      "Measure cavity length (6–8 cm); perforation risk"
+     ],
+     [
+      "Hegar dilator",
+      "Graduated metal rods",
+      "Cervical dilatation"
+     ],
+     [
+      "Sharp curette",
+      "Spoon edge",
+      "D&C / endometrial sampling"
+     ],
+     [
+      "Karman cannula",
+      "Plastic flexible with syringe",
+      "Manual vacuum aspiration (MVA) up to 12 weeks"
+     ],
+     [
+      "Pipelle",
+      "Plastic tube + piston",
+      "Outpatient endometrial sampling"
+     ],
+     [
+      "Ayre's spatula",
+      "Wooden with extended tip",
+      "Squamocolumnar junction sample (Pap)"
+     ],
+     [
+      "Cytobrush",
+      "Brush",
+      "Endocervical sample"
+     ],
+     [
+      "Copper T 380A",
+      "T-shaped; 380 mm² copper",
+      "10-year IUCD; emergency contraception within 5 days"
+     ],
+     [
+      "LNG-IUS (Mirena)",
+      "T-shaped with levonorgestrel",
+      "Heavy menstrual bleeding; 5-year contraception"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Forceps prerequisites: fully dilated cervix, ruptured membranes, engaged head, empty bladder, known position, adequate analgesia.",
+   "Ventouse: cup placed at flexion point 3 cm anterior to posterior fontanelle; pull ≤ 3 pulls and ≤ 20 minutes; avoid pop-offs >2.",
+   "Pap smear: sample the transformation zone with Ayre's spatula and cytobrush; fix immediately in 95% ethanol.",
+   "IUCD insertion best immediately after birth (<48 h), or after 4 weeks; Copper T failure ~0.8%/year (Pearl index).",
+   "Uterine perforation is the main hazard of sound, curette and IUCD insertion."
+  ],
+  "traps": [
+   {
+    "stem": "Deep transverse arrest, needs rotation",
+    "trap": "Simpson forceps",
+    "fix": "Kielland (no pelvic curve, sliding lock)"
+   },
+   {
+    "stem": "Breech delivery, aftercoming head",
+    "trap": "Wrigley",
+    "fix": "Piper forceps"
+   },
+   {
+    "stem": "First trimester abortion MVA",
+    "trap": "Sharp curette",
+    "fix": "Karman cannula; suction preferred"
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Instrument for rotational delivery?",
+    "back": "Kielland forceps (sliding lock, minimal pelvic curve)."
+   },
+   {
+    "type": "basic",
+    "front": "Forceps for aftercoming head?",
+    "back": "Piper."
+   },
+   {
+    "type": "basic",
+    "front": "Speculum for prolapse and fistula?",
+    "back": "Sims speculum with anterior wall retractor."
+   },
+   {
+    "type": "basic",
+    "front": "Ventouse contraindications?",
+    "back": "<34 weeks, face/brow, bleeding disorders, fetal macrosomia (relative)."
+   },
+   {
+    "type": "basic",
+    "front": "Which instrument measures uterine length?",
+    "back": "Uterine sound (normal 6–8 cm)."
+   },
+   {
+    "type": "basic",
+    "front": "Cannula for MVA?",
+    "back": "Karman cannula."
+   },
+   {
+    "type": "basic",
+    "front": "Pap smear sample from?",
+    "back": "Squamocolumnar junction / transformation zone."
+   },
+   {
+    "type": "basic",
+    "front": "Copper T 380A lifespan?",
+    "back": "10 years."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "simpson forceps",
+   "wrigley",
+   "kielland",
+   "piper forceps",
+   "ventouse",
+   "vacuum extractor",
+   "pinard",
+   "amnihook",
+   "episiotomy",
+   "mucus extractor",
+   "cardiotocograph",
+   "sims speculum",
+   "cusco speculum",
+   "vulsellum",
+   "tenaculum",
+   "uterine sound",
+   "hegar",
+   "curette",
+   "karman cannula",
+   "manual vacuum aspiration",
+   "pipelle",
+   "ayre spatula",
+   "cytobrush",
+   "copper t",
+   "mirena",
+   "lng-ius",
+   "bakri"
+  ],
+  "wiki": [
+   "Obstetric_forceps",
+   "Vacuum_extraction",
+   "Intrauterine_device"
+  ],
+  "verify": "Standard obstetrics texts (Dutta, Williams); forceps classification per ACOG"
+ },
+ {
+  "id": "ins-ophthalmology",
+  "title": "Ophthalmology instruments: tonometers, lenses, retinoscope, perimetry",
+  "subject": "Ophthalmology",
+  "system": "Instruments",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Match instrument → what it measures: IOP (Goldmann, Schiotz, NCT), cornea curvature (keratometer), refraction (retinoscope, autorefractor), field (Humphrey, Goldmann perimeter), angle (gonioscope).",
+   "Gold standard IOP = Goldmann applanation tonometer (Imbert-Fick law)."
+  ],
+  "tables": [
+   {
+    "title": "Examination instruments",
+    "head": [
+     "Instrument",
+     "Measures / principle",
+     "Key fact"
+    ],
+    "rows": [
+     [
+      "Goldmann applanation tonometer",
+      "Applanation of 3.06 mm area (Imbert-Fick law)",
+      "Gold standard IOP; fluorescein + blue light; CCT errors"
+     ],
+     [
+      "Schiotz tonometer",
+      "Indentation; plunger weights 5.5, 7.5, 10, 15 g",
+      "Supine patient; affected by scleral rigidity"
+     ],
+     [
+      "Non-contact tonometer",
+      "Air-puff applanation",
+      "Screening; no anaesthetic needed"
+     ],
+     [
+      "Perkins / Tono-Pen",
+      "Portable applanation",
+      "Bedside / children"
+     ],
+     [
+      "Keratometer (Javal-Schiotz)",
+      "Anterior corneal curvature",
+      "Astigmatism, IOL power; normal K 43 D"
+     ],
+     [
+      "Retinoscope (streak)",
+      "Reflex from retina neutralised with lenses",
+      "Objective refraction; 'with' movement = hypermetropia/under-correction"
+     ],
+     [
+      "Direct ophthalmoscope",
+      "Magnification ×15, upright image",
+      "Fundus view; small field"
+     ],
+     [
+      "Indirect ophthalmoscope",
+      "Magnification ×4–5, inverted image, wide field",
+      "Peripheral retina, retinal detachment; use 20 D lens"
+     ],
+     [
+      "Slit lamp",
+      "Binocular microscope + variable slit",
+      "Anterior segment; with +90 D lens for fundus"
+     ],
+     [
+      "Gonioscope (Goldmann 3-mirror, Zeiss)",
+      "Mirror to view angle",
+      "Angle grading (Shaffer), PACG vs POAG"
+     ],
+     [
+      "Lensometer",
+      "Power of spectacles",
+      "Measures sphere, cylinder and axis"
+     ],
+     [
+      "Humphrey automated perimeter",
+      "Static threshold visual field",
+      "Glaucoma follow-up; 30-2, 24-2"
+     ],
+     [
+      "Goldmann perimeter",
+      "Kinetic bowl perimeter",
+      "Isopters"
+     ],
+     [
+      "Maddox rod",
+      "Red cylindrical rod",
+      "Heterophoria"
+     ],
+     [
+      "Placido disc",
+      "Concentric rings",
+      "Corneal topography; keratoconus (distortion)"
+     ]
+    ]
+   },
+   {
+    "title": "Surgical and misc",
+    "head": [
+     "Item",
+     "Feature",
+     "Use"
+    ],
+    "rows": [
+     [
+      "Bowman lacrimal probe",
+      "Thin graduated probe",
+      "Nasolacrimal duct obstruction (congenital) probing"
+     ],
+     [
+      "Chalazion clamp",
+      "Ring + plate",
+      "Fix lid for incision and curettage"
+     ],
+     [
+      "Barraquer lid speculum",
+      "Wire",
+      "Holds eyelids open during surgery"
+     ],
+     [
+      "Cystitome",
+      "Bent needle",
+      "Capsulorhexis"
+     ],
+     [
+      "Foldable IOL (acrylic hydrophobic)",
+      "Placed in capsular bag",
+      "Phacoemulsification standard; power from SRK-T"
+     ],
+     [
+      "Phacoemulsification",
+      "Ultrasound 40 kHz",
+      "Cataract removal via 2.2–3 mm incision"
+     ],
+     [
+      "Ocular ultrasound A-scan / B-scan",
+      "A: axial length; B: posterior segment",
+      "Biometry vs vitreous haemorrhage/retinal detachment"
+     ],
+     [
+      "Fundus fluorescein angiography",
+      "IV sodium fluorescein",
+      "Diabetic retinopathy, CSR, CNV; blue 490 nm excitation"
+     ],
+     [
+      "OCT",
+      "Low-coherence light interferometry",
+      "Macular thickness, RNFL, glaucoma"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Imbert-Fick law: P = F/A; Goldmann prism applanates 3.06 mm diameter (7.35 mm² area).",
+   "Schiotz is falsely low in high myopia (low scleral rigidity) and high in thick sclera.",
+   "A-scan biometry gives axial length (normal ~23.5 mm); B-scan sees through dense media.",
+   "Humphrey 24-2 tests central 24°; 30-2 central 30°.",
+   "Direct ophthalmoscope image is virtual, erect, magnified 15×; indirect is real, inverted, 4–5×."
+  ],
+  "traps": [
+   {
+    "stem": "Gold standard IOP measurement",
+    "trap": "Schiotz tonometer",
+    "fix": "Goldmann applanation tonometer"
+   },
+   {
+    "stem": "Image seen by indirect ophthalmoscopy",
+    "trap": "Erect and virtual",
+    "fix": "Inverted and real; wide field"
+   },
+   {
+    "stem": "Cannot see fundus due to dense cataract",
+    "trap": "Perform OCT",
+    "fix": "B-scan ultrasound"
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Gold standard IOP?",
+    "back": "Goldmann applanation tonometer."
+   },
+   {
+    "type": "basic",
+    "front": "Tonometer for bedridden / children?",
+    "back": "Perkins, Tono-Pen, Schiotz (supine)."
+   },
+   {
+    "type": "basic",
+    "front": "Magnification of direct ophthalmoscope?",
+    "back": "About 15×, erect virtual image."
+   },
+   {
+    "type": "basic",
+    "front": "Instrument for angle assessment?",
+    "back": "Gonioscope (Goldmann three-mirror)."
+   },
+   {
+    "type": "basic",
+    "front": "A-scan used for?",
+    "back": "Axial length (IOL power)."
+   },
+   {
+    "type": "basic",
+    "front": "Instrument to read lens power in spectacles?",
+    "back": "Lensometer."
+   },
+   {
+    "type": "basic",
+    "front": "Instrument for corneal topography?",
+    "back": "Placido disc / Pentacam (Scheimpflug)."
+   },
+   {
+    "type": "basic",
+    "front": "Lacrimal probing instrument?",
+    "back": "Bowman probe."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "goldmann",
+   "schiotz",
+   "tonometer",
+   "applanation",
+   "non contact tonometer",
+   "keratometer",
+   "retinoscope",
+   "ophthalmoscope",
+   "indirect ophthalmoscope",
+   "slit lamp",
+   "gonioscope",
+   "gonioscopy",
+   "lensometer",
+   "perimeter",
+   "humphrey",
+   "maddox rod",
+   "placido",
+   "bowman probe",
+   "chalazion clamp",
+   "speculum",
+   "cystitome",
+   "iol",
+   "phacoemulsification",
+   "a scan",
+   "b scan",
+   "fluorescein angiography",
+   "oct"
+  ],
+  "wiki": [
+   "Tonometry",
+   "Slit_lamp",
+   "Ophthalmoscopy"
+  ],
+  "verify": "Standard ophthalmology texts (Parsons, Khurana); magnifications vary by model"
+ },
+ {
+  "id": "ins-ent",
+  "title": "ENT instruments: otoscope, tuning fork, speculums, tonsil set, tracheostomy",
+  "subject": "ENT",
+  "system": "Instruments",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "ENT OSCE: identify the speculum/forceps and the orifice it opens.",
+   "Tuning fork 512 Hz for hearing tests (least overtones); 256/128 Hz for vibration."
+  ],
+  "tables": [
+   {
+    "title": "Ear, nose, throat",
+    "head": [
+     "Instrument",
+     "Recognition",
+     "Use"
+    ],
+    "rows": [
+     [
+      "Head mirror (Clar)",
+      "Concave mirror on headband",
+      "Reflects light for examination"
+     ],
+     [
+      "Otoscope / aural speculum",
+      "Funnel; Siegle pneumatic",
+      "Tympanic membrane; Siegle tests mobility"
+     ],
+     [
+      "Tuning fork 512 Hz",
+      "Metal fork",
+      "Rinne, Weber, ABC, Schwabach"
+     ],
+     [
+      "Jobson Horne probe",
+      "Wax loop and cotton end",
+      "Wax removal and cotton application"
+     ],
+     [
+      "Thudichum nasal speculum",
+      "Bivalve with screw",
+      "Anterior rhinoscopy"
+     ],
+     [
+      "Killian nasal speculum",
+      "Longer blades",
+      "Septal surgery (SMR)"
+     ],
+     [
+      "Tilley-Henckel forceps",
+      "Long bayonet",
+      "Nasal packing / foreign body"
+     ],
+     [
+      "Walsham forceps",
+      "Nasal fracture",
+      "Reduction of nasal bones"
+     ],
+     [
+      "Luc forceps",
+      "Biting",
+      "Nasal polypectomy; antral / ethmoid surgery"
+     ],
+     [
+      "Boyle-Davis gag",
+      "Tongue-and-blade gag",
+      "Tonsillectomy exposure; slot for tongue"
+     ],
+     [
+      "Tonsil dissecting forceps / Waugh",
+      "Specific",
+      "Tonsil dissection"
+     ],
+     [
+      "Negus bronchoscope / Chevalier Jackson",
+      "Rigid",
+      "Foreign body in airway"
+     ],
+     [
+      "Tracheostomy tube",
+      "Cuffed (Portex) or silver Jackson",
+      "Elective at 2nd–3rd tracheal ring"
+     ],
+     [
+      "Direct laryngoscope (Macintosh, Jackson)",
+      "Blade + handle",
+      "Microlaryngoscopy"
+     ],
+     [
+      "Hartmann forceps",
+      "Alligator",
+      "Aural foreign body"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Rinne: air conduction > bone conduction (AC > BC) = positive in normal/SNHL; negative in conductive loss.",
+   "Weber lateralises to the conductive ear or the good ear in SNHL.",
+   "Tracheostomy: incision at the 2nd–4th ring; thyroid isthmus divided; avoid first ring (subglottic stenosis).",
+   "Siegle speculum applies positive/negative pressure to test TM mobility.",
+   "Foreign body in nose of a child: unilateral foul discharge; remove with hook, not forceps pushing posteriorly."
+  ],
+  "traps": [
+   {
+    "stem": "Foreign body nose",
+    "trap": "Forceps",
+    "fix": "Right-angled hook behind object"
+   },
+   {
+    "stem": "Tracheostomy ring",
+    "trap": "1st ring",
+    "fix": "2nd–3rd; first ring risks stenosis"
+   },
+   {
+    "stem": "Weber test in SNHL",
+    "trap": "Sound to affected ear",
+    "fix": "Sound to normal ear"
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Frequency of tuning fork in clinics?",
+    "back": "512 Hz."
+   },
+   {
+    "type": "basic",
+    "front": "Speculum for anterior rhinoscopy?",
+    "back": "Thudichum."
+   },
+   {
+    "type": "basic",
+    "front": "Mouth gag for tonsillectomy?",
+    "back": "Boyle-Davis."
+   },
+   {
+    "type": "basic",
+    "front": "Pneumatic otoscope for?",
+    "back": "TM mobility (Siegle)."
+   },
+   {
+    "type": "basic",
+    "front": "Where is tracheostomy done?",
+    "back": "2nd–3rd tracheal ring."
+   },
+   {
+    "type": "basic",
+    "front": "Instrument for removing impacted wax?",
+    "back": "Jobson Horne probe or syringing."
+   },
+   {
+    "type": "basic",
+    "front": "Rigid bronchoscope for FB?",
+    "back": "Chevalier Jackson / Negus."
+   },
+   {
+    "type": "basic",
+    "front": "Weber lateralises to?",
+    "back": "Conductive loss ear; normal ear in SNHL."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "head mirror",
+   "clar",
+   "otoscope",
+   "siegle",
+   "tuning fork",
+   "jobson horne",
+   "thudichum",
+   "killian",
+   "walsham",
+   "luc forceps",
+   "boyle davis",
+   "mouth gag",
+   "tonsil",
+   "bronchoscope",
+   "tracheostomy tube",
+   "microlaryngoscopy",
+   "hartmann",
+   "rinne",
+   "weber"
+  ],
+  "wiki": [
+   "Otoscope",
+   "Tuning_fork",
+   "Tracheotomy"
+  ],
+  "verify": "Standard ENT texts (Dhingra, Scott-Brown)"
+ },
+ {
+  "id": "ins-ortho",
+  "title": "Orthopaedic instruments, splints, implants and fixators",
+  "subject": "Orthopedics",
+  "system": "Instruments",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Name splint/implant → condition it treats.",
+   "Thomas splint: femoral shaft fracture first aid (traction); Cock-up splint: wrist drop; Aeroplane splint: brachial plexus/burns axilla."
+  ],
+  "tables": [
+   {
+    "title": "Splints and traction",
+    "head": [
+     "Item",
+     "Recognition",
+     "Use"
+    ],
+    "rows": [
+     [
+      "Thomas splint",
+      "Ring + two side bars, bent at knee",
+      "Femur shaft fracture: prevents shortening (traction)"
+     ],
+     [
+      "Bohler-Braun splint",
+      "Frame for leg, knee flexed",
+      "Tibia/fibula or knee injuries"
+     ],
+     [
+      "Cock-up splint",
+      "Dorsal wrist extension",
+      "Radial nerve palsy (wrist drop)"
+     ],
+     [
+      "Aeroplane splint",
+      "Arm abducted 90°",
+      "Brachial plexus injury, axillary burns"
+     ],
+     [
+      "Cramer wire splint",
+      "Malleable wire ladder",
+      "Emergency splint for fingers/forearm"
+     ],
+     [
+      "Denis Browne splint",
+      "Foot plate with bar",
+      "Congenital talipes equinovarus (CTEV) retention after Ponseti"
+     ],
+     [
+      "Plaster of Paris",
+      "Calcium sulphate hemihydrate",
+      "Sets in 5–8 minutes; exothermic; full strength 24–48 h"
+     ],
+     [
+      "Philadelphia collar",
+      "Rigid cervical collar",
+      "Cervical spine injury"
+     ],
+     [
+      "Taylor brace",
+      "Thoracolumbar brace",
+      "Spinal TB / fracture"
+     ],
+     [
+      "Minerva jacket",
+      "Brace including head",
+      "Upper thoracic spine"
+     ],
+     [
+      "Milwaukee brace",
+      "Cervico-thoraco-lumbo-sacral orthosis",
+      "Scoliosis (apex above T7)"
+     ],
+     [
+      "Boston brace",
+      "TLSO without neck",
+      "Scoliosis apex below T7"
+     ],
+     [
+      "Pavlik harness",
+      "Chest strap + stirrups",
+      "DDH in infants <6 months"
+     ]
+    ]
+   },
+   {
+    "title": "Implants and instruments",
+    "head": [
+     "Item",
+     "Feature",
+     "Use"
+    ],
+    "rows": [
+     [
+      "Dynamic hip screw",
+      "Sliding screw and plate",
+      "Intertrochanteric fracture"
+     ],
+     [
+      "Austin Moore prosthesis",
+      "Hemiarthroplasty",
+      "Elderly displaced femoral neck fracture"
+     ],
+     [
+      "Ilizarov ring fixator",
+      "Circular external fixator, tensioned wires",
+      "Limb lengthening, non-union, deformity"
+     ],
+     [
+      "Kirschner wire",
+      "Smooth thin pin (K-wire)",
+      "Small bone fixation, tension band"
+     ],
+     [
+      "Steinmann pin",
+      "Thicker pin",
+      "Skeletal traction"
+     ],
+     [
+      "Intramedullary nail (Kuntscher/interlocking)",
+      "Rod in medullary cavity",
+      "Femur / tibia shaft fractures"
+     ],
+     [
+      "Tourniquet",
+      "Pneumatic cuff",
+      "Bloodless field; upper limb 250 mmHg, lower 300–350; ≤2 h"
+     ],
+     [
+      "Hohmann retractor",
+      "Sharp-tip bent",
+      "Retracts soft tissue around bone/acetabulum"
+     ],
+     [
+      "Volkmann spoon",
+      "Sharp curette",
+      "Curettage of bone cyst/abscess"
+     ],
+     [
+      "Rongeur",
+      "Bone-biting",
+      "Remove bone/laminectomy"
+     ],
+     [
+      "Osteotome",
+      "Chisel",
+      "Cutting bone (osteotomy)"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Plaster is applied from distal to proximal with padding; cast must allow two fingers beneath to check pressure.",
+   "Compartment syndrome: pain on passive stretch is the earliest sign; remove all dressings, fasciotomy.",
+   "Pavlik harness maintains flexion 100° and abduction; avoid forced abduction (AVN).",
+   "Ponseti order: CAVE — cavus, adductus, varus, equinus; tenotomy at end, then Denis Browne boots."
+  ],
+  "traps": [
+   {
+    "stem": "Femoral shaft fracture first aid",
+    "trap": "Plaster cylinder",
+    "fix": "Thomas splint with traction"
+   },
+   {
+    "stem": "DDH in infant 3 months",
+    "trap": "Frejka pillow only",
+    "fix": "Pavlik harness"
+   },
+   {
+    "stem": "Scoliosis apex T10",
+    "trap": "Milwaukee",
+    "fix": "Boston brace (apex below T7)"
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Splint for femur shaft?",
+    "back": "Thomas splint."
+   },
+   {
+    "type": "basic",
+    "front": "Harness for DDH?",
+    "back": "Pavlik."
+   },
+   {
+    "type": "basic",
+    "front": "Brace for high thoracic scoliosis?",
+    "back": "Milwaukee (apex above T7)."
+   },
+   {
+    "type": "basic",
+    "front": "Fixator for limb lengthening?",
+    "back": "Ilizarov."
+   },
+   {
+    "type": "basic",
+    "front": "Hip implant elderly neck of femur?",
+    "back": "Austin Moore hemiarthroplasty."
+   },
+   {
+    "type": "basic",
+    "front": "Splint after Ponseti casts?",
+    "back": "Denis Browne bar."
+   },
+   {
+    "type": "basic",
+    "front": "Tourniquet pressure lower limb?",
+    "back": "300–350 mmHg."
+   },
+   {
+    "type": "basic",
+    "front": "Plaster setting time?",
+    "back": "5–8 minutes."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "thomas splint",
+   "bohler braun",
+   "cock up splint",
+   "aeroplane splint",
+   "cramer wire",
+   "denis browne",
+   "plaster of paris",
+   "philadelphia collar",
+   "taylor brace",
+   "milwaukee brace",
+   "boston brace",
+   "pavlik harness",
+   "dynamic hip screw",
+   "austin moore",
+   "ilizarov",
+   "kirschner wire",
+   "steinmann pin",
+   "intramedullary nail",
+   "tourniquet",
+   "hohmann",
+   "volkmann spoon",
+   "rongeur",
+   "osteotome"
+  ],
+  "wiki": [
+   "Thomas_splint",
+   "Pavlik_harness",
+   "Ilizarov_apparatus"
+  ],
+  "verify": "Standard orthopaedic texts (Maheshwari, Apley); tourniquet pressures approximate"
+ },
+ {
+  "id": "ins-radiation-physics",
+  "title": "Radiology and nuclear medicine equipment, dosimetry and protection",
+  "subject": "Radiology",
+  "system": "Instruments",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Equipment → principle → unit. Know which modality uses ionising radiation and the dosimeter for each situation.",
+   "TLD / film badge worn by staff; Geiger-Müller counter detects contamination."
+  ],
+  "tables": [
+   {
+    "title": "Equipment and detectors",
+    "head": [
+     "Item",
+     "Principle",
+     "Fact"
+    ],
+    "rows": [
+     [
+      "X-ray tube",
+      "Electrons strike tungsten anode (target)",
+      "Only ~1% energy becomes X-rays; 99% heat; rotating anode"
+     ],
+     [
+      "Collimator",
+      "Lead shutters",
+      "Limits beam size; reduces scatter"
+     ],
+     [
+      "Grid",
+      "Lead strips",
+      "Removes scatter; Bucky"
+     ],
+     [
+      "Lead apron",
+      "0.25–0.5 mm lead",
+      "Reduces scatter exposure ~90%"
+     ],
+     [
+      "Film badge / TLD",
+      "TLD: LiF crystals emit light on heating",
+      "Personnel monitoring; TLD reusable, wider range"
+     ],
+     [
+      "Pocket dosimeter (quartz fibre)",
+      "Ionisation chamber",
+      "Immediate reading"
+     ],
+     [
+      "Geiger-Müller counter",
+      "Gas ionisation",
+      "Detects contamination; dead time"
+     ],
+     [
+      "Gamma camera",
+      "NaI(Tl) crystal + PMT",
+      "Scintigraphy; collimator choice"
+     ],
+     [
+      "PET scanner",
+      "Positron annihilation 511 keV photons",
+      "FDG-PET; BGO / LSO detectors"
+     ],
+     [
+      "Cyclotron",
+      "Charged-particle acceleration",
+      "Produces F-18, C-11, O-15, N-13"
+     ],
+     [
+      "Mo-99/Tc-99m generator",
+      "Transient equilibrium",
+      "Tc-99m: 6 h half-life, 140 keV gamma"
+     ],
+     [
+      "Linear accelerator (LINAC)",
+      "Microwave-accelerated electrons",
+      "External-beam radiotherapy; photons 6–18 MV"
+     ],
+     [
+      "Brachytherapy sources",
+      "Ir-192, Cs-137, Co-60, I-125",
+      "Cervix: Ir-192 afterloading"
+     ],
+     [
+      "DEXA",
+      "Dual-energy X-ray absorptiometry",
+      "T-score ≤ -2.5 = osteoporosis"
+     ],
+     [
+      "Ultrasound probe",
+      "Piezoelectric crystal (PZT)",
+      "Frequency 3–5 MHz abdomen; 7–15 MHz superficial"
+     ],
+     [
+      "MRI",
+      "Strong magnet (tesla), RF coil",
+      "T1 fat bright; T2 fluid bright; no ionising radiation"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Dose units: gray (absorbed), sievert (equivalent/effective = Gy × weighting factor); 1 Gy = 100 rad; 1 Sv = 100 rem.",
+   "Dose limits: public 1 mSv/yr; radiation worker 20 mSv/yr averaged over 5 years (AERB); pregnant worker 1 mSv to fetus for rest of pregnancy.",
+   "ALARA: time, distance (inverse square law), shielding.",
+   "Ultrasound: higher frequency = better resolution, less penetration.",
+   "MRI contraindications: pacemaker (older), cochlear implant, intracranial aneurysm clip (ferromagnetic), metallic foreign body in eye."
+  ],
+  "traps": [
+   {
+    "stem": "Personnel dose monitor",
+    "trap": "Geiger counter",
+    "fix": "TLD / film badge; Geiger is for survey"
+   },
+   {
+    "stem": "Lead apron thickness",
+    "trap": "5 mm",
+    "fix": "0.25–0.5 mm Pb equivalent"
+   },
+   {
+    "stem": "Radionuclide for PET",
+    "trap": "Tc-99m",
+    "fix": "F-18 FDG (positron emitter)"
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Dosimeter for staff?",
+    "back": "TLD (thermoluminescent) or film badge."
+   },
+   {
+    "type": "basic",
+    "front": "Annual dose limit for radiation worker?",
+    "back": "20 mSv averaged over 5 years (max 30 in a year)."
+   },
+   {
+    "type": "basic",
+    "front": "Source for cervical brachytherapy?",
+    "back": "Ir-192 / Cs-137."
+   },
+   {
+    "type": "basic",
+    "front": "Tc-99m half-life?",
+    "back": "6 hours."
+   },
+   {
+    "type": "basic",
+    "front": "Detector in gamma camera?",
+    "back": "Sodium iodide crystal (thallium-doped)."
+   },
+   {
+    "type": "basic",
+    "front": "Unit of absorbed dose?",
+    "back": "Gray."
+   },
+   {
+    "type": "basic",
+    "front": "DEXA T-score for osteoporosis?",
+    "back": "≤ -2.5."
+   },
+   {
+    "type": "basic",
+    "front": "Ultrasound probe uses?",
+    "back": "Piezoelectric effect."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "x ray tube",
+   "collimator",
+   "grid",
+   "lead apron",
+   "film badge",
+   "tld",
+   "thermoluminescent",
+   "dosimeter",
+   "geiger",
+   "gamma camera",
+   "pet scan",
+   "cyclotron",
+   "technetium",
+   "linear accelerator",
+   "linac",
+   "brachytherapy",
+   "dexa",
+   "ultrasound probe",
+   "piezoelectric",
+   "mri",
+   "sievert",
+   "gray",
+   "alara"
+  ],
+  "wiki": [
+   "Dosimeter",
+   "Geiger_counter",
+   "Gamma_camera"
+  ],
+  "verify": "AERB / ICRP dose limits (verify current year); half-lives standard"
+ },
+ {
+  "id": "ins-tubes-catheters",
+  "title": "Tubes, catheters, drains and endoscopes (surgery, urology, GI)",
+  "subject": "Surgery",
+  "system": "Instruments",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Name the tube, then the lumen it enters and one complication.",
+   "Foley (self-retaining balloon) vs Malecot / Pezzer (mushroom/wing tipped, suprapubic or nephrostomy)."
+  ],
+  "tables": [
+   {
+    "title": "Tubes and catheters",
+    "head": [
+     "Item",
+     "Recognition",
+     "Use / key fact"
+    ],
+    "rows": [
+     [
+      "Foley catheter",
+      "Balloon at tip, 2 channels (3 for irrigation)",
+      "Bladder drainage; balloon 5–10 mL sterile water (not saline)"
+     ],
+     [
+      "Three-way Foley",
+      "Irrigation channel",
+      "Post-TURP continuous bladder irrigation"
+     ],
+     [
+      "Malecot catheter",
+      "Four-wing (butterfly) tip",
+      "Nephrostomy, suprapubic cystostomy"
+     ],
+     [
+      "Pezzer (de Pezzer) catheter",
+      "Mushroom tip",
+      "Suprapubic cystostomy, gastrostomy"
+     ],
+     [
+      "Ryle's tube",
+      "Radio-opaque, single lumen, 14–16 Fr",
+      "NG decompression/feeding; confirm by aspirate pH <5.5 or X-ray"
+     ],
+     [
+      "Sengstaken-Blakemore tube",
+      "Gastric + oesophageal balloons",
+      "Variceal bleeding tamponade; Minnesota has 4 lumens (adds oesophageal aspiration)"
+     ],
+     [
+      "Linton-Nachlas tube",
+      "Single large gastric balloon",
+      "Gastric varices"
+     ],
+     [
+      "T-tube (Kehr)",
+      "T-shaped rubber",
+      "Common bile duct drainage after exploration; cholangiogram at day 10"
+     ],
+     [
+      "Chest tube (ICD)",
+      "Large-bore tube; underwater seal",
+      "Pneumothorax: 4th–5th ICS anterior axillary line (triangle of safety)"
+     ],
+     [
+      "Heimlich flutter valve",
+      "One-way valve",
+      "Ambulatory pneumothorax management"
+     ],
+     [
+      "Percutaneous gastrostomy (PEG)",
+      "Pull-through tube",
+      "Long-term enteral feeding"
+     ],
+     [
+      "Jejunostomy (Witzel)",
+      "Tube in jejunum",
+      "Early enteral feeding after oesophagectomy"
+     ],
+     [
+      "Cystoscope",
+      "Rigid or flexible with 0°, 30°, 70° lens",
+      "Bladder; 30° most common"
+     ],
+     [
+      "Resectoscope",
+      "Wire loop cautery",
+      "TURP: monopolar glycine causes TURP syndrome (hyponatraemia)"
+     ],
+     [
+      "Proctoscope",
+      "Short tube",
+      "Haemorrhoid examination, banding"
+     ],
+     [
+      "Rigid sigmoidoscope",
+      "25 cm tube",
+      "Rectosigmoid biopsy"
+     ],
+     [
+      "Double J (JJ) stent",
+      "Pigtail ends",
+      "Ureteric obstruction / after URS"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Foley catheter size Fr = circumference in mm (Charrière); 3 Fr = 1 mm diameter.",
+   "Foley contraindications: urethral injury (blood at meatus) — do retrograde urethrogram first.",
+   "Chest drain: not for the 2nd ICS (midclavicular) except emergent needle decompression.",
+   "T-tube cholangiogram detects retained stones; remove the tube at around 10–14 days after the tract forms.",
+   "TURP syndrome: hyponatraemia, hypervolaemia, glycine toxicity (visual disturbance); stop procedure."
+  ],
+  "traps": [
+   {
+    "stem": "Suspected urethral injury, retention",
+    "trap": "Insert Foley",
+    "fix": "Suprapubic catheter after urethrogram"
+   },
+   {
+    "stem": "Variceal bleed endoscopy unavailable",
+    "trap": "Linton tube for oesophageal varices",
+    "fix": "Sengstaken-Blakemore / Minnesota"
+   },
+   {
+    "stem": "Chest drain site",
+    "trap": "2nd ICS midclavicular",
+    "fix": "Triangle of safety, 5th ICS, midaxillary"
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Catheter with self-retaining balloon?",
+    "back": "Foley."
+   },
+   {
+    "type": "basic",
+    "front": "Irrigation after TURP uses which catheter?",
+    "back": "Three-way Foley."
+   },
+   {
+    "type": "basic",
+    "front": "Tube for oesophageal varices?",
+    "back": "Sengstaken-Blakemore / Minnesota."
+   },
+   {
+    "type": "basic",
+    "front": "Tube that drains CBD?",
+    "back": "T-tube (Kehr)."
+   },
+   {
+    "type": "basic",
+    "front": "Chest drain site?",
+    "back": "Triangle of safety: 4th–5th ICS, anterior to mid-axillary line."
+   },
+   {
+    "type": "basic",
+    "front": "Fr meaning?",
+    "back": "Circumference in mm; diameter = Fr/3."
+   },
+   {
+    "type": "basic",
+    "front": "Cystoscope lens most used?",
+    "back": "30°."
+   },
+   {
+    "type": "basic",
+    "front": "Stent for ureter?",
+    "back": "Double-J stent."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "foley catheter",
+   "three way",
+   "malecot",
+   "pezzer",
+   "ryle",
+   "nasogastric tube",
+   "sengstaken",
+   "blakemore",
+   "minnesota tube",
+   "linton",
+   "t tube",
+   "kehr",
+   "chest tube",
+   "icd",
+   "heimlich",
+   "gastrostomy",
+   "peg",
+   "jejunostomy",
+   "cystoscope",
+   "resectoscope",
+   "turp",
+   "proctoscope",
+   "sigmoidoscope",
+   "double j stent"
+  ],
+  "wiki": [
+   "Foley_catheter",
+   "Chest_tube",
+   "Sengstaken–Blakemore_tube"
+  ],
+  "verify": "Standard surgical texts; chest drain per ATLS/BTS"
+ },
+ {
+  "id": "ins-forensic-lab",
+  "title": "Forensic, pathology and microbiology laboratory instruments and tests",
+  "subject": "Forensic Medicine",
+  "system": "Instruments",
+  "yield": 3,
+  "kind": "topic",
+  "anchor": [
+   "Name the test/instrument and the poison/sample it detects.",
+   "Autopsy tools and lab equipment are asked as spotters: autoclave, centrifuge, microtome, cytospin, blood agar etc."
+  ],
+  "tables": [
+   {
+    "title": "Forensic tools and tests",
+    "head": [
+     "Item",
+     "Detects / use",
+     "Key fact"
+    ],
+    "rows": [
+     [
+      "Marsh test",
+      "Arsenic (arsine)",
+      "Mirror deposit on heating arsine; Reinsch test: copper strip"
+     ],
+     [
+      "Kastle-Meyer test",
+      "Blood (presumptive)",
+      "Phenolphthalein + H2O2 gives pink"
+     ],
+     [
+      "Teichmann test",
+      "Haemin crystals",
+      "Confirmatory test for blood"
+     ],
+     [
+      "Takayama test",
+      "Haemochromogen crystals (pyridine)",
+      "Confirmatory blood"
+     ],
+     [
+      "Precipitin test",
+      "Species of blood",
+      "Antiserum"
+     ],
+     [
+      "Florence test",
+      "Seminal choline",
+      "Brown crystals; Barberio test: spermine picrate"
+     ],
+     [
+      "Acid phosphatase test",
+      "Semen (prostatic)",
+      "Sensitive and presumptive; ≥50 units suggests semen"
+     ],
+     [
+      "Breath analyser (Drager)",
+      "Alcohol in breath",
+      "Ratio 2100:1 breath:blood"
+     ],
+     [
+      "Gettler test",
+      "Chloride in blood",
+      "Drowning: left heart chloride lower than right"
+     ],
+     [
+      "Diatom test",
+      "Drowning",
+      "Diatoms in bone marrow (femur) in antemortem drowning"
+     ],
+     [
+      "Luminol",
+      "Latent blood",
+      "Chemiluminescence"
+     ],
+     [
+      "Cadaveric spasm",
+      "Instantaneous rigidity",
+      "Mark of violent death; unlike rigor"
+     ],
+     [
+      "Algor mortis (thermometer)",
+      "Rectal temperature",
+      "Fall ≈1–1.5 °F per hour"
+     ],
+     [
+      "Comparison microscope",
+      "Bullet / fibre comparison",
+      "Ballistics"
+     ],
+     [
+      "Rifling",
+      "Spiral grooves in barrel",
+      "Characteristics on bullet; weapon matching"
+     ]
+    ]
+   },
+   {
+    "title": "Pathology / microbiology equipment",
+    "head": [
+     "Item",
+     "Principle",
+     "Use"
+    ],
+    "rows": [
+     [
+      "Autoclave",
+      "121 °C, 15 psi, 15 min",
+      "Sterilises media, linen, instruments; Geobacillus spore control"
+     ],
+     [
+      "Hot-air oven",
+      "160 °C for 2 h",
+      "Glassware, powders; B. atrophaeus control"
+     ],
+     [
+      "Microtome",
+      "Rotary / sledge",
+      "Paraffin sections 3–5 µm"
+     ],
+     [
+      "Cryostat",
+      "Frozen section",
+      "Intraoperative diagnosis"
+     ],
+     [
+      "Centrifuge",
+      "RCF",
+      "Separates blood components"
+     ],
+     [
+      "Flow cytometer",
+      "Laser, fluorescent antibodies",
+      "Immunophenotyping, CD4 count"
+     ],
+     [
+      "ELISA reader",
+      "Optical density",
+      "Antibody/antigen"
+     ],
+     [
+      "PCR thermocycler",
+      "Denature 95 °C, anneal, extend 72 °C",
+      "DNA amplification"
+     ],
+     [
+      "Anaerobic jar (GasPak)",
+      "Hydrogen + CO2 + palladium catalyst",
+      "Anaerobes"
+     ],
+     [
+      "Candle jar",
+      "3–5% CO2",
+      "Capnophiles (Neisseria, Haemophilus)"
+     ],
+     [
+      "Biosafety cabinet II",
+      "HEPA filter, laminar flow",
+      "Protects worker and sample; class III glove box for BSL-4"
+     ],
+     [
+      "Lowenstein-Jensen medium",
+      "Egg-based, malachite green",
+      "Mycobacterium culture (6–8 weeks)"
+     ],
+     [
+      "Thayer-Martin medium",
+      "VCN antibiotics",
+      "Neisseria gonorrhoeae"
+     ],
+     [
+      "Bordet-Gengou / Regan-Lowe",
+      "Potato / charcoal",
+      "Bordetella pertussis"
+     ],
+     [
+      "Loeffler serum slope",
+      "Serum",
+      "Corynebacterium diphtheriae"
+     ],
+     [
+      "TCBS agar",
+      "Thiosulphate citrate bile salt",
+      "Vibrio cholerae (yellow)"
+     ],
+     [
+      "Sabouraud dextrose agar",
+      "pH 5.6",
+      "Fungi"
+     ]
+    ]
+   }
+  ],
+  "points": [
+   "Blood stain: Kastle-Meyer presumptive; Teichmann/Takayama confirmatory; precipitin test identifies species.",
+   "Marsh test and Reinsch test: arsenic and heavy metals; Reinsch needs copper.",
+   "Drowning: diatoms in the bone marrow, Gettler chloride difference; froth in airway, washerwoman's hand.",
+   "Autoclave 121 °C, 15 psi, 15–20 min; prion decontamination 134 °C for 18 min.",
+   "Anaerobic jars use palladium catalyst to combine H2 and O2."
+  ],
+  "traps": [
+   {
+    "stem": "Confirmatory test for blood",
+    "trap": "Kastle-Meyer",
+    "fix": "Teichmann (haemin) or Takayama; Kastle-Meyer is presumptive"
+   },
+   {
+    "stem": "Arsenic detection",
+    "trap": "Gettler",
+    "fix": "Marsh test (arsine mirror) or Reinsch"
+   },
+   {
+    "stem": "Media for V. cholerae",
+    "trap": "Thayer-Martin",
+    "fix": "TCBS agar"
+   }
+  ],
+  "cards": [
+   {
+    "type": "basic",
+    "front": "Test for arsenic?",
+    "back": "Marsh test (Reinsch with copper)."
+   },
+   {
+    "type": "basic",
+    "front": "Presumptive test for blood?",
+    "back": "Kastle-Meyer (phenolphthalein)."
+   },
+   {
+    "type": "basic",
+    "front": "Medium for Mycobacterium?",
+    "back": "Lowenstein-Jensen."
+   },
+   {
+    "type": "basic",
+    "front": "Autoclave conditions?",
+    "back": "121 °C, 15 psi, 15 min."
+   },
+   {
+    "type": "basic",
+    "front": "Medium for N. gonorrhoeae?",
+    "back": "Thayer-Martin."
+   },
+   {
+    "type": "basic",
+    "front": "Drowning test on bone marrow?",
+    "back": "Diatom test."
+   },
+   {
+    "type": "basic",
+    "front": "Alcohol breath ratio?",
+    "back": "2100:1 (breath:blood)."
+   },
+   {
+    "type": "basic",
+    "front": "Instrument for frozen section?",
+    "back": "Cryostat."
+   }
+  ],
+  "images": [],
+  "keywords": [
+   "marsh test",
+   "reinsch",
+   "kastle meyer",
+   "teichmann",
+   "takayama",
+   "precipitin",
+   "florence test",
+   "barberio",
+   "acid phosphatase",
+   "breath analyser",
+   "gettler",
+   "diatom",
+   "luminol",
+   "autoclave",
+   "hot air oven",
+   "microtome",
+   "cryostat",
+   "flow cytometer",
+   "pcr",
+   "anaerobic jar",
+   "candle jar",
+   "biosafety cabinet",
+   "lowenstein",
+   "thayer martin",
+   "bordet gengou",
+   "loeffler",
+   "tcbs",
+   "sabouraud"
+  ],
+  "wiki": [
+   "Marsh_test",
+   "Autoclave",
+   "Biosafety_cabinet"
+  ],
+  "verify": "Reddy / Parikh forensic texts; Ananthanarayan microbiology"
+ }
+]
