@@ -1590,7 +1590,8 @@
    "Duke_criteria",
    "Jones_criteria"
   ],
-  "verify": "AHA/ACC/HFSA HF 2022; ACC/AHA valve 2020; modified Duke (Li 2000) – 2023 Duke-ISCVID adds cardiac CT/PET-CT and intra-operative findings and widens 'typical' organisms; AHA 2015 revised Jones."
+  "verify": "AHA/ACC/HFSA HF 2022; ACC/AHA valve 2020; modified Duke (Li 2000) – 2023 Duke-ISCVID adds cardiac CT/PET-CT and intra-operative findings and widens 'typical' organisms; AHA 2015 revised Jones.",
+  "algorithm": "Infective endocarditis: modified Duke criteria\n→ Major criteria: (1) blood cultures positive — typical organism (viridans strep, S. bovis, HACEK, S. aureus, enterococcus) in 2 separate cultures; (2) endocardial involvement — echo vegetation / abscess / new valvular regurgitation\n→ Minor criteria: predisposition (valve disease, IV drug use), fever ≥38 °C, vascular phenomena (emboli, Janeway, mycotic aneurysm), immunological phenomena (Osler nodes, Roth spots, GN, RF), microbiology not meeting major\n→ Definite IE = 2 major, OR 1 major + 3 minor, OR 5 minor\n→ Possible IE = 1 major + 1 minor, OR 3 minor\n→ Management: ≥3 sets of blood cultures before antibiotics → TTE then TEE if prosthetic valve or TTE negative\n  Surgery if: heart failure, abscess, persistent bacteraemia >5–7 days, large vegetation >10 mm with emboli, fungal / resistant organism"
  },
  {
   "id": "med-ecg-volatile",

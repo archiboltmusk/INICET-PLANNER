@@ -158,7 +158,7 @@ def image_questions(clusters):
             err(f"image question {n}: bad subject/options/answer")
             continue
         out.append({"id": f"img_{n:03d}", "s": x["s"], "c": [x["c"]], "q": x["q"], "o": x["o"], "a": x["a"],
-                    "e": x["e"], "t": "image", "x": "Image",
+                    "e": x["e"], "t": "image", "x": "Image", **({"w": x["w"]} if x.get("w") else {}),
                     "i": {"src": im["src"], "cap": im["caption"], "credit": im["credit"], "lic": im["licence"], "page": im["page"]}})
     return out
 

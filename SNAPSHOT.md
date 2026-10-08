@@ -30,3 +30,4 @@ attempts, errors{et:G|R|A|T|P (legacy K→G)}, cards, blocks, read, newLog, acti
 - 7 Oct: +291 recall MCQs (2025 May/Nov, 2026 May) → 4,417 MCQs. Cache v5-12.
 - 8 Oct: +13 images, +12 image MCQs → 134 images, 4,429 MCQs. Cache v5-13.
 - 8 Oct: 80 PYQs with source images (img/q). Cache v5-14.
+- 8 Oct: daily auto-plan on Today; 'Why the others are wrong' (q.w) for 12 image MCQs; +7 flows (Duke, countercurrent, GSD, urea cycle, cardiac septal, nerve-fracture pairs, DR 4-2-1). Cache v5-17.

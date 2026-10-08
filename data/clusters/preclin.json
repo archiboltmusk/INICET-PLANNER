@@ -906,7 +906,8 @@
    "Neural_crest",
    "Thoracic_diaphragm"
   ],
-  "verify": "BDC Vol 1–2, Langman 14e"
+  "verify": "BDC Vol 1–2, Langman 14e",
+  "algorithm": "Cardiac septal defects: which embryological failure?\n→ Foramen secundum ASD (commonest) → deficient septum secundum / excessive resorption of septum primum; fixed split S2\n→ Ostium primum ASD → endocardial cushion defect (Down syndrome), with cleft mitral valve\n→ Membranous VSD (commonest VSD) → failure of aorticopulmonary septum + endocardial cushion to fuse with muscular septum; pansystolic murmur\n→ Tetralogy of Fallot → anterosuperior displacement of infundibular septum: pulmonary stenosis, RVH, overriding aorta, VSD; boot-shaped heart, tet spells (squat, knee-chest)\n→ Transposition of great arteries → failure of aorticopulmonary septum to spiral; egg-on-side, needs PDA/ASD, prostaglandin E1\n→ Persistent truncus arteriosus → failure of truncal ridges to fuse"
  },
  {
   "id": "phy-cardiovascular",
@@ -1507,7 +1508,8 @@
    "Countercurrent_exchange",
    "Diuretic"
   ],
-  "verify": "Guyton & Hall 14e / Ganong 26e"
+  "verify": "Guyton & Hall 14e / Ganong 26e",
+  "algorithm": "Countercurrent mechanism — follow the nephron\n→ Proximal tubule: reabsorbs ~65% of filtrate isotonically (Na⁺/H⁺, SGLT2 for glucose)\n→ Descending limb of loop: water-permeable (aquaporin-1), impermeable to solute → filtrate becomes concentrated (up to 1200 mOsm)\n→ Thick ascending limb: water-impermeable, NKCC2 pumps Na⁺ K⁺ 2Cl⁻ out → filtrate dilute (blocked by loop diuretics, interstitium loses gradient)\n→ Distal tubule: NCC (thiazides block); late DT and collecting duct: ENaC (amiloride, aldosterone), aquaporin-2 inserted under ADH (V2 via Gs) → water absorbed\n→ Vasa recta = countercurrent exchanger: preserves medullary gradient; urea recycling adds to the gradient\n→ Result: ADH present → concentrated urine; absent (diabetes insipidus) → dilute urine"
  },
  {
   "id": "phy-neuro-endocrine-senses",
@@ -1905,7 +1907,8 @@
    "Homocystinuria",
    "Urea_cycle_disorder"
   ],
-  "verify": "Harper 31e / Lippincott 8e; Nelson 21e for treatment"
+  "verify": "Harper 31e / Lippincott 8e; Nelson 21e for treatment",
+  "algorithm": "Hyperammonaemia in a neonate: urea cycle defect — which enzyme?\n→ Check orotic acid in urine\n  High orotic acid + low citrulline → OTC deficiency (X-linked; commonest); carbamoyl phosphate spills to pyrimidine pathway\n  Low orotic acid + low citrulline → CPS-I or NAGS deficiency\n  High citrulline → Citrullinaemia (argininosuccinate synthetase); very high citrulline\n  Argininosuccinic acid in urine → ASL deficiency\n→ Treat: stop protein, IV dextrose, sodium benzoate / phenylbutyrate, arginine, haemodialysis if >500 µmol/L\nAminoacidopathies: PKU (phenylalanine hydroxylase / BH4; mousy odour, diet) · MSUD (BCKD, maple syrup urine; thiamine) · Alkaptonuria (homogentisate oxidase; dark urine, ochronosis, arthritis) · Homocystinuria (cystathionine β-synthase; lens subluxation downward, thrombosis; give B6, restrict methionine)"
  },
  {
   "id": "bio-lsd-gsd",
@@ -2125,7 +2128,8 @@
    "Glycogen_storage_disease",
    "Gaucher's_disease"
   ],
-  "verify": "Robbins 10e (Genetic diseases) / Harper 31e"
+  "verify": "Robbins 10e (Genetic diseases) / Harper 31e",
+  "algorithm": "Glycogen storage disease: pick by enzyme + clinical hallmark\n→ Fasting hypoglycaemia + hepatomegaly + lactic acidosis, hyperuricaemia, hyperlipidaemia → Type I Von Gierke: glucose-6-phosphatase\n→ Cardiomegaly, hypotonia, early death in infancy → Type II Pompe: lysosomal acid α-glucosidase (enzyme replacement alglucosidase alfa)\n→ Hypoglycaemia, hepatomegaly, limit dextrin accumulation → Type III Cori / Forbes: debranching enzyme\n→ Cirrhosis, death by 5 years → Type IV Andersen: branching enzyme (abnormal glycogen long chains)\n→ Exercise intolerance, cramps, myoglobinuria, no lactate rise (flat curve) → Type V McArdle: muscle glycogen phosphorylase\n→ Mild liver disease → Type VI Hers: liver phosphorylase\n→ Muscle phosphofructokinase-1 deficiency + haemolysis → Type VII Tarui\nLysosomal storage: Gaucher (glucocerebrosidase, crumpled-paper macrophages) · Niemann-Pick (sphingomyelinase, foamy cells + cherry red spot) · Tay-Sachs (hexosaminidase A, no hepatosplenomegaly) · Fabry (α-galactosidase A, X-linked, acroparaesthesia)"
  },
  {
   "id": "bio-lipids-metabolism",

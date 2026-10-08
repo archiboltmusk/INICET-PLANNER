@@ -767,7 +767,8 @@
    "Carpal_tunnel_syndrome",
    "Ulnar_claw"
   ],
-  "verify": "Maheshwari 7e; BD Chaurasia upper limb"
+  "verify": "Maheshwari 7e; BD Chaurasia upper limb",
+  "algorithm": "Fracture → nerve injured (fix the pair)\n→ Surgical neck of humerus / shoulder dislocation → axillary nerve (deltoid paralysis, regimental badge numbness)\n→ Shaft of humerus (spiral groove) → radial nerve (wrist drop)\n→ Supracondylar fracture humerus → median nerve / anterior interosseous (cannot make OK sign), brachial artery (Volkmann ischaemia)\n→ Medial epicondyle → ulnar nerve (claw hand, Froment sign)\n→ Lunate dislocation / carpal tunnel → median nerve\n→ Posterior hip dislocation → sciatic nerve; anterior → femoral nerve\n→ Neck of fibula → common peroneal nerve (foot drop, high-steppage gait)\n→ Knee dislocation → popliteal artery"
  },
  {
   "id": "ort-peds-metabolic",

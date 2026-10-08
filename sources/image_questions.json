@@ -1481,7 +1481,13 @@
    "Phagocytosed bacteria"
   ],
   "a": 0,
-  "e": "Auer rods = fused lysosomal (primary) granules, myeloperoxidase positive; pathognomonic of myeloid lineage (AML), numerous \"faggot cells\" in APL t(15;17) — start ATRA at suspicion."
+  "e": "Auer rods = fused lysosomal (primary) granules, myeloperoxidase positive; pathognomonic of myeloid lineage (AML), numerous \"faggot cells\" in APL t(15;17) — start ATRA at suspicion.",
+  "w": [
+   "",
+   "Ribosomal RNA is the basophilic cytoplasm of blasts, not an Auer rod",
+   "Precipitated Hb forms Heinz bodies (G6PD, special stain) or Howell-Jolly (DNA)",
+   "Bacteria in neutrophils are Döhle-like or toxic changes; Auer rods are endogenous"
+  ]
  },
  {
   "src": "7ca72964bdf6",
@@ -1495,7 +1501,13 @@
    "Triple helix"
   ],
   "a": 0,
-  "e": "Apple-green birefringence on Congo red = amyloid, whose fibrils are β-pleated sheets irrespective of precursor protein (AL, AA, ATTR, Aβ2M)."
+  "e": "Apple-green birefringence on Congo red = amyloid, whose fibrils are β-pleated sheets irrespective of precursor protein (AL, AA, ATTR, Aβ2M).",
+  "w": [
+   "",
+   "α-helix is the normal protein structure of most proteins; amyloid is β-sheet",
+   "Random coil is unfolded protein; no birefringence",
+   "Triple helix is collagen: it shows silvery birefringence, not apple-green"
+  ]
  },
  {
   "src": "bb778665a9c6",
@@ -1509,7 +1521,13 @@
    "Owl-eye inclusion"
   ],
   "a": 0,
-  "e": "Negri bodies: eosinophilic cytoplasmic inclusions of rabies (hippocampal pyramidal cells and cerebellar Purkinje cells). Absence does not exclude rabies; FAT on skin biopsy / brain is preferred."
+  "e": "Negri bodies: eosinophilic cytoplasmic inclusions of rabies (hippocampal pyramidal cells and cerebellar Purkinje cells). Absence does not exclude rabies; FAT on skin biopsy / brain is preferred.",
+  "w": [
+   "",
+   "Councilman bodies are apoptotic hepatocytes (yellow fever, viral hepatitis)",
+   "Cowdry A inclusions are intranuclear (HSV, VZV, CMV-like)",
+   "Owl-eye is intranuclear CMV inclusion"
+  ]
  },
  {
   "src": "3d764b21a3d5",
@@ -1523,7 +1541,13 @@
    "Azithromycin"
   ],
   "a": 0,
-  "e": "Pneumocystis jirovecii pneumonia: cotrimoxazole 21 days; add prednisolone if PaO₂ <70 mmHg. Prophylaxis when CD4 <200."
+  "e": "Pneumocystis jirovecii pneumonia: cotrimoxazole 21 days; add prednisolone if PaO₂ <70 mmHg. Prophylaxis when CD4 <200.",
+  "w": [
+   "",
+   "Amphotericin B treats Cryptococcus / Histoplasma / Mucor",
+   "Fluconazole is for Candida, Cryptococcus maintenance; Pneumocystis lacks ergosterol so azoles fail",
+   "Azithromycin is MAC prophylaxis (CD4 <50), not PCP"
+  ]
  },
  {
   "src": "401925fae77b",
@@ -1537,7 +1561,13 @@
    "Brushfield spots"
   ],
   "a": 0,
-  "e": "Lisch nodules = NF1 iris hamartomas (>90% of adults). Koeppe/Busacca are inflammatory (granulomatous uveitis); Brushfield spots occur in Down syndrome."
+  "e": "Lisch nodules = NF1 iris hamartomas (>90% of adults). Koeppe/Busacca are inflammatory (granulomatous uveitis); Brushfield spots occur in Down syndrome.",
+  "w": [
+   "",
+   "Koeppe nodules are at the pupillary margin in granulomatous uveitis",
+   "Busacca nodules lie on the iris surface in granulomatous uveitis",
+   "Brushfield spots are peripheral iris spots of Down syndrome"
+  ]
  },
  {
   "src": "886e2ecbd0fc",
@@ -1551,7 +1581,13 @@
    "Hot cross bun sign"
   ],
   "a": 0,
-  "e": "Steeple (pencil-point) sign on AP view in croup, parainfluenza virus; treat with dexamethasone, nebulised adrenaline if stridor at rest. Thumb sign (lateral) = epiglottitis."
+  "e": "Steeple (pencil-point) sign on AP view in croup, parainfluenza virus; treat with dexamethasone, nebulised adrenaline if stridor at rest. Thumb sign (lateral) = epiglottitis.",
+  "w": [
+   "",
+   "Thumb sign is on the lateral view: epiglottitis",
+   "Sail sign is thymic enlargement in infants (or elbow effusion)",
+   "Hot cross bun is a pontine MRI sign in MSA"
+  ]
  },
  {
   "src": "c1ac834dd7f9",
@@ -1565,7 +1601,13 @@
    "Obtain a CT neck"
   ],
   "a": 0,
-  "e": "Thumb sign = swollen epiglottis (acute epiglottitis, H. influenzae b, now rare after Hib vaccine). Do NOT upset the child or examine the throat; secure the airway first, then ceftriaxone."
+  "e": "Thumb sign = swollen epiglottis (acute epiglottitis, H. influenzae b, now rare after Hib vaccine). Do NOT upset the child or examine the throat; secure the airway first, then ceftriaxone.",
+  "w": [
+   "",
+   "Tongue-depressor examination can cause complete obstruction",
+   "Oral antibiotics with discharge ignores impending airway loss",
+   "CT delays definitive airway control in an unstable child"
+  ]
  },
  {
   "src": "88d4061e6545",
@@ -1579,7 +1621,13 @@
    "Hypercalcaemic crisis"
   ],
   "a": 0,
-  "e": "Paget disease of bone: ↑osteoclast activity then disorganised sclerosis, mosaic pattern; cotton-wool skull. High-output cardiac failure and osteosarcoma (1%) are complications. Treat with bisphosphonates."
+  "e": "Paget disease of bone: ↑osteoclast activity then disorganised sclerosis, mosaic pattern; cotton-wool skull. High-output cardiac failure and osteosarcoma (1%) are complications. Treat with bisphosphonates.",
+  "w": [
+   "",
+   "Myeloma gives lytic lesions with normal ALP",
+   "Fractures occur but are not the dreaded malignant complication",
+   "Hypercalcaemia occurs only with immobilisation; Ca is normal here"
+  ]
  },
  {
   "src": "286178f17353",
@@ -1593,7 +1641,13 @@
    "Urticaria"
   ],
   "a": 0,
-  "e": "Typical target lesions (dusky centre, pale ring, erythematous halo) = erythema multiforme minor, usually HSV-triggered; SJS/TEN is drug-induced with <10% / >30% BSA detachment and mucosal erosions."
+  "e": "Typical target lesions (dusky centre, pale ring, erythematous halo) = erythema multiforme minor, usually HSV-triggered; SJS/TEN is drug-induced with <10% / >30% BSA detachment and mucosal erosions.",
+  "w": [
+   "",
+   "SJS has mucosal erosion and flat atypical targets with detachment, drug-induced",
+   "Pemphigus gives flaccid bullae, Nikolsky positive",
+   "Urticaria wheals last <24 h and lack the three zones"
+  ]
  },
  {
   "src": "2021fb45b66c",
@@ -1607,7 +1661,13 @@
    "CT abdomen"
   ],
   "a": 0,
-  "e": "Acanthosis nigricans in an obese teen = insulin resistance (type 2 DM, PCOS). Sudden-onset extensive disease in an older adult suggests visceral malignancy (gastric adenocarcinoma)."
+  "e": "Acanthosis nigricans in an obese teen = insulin resistance (type 2 DM, PCOS). Sudden-onset extensive disease in an older adult suggests visceral malignancy (gastric adenocarcinoma).",
+  "w": [
+   "",
+   "Fungal culture is for tinea (scaly, annular, KOH+) not velvety plaques",
+   "ACTH is for Cushing/Addison hyperpigmentation, not velvety thickening",
+   "CT abdomen looks for malignancy in sudden-onset adults, not obese adolescents"
+  ]
  },
  {
   "src": "346e63d14ab1",
@@ -1621,7 +1681,13 @@
    "Anti-SRP"
   ],
   "a": 0,
-  "e": "Gottron papules = dermatomyositis. Anti-TIF1γ and anti-NXP2 are linked to cancer; anti-Jo-1 to anti-synthetase syndrome (ILD, mechanic hands); anti-Mi-2 to classic skin disease with good prognosis."
+  "e": "Gottron papules = dermatomyositis. Anti-TIF1γ and anti-NXP2 are linked to cancer; anti-Jo-1 to anti-synthetase syndrome (ILD, mechanic hands); anti-Mi-2 to classic skin disease with good prognosis.",
+  "w": [
+   "",
+   "Anti-Jo-1 is anti-synthetase (ILD, mechanic hands), no strong malignancy link",
+   "Anti-Mi-2 predicts classic rash with good prognosis, low cancer risk",
+   "Anti-SRP is necrotising myopathy, little skin disease"
+  ]
  },
  {
   "src": "816fc9654d25",
@@ -1635,6 +1701,12 @@
    "CD138"
   ],
   "a": 0,
-  "e": "Reed-Sternberg cell: CD15+ CD30+, CD45−, CD20 usually −. Nodular lymphocyte-predominant HL has LP cells that are CD20+ and CD15−. Mixed-cellularity / EBV association."
+  "e": "Reed-Sternberg cell: CD15+ CD30+, CD45−, CD20 usually −. Nodular lymphocyte-predominant HL has LP cells that are CD20+ and CD15−. Mixed-cellularity / EBV association.",
+  "w": [
+   "",
+   "CD20 and CD45 are B-cell/leukocyte markers; RS cells are CD45- and usually CD20-",
+   "CD3 and CD5 are T-cell markers",
+   "CD138 is plasma cell/myeloma"
+  ]
  }
 ]

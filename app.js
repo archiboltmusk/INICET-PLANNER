@@ -497,7 +497,7 @@ function vBlockResult() {
       ${q.c.map(cid => CI[cid] ? `<a href="#/c/${cid}">${esc(CI[cid].title)}</a>` : '').join(' · ')}<span>${Math.round(a.t)} s</span>${a.skip ? '<span class="pill">skipped</span>' : ''}</div>
       <div class="stem">${stemHTML(q.q)}</div>${qImg(q)}
       ${q.o.map((o, k) => `<div class="opt"><button class="o ${k === q.a ? 'right' : ''} ${k === ch && k !== q.a ? 'wrong' : ''}" disabled><b>${'ABCD'[k]}.</b> ${esc(o)}</button></div>`).join('')}
-      <div class="expl">${esc(q.e)}${q.i ? `\n\nImage: ${esc(q.i.cap)}` : ''}${q.x ? `\n\nAsked: ${esc(q.x)}` : ''}</div>
+      <div class="expl">${esc(q.e)}${q.w ? '\n\nWhy the others are wrong:\n' + q.w.map((t, k) => t ? 'ABCD'[k] + '. ' + t : '').filter(Boolean).join('\n') : ''}${q.i ? `\n\nImage: ${esc(q.i.cap)}` : ''}${q.x ? `\n\nAsked: ${esc(q.x)}` : ''}</div>
       ${a.skip ? '' : `<div class="row"><span class="seg" data-i="${a.i}">${ETYPES.map(t => `<button class="${(err ? err.et : '') === t ? 'on' : ''}" data-act="cls" data-i="${a.i}" data-t="${t}" title="${ET[t]}">${t} · ${ET[t].split(' (')[0]}</button>`).join('')}</span>
         ${err ? '' : `<span class="small muted">suggested: ${et}</span>`}</div>
       <textarea placeholder="Anchor I missed / why the tempting option was wrong" data-note="${a.i}">${esc(err ? err.note : '')}</textarea>`}
