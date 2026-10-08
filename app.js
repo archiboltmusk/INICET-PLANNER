@@ -181,6 +181,22 @@ function route() {
 window.addEventListener('hashchange', route);
 
 /* ---------- Today ---------- */
+/* Daily auto-plan: ~3 h built from due cards, weak clusters, unresolved errors and days left */
+function dailyPlan(fix, due, unres, days) {
+  const steps = [];
+  if (due) steps.push([Math.min(30, 10 + Math.round(due / 4)), `Review ${due} due cards`, '#/review', '']);
+  steps.push([35, 'Timed mixed block, 30 Q (net-mark pacing)', '#/block', 'data-act="start" data-mode="mixed"']);
+  steps.push([25, 'Post-block audit: label every lost mark G / R / A / T / P', '#/errors', '']);
+  fix.slice(0, 2).forEach(c => steps.push([30, `Fix: ${c.title}`, '#/c/' + c.id, c.qn ? `data-act="start" data-mode="drill" data-c="${c.id}"` : '']));
+  steps.push([20, 'Image questions (INI-CET is image-heavy)', '#/block', 'data-act="start" data-mode="image"']);
+  if (unres.length) steps.push([15, `Mistake purge (${Math.min(unres.length, 25)} Q)`, '#/block', 'data-act="start" data-mode="purge"']);
+  const total = steps.reduce((a, x) => a + x[0], 0);
+  const phase = days === null ? '' : days > 30 ? 'Build phase: widen coverage, drill weak clusters.' : days > 10 ? 'Consolidate phase: mocks plus error purge, no new sources.' : 'Final phase: volatile sheets, dated PYQs and image questions only.';
+  return `<h2>Today's plan <span class="muted small">~${Math.round(total / 6) / 10} h · auto-built from your weak spots</span></h2>
+  <div class="card small">${phase ? `<div class="muted" style="margin-bottom:6px">${phase}</div>` : ''}${steps.map(([m, t, h, a]) =>
+    `<div class="row" style="margin:4px 0"><span class="pill">${m} min</span><a href="${h}" ${a}>${esc(t)}</a></div>`).join('')}</div>`;
+}
+
 function vToday() {
   const st = clusterStats(), now = Date.now();
   const counts = { new: 0, weak: 0, shaky: 0, mastered: 0 };
@@ -213,6 +229,7 @@ function vToday() {
       <div class="small">${ETYPES.map(t => `<span class="pill ${t.toLowerCase()}">${t} ${unres.filter(e => (e.et === 'K' ? 'G' : e.et) === t).length}</span>`).join(' ')}</div></div>
   </div>
   ${window.sprintToday ? sprintToday() : ''}
+  ${dailyPlan(fix, due, unres, days)}
   <h2>Start</h2>
   <div class="row">
     <a class="btn primary" href="#/block" data-act="start" data-mode="mixed">50-Q timed block (45 min)</a>
