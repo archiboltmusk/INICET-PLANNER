@@ -46,3 +46,8 @@ Rebuild + drills merged to main; live at https://archiboltmusk.github.io/INICET-
 - Imported 291 text-extractable MCQs: DigiNerve INI-CET May 2026 PDF (155), DigiNerve "2025" recall page = Nov 2025 session (114), Doctutorials May 2025 subject PDFs via tinyurl (42). Image-dependent items dropped (56+). Unofficial keys.
 - NOT found/usable: 2021 (AglaSem Nov 2021 recall exists, not fetched), 2023, 2024 (getoncourse.ai shows stems without answers; Reflex Prep not found by search), Careers360 PDF 2020-2025 collection (not fetched), PW/Prepp gated.
 - User's 5-themes-per-subject list = checklist for next note batch (see thread).
+
+## Images (8 Oct)
+- +13 Commons images (Reed-Sternberg, Auer rod, Congo red, Negri, Pneumocystis, Lisch, croup steeple, epiglottitis thumb, Paget skull, EM target, acanthosis, Gottron) + 12 image MCQs. Bamboo spine and Hutchinson teeth got 429 — rerun `tools/fetch_images.py`.
+- Commons search is rate-limited (429): ~1 query/20 s. Candidate list not yet searched: Ewing onion peel, Hampton hump, smudge cells, rib notching, TAPVC snowman, cherry-red spot, Roth spots, Wickham striae, spider angioma, Histoplasma, Giardia, Plasmodium, LD bodies, microfilaria, Schistosoma, Burkitt starry sky, Hurthle, Orphan Annie, psammoma, Homer Wright, Mallory hyaline, KF ring (KF ring 1.jpg found), India ink, Datura, Abrus, Oleander.
+- PYQ-PDF images (DigiNerve/Doctutorials) NOT copied: coaching copyright on a public site.

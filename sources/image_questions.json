@@ -1,1472 +1,1640 @@
 [
-{
-"src": "883f",
-"s": "Medicine",
-"c": "med-acls-arrhythmia",
-"q": "A 22-year-old has palpitations. His resting ECG is shown. The characteristic finding is",
-"o": [
-"Epsilon wave",
-"Delta wave",
-"Osborn (J) wave",
-"U wave"
-],
-"a": 1,
-"e": "Short PR with slurred QRS upstroke = delta wave of Wolff–Parkinson–White (accessory pathway). In pre-excited AF avoid AV-nodal blockers (adenosine, verapamil, digoxin, beta-blockers); give procainamide or cardiovert if unstable."
-},
-{
-"src": "8523",
-"s": "Medicine",
-"c": "med-acid-base",
-"q": "This ECG shows tall, narrow-based peaked T waves. The most likely abnormality and the first drug are",
-"o": [
-"Hypokalaemia; potassium chloride",
-"Hyperkalaemia; IV calcium gluconate",
-"Hypocalcaemia; calcium gluconate",
-"Hypermagnesaemia; magnesium sulphate"
-],
-"a": 1,
-"e": "Peaked T waves are the earliest ECG sign of hyperkalaemia. Membrane stabilisation with IV calcium gluconate comes first, then insulin–dextrose, salbutamol, bicarbonate if acidotic, and removal (loop diuretic, resin, dialysis)."
-},
-{
-"src": "7809",
-"s": "Medicine",
-"c": "med-acs",
-"q": "A 58-year-old man has chest pain. ECG shows convex ST elevation across V1–V4. The culprit artery is",
-"o": [
-"Right coronary artery",
-"Left circumflex artery",
-"Left anterior descending artery",
-"Posterior descending artery"
-],
-"a": 2,
-"e": "ST elevation in V1–V4 is an anterior STEMI: LAD territory. Primary PCI within 90 minutes of first medical contact; fibrinolysis if PCI cannot be done within 120 minutes."
-},
-{
-"src": "bc5b",
-"s": "Medicine",
-"c": "med-stroke",
-"q": "A patient has sudden right hemiparesis. The NCCT head sign shown indicates",
-"o": [
-"Subarachnoid haemorrhage",
-"Thrombus in the middle cerebral artery",
-"Venous sinus thrombosis",
-"Chronic subdural haematoma"
-],
-"a": 1,
-"e": "A hyperdense MCA sign is an early CT sign of acute thrombus in the MCA. Treat with IV alteplase/tenecteplase within 4.5 h if eligible, and consider mechanical thrombectomy for large-vessel occlusion."
-},
-{
-"src": "3472",
-"s": "Medicine",
-"c": "med-stroke",
-"q": "Which imaging modality is most sensitive for detecting hyperacute ischaemic stroke within minutes of onset?",
-"o": [
-"Non-contrast CT head",
-"Diffusion-weighted MRI",
-"CT angiography",
-"Transcranial Doppler"
-],
-"a": 1,
-"e": "DWI shows restricted diffusion (bright signal) within minutes. NCCT is still the first test because it excludes haemorrhage quickly."
-},
-{
-"src": "37e3",
-"s": "Medicine",
-"c": "med-liver-portal-htn",
-"q": "A 17-year-old has tremor and abnormal LFTs. A slit-lamp image of the eye is shown. The best initial confirmatory test is",
-"o": [
-"Serum ceruloplasmin",
-"Serum ferritin",
-"Liver biopsy for iron",
-"HFE gene mutation"
-],
-"a": 0,
-"e": "Kayser–Fleischer ring points to Wilson disease: low serum ceruloplasmin, raised 24-hour urinary copper, hepatic copper >250 µg/g dry weight. Treatment is chelation (D-penicillamine, trientine) and zinc."
-},
-{
-"src": "72fc",
-"s": "Medicine",
-"c": "med-glomerulopathies",
-"q": "A silver stain of a glomerulus shows 'spikes' along a thickened basement membrane. The most specific serum antibody in primary disease is",
-"o": [
-"Anti-GBM antibody",
-"Anti-PLA2R antibody",
-"ANCA",
-"Anti-dsDNA"
-],
-"a": 1,
-"e": "Spike-and-dome pattern with subepithelial deposits is membranous nephropathy; most primary cases have anti-PLA2R antibody. IF shows granular IgG and C3."
-},
-{
-"src": "d5c2",
-"s": "Medicine",
-"c": "med-glomerulopathies",
-"q": "Crescentic glomerulonephritis with linear IgG on immunofluorescence is caused by antibodies against",
-"o": [
-"Phospholipase A2 receptor",
-"α3 chain of type IV collagen (NC1 domain)",
-"Myeloperoxidase",
-"C3 convertase"
-],
-"a": 1,
-"e": "Anti-GBM disease (Goodpasture): antibody to the α3(IV) collagen NC1 domain; treat with plasma exchange, steroids and cyclophosphamide."
-},
-{
-"src": "dcea",
-"s": "Medicine",
-"c": "med-glomerulopathies",
-"q": "This glomerulus shows PAS-positive acellular nodules in the mesangium. The most likely cause is",
-"o": [
-"Amyloidosis",
-"Diabetic nephropathy",
-"Lupus nephritis",
-"Membranoproliferative GN"
-],
-"a": 1,
-"e": "Kimmelstiel–Wilson nodular glomerulosclerosis is classic for diabetic nephropathy. Amyloid would stain with Congo red and show apple-green birefringence."
-},
-{
-"src": "cd9b",
-"s": "Medicine",
-"c": "med-toxicology",
-"q": "A farmer bitten in the field develops bleeding gums, haematuria and oliguria. The snake in the image is most likely",
-"o": [
-"Common krait",
-"Indian cobra",
-"Russell's viper",
-"Sea snake"
-],
-"a": 2,
-"e": "A chain of dark oval blotches along the back and triangular head is Russell's viper: haemotoxic (VICC, AKI). Give polyvalent ASV; use the 20-minute whole blood clotting test to monitor."
-},
-{
-"src": "8023",
-"s": "Medicine",
-"c": "med-thyroid-parathyroid",
-"q": "The patient shown has proptosis with lid retraction. The antibody responsible is directed against",
-"o": [
-"Thyroid peroxidase",
-"TSH receptor",
-"Thyroglobulin",
-"Sodium-iodide symporter"
-],
-"a": 1,
-"e": "Graves disease: TSH-receptor-stimulating antibody (TRAb). Anti-TPO is positive in Hashimoto and also commonly in Graves, but TRAb is the pathogenic and most specific antibody."
-},
-{
-"src": "f393",
-"s": "Medicine",
-"c": "med-thyroid-parathyroid",
-"q": "This ¹²³I-MIBG scan shows focal uptake in the left adrenal region. Before surgery the first drug to start is",
-"o": [
-"Propranolol",
-"Phenoxybenzamine",
-"Labetalol alone",
-"Hydrochlorothiazide"
-],
-"a": 1,
-"e": "Pheochromocytoma: start an alpha blocker (phenoxybenzamine or doxazosin) first, then a beta blocker. Beta blockade alone can precipitate a hypertensive crisis through unopposed alpha stimulation."
-},
-{
-"src": "3685",
-"s": "Medicine",
-"c": "med-tropical-fevers",
-"q": "A peripheral smear from a febrile traveller shows multiple ring forms and banana-shaped gametocytes. The species is",
-"o": [
-"Plasmodium vivax",
-"Plasmodium malariae",
-"Plasmodium falciparum",
-"Plasmodium ovale"
-],
-"a": 2,
-"e": "Multiple rings per cell, appliqué forms and crescent gametocytes are diagnostic of P. falciparum. Severe malaria is treated with IV artesunate."
-},
-{
-"src": "f72c",
-"s": "Medicine",
-"c": "med-tropical-fevers",
-"q": "A patient recovering from fever develops a confluent erythematous rash with islands of spared white skin. The diagnosis is",
-"o": [
-"Measles",
-"Dengue",
-"Scarlet fever",
-"Rubella"
-],
-"a": 1,
-"e": "'Islands of white in a sea of red' is the convalescent rash of dengue. Watch for the critical phase at defervescence (plasma leakage, fall in platelets, rising haematocrit)."
-},
-{
-"src": "eb4a",
-"s": "Medicine",
-"c": "med-aki-ckd",
-"q": "Urine sediment shows muddy-brown granular casts. The diagnosis is",
-"o": [
-"Acute pyelonephritis",
-"Acute tubular necrosis",
-"Acute interstitial nephritis",
-"Glomerulonephritis"
-],
-"a": 1,
-"e": "Muddy-brown granular and epithelial cell casts = ATN. WBC casts suggest pyelonephritis/interstitial nephritis; RBC casts suggest glomerulonephritis."
-},
-{
-"src": "0715",
-"s": "Medicine",
-"c": "med-ards-ventilation",
-"q": "The chest X-ray shows bilateral diffuse opacities without cardiomegaly after sepsis. The ventilator strategy proven to reduce mortality is",
-"o": [
-"High tidal volume 12 ml/kg",
-"Low tidal volume 6 ml/kg of predicted body weight",
-"Zero PEEP",
-"Pressure support only"
-],
-"a": 1,
-"e": "ARDS (Berlin: acute onset, bilateral opacities, PaO2/FiO2 ≤300 on PEEP ≥5). Use lung-protective ventilation (6 ml/kg PBW, plateau pressure <30), and prone positioning for severe ARDS."
-},
-{
-"src": "075e",
-"s": "Medicine",
-"c": "med-anemia-basics",
-"q": "The smear shows microcytic hypochromic cells with pencil cells. The test that best confirms the diagnosis is",
-"o": [
-"Serum iron",
-"Serum ferritin",
-"Transferrin saturation",
-"Reticulocyte count"
-],
-"a": 1,
-"e": "Iron deficiency: low serum ferritin is the most specific test; high TIBC, low transferrin saturation. Ferritin is an acute phase reactant, so a value up to about 100 µg/L can still be deficient in inflammation."
-},
-{
-"src": "b444",
-"s": "Medicine",
-"c": "med-anemia-basics",
-"q": "Fragmented red cells (schistocytes) are NOT a feature of",
-"o": [
-"HUS",
-"TTP",
-"DIC",
-"Hereditary spherocytosis"
-],
-"a": 3,
-"e": "Schistocytes mean microangiopathic haemolysis (HUS, TTP, DIC, malignant hypertension, mechanical valves). Hereditary spherocytosis shows spherocytes."
-},
-{
-"src": "d457",
-"s": "Medicine",
-"c": "med-diabetes-adrenal-pituitary",
-"q": "The facial appearance shown is due to excess GH. The best confirmatory test is",
-"o": [
-"Random serum GH",
-"Failure of GH suppression on an oral glucose tolerance test",
-"Serum prolactin",
-"Insulin tolerance test"
-],
-"a": 1,
-"e": "Screen with IGF-1; confirm with the OGTT (GH fails to fall below ~1 ng/ml). Then MRI pituitary; first-line treatment is transsphenoidal surgery."
-},
-{
-"src": "fbee",
-"s": "Medicine",
-"c": "med-ecg-volatile",
-"q": "A young man with syncope has coved ST elevation and an inverted T wave in V1. The best management is",
-"o": [
-"Beta blocker",
-"Implantable cardioverter-defibrillator in symptomatic patients",
-"Amiodarone",
-"Pacemaker"
-],
-"a": 1,
-"e": "Brugada type 1 pattern (SCN5A in about a quarter): ICD for symptomatic patients; avoid sodium-channel blockers, treat fever. Quinidine is an adjunct."
-},
-{
-"src": "18d7",
-"s": "Medicine",
-"c": "med-hiv-oi",
-"q": "A patient with CD4 50/µl has dry cough and exertional dyspnoea. The chest X-ray shows bilateral perihilar ground-glass opacities. The treatment is",
-"o": [
-"Azithromycin",
-"Co-trimoxazole (with steroids if PaO2 <70 mmHg)",
-"Amphotericin B",
-"Isoniazid"
-],
-"a": 1,
-"e": "Pneumocystis jirovecii pneumonia: high-dose co-trimoxazole for 21 days, plus prednisolone if hypoxaemic. Prophylaxis when CD4 <200."
-},
-{
-"src": "4d75",
-"s": "Medicine",
-"c": "med-gi-ibd",
-"q": "A patient with ulcerative colitis has fever and tachycardia; the abdominal X-ray shows a transverse colon of 7 cm. Which should be avoided?",
-"o": [
-"IV hydrocortisone",
-"Colonoscopy or barium enema",
-"IV fluids",
-"Surgical consultation"
-],
-"a": 1,
-"e": "Toxic megacolon (colon >6 cm with toxicity): IV steroids, fluids, antibiotics, early surgical review; avoid colonoscopy/barium (perforation) and antimotility drugs."
-},
-{
-"src": "e222",
-"s": "Medicine",
-"c": "med-head-ich-sah",
-"q": "This CT shows blood in the basal cisterns. The drug given to prevent delayed cerebral ischaemia is",
-"o": [
-"Mannitol",
-"Nimodipine",
-"Phenytoin",
-"Tranexamic acid for 2 weeks"
-],
-"a": 1,
-"e": "Nimodipine (calcium channel blocker) 60 mg 4-hourly for 21 days improves outcome after aneurysmal SAH. Secure the aneurysm early (clipping or coiling)."
-},
-{
-"src": "c318",
-"s": "Medicine",
-"c": "med-pneumonia-tb-lung",
-"q": "HRCT shows subpleural reticulation with honeycombing and traction bronchiectasis. The best treatment option to slow progression is",
-"o": [
-"Inhaled corticosteroids",
-"Pirfenidone or nintedanib",
-"Azathioprine",
-"Tiotropium"
-],
-"a": 1,
-"e": "UIP pattern = IPF. Antifibrotics (pirfenidone, nintedanib) slow FVC decline; steroids are not useful and harmful in IPF. Lung transplant is definitive."
-},
-{
-"src": "9c2c",
-"s": "Medicine",
-"c": "med-pe-dvt-pleural",
-"q": "A patient with hypotension has the CT finding shown. The best treatment is",
-"o": [
-"LMWH alone",
-"Systemic thrombolysis",
-"IVC filter first",
-"Oral anticoagulant"
-],
-"a": 1,
-"e": "Saddle embolus with haemodynamic instability = high-risk PE: systemic thrombolysis (alteplase) unless contraindicated; surgical or catheter embolectomy otherwise."
-},
-{
-"src": "be13",
-"s": "Medicine",
-"c": "med-rheumatology",
-"q": "Synovial fluid under compensated polarised light shows needle-shaped crystals that are yellow when parallel to the axis. They are",
-"o": [
-"Calcium pyrophosphate",
-"Monosodium urate",
-"Cholesterol",
-"Calcium oxalate"
-],
-"a": 1,
-"e": "Monosodium urate crystals are needle-shaped and strongly negatively birefringent (yellow parallel). CPPD crystals are rhomboid and weakly positively birefringent."
-},
-{
-"src": "fbe1",
-"s": "Surgery",
-"c": "surg-atls-thoracic",
-"q": "A trauma patient is hypotensive with absent breath sounds on the left, tracheal shift and distended neck veins. The immediate step is",
-"o": [
-"Chest X-ray",
-"Needle decompression at the 4th/5th intercostal space, just anterior to the mid-axillary line",
-"CT chest",
-"Intubate and ventilate"
-],
-"a": 1,
-"e": "Tension pneumothorax is a clinical diagnosis. ATLS 10th edition places decompression at the 4th–5th ICS anterior to the mid-axillary line, followed by a chest drain."
-},
-{
-"src": "feb3",
-"s": "Surgery",
-"c": "surg-burns",
-"q": "By the rule of nines in an adult, the burn surface area of one entire lower limb is",
-"o": [
-"9%",
-"13.5%",
-"18%",
-"27%"
-],
-"a": 2,
-"e": "Adult rule of nines: head and neck 9, each upper limb 9, anterior trunk 18, posterior trunk 18, each lower limb 18, perineum 1. In children the head is larger and legs smaller (Lund–Browder)."
-},
-{
-"src": "4908",
-"s": "Surgery",
-"c": "surg-head-injury",
-"q": "A biconvex hyperdense lesion limited by sutures is seen after a temporal bone fracture. The vessel involved is",
-"o": [
-"Bridging vein",
-"Middle meningeal artery",
-"Vein of Galen",
-"Anterior communicating artery"
-],
-"a": 1,
-"e": "Extradural haematoma: middle meningeal artery, lucid interval, lentiform on CT; urgent evacuation. Subdural haematoma arises from bridging veins and is crescentic."
-},
-{
-"src": "09b9",
-"s": "Surgery",
-"c": "surg-head-injury",
-"q": "An elderly man on warfarin falls. CT shows a crescentic collection over the convexity crossing sutures with midline shift. The source is",
-"o": [
-"Middle meningeal artery",
-"Bridging veins",
-"Berry aneurysm",
-"Dural venous sinus"
-],
-"a": 1,
-"e": "Subdural haematoma: tearing of bridging veins; common in elderly and anticoagulated patients; crosses sutures but not dural reflections."
-},
-{
-"src": "0182",
-"s": "Surgery",
-"c": "surg-thyroid-breast",
-"q": "A thyroid nodule FNAC shows nuclei with optical clearing and grooves. The commonest route of spread is",
-"o": [
-"Haematogenous to bone",
-"Lymphatic to cervical nodes",
-"Haematogenous to lung only",
-"Direct to trachea only"
-],
-"a": 1,
-"e": "Papillary carcinoma: Orphan Annie eye nuclei, psammoma bodies; spreads via lymphatics; excellent prognosis. Follicular carcinoma spreads haematogenously."
-},
-{
-"src": "b26a",
-"s": "Surgery",
-"c": "surg-hernia-ped-surg",
-"q": "A preterm neonate on feeds develops abdominal distension and bloody stools. The X-ray finding shown is",
-"o": [
-"Pneumoperitoneum only",
-"Pneumatosis intestinalis",
-"Double bubble",
-"Gasless abdomen"
-],
-"a": 1,
-"e": "Necrotising enterocolitis: pneumatosis intestinalis, portal venous gas; surgery for perforation (free air), clinical deterioration or fixed loop. Bell staging guides care."
-},
-{
-"src": "adda",
-"s": "Surgery",
-"c": "surg-obstruction-volvulus",
-"q": "This abdominal film of an elderly constipated man shows a huge inverted-U loop. The first step in a stable patient without peritonitis is",
-"o": [
-"Immediate sigmoid resection",
-"Sigmoidoscopic decompression with a flatus tube",
-"Barium enema",
-"Laparotomy and caecostomy"
-],
-"a": 1,
-"e": "Sigmoid volvulus (coffee-bean sign): endoscopic detorsion first; elective sigmoid colectomy later because recurrence is high. Peritonitis or ischaemia needs surgery."
-},
-{
-"src": "f9b9",
-"s": "Surgery",
-"c": "surg-obstruction-volvulus",
-"q": "A 9-month-old has colicky pain, red-currant jelly stool and this ultrasound finding. Treatment of choice in a stable child is",
-"o": [
-"Laparotomy",
-"Air or hydrostatic enema reduction",
-"Barium meal",
-"Antibiotics"
-],
-"a": 1,
-"e": "Intussusception: target (doughnut) sign on USG; image-guided enema reduction unless peritonitis or perforation. Pathologic lead points are more likely in older children."
-},
-{
-"src": "ba3d",
-"s": "Surgery",
-"c": "surg-upper-gi",
-"q": "A patient with sudden epigastric pain has this erect chest film. The commonest cause is",
-"o": [
-"Perforated duodenal ulcer",
-"Appendicitis",
-"Acute pancreatitis",
-"Mesenteric ischaemia"
-],
-"a": 0,
-"e": "Free gas under the diaphragm means a perforated hollow viscus; the commonest cause is a perforated duodenal ulcer. Treat with resuscitation, antibiotics and surgery (omental patch)."
-},
-{
-"src": "c9b3",
-"s": "Surgery",
-"c": "surg-upper-gi",
-"q": "A barium swallow shows a dilated oesophagus with a tapered 'bird's beak' lower end. The gold-standard diagnostic test is",
-"o": [
-"Upper GI endoscopy",
-"Oesophageal manometry",
-"CT chest",
-"pH monitoring"
-],
-"a": 1,
-"e": "Achalasia: manometry shows incomplete LES relaxation with aperistalsis. Treat with Heller myotomy, POEM or pneumatic dilatation; endoscopy first excludes pseudoachalasia (cancer)."
-},
-{
-"src": "7eff",
-"s": "OBGY",
-"c": "obg-aph",
-"q": "A woman has painless vaginal bleeding at membrane rupture followed by fetal bradycardia. The finding on Doppler is",
-"o": [
-"Placenta accreta",
-"Vasa previa",
-"Placental abruption",
-"Placenta previa marginalis"
-],
-"a": 1,
-"e": "Vasa previa: unsupported fetal vessels over the internal os; fetal exsanguination at rupture. Elective caesarean at 34–36 weeks; steroids for lung maturity."
-},
-{
-"src": "9df5",
-"s": "OBGY",
-"c": "obg-aph",
-"q": "The image shows placental villi invading through the uterine wall to the serosa. The strongest risk factor is",
-"o": [
-"Previous caesarean with placenta previa",
-"Primigravida",
-"Hypertension",
-"Multiple pregnancy"
-],
-"a": 0,
-"e": "Placenta accreta spectrum (accreta → increta → percreta). Risk rises with number of prior caesareans plus previa. Plan caesarean hysterectomy with the placenta left in situ."
-},
-{
-"src": "40cf",
-"s": "OBGY",
-"c": "obg-endometrium-ovary",
-"q": "Bilateral ovarian masses show signet-ring cells in a desmoplastic stroma. The primary is most often in the",
-"o": [
-"Stomach",
-"Breast",
-"Colon",
-"Pancreas"
-],
-"a": 0,
-"e": "Krukenberg tumours: metastases with mucin-secreting signet-ring cells, most often from the stomach (also colon, breast). Usually bilateral."
-},
-{
-"src": "e248",
-"s": "OBGY",
-"c": "obg-endometrium-ovary",
-"q": "A 25-year-old has a cystic ovarian mass containing hair and sebaceous material. The commonest complication is",
-"o": [
-"Malignant transformation",
-"Torsion",
-"Rupture",
-"Infection"
-],
-"a": 1,
-"e": "Mature cystic teratoma (dermoid) is the commonest ovarian germ cell tumour; torsion is the commonest complication. Malignant change (squamous carcinoma) is rare and mostly in postmenopausal women."
-},
-{
-"src": "69b0",
-"s": "OBGY",
-"c": "obg-aub-fibroid-endometriosis",
-"q": "A pregnant woman with a known fibroid has severe localised pain and low-grade fever. The gross picture of the specimen suggests",
-"o": [
-"Hyaline degeneration",
-"Red (carneous) degeneration",
-"Malignant change",
-"Calcific degeneration"
-],
-"a": 1,
-"e": "Red degeneration is haemorrhagic infarction of a fibroid in pregnancy; manage conservatively with analgesia and rest. Surgery is rarely needed."
-},
-{
-"src": "c654",
-"s": "Pediatrics",
-"c": "ped-infections-rashes-immunisation",
-"q": "A child with fever, cough and conjunctivitis has these oral spots. The essential adjunct treatment is",
-"o": [
-"Vitamin A",
-"Acyclovir",
-"Penicillin",
-"Zinc only"
-],
-"a": 0,
-"e": "Koplik spots = measles. All children with measles get vitamin A (200,000 IU if ≥12 months) for 2 days. Complications: pneumonia, SSPE."
-},
-{
-"src": "fb2f",
-"s": "Pediatrics",
-"c": "ped-infections-rashes-immunisation",
-"q": "A child with 'slapped cheek' erythema is infected with an organism that causes aplastic crisis in",
-"o": [
-"Sickle cell disease",
-"Haemophilia",
-"von Willebrand disease",
-"G6PD deficiency only"
-],
-"a": 0,
-"e": "Erythema infectiosum: parvovirus B19. It infects erythroid precursors → transient aplastic crisis in chronic haemolysis (e.g. sickle cell, spherocytosis) and hydrops fetalis in pregnancy."
-},
-{
-"src": "6282",
-"s": "Pediatrics",
-"c": "ped-infections-rashes-immunisation",
-"q": "A toddler has oval vesicles on palms and soles with oral ulcers. The commonest agent is",
-"o": [
-"Coxsackie A16",
-"Varicella zoster",
-"Herpes simplex",
-"Parvovirus B19"
-],
-"a": 0,
-"e": "Hand–foot–mouth disease: Coxsackie A16, enterovirus 71 (neurological complications). Supportive care."
-},
-{
-"src": "3d83",
-"s": "Pediatrics",
-"c": "ped-chd",
-"q": "This X-ray shows a boot-shaped heart with oligaemic lung fields in a cyanotic child. The immediate management of a hypercyanotic spell is",
-"o": [
-"Knee-chest position, oxygen, morphine",
-"Digoxin",
-"Furosemide",
-"Indomethacin"
-],
-"a": 0,
-"e": "Tetralogy of Fallot: knee–chest position, oxygen, morphine, IV fluids, phenylephrine/propranolol, bicarbonate; definitive surgery (BT shunt or complete repair)."
-},
-{
-"src": "e9fd",
-"s": "Pediatrics",
-"c": "ped-chd",
-"q": "A cyanotic newborn has an 'egg on a string' cardiac silhouette with increased pulmonary vascularity. The first drug is",
-"o": [
-"Prostaglandin E1 infusion",
-"Indomethacin",
-"Digoxin",
-"Furosemide"
-],
-"a": 0,
-"e": "Transposition of the great arteries: PGE1 to keep the ductus open, balloon atrial septostomy, then arterial switch within the first 1–2 weeks."
-},
-{
-"src": "9672",
-"s": "Pediatrics",
-"c": "ped-neonatal-resp-jaundice",
-"q": "A 29-week preterm has grunting shortly after birth; the X-ray shows ground-glass opacities with air bronchograms. The treatment is",
-"o": [
-"Surfactant",
-"Furosemide",
-"Antibiotics only",
-"Indomethacin"
-],
-"a": 0,
-"e": "Respiratory distress syndrome (surfactant deficiency): CPAP and early surfactant, antenatal steroids prevent it. Lecithin:sphingomyelin ratio <2 indicates immaturity."
-},
-{
-"src": "7618",
-"s": "Pediatrics",
-"c": "ped-nutrition-malnutrition",
-"q": "A child has pedal oedema, flag sign and angular stomatitis. According to WHO the diagnosis is",
-"o": [
-"Marasmus",
-"Severe acute malnutrition (oedematous)",
-"Moderate acute malnutrition",
-"Vitamin A deficiency"
-],
-"a": 1,
-"e": "Bilateral pitting oedema = severe acute malnutrition (kwashiorkor), regardless of weight-for-height. Stabilise with F-75, then F-100 or RUTF, and treat hypoglycaemia, hypothermia and infection."
-},
-{
-"src": "9e86",
-"s": "Pediatrics",
-"c": "ped-nutrition-malnutrition",
-"q": "An infant has widened wrists and rachitic rosary. The earliest biochemical abnormality in nutritional rickets is",
-"o": [
-"Raised alkaline phosphatase with low 25-OH vitamin D",
-"Raised calcium",
-"Low parathyroid hormone",
-"Normal alkaline phosphatase"
-],
-"a": 0,
-"e": "Nutritional rickets: low 25-OH vitamin D, raised ALP and PTH, low/normal calcium and low phosphate. X-ray: cupping, fraying, splaying. Treat with vitamin D 'stoss' therapy plus calcium."
-},
-{
-"src": "cc97",
-"s": "Pediatrics",
-"c": "ped-nutrition-malnutrition",
-"q": "A child with night blindness has foamy triangular conjunctival patches. The therapeutic dose of vitamin A for a child over 1 year is",
-"o": [
-"50,000 IU",
-"100,000 IU",
-"200,000 IU",
-"400,000 IU"
-],
-"a": 2,
-"e": "Bitot spots (X1B). WHO treatment: 200,000 IU orally on day 1, day 2 and 2 weeks later (half dose for infants 6–12 months, quarter for under 6 months)."
-},
-{
-"src": "021d",
-"s": "Ophthalmology",
-"c": "oph-glaucoma",
-"q": "The optic disc shown has a large vertical cup with nasal displacement of vessels. Which feature favours glaucoma over physiological cupping?",
-"o": [
-"Round symmetrical cup",
-"Thinning of the neuroretinal rim violating the ISNT rule",
-"Cup-disc ratio of 0.3",
-"Normal vessels"
-],
-"a": 1,
-"e": "Glaucomatous disc: vertical elongation, rim thinning (ISNT rule broken), bayoneting, notching, nasal vessel displacement, asymmetry >0.2."
-},
-{
-"src": "ce1b",
-"s": "Ophthalmology",
-"c": "oph-glaucoma",
-"q": "An infant has photophobia, tearing and an enlarged cornea. The definitive treatment is",
-"o": [
-"Timolol drops",
-"Goniotomy or trabeculotomy",
-"Laser iridotomy",
-"Observation"
-],
-"a": 1,
-"e": "Primary congenital glaucoma (buphthalmos, Haab striae): surgery (goniotomy/trabeculotomy) is the treatment of choice; medical therapy is only a bridge."
-},
-{
-"src": "ecf7",
-"s": "Ophthalmology",
-"c": "oph-pupil-neuro",
-"q": "A young obese woman has headache and bilateral disc swelling with normal vision and pupils. The next step is",
-"o": [
-"Neuroimaging, then lumbar puncture with opening pressure",
-"Start steroids directly",
-"Optic nerve biopsy",
-"Reassure"
-],
-"a": 0,
-"e": "Papilloedema indicates raised intracranial pressure. Image first (exclude mass), then LP; idiopathic intracranial hypertension is treated with acetazolamide and weight loss."
-},
-{
-"src": "9ab1",
-"s": "Ophthalmology",
-"c": "oph-retina",
-"q": "New vessels on the disc/retina define",
-"o": [
-"Non-proliferative diabetic retinopathy",
-"Proliferative diabetic retinopathy",
-"Hypertensive retinopathy",
-"Macular oedema only"
-],
-"a": 1,
-"e": "Proliferative DR (NVD/NVE) is treated with panretinal photocoagulation and/or anti-VEGF; vitrectomy for vitreous haemorrhage or traction."
-},
-{
-"src": "6cbc",
-"s": "Ophthalmology",
-"c": "oph-retina",
-"q": "A patient has sudden painless loss of vision with a cherry-red spot at the macula. The diagnosis is",
-"o": [
-"Central retinal vein occlusion",
-"Central retinal artery occlusion",
-"Retinal detachment",
-"Vitreous haemorrhage"
-],
-"a": 1,
-"e": "CRAO: pale oedematous retina with a cherry-red spot and narrowed arterioles; an ocular emergency. Look for embolic source (carotid, heart) and giant cell arteritis."
-},
-{
-"src": "37fe",
-"s": "Ophthalmology",
-"c": "oph-retina",
-"q": "A child presents with a white pupillary reflex. The gene involved in the most likely tumour is",
-"o": [
-"RB1 on chromosome 13q14",
-"TP53 on 17p",
-"NF1 on 17q",
-"WT1 on 11p"
-],
-"a": 0,
-"e": "Leukocoria is the commonest presentation of retinoblastoma (RB1, 13q14, tumour suppressor). Calcification on imaging; avoid biopsy."
-},
-{
-"src": "7fa4",
-"s": "Ophthalmology",
-"c": "oph-cornea-uvea-lens",
-"q": "A branching corneal ulcer with terminal end-bulbs is stained with fluorescein. Which treatment is contraindicated?",
-"o": [
-"Topical acyclovir",
-"Topical corticosteroids",
-"Debridement",
-"Oral valacyclovir"
-],
-"a": 1,
-"e": "HSV dendritic keratitis: topical or oral antivirals; steroids worsen epithelial disease. Steroids are reserved for stromal keratitis under antiviral cover."
-},
-{
-"src": "cb59",
-"s": "Ophthalmology",
-"c": "oph-cornea-uvea-lens",
-"q": "Layered pus in the inferior anterior chamber seen with a painful red eye is called",
-"o": [
-"Hyphaema",
-"Hypopyon",
-"Iris bombé",
-"Synechia"
-],
-"a": 1,
-"e": "Hypopyon: sterile in HLA-B27 uveitis and Behçet disease; infective in bacterial or fungal keratitis (fungal keratitis hypopyon is non-mobile)."
-},
-{
-"src": "6bf4",
-"s": "ENT",
-"c": "ent-ear-csom",
-"q": "A child with chronic discharge has granulation tissue at the pars flaccida. The treatment is",
-"o": [
-"Topical antibiotic drops only",
-"Mastoid exploration (canal wall up or down mastoidectomy)",
-"Grommet insertion",
-"Myringoplasty alone"
-],
-"a": 1,
-"e": "Attic granulation signals attico-antral (unsafe) CSOM with cholesteatoma; surgical clearance via mastoidectomy is needed to prevent complications."
-},
-{
-"src": "087b",
-"s": "ENT",
-"c": "ent-larynx-neck",
-"q": "An infant has inspiratory stridor worse when supine and feeding. Laryngoscopy shows an omega-shaped epiglottis. The management is",
-"o": [
-"Tracheostomy",
-"Reassurance (usually resolves by 18–24 months)",
-"Steroids",
-"Supraglottoplasty in all"
-],
-"a": 1,
-"e": "Laryngomalacia is the commonest cause of congenital stridor and usually self-resolves; surgery (supraglottoplasty) only for severe cases with failure to thrive or apnoea."
-},
-{
-"src": "057b",
-"s": "ENT",
-"c": "ent-larynx-neck",
-"q": "A patient with a tooth infection has woody, brawny bilateral submandibular swelling and trismus. The first priority is",
-"o": [
-"Antibiotics",
-"Securing the airway",
-"CT scan",
-"Incision of the abscess"
-],
-"a": 1,
-"e": "Ludwig's angina: bilateral submandibular space cellulitis, airway compromise. Secure the airway, IV antibiotics, drainage if collection."
-},
-{
-"src": "fe28",
-"s": "Orthopedics",
-"c": "ort-bone-tumours",
-"q": "A 15-year-old has knee pain and this sclerotic metaphyseal lesion. The mainstay of treatment is",
-"o": [
-"Radiotherapy alone",
-"Neoadjuvant chemotherapy, limb-salvage surgery, adjuvant chemotherapy",
-"Curettage",
-"Observation"
-],
-"a": 1,
-"e": "Osteosarcoma: commonest site distal femur metaphysis; ALP raised; Codman triangle and sunburst. Chest CT for metastases."
-},
-{
-"src": "ac62",
-"s": "Orthopedics",
-"c": "ort-bone-tumours",
-"q": "A teenager has night pain relieved by aspirin and this CT. Preferred treatment is",
-"o": [
-"Radiofrequency ablation",
-"Chemotherapy",
-"Amputation",
-"Radiotherapy"
-],
-"a": 0,
-"e": "Osteoid osteoma: nidus <1.5 cm with surrounding sclerosis, night pain relieved by NSAIDs (PGE2); CT-guided radiofrequency ablation is first line."
-},
-{
-"src": "8d3d",
-"s": "Orthopedics",
-"c": "ort-nerve-injuries",
-"q": "The hand deformity shown (claw of the ring and little fingers) indicates injury to",
-"o": [
-"Median nerve",
-"Ulnar nerve",
-"Radial nerve",
-"Posterior interosseous nerve"
-],
-"a": 1,
-"e": "Ulnar claw hand with Froment's sign positive; lesion at the wrist produces a more marked claw than a high lesion (ulnar paradox)."
-},
-{
-"src": "2d97",
-"s": "Orthopedics",
-"c": "ort-fractures-upper",
-"q": "An 8-year-old falls on an outstretched hand; the elbow X-ray shows the fracture. The nerve most commonly injured is",
-"o": [
-"Anterior interosseous nerve",
-"Ulnar nerve",
-"Radial nerve",
-"Axillary nerve"
-],
-"a": 0,
-"e": "Extension-type supracondylar fracture: anterior interosseous nerve (median branch) is commonly injured; brachial artery compromise causes Volkmann ischaemic contracture."
-},
-{
-"src": "f2db",
-"s": "Orthopedics",
-"c": "ort-fractures-upper",
-"q": "A fracture of the distal radius with dorsal displacement is classically described as",
-"o": [
-"Smith",
-"Colles",
-"Barton",
-"Chauffeur"
-],
-"a": 1,
-"e": "Colles fracture: dinner-fork deformity, dorsal angulation, fall on outstretched hand in older women. Smith's is the reverse (volar displacement, 'garden spade')."
-},
-{
-"src": "1351",
-"s": "Orthopedics",
-"c": "ort-peds-metabolic",
-"q": "An obese 12-year-old has hip pain and limp; the frog-leg view shows the epiphysis slipped off the neck. The treatment is",
-"o": [
-"Traction",
-"In situ pinning with a single screw",
-"Spica for 6 weeks",
-"Observation"
-],
-"a": 1,
-"e": "SCFE: do not reduce forcibly (avascular necrosis); in situ pinning; non-weight-bearing immediately. Klein's line fails to intersect the epiphysis."
-},
-{
-"src": "ba20",
-"s": "Dermatology",
-"c": "der-vesiculobullous",
-"q": "Direct immunofluorescence shows intercellular IgG in a fishnet pattern. The target antigen is",
-"o": [
-"Desmoglein 3",
-"BP180",
-"Type VII collagen",
-"Desmoglein 1 only"
-],
-"a": 0,
-"e": "Pemphigus vulgaris: anti-Dsg3 (± Dsg1), suprabasal acantholysis, positive Nikolsky sign, flaccid bullae. Treat with steroids and rituximab."
-},
-{
-"src": "76c6",
-"s": "Dermatology",
-"c": "der-vesiculobullous",
-"q": "An elderly woman has tense bullae. The target antigen is",
-"o": [
-"Desmoglein 3",
-"BP180 (collagen XVII)",
-"Desmoglein 1",
-"Laminin 5"
-],
-"a": 1,
-"e": "Bullous pemphigoid: subepidermal blister, linear IgG/C3 at the basement membrane zone; targets BP180 and BP230 in hemidesmosomes."
-},
-{
-"src": "434b",
-"s": "Dermatology",
-"c": "der-infections-sti",
-"q": "A hypopigmented patch on the thigh is evaluated. The first bedside test is",
-"o": [
-"Sensory testing of the lesion",
-"KOH mount",
-"Wood's lamp",
-"Biopsy"
-],
-"a": 0,
-"e": "Leprosy: loss of sensation in a skin patch, thickened nerve, or acid-fast bacilli on slit-skin smear. WHO operational classification: PB ≤5 lesions, MB >5."
-},
-{
-"src": "ecc1",
-"s": "Dermatology",
-"c": "der-infections-sti",
-"q": "A thin wavy burrow between the finger web spaces with nocturnal itching is treated with",
-"o": [
-"Permethrin 5% cream",
-"Ketoconazole cream",
-"Acyclovir",
-"Clobetasol alone"
-],
-"a": 0,
-"e": "Scabies (Sarcoptes scabiei): permethrin 5% from neck down, repeated after 7 days; treat contacts; ivermectin oral for crusted or outbreaks."
-},
-{
-"src": "7f30",
-"s": "Dermatology",
-"c": "der-papulosquamous",
-"q": "Silvery-scaled plaques on extensor surfaces; scale removal shows pinpoint bleeding. This is called",
-"o": [
-"Auspitz sign",
-"Koebner phenomenon",
-"Nikolsky sign",
-"Darier sign"
-],
-"a": 0,
-"e": "Auspitz sign (pinpoint bleeding on removing scale) is typical of psoriasis. Koebner is new lesions at sites of trauma (also in lichen planus, vitiligo)."
-},
-{
-"src": "60a1",
-"s": "Dermatology",
-"c": "der-papulosquamous",
-"q": "Flat-topped violaceous itchy papules with lacy white lines. The lines are called",
-"o": [
-"Wickham striae",
-"Auspitz sign",
-"Nikolsky sign",
-"Hutchinson sign"
-],
-"a": 0,
-"e": "Lichen planus: purple, polygonal, pruritic, planar, papules; Wickham striae; oral lesions; Koebner phenomenon; saw-tooth infiltrate on histology."
-},
-{
-"src": "58b4",
-"s": "Dermatology",
-"c": "der-papulosquamous",
-"q": "A larger oval scaly patch followed a week later by smaller oval lesions along skin lines. Diagnosis:",
-"o": [
-"Pityriasis rosea",
-"Tinea corporis",
-"Secondary syphilis",
-"Psoriasis"
-],
-"a": 0,
-"e": "Pityriasis rosea: herald patch then 'Christmas tree' distribution along cleavage lines; self-limiting. Check VDRL if the palms and soles are involved."
-},
-{
-"src": "3edb",
-"s": "Dermatology",
-"c": "der-pigment-tumours-misc",
-"q": "The most important prognostic factor in cutaneous melanoma is",
-"o": [
-"Breslow thickness",
-"Clark level",
-"Site",
-"Age"
-],
-"a": 0,
-"e": "Breslow thickness (depth in mm) determines prognosis and excision margins; ABCDE rule for recognition; sentinel node biopsy for T1b and above (>0.8 mm or ulcerated)."
-},
-{
-"src": "b6d8",
-"s": "Radiology",
-"c": "rad-imaging-signs",
-"q": "A newborn with vomiting has the X-ray shown. The commonest associated syndrome is",
-"o": [
-"Down syndrome",
-"Turner syndrome",
-"Edwards syndrome",
-"Noonan syndrome"
-],
-"a": 0,
-"e": "Double bubble with no distal gas = duodenal atresia, associated with Down syndrome (about a third). Bilious vomiting in the first day."
-},
-{
-"src": "20ac",
-"s": "Radiology",
-"c": "rad-imaging-signs",
-"q": "A supine AP film of a trauma patient shows a deep lucent costophrenic sulcus. This suggests",
-"o": [
-"Pleural effusion",
-"Pneumothorax",
-"Pulmonary contusion",
-"Rib fracture only"
-],
-"a": 1,
-"e": "Deep sulcus sign on a supine film indicates anterior pneumothorax; ultrasound (absent lung sliding) and CT are more sensitive."
-},
-{
-"src": "7421",
-"s": "Pathology",
-"c": "path-leukemia",
-"q": "A smear shows a promyelocyte packed with Auer rods in a patient with DIC. The translocation and treatment are",
-"o": [
-"t(15;17); all-trans retinoic acid",
-"t(9;22); imatinib",
-"t(8;21); cytarabine alone",
-"inv(16); transplant"
-],
-"a": 0,
-"e": "APL: t(15;17) PML–RARA; ATRA ± arsenic trioxide; DIC is the major early threat, so start ATRA immediately on suspicion."
-},
-{
-"src": "5acb",
-"s": "Pathology",
-"c": "path-leukemia",
-"q": "B cells with hair-like projections, dry tap and splenomegaly. The marker/mutation is",
-"o": [
-"TRAP positivity and BRAF V600E",
-"BCR-ABL",
-"JAK2 V617F",
-"t(11;14)"
-],
-"a": 0,
-"e": "Hairy cell leukaemia: TRAP positive, CD11c/CD25/CD103, annexin A1, BRAF V600E; treated with cladribine."
-},
-{
-"src": "ce31",
-"s": "Pathology",
-"c": "path-cns-tumours",
-"q": "Tumour cells palisading around necrosis in an adult brain tumour. The diagnosis is",
-"o": [
-"Glioblastoma",
-"Pilocytic astrocytoma",
-"Meningioma",
-"Oligodendroglioma"
-],
-"a": 0,
-"e": "Glioblastoma (IDH-wildtype): pseudopalisading necrosis and microvascular proliferation; butterfly glioma crossing the corpus callosum."
-},
-{
-"src": "feff",
-"s": "Pathology",
-"c": "path-cns-tumours",
-"q": "Eosinophilic corkscrew Rosenthal fibres are seen in",
-"o": [
-"Pilocytic astrocytoma",
-"Medulloblastoma",
-"Ependymoma",
-"Meningioma"
-],
-"a": 0,
-"e": "Pilocytic astrocytoma: children, cerebellum, cyst with mural nodule, BRAF fusion, Rosenthal fibres and eosinophilic granular bodies; best prognosis."
-},
-{
-"src": "a37b",
-"s": "Pathology",
-"c": "path-cns-tumours",
-"q": "A child's midline cerebellar tumour shows small blue cells forming Homer Wright rosettes. This tumour is",
-"o": [
-"Medulloblastoma",
-"Ependymoma",
-"Craniopharyngioma",
-"Haemangioblastoma"
-],
-"a": 0,
-"e": "Medulloblastoma: Homer Wright rosettes; synaptophysin positive; CSF drop metastases; SHH, WNT subtypes. Ependymoma shows perivascular pseudorosettes."
-},
-{
-"src": "4ddd",
-"s": "Pathology",
-"c": "path-hemolytic-anemia",
-"q": "The smear shows small dense red cells without central pallor. The best confirmatory test is",
-"o": [
-"Eosin-5-maleimide (EMA) binding test",
-"Coombs test",
-"Hb electrophoresis",
-"G6PD assay"
-],
-"a": 0,
-"e": "Hereditary spherocytosis: ankyrin/spectrin defects; EMA binding (flow cytometry) is the most sensitive; osmotic fragility test; DAT is negative; splenectomy for severe cases."
-},
-{
-"src": "c4f1",
-"s": "Pathology",
-"c": "path-hemolytic-anemia",
-"q": "The molecular defect in sickle cell anaemia is",
-"o": [
-"Glutamic acid to valine at position 6 of the β-globin chain",
-"Glutamic acid to lysine at position 6",
-"Deletion of α-globin genes",
-"Valine to glutamic acid"
-],
-"a": 0,
-"e": "HbS: Glu6Val (GAG→GTG) in β-globin. HbC is Glu6Lys. Hydroxyurea raises HbF."
-},
-{
-"src": "816f",
-"s": "Pathology",
-"c": "path-lymphoma-myeloma",
-"q": "A large binucleate cell with 'owl-eye' nucleoli is seen in a lymph node biopsy. The immunophenotype is",
-"o": [
-"CD15+ CD30+",
-"CD20+ CD5+",
-"CD10+ BCL6+",
-"CD3+ CD4+"
-],
-"a": 0,
-"e": "Reed–Sternberg cell: classical Hodgkin lymphoma is CD15+, CD30+, CD45−; nodular lymphocyte predominant is CD20+ CD15−."
-},
-{
-"src": "3f9d",
-"s": "Pathology",
-"c": "path-lymphoma-myeloma",
-"q": "'Starry sky' appearance with tingible-body macrophages is characteristic of a lymphoma with",
-"o": [
-"t(8;14) MYC",
-"t(14;18) BCL2",
-"t(11;14) cyclin D1",
-"t(2;5) ALK"
-],
-"a": 0,
-"e": "Burkitt lymphoma: t(8;14) MYC–IGH; EBV in endemic form; very high proliferation (Ki-67 ~100%); tumour lysis syndrome risk."
-},
-{
-"src": "30e4",
-"s": "Pathology",
-"c": "path-neoplasia-markers",
-"q": "Concentrically laminated basophilic calcifications are NOT typical of",
-"o": [
-"Papillary thyroid carcinoma",
-"Serous ovarian cystadenocarcinoma",
-"Meningioma",
-"Follicular thyroid carcinoma"
-],
-"a": 3,
-"e": "Psammoma bodies: papillary thyroid carcinoma, serous ovarian carcinoma, meningioma, mesothelioma, prolactinoma/somatostatinoma (PSAMMOMA). Follicular thyroid carcinoma lacks them."
-},
-{
-"src": "1199",
-"s": "Pathology",
-"c": "path-inflammation-amyloid",
-"q": "Congo red staining viewed under crossed polarisers shows apple-green birefringence. This is due to",
-"o": [
-"β-pleated sheet configuration",
-"α-helix",
-"Collagen cross-links",
-"Glycogen"
-],
-"a": 0,
-"e": "Amyloid is a β-pleated sheet fibrillar protein; Congo red apple-green birefringence is diagnostic. AL (light chains), AA (SAA), ATTR (transthyretin) are common types."
-},
-{
-"src": "271a",
-"s": "Pathology",
-"c": "path-inflammation-amyloid",
-"q": "A lymph node shows central caseation surrounded by epithelioid cells and Langhans giant cells. The giant cell nuclei are arranged",
-"o": [
-"Peripherally in a horseshoe pattern",
-"Randomly",
-"Centrally",
-"In a wreath around the nucleoli only"
-],
-"a": 0,
-"e": "Langhans giant cells (TB) have nuclei in a horseshoe at the periphery; foreign body giant cells have random nuclei. Granuloma requires CD4 T cells and IFN-γ."
-},
-{
-"src": "0f6e",
-"s": "Pathology",
-"c": "path-myeloproliferative",
-"q": "Teardrop cells with leucoerythroblastic picture and dry tap. The most frequent driver mutation is",
-"o": [
-"JAK2 V617F",
-"BCR-ABL",
-"CALR only",
-"MPL only"
-],
-"a": 0,
-"e": "Primary myelofibrosis: JAK2 V617F ~50–60%, CALR ~25%, MPL; treatment ruxolitinib. Teardrop cells are due to extramedullary haematopoiesis and fibrosis."
-},
-{
-"src": "5838",
-"s": "Microbiology",
-"c": "mic-culture-media-bacteriology",
-"q": "Albert stain shows green bacilli with bluish-black granules in Chinese-letter arrangement. The organism is",
-"o": [
-"Corynebacterium diphtheriae",
-"Mycobacterium tuberculosis",
-"Bacillus anthracis",
-"Listeria"
-],
-"a": 0,
-"e": "Metachromatic (Babes–Ernst/Volutin) granules in C. diphtheriae; culture on Loeffler's serum slope and tellurite blood agar; toxin tested by Elek test."
-},
-{
-"src": "b139",
-"s": "Microbiology",
-"c": "mic-culture-media-bacteriology",
-"q": "This Ziehl–Neelsen smear of sputum shows slender pink-red bacilli on a blue background. Acid-fastness is due to",
-"o": [
-"Mycolic acid in the cell wall",
-"Peptidoglycan thickness",
-"Teichoic acid",
-"Capsular polysaccharide"
-],
-"a": 0,
-"e": "Mycobacteria retain carbol fuchsin after acid–alcohol decolourisation because of long-chain mycolic acids. M. leprae is weakly acid-fast (decolourised with 5% H2SO4); Nocardia is partially acid-fast."
-},
-{
-"src": "1240",
-"s": "Microbiology",
-"c": "mic-mycology-parasitology",
-"q": "A diabetic in ketoacidosis has facial pain and black nasal discharge; the biopsy shows broad ribbon-like hyphae. The drug is",
-"o": [
-"Liposomal amphotericin B",
-"Voriconazole",
-"Fluconazole",
-"Caspofungin"
-],
-"a": 0,
-"e": "Mucormycosis: non-septate hyphae with right-angle branching; surgical debridement + amphotericin B; control hyperglycaemia and acidosis; isavuconazole/posaconazole as step-down."
-},
-{
-"src": "1d45",
-"s": "Microbiology",
-"c": "mic-mycology-parasitology",
-"q": "An HIV patient has meningitis; the India ink preparation is shown. The best rapid test is",
-"o": [
-"Cryptococcal antigen (latex agglutination/LFA)",
-"KOH",
-"Gram stain",
-"Widal"
-],
-"a": 0,
-"e": "Cryptococcus neoformans: encapsulated yeast; CrAg in CSF/serum is most sensitive; induction with amphotericin B + flucytosine, repeated LP for raised pressure."
-},
-{
-"src": "e677",
-"s": "Microbiology",
-"c": "mic-virology",
-"q": "Eosinophilic intracytoplasmic neuronal inclusions are seen in rabies. They are called",
-"o": [
-"Negri bodies",
-"Cowdry A bodies",
-"Guarnieri bodies",
-"Owl-eye inclusions"
-],
-"a": 0,
-"e": "Negri bodies (hippocampus, Purkinje cells); diagnosis by direct fluorescent antibody on nuchal skin biopsy. Cowdry A is herpes; Guarnieri is variola."
-},
-{
-"src": "78df",
-"s": "Microbiology",
-"c": "mic-gram-pos-neg-key",
-"q": "Gram-positive cocci in grape-like clusters, catalase positive and coagulase positive. The organism is",
-"o": [
-"Staphylococcus aureus",
-"Staphylococcus saprophyticus",
-"Streptococcus pyogenes",
-"Enterococcus"
-],
-"a": 0,
-"e": "Staph aureus: catalase +, coagulase +, mannitol fermenter; MRSA via mecA (PBP2a). S. saprophyticus is novobiocin resistant and causes UTI in young women."
-},
-{
-"src": "54f4",
-"s": "Microbiology",
-"c": "mic-gram-pos-neg-key",
-"q": "Gram-positive cocci in chains, catalase negative, beta-haemolytic, bacitracin sensitive. The organism is",
-"o": [
-"Streptococcus pyogenes",
-"Streptococcus agalactiae",
-"Enterococcus faecalis",
-"Streptococcus pneumoniae"
-],
-"a": 0,
-"e": "Group A streptococcus: bacitracin sensitive, PYR positive; S. agalactiae (GBS) is bacitracin resistant, CAMP and hippurate positive."
-},
-{
-"src": "9912",
-"s": "Forensic Medicine",
-"c": "fmt-thanatology",
-"q": "Dependent purple discolouration with pale pressure areas is seen. It becomes fixed in about",
-"o": [
-"30 minutes",
-"6–8 hours",
-"24 hours",
-"48 hours"
-],
-"a": 1,
-"e": "Postmortem lividity appears in 1–2 h, merges by 4–6 h, fixed by about 6–8 h. Before fixation it shifts if the body is moved. Cherry-red lividity: CO and cyanide poisoning."
-},
-{
-"src": "3fb4",
-"s": "Forensic Medicine",
-"c": "fmt-toxicology",
-"q": "Basophilic stippling in red cells with a blue line on the gums points to poisoning with",
-"o": [
-"Lead",
-"Arsenic",
-"Mercury",
-"Copper"
-],
-"a": 0,
-"e": "Lead poisoning: basophilic stippling (pyrimidine 5'-nucleotidase and ALA dehydratase inhibition), Burton's line, wrist drop, microcytic anaemia; chelate with CaNa2EDTA or succimer."
-},
-{
-"src": "6333",
-"s": "Community Medicine",
-"c": "psm-screening-bias-studies",
-"q": "An epidemic curve with a sharp rise and fall within one incubation period, with an index case, suggests",
-"o": [
-"Common-source (point source) outbreak",
-"Propagated epidemic",
-"Endemic disease",
-"Sporadic disease"
-],
-"a": 0,
-"e": "Common-source (single exposure) outbreak: explosive rise and fall within one incubation period. A propagated outbreak shows successive peaks one incubation period apart."
-},
-{
-"src": "9ccf",
-"s": "Community Medicine",
-"c": "psm-screening-bias-studies",
-"q": "An epidemic curve with successive peaks separated by about one incubation period is typical of",
-"o": [
-"Propagated epidemic",
-"Point-source epidemic",
-"Seasonal variation",
-"Secular trend"
-],
-"a": 0,
-"e": "Propagated (person-to-person) epidemics show serial waves; measles and polio are examples."
-},
-{
-"src": "0c01",
-"s": "Anatomy",
-"c": "ana-neuroanatomy-tracts",
-"q": "In the cavernous sinus, which cranial nerve lies free within the sinus lumen alongside the ICA?",
-"o": [
-"Abducens nerve",
-"Trochlear nerve",
-"Oculomotor nerve",
-"Maxillary nerve"
-],
-"a": 0,
-"e": "III, IV, V1, V2 lie in the lateral wall; VI (abducens) lies inside the sinus with the ICA and sympathetic plexus, so it is affected first in cavernous sinus thrombosis."
-},
-{
-"src": "a285",
-"s": "Anatomy",
-"c": "ana-neuroanatomy-tracts",
-"q": "In the Circle of Willis, the vessel joining the two anterior cerebral arteries is the",
-"o": [
-"Anterior communicating artery",
-"Posterior communicating artery",
-"Basilar artery",
-"Middle cerebral artery"
-],
-"a": 0,
-"e": "Anterior communicating connects the two ACAs; posterior communicating connects ICA with PCA. The MCA is not part of the circle. Commonest berry aneurysm site: ACom/ACA junction."
-},
-{
-"src": "bc16",
-"s": "Biochemistry",
-"c": "bio-iem-amino-acids",
-"q": "Bluish-grey pigmentation of the ear cartilage with dark urine on standing. The deficient enzyme is",
-"o": [
-"Homogentisate oxidase",
-"Phenylalanine hydroxylase",
-"Tyrosinase",
-"Fumarylacetoacetase"
-],
-"a": 0,
-"e": "Alkaptonuria (ochronosis): homogentisate 1,2-dioxygenase deficiency; arthritis, dark urine; treat with nitisinone."
-},
-{
-"src": "eca2",
-"s": "Biochemistry",
-"c": "bio-lsd-gsd",
-"q": "Macrophages with 'crumpled tissue paper' cytoplasm are seen in bone marrow. The deficient enzyme is",
-"o": [
-"Glucocerebrosidase",
-"Sphingomyelinase",
-"Hexosaminidase A",
-"α-galactosidase A"
-],
-"a": 0,
-"e": "Gaucher disease (commonest LSD): glucocerebrosidase deficiency; hepatosplenomegaly, bone crises; enzyme replacement imiglucerase."
-}
+ {
+  "src": "883f",
+  "s": "Medicine",
+  "c": "med-acls-arrhythmia",
+  "q": "A 22-year-old has palpitations. His resting ECG is shown. The characteristic finding is",
+  "o": [
+   "Epsilon wave",
+   "Delta wave",
+   "Osborn (J) wave",
+   "U wave"
+  ],
+  "a": 1,
+  "e": "Short PR with slurred QRS upstroke = delta wave of Wolff–Parkinson–White (accessory pathway). In pre-excited AF avoid AV-nodal blockers (adenosine, verapamil, digoxin, beta-blockers); give procainamide or cardiovert if unstable."
+ },
+ {
+  "src": "8523",
+  "s": "Medicine",
+  "c": "med-acid-base",
+  "q": "This ECG shows tall, narrow-based peaked T waves. The most likely abnormality and the first drug are",
+  "o": [
+   "Hypokalaemia; potassium chloride",
+   "Hyperkalaemia; IV calcium gluconate",
+   "Hypocalcaemia; calcium gluconate",
+   "Hypermagnesaemia; magnesium sulphate"
+  ],
+  "a": 1,
+  "e": "Peaked T waves are the earliest ECG sign of hyperkalaemia. Membrane stabilisation with IV calcium gluconate comes first, then insulin–dextrose, salbutamol, bicarbonate if acidotic, and removal (loop diuretic, resin, dialysis)."
+ },
+ {
+  "src": "7809",
+  "s": "Medicine",
+  "c": "med-acs",
+  "q": "A 58-year-old man has chest pain. ECG shows convex ST elevation across V1–V4. The culprit artery is",
+  "o": [
+   "Right coronary artery",
+   "Left circumflex artery",
+   "Left anterior descending artery",
+   "Posterior descending artery"
+  ],
+  "a": 2,
+  "e": "ST elevation in V1–V4 is an anterior STEMI: LAD territory. Primary PCI within 90 minutes of first medical contact; fibrinolysis if PCI cannot be done within 120 minutes."
+ },
+ {
+  "src": "bc5b",
+  "s": "Medicine",
+  "c": "med-stroke",
+  "q": "A patient has sudden right hemiparesis. The NCCT head sign shown indicates",
+  "o": [
+   "Subarachnoid haemorrhage",
+   "Thrombus in the middle cerebral artery",
+   "Venous sinus thrombosis",
+   "Chronic subdural haematoma"
+  ],
+  "a": 1,
+  "e": "A hyperdense MCA sign is an early CT sign of acute thrombus in the MCA. Treat with IV alteplase/tenecteplase within 4.5 h if eligible, and consider mechanical thrombectomy for large-vessel occlusion."
+ },
+ {
+  "src": "3472",
+  "s": "Medicine",
+  "c": "med-stroke",
+  "q": "Which imaging modality is most sensitive for detecting hyperacute ischaemic stroke within minutes of onset?",
+  "o": [
+   "Non-contrast CT head",
+   "Diffusion-weighted MRI",
+   "CT angiography",
+   "Transcranial Doppler"
+  ],
+  "a": 1,
+  "e": "DWI shows restricted diffusion (bright signal) within minutes. NCCT is still the first test because it excludes haemorrhage quickly."
+ },
+ {
+  "src": "37e3",
+  "s": "Medicine",
+  "c": "med-liver-portal-htn",
+  "q": "A 17-year-old has tremor and abnormal LFTs. A slit-lamp image of the eye is shown. The best initial confirmatory test is",
+  "o": [
+   "Serum ceruloplasmin",
+   "Serum ferritin",
+   "Liver biopsy for iron",
+   "HFE gene mutation"
+  ],
+  "a": 0,
+  "e": "Kayser–Fleischer ring points to Wilson disease: low serum ceruloplasmin, raised 24-hour urinary copper, hepatic copper >250 µg/g dry weight. Treatment is chelation (D-penicillamine, trientine) and zinc."
+ },
+ {
+  "src": "72fc",
+  "s": "Medicine",
+  "c": "med-glomerulopathies",
+  "q": "A silver stain of a glomerulus shows 'spikes' along a thickened basement membrane. The most specific serum antibody in primary disease is",
+  "o": [
+   "Anti-GBM antibody",
+   "Anti-PLA2R antibody",
+   "ANCA",
+   "Anti-dsDNA"
+  ],
+  "a": 1,
+  "e": "Spike-and-dome pattern with subepithelial deposits is membranous nephropathy; most primary cases have anti-PLA2R antibody. IF shows granular IgG and C3."
+ },
+ {
+  "src": "d5c2",
+  "s": "Medicine",
+  "c": "med-glomerulopathies",
+  "q": "Crescentic glomerulonephritis with linear IgG on immunofluorescence is caused by antibodies against",
+  "o": [
+   "Phospholipase A2 receptor",
+   "α3 chain of type IV collagen (NC1 domain)",
+   "Myeloperoxidase",
+   "C3 convertase"
+  ],
+  "a": 1,
+  "e": "Anti-GBM disease (Goodpasture): antibody to the α3(IV) collagen NC1 domain; treat with plasma exchange, steroids and cyclophosphamide."
+ },
+ {
+  "src": "dcea",
+  "s": "Medicine",
+  "c": "med-glomerulopathies",
+  "q": "This glomerulus shows PAS-positive acellular nodules in the mesangium. The most likely cause is",
+  "o": [
+   "Amyloidosis",
+   "Diabetic nephropathy",
+   "Lupus nephritis",
+   "Membranoproliferative GN"
+  ],
+  "a": 1,
+  "e": "Kimmelstiel–Wilson nodular glomerulosclerosis is classic for diabetic nephropathy. Amyloid would stain with Congo red and show apple-green birefringence."
+ },
+ {
+  "src": "cd9b",
+  "s": "Medicine",
+  "c": "med-toxicology",
+  "q": "A farmer bitten in the field develops bleeding gums, haematuria and oliguria. The snake in the image is most likely",
+  "o": [
+   "Common krait",
+   "Indian cobra",
+   "Russell's viper",
+   "Sea snake"
+  ],
+  "a": 2,
+  "e": "A chain of dark oval blotches along the back and triangular head is Russell's viper: haemotoxic (VICC, AKI). Give polyvalent ASV; use the 20-minute whole blood clotting test to monitor."
+ },
+ {
+  "src": "8023",
+  "s": "Medicine",
+  "c": "med-thyroid-parathyroid",
+  "q": "The patient shown has proptosis with lid retraction. The antibody responsible is directed against",
+  "o": [
+   "Thyroid peroxidase",
+   "TSH receptor",
+   "Thyroglobulin",
+   "Sodium-iodide symporter"
+  ],
+  "a": 1,
+  "e": "Graves disease: TSH-receptor-stimulating antibody (TRAb). Anti-TPO is positive in Hashimoto and also commonly in Graves, but TRAb is the pathogenic and most specific antibody."
+ },
+ {
+  "src": "f393",
+  "s": "Medicine",
+  "c": "med-thyroid-parathyroid",
+  "q": "This ¹²³I-MIBG scan shows focal uptake in the left adrenal region. Before surgery the first drug to start is",
+  "o": [
+   "Propranolol",
+   "Phenoxybenzamine",
+   "Labetalol alone",
+   "Hydrochlorothiazide"
+  ],
+  "a": 1,
+  "e": "Pheochromocytoma: start an alpha blocker (phenoxybenzamine or doxazosin) first, then a beta blocker. Beta blockade alone can precipitate a hypertensive crisis through unopposed alpha stimulation."
+ },
+ {
+  "src": "3685",
+  "s": "Medicine",
+  "c": "med-tropical-fevers",
+  "q": "A peripheral smear from a febrile traveller shows multiple ring forms and banana-shaped gametocytes. The species is",
+  "o": [
+   "Plasmodium vivax",
+   "Plasmodium malariae",
+   "Plasmodium falciparum",
+   "Plasmodium ovale"
+  ],
+  "a": 2,
+  "e": "Multiple rings per cell, appliqué forms and crescent gametocytes are diagnostic of P. falciparum. Severe malaria is treated with IV artesunate."
+ },
+ {
+  "src": "f72c",
+  "s": "Medicine",
+  "c": "med-tropical-fevers",
+  "q": "A patient recovering from fever develops a confluent erythematous rash with islands of spared white skin. The diagnosis is",
+  "o": [
+   "Measles",
+   "Dengue",
+   "Scarlet fever",
+   "Rubella"
+  ],
+  "a": 1,
+  "e": "'Islands of white in a sea of red' is the convalescent rash of dengue. Watch for the critical phase at defervescence (plasma leakage, fall in platelets, rising haematocrit)."
+ },
+ {
+  "src": "eb4a",
+  "s": "Medicine",
+  "c": "med-aki-ckd",
+  "q": "Urine sediment shows muddy-brown granular casts. The diagnosis is",
+  "o": [
+   "Acute pyelonephritis",
+   "Acute tubular necrosis",
+   "Acute interstitial nephritis",
+   "Glomerulonephritis"
+  ],
+  "a": 1,
+  "e": "Muddy-brown granular and epithelial cell casts = ATN. WBC casts suggest pyelonephritis/interstitial nephritis; RBC casts suggest glomerulonephritis."
+ },
+ {
+  "src": "0715",
+  "s": "Medicine",
+  "c": "med-ards-ventilation",
+  "q": "The chest X-ray shows bilateral diffuse opacities without cardiomegaly after sepsis. The ventilator strategy proven to reduce mortality is",
+  "o": [
+   "High tidal volume 12 ml/kg",
+   "Low tidal volume 6 ml/kg of predicted body weight",
+   "Zero PEEP",
+   "Pressure support only"
+  ],
+  "a": 1,
+  "e": "ARDS (Berlin: acute onset, bilateral opacities, PaO2/FiO2 ≤300 on PEEP ≥5). Use lung-protective ventilation (6 ml/kg PBW, plateau pressure <30), and prone positioning for severe ARDS."
+ },
+ {
+  "src": "075e",
+  "s": "Medicine",
+  "c": "med-anemia-basics",
+  "q": "The smear shows microcytic hypochromic cells with pencil cells. The test that best confirms the diagnosis is",
+  "o": [
+   "Serum iron",
+   "Serum ferritin",
+   "Transferrin saturation",
+   "Reticulocyte count"
+  ],
+  "a": 1,
+  "e": "Iron deficiency: low serum ferritin is the most specific test; high TIBC, low transferrin saturation. Ferritin is an acute phase reactant, so a value up to about 100 µg/L can still be deficient in inflammation."
+ },
+ {
+  "src": "b444",
+  "s": "Medicine",
+  "c": "med-anemia-basics",
+  "q": "Fragmented red cells (schistocytes) are NOT a feature of",
+  "o": [
+   "HUS",
+   "TTP",
+   "DIC",
+   "Hereditary spherocytosis"
+  ],
+  "a": 3,
+  "e": "Schistocytes mean microangiopathic haemolysis (HUS, TTP, DIC, malignant hypertension, mechanical valves). Hereditary spherocytosis shows spherocytes."
+ },
+ {
+  "src": "d457",
+  "s": "Medicine",
+  "c": "med-diabetes-adrenal-pituitary",
+  "q": "The facial appearance shown is due to excess GH. The best confirmatory test is",
+  "o": [
+   "Random serum GH",
+   "Failure of GH suppression on an oral glucose tolerance test",
+   "Serum prolactin",
+   "Insulin tolerance test"
+  ],
+  "a": 1,
+  "e": "Screen with IGF-1; confirm with the OGTT (GH fails to fall below ~1 ng/ml). Then MRI pituitary; first-line treatment is transsphenoidal surgery."
+ },
+ {
+  "src": "fbee",
+  "s": "Medicine",
+  "c": "med-ecg-volatile",
+  "q": "A young man with syncope has coved ST elevation and an inverted T wave in V1. The best management is",
+  "o": [
+   "Beta blocker",
+   "Implantable cardioverter-defibrillator in symptomatic patients",
+   "Amiodarone",
+   "Pacemaker"
+  ],
+  "a": 1,
+  "e": "Brugada type 1 pattern (SCN5A in about a quarter): ICD for symptomatic patients; avoid sodium-channel blockers, treat fever. Quinidine is an adjunct."
+ },
+ {
+  "src": "18d7",
+  "s": "Medicine",
+  "c": "med-hiv-oi",
+  "q": "A patient with CD4 50/µl has dry cough and exertional dyspnoea. The chest X-ray shows bilateral perihilar ground-glass opacities. The treatment is",
+  "o": [
+   "Azithromycin",
+   "Co-trimoxazole (with steroids if PaO2 <70 mmHg)",
+   "Amphotericin B",
+   "Isoniazid"
+  ],
+  "a": 1,
+  "e": "Pneumocystis jirovecii pneumonia: high-dose co-trimoxazole for 21 days, plus prednisolone if hypoxaemic. Prophylaxis when CD4 <200."
+ },
+ {
+  "src": "4d75",
+  "s": "Medicine",
+  "c": "med-gi-ibd",
+  "q": "A patient with ulcerative colitis has fever and tachycardia; the abdominal X-ray shows a transverse colon of 7 cm. Which should be avoided?",
+  "o": [
+   "IV hydrocortisone",
+   "Colonoscopy or barium enema",
+   "IV fluids",
+   "Surgical consultation"
+  ],
+  "a": 1,
+  "e": "Toxic megacolon (colon >6 cm with toxicity): IV steroids, fluids, antibiotics, early surgical review; avoid colonoscopy/barium (perforation) and antimotility drugs."
+ },
+ {
+  "src": "e222",
+  "s": "Medicine",
+  "c": "med-head-ich-sah",
+  "q": "This CT shows blood in the basal cisterns. The drug given to prevent delayed cerebral ischaemia is",
+  "o": [
+   "Mannitol",
+   "Nimodipine",
+   "Phenytoin",
+   "Tranexamic acid for 2 weeks"
+  ],
+  "a": 1,
+  "e": "Nimodipine (calcium channel blocker) 60 mg 4-hourly for 21 days improves outcome after aneurysmal SAH. Secure the aneurysm early (clipping or coiling)."
+ },
+ {
+  "src": "c318",
+  "s": "Medicine",
+  "c": "med-pneumonia-tb-lung",
+  "q": "HRCT shows subpleural reticulation with honeycombing and traction bronchiectasis. The best treatment option to slow progression is",
+  "o": [
+   "Inhaled corticosteroids",
+   "Pirfenidone or nintedanib",
+   "Azathioprine",
+   "Tiotropium"
+  ],
+  "a": 1,
+  "e": "UIP pattern = IPF. Antifibrotics (pirfenidone, nintedanib) slow FVC decline; steroids are not useful and harmful in IPF. Lung transplant is definitive."
+ },
+ {
+  "src": "9c2c",
+  "s": "Medicine",
+  "c": "med-pe-dvt-pleural",
+  "q": "A patient with hypotension has the CT finding shown. The best treatment is",
+  "o": [
+   "LMWH alone",
+   "Systemic thrombolysis",
+   "IVC filter first",
+   "Oral anticoagulant"
+  ],
+  "a": 1,
+  "e": "Saddle embolus with haemodynamic instability = high-risk PE: systemic thrombolysis (alteplase) unless contraindicated; surgical or catheter embolectomy otherwise."
+ },
+ {
+  "src": "be13",
+  "s": "Medicine",
+  "c": "med-rheumatology",
+  "q": "Synovial fluid under compensated polarised light shows needle-shaped crystals that are yellow when parallel to the axis. They are",
+  "o": [
+   "Calcium pyrophosphate",
+   "Monosodium urate",
+   "Cholesterol",
+   "Calcium oxalate"
+  ],
+  "a": 1,
+  "e": "Monosodium urate crystals are needle-shaped and strongly negatively birefringent (yellow parallel). CPPD crystals are rhomboid and weakly positively birefringent."
+ },
+ {
+  "src": "fbe1",
+  "s": "Surgery",
+  "c": "surg-atls-thoracic",
+  "q": "A trauma patient is hypotensive with absent breath sounds on the left, tracheal shift and distended neck veins. The immediate step is",
+  "o": [
+   "Chest X-ray",
+   "Needle decompression at the 4th/5th intercostal space, just anterior to the mid-axillary line",
+   "CT chest",
+   "Intubate and ventilate"
+  ],
+  "a": 1,
+  "e": "Tension pneumothorax is a clinical diagnosis. ATLS 10th edition places decompression at the 4th–5th ICS anterior to the mid-axillary line, followed by a chest drain."
+ },
+ {
+  "src": "feb3",
+  "s": "Surgery",
+  "c": "surg-burns",
+  "q": "By the rule of nines in an adult, the burn surface area of one entire lower limb is",
+  "o": [
+   "9%",
+   "13.5%",
+   "18%",
+   "27%"
+  ],
+  "a": 2,
+  "e": "Adult rule of nines: head and neck 9, each upper limb 9, anterior trunk 18, posterior trunk 18, each lower limb 18, perineum 1. In children the head is larger and legs smaller (Lund–Browder)."
+ },
+ {
+  "src": "4908",
+  "s": "Surgery",
+  "c": "surg-head-injury",
+  "q": "A biconvex hyperdense lesion limited by sutures is seen after a temporal bone fracture. The vessel involved is",
+  "o": [
+   "Bridging vein",
+   "Middle meningeal artery",
+   "Vein of Galen",
+   "Anterior communicating artery"
+  ],
+  "a": 1,
+  "e": "Extradural haematoma: middle meningeal artery, lucid interval, lentiform on CT; urgent evacuation. Subdural haematoma arises from bridging veins and is crescentic."
+ },
+ {
+  "src": "09b9",
+  "s": "Surgery",
+  "c": "surg-head-injury",
+  "q": "An elderly man on warfarin falls. CT shows a crescentic collection over the convexity crossing sutures with midline shift. The source is",
+  "o": [
+   "Middle meningeal artery",
+   "Bridging veins",
+   "Berry aneurysm",
+   "Dural venous sinus"
+  ],
+  "a": 1,
+  "e": "Subdural haematoma: tearing of bridging veins; common in elderly and anticoagulated patients; crosses sutures but not dural reflections."
+ },
+ {
+  "src": "0182",
+  "s": "Surgery",
+  "c": "surg-thyroid-breast",
+  "q": "A thyroid nodule FNAC shows nuclei with optical clearing and grooves. The commonest route of spread is",
+  "o": [
+   "Haematogenous to bone",
+   "Lymphatic to cervical nodes",
+   "Haematogenous to lung only",
+   "Direct to trachea only"
+  ],
+  "a": 1,
+  "e": "Papillary carcinoma: Orphan Annie eye nuclei, psammoma bodies; spreads via lymphatics; excellent prognosis. Follicular carcinoma spreads haematogenously."
+ },
+ {
+  "src": "b26a",
+  "s": "Surgery",
+  "c": "surg-hernia-ped-surg",
+  "q": "A preterm neonate on feeds develops abdominal distension and bloody stools. The X-ray finding shown is",
+  "o": [
+   "Pneumoperitoneum only",
+   "Pneumatosis intestinalis",
+   "Double bubble",
+   "Gasless abdomen"
+  ],
+  "a": 1,
+  "e": "Necrotising enterocolitis: pneumatosis intestinalis, portal venous gas; surgery for perforation (free air), clinical deterioration or fixed loop. Bell staging guides care."
+ },
+ {
+  "src": "adda",
+  "s": "Surgery",
+  "c": "surg-obstruction-volvulus",
+  "q": "This abdominal film of an elderly constipated man shows a huge inverted-U loop. The first step in a stable patient without peritonitis is",
+  "o": [
+   "Immediate sigmoid resection",
+   "Sigmoidoscopic decompression with a flatus tube",
+   "Barium enema",
+   "Laparotomy and caecostomy"
+  ],
+  "a": 1,
+  "e": "Sigmoid volvulus (coffee-bean sign): endoscopic detorsion first; elective sigmoid colectomy later because recurrence is high. Peritonitis or ischaemia needs surgery."
+ },
+ {
+  "src": "f9b9",
+  "s": "Surgery",
+  "c": "surg-obstruction-volvulus",
+  "q": "A 9-month-old has colicky pain, red-currant jelly stool and this ultrasound finding. Treatment of choice in a stable child is",
+  "o": [
+   "Laparotomy",
+   "Air or hydrostatic enema reduction",
+   "Barium meal",
+   "Antibiotics"
+  ],
+  "a": 1,
+  "e": "Intussusception: target (doughnut) sign on USG; image-guided enema reduction unless peritonitis or perforation. Pathologic lead points are more likely in older children."
+ },
+ {
+  "src": "ba3d",
+  "s": "Surgery",
+  "c": "surg-upper-gi",
+  "q": "A patient with sudden epigastric pain has this erect chest film. The commonest cause is",
+  "o": [
+   "Perforated duodenal ulcer",
+   "Appendicitis",
+   "Acute pancreatitis",
+   "Mesenteric ischaemia"
+  ],
+  "a": 0,
+  "e": "Free gas under the diaphragm means a perforated hollow viscus; the commonest cause is a perforated duodenal ulcer. Treat with resuscitation, antibiotics and surgery (omental patch)."
+ },
+ {
+  "src": "c9b3",
+  "s": "Surgery",
+  "c": "surg-upper-gi",
+  "q": "A barium swallow shows a dilated oesophagus with a tapered 'bird's beak' lower end. The gold-standard diagnostic test is",
+  "o": [
+   "Upper GI endoscopy",
+   "Oesophageal manometry",
+   "CT chest",
+   "pH monitoring"
+  ],
+  "a": 1,
+  "e": "Achalasia: manometry shows incomplete LES relaxation with aperistalsis. Treat with Heller myotomy, POEM or pneumatic dilatation; endoscopy first excludes pseudoachalasia (cancer)."
+ },
+ {
+  "src": "7eff",
+  "s": "OBGY",
+  "c": "obg-aph",
+  "q": "A woman has painless vaginal bleeding at membrane rupture followed by fetal bradycardia. The finding on Doppler is",
+  "o": [
+   "Placenta accreta",
+   "Vasa previa",
+   "Placental abruption",
+   "Placenta previa marginalis"
+  ],
+  "a": 1,
+  "e": "Vasa previa: unsupported fetal vessels over the internal os; fetal exsanguination at rupture. Elective caesarean at 34–36 weeks; steroids for lung maturity."
+ },
+ {
+  "src": "9df5",
+  "s": "OBGY",
+  "c": "obg-aph",
+  "q": "The image shows placental villi invading through the uterine wall to the serosa. The strongest risk factor is",
+  "o": [
+   "Previous caesarean with placenta previa",
+   "Primigravida",
+   "Hypertension",
+   "Multiple pregnancy"
+  ],
+  "a": 0,
+  "e": "Placenta accreta spectrum (accreta → increta → percreta). Risk rises with number of prior caesareans plus previa. Plan caesarean hysterectomy with the placenta left in situ."
+ },
+ {
+  "src": "40cf",
+  "s": "OBGY",
+  "c": "obg-endometrium-ovary",
+  "q": "Bilateral ovarian masses show signet-ring cells in a desmoplastic stroma. The primary is most often in the",
+  "o": [
+   "Stomach",
+   "Breast",
+   "Colon",
+   "Pancreas"
+  ],
+  "a": 0,
+  "e": "Krukenberg tumours: metastases with mucin-secreting signet-ring cells, most often from the stomach (also colon, breast). Usually bilateral."
+ },
+ {
+  "src": "e248",
+  "s": "OBGY",
+  "c": "obg-endometrium-ovary",
+  "q": "A 25-year-old has a cystic ovarian mass containing hair and sebaceous material. The commonest complication is",
+  "o": [
+   "Malignant transformation",
+   "Torsion",
+   "Rupture",
+   "Infection"
+  ],
+  "a": 1,
+  "e": "Mature cystic teratoma (dermoid) is the commonest ovarian germ cell tumour; torsion is the commonest complication. Malignant change (squamous carcinoma) is rare and mostly in postmenopausal women."
+ },
+ {
+  "src": "69b0",
+  "s": "OBGY",
+  "c": "obg-aub-fibroid-endometriosis",
+  "q": "A pregnant woman with a known fibroid has severe localised pain and low-grade fever. The gross picture of the specimen suggests",
+  "o": [
+   "Hyaline degeneration",
+   "Red (carneous) degeneration",
+   "Malignant change",
+   "Calcific degeneration"
+  ],
+  "a": 1,
+  "e": "Red degeneration is haemorrhagic infarction of a fibroid in pregnancy; manage conservatively with analgesia and rest. Surgery is rarely needed."
+ },
+ {
+  "src": "c654",
+  "s": "Pediatrics",
+  "c": "ped-infections-rashes-immunisation",
+  "q": "A child with fever, cough and conjunctivitis has these oral spots. The essential adjunct treatment is",
+  "o": [
+   "Vitamin A",
+   "Acyclovir",
+   "Penicillin",
+   "Zinc only"
+  ],
+  "a": 0,
+  "e": "Koplik spots = measles. All children with measles get vitamin A (200,000 IU if ≥12 months) for 2 days. Complications: pneumonia, SSPE."
+ },
+ {
+  "src": "fb2f",
+  "s": "Pediatrics",
+  "c": "ped-infections-rashes-immunisation",
+  "q": "A child with 'slapped cheek' erythema is infected with an organism that causes aplastic crisis in",
+  "o": [
+   "Sickle cell disease",
+   "Haemophilia",
+   "von Willebrand disease",
+   "G6PD deficiency only"
+  ],
+  "a": 0,
+  "e": "Erythema infectiosum: parvovirus B19. It infects erythroid precursors → transient aplastic crisis in chronic haemolysis (e.g. sickle cell, spherocytosis) and hydrops fetalis in pregnancy."
+ },
+ {
+  "src": "6282",
+  "s": "Pediatrics",
+  "c": "ped-infections-rashes-immunisation",
+  "q": "A toddler has oval vesicles on palms and soles with oral ulcers. The commonest agent is",
+  "o": [
+   "Coxsackie A16",
+   "Varicella zoster",
+   "Herpes simplex",
+   "Parvovirus B19"
+  ],
+  "a": 0,
+  "e": "Hand–foot–mouth disease: Coxsackie A16, enterovirus 71 (neurological complications). Supportive care."
+ },
+ {
+  "src": "3d83",
+  "s": "Pediatrics",
+  "c": "ped-chd",
+  "q": "This X-ray shows a boot-shaped heart with oligaemic lung fields in a cyanotic child. The immediate management of a hypercyanotic spell is",
+  "o": [
+   "Knee-chest position, oxygen, morphine",
+   "Digoxin",
+   "Furosemide",
+   "Indomethacin"
+  ],
+  "a": 0,
+  "e": "Tetralogy of Fallot: knee–chest position, oxygen, morphine, IV fluids, phenylephrine/propranolol, bicarbonate; definitive surgery (BT shunt or complete repair)."
+ },
+ {
+  "src": "e9fd",
+  "s": "Pediatrics",
+  "c": "ped-chd",
+  "q": "A cyanotic newborn has an 'egg on a string' cardiac silhouette with increased pulmonary vascularity. The first drug is",
+  "o": [
+   "Prostaglandin E1 infusion",
+   "Indomethacin",
+   "Digoxin",
+   "Furosemide"
+  ],
+  "a": 0,
+  "e": "Transposition of the great arteries: PGE1 to keep the ductus open, balloon atrial septostomy, then arterial switch within the first 1–2 weeks."
+ },
+ {
+  "src": "9672",
+  "s": "Pediatrics",
+  "c": "ped-neonatal-resp-jaundice",
+  "q": "A 29-week preterm has grunting shortly after birth; the X-ray shows ground-glass opacities with air bronchograms. The treatment is",
+  "o": [
+   "Surfactant",
+   "Furosemide",
+   "Antibiotics only",
+   "Indomethacin"
+  ],
+  "a": 0,
+  "e": "Respiratory distress syndrome (surfactant deficiency): CPAP and early surfactant, antenatal steroids prevent it. Lecithin:sphingomyelin ratio <2 indicates immaturity."
+ },
+ {
+  "src": "7618",
+  "s": "Pediatrics",
+  "c": "ped-nutrition-malnutrition",
+  "q": "A child has pedal oedema, flag sign and angular stomatitis. According to WHO the diagnosis is",
+  "o": [
+   "Marasmus",
+   "Severe acute malnutrition (oedematous)",
+   "Moderate acute malnutrition",
+   "Vitamin A deficiency"
+  ],
+  "a": 1,
+  "e": "Bilateral pitting oedema = severe acute malnutrition (kwashiorkor), regardless of weight-for-height. Stabilise with F-75, then F-100 or RUTF, and treat hypoglycaemia, hypothermia and infection."
+ },
+ {
+  "src": "9e86",
+  "s": "Pediatrics",
+  "c": "ped-nutrition-malnutrition",
+  "q": "An infant has widened wrists and rachitic rosary. The earliest biochemical abnormality in nutritional rickets is",
+  "o": [
+   "Raised alkaline phosphatase with low 25-OH vitamin D",
+   "Raised calcium",
+   "Low parathyroid hormone",
+   "Normal alkaline phosphatase"
+  ],
+  "a": 0,
+  "e": "Nutritional rickets: low 25-OH vitamin D, raised ALP and PTH, low/normal calcium and low phosphate. X-ray: cupping, fraying, splaying. Treat with vitamin D 'stoss' therapy plus calcium."
+ },
+ {
+  "src": "cc97",
+  "s": "Pediatrics",
+  "c": "ped-nutrition-malnutrition",
+  "q": "A child with night blindness has foamy triangular conjunctival patches. The therapeutic dose of vitamin A for a child over 1 year is",
+  "o": [
+   "50,000 IU",
+   "100,000 IU",
+   "200,000 IU",
+   "400,000 IU"
+  ],
+  "a": 2,
+  "e": "Bitot spots (X1B). WHO treatment: 200,000 IU orally on day 1, day 2 and 2 weeks later (half dose for infants 6–12 months, quarter for under 6 months)."
+ },
+ {
+  "src": "021d",
+  "s": "Ophthalmology",
+  "c": "oph-glaucoma",
+  "q": "The optic disc shown has a large vertical cup with nasal displacement of vessels. Which feature favours glaucoma over physiological cupping?",
+  "o": [
+   "Round symmetrical cup",
+   "Thinning of the neuroretinal rim violating the ISNT rule",
+   "Cup-disc ratio of 0.3",
+   "Normal vessels"
+  ],
+  "a": 1,
+  "e": "Glaucomatous disc: vertical elongation, rim thinning (ISNT rule broken), bayoneting, notching, nasal vessel displacement, asymmetry >0.2."
+ },
+ {
+  "src": "ce1b",
+  "s": "Ophthalmology",
+  "c": "oph-glaucoma",
+  "q": "An infant has photophobia, tearing and an enlarged cornea. The definitive treatment is",
+  "o": [
+   "Timolol drops",
+   "Goniotomy or trabeculotomy",
+   "Laser iridotomy",
+   "Observation"
+  ],
+  "a": 1,
+  "e": "Primary congenital glaucoma (buphthalmos, Haab striae): surgery (goniotomy/trabeculotomy) is the treatment of choice; medical therapy is only a bridge."
+ },
+ {
+  "src": "ecf7",
+  "s": "Ophthalmology",
+  "c": "oph-pupil-neuro",
+  "q": "A young obese woman has headache and bilateral disc swelling with normal vision and pupils. The next step is",
+  "o": [
+   "Neuroimaging, then lumbar puncture with opening pressure",
+   "Start steroids directly",
+   "Optic nerve biopsy",
+   "Reassure"
+  ],
+  "a": 0,
+  "e": "Papilloedema indicates raised intracranial pressure. Image first (exclude mass), then LP; idiopathic intracranial hypertension is treated with acetazolamide and weight loss."
+ },
+ {
+  "src": "9ab1",
+  "s": "Ophthalmology",
+  "c": "oph-retina",
+  "q": "New vessels on the disc/retina define",
+  "o": [
+   "Non-proliferative diabetic retinopathy",
+   "Proliferative diabetic retinopathy",
+   "Hypertensive retinopathy",
+   "Macular oedema only"
+  ],
+  "a": 1,
+  "e": "Proliferative DR (NVD/NVE) is treated with panretinal photocoagulation and/or anti-VEGF; vitrectomy for vitreous haemorrhage or traction."
+ },
+ {
+  "src": "6cbc",
+  "s": "Ophthalmology",
+  "c": "oph-retina",
+  "q": "A patient has sudden painless loss of vision with a cherry-red spot at the macula. The diagnosis is",
+  "o": [
+   "Central retinal vein occlusion",
+   "Central retinal artery occlusion",
+   "Retinal detachment",
+   "Vitreous haemorrhage"
+  ],
+  "a": 1,
+  "e": "CRAO: pale oedematous retina with a cherry-red spot and narrowed arterioles; an ocular emergency. Look for embolic source (carotid, heart) and giant cell arteritis."
+ },
+ {
+  "src": "37fe",
+  "s": "Ophthalmology",
+  "c": "oph-retina",
+  "q": "A child presents with a white pupillary reflex. The gene involved in the most likely tumour is",
+  "o": [
+   "RB1 on chromosome 13q14",
+   "TP53 on 17p",
+   "NF1 on 17q",
+   "WT1 on 11p"
+  ],
+  "a": 0,
+  "e": "Leukocoria is the commonest presentation of retinoblastoma (RB1, 13q14, tumour suppressor). Calcification on imaging; avoid biopsy."
+ },
+ {
+  "src": "7fa4",
+  "s": "Ophthalmology",
+  "c": "oph-cornea-uvea-lens",
+  "q": "A branching corneal ulcer with terminal end-bulbs is stained with fluorescein. Which treatment is contraindicated?",
+  "o": [
+   "Topical acyclovir",
+   "Topical corticosteroids",
+   "Debridement",
+   "Oral valacyclovir"
+  ],
+  "a": 1,
+  "e": "HSV dendritic keratitis: topical or oral antivirals; steroids worsen epithelial disease. Steroids are reserved for stromal keratitis under antiviral cover."
+ },
+ {
+  "src": "cb59",
+  "s": "Ophthalmology",
+  "c": "oph-cornea-uvea-lens",
+  "q": "Layered pus in the inferior anterior chamber seen with a painful red eye is called",
+  "o": [
+   "Hyphaema",
+   "Hypopyon",
+   "Iris bombé",
+   "Synechia"
+  ],
+  "a": 1,
+  "e": "Hypopyon: sterile in HLA-B27 uveitis and Behçet disease; infective in bacterial or fungal keratitis (fungal keratitis hypopyon is non-mobile)."
+ },
+ {
+  "src": "6bf4",
+  "s": "ENT",
+  "c": "ent-ear-csom",
+  "q": "A child with chronic discharge has granulation tissue at the pars flaccida. The treatment is",
+  "o": [
+   "Topical antibiotic drops only",
+   "Mastoid exploration (canal wall up or down mastoidectomy)",
+   "Grommet insertion",
+   "Myringoplasty alone"
+  ],
+  "a": 1,
+  "e": "Attic granulation signals attico-antral (unsafe) CSOM with cholesteatoma; surgical clearance via mastoidectomy is needed to prevent complications."
+ },
+ {
+  "src": "087b",
+  "s": "ENT",
+  "c": "ent-larynx-neck",
+  "q": "An infant has inspiratory stridor worse when supine and feeding. Laryngoscopy shows an omega-shaped epiglottis. The management is",
+  "o": [
+   "Tracheostomy",
+   "Reassurance (usually resolves by 18–24 months)",
+   "Steroids",
+   "Supraglottoplasty in all"
+  ],
+  "a": 1,
+  "e": "Laryngomalacia is the commonest cause of congenital stridor and usually self-resolves; surgery (supraglottoplasty) only for severe cases with failure to thrive or apnoea."
+ },
+ {
+  "src": "057b",
+  "s": "ENT",
+  "c": "ent-larynx-neck",
+  "q": "A patient with a tooth infection has woody, brawny bilateral submandibular swelling and trismus. The first priority is",
+  "o": [
+   "Antibiotics",
+   "Securing the airway",
+   "CT scan",
+   "Incision of the abscess"
+  ],
+  "a": 1,
+  "e": "Ludwig's angina: bilateral submandibular space cellulitis, airway compromise. Secure the airway, IV antibiotics, drainage if collection."
+ },
+ {
+  "src": "fe28",
+  "s": "Orthopedics",
+  "c": "ort-bone-tumours",
+  "q": "A 15-year-old has knee pain and this sclerotic metaphyseal lesion. The mainstay of treatment is",
+  "o": [
+   "Radiotherapy alone",
+   "Neoadjuvant chemotherapy, limb-salvage surgery, adjuvant chemotherapy",
+   "Curettage",
+   "Observation"
+  ],
+  "a": 1,
+  "e": "Osteosarcoma: commonest site distal femur metaphysis; ALP raised; Codman triangle and sunburst. Chest CT for metastases."
+ },
+ {
+  "src": "ac62",
+  "s": "Orthopedics",
+  "c": "ort-bone-tumours",
+  "q": "A teenager has night pain relieved by aspirin and this CT. Preferred treatment is",
+  "o": [
+   "Radiofrequency ablation",
+   "Chemotherapy",
+   "Amputation",
+   "Radiotherapy"
+  ],
+  "a": 0,
+  "e": "Osteoid osteoma: nidus <1.5 cm with surrounding sclerosis, night pain relieved by NSAIDs (PGE2); CT-guided radiofrequency ablation is first line."
+ },
+ {
+  "src": "8d3d",
+  "s": "Orthopedics",
+  "c": "ort-nerve-injuries",
+  "q": "The hand deformity shown (claw of the ring and little fingers) indicates injury to",
+  "o": [
+   "Median nerve",
+   "Ulnar nerve",
+   "Radial nerve",
+   "Posterior interosseous nerve"
+  ],
+  "a": 1,
+  "e": "Ulnar claw hand with Froment's sign positive; lesion at the wrist produces a more marked claw than a high lesion (ulnar paradox)."
+ },
+ {
+  "src": "2d97",
+  "s": "Orthopedics",
+  "c": "ort-fractures-upper",
+  "q": "An 8-year-old falls on an outstretched hand; the elbow X-ray shows the fracture. The nerve most commonly injured is",
+  "o": [
+   "Anterior interosseous nerve",
+   "Ulnar nerve",
+   "Radial nerve",
+   "Axillary nerve"
+  ],
+  "a": 0,
+  "e": "Extension-type supracondylar fracture: anterior interosseous nerve (median branch) is commonly injured; brachial artery compromise causes Volkmann ischaemic contracture."
+ },
+ {
+  "src": "f2db",
+  "s": "Orthopedics",
+  "c": "ort-fractures-upper",
+  "q": "A fracture of the distal radius with dorsal displacement is classically described as",
+  "o": [
+   "Smith",
+   "Colles",
+   "Barton",
+   "Chauffeur"
+  ],
+  "a": 1,
+  "e": "Colles fracture: dinner-fork deformity, dorsal angulation, fall on outstretched hand in older women. Smith's is the reverse (volar displacement, 'garden spade')."
+ },
+ {
+  "src": "1351",
+  "s": "Orthopedics",
+  "c": "ort-peds-metabolic",
+  "q": "An obese 12-year-old has hip pain and limp; the frog-leg view shows the epiphysis slipped off the neck. The treatment is",
+  "o": [
+   "Traction",
+   "In situ pinning with a single screw",
+   "Spica for 6 weeks",
+   "Observation"
+  ],
+  "a": 1,
+  "e": "SCFE: do not reduce forcibly (avascular necrosis); in situ pinning; non-weight-bearing immediately. Klein's line fails to intersect the epiphysis."
+ },
+ {
+  "src": "ba20",
+  "s": "Dermatology",
+  "c": "der-vesiculobullous",
+  "q": "Direct immunofluorescence shows intercellular IgG in a fishnet pattern. The target antigen is",
+  "o": [
+   "Desmoglein 3",
+   "BP180",
+   "Type VII collagen",
+   "Desmoglein 1 only"
+  ],
+  "a": 0,
+  "e": "Pemphigus vulgaris: anti-Dsg3 (± Dsg1), suprabasal acantholysis, positive Nikolsky sign, flaccid bullae. Treat with steroids and rituximab."
+ },
+ {
+  "src": "76c6",
+  "s": "Dermatology",
+  "c": "der-vesiculobullous",
+  "q": "An elderly woman has tense bullae. The target antigen is",
+  "o": [
+   "Desmoglein 3",
+   "BP180 (collagen XVII)",
+   "Desmoglein 1",
+   "Laminin 5"
+  ],
+  "a": 1,
+  "e": "Bullous pemphigoid: subepidermal blister, linear IgG/C3 at the basement membrane zone; targets BP180 and BP230 in hemidesmosomes."
+ },
+ {
+  "src": "434b",
+  "s": "Dermatology",
+  "c": "der-infections-sti",
+  "q": "A hypopigmented patch on the thigh is evaluated. The first bedside test is",
+  "o": [
+   "Sensory testing of the lesion",
+   "KOH mount",
+   "Wood's lamp",
+   "Biopsy"
+  ],
+  "a": 0,
+  "e": "Leprosy: loss of sensation in a skin patch, thickened nerve, or acid-fast bacilli on slit-skin smear. WHO operational classification: PB ≤5 lesions, MB >5."
+ },
+ {
+  "src": "ecc1",
+  "s": "Dermatology",
+  "c": "der-infections-sti",
+  "q": "A thin wavy burrow between the finger web spaces with nocturnal itching is treated with",
+  "o": [
+   "Permethrin 5% cream",
+   "Ketoconazole cream",
+   "Acyclovir",
+   "Clobetasol alone"
+  ],
+  "a": 0,
+  "e": "Scabies (Sarcoptes scabiei): permethrin 5% from neck down, repeated after 7 days; treat contacts; ivermectin oral for crusted or outbreaks."
+ },
+ {
+  "src": "7f30",
+  "s": "Dermatology",
+  "c": "der-papulosquamous",
+  "q": "Silvery-scaled plaques on extensor surfaces; scale removal shows pinpoint bleeding. This is called",
+  "o": [
+   "Auspitz sign",
+   "Koebner phenomenon",
+   "Nikolsky sign",
+   "Darier sign"
+  ],
+  "a": 0,
+  "e": "Auspitz sign (pinpoint bleeding on removing scale) is typical of psoriasis. Koebner is new lesions at sites of trauma (also in lichen planus, vitiligo)."
+ },
+ {
+  "src": "60a1",
+  "s": "Dermatology",
+  "c": "der-papulosquamous",
+  "q": "Flat-topped violaceous itchy papules with lacy white lines. The lines are called",
+  "o": [
+   "Wickham striae",
+   "Auspitz sign",
+   "Nikolsky sign",
+   "Hutchinson sign"
+  ],
+  "a": 0,
+  "e": "Lichen planus: purple, polygonal, pruritic, planar, papules; Wickham striae; oral lesions; Koebner phenomenon; saw-tooth infiltrate on histology."
+ },
+ {
+  "src": "58b4",
+  "s": "Dermatology",
+  "c": "der-papulosquamous",
+  "q": "A larger oval scaly patch followed a week later by smaller oval lesions along skin lines. Diagnosis:",
+  "o": [
+   "Pityriasis rosea",
+   "Tinea corporis",
+   "Secondary syphilis",
+   "Psoriasis"
+  ],
+  "a": 0,
+  "e": "Pityriasis rosea: herald patch then 'Christmas tree' distribution along cleavage lines; self-limiting. Check VDRL if the palms and soles are involved."
+ },
+ {
+  "src": "3edb",
+  "s": "Dermatology",
+  "c": "der-pigment-tumours-misc",
+  "q": "The most important prognostic factor in cutaneous melanoma is",
+  "o": [
+   "Breslow thickness",
+   "Clark level",
+   "Site",
+   "Age"
+  ],
+  "a": 0,
+  "e": "Breslow thickness (depth in mm) determines prognosis and excision margins; ABCDE rule for recognition; sentinel node biopsy for T1b and above (>0.8 mm or ulcerated)."
+ },
+ {
+  "src": "b6d8",
+  "s": "Radiology",
+  "c": "rad-imaging-signs",
+  "q": "A newborn with vomiting has the X-ray shown. The commonest associated syndrome is",
+  "o": [
+   "Down syndrome",
+   "Turner syndrome",
+   "Edwards syndrome",
+   "Noonan syndrome"
+  ],
+  "a": 0,
+  "e": "Double bubble with no distal gas = duodenal atresia, associated with Down syndrome (about a third). Bilious vomiting in the first day."
+ },
+ {
+  "src": "20ac",
+  "s": "Radiology",
+  "c": "rad-imaging-signs",
+  "q": "A supine AP film of a trauma patient shows a deep lucent costophrenic sulcus. This suggests",
+  "o": [
+   "Pleural effusion",
+   "Pneumothorax",
+   "Pulmonary contusion",
+   "Rib fracture only"
+  ],
+  "a": 1,
+  "e": "Deep sulcus sign on a supine film indicates anterior pneumothorax; ultrasound (absent lung sliding) and CT are more sensitive."
+ },
+ {
+  "src": "7421",
+  "s": "Pathology",
+  "c": "path-leukemia",
+  "q": "A smear shows a promyelocyte packed with Auer rods in a patient with DIC. The translocation and treatment are",
+  "o": [
+   "t(15;17); all-trans retinoic acid",
+   "t(9;22); imatinib",
+   "t(8;21); cytarabine alone",
+   "inv(16); transplant"
+  ],
+  "a": 0,
+  "e": "APL: t(15;17) PML–RARA; ATRA ± arsenic trioxide; DIC is the major early threat, so start ATRA immediately on suspicion."
+ },
+ {
+  "src": "5acb",
+  "s": "Pathology",
+  "c": "path-leukemia",
+  "q": "B cells with hair-like projections, dry tap and splenomegaly. The marker/mutation is",
+  "o": [
+   "TRAP positivity and BRAF V600E",
+   "BCR-ABL",
+   "JAK2 V617F",
+   "t(11;14)"
+  ],
+  "a": 0,
+  "e": "Hairy cell leukaemia: TRAP positive, CD11c/CD25/CD103, annexin A1, BRAF V600E; treated with cladribine."
+ },
+ {
+  "src": "ce31",
+  "s": "Pathology",
+  "c": "path-cns-tumours",
+  "q": "Tumour cells palisading around necrosis in an adult brain tumour. The diagnosis is",
+  "o": [
+   "Glioblastoma",
+   "Pilocytic astrocytoma",
+   "Meningioma",
+   "Oligodendroglioma"
+  ],
+  "a": 0,
+  "e": "Glioblastoma (IDH-wildtype): pseudopalisading necrosis and microvascular proliferation; butterfly glioma crossing the corpus callosum."
+ },
+ {
+  "src": "feff",
+  "s": "Pathology",
+  "c": "path-cns-tumours",
+  "q": "Eosinophilic corkscrew Rosenthal fibres are seen in",
+  "o": [
+   "Pilocytic astrocytoma",
+   "Medulloblastoma",
+   "Ependymoma",
+   "Meningioma"
+  ],
+  "a": 0,
+  "e": "Pilocytic astrocytoma: children, cerebellum, cyst with mural nodule, BRAF fusion, Rosenthal fibres and eosinophilic granular bodies; best prognosis."
+ },
+ {
+  "src": "a37b",
+  "s": "Pathology",
+  "c": "path-cns-tumours",
+  "q": "A child's midline cerebellar tumour shows small blue cells forming Homer Wright rosettes. This tumour is",
+  "o": [
+   "Medulloblastoma",
+   "Ependymoma",
+   "Craniopharyngioma",
+   "Haemangioblastoma"
+  ],
+  "a": 0,
+  "e": "Medulloblastoma: Homer Wright rosettes; synaptophysin positive; CSF drop metastases; SHH, WNT subtypes. Ependymoma shows perivascular pseudorosettes."
+ },
+ {
+  "src": "4ddd",
+  "s": "Pathology",
+  "c": "path-hemolytic-anemia",
+  "q": "The smear shows small dense red cells without central pallor. The best confirmatory test is",
+  "o": [
+   "Eosin-5-maleimide (EMA) binding test",
+   "Coombs test",
+   "Hb electrophoresis",
+   "G6PD assay"
+  ],
+  "a": 0,
+  "e": "Hereditary spherocytosis: ankyrin/spectrin defects; EMA binding (flow cytometry) is the most sensitive; osmotic fragility test; DAT is negative; splenectomy for severe cases."
+ },
+ {
+  "src": "c4f1",
+  "s": "Pathology",
+  "c": "path-hemolytic-anemia",
+  "q": "The molecular defect in sickle cell anaemia is",
+  "o": [
+   "Glutamic acid to valine at position 6 of the β-globin chain",
+   "Glutamic acid to lysine at position 6",
+   "Deletion of α-globin genes",
+   "Valine to glutamic acid"
+  ],
+  "a": 0,
+  "e": "HbS: Glu6Val (GAG→GTG) in β-globin. HbC is Glu6Lys. Hydroxyurea raises HbF."
+ },
+ {
+  "src": "816f",
+  "s": "Pathology",
+  "c": "path-lymphoma-myeloma",
+  "q": "A large binucleate cell with 'owl-eye' nucleoli is seen in a lymph node biopsy. The immunophenotype is",
+  "o": [
+   "CD15+ CD30+",
+   "CD20+ CD5+",
+   "CD10+ BCL6+",
+   "CD3+ CD4+"
+  ],
+  "a": 0,
+  "e": "Reed–Sternberg cell: classical Hodgkin lymphoma is CD15+, CD30+, CD45−; nodular lymphocyte predominant is CD20+ CD15−."
+ },
+ {
+  "src": "3f9d",
+  "s": "Pathology",
+  "c": "path-lymphoma-myeloma",
+  "q": "'Starry sky' appearance with tingible-body macrophages is characteristic of a lymphoma with",
+  "o": [
+   "t(8;14) MYC",
+   "t(14;18) BCL2",
+   "t(11;14) cyclin D1",
+   "t(2;5) ALK"
+  ],
+  "a": 0,
+  "e": "Burkitt lymphoma: t(8;14) MYC–IGH; EBV in endemic form; very high proliferation (Ki-67 ~100%); tumour lysis syndrome risk."
+ },
+ {
+  "src": "30e4",
+  "s": "Pathology",
+  "c": "path-neoplasia-markers",
+  "q": "Concentrically laminated basophilic calcifications are NOT typical of",
+  "o": [
+   "Papillary thyroid carcinoma",
+   "Serous ovarian cystadenocarcinoma",
+   "Meningioma",
+   "Follicular thyroid carcinoma"
+  ],
+  "a": 3,
+  "e": "Psammoma bodies: papillary thyroid carcinoma, serous ovarian carcinoma, meningioma, mesothelioma, prolactinoma/somatostatinoma (PSAMMOMA). Follicular thyroid carcinoma lacks them."
+ },
+ {
+  "src": "1199",
+  "s": "Pathology",
+  "c": "path-inflammation-amyloid",
+  "q": "Congo red staining viewed under crossed polarisers shows apple-green birefringence. This is due to",
+  "o": [
+   "β-pleated sheet configuration",
+   "α-helix",
+   "Collagen cross-links",
+   "Glycogen"
+  ],
+  "a": 0,
+  "e": "Amyloid is a β-pleated sheet fibrillar protein; Congo red apple-green birefringence is diagnostic. AL (light chains), AA (SAA), ATTR (transthyretin) are common types."
+ },
+ {
+  "src": "271a",
+  "s": "Pathology",
+  "c": "path-inflammation-amyloid",
+  "q": "A lymph node shows central caseation surrounded by epithelioid cells and Langhans giant cells. The giant cell nuclei are arranged",
+  "o": [
+   "Peripherally in a horseshoe pattern",
+   "Randomly",
+   "Centrally",
+   "In a wreath around the nucleoli only"
+  ],
+  "a": 0,
+  "e": "Langhans giant cells (TB) have nuclei in a horseshoe at the periphery; foreign body giant cells have random nuclei. Granuloma requires CD4 T cells and IFN-γ."
+ },
+ {
+  "src": "0f6e",
+  "s": "Pathology",
+  "c": "path-myeloproliferative",
+  "q": "Teardrop cells with leucoerythroblastic picture and dry tap. The most frequent driver mutation is",
+  "o": [
+   "JAK2 V617F",
+   "BCR-ABL",
+   "CALR only",
+   "MPL only"
+  ],
+  "a": 0,
+  "e": "Primary myelofibrosis: JAK2 V617F ~50–60%, CALR ~25%, MPL; treatment ruxolitinib. Teardrop cells are due to extramedullary haematopoiesis and fibrosis."
+ },
+ {
+  "src": "5838",
+  "s": "Microbiology",
+  "c": "mic-culture-media-bacteriology",
+  "q": "Albert stain shows green bacilli with bluish-black granules in Chinese-letter arrangement. The organism is",
+  "o": [
+   "Corynebacterium diphtheriae",
+   "Mycobacterium tuberculosis",
+   "Bacillus anthracis",
+   "Listeria"
+  ],
+  "a": 0,
+  "e": "Metachromatic (Babes–Ernst/Volutin) granules in C. diphtheriae; culture on Loeffler's serum slope and tellurite blood agar; toxin tested by Elek test."
+ },
+ {
+  "src": "b139",
+  "s": "Microbiology",
+  "c": "mic-culture-media-bacteriology",
+  "q": "This Ziehl–Neelsen smear of sputum shows slender pink-red bacilli on a blue background. Acid-fastness is due to",
+  "o": [
+   "Mycolic acid in the cell wall",
+   "Peptidoglycan thickness",
+   "Teichoic acid",
+   "Capsular polysaccharide"
+  ],
+  "a": 0,
+  "e": "Mycobacteria retain carbol fuchsin after acid–alcohol decolourisation because of long-chain mycolic acids. M. leprae is weakly acid-fast (decolourised with 5% H2SO4); Nocardia is partially acid-fast."
+ },
+ {
+  "src": "1240",
+  "s": "Microbiology",
+  "c": "mic-mycology-parasitology",
+  "q": "A diabetic in ketoacidosis has facial pain and black nasal discharge; the biopsy shows broad ribbon-like hyphae. The drug is",
+  "o": [
+   "Liposomal amphotericin B",
+   "Voriconazole",
+   "Fluconazole",
+   "Caspofungin"
+  ],
+  "a": 0,
+  "e": "Mucormycosis: non-septate hyphae with right-angle branching; surgical debridement + amphotericin B; control hyperglycaemia and acidosis; isavuconazole/posaconazole as step-down."
+ },
+ {
+  "src": "1d45",
+  "s": "Microbiology",
+  "c": "mic-mycology-parasitology",
+  "q": "An HIV patient has meningitis; the India ink preparation is shown. The best rapid test is",
+  "o": [
+   "Cryptococcal antigen (latex agglutination/LFA)",
+   "KOH",
+   "Gram stain",
+   "Widal"
+  ],
+  "a": 0,
+  "e": "Cryptococcus neoformans: encapsulated yeast; CrAg in CSF/serum is most sensitive; induction with amphotericin B + flucytosine, repeated LP for raised pressure."
+ },
+ {
+  "src": "e677",
+  "s": "Microbiology",
+  "c": "mic-virology",
+  "q": "Eosinophilic intracytoplasmic neuronal inclusions are seen in rabies. They are called",
+  "o": [
+   "Negri bodies",
+   "Cowdry A bodies",
+   "Guarnieri bodies",
+   "Owl-eye inclusions"
+  ],
+  "a": 0,
+  "e": "Negri bodies (hippocampus, Purkinje cells); diagnosis by direct fluorescent antibody on nuchal skin biopsy. Cowdry A is herpes; Guarnieri is variola."
+ },
+ {
+  "src": "78df",
+  "s": "Microbiology",
+  "c": "mic-gram-pos-neg-key",
+  "q": "Gram-positive cocci in grape-like clusters, catalase positive and coagulase positive. The organism is",
+  "o": [
+   "Staphylococcus aureus",
+   "Staphylococcus saprophyticus",
+   "Streptococcus pyogenes",
+   "Enterococcus"
+  ],
+  "a": 0,
+  "e": "Staph aureus: catalase +, coagulase +, mannitol fermenter; MRSA via mecA (PBP2a). S. saprophyticus is novobiocin resistant and causes UTI in young women."
+ },
+ {
+  "src": "54f4",
+  "s": "Microbiology",
+  "c": "mic-gram-pos-neg-key",
+  "q": "Gram-positive cocci in chains, catalase negative, beta-haemolytic, bacitracin sensitive. The organism is",
+  "o": [
+   "Streptococcus pyogenes",
+   "Streptococcus agalactiae",
+   "Enterococcus faecalis",
+   "Streptococcus pneumoniae"
+  ],
+  "a": 0,
+  "e": "Group A streptococcus: bacitracin sensitive, PYR positive; S. agalactiae (GBS) is bacitracin resistant, CAMP and hippurate positive."
+ },
+ {
+  "src": "9912",
+  "s": "Forensic Medicine",
+  "c": "fmt-thanatology",
+  "q": "Dependent purple discolouration with pale pressure areas is seen. It becomes fixed in about",
+  "o": [
+   "30 minutes",
+   "6–8 hours",
+   "24 hours",
+   "48 hours"
+  ],
+  "a": 1,
+  "e": "Postmortem lividity appears in 1–2 h, merges by 4–6 h, fixed by about 6–8 h. Before fixation it shifts if the body is moved. Cherry-red lividity: CO and cyanide poisoning."
+ },
+ {
+  "src": "3fb4",
+  "s": "Forensic Medicine",
+  "c": "fmt-toxicology",
+  "q": "Basophilic stippling in red cells with a blue line on the gums points to poisoning with",
+  "o": [
+   "Lead",
+   "Arsenic",
+   "Mercury",
+   "Copper"
+  ],
+  "a": 0,
+  "e": "Lead poisoning: basophilic stippling (pyrimidine 5'-nucleotidase and ALA dehydratase inhibition), Burton's line, wrist drop, microcytic anaemia; chelate with CaNa2EDTA or succimer."
+ },
+ {
+  "src": "6333",
+  "s": "Community Medicine",
+  "c": "psm-screening-bias-studies",
+  "q": "An epidemic curve with a sharp rise and fall within one incubation period, with an index case, suggests",
+  "o": [
+   "Common-source (point source) outbreak",
+   "Propagated epidemic",
+   "Endemic disease",
+   "Sporadic disease"
+  ],
+  "a": 0,
+  "e": "Common-source (single exposure) outbreak: explosive rise and fall within one incubation period. A propagated outbreak shows successive peaks one incubation period apart."
+ },
+ {
+  "src": "9ccf",
+  "s": "Community Medicine",
+  "c": "psm-screening-bias-studies",
+  "q": "An epidemic curve with successive peaks separated by about one incubation period is typical of",
+  "o": [
+   "Propagated epidemic",
+   "Point-source epidemic",
+   "Seasonal variation",
+   "Secular trend"
+  ],
+  "a": 0,
+  "e": "Propagated (person-to-person) epidemics show serial waves; measles and polio are examples."
+ },
+ {
+  "src": "0c01",
+  "s": "Anatomy",
+  "c": "ana-neuroanatomy-tracts",
+  "q": "In the cavernous sinus, which cranial nerve lies free within the sinus lumen alongside the ICA?",
+  "o": [
+   "Abducens nerve",
+   "Trochlear nerve",
+   "Oculomotor nerve",
+   "Maxillary nerve"
+  ],
+  "a": 0,
+  "e": "III, IV, V1, V2 lie in the lateral wall; VI (abducens) lies inside the sinus with the ICA and sympathetic plexus, so it is affected first in cavernous sinus thrombosis."
+ },
+ {
+  "src": "a285",
+  "s": "Anatomy",
+  "c": "ana-neuroanatomy-tracts",
+  "q": "In the Circle of Willis, the vessel joining the two anterior cerebral arteries is the",
+  "o": [
+   "Anterior communicating artery",
+   "Posterior communicating artery",
+   "Basilar artery",
+   "Middle cerebral artery"
+  ],
+  "a": 0,
+  "e": "Anterior communicating connects the two ACAs; posterior communicating connects ICA with PCA. The MCA is not part of the circle. Commonest berry aneurysm site: ACom/ACA junction."
+ },
+ {
+  "src": "bc16",
+  "s": "Biochemistry",
+  "c": "bio-iem-amino-acids",
+  "q": "Bluish-grey pigmentation of the ear cartilage with dark urine on standing. The deficient enzyme is",
+  "o": [
+   "Homogentisate oxidase",
+   "Phenylalanine hydroxylase",
+   "Tyrosinase",
+   "Fumarylacetoacetase"
+  ],
+  "a": 0,
+  "e": "Alkaptonuria (ochronosis): homogentisate 1,2-dioxygenase deficiency; arthritis, dark urine; treat with nitisinone."
+ },
+ {
+  "src": "eca2",
+  "s": "Biochemistry",
+  "c": "bio-lsd-gsd",
+  "q": "Macrophages with 'crumpled tissue paper' cytoplasm are seen in bone marrow. The deficient enzyme is",
+  "o": [
+   "Glucocerebrosidase",
+   "Sphingomyelinase",
+   "Hexosaminidase A",
+   "α-galactosidase A"
+  ],
+  "a": 0,
+  "e": "Gaucher disease (commonest LSD): glucocerebrosidase deficiency; hepatosplenomegaly, bone crises; enzyme replacement imiglucerase."
+ },
+ {
+  "src": "b03817e0c60f",
+  "s": "Pathology",
+  "c": "path-leukemia",
+  "q": "A peripheral smear shows a myeloblast containing the needle-like cytoplasmic inclusion shown. This inclusion is composed of",
+  "o": [
+   "Fused primary (azurophilic) granules",
+   "Denatured ribosomal RNA",
+   "Precipitated haemoglobin",
+   "Phagocytosed bacteria"
+  ],
+  "a": 0,
+  "e": "Auer rods = fused lysosomal (primary) granules, myeloperoxidase positive; pathognomonic of myeloid lineage (AML), numerous \"faggot cells\" in APL t(15;17) — start ATRA at suspicion."
+ },
+ {
+  "src": "7ca72964bdf6",
+  "s": "Pathology",
+  "c": "path-inflammation-amyloid",
+  "q": "Congo red-stained tissue viewed under crossed polarisers shows the finding illustrated. The underlying protein conformation is",
+  "o": [
+   "β-pleated sheet",
+   "α-helix",
+   "Random coil",
+   "Triple helix"
+  ],
+  "a": 0,
+  "e": "Apple-green birefringence on Congo red = amyloid, whose fibrils are β-pleated sheets irrespective of precursor protein (AL, AA, ATTR, Aβ2M)."
+ },
+ {
+  "src": "bb778665a9c6",
+  "s": "Microbiology",
+  "c": "mic-virology",
+  "q": "A person dies of encephalitis after a dog bite. Brain histology shows the inclusion in a cerebellar Purkinje cell. The inclusion is",
+  "o": [
+   "Negri body",
+   "Councilman body",
+   "Cowdry type A inclusion",
+   "Owl-eye inclusion"
+  ],
+  "a": 0,
+  "e": "Negri bodies: eosinophilic cytoplasmic inclusions of rabies (hippocampal pyramidal cells and cerebellar Purkinje cells). Absence does not exclude rabies; FAT on skin biopsy / brain is preferred."
+ },
+ {
+  "src": "3d764b21a3d5",
+  "s": "Microbiology",
+  "c": "mic-mycology-parasitology",
+  "q": "BAL from an HIV-positive patient (CD4 80/µL) with dry cough and hypoxia shows these cysts on silver stain. The drug of choice is",
+  "o": [
+   "Cotrimoxazole",
+   "Amphotericin B",
+   "Fluconazole",
+   "Azithromycin"
+  ],
+  "a": 0,
+  "e": "Pneumocystis jirovecii pneumonia: cotrimoxazole 21 days; add prednisolone if PaO₂ <70 mmHg. Prophylaxis when CD4 <200."
+ },
+ {
+  "src": "401925fae77b",
+  "s": "Ophthalmology",
+  "c": "oph-cornea-uvea-lens",
+  "q": "Slit-lamp examination of a child with multiple café-au-lait macules shows these iris lesions. They are",
+  "o": [
+   "Lisch nodules (melanocytic hamartomas)",
+   "Koeppe nodules",
+   "Busacca nodules",
+   "Brushfield spots"
+  ],
+  "a": 0,
+  "e": "Lisch nodules = NF1 iris hamartomas (>90% of adults). Koeppe/Busacca are inflammatory (granulomatous uveitis); Brushfield spots occur in Down syndrome."
+ },
+ {
+  "src": "886e2ecbd0fc",
+  "s": "Radiology",
+  "c": "ent-larynx-neck",
+  "q": "A 2-year-old has barking cough, stridor and low-grade fever. The neck radiograph sign illustrated is",
+  "o": [
+   "Steeple sign (subglottic narrowing)",
+   "Thumb sign",
+   "Sail sign",
+   "Hot cross bun sign"
+  ],
+  "a": 0,
+  "e": "Steeple (pencil-point) sign on AP view in croup, parainfluenza virus; treat with dexamethasone, nebulised adrenaline if stridor at rest. Thumb sign (lateral) = epiglottitis."
+ },
+ {
+  "src": "c1ac834dd7f9",
+  "s": "Radiology",
+  "c": "ent-larynx-neck",
+  "q": "A toxic-looking, drooling child in tripod position with high fever. The lateral neck film shows the finding illustrated. The first priority is",
+  "o": [
+   "Secure the airway by an experienced anaesthetist/ENT in OR",
+   "Examine the throat with a tongue depressor",
+   "Start oral antibiotics and send home",
+   "Obtain a CT neck"
+  ],
+  "a": 0,
+  "e": "Thumb sign = swollen epiglottis (acute epiglottitis, H. influenzae b, now rare after Hib vaccine). Do NOT upset the child or examine the throat; secure the airway first, then ceftriaxone."
+ },
+ {
+  "src": "88d4061e6545",
+  "s": "Pathology",
+  "c": "ort-peds-metabolic",
+  "q": "An elderly man has increasing hat size, deafness and bone pain. Serum ALP is markedly raised with normal calcium and phosphate. The skull shows this thickening. The most dreaded complication is",
+  "o": [
+   "Osteosarcoma",
+   "Multiple myeloma",
+   "Osteoporotic fracture only",
+   "Hypercalcaemic crisis"
+  ],
+  "a": 0,
+  "e": "Paget disease of bone: ↑osteoclast activity then disorganised sclerosis, mosaic pattern; cotton-wool skull. High-output cardiac failure and osteosarcoma (1%) are complications. Treat with bisphosphonates."
+ },
+ {
+  "src": "286178f17353",
+  "s": "Dermatology",
+  "c": "der-vesiculobullous",
+  "q": "A young patient has these three-zone lesions on the legs 1 week after herpes labialis. The diagnosis is",
+  "o": [
+   "Erythema multiforme",
+   "Stevens-Johnson syndrome",
+   "Pemphigus vulgaris",
+   "Urticaria"
+  ],
+  "a": 0,
+  "e": "Typical target lesions (dusky centre, pale ring, erythematous halo) = erythema multiforme minor, usually HSV-triggered; SJS/TEN is drug-induced with <10% / >30% BSA detachment and mucosal erosions."
+ },
+ {
+  "src": "2021fb45b66c",
+  "s": "Dermatology",
+  "c": "der-pigment-tumours-misc",
+  "q": "A 14-year-old obese girl has velvety dark pigmentation of the axillae. The best next test is",
+  "o": [
+   "Fasting glucose / HbA1c and insulin",
+   "Skin biopsy for fungal culture",
+   "Serum ACTH",
+   "CT abdomen"
+  ],
+  "a": 0,
+  "e": "Acanthosis nigricans in an obese teen = insulin resistance (type 2 DM, PCOS). Sudden-onset extensive disease in an older adult suggests visceral malignancy (gastric adenocarcinoma)."
+ },
+ {
+  "src": "346e63d14ab1",
+  "s": "Medicine",
+  "c": "med-rheumatology",
+  "q": "A woman has proximal muscle weakness and these violaceous papules over the knuckles. The associated autoantibody that most strongly predicts malignancy is",
+  "o": [
+   "Anti-TIF1γ",
+   "Anti-Jo-1",
+   "Anti-Mi-2",
+   "Anti-SRP"
+  ],
+  "a": 0,
+  "e": "Gottron papules = dermatomyositis. Anti-TIF1γ and anti-NXP2 are linked to cancer; anti-Jo-1 to anti-synthetase syndrome (ILD, mechanic hands); anti-Mi-2 to classic skin disease with good prognosis."
+ },
+ {
+  "src": "816fc9654d25",
+  "s": "Pathology",
+  "c": "path-lymphoma-myeloma",
+  "q": "A young adult has painless cervical lymphadenopathy and night sweats. The binucleate cell with prominent nucleoli on biopsy is positive for",
+  "o": [
+   "CD15 and CD30",
+   "CD20 and CD45",
+   "CD3 and CD5",
+   "CD138"
+  ],
+  "a": 0,
+  "e": "Reed-Sternberg cell: CD15+ CD30+, CD45−, CD20 usually −. Nodular lymphocyte-predominant HL has LP cells that are CD20+ and CD15−. Mixed-cellularity / EBV association."
+ }
 ]
