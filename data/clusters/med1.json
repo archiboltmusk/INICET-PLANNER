@@ -523,7 +523,8 @@
    "Weber's_syndrome",
    "Lacunar_stroke"
   ],
-  "verify": "Harrison 21e (cerebrovascular diseases) / Adams & Victor."
+  "verify": "Harrison 21e (cerebrovascular diseases) / Adams & Victor.",
+  "algorithm": "Brainstem localisation: ipsilateral cranial nerve + contralateral long-tract signs = crossed syndrome\n→ Which cranial nerve is involved?\n  III (ptosis, down-and-out eye) → Midbrain: Weber (+ contralateral hemiplegia, cerebral peduncle); Benedikt (+ red nucleus tremor/ataxia); Claude (+ ataxia)\n  VI / VII (lateral gaze palsy, facial palsy) → Pons: Millard-Gubler (VII + contralateral hemiplegia); Foville (+ gaze palsy toward lesion); locked-in (basilar, ventral pons: quadriplegia, vertical eye movement + blink preserved)\n  IX, X (hoarseness, dysphagia), V nucleus, Horner → Lateral medulla = Wallenberg (PICA/vertebral): ipsilateral face pain-temp loss, contralateral body pain-temp loss, Horner, ataxia, vertigo\n  XII (tongue deviates toward lesion) → Medial medulla = Dejerine (anterior spinal artery): contralateral hemiparesis, contralateral loss of vibration / proprioception\n→ Rule of 4: 4 medial (motor, MLF, medial lemniscus, motor nuclei III IV VI XII), 4 lateral (spinothalamic, sensory V, nucleus ambiguus IX X, vestibular)"
  },
  {
   "id": "med-movement-disorders",
@@ -1589,7 +1590,8 @@
    "Duke_criteria",
    "Jones_criteria"
   ],
-  "verify": "AHA/ACC/HFSA HF 2022; ACC/AHA valve 2020; modified Duke (Li 2000) – 2023 Duke-ISCVID adds cardiac CT/PET-CT and intra-operative findings and widens 'typical' organisms; AHA 2015 revised Jones."
+  "verify": "AHA/ACC/HFSA HF 2022; ACC/AHA valve 2020; modified Duke (Li 2000) – 2023 Duke-ISCVID adds cardiac CT/PET-CT and intra-operative findings and widens 'typical' organisms; AHA 2015 revised Jones.",
+  "algorithm": "Infective endocarditis: modified Duke criteria\n→ Major criteria: (1) blood cultures positive — typical organism (viridans strep, S. bovis, HACEK, S. aureus, enterococcus) in 2 separate cultures; (2) endocardial involvement — echo vegetation / abscess / new valvular regurgitation\n→ Minor criteria: predisposition (valve disease, IV drug use), fever ≥38 °C, vascular phenomena (emboli, Janeway, mycotic aneurysm), immunological phenomena (Osler nodes, Roth spots, GN, RF), microbiology not meeting major\n→ Definite IE = 2 major, OR 1 major + 3 minor, OR 5 minor\n→ Possible IE = 1 major + 1 minor, OR 3 minor\n→ Management: ≥3 sets of blood cultures before antibiotics → TTE then TEE if prosthetic valve or TTE negative\n  Surgery if: heart failure, abscess, persistent bacteraemia >5–7 days, large vegetation >10 mm with emboli, fungal / resistant organism"
  },
  {
   "id": "med-ecg-volatile",
@@ -1777,6 +1779,11 @@
     "type": "basic",
     "front": "ECG of hypokalaemia?",
     "back": "T flattening, ST depression, prominent U waves (QU prolongation)."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: ECG leads → infarct territory?",
+    "back": "II, III, aVF = inferior (RCA); V1–V4 = anterior (LAD); I, aVL, V5–V6 = lateral (LCx); V1–V2 ST depression with tall R = posterior MI."
    }
   ],
   "images": [
@@ -2765,6 +2772,7 @@
    "Vitamin_B12_deficiency",
    "Hemolytic_anemia"
   ],
-  "verify": "Harrison 21e / Robbins 10e; WHO ferritin thresholds (<15 µg/L adults; higher cut-off with inflammation)."
+  "verify": "Harrison 21e / Robbins 10e; WHO ferritin thresholds (<15 µg/L adults; higher cut-off with inflammation).",
+  "algorithm": "Anaemia: start with MCV, then reticulocyte count\n→ Microcytic (MCV <80): ferritin / iron studies\n  Ferritin low, TIBC high → iron deficiency (look for GI blood loss)\n  Ferritin normal/high, TIBC low → anaemia of chronic disease; normal/high iron + siderocytes → sideroblastic\n  Normal iron, target cells, Mentzer index (MCV/RBC) <13 → thalassaemia trait → HbA2 on electrophoresis\n→ Normocytic: retic count\n  Low → marrow failure / CKD / chronic disease / aplastic (pancytopenia)\n  High → haemolysis (↑LDH, ↑indirect bilirubin, ↓haptoglobin) or recent bleed → Coombs test\n→ Macrocytic (MCV >100): peripheral smear\n  Hypersegmented neutrophils → B12 / folate deficiency (B12: neurological signs, ↑MMA; folate: normal MMA)\n  Round macrocytes → alcohol, liver disease, hypothyroidism, drugs (hydroxyurea), MDS"
  }
 ]

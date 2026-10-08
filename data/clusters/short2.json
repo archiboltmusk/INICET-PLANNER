@@ -767,7 +767,8 @@
    "Carpal_tunnel_syndrome",
    "Ulnar_claw"
   ],
-  "verify": "Maheshwari 7e; BD Chaurasia upper limb"
+  "verify": "Maheshwari 7e; BD Chaurasia upper limb",
+  "algorithm": "Fracture → nerve injured (fix the pair)\n→ Surgical neck of humerus / shoulder dislocation → axillary nerve (deltoid paralysis, regimental badge numbness)\n→ Shaft of humerus (spiral groove) → radial nerve (wrist drop)\n→ Supracondylar fracture humerus → median nerve / anterior interosseous (cannot make OK sign), brachial artery (Volkmann ischaemia)\n→ Medial epicondyle → ulnar nerve (claw hand, Froment sign)\n→ Lunate dislocation / carpal tunnel → median nerve\n→ Posterior hip dislocation → sciatic nerve; anterior → femoral nerve\n→ Neck of fibula → common peroneal nerve (foot drop, high-steppage gait)\n→ Knee dislocation → popliteal artery"
  },
  {
   "id": "ort-peds-metabolic",
@@ -910,6 +911,10 @@
    {
     "commons": "File:Slipped capital femoral epiphysis.jpg",
     "caption": "SCFE on frog-leg lateral: femoral capital epiphysis displaced posteriorly off the neck (outlined) — like ice-cream slipping off the cone."
+   },
+   {
+    "commons": "File:Macro Crâne - Maladie de Paget 55-o.apatho-571a-crane.jpg",
+    "caption": "Paget disease of bone, skull: thickened, sclerotic calvarium (↑ALP with normal calcium and phosphate); osteosarcoma is the feared complication."
    }
   ],
   "keywords": [
@@ -1257,6 +1262,16 @@
    {
     "type": "cloze",
     "text": "In {{c1::delusional perception}}, a normal perception is given a sudden delusional meaning — a Schneiderian first-rank symptom."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: NMS vs serotonin syndrome — deciding feature?",
+    "back": "NMS: slow onset (days), lead-pipe rigidity, bradyreflexia, ↑CPK, dopamine blocker. Serotonin syndrome: rapid onset (<24 h), clonus + hyperreflexia, diarrhoea, mydriasis, serotonergic drug."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Schizophrenia vs schizophreniform vs brief psychotic disorder — duration?",
+    "back": "Brief psychotic: <1 month; schizophreniform: 1–6 months; schizophrenia: ≥6 months (DSM-5)."
    }
   ],
   "images": [],
@@ -1287,7 +1302,8 @@
    "Bipolar_disorder",
    "Electroconvulsive_therapy"
   ],
-  "verify": "DSM-5-TR (2022) criteria; ICD-11 uses ≥1 month for schizophrenia. Kaplan & Sadock 12e."
+  "verify": "DSM-5-TR (2022) criteria; ICD-11 uses ≥1 month for schizophrenia. Kaplan & Sadock 12e.",
+  "algorithm": "Hyperthermia + altered sensorium + rigidity/tone — which syndrome? Look at ONSET, REFLEXES, PUPILS, BOWEL\n→ Drug exposure timeline?\n  Antipsychotic (dopamine blocker) days–weeks, slow onset (1–3 days) , lead-pipe rigidity, bradyreflexia, ↑CPK → Neuroleptic malignant syndrome → stop drug, cooling, bromocriptine / dantrolene\n  Serotonergic drug (SSRI + MAOI, tramadol, linezolid, ondansetron) rapid onset (<24 h), hyperreflexia + clonus (esp. lower limbs), mydriasis, diarrhoea → Serotonin syndrome → stop drug, benzodiazepines, cyproheptadine\n  Volatile anaesthetic / succinylcholine, rising EtCO₂, masseter spasm → Malignant hyperthermia → dantrolene\n  Anticholinergic: hot, dry skin, mydriasis, urinary retention, absent bowel sounds → physostigmine\n→ Discriminator in one line: NMS = rigid + slow + no clonus; Serotonin = clonus + fast + diarrhoea"
  },
  {
   "id": "psy-substance-neurotic",
@@ -1801,6 +1817,16 @@
     "type": "basic",
     "front": "Pemphigus foliaceus vs vulgaris — mucosa and antigen?",
     "back": "Foliaceus: Dsg1, subcorneal split, mucosa spared. Vulgaris: Dsg3 (± Dsg1), suprabasal split, mucosa involved."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Pemphigus vulgaris vs bullous pemphigoid — deciding feature?",
+    "back": "Pemphigus: intraepidermal acantholysis, flaccid bullae, Nikolsky +, IgG to desmoglein 3 (net-like/'chicken-wire' IF), oral lesions. Pemphigoid: subepidermal split, tense bullae, Nikolsky −, anti-BP180/BP230, linear IF at BMZ, elderly."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Dermatitis herpetiformis vs linear IgA disease — deciding feature?",
+    "back": "DH: granular IgA at dermal papillary tips, coeliac association. Linear IgA: linear IgA along BMZ, drug-induced (vancomycin)."
    }
   ],
   "images": [
@@ -1811,6 +1837,10 @@
    {
     "commons": "File:Bullous pemphgoid in a 72 year old bedridden female.JPG",
     "caption": "Bullous pemphigoid in an elderly woman: tense, intact bullae (contrast with the flaccid bullae/erosions of pemphigus)."
+   },
+   {
+    "commons": "File:Erythema Multiforme target lesions on the leg, Nell Brigham, 2011.jpg",
+    "caption": "Target lesions (3 zones) — erythema multiforme (HSV, Mycoplasma); SJS/TEN is drug-induced with mucosal and skin detachment."
    }
   ],
   "keywords": [
@@ -2014,6 +2044,10 @@
    {
     "commons": "File:Scabies-burrow.jpg",
     "caption": "Scabies burrow: thin, wavy grey line with the mite at its end — the pathognomonic lesion."
+   },
+   {
+    "commons": "File:Hutchinson's teeth.jpg",
+    "caption": "Hutchinson teeth: peg-shaped, notched incisors — late congenital syphilis (Hutchinson triad: + interstitial keratitis + 8th-nerve deafness)."
    }
   ],
   "keywords": [
@@ -2195,6 +2229,10 @@
    {
     "commons": "File:Melanoma vs normal mole ABCD rule NCI Visuals Online.jpg",
     "caption": "ABCD rule: melanomas (left) show asymmetry, irregular border, colour variegation and diameter >6 mm compared with benign moles (right)."
+   },
+   {
+    "commons": "File:Acanthosis nigricans.jpg",
+    "caption": "Acanthosis nigricans: velvety hyperpigmented neck/axilla — insulin resistance; malignancy (gastric adenocarcinoma) if rapid onset."
    }
   ],
   "keywords": [

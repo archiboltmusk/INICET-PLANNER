@@ -318,6 +318,11 @@
    {
     "type": "cloze",
     "text": "SIADH vs CSW: both have high urine Na⁺; the discriminator is {{c1::extracellular volume status}} — CSW is {{c2::hypovolaemic}} and treated with {{c3::isotonic saline}}."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Transudate vs exudate pleural fluid — Light criteria?",
+    "back": "Exudate if ANY: pleural protein/serum protein >0.5, pleural LDH/serum LDH >0.6, pleural LDH >2/3 upper limit of normal serum LDH. Transudate: none (heart failure, cirrhosis, nephrotic)."
    }
   ],
   "images": [],
@@ -479,6 +484,11 @@
    {
     "type": "cloze",
     "text": "Dialysis indications mnemonic AEIOU: {{c1::refractory acidosis}}, {{c2::electrolytes (hyperkalaemia)}}, {{c3::intoxications (e.g. lithium, methanol, salicylate)}}, {{c4::fluid overload}}, {{c5::uraemic pericarditis/encephalopathy}}."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Pre-renal vs ATN — deciding urine findings?",
+    "back": "Pre-renal: FENa <1%, urine osm >500, urine Na <20, BUN:Cr >20. ATN: FENa >2%, urine osm ~300, urine Na >40, muddy brown casts."
    }
   ],
   "images": [
@@ -636,6 +646,11 @@
    {
     "type": "cloze",
     "text": "Euglycaemic DKA (glucose <250 mg/dL) is classically triggered by {{c1::SGLT2 inhibitors}}; treatment needs insulin plus {{c2::early dextrose}}."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: DKA vs HHS — deciding feature?",
+    "back": "DKA: ketosis, pH <7.3, HCO₃ <18, glucose usually 250–600 (type 1). HHS: osmolality >320, glucose >600, minimal ketones, severe dehydration, older type 2."
    }
   ],
   "images": [],
@@ -950,6 +965,11 @@
     "type": "basic",
     "front": "Sick euthyroid syndrome — typical labs?",
     "back": "Low T3 with high reverse T3 (↓ deiodinase-1), normal or low TSH, T4 low in severe illness. No thyroxine replacement; treat the illness."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Graves vs thyroiditis (low uptake) — deciding feature?",
+    "back": "Graves: ↑ radioiodine uptake (diffuse), TRAb, ophthalmopathy. Thyroiditis/exogenous thyroxine: low uptake, thyrotoxicosis self-limited."
    }
   ],
   "images": [
@@ -1097,6 +1117,11 @@
    {
     "type": "cloze",
     "text": "Primary aldosteronism is screened with the {{c1::plasma aldosterone : renin ratio}} and lateralised by {{c2::adrenal vein sampling}}; bilateral hyperplasia is treated with {{c3::spironolactone/eplerenone}}."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Central vs nephrogenic DI after water deprivation + DDAVP?",
+    "back": "Central DI: urine concentrates after DDAVP. Nephrogenic: no response. Psychogenic polydipsia: concentrates with water deprivation."
    }
   ],
   "images": [
@@ -2117,6 +2142,14 @@
    {
     "commons": "File:Birefringence microscopy of gout, annotated.jpg",
     "caption": "Compensated polarised microscopy: needle-shaped monosodium urate crystals, strongly negatively birefringent (yellow when parallel to the compensator axis) = gout."
+   },
+   {
+    "commons": "File:Bamboo spine ankylosing spondylitis.jpg",
+    "caption": "Bamboo spine: syndesmophytes fusing vertebrae — ankylosing spondylitis (HLA-B27)."
+   },
+   {
+    "commons": "File:Gottron papules .dermatomyocitis.jpg",
+    "caption": "Gottron papules over knuckles — dermatomyositis (anti-Mi-2; screen for malignancy)."
    }
   ],
   "keywords": [
@@ -2310,6 +2343,11 @@
     "type": "basic",
     "front": "Hepatitis B: which marker is the only one positive in the window period?",
     "back": "IgM anti-HBc (HBsAg has cleared, anti-HBs not yet detectable)."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: SAAG ≥1.1 vs <1.1 — meaning?",
+    "back": "≥1.1 = portal hypertension (cirrhosis, heart failure, Budd-Chiari). <1.1 = non-portal (peritoneal TB, carcinomatosis, nephrotic, pancreatic)."
    }
   ],
   "images": [
@@ -2472,6 +2510,11 @@
    {
     "type": "cloze",
     "text": "Rome IV IBS: abdominal pain at least {{c1::1 day per week}} for the last {{c2::3 months}} with ≥2 of: related to {{c3::defecation}}, change in frequency, change in form."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Crohn disease vs ulcerative colitis — deciding feature?",
+    "back": "Crohn: transmural, skip lesions, ileum ± any GI site, granulomas, fistulae/strictures, cobblestone, string sign, smoking worsens. UC: mucosal/submucosal, continuous from rectum, crypt abscesses, pseudopolyps, toxic megacolon, PSC, smoking protective, p-ANCA."
    }
   ],
   "images": [

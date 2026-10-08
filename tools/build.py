@@ -142,6 +142,63 @@ def tag_questions(clusters):
     return out, hits
 
 
+def image_questions(clusters):
+    """Hand-written image MCQs (sources/image_questions.json); the stem shows the verified Commons image."""
+    meta = {}
+    for c in clusters:
+        for im in c["images"]:
+            meta[im["src"]] = im
+    out = []
+    for n, x in enumerate(json.loads((ROOT / "sources" / "image_questions.json").read_text()), 1):
+        im = next((m for s, m in meta.items() if s.startswith("img/" + x["src"])), None)
+        if not im:
+            err(f"image question {n}: no image {x['src']}")
+            continue
+        if x["s"] not in SUBJECTS or len(x["o"]) != 4 or not 0 <= x["a"] < 4:
+            err(f"image question {n}: bad subject/options/answer")
+            continue
+        out.append({"id": f"img_{n:03d}", "s": x["s"], "c": [x["c"]], "q": x["q"], "o": x["o"], "a": x["a"],
+                    "e": x["e"], "t": "image", "x": "Image", **({"w": x["w"]} if x.get("w") else {}),
+                    "i": {"src": im["src"], "cap": im["caption"], "credit": im["credit"], "lic": im["licence"], "page": im["page"]}})
+    return out
+
+
+def write_pyq(clusters):
+    """All recalled PYQ stems (answer key only; options were filler) + dated PYQs from sources/pyq_dated.json → data/pyq.js."""
+    match = matcher(clusters)
+    rows = []
+    for q in json.loads((ROOT / "sources" / "pyq_recall.json").read_text()):
+        subj = BANK_SUBJECT.get(q["subject"], q["subject"])
+        ans = q["options"][q["correctIndex"]].strip().rstrip(".")
+        cids = match(subj, q["stem"] + " " + ans + " " + q.get("subTopic", ""))[:1]
+        n = int((re.search(r"\((\d)x\)", q.get("tag", "")) or [0, 1])[1])
+        rows.append({"s": subj, "q": q["stem"].strip(), "a": ans, "x": q.get("exam", ""), "n": n,
+                     "st": q.get("subTopic", ""), "c": cids[0] if cids else "", "y": 0, "r": 0})
+    dp = ROOT / "sources" / "pyq_dated.json"
+    if dp.exists():
+        for q in json.loads(dp.read_text()):
+            subj = q["s"]
+            cids = match(subj, q["q"] + " " + q["o"][q["a"]])[:1]
+            rows.append({"s": subj, "q": q["q"], "a": q["o"][q["a"]], "x": q.get("x") or "INI-CET", "n": 1, "st": q.get("t", ""),
+                         "c": cids[0] if cids else "", "y": q["y"], "r": 1, "o": q["o"], "k": q["a"], "e": q.get("e", ""),
+                         **({"im": q["img"]} if q.get("img") else {})})
+    (ROOT / "data" / "pyq.js").write_text("window.DATA_PYQ=" + json.dumps(rows, ensure_ascii=False, separators=(",", ":")) + ";\n")
+    return len(rows)
+
+
+def dated_questions(clusters):
+    """Real dated INI-CET MCQs (sources/pyq_dated.json, from the user's medicetamol repo) → question bank."""
+    match = matcher(clusters)
+    out = []
+    for n, q in enumerate(json.loads((ROOT / "sources" / "pyq_dated.json").read_text()), 1):
+        cids = match(q["s"], q["q"] + " " + " ".join(q["o"]) + " " + q.get("e", ""))
+        out.append({"id": f"pyq_{n:03d}", "s": q["s"], "c": cids, "q": q["q"], "o": q["o"], "a": q["a"], "e": q.get("e", ""),
+                    "t": f"PYQ {q['y']}", "x": q.get("x") or f"INI-CET {q['y']}"})
+        if q.get("img"):
+            out[-1]["i"] = {"src": q["img"], "cap": "", "credit": "INI-CET recall paper", "lic": "personal use", "page": ""}
+    return out
+
+
 def tag_recall(clusters):
     """Recalled PYQ stems → per-cluster 'asked before' lists (stem, keyed answer, sitting)."""
     match = matcher(clusters)
@@ -164,7 +221,17 @@ def main():
         print("\n".join(errors))
         sys.exit(1)
     questions, hits = tag_questions(clusters)
+    iq = image_questions(clusters)
+    for q in iq:
+        hits.update(q["c"])
+    questions += iq
+    dq = dated_questions(clusters)
+    for q in dq:
+        hits.update(q["c"])
+    questions += dq
     tag_recall(clusters)
+    npyq = write_pyq(clusters)
+    print(f"{npyq} PYQ rows -> data/pyq.js")
     if errors:
         print("\n".join(errors))
         sys.exit(1)

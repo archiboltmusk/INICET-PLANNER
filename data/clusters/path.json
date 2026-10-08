@@ -138,6 +138,16 @@
     "type": "basic",
     "front": "Fever, dyspnoea, pulmonary infiltrates and weight gain 10 days after starting ATRA for APL: diagnosis and first step?",
     "back": "Differentiation syndrome → dexamethasone 10 mg IV twice daily immediately; hold ATRA/ATO only if severe."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: AML vs ALL — deciding stain/marker?",
+    "back": "AML: Auer rods, myeloperoxidase+, CD13/33. ALL: TdT+, PAS+ (blocks), MPO−, CD10/19; children."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: CML vs leukaemoid reaction — deciding feature?",
+    "back": "CML: ↓LAP score, t(9;22), basophilia. Leukaemoid: ↑LAP, toxic granulation."
    }
   ],
   "images": [
@@ -148,6 +158,10 @@
    {
     "commons": "File:Hairy cell leukemia smear 2009-08-20.JPG",
     "caption": "Hairy cell leukaemia: B cells with circumferential hair-like cytoplasmic projections"
+   },
+   {
+    "commons": "File:Myeloblast with Auer Rod smear 2009-11-23.JPG",
+    "caption": "Myeloblast with Auer rod (fused primary granules, MPO+) — AML; numerous in APL t(15;17)."
    }
   ],
   "keywords": [
@@ -333,6 +347,11 @@
    {
     "type": "cloze",
     "text": "Waldenström macroglobulinaemia: {{c1::IgM}} paraprotein, hyperviscosity, and the {{c2::MYD88 L265P}} mutation."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Hodgkin vs non-Hodgkin lymphoma — deciding feature?",
+    "back": "Hodgkin: Reed-Sternberg cells (CD15+, CD30+), contiguous spread, cervical nodes, B symptoms. NHL: noncontiguous spread, extranodal involvement."
    }
   ],
   "images": [
@@ -543,6 +562,16 @@
    {
     "type": "cloze",
     "text": "Howell–Jolly bodies indicate {{c1::asplenia/hyposplenism}}; basophilic stippling suggests {{c2::lead poisoning}} or thalassaemia."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Intravascular vs extravascular haemolysis — deciding feature?",
+    "back": "Intravascular: haemoglobinuria, ↓haptoglobin, haemosiderinuria (PNH, G6PD crisis, MAHA). Extravascular: splenomegaly, spherocytes (hereditary spherocytosis, warm AIHA)."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Warm vs cold AIHA — deciding feature?",
+    "back": "Warm: IgG, 37 °C, spleen, steroids; (SLE, CLL). Cold: IgM + complement, C3 on Coombs, <30 °C, Mycoplasma/EBV, agglutination, avoid cold."
    }
   ],
   "images": [
@@ -759,6 +788,26 @@
     "type": "basic",
     "front": "HIT: timing, mechanism, and management",
     "back": "Platelets fall >50% 5–10 days after heparin (sooner if recent exposure); IgG to heparin–PF4 → platelet activation and thrombosis. Stop all heparin, start argatroban/bivalirudin/fondaparinux/DOAC; no platelet transfusion; delay warfarin."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: TTP vs HUS — deciding feature?",
+    "back": "Both: MAHA + thrombocytopenia, normal PT/aPTT. TTP = ADAMTS13 <10% (neurological signs, fever, adults); HUS = Shiga-toxin/complement, renal failure dominant (children, bloody diarrhoea). Treat TTP with plasma exchange; typical HUS supportive."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: DIC vs TTP — deciding lab?",
+    "back": "DIC: prolonged PT/aPTT, ↓fibrinogen, ↑D-dimer. TTP: PT/aPTT normal."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: ITP vs TTP — deciding feature?",
+    "back": "ITP: isolated thrombocytopenia, no anaemia/schistocytes. TTP: schistocytes (MAHA) + organ dysfunction."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Haemophilia A vs von Willebrand disease — deciding feature?",
+    "back": "Haemophilia A: X-linked, joint/muscle bleeds, prolonged aPTT, normal bleeding time. vWD: mucosal bleeding, prolonged bleeding time, ↓ristocetin aggregation, aPTT may be prolonged."
    }
   ],
   "images": [],
@@ -1265,6 +1314,10 @@
    {
     "commons": "File:Tuberculous lymph node with caseating granuloma 4X.jpg",
     "caption": "Caseating granuloma (TB lymph node): central amorphous caseation rimmed by epithelioid cells, Langhans giant cells and lymphocytes"
+   },
+   {
+    "commons": "File:Gastric Amyloidosis (Congo red stain, crossed polarizers) (3595031587).jpg",
+    "caption": "Congo red under crossed polarisers: apple-green birefringence = amyloid (β-pleated sheet)."
    }
   ],
   "keywords": [
@@ -1531,7 +1584,8 @@
    "Primary_immunodeficiency",
    "Human_leukocyte_antigen"
   ],
-  "verify": "Robbins 10e ch 6; IUIS 2022 classification of inborn errors of immunity"
+  "verify": "Robbins 10e ch 6; IUIS 2022 classification of inborn errors of immunity",
+  "algorithm": "Hypersensitivity: which type? Ask — antibody or T cell, how fast?\n→ Minutes, IgE on mast cells → Type I (anaphylaxis, atopy, urticaria) → adrenaline IM 0.5 mg\n→ Antibody against cell or tissue antigen (IgG / IgM)\n  Cell-surface (transfusion reaction, haemolytic anaemia, ITP, Rh) → Type II\n  Receptor stimulating / blocking (Graves, myasthenia gravis) → Type II\n→ Immune-complex deposit (IgG + antigen) 1–2 weeks → Type III (serum sickness, SLE, PSGN, Arthus)\n→ T cell mediated, 48–72 h → Type IV (tuberculin test, contact dermatitis, granuloma, graft rejection)\n  Memory aid: ACID — Anaphylactic, Cytotoxic, Immune complex, Delayed"
  },
  {
   "id": "path-neoplasia-markers",

@@ -151,6 +151,11 @@
     "type": "basic",
     "front": "Glaucoma drug contraindicated in infants <2 years?",
     "back": "Brimonidine (α2 agonist) – crosses blood–brain barrier → CNS depression, apnoea."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: POAG vs primary angle closure — deciding feature?",
+    "back": "POAG: open angle on gonioscopy, painless, cupping. PACG: shallow chamber, narrow angle, painful red eye, halos, mid-dilated fixed pupil, steamy cornea."
    }
   ],
   "images": [
@@ -613,7 +618,7 @@
    "Sudden painless profound loss, milky white retina, cherry-red spot, box-carring of arterioles → CRAO | 'blood and thunder' fundus, tortuous veins → CRVO",
    "Preterm <34 wk or <2000 g (India) → ROP screening; leukocoria in a child under 5 → retinoblastoma until proven otherwise"
   ],
-  "algorithm": "Diabetic eye disease\n  → Screening: type 1 – 5 yr after diagnosis (from puberty); type 2 – at diagnosis; pregnancy – early first trimester\n  → Centre-involving DME with vision loss → intravitreal anti-VEGF first line (ranibizumab / aflibercept / bevacizumab); dexamethasone implant 2nd line\n  → Non-centre CSME → focal/grid laser (ETDRS)\n  → High-risk PDR → panretinal photocoagulation (anti-VEGF an alternative)\n  → Non-clearing vitreous haemorrhage / tractional RD threatening macula → pars plana vitrectomy\nROP (India: screen <34 wk GA or <2000 g; also 34–36 wk / 2000–2500 g with risk factors)\n  → First exam by day 20–30 of life (earlier in <28 wk / <1200 g)\n  → Type 1 ROP (treat within 48–72 h): zone I any stage with plus; zone I stage 3 without plus; zone II stage 2 or 3 with plus\n  → Laser ablation of avascular retina; anti-VEGF (esp. zone I / aggressive ROP)\n  → Type 2 ROP → close follow-up",
+  "algorithm": "Diabetic eye disease\n  → Screening: type 1 – 5 yr after diagnosis (from puberty); type 2 – at diagnosis; pregnancy – early first trimester\n  → Centre-involving DME with vision loss → intravitreal anti-VEGF first line (ranibizumab / aflibercept / bevacizumab); dexamethasone implant 2nd line\n  → Non-centre CSME → focal/grid laser (ETDRS)\n  → High-risk PDR → panretinal photocoagulation (anti-VEGF an alternative)\n  → Non-clearing vitreous haemorrhage / tractional RD threatening macula → pars plana vitrectomy\nROP (India: screen <34 wk GA or <2000 g; also 34–36 wk / 2000–2500 g with risk factors)\n  → First exam by day 20–30 of life (earlier in <28 wk / <1200 g)\n  → Type 1 ROP (treat within 48–72 h): zone I any stage with plus; zone I stage 3 without plus; zone II stage 2 or 3 with plus\n  → Laser ablation of avascular retina; anti-VEGF (esp. zone I / aggressive ROP)\n  → Type 2 ROP → close follow-up\nDiabetic retinopathy: stage by fundus\n→ Mild NPDR: microaneurysms only\n→ Moderate NPDR: microaneurysms + haemorrhages, hard exudates, cotton-wool spots, but less than severe\n→ Severe NPDR — 4-2-1 rule: haemorrhages in all 4 quadrants, venous beading in ≥2, IRMA in ≥1 → 50% progress to PDR in 1 year\n→ PDR: neovascularisation of disc (NVD) or elsewhere (NVE), vitreous haemorrhage, tractional retinal detachment\n→ Macular oedema (any stage): OCT central thickness; treat with intravitreal anti-VEGF (ranibizumab, bevacizumab) ± focal laser\n→ PDR: panretinal photocoagulation + anti-VEGF; vitrectomy for non-clearing vitreous haemorrhage / traction\n→ Screening: type 2 at diagnosis; type 1 after 5 years",
   "tables": [
    {
     "title": "Diabetic retinopathy grading (ETDRS) – 4-2-1 rule",
@@ -749,6 +754,11 @@
    {
     "type": "cloze",
     "text": "Retinoblastoma gene {{c1::RB1}} lies on chromosome {{c2::13q14}}; most common presenting sign is {{c3::leukocoria}}."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Papilloedema vs optic neuritis — deciding feature?",
+    "back": "Papilloedema: bilateral, vision normal early, enlarged blind spot, raised ICP. Optic neuritis: unilateral, ↓vision, painful eye movement, RAPD, colour desaturation (MS)."
    }
   ],
   "images": [
@@ -973,6 +983,10 @@
    {
     "commons": "File:KF ring and Sunflower cataract.jpg",
     "caption": "Wilson disease: Kayser–Fleischer ring (copper in peripheral Descemet membrane) + sunflower cataract (copper under anterior capsule)."
+   },
+   {
+    "commons": "File:Lisch nodules.JPG",
+    "caption": "Lisch nodules: iris hamartomas — neurofibromatosis type 1."
    }
   ],
   "keywords": [
@@ -1338,6 +1352,11 @@
     "type": "basic",
     "front": "Newborn screening test that detects outer hair cell function but misses auditory neuropathy?",
     "back": "Otoacoustic emissions (OAE) – NICU babies get automated ABR."
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Conductive vs sensorineural loss — Rinne/Weber?",
+    "back": "Conductive: Rinne negative (BC>AC), Weber lateralises to the worse ear. SNHL: Rinne positive, Weber to the better ear."
    }
   ],
   "images": [],
@@ -1708,6 +1727,14 @@
    {
     "commons": "File:Ludwig angina.jpg",
     "caption": "Ludwig's angina: diffuse brawny bilateral submandibular swelling – secure the airway first."
+   },
+   {
+    "commons": "File:Croup steeple sign.jpg",
+    "caption": "Steeple (pencil-point) sign on AP neck film: subglottic narrowing — croup (parainfluenza)."
+   },
+   {
+    "commons": "File:Epiglottitis.jpg",
+    "caption": "Thumb sign: swollen epiglottis on lateral neck film — acute epiglottitis (H. influenzae b; secure airway first)."
    }
   ],
   "keywords": [

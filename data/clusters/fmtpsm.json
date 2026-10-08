@@ -1446,7 +1446,8 @@
    "Lead_time_bias",
    "Epidemic_curve"
   ],
-  "verify": "Park PSM 27e epidemiology chapter."
+  "verify": "Park PSM 27e epidemiology chapter.",
+  "algorithm": "Which study design? Ask: did the investigator assign the exposure?\n→ Yes → Experimental: random allocation? → RCT (gold standard for efficacy); no randomisation → quasi-experimental\n→ No → Observational\n  Start from outcome (cases vs controls) → Case-control: measures odds ratio; good for rare diseases\n  Start from exposure (exposed vs unexposed), follow forwards → Cohort: measures relative risk, incidence; good for rare exposures\n  Exposure and disease measured at one point in time → Cross-sectional: prevalence only\n  Group-level data (populations) → Ecological\nChoose the test: data type?\n  Two means, normal → t-test (unpaired / paired); >2 means → ANOVA\n  Two proportions / categorical association → Chi-square (Fisher exact if expected cell <5)\n  Non-normal / ordinal → Mann-Whitney, Wilcoxon, Kruskal-Wallis\n  Correlation → Pearson (r); Spearman if ranks\nScreening test (2 × 2): Sensitivity = TP/(TP+FN) (rules OUT, SnNout); Specificity = TN/(TN+FP) (rules IN, SpPin)\n  PPV rises with prevalence; sensitivity/specificity do not change with prevalence"
  },
  {
   "id": "psm-national-programs",
@@ -1819,7 +1820,8 @@
    "Pneumoconiosis",
    "Water_chlorination"
   ],
-  "verify": "BMW Management Rules 2016 (2018 amendment); CPCB NAAQS 2009; ESI rates as revised July 2019."
+  "verify": "BMW Management Rules 2016 (2018 amendment); CPCB NAAQS 2009; ESI rates as revised July 2019.",
+  "algorithm": "Biomedical waste (BMW Rules 2016, amended 2018): segregate at source by colour\n→ Yellow bag → anatomical, soiled (blood-stained dressings), expired medicines, chemical waste → incineration\n→ Red bag → contaminated recyclable plastic (tubing, catheters, IV sets, syringes without needle, gloves) → autoclave / microwave then recycle\n→ White (translucent) puncture-proof container → sharps incl. needles, scalpels, blades → autoclave / shredding, then landfill\n→ Blue cardboard box → glassware (broken/ampoules/vials), metallic body implants → disinfect then recycle\n→ Always: no mixing; treat before disposal"
  },
  {
   "id": "psm-demography-nutrition",

@@ -9,3 +9,7 @@
 - Bump CACHE in sw.js on every shipped change.
 - Branch claude/*, draft PR to main. User is terse; reply with results only.
 - On task completion update SNAPSHOT.md, BACKLOG.md and this file.
+- Marrow/BTR notes are licensed: topic names only, never copy text/images/questions.
+
+- Dated PYQs: sources/pyq_dated.json (2026 + 2022 recall); `x` field overrides sitting label. 2023-25 not openly available.
+- Algorithms: write as indented text; app renders as flowchart. Trap check requests: discriminator + next vs definitive step.

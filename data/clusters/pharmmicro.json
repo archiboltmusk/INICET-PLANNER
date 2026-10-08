@@ -336,6 +336,11 @@
     "type": "basic",
     "front": "Antiglaucoma drug that causes iris hyperpigmentation and hypertrichosis of lashes",
     "back": "Latanoprost (PGF2α analogue) – increases uveoscleral outflow"
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Gq vs Gs vs Gi receptors?",
+    "back": "Gs (↑cAMP): β1, β2, D1, H2, V2. Gi (↓cAMP): α2, M2, D2. Gq (↑IP3/DAG/Ca²⁺): α1, M1, M3, H1, V1."
    }
   ],
   "images": [],
@@ -1822,7 +1827,8 @@
    "Clostridioides_difficile_infection",
    "Syphilis"
   ],
-  "verify": "Ananthanarayan 12e; IDSA/SHEA 2021 C. difficile update; NTEP Training Modules 2023-24"
+  "verify": "Ananthanarayan 12e; IDSA/SHEA 2021 C. difficile update; NTEP Training Modules 2023-24",
+  "algorithm": "Gram-positive cocci — identify in this order\n→ Catalase test?\n  Positive → Staphylococcus: coagulase? Positive → S. aureus (mannitol fermenter); Negative → novobiocin: sensitive = S. epidermidis (biofilm, prosthetic valve), resistant = S. saprophyticus (UTI in young women)\n  Negative → Streptococcus: haemolysis on blood agar?\n    Beta (clear zone): bacitracin sensitive = Group A (S. pyogenes, PYR+); bacitracin resistant, CAMP +, hippurate + = Group B (S. agalactiae, neonatal sepsis)\n    Alpha (green): optochin sensitive, bile soluble = S. pneumoniae; optochin resistant = viridans group (endocarditis)\n    Gamma / none: bile esculin positive, grows in 6.5% NaCl = Enterococcus; bile esculin positive, no NaCl growth = Group D non-enterococcus (S. bovis → colon cancer)"
  },
  {
   "id": "mic-virology",
@@ -1985,12 +1991,21 @@
    {
     "type": "cloze",
     "text": "Dengue NS1 antigen is useful in days {{c1::1–5}} of fever; IgM ELISA after day {{c2::5}}"
+   },
+   {
+    "type": "basic",
+    "front": "Discriminator: Hepatitis B acute vs chronic vs vaccinated — markers?",
+    "back": "Acute: HBsAg+, IgM anti-HBc+. Chronic: HBsAg+ >6 months, IgG anti-HBc. Window: only IgM anti-HBc. Immune by vaccine: anti-HBs only. Recovered: anti-HBs + anti-HBc."
    }
   ],
   "images": [
    {
     "commons": "File:Rabies encephalitis Negri bodies PHIL 3377 lores.jpg",
     "caption": "H&E: round eosinophilic intracytoplasmic Negri bodies in neurons – rabies encephalitis"
+   },
+   {
+    "commons": "File:Rabies negri bodies brain.jpg",
+    "caption": "Negri bodies: eosinophilic intracytoplasmic inclusions in neurons (Purkinje cells of cerebellum, hippocampus) — rabies."
    }
   ],
   "keywords": [
@@ -2214,6 +2229,10 @@
    {
     "commons": "File:Plasmodium falciparum gametocyte.jpg",
     "caption": "Crescent/banana-shaped gametocyte in peripheral smear – diagnostic of P. falciparum"
+   },
+   {
+    "commons": "File:Pneumocystis carinii in smear from BAL 01ee046 lores.jpg",
+    "caption": "Pneumocystis jirovecii cysts in BAL (silver / toluidine blue): HIV with CD4 <200, ground-glass opacities; treat with co-trimoxazole ± steroids."
    }
   ],
   "keywords": [
@@ -2441,6 +2460,7 @@
    "Complement_system",
    "Antibody"
   ],
-  "verify": "Ananthanarayan 12e; Park PSM 27e; BMW Management Rules 2016 (amended 2018); UIP Immunization Handbook for Medical Officers"
+  "verify": "Ananthanarayan 12e; Park PSM 27e; BMW Management Rules 2016 (amended 2018); UIP Immunization Handbook for Medical Officers",
+  "algorithm": "Which sterilisation method? Ask: heat stable?\n→ Heat-stable\n  Moist heat → Autoclave 121 °C, 15 psi, 15 min (sterilises media, linen, surgical instruments; 134 °C 3 min for prions); control: Geobacillus stearothermophilus spores\n  Dry heat → Hot-air oven 160 °C for 2 h (glassware, powders, oils); control: Bacillus atrophaeus (subtilis var niger) spores\n  Pasteurisation: 72 °C 15 s (HTST) or 63 °C 30 min (holder)\n→ Heat-labile\n  Ethylene oxide (gas, 30–60 °C) → catheters, endoscopes, plastics; control B. atrophaeus\n  Low-temperature hydrogen-peroxide plasma → delicate instruments\n  Gamma radiation → disposable plastics, syringes; control Bacillus pumilus\n  Filtration (0.22 µm) → heat-labile liquids, serum, antibiotics\n→ Chemical high-level disinfection: glutaraldehyde 2% for endoscopes (≥20 min; sterilisation 10 h)"
  }
 ]

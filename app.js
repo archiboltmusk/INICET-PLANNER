@@ -43,6 +43,9 @@ const md = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/\n/g, '<b
 const pct = x => Math.round(x * 100) + '%';
 const today = () => new Date().toISOString().slice(0, 10);
 const fmtT = s => { s = Math.max(0, Math.round(s)); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
+function qImg(q) {
+  return q.i ? `<figure class="qimg"><img src="${esc(q.i.src)}" alt="Question image" loading="lazy"><figcaption class="credit">${esc(q.i.credit)} · ${esc(q.i.lic)}${q.i.page ? ` · <a href="${esc(q.i.page)}" target="_blank" rel="noopener">source</a>` : ''}</figcaption></figure>` : '';
+}
 function stemHTML(t) {
   const out = [], lines = String(t).split('\n');
   for (let i = 0; i < lines.length; i++) {
@@ -152,6 +155,12 @@ function pickCluster(cid, n) {
   pool.sort((a, b) => (lc[a.id] || 0) - (lc[b.id] || 0) || Math.random() - 0.5);
   return shuffle(pool.slice(0, n).map(q => q.id));
 }
+function pickImages(n, subject) {
+  const st = clusterStats(), now = Date.now(), lc = lastCorrect();
+  const pool = questions().filter(q => q.i && (!subject || q.s === subject) && !(lc[q.id] && now - lc[q.id] < 30 * 864e5));
+  const w = q => 1 + Math.max(0, ...q.c.map(c => (st[c] ? st[c].priority : 0)));
+  return pool.map(q => [Math.random() * w(q) * 2, q.id]).sort((a, b) => b[0] - a[0]).slice(0, n).map(x => x[1]);
+}
 function pickPurge(n) {
   const ids = [...new Set(S.errors.filter(e => !e.resolved).sort((a, b) => b.ts - a.ts).map(e => e.qid))];
   return shuffle(ids.filter(id => QI[id]).slice(0, n));
@@ -172,6 +181,22 @@ function route() {
 window.addEventListener('hashchange', route);
 
 /* ---------- Today ---------- */
+/* Daily auto-plan: ~3 h built from due cards, weak clusters, unresolved errors and days left */
+function dailyPlan(fix, due, unres, days) {
+  const steps = [];
+  if (due) steps.push([Math.min(30, 10 + Math.round(due / 4)), `Review ${due} due cards`, '#/review', '']);
+  steps.push([35, 'Timed mixed block, 30 Q (net-mark pacing)', '#/block', 'data-act="start" data-mode="mixed"']);
+  steps.push([25, 'Post-block audit: label every lost mark G / R / A / T / P', '#/errors', '']);
+  fix.slice(0, 2).forEach(c => steps.push([30, `Fix: ${c.title}`, '#/c/' + c.id, c.qn ? `data-act="start" data-mode="drill" data-c="${c.id}"` : '']));
+  steps.push([20, 'Image questions (INI-CET is image-heavy)', '#/block', 'data-act="start" data-mode="image"']);
+  if (unres.length) steps.push([15, `Mistake purge (${Math.min(unres.length, 25)} Q)`, '#/block', 'data-act="start" data-mode="purge"']);
+  const total = steps.reduce((a, x) => a + x[0], 0);
+  const phase = days === null ? '' : days > 30 ? 'Build phase: widen coverage, drill weak clusters.' : days > 10 ? 'Consolidate phase: mocks plus error purge, no new sources.' : 'Final phase: volatile sheets, dated PYQs and image questions only.';
+  return `<h2>Today's plan <span class="muted small">~${Math.round(total / 6) / 10} h · auto-built from your weak spots</span></h2>
+  <div class="card small">${phase ? `<div class="muted" style="margin-bottom:6px">${phase}</div>` : ''}${steps.map(([m, t, h, a]) =>
+    `<div class="row" style="margin:4px 0"><span class="pill">${m} min</span><a href="${h}" ${a}>${esc(t)}</a></div>`).join('')}</div>`;
+}
+
 function vToday() {
   const st = clusterStats(), now = Date.now();
   const counts = { new: 0, weak: 0, shaky: 0, mastered: 0 };
@@ -204,6 +229,7 @@ function vToday() {
       <div class="small">${ETYPES.map(t => `<span class="pill ${t.toLowerCase()}">${t} ${unres.filter(e => (e.et === 'K' ? 'G' : e.et) === t).length}</span>`).join(' ')}</div></div>
   </div>
   ${window.sprintToday ? sprintToday() : ''}
+  ${dailyPlan(fix, due, unres, days)}
   <h2>Start</h2>
   <div class="row">
     <a class="btn primary" href="#/block" data-act="start" data-mode="mixed">50-Q timed block (45 min)</a>
@@ -301,7 +327,7 @@ function vCluster(id) {
     <button class="btn" data-act="mark-read" data-c="${c.id}">${S.read[c.id] ? 'Revised ' + new Date(S.read[c.id]).toLocaleDateString() : 'Mark revised today'}</button>
   </div>
   <div class="box anchor"><b>Diagnostic anchor (first 30 seconds)</b><ul class="pts">${c.anchor.map(a => `<li>${md(a)}</li>`).join('')}</ul></div>
-  ${c.algorithm ? `<h2>Algorithm</h2><pre class="algo">${esc(c.algorithm)}</pre>` : ''}
+  ${c.algorithm ? `<h2>Algorithm <button class="btn small" data-act="algo-toggle">Text view</button></h2><div class="flowwrap">${flowHtml(c.algorithm)}</div><pre class="algo" hidden>${esc(c.algorithm)}</pre>` : ''}
   ${tables}
   <h2>High-yield points</h2><ul class="pts">${c.points.map(p => `<li>${md(p)}</li>`).join('')}</ul>
   <h2>Trap sheet</h2>${c.traps.map(t => `<div class="box trap"><div><b>Stem:</b> ${md(t.stem)}</div>
@@ -318,6 +344,22 @@ function vCluster(id) {
     ${c.verify ? `<li class="muted">Guideline basis: ${esc(c.verify)}</li>` : ''}</ul>`;
 }
 
+/* Algorithm text (indent = branch) -> flowchart boxes */
+function flowHtml(txt) {
+  const root = { k: [], d: -1 }, st = [root];
+  txt.split('\n').forEach(raw => {
+    if (!raw.trim()) return;
+    const d = raw.match(/^ */)[0].length;
+    let t = raw.trim();
+    const arrow = /^→/.test(t); t = t.replace(/^→\s*/, '');
+    const n = { t, k: [], d, arrow };
+    while (st.length > 1 && st[st.length - 1].d >= d) st.pop();
+    st[st.length - 1].k.push(n); st.push(n);
+  });
+  const node = (n, lvl) => `<div class="fl"><div class="fn l${Math.min(lvl, 3)}${/\?|\bif\b|\bvs\b/i.test(n.t) ? ' q' : ''}">${md(n.t)}</div>${n.k.length ? `<div class="fk">${n.k.map(c => node(c, lvl + 1)).join('')}</div>` : ''}</div>`;
+  return root.k.map(n => node(n, 0)).join('<div class="far">↓</div>');
+}
+
 /* ---------- Block ---------- */
 const MODES = {
   mixed: { label: '50-Q mixed block', n: 50, secs: 45 * 60 },
@@ -326,12 +368,16 @@ const MODES = {
   purge: { label: 'Mistake purge', n: 50, secs: 0 },
   drill: { label: 'Cluster drill', n: 10, secs: 0 },
   sprint: { label: 'Sprint drills', n: 50, secs: 0 },
+  image: { label: 'Image questions', n: 25, secs: 25 * 45 },
+  pyq26: { label: 'Dated PYQs (2022, 2026)', n: 50, secs: 0 },
 };
 function startBlock(mode, cid, subject) {
   questions();
   let ids;
   if (mode === 'diagnostic') ids = pickDiagnostic(50);
   else if (mode === 'purge') ids = pickPurge(50);
+  else if (mode === 'pyq26') ids = shuffle(questions().filter(q => /^PYQ/.test(q.t)).map(q => q.id));
+  else if (mode === 'image') ids = pickImages(25, subject);
   else if (mode === 'sprint') ids = questions().filter(q => q.t === 'drill').map(q => q.id);
   else if (mode === 'drill') ids = pickCluster(cid, clusterStats()[cid].status === 'new' ? 5 : 10);
   else ids = pickMixed(MODES[mode].n, subject);
@@ -357,7 +403,7 @@ function vBlock() {
   <div class="card">
     <div class="row small muted"><span>Q ${i + 1} / ${n}</span><span>${esc(q.s)}</span>${q.t ? `<span class="pill">${esc(q.t)}</span>` : ''}
       <button class="btn sm" data-act="flag" style="margin-left:auto">${B.flags[i] ? '⚑ Flagged' : '⚐ Flag'}</button></div>
-    <div class="stem">${stemHTML(q.q)}</div>
+    <div class="stem">${stemHTML(q.q)}</div>${qImg(q)}
     ${q.o.map((o, k) => `<div class="opt"><button class="o ${B.ans[i] === k ? 'sel' : ''} ${(B.elim[i] || []).includes(k) ? 'elim' : ''}" data-act="ans" data-k="${k}">
       <b>${'ABCD'[k]}.</b> ${esc(o)}</button><button class="x" data-act="elim" data-k="${k}" title="Strike out">✕</button></div>`).join('')}
     <div class="row" style="margin-top:10px"><button class="btn" data-act="go" data-d="-1" ${i ? '' : 'disabled'}>← Prev</button>
@@ -390,6 +436,10 @@ function vBlockSetup() {
       <button class="btn" data-act="start" data-mode="diagnostic">Start</button></div>
     <div class="card"><h3>Speed run</h3><p class="small">25 questions in 12.5 minutes (30 s each). Makes the real 45 s pace feel slow.</p>
       <button class="btn" data-act="start" data-mode="speed">Start</button></div>
+    <div class="card"><h3>Dated PYQs (2022 recall + 2026)</h3><p class="small">${(questions().filter(q => /^PYQ/.test(q.t)).length)} dated INI-CET questions with explanations, untimed. Also searchable under PYQs.</p>
+      <button class="btn" data-act="start" data-mode="pyq26">Start</button></div>
+    <div class="card"><h3>Image questions</h3><p class="small">25 INI-CET-style image questions (ECG, X-ray, smear, histology, clinical signs), 45 s each. Weak clusters first; uses the subject picker in the mixed-block card.</p>
+      <button class="btn" data-act="start" data-mode="image">Start</button></div>
     <div class="card"><h3>Sprint drills</h3><p class="small">Toxic alcohols and 50/50 vignettes, untimed, full explanations.</p>
       <button class="btn" data-act="start" data-mode="sprint">Start</button></div>
     <div class="card"><h3>Mistake purge</h3><p class="small">Re-attempt your unresolved wrong answers (${unres}). A question you get right here is marked as a plugged leak.</p>
@@ -445,9 +495,9 @@ function vBlockResult() {
     const et = att.et || suggestType(B, a.i), err = S.errors.find(e => e.b === B.id && e.i === a.i);
     return `<div class="card" style="margin:10px 0" id="r${a.i}"><div class="row small muted"><span>Q ${a.i + 1}</span><span>${esc(q.s)}</span>
       ${q.c.map(cid => CI[cid] ? `<a href="#/c/${cid}">${esc(CI[cid].title)}</a>` : '').join(' · ')}<span>${Math.round(a.t)} s</span>${a.skip ? '<span class="pill">skipped</span>' : ''}</div>
-      <div class="stem">${stemHTML(q.q)}</div>
+      <div class="stem">${stemHTML(q.q)}</div>${qImg(q)}
       ${q.o.map((o, k) => `<div class="opt"><button class="o ${k === q.a ? 'right' : ''} ${k === ch && k !== q.a ? 'wrong' : ''}" disabled><b>${'ABCD'[k]}.</b> ${esc(o)}</button></div>`).join('')}
-      <div class="expl">${esc(q.e)}${q.x ? `\n\nAsked: ${esc(q.x)}` : ''}</div>
+      <div class="expl">${esc(q.e)}${q.w ? '\n\nWhy the others are wrong:\n' + q.w.map((t, k) => t ? 'ABCD'[k] + '. ' + t : '').filter(Boolean).join('\n') : ''}${q.i ? `\n\nImage: ${esc(q.i.cap)}` : ''}${q.x ? `\n\nAsked: ${esc(q.x)}` : ''}</div>
       ${a.skip ? '' : `<div class="row"><span class="seg" data-i="${a.i}">${ETYPES.map(t => `<button class="${(err ? err.et : '') === t ? 'on' : ''}" data-act="cls" data-i="${a.i}" data-t="${t}" title="${ET[t]}">${t} · ${ET[t].split(' (')[0]}</button>`).join('')}</span>
         ${err ? '' : `<span class="small muted">suggested: ${et}</span>`}</div>
       <textarea placeholder="Anchor I missed / why the tempting option was wrong" data-note="${a.i}">${esc(err ? err.note : '')}</textarea>`}
@@ -496,7 +546,7 @@ function cardFace(key, reveal) {
     const q = QI[key.slice(2)]; if (!q) return null;
     const e = S.errors.filter(x => x.qid === q.id).pop();
     return { title: 'Your mistake' + (e ? ' · ' + ET[e.et] : ''), cid: q.c[0],
-      front: `${stemHTML(q.q)}<br><br>${q.o.map((o, k) => `${'ABCD'[k]}. ${esc(o)}`).join('<br>')}`,
+      front: `${stemHTML(q.q)}${qImg(q)}<br><br>${q.o.map((o, k) => `${'ABCD'[k]}. ${esc(o)}`).join('<br>')}`,
       back: `<b>${'ABCD'[q.a]}. ${esc(q.o[q.a])}</b><br>${esc(q.e)}${e && e.note ? `<br><br><i>Your note:</i> ${esc(e.note)}` : ''}` };
   }
   const [cid, i, n] = key.split('#'), c = CI[cid]; if (!c) return null;
@@ -667,6 +717,7 @@ document.addEventListener('click', e => {
   }
   else if (act === 'cls') { classify(+el.dataset.i, el.dataset.t); el.parentElement.querySelectorAll('button').forEach(b => b.classList.toggle('on', b === el)); }
   else if (act === 'close-block') { S.active = null; save(); location.hash = '#/today'; }
+  else if (act === 'algo-toggle') { const w = el.closest('h2').nextElementSibling, p = w.nextElementSibling; p.hidden = !p.hidden; w.hidden = !p.hidden; el.textContent = p.hidden ? 'Text view' : 'Flowchart'; }
   else if (act === 'mark-read') { S.read[el.dataset.c] = Date.now(); save(); toast('Marked revised'); vCluster(el.dataset.c); }
   else if (act === 'cards-from') { reviewOnly = el.dataset.c; }
   else if (act === 'review-all') { reviewOnly = null; vReview(); }
