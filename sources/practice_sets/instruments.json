@@ -1,0 +1,1666 @@
+[
+ {
+  "id": "ins_001",
+  "subject": "Anesthesia",
+  "sub_topic": "Laryngoscope",
+  "stem": "A neonate needs intubation. The blade best suited is",
+  "options": [
+   "Macintosh",
+   "Miller",
+   "McCoy",
+   "Bullard"
+  ],
+  "correct_index": 1,
+  "explanation": "Miller (straight) blade lifts the long, floppy epiglottis directly in infants. Macintosh is curved with its tip in the vallecula (adults).",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_002",
+  "subject": "Anesthesia",
+  "sub_topic": "Laryngoscope",
+  "stem": "The tip of a Macintosh blade is placed in the",
+  "options": [
+   "Vallecula",
+   "Posterior pharyngeal wall",
+   "Under the epiglottis",
+   "Piriform fossa"
+  ],
+  "correct_index": 0,
+  "explanation": "Indirect lift of the epiglottis through the hyoepiglottic ligament.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_003",
+  "subject": "Anesthesia",
+  "sub_topic": "Spinal needle",
+  "stem": "Post-dural puncture headache is least with which needle?",
+  "options": [
+   "Quincke",
+   "Whitacre",
+   "Tuohy",
+   "Crawford"
+  ],
+  "correct_index": 1,
+  "explanation": "Pencil-point (Whitacre, Sprotte) separates dural fibres; Quincke cuts them. Tuohy/Crawford are epidural needles.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_004",
+  "subject": "Anesthesia",
+  "sub_topic": "Epidural",
+  "stem": "Identification of the epidural space is by",
+  "options": [
+   "Loss of resistance to saline or air",
+   "CSF flow",
+   "Paraesthesia",
+   "Ultrasound only"
+  ],
+  "correct_index": 0,
+  "explanation": "Tuohy needle with loss-of-resistance (or hanging drop). CSF back-flow indicates dural puncture.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_005",
+  "subject": "Anesthesia",
+  "sub_topic": "Airway",
+  "stem": "Which airway adjunct should not be used in a conscious patient?",
+  "options": [
+   "Guedel oropharyngeal airway",
+   "Nasopharyngeal airway",
+   "Face mask",
+   "High-flow nasal oxygen"
+  ],
+  "correct_index": 0,
+  "explanation": "It stimulates the gag reflex and may cause vomiting/laryngospasm; nasopharyngeal airway is better tolerated.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_006",
+  "subject": "Anesthesia",
+  "sub_topic": "Airway",
+  "stem": "A nasopharyngeal airway is relatively contraindicated in",
+  "options": [
+   "Basal skull fracture",
+   "Seizure",
+   "Trismus",
+   "Choking child"
+  ],
+  "correct_index": 0,
+  "explanation": "Risk of intracranial insertion through a cribriform plate fracture; also avoid in coagulopathy and nasal trauma.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_007",
+  "subject": "Anesthesia",
+  "sub_topic": "LMA",
+  "stem": "The main disadvantage of a laryngeal mask airway is",
+  "options": [
+   "Does not protect against aspiration",
+   "Needs muscle relaxant",
+   "Cannot ventilate",
+   "Needs laryngoscopy"
+  ],
+  "correct_index": 0,
+  "explanation": "It is supraglottic; the airway is not sealed against regurgitation. Contraindicated in full stomach; used as plan B in difficult airway.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_008",
+  "subject": "Anesthesia",
+  "sub_topic": "Capnography",
+  "stem": "Best confirmation of endotracheal tube placement is",
+  "options": [
+   "Capnography waveform",
+   "Chest rise",
+   "Misting in the tube",
+   "Breath sounds"
+  ],
+  "correct_index": 0,
+  "explanation": "Persistent EtCO2 waveform over several breaths; oesophageal intubation gives no sustained trace.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_009",
+  "subject": "Anesthesia",
+  "sub_topic": "Circuits",
+  "stem": "Which is the Jackson-Rees modification?",
+  "options": [
+   "Ayre's T-piece with bag on the open limb (Mapleson F)",
+   "Coaxial circuit (Mapleson D)",
+   "Magill (Mapleson A)",
+   "Circle system"
+  ],
+  "correct_index": 0,
+  "explanation": "Mapleson F used in children <20 kg: low resistance and dead space; FGF 2–3 × minute ventilation.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_010",
+  "subject": "Anesthesia",
+  "sub_topic": "Circuits",
+  "stem": "Mapleson A (Magill) circuit is most efficient during",
+  "options": [
+   "Spontaneous ventilation",
+   "Controlled ventilation",
+   "Neonates",
+   "Closed circle only"
+  ],
+  "correct_index": 0,
+  "explanation": "Mapleson efficiency: spontaneous ventilation A > D = E > B = C; controlled ventilation D > B = C > A.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_011",
+  "subject": "Anesthesia",
+  "sub_topic": "Pulse oximetry",
+  "stem": "A patient with carbon monoxide poisoning has SpO2 99%. The reason is",
+  "options": [
+   "COHb is read as oxyhaemoglobin",
+   "Methaemoglobinaemia",
+   "High cardiac output",
+   "Calibration error"
+  ],
+  "correct_index": 0,
+  "explanation": "Two-wavelength oximetry cannot separate carboxy- from oxyhaemoglobin. Use co-oximetry for true saturation.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_012",
+  "subject": "Anesthesia",
+  "sub_topic": "Spinal",
+  "stem": "In an adult, spinal needle insertion is done below",
+  "options": [
+   "L2",
+   "T12",
+   "L1",
+   "S1"
+  ],
+  "correct_index": 0,
+  "explanation": "Adult conus medullaris ends at L1–L2; in children it ends at about L3, so insert lower.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_013",
+  "subject": "Surgery",
+  "sub_topic": "Instruments",
+  "stem": "A clamp used to occlude bowel without crushing it is",
+  "options": [
+   "Doyen intestinal clamp",
+   "Kocher forceps",
+   "Payr clamp",
+   "Spencer Wells forceps"
+  ],
+  "correct_index": 0,
+  "explanation": "Doyen is a non-crushing intestinal clamp. Kocher and Payr crush tissue (used on specimen side).",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_014",
+  "subject": "Surgery",
+  "sub_topic": "Instruments",
+  "stem": "Forceps used for holding the bowel, appendix or fallopian tube without damage are",
+  "options": [
+   "Babcock",
+   "Allis",
+   "Lane",
+   "Adson"
+  ],
+  "correct_index": 0,
+  "explanation": "Babcock has rounded, fenestrated atraumatic jaws. Allis has teeth and damages the structure; used on tissue to be removed.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_015",
+  "subject": "Surgery",
+  "sub_topic": "Instruments",
+  "stem": "Sponge-holding forceps with ring-shaped jaws are",
+  "options": [
+   "Rampley",
+   "Kocher",
+   "Mosquito",
+   "Alligator"
+  ],
+  "correct_index": 0,
+  "explanation": "Rampley holds gauze for skin preparation and for holding the cervix.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_016",
+  "subject": "Surgery",
+  "sub_topic": "Instruments",
+  "stem": "Which needle is used for bowel anastomosis?",
+  "options": [
+   "Round-bodied (taper)",
+   "Cutting",
+   "Reverse cutting",
+   "Trocar point"
+  ],
+  "correct_index": 0,
+  "explanation": "Taper needles separate fibres without cutting, minimising leaks in bowel and vessels. Cutting needles are for skin and tough tissue.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_017",
+  "subject": "Surgery",
+  "sub_topic": "Sutures",
+  "stem": "Which suture is non-absorbable monofilament with minimal reaction, used in vascular surgery?",
+  "options": [
+   "Polypropylene (Prolene)",
+   "Silk",
+   "Catgut",
+   "Vicryl"
+  ],
+  "correct_index": 0,
+  "explanation": "Prolene is inert and non-absorbable; silk is braided with high reactivity.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_018",
+  "subject": "Surgery",
+  "sub_topic": "Sutures",
+  "stem": "Polydioxanone (PDS) is",
+  "options": [
+   "Absorbable monofilament lasting ~6 months",
+   "Non-absorbable braided",
+   "Absorbable braided lasting 2 weeks",
+   "Natural absorbable"
+  ],
+  "correct_index": 0,
+  "explanation": "PDS retains tensile strength ~6 weeks and absorbs by ~180 days; used in abdominal wall closure.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_019",
+  "subject": "Surgery",
+  "sub_topic": "Laparoscopy",
+  "stem": "Veress needle for pneumoperitoneum is inserted at",
+  "options": [
+   "Palmer's point or umbilicus",
+   "McBurney's point",
+   "Calot's triangle",
+   "Spigelian line"
+  ],
+  "correct_index": 0,
+  "explanation": "Palmer's point (left subcostal, midclavicular) is used in obese or adhesions; pressure 12–15 mmHg.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_020",
+  "subject": "Surgery",
+  "sub_topic": "Diathermy",
+  "stem": "A patient with a pacemaker needs surgery; the safest cautery is",
+  "options": [
+   "Bipolar",
+   "Monopolar with return pad on the thigh",
+   "Cutting current continuous",
+   "Radiofrequency near the heart"
+  ],
+  "correct_index": 0,
+  "explanation": "Bipolar current passes only between the forceps tips, avoiding interference. Monopolar needs the return pad kept away from the heart.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_021",
+  "subject": "Surgery",
+  "sub_topic": "Instruments",
+  "stem": "Harmonic scalpel works by",
+  "options": [
+   "Ultrasonic vibration at 55.5 kHz",
+   "Monopolar current",
+   "LASER",
+   "Hot wire"
+  ],
+  "correct_index": 0,
+  "explanation": "Ultrasonic energy denatures protein, sealing vessels up to ~5 mm with minimal lateral thermal spread.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_022",
+  "subject": "Surgery",
+  "sub_topic": "Drains",
+  "stem": "The Penrose drain functions by",
+  "options": [
+   "Capillary action (passive)",
+   "Suction",
+   "Gravity only",
+   "Syphonage"
+  ],
+  "correct_index": 0,
+  "explanation": "Penrose is a soft latex passive drain; Redivac/JP are closed suction drains.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_023",
+  "subject": "Surgery",
+  "sub_topic": "Instruments",
+  "stem": "A wire saw used for amputation of bone is",
+  "options": [
+   "Gigli saw",
+   "Stryker saw",
+   "Hey's saw",
+   "Rongeur"
+  ],
+  "correct_index": 0,
+  "explanation": "Gigli: flexible serrated wire passed around the bone with handles; Stryker is an oscillating power saw.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_024",
+  "subject": "Surgery",
+  "sub_topic": "Instruments",
+  "stem": "The Satinsky clamp is used for",
+  "options": [
+   "Partial occlusion of a large vessel",
+   "Gallbladder holding",
+   "Kidney pedicle",
+   "Skin retraction"
+  ],
+  "correct_index": 0,
+  "explanation": "Curved vascular clamp that partially occludes IVC/aorta while flow continues.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_025",
+  "subject": "OBGY",
+  "sub_topic": "Forceps",
+  "stem": "The forceps used for rotation in deep transverse arrest is",
+  "options": [
+   "Kielland",
+   "Simpson",
+   "Wrigley",
+   "Piper"
+  ],
+  "correct_index": 0,
+  "explanation": "Kielland has minimal pelvic curve and sliding lock permitting rotation; Simpson cannot rotate safely.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_026",
+  "subject": "OBGY",
+  "sub_topic": "Forceps",
+  "stem": "Which forceps are used for the aftercoming head in a breech?",
+  "options": [
+   "Piper",
+   "Kielland",
+   "Wrigley",
+   "Neville Barnes"
+  ],
+  "correct_index": 0,
+  "explanation": "Piper forceps have long shanks and a reverse pelvic curve to clear the baby's body.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_027",
+  "subject": "OBGY",
+  "sub_topic": "Ventouse",
+  "stem": "A ventouse is contraindicated in",
+  "options": [
+   "Gestation 32 weeks",
+   "Occipito-anterior position",
+   "Maternal exhaustion",
+   "Prolonged second stage"
+  ],
+  "correct_index": 0,
+  "explanation": "Avoid <34 weeks (fragile skull, intraventricular haemorrhage risk), face/brow, bleeding disorders.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_028",
+  "subject": "OBGY",
+  "sub_topic": "Ventouse",
+  "stem": "The cup of a ventouse is applied over the",
+  "options": [
+   "Flexion point 3 cm in front of the posterior fontanelle",
+   "Anterior fontanelle",
+   "Parietal eminence",
+   "Occiput on the suture"
+  ],
+  "correct_index": 0,
+  "explanation": "Median flexion point (pivot) gives optimal flexion and traction axis.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_029",
+  "subject": "OBGY",
+  "sub_topic": "Speculum",
+  "stem": "The speculum used in examination for genital prolapse is",
+  "options": [
+   "Sims",
+   "Cusco",
+   "Graves",
+   "Ferguson"
+  ],
+  "correct_index": 0,
+  "explanation": "Sims (duck-bill) retracts the posterior vaginal wall in left lateral (Sims) position; Cusco/Graves are bivalve for Pap.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_030",
+  "subject": "OBGY",
+  "sub_topic": "Pap smear",
+  "stem": "Cervical cytology samples are taken from",
+  "options": [
+   "Squamocolumnar junction (transformation zone)",
+   "Fornix",
+   "Endometrium",
+   "Vagina only"
+  ],
+  "correct_index": 0,
+  "explanation": "Ayre spatula for ectocervix at SCJ plus cytobrush for endocervical canal; fix immediately.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_031",
+  "subject": "OBGY",
+  "sub_topic": "IUCD",
+  "stem": "Copper T 380A lasts",
+  "options": [
+   "10 years",
+   "3 years",
+   "5 years",
+   "1 year"
+  ],
+  "correct_index": 0,
+  "explanation": "CuT 380A is licensed for 10 years; LNG-IUS 5 years (up to 8 in newer evidence); Multiload 375 5 years.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_032",
+  "subject": "OBGY",
+  "sub_topic": "IUCD",
+  "stem": "The commonest cause for Copper T removal is",
+  "options": [
+   "Pain and bleeding",
+   "Perforation",
+   "Pregnancy",
+   "Infection"
+  ],
+  "correct_index": 0,
+  "explanation": "Menorrhagia and dysmenorrhoea are the usual reasons for discontinuation; perforation ~1/1000.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_033",
+  "subject": "OBGY",
+  "sub_topic": "Instruments",
+  "stem": "Manual vacuum aspiration uses",
+  "options": [
+   "Karman cannula",
+   "Sims curette",
+   "Hegar dilator only",
+   "Ventouse"
+  ],
+  "correct_index": 0,
+  "explanation": "MVA is suitable up to 12 weeks (WHO). Karman cannula 4–12 mm connected to a 60 mL syringe.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_034",
+  "subject": "OBGY",
+  "sub_topic": "Instruments",
+  "stem": "The normal length of the uterine cavity measured by sound is",
+  "options": [
+   "6–8 cm",
+   "3–4 cm",
+   "10–12 cm",
+   "2 cm"
+  ],
+  "correct_index": 0,
+  "explanation": "Normal sounding length 6–8 cm; <5 cm suggests Asherman or hypoplasia.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_035",
+  "subject": "OBGY",
+  "sub_topic": "Episiotomy",
+  "stem": "The commonest episiotomy is",
+  "options": [
+   "Mediolateral cut at 60° to midline",
+   "Midline",
+   "J-shaped",
+   "Lateral"
+  ],
+  "correct_index": 0,
+  "explanation": "Mediolateral begins at fourchette and goes 60° away from midline (right) with scissors; midline has more third/fourth degree tears.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_036",
+  "subject": "OBGY",
+  "sub_topic": "CTG",
+  "stem": "FHR monitoring in labour uses",
+  "options": [
+   "Doppler transducer plus tocodynamometer",
+   "ECG leads only",
+   "Pinard only",
+   "Ultrasound B-mode"
+  ],
+  "correct_index": 0,
+  "explanation": "External CTG: Doppler ultrasound for FHR and strain gauge (toco) for contractions; internal scalp electrode is invasive alternative.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_037",
+  "subject": "Ophthalmology",
+  "sub_topic": "Tonometry",
+  "stem": "The gold standard for IOP measurement is",
+  "options": [
+   "Goldmann applanation tonometer",
+   "Schiotz tonometer",
+   "Non-contact tonometer",
+   "Tono-Pen"
+  ],
+  "correct_index": 0,
+  "explanation": "Goldmann (Imbert-Fick law) applanates a 3.06 mm area; used with fluorescein and a slit lamp.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_038",
+  "subject": "Ophthalmology",
+  "sub_topic": "Tonometry",
+  "stem": "Schiotz tonometry reads falsely low in",
+  "options": [
+   "High myopia",
+   "Thick cornea",
+   "Hypermetropia",
+   "Healthy emmetropic eye"
+  ],
+  "correct_index": 0,
+  "explanation": "Low scleral rigidity in high myopia lets the plunger indent more. Thick sclera reads high.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_039",
+  "subject": "Ophthalmology",
+  "sub_topic": "Ophthalmoscope",
+  "stem": "The image on direct ophthalmoscopy is",
+  "options": [
+   "Erect and virtual, magnified ×15",
+   "Inverted and real, ×4",
+   "Inverted and virtual",
+   "Erect and real"
+  ],
+  "correct_index": 0,
+  "explanation": "Indirect ophthalmoscopy gives inverted real image (×4–5) with a wide field.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_040",
+  "subject": "Ophthalmology",
+  "sub_topic": "Gonioscopy",
+  "stem": "To distinguish open from closed angle glaucoma, use",
+  "options": [
+   "Gonioscopy",
+   "Tonometry",
+   "Perimetry",
+   "Pachymetry"
+  ],
+  "correct_index": 0,
+  "explanation": "Gonioscopy visualises the iridocorneal angle (Shaffer / Spaeth grading).",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_041",
+  "subject": "Ophthalmology",
+  "sub_topic": "Perimetry",
+  "stem": "Humphrey visual field is an example of",
+  "options": [
+   "Static automated perimetry",
+   "Kinetic perimetry",
+   "Confrontation",
+   "Amsler grid"
+  ],
+  "correct_index": 0,
+  "explanation": "Static threshold testing; Goldmann is manual kinetic perimetry with isopters.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_042",
+  "subject": "Ophthalmology",
+  "sub_topic": "Refraction",
+  "stem": "The retinoscope gives",
+  "options": [
+   "Objective refraction",
+   "Subjective refraction",
+   "IOP",
+   "Axial length"
+  ],
+  "correct_index": 0,
+  "explanation": "Streak retinoscopy neutralises reflex movement with lenses to find refractive error.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_043",
+  "subject": "Ophthalmology",
+  "sub_topic": "Lacrimal",
+  "stem": "The instrument used for probing a congenital nasolacrimal duct obstruction is",
+  "options": [
+   "Bowman probe",
+   "Chalazion clamp",
+   "Cystitome",
+   "Jaeger plate"
+  ],
+  "correct_index": 0,
+  "explanation": "Probing at 6–12 months after failed massage; Bowman lacrimal probe sizes 0000–2.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_044",
+  "subject": "Ophthalmology",
+  "sub_topic": "Ultrasound",
+  "stem": "Axial length for IOL power calculation is obtained by",
+  "options": [
+   "A-scan ultrasound or optical biometry (IOLMaster)",
+   "B-scan",
+   "OCT only",
+   "Retinoscopy"
+  ],
+  "correct_index": 0,
+  "explanation": "A-scan applanation or immersion biometry; partial coherence interferometry is more precise.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_045",
+  "subject": "Ophthalmology",
+  "sub_topic": "Imaging",
+  "stem": "Dense cataract obscures the fundus; to rule out retinal detachment use",
+  "options": [
+   "B-scan ultrasound",
+   "Direct ophthalmoscopy",
+   "Slit lamp",
+   "Gonioscopy"
+  ],
+  "correct_index": 0,
+  "explanation": "B-scan sees through opaque media: detachment, vitreous haemorrhage, tumours.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_046",
+  "subject": "Ophthalmology",
+  "sub_topic": "Keratometer",
+  "stem": "Keratometer measures",
+  "options": [
+   "Anterior corneal curvature",
+   "IOP",
+   "Lens thickness",
+   "Axial length"
+  ],
+  "correct_index": 0,
+  "explanation": "Normal central K ≈ 43 D; astigmatism and IOL power.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_047",
+  "subject": "Ophthalmology",
+  "sub_topic": "Angiography",
+  "stem": "Fluorescein angiography uses excitation by",
+  "options": [
+   "Blue light (490 nm) and yellow-green filters",
+   "UV light",
+   "Infrared",
+   "Red light"
+  ],
+  "correct_index": 0,
+  "explanation": "Sodium fluorescein is excited by blue and emits green-yellow (520–530 nm); ICG uses near-infrared.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_048",
+  "subject": "Ophthalmology",
+  "sub_topic": "Phaco",
+  "stem": "Phacoemulsification uses ultrasonic frequency of about",
+  "options": [
+   "40 kHz",
+   "40 Hz",
+   "4 MHz",
+   "400 kHz"
+  ],
+  "correct_index": 0,
+  "explanation": "Titanium needle vibrating at ~40 kHz emulsifies the nucleus via 2.2–3 mm incision.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_049",
+  "subject": "ENT",
+  "sub_topic": "Tuning fork",
+  "stem": "The tuning fork usually used for clinical hearing tests is",
+  "options": [
+   "512 Hz",
+   "128 Hz",
+   "1024 Hz",
+   "2048 Hz"
+  ],
+  "correct_index": 0,
+  "explanation": "512 Hz gives least overtones and decays slowly enough; 128 Hz for vibration sense.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_050",
+  "subject": "ENT",
+  "sub_topic": "Tuning fork",
+  "stem": "In sensorineural hearing loss of the right ear Weber lateralises to",
+  "options": [
+   "Left (normal) ear",
+   "Right ear",
+   "Centre",
+   "Both"
+  ],
+  "correct_index": 0,
+  "explanation": "Conductive loss lateralises to the affected ear; SNHL to the better ear.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_051",
+  "subject": "ENT",
+  "sub_topic": "Speculum",
+  "stem": "Anterior rhinoscopy is performed with",
+  "options": [
+   "Thudichum speculum",
+   "Killian speculum",
+   "Siegle speculum",
+   "Cusco"
+  ],
+  "correct_index": 0,
+  "explanation": "Killian is longer, for septal surgery; Siegle is ear (pneumatic).",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_052",
+  "subject": "ENT",
+  "sub_topic": "Tracheostomy",
+  "stem": "Elective tracheostomy is made at the",
+  "options": [
+   "2nd–3rd tracheal ring",
+   "1st ring",
+   "5th ring",
+   "Cricothyroid membrane"
+  ],
+  "correct_index": 0,
+  "explanation": "Avoid first ring (stenosis) and above the isthmus (cricoid injury).",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_053",
+  "subject": "ENT",
+  "sub_topic": "Tonsillectomy",
+  "stem": "The mouth gag used is",
+  "options": [
+   "Boyle-Davis",
+   "Doyen",
+   "Denhart",
+   "Fergusson"
+  ],
+  "correct_index": 0,
+  "explanation": "Boyle-Davis tongue blade with slot, held by Draffin rods.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_054",
+  "subject": "ENT",
+  "sub_topic": "Otoscope",
+  "stem": "The Siegle speculum is used to assess",
+  "options": [
+   "Tympanic membrane mobility",
+   "Nasal patency",
+   "Vocal cord",
+   "Oesophagus"
+  ],
+  "correct_index": 0,
+  "explanation": "Pneumatic otoscopy: positive/negative pressure; reduced mobility = middle ear effusion.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_055",
+  "subject": "ENT",
+  "sub_topic": "Foreign body",
+  "stem": "Best instrument to remove a round foreign body from a child's nose is",
+  "options": [
+   "Right-angled hook",
+   "Forceps",
+   "Syringing",
+   "Suction only"
+  ],
+  "correct_index": 0,
+  "explanation": "A hook passed beyond the object and pulled forward; forceps may push it back into the nasopharynx.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_056",
+  "subject": "ENT",
+  "sub_topic": "Bronchoscope",
+  "stem": "Foreign body bronchus in children is best removed by",
+  "options": [
+   "Rigid bronchoscope",
+   "Flexible bronchoscope",
+   "Chest physiotherapy",
+   "Thoracotomy"
+  ],
+  "correct_index": 0,
+  "explanation": "Rigid bronchoscopy permits airway control and large forceps.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_057",
+  "subject": "ENT",
+  "sub_topic": "Aural",
+  "stem": "Wax removal tool with a loop is",
+  "options": [
+   "Jobson Horne probe",
+   "Hartmann forceps",
+   "Walsham",
+   "Luc"
+  ],
+  "correct_index": 0,
+  "explanation": "Jobson Horne has a ring curette at one end and a cotton-wool carrier at the other.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_058",
+  "subject": "ENT",
+  "sub_topic": "Nasal",
+  "stem": "Nasal bone fracture reduction uses",
+  "options": [
+   "Walsham forceps",
+   "Luc forceps",
+   "Tilley forceps",
+   "Asch forceps"
+  ],
+  "correct_index": 0,
+  "explanation": "Walsham (with Asch for septum) reduces nasal fractures within 7–10 days.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_059",
+  "subject": "Orthopedics",
+  "sub_topic": "Splints",
+  "stem": "Splint used for first-aid of a femoral shaft fracture is",
+  "options": [
+   "Thomas splint",
+   "Cock-up splint",
+   "Aeroplane splint",
+   "Denis Browne splint"
+  ],
+  "correct_index": 0,
+  "explanation": "Thomas splint with Pearson knee flexion supports and traction reduces pain and bleeding.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_060",
+  "subject": "Orthopedics",
+  "sub_topic": "Splints",
+  "stem": "Radial nerve palsy (wrist drop) splint is",
+  "options": [
+   "Cock-up splint",
+   "Thomas splint",
+   "Cramer wire",
+   "Pavlik"
+  ],
+  "correct_index": 0,
+  "explanation": "Dorsal cock-up (wrist extension) splint keeps the wrist from flexing.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_061",
+  "subject": "Orthopedics",
+  "sub_topic": "DDH",
+  "stem": "Treatment of DDH at 3 months is",
+  "options": [
+   "Pavlik harness",
+   "Hip spica",
+   "Open reduction",
+   "Salter osteotomy"
+  ],
+  "correct_index": 0,
+  "explanation": "Pavlik harness up to 6 months; after that closed reduction and spica.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_062",
+  "subject": "Orthopedics",
+  "sub_topic": "CTEV",
+  "stem": "Maintenance after Ponseti casting uses",
+  "options": [
+   "Denis Browne boots with bar",
+   "Thomas splint",
+   "Walking plaster",
+   "Ankle brace only"
+  ],
+  "correct_index": 0,
+  "explanation": "Boots-and-bar abduction brace 23 h/day for 3 months then at night until age 4.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_063",
+  "subject": "Orthopedics",
+  "sub_topic": "Scoliosis",
+  "stem": "Milwaukee brace is for curves with apex",
+  "options": [
+   "Above T7",
+   "Below T7",
+   "Lumbar only",
+   "Cervical only"
+  ],
+  "correct_index": 0,
+  "explanation": "Boston TLSO for apex below T7; Milwaukee CTLSO has a neck ring.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_064",
+  "subject": "Orthopedics",
+  "sub_topic": "Fixator",
+  "stem": "The circular external fixator used for limb lengthening is",
+  "options": [
+   "Ilizarov",
+   "Hoffmann",
+   "Charnley",
+   "Pinless"
+  ],
+  "correct_index": 0,
+  "explanation": "Ilizarov (tensioned wires, distraction osteogenesis at 1 mm/day) vs Hoffmann (unilateral).",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_065",
+  "subject": "Orthopedics",
+  "sub_topic": "Implants",
+  "stem": "A displaced femoral neck fracture in an elderly patient is treated by",
+  "options": [
+   "Austin Moore hemiarthroplasty",
+   "Dynamic hip screw",
+   "Gamma nail",
+   "Thomas splint"
+  ],
+  "correct_index": 0,
+  "explanation": "Displaced neck of femur >65: arthroplasty; DHS/gamma nail are for intertrochanteric fractures.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_066",
+  "subject": "Orthopedics",
+  "sub_topic": "Plaster",
+  "stem": "Plaster of paris sets in",
+  "options": [
+   "5–8 minutes",
+   "30 seconds",
+   "2 hours",
+   "24 hours only"
+  ],
+  "correct_index": 0,
+  "explanation": "Plaster is exothermic; avoid hot water; limb weight-bearing after 24–48 h.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_067",
+  "subject": "Orthopedics",
+  "sub_topic": "Instruments",
+  "stem": "The instrument used to curette a bone cavity is",
+  "options": [
+   "Volkmann spoon",
+   "Hohmann",
+   "Gigli",
+   "Bone nibbler"
+  ],
+  "correct_index": 0,
+  "explanation": "Volkmann spoon is a sharp curette used for debridement of bone cysts and abscess.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_068",
+  "subject": "Orthopedics",
+  "sub_topic": "Wires",
+  "stem": "A smooth thin pin for fixing small bone fractures is",
+  "options": [
+   "Kirschner wire",
+   "Steinmann pin",
+   "Intramedullary Kuntscher",
+   "Schanz screw"
+  ],
+  "correct_index": 0,
+  "explanation": "K-wires ≤ 2.2 mm; Steinmann is thicker for skeletal traction.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_069",
+  "subject": "Orthopedics",
+  "sub_topic": "Tourniquet",
+  "stem": "Maximum safe continuous tourniquet time is",
+  "options": [
+   "2 hours",
+   "30 minutes",
+   "4 hours",
+   "1 hour only"
+  ],
+  "correct_index": 0,
+  "explanation": "Upper limb pressure ~250 mmHg, lower limb ~300–350; release after 2 h.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_070",
+  "subject": "Radiology",
+  "sub_topic": "Dosimetry",
+  "stem": "Best personnel monitoring device for radiation workers is",
+  "options": [
+   "TLD badge",
+   "Geiger-Müller counter",
+   "Scintillation counter",
+   "Ionisation survey meter"
+  ],
+  "correct_index": 0,
+  "explanation": "TLD (LiF) and film badges integrate dose; GM counters are for surveys/contamination.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_071",
+  "subject": "Radiology",
+  "sub_topic": "Dosimetry",
+  "stem": "SI unit of absorbed radiation dose is",
+  "options": [
+   "Gray",
+   "Sievert",
+   "Becquerel",
+   "Roentgen"
+  ],
+  "correct_index": 0,
+  "explanation": "Gray = J/kg; sievert is equivalent/effective dose; becquerel is activity.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_072",
+  "subject": "Radiology",
+  "sub_topic": "X-ray",
+  "stem": "The anode of an X-ray tube is made of",
+  "options": [
+   "Tungsten",
+   "Aluminium",
+   "Copper",
+   "Lead"
+  ],
+  "correct_index": 0,
+  "explanation": "High melting point (3,410 °C) and high atomic number; rotating anode dissipates heat.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_073",
+  "subject": "Radiology",
+  "sub_topic": "Nuclear",
+  "stem": "The radionuclide commonly used in PET imaging is",
+  "options": [
+   "F-18",
+   "Tc-99m",
+   "I-131",
+   "Tl-201"
+  ],
+  "correct_index": 0,
+  "explanation": "F-18 FDG, positron emitter; Tc-99m is gamma (SPECT/planar).",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_074",
+  "subject": "Radiology",
+  "sub_topic": "Nuclear",
+  "stem": "Half-life of technetium-99m is",
+  "options": [
+   "6 hours",
+   "6 days",
+   "60 minutes",
+   "8 days"
+  ],
+  "correct_index": 0,
+  "explanation": "Tc-99m emits 140 keV gamma; I-131 has 8-day half-life.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_075",
+  "subject": "Radiology",
+  "sub_topic": "Safety",
+  "stem": "Maximum permissible whole-body dose for radiation worker per year (average, ICRP/AERB) is",
+  "options": [
+   "20 mSv",
+   "1 mSv",
+   "50 mSv",
+   "100 mSv"
+  ],
+  "correct_index": 0,
+  "explanation": "20 mSv per year averaged over 5 years, not >30 mSv in any year.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_076",
+  "subject": "Radiology",
+  "sub_topic": "Radiotherapy",
+  "stem": "Source commonly used for HDR brachytherapy of cervix is",
+  "options": [
+   "Iridium-192",
+   "Cobalt-60 teletherapy",
+   "I-125 seeds",
+   "Strontium-90"
+  ],
+  "correct_index": 0,
+  "explanation": "Ir-192 HDR afterloading; Cs-137 for LDR historically.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_077",
+  "subject": "Radiology",
+  "sub_topic": "Ultrasound",
+  "stem": "The ultrasound probe works by",
+  "options": [
+   "Piezoelectric effect",
+   "Photoelectric effect",
+   "Magnetic resonance",
+   "Compton scatter"
+  ],
+  "correct_index": 0,
+  "explanation": "PZT crystal converts electrical energy to sound and back.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_078",
+  "subject": "Radiology",
+  "sub_topic": "MRI",
+  "stem": "MRI is contraindicated with",
+  "options": [
+   "Cochlear implant (older devices) or ferromagnetic aneurysm clip",
+   "Titanium hip prosthesis",
+   "Dental amalgam",
+   "Cardiac stent in 6 weeks (relative)"
+  ],
+  "correct_index": 0,
+  "explanation": "Ferromagnetic aneurysm clips, cochlear implants and older pacemakers; titanium implants are MR-safe.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_079",
+  "subject": "Radiology",
+  "sub_topic": "DEXA",
+  "stem": "T-score of -2.7 at the hip indicates",
+  "options": [
+   "Osteoporosis",
+   "Osteopenia",
+   "Normal",
+   "Osteomalacia"
+  ],
+  "correct_index": 0,
+  "explanation": "T ≤ -2.5 osteoporosis; -1 to -2.5 osteopenia.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_080",
+  "subject": "Radiology",
+  "sub_topic": "Safety",
+  "stem": "Radiation exposure from a source is reduced most by",
+  "options": [
+   "Distance (inverse square law)",
+   "Time only",
+   "Colour coding",
+   "Ventilation"
+  ],
+  "correct_index": 0,
+  "explanation": "Doubling distance quarters dose; combine time, distance, shielding.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_081",
+  "subject": "Surgery",
+  "sub_topic": "Catheter",
+  "stem": "Foley catheter balloon is inflated with",
+  "options": [
+   "Sterile water",
+   "Normal saline",
+   "Air",
+   "Contrast"
+  ],
+  "correct_index": 0,
+  "explanation": "Saline may crystallise and block deflation; water is used (5–10 mL).",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_082",
+  "subject": "Surgery",
+  "sub_topic": "Catheter",
+  "stem": "After TURP, continuous irrigation requires a",
+  "options": [
+   "Three-way Foley catheter",
+   "Pezzer catheter",
+   "Malecot",
+   "Nelaton"
+  ],
+  "correct_index": 0,
+  "explanation": "The third channel carries irrigation fluid to clear clots.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_083",
+  "subject": "Surgery",
+  "sub_topic": "Tubes",
+  "stem": "Tube used to control bleeding from oesophageal varices is",
+  "options": [
+   "Sengstaken-Blakemore",
+   "Ryle's",
+   "Kehr's",
+   "Miller-Abbott"
+  ],
+  "correct_index": 0,
+  "explanation": "Gastric and oesophageal balloons; Minnesota tube adds an oesophageal aspiration port.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_084",
+  "subject": "Surgery",
+  "sub_topic": "Tubes",
+  "stem": "The T-tube is placed in the",
+  "options": [
+   "Common bile duct",
+   "Pancreatic duct",
+   "Ureter",
+   "Jejunum"
+  ],
+  "correct_index": 0,
+  "explanation": "Drains bile after CBD exploration; T-tube cholangiogram done before removal.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_085",
+  "subject": "Surgery",
+  "sub_topic": "Chest tube",
+  "stem": "The safe triangle for chest drain insertion is bounded by",
+  "options": [
+   "Lateral border of pectoralis major, anterior border of latissimus dorsi, and 5th ICS",
+   "Sternum, clavicle, 2nd rib",
+   "Scapula, spine, 7th rib",
+   "Anterior superior iliac spine, pubic tubercle, inguinal ligament"
+  ],
+  "correct_index": 0,
+  "explanation": "Apex below axilla, 4th–5th ICS, anterior to mid-axillary line.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_086",
+  "subject": "Surgery",
+  "sub_topic": "Catheter",
+  "stem": "Catheterisation is contraindicated in",
+  "options": [
+   "Suspected urethral injury (blood at meatus)",
+   "Acute retention",
+   "Post-op monitoring",
+   "Neurogenic bladder"
+  ],
+  "correct_index": 0,
+  "explanation": "Do retrograde urethrography first; suprapubic catheter if retention persists.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_087",
+  "subject": "Surgery",
+  "sub_topic": "Catheter",
+  "stem": "A catheter of size 18 Fr has an external diameter of",
+  "options": [
+   "6 mm",
+   "18 mm",
+   "9 mm",
+   "3 mm"
+  ],
+  "correct_index": 0,
+  "explanation": "Fr/3 = diameter in mm.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_088",
+  "subject": "Surgery",
+  "sub_topic": "Endoscopy",
+  "stem": "The commonest cystoscope lens is",
+  "options": [
+   "30°",
+   "0°",
+   "70°",
+   "120°"
+  ],
+  "correct_index": 0,
+  "explanation": "0° for urethra, 30° bladder, 70° for anterior wall/neck.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_089",
+  "subject": "Surgery",
+  "sub_topic": "TURP",
+  "stem": "TURP syndrome is caused by absorption of",
+  "options": [
+   "Glycine irrigation fluid",
+   "Saline",
+   "Blood",
+   "Urine"
+  ],
+  "correct_index": 0,
+  "explanation": "Hyponatraemia, hypervolaemia, visual disturbances; use bipolar saline TURP to avoid.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_090",
+  "subject": "Surgery",
+  "sub_topic": "NG tube",
+  "stem": "Best bedside check for correct NG tube position is",
+  "options": [
+   "Aspirate pH <5.5 (or X-ray)",
+   "Air insufflation auscultation",
+   "Patient able to speak",
+   "Colour of aspirate"
+  ],
+  "correct_index": 0,
+  "explanation": "NPSA/NHS: pH ≤5.5 or X-ray; auscultation unreliable.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_091",
+  "subject": "Surgery",
+  "sub_topic": "Stents",
+  "stem": "Double-J stent is placed in the",
+  "options": [
+   "Ureter",
+   "Urethra",
+   "Bile duct",
+   "Colon"
+  ],
+  "correct_index": 0,
+  "explanation": "Maintains ureteric patency after endourology or in obstruction.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_092",
+  "subject": "Surgery",
+  "sub_topic": "Tubes",
+  "stem": "Mushroom-tipped suprapubic catheter is the",
+  "options": [
+   "Pezzer",
+   "Foley",
+   "Nelaton",
+   "Coudé"
+  ],
+  "correct_index": 0,
+  "explanation": "Pezzer and Malecot are used for suprapubic cystostomy and nephrostomy.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_093",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Tests",
+  "stem": "Marsh test is used to detect",
+  "options": [
+   "Arsenic",
+   "Mercury",
+   "Lead",
+   "Cyanide"
+  ],
+  "correct_index": 0,
+  "explanation": "Arsenic converted to arsine; Reinsch test uses a copper strip.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_094",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Tests",
+  "stem": "Confirmatory test for blood is",
+  "options": [
+   "Teichmann test",
+   "Kastle-Meyer test",
+   "Luminol",
+   "Benzidine"
+  ],
+  "correct_index": 0,
+  "explanation": "Teichmann haemin crystals and Takayama haemochromogen crystals are confirmatory; Kastle-Meyer, benzidine, luminol are presumptive.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_095",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Tests",
+  "stem": "Test for seminal fluid based on choline is",
+  "options": [
+   "Florence test",
+   "Barberio test",
+   "Teichmann",
+   "Acid phosphatase"
+  ],
+  "correct_index": 0,
+  "explanation": "Florence: iodine-potassium iodide gives brown choline periodide crystals; Barberio picric acid with spermine gives yellow needles.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_096",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Drowning",
+  "stem": "Diatom test is done on",
+  "options": [
+   "Bone marrow of femur",
+   "Gastric content only",
+   "Urine",
+   "Liver only"
+  ],
+  "correct_index": 0,
+  "explanation": "Diatoms in distant organs/bone marrow support antemortem drowning in freshwater.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_097",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Culture",
+  "stem": "Lowenstein-Jensen medium is used for",
+  "options": [
+   "Mycobacterium tuberculosis",
+   "Corynebacterium",
+   "Vibrio",
+   "Neisseria"
+  ],
+  "correct_index": 0,
+  "explanation": "Egg-based with malachite green; 6–8 weeks growth.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_098",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Culture",
+  "stem": "TCBS agar is selective for",
+  "options": [
+   "Vibrio cholerae",
+   "Salmonella",
+   "Shigella",
+   "Clostridium"
+  ],
+  "correct_index": 0,
+  "explanation": "V. cholerae gives yellow colonies on TCBS (sucrose fermenter).",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_099",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Sterilisation",
+  "stem": "Autoclave at 121 °C needs pressure of",
+  "options": [
+   "15 psi",
+   "5 psi",
+   "30 psi",
+   "60 psi"
+  ],
+  "correct_index": 0,
+  "explanation": "121 °C at 15 psi for 15 minutes; 134 °C 30 psi 3 minutes.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_100",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Biosafety",
+  "stem": "Class II biosafety cabinet uses",
+  "options": [
+   "HEPA filtered laminar airflow",
+   "UV light only",
+   "Formalin",
+   "Lead shielding"
+  ],
+  "correct_index": 0,
+  "explanation": "Protects worker, sample and environment; class III is a glove box for BSL-4.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_101",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Culture",
+  "stem": "Loeffler's serum slope is used to grow",
+  "options": [
+   "Corynebacterium diphtheriae",
+   "Bordetella",
+   "Haemophilus",
+   "Neisseria"
+  ],
+  "correct_index": 0,
+  "explanation": "Metachromatic granules visible with Albert stain.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_102",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Culture",
+  "stem": "Anaerobic jar uses",
+  "options": [
+   "Palladium catalyst with hydrogen",
+   "Candle flame",
+   "Silver",
+   "Ozone"
+  ],
+  "correct_index": 0,
+  "explanation": "Palladium combines H2 and O2 to remove oxygen; GasPak generates H2 and CO2.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_103",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Breath",
+  "stem": "Alcohol breath analysers rely on a breath:blood ratio of",
+  "options": [
+   "2100:1",
+   "1:2100",
+   "100:1",
+   "1:1"
+  ],
+  "correct_index": 0,
+  "explanation": "Henry's law; partition ratio 2100:1.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ },
+ {
+  "id": "ins_104",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Pathology",
+  "stem": "Intraoperative frozen sections are cut on",
+  "options": [
+   "Cryostat",
+   "Rotary microtome",
+   "Ultramicrotome",
+   "Vibratome"
+  ],
+  "correct_index": 0,
+  "explanation": "Frozen tissue sectioned at −20 °C and stained with H&E in ~15 minutes.",
+  "tag": "INSTRUMENT",
+  "exam": "INI-CET style"
+ }
+]
