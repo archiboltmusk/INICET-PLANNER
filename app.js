@@ -44,7 +44,7 @@ const pct = x => Math.round(x * 100) + '%';
 const today = () => new Date().toISOString().slice(0, 10);
 const fmtT = s => { s = Math.max(0, Math.round(s)); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
 function qImg(q) {
-  return q.i ? `<figure class="qimg"><img src="${esc(q.i.src)}" alt="Question image" loading="lazy"><figcaption class="credit">${esc(q.i.credit)} · ${esc(q.i.lic)} · <a href="${esc(q.i.page)}" target="_blank" rel="noopener">source</a></figcaption></figure>` : '';
+  return q.i ? `<figure class="qimg"><img src="${esc(q.i.src)}" alt="Question image" loading="lazy"><figcaption class="credit">${esc(q.i.credit)} · ${esc(q.i.lic)}${q.i.page ? ` · <a href="${esc(q.i.page)}" target="_blank" rel="noopener">source</a>` : ''}</figcaption></figure>` : '';
 }
 function stemHTML(t) {
   const out = [], lines = String(t).split('\n');

@@ -51,3 +51,7 @@ Rebuild + drills merged to main; live at https://archiboltmusk.github.io/INICET-
 - +13 Commons images (Reed-Sternberg, Auer rod, Congo red, Negri, Pneumocystis, Lisch, croup steeple, epiglottitis thumb, Paget skull, EM target, acanthosis, Gottron) + 12 image MCQs. Bamboo spine and Hutchinson teeth got 429 — rerun `tools/fetch_images.py`.
 - Commons search is rate-limited (429): ~1 query/20 s. Candidate list not yet searched: Ewing onion peel, Hampton hump, smudge cells, rib notching, TAPVC snowman, cherry-red spot, Roth spots, Wickham striae, spider angioma, Histoplasma, Giardia, Plasmodium, LD bodies, microfilaria, Schistosoma, Burkitt starry sky, Hurthle, Orphan Annie, psammoma, Homer Wright, Mallory hyaline, KF ring (KF ring 1.jpg found), India ink, Datura, Abrus, Oleander.
 - PYQ-PDF images (DigiNerve/Doctutorials) NOT copied: coaching copyright on a public site.
+
+## PYQ images (8 Oct)
+- User OK'd copyrighted material (personal site). 80 recall questions now carry their original images (img/q/*.jpg, 700 px): DigiNerve Nov-2025 page, DigiNerve May-2026 PDF, Doctutorials May-2025 PDFs. They appear in Image mode, Block review and the PYQs tab. Credit "INI-CET recall paper".
+- Not done: 2022 AglaSem papers are whole-page scans (images only inside the scan; OCR text kept). Option-image questions skipped.

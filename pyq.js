@@ -16,7 +16,7 @@
           .sort((a, b) => b.y - a.y || b.n - a.n);
         document.getElementById('pq').innerHTML = `<p class="muted small">${L.length} questions${L.length > f.lim ? `, showing ${f.lim}` : ''}. Answer keys come from recall; verify anything surprising.</p>` +
           L.slice(0, f.lim).map(o => `<div class="card tight" style="margin:8px 0"><div class="row small muted"><span>${esc(o.s)}</span><span class="pill">${esc(o.x || 'recall')}${o.y ? ' ' + o.y : ''}</span>${o.n > 1 ? `<span class="pill warn">asked ${o.n}×</span>` : ''}${o.c && CI[o.c] ? `<a href="#/c/${o.c}">${esc(CI[o.c].title.slice(0, 50))}</a>` : ''}</div>
-            <div style="margin:6px 0">${esc(o.q)}</div>
+            <div style="margin:6px 0">${esc(o.q)}</div>${o.im ? `<figure class="qimg"><img src="${esc(o.im)}" alt="Question image" loading="lazy"></figure>` : ''}
             ${o.o ? o.o.map((t, k) => `<div class="small" style="${k === o.k ? 'font-weight:700;color:var(--good)' : ''}">${'ABCD'[k]}. ${esc(t)}</div>`).join('') : `<div class="small"><b>Answer:</b> ${esc(o.a)}</div>`}
             ${o.e ? `<div class="expl small">${esc(o.e)}</div>` : ''}</div>`).join('') +
           (L.length > f.lim ? '<button class="btn" id="pmore">Show 40 more</button>' : '');

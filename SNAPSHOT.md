@@ -29,3 +29,4 @@ attempts, errors{et:G|R|A|T|P (legacy K→G)}, cards, blocks, read, newLog, acti
 - 7 Oct: +28 'Discriminator:' cards on confusable pairs (TTP/HUS, NMS/SS, pemphigus/pemphigoid, Crohn/UC, transudate/exudate...). Cache v5-11. Next: distractor 'why wrong' (needs per-option explanations), daily auto-plan.
 - 7 Oct: +291 recall MCQs (2025 May/Nov, 2026 May) → 4,417 MCQs. Cache v5-12.
 - 8 Oct: +13 images, +12 image MCQs → 134 images, 4,429 MCQs. Cache v5-13.
+- 8 Oct: 80 PYQs with source images (img/q). Cache v5-14.
