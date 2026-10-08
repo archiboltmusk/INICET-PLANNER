@@ -31,4 +31,4 @@ attempts, errors{et:G|R|A|T|P (legacy K→G)}, cards, blocks, read, newLog, acti
 - 8 Oct: +13 images, +12 image MCQs → 134 images, 4,429 MCQs. Cache v5-13.
 - 8 Oct: 80 PYQs with source images (img/q). Cache v5-14.
 - 8 Oct: daily auto-plan on Today; 'Why the others are wrong' (q.w) for 12 image MCQs; +7 flows (Duke, countercurrent, GSD, urea cycle, cardiac septal, nerve-fracture pairs, DR 4-2-1). Cache v5-17.
-- 8 Oct: Instruments set: data/clusters/instruments.json (9 clusters: anaesthesia, general surgery, OBGY, ophthalmology, ENT, ortho, radiation/physics, tubes/catheters, forensic/lab) + sources/practice_sets/instruments.json (104 MCQs, tag INSTRUMENT). No images yet (Commons rate limits). Cache v5-18.
+- 8 Oct: Instruments set: data/clusters/instruments.json (9 clusters: anaesthesia, general surgery, OBGY, ophthalmology, ENT, ortho, radiation/physics, tubes/catheters, forensic/lab) + sources/practice_sets/instruments.json (104 MCQs, tag INSTRUMENT). Images: 42 photos via Openverse (CC BY/BY-SA/CC0, credit in data/images.json key ov:*; Commons 429s) + 20 image MCQs. Cache v5-19.

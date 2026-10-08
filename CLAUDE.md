@@ -14,3 +14,4 @@
 - Dated PYQs: sources/pyq_dated.json (2026 + 2022 recall); `x` field overrides sitting label. 2023-25 not openly available.
 - Algorithms: write as indented text; app renders as flowchart. Trap check requests: discriminator + next vs definitive step.
 - Instrument clusters live in data/clusters/instruments.json; MCQs tagged INSTRUMENT in sources/practice_sets/instruments.json.
+- Image fallback when Commons 429s: Openverse API (anon 20/min, 200/day; params q, license=cc0,pdm,by,by-sa), download Wikimedia files via upload.wikimedia.org/.../thumb/.../500px-NAME (works), store in img/ov_<id8>.jpg and data/images.json key ov:<id8>.

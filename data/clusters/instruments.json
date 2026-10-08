@@ -174,7 +174,36 @@
     "back": "660 nm red and 940 nm infrared."
    }
   ],
-  "images": [],
+  "images": [
+   {
+    "commons": "ov:5264805b",
+    "caption": "Miller (straight) laryngoscope blades"
+   },
+   {
+    "commons": "ov:a348280d",
+    "caption": "Laryngoscope (Macintosh type)"
+   },
+   {
+    "commons": "ov:dfbf7899",
+    "caption": "Laryngeal mask airway (LMA)"
+   },
+   {
+    "commons": "ov:9226e2de",
+    "caption": "Magill forceps"
+   },
+   {
+    "commons": "ov:787052f9",
+    "caption": "Bag-valve-mask (Ambu bag)"
+   },
+   {
+    "commons": "ov:2c6ecaec",
+    "caption": "Endotracheal tube with cuff"
+   },
+   {
+    "commons": "ov:b2abe299",
+    "caption": "Epidural needle insertion (Tuohy)"
+   }
+  ],
   "keywords": [
    "laryngoscope",
    "macintosh",
@@ -430,7 +459,40 @@
     "back": "Monofilament non-absorbable such as Prolene."
    }
   ],
-  "images": [],
+  "images": [
+   {
+    "commons": "ov:53a296ef",
+    "caption": "Allis tissue forceps"
+   },
+   {
+    "commons": "ov:d6903a3d",
+    "caption": "Kocher forceps (toothed jaw)"
+   },
+   {
+    "commons": "ov:d85adda7",
+    "caption": "Doyen retractor"
+   },
+   {
+    "commons": "ov:c60771cc",
+    "caption": "Deaver retractor"
+   },
+   {
+    "commons": "ov:7bc68d75",
+    "caption": "Proctoscope"
+   },
+   {
+    "commons": "ov:61169c21",
+    "caption": "Sengstaken-Blakemore tube (numbered scheme)"
+   },
+   {
+    "commons": "ov:28471eac",
+    "caption": "Artery forceps (haemostat)"
+   },
+   {
+    "commons": "ov:d92913a4",
+    "caption": "Disposable trocars"
+   }
+  ],
   "keywords": [
    "allis forceps",
    "babcock",
@@ -684,7 +746,20 @@
     "back": "10 years."
    }
   ],
-  "images": [],
+  "images": [
+   {
+    "commons": "ov:9f901c37",
+    "caption": "Cusco self-retaining bivalve vaginal speculum"
+   },
+   {
+    "commons": "ov:553e2c24",
+    "caption": "IUD insertion"
+   },
+   {
+    "commons": "ov:fbc8819c",
+    "caption": "Uterine curette"
+   }
+  ],
   "keywords": [
    "simpson forceps",
    "wrigley",
@@ -940,7 +1015,24 @@
     "back": "Bowman probe."
    }
   ],
-  "images": [],
+  "images": [
+   {
+    "commons": "ov:baba01a3",
+    "caption": "Direct ophthalmoscope"
+   },
+   {
+    "commons": "ov:a65b16ff",
+    "caption": "Schiotz tonometer"
+   },
+   {
+    "commons": "ov:fa6664c4",
+    "caption": "Keratometry"
+   },
+   {
+    "commons": "ov:c8fb875f",
+    "caption": "Phoropter"
+   }
+  ],
   "keywords": [
    "goldmann",
    "schiotz",
@@ -1141,7 +1233,20 @@
     "back": "Conductive loss ear; normal ear in SNHL."
    }
   ],
-  "images": [],
+  "images": [
+   {
+    "commons": "ov:1afab2de",
+    "caption": "Otoscope"
+   },
+   {
+    "commons": "ov:7f03c742",
+    "caption": "Thudichum nasal speculum"
+   },
+   {
+    "commons": "ov:73e6ef2f",
+    "caption": "Tracheostomy tube"
+   }
+  ],
   "keywords": [
    "head mirror",
    "clar",
@@ -1388,7 +1493,32 @@
     "back": "5–8 minutes."
    }
   ],
-  "images": [],
+  "images": [
+   {
+    "commons": "ov:b16e0fda",
+    "caption": "Thomas splint"
+   },
+   {
+    "commons": "ov:d43dc868",
+    "caption": "Ilizarov apparatus"
+   },
+   {
+    "commons": "ov:f73fbb08",
+    "caption": "Dynamic hip screw"
+   },
+   {
+    "commons": "ov:ad7ea387",
+    "caption": "Kirschner wire"
+   },
+   {
+    "commons": "ov:0ae9a7e7",
+    "caption": "Osteotome"
+   },
+   {
+    "commons": "ov:fa0f2336",
+    "caption": "Cervical collar"
+   }
+  ],
   "keywords": [
    "thomas splint",
    "bohler braun",
@@ -1590,7 +1720,20 @@
     "back": "Piezoelectric effect."
    }
   ],
-  "images": [],
+  "images": [
+   {
+    "commons": "ov:758985f2",
+    "caption": "Thermoluminescent dosimeter badge"
+   },
+   {
+    "commons": "ov:f1b8f8f2",
+    "caption": "Linear accelerator (Elekta)"
+   },
+   {
+    "commons": "ov:1e53d9e6",
+    "caption": "Direct-reading dosimeter"
+   }
+  ],
   "keywords": [
    "x ray tube",
    "collimator",
@@ -1797,7 +1940,24 @@
     "back": "Double-J stent."
    }
   ],
-  "images": [],
+  "images": [
+   {
+    "commons": "ov:5cdec5f0",
+    "caption": "Foley catheter (balloon inflated and deflated)"
+   },
+   {
+    "commons": "ov:35a79039",
+    "caption": "Male suprapubic catheter"
+   },
+   {
+    "commons": "ov:813e4cfd",
+    "caption": "Urinary catheter types (numbered)"
+   },
+   {
+    "commons": "ov:a15efbc3",
+    "caption": "Central venous catheter"
+   }
+  ],
   "keywords": [
    "foley catheter",
    "three way",
@@ -2090,7 +2250,24 @@
     "back": "Cryostat."
    }
   ],
-  "images": [],
+  "images": [
+   {
+    "commons": "ov:b1565653",
+    "caption": "Wintrobe tube (ESR/PCV)"
+   },
+   {
+    "commons": "ov:b27702f8",
+    "caption": "Haemocytometer (Neubauer chamber)"
+   },
+   {
+    "commons": "ov:b8f3f2da",
+    "caption": "Tuberculin syringe"
+   },
+   {
+    "commons": "ov:e52bd036",
+    "caption": "Haemoglobinometer (Sahli/Hellige type)"
+   }
+  ],
   "keywords": [
    "marsh test",
    "reinsch",
