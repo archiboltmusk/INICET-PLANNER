@@ -55,3 +55,6 @@ Rebuild + drills merged to main; live at https://archiboltmusk.github.io/INICET-
 ## PYQ images (8 Oct)
 - User OK'd copyrighted material (personal site). 80 recall questions now carry their original images (img/q/*.jpg, 700 px): DigiNerve Nov-2025 page, DigiNerve May-2026 PDF, Doctutorials May-2025 PDFs. They appear in Image mode, Block review and the PYQs tab. Credit "INI-CET recall paper".
 - Not done: 2022 AglaSem papers are whole-page scans (images only inside the scan; OCR text kept). Option-image questions skipped.
+
+## Instruments (8 Oct)
+- Done: 9 instrument clusters + 104 MCQs. TODO: attach Commons images per instrument (add `images[].commons`, run tools/fetch_images.py, retry 429s), image MCQs in sources/image_questions.json, paediatric/medicine bedside equipment cluster, verify flags.

@@ -1708,5 +1708,287 @@
    "CD3 and CD5 are T-cell markers",
    "CD138 is plasma cell/myeloma"
   ]
+ },
+ {
+  "src": "ov_5264805b",
+  "s": "Anesthesia",
+  "c": "ins-anaesthesia",
+  "q": "The straight blades shown are preferred for intubating",
+  "o": [
+   "Obese adults",
+   "Neonates and infants",
+   "Patients with mouth opening <1 cm",
+   "Awake fibreoptic intubation"
+  ],
+  "a": 1,
+  "e": "Miller (straight) blade lifts the long floppy epiglottis directly; used in infants. Macintosh (curved) sits in the vallecula.",
+  "w": "Macintosh is the curved adult blade; the others need videolaryngoscope/fibreoptic routes."
+ },
+ {
+  "src": "ov_dfbf7899",
+  "s": "Anesthesia",
+  "c": "ins-anaesthesia",
+  "q": "This device is best described as a",
+  "o": [
+   "Infraglottic airway that protects against aspiration",
+   "Supraglottic airway that does not protect against aspiration",
+   "Oropharyngeal airway for awake patients",
+   "Cuffed nasotracheal tube"
+  ],
+  "a": 1,
+  "e": "LMA sits over the laryngeal inlet (supraglottic); it does not secure against aspiration, so avoid in full stomach."
+ },
+ {
+  "src": "ov_9226e2de",
+  "s": "Anesthesia",
+  "c": "ins-anaesthesia",
+  "q": "The instrument shown is used to",
+  "o": [
+   "Hold the tongue during intubation",
+   "Guide a nasotracheal/NG tube and remove pharyngeal foreign bodies",
+   "Measure cuff pressure",
+   "Dilate the trachea"
+  ],
+  "a": 1,
+  "e": "Magill forceps: angled, offset handles so the view is not blocked; guides nasal tubes and removes foreign bodies."
+ },
+ {
+  "src": "ov_787052f9",
+  "s": "Anesthesia",
+  "c": "ins-anaesthesia",
+  "q": "The device shown delivers high-concentration O2 when connected to",
+  "o": [
+   "A reservoir bag and O2 at about 15 L/min",
+   "Room air only",
+   "Suction at 100 mmHg",
+   "A CO2 absorber"
+  ],
+  "a": 0,
+  "e": "Self-inflating bag-valve-mask: attach reservoir and O2 at ~15 L/min for emergency ventilation."
+ },
+ {
+  "src": "ov_9f901c37",
+  "s": "OBGY",
+  "c": "ins-obgy",
+  "q": "The speculum shown is",
+  "o": [
+   "Sims",
+   "Cusco (Graves-type bivalve)",
+   "Auvard",
+   "Pederson"
+  ],
+  "a": 1,
+  "e": "Cusco is the self-retaining bivalve speculum used for cervical examination, Pap smear and IUCD insertion."
+ },
+ {
+  "src": "ov_fbc8819c",
+  "s": "OBGY",
+  "c": "ins-obgy",
+  "q": "The instrument shown is used for",
+  "o": [
+   "Dilatation and curettage",
+   "Cervical biopsy punch",
+   "Ventouse delivery",
+   "Tubal ligation"
+  ],
+  "a": 0,
+  "e": "Uterine curette (with looped/sharp ends) scrapes the endometrium in D&C. Uterine perforation is the main hazard."
+ },
+ {
+  "src": "ov_5cdec5f0",
+  "s": "Surgery",
+  "c": "ins-tubes-catheters",
+  "q": "The numbered balloon-tipped catheter is a",
+  "o": [
+   "Foley catheter",
+   "Ryle's tube",
+   "Malecot catheter",
+   "Sengstaken tube"
+  ],
+  "a": 0,
+  "e": "Foley: self-retaining balloon, inflate with sterile water (not saline) to avoid crystallisation and failure to deflate."
+ },
+ {
+  "src": "ov_61169c21",
+  "s": "Surgery",
+  "c": "ins-surgery-general",
+  "q": "This tube is used for temporary control of",
+  "o": [
+   "Bleeding oesophageal varices",
+   "Peptic ulcer perforation",
+   "Pyloric stenosis",
+   "Achalasia"
+  ],
+  "a": 0,
+  "e": "Sengstaken-Blakemore: gastric and oesophageal balloons tamponade variceal bleeding; bridging until endoscopic or TIPS therapy. Minnesota tube adds an oesophageal aspiration port."
+ },
+ {
+  "src": "ov_a65b16ff",
+  "s": "Ophthalmology",
+  "c": "ins-ophthalmology",
+  "q": "The instrument shown measures intraocular pressure by",
+  "o": [
+   "Indentation of the cornea",
+   "Applanation of a fixed area",
+   "Air-puff",
+   "Ultrasound biometry"
+  ],
+  "a": 0,
+  "e": "Schiotz is an indentation tonometer (patient supine). Goldmann applanation is the gold standard.",
+  "w": "Goldmann = applanation; air-puff = non-contact."
+ },
+ {
+  "src": "ov_baba01a3",
+  "s": "Ophthalmology",
+  "c": "ins-ophthalmology",
+  "q": "A direct ophthalmoscope gives an image that is",
+  "o": [
+   "Upright, virtual, magnified about 15×",
+   "Inverted, real, magnified 3×",
+   "Inverted, virtual, 5×",
+   "Upright, real, 2×"
+  ],
+  "a": 0,
+  "e": "Direct ophthalmoscopy: virtual, erect image, ~15× magnification, narrow field. Indirect: real, inverted, 3–5×, wide field."
+ },
+ {
+  "src": "ov_c8fb875f",
+  "s": "Ophthalmology",
+  "c": "ins-ophthalmology",
+  "q": "The device shown is used for",
+  "o": [
+   "Subjective refraction",
+   "Corneal topography",
+   "Field testing",
+   "Intraocular pressure"
+  ],
+  "a": 0,
+  "e": "Phoropter holds trial lenses and cylinders for subjective refraction."
+ },
+ {
+  "src": "ov_7f03c742",
+  "s": "ENT",
+  "c": "ins-ent",
+  "q": "The instrument shown is",
+  "o": [
+   "Thudichum nasal speculum",
+   "Killian speculum",
+   "Politzer bag",
+   "Jobson Horne probe"
+  ],
+  "a": 0,
+  "e": "Thudichum: bivalve anterior rhinoscopy speculum. Killian is used in septal surgery."
+ },
+ {
+  "src": "ov_73e6ef2f",
+  "s": "ENT",
+  "c": "ins-ent",
+  "q": "The tube shown with an inner cannula is meant to",
+  "o": [
+   "Allow cleaning of the inner tube without removing the outer tube",
+   "Provide phonation only",
+   "Drain the stomach",
+   "Be used only in neonates"
+  ],
+  "a": 0,
+  "e": "Inner cannula can be removed and cleaned, preventing crusting and blockage; the outer tube stays in situ."
+ },
+ {
+  "src": "ov_b16e0fda",
+  "s": "Orthopedics",
+  "c": "ins-ortho",
+  "q": "The splint shown is used for first-aid immobilisation of",
+  "o": [
+   "Fracture shaft of femur",
+   "Fracture clavicle",
+   "Colles fracture",
+   "Fracture scaphoid"
+  ],
+  "a": 0,
+  "e": "Thomas splint gives traction and immobilisation for femoral shaft fractures (reduces fat embolism, pain, blood loss)."
+ },
+ {
+  "src": "ov_d43dc868",
+  "s": "Orthopedics",
+  "c": "ins-ortho",
+  "q": "The circular external fixator shown is classically used for",
+  "o": [
+   "Limb lengthening and complex fractures by distraction osteogenesis",
+   "Spinal stabilisation",
+   "Cervical traction",
+   "Skull fractures"
+  ],
+  "a": 0,
+  "e": "Ilizarov ring fixator with tensioned wires: distraction osteogenesis, deformity correction, bone transport."
+ },
+ {
+  "src": "ov_fa0f2336",
+  "s": "Orthopedics",
+  "c": "ins-ortho",
+  "q": "The device shown is applied in trauma to",
+  "o": [
+   "Immobilise the cervical spine pending imaging",
+   "Treat torticollis",
+   "Support the thoracic spine",
+   "Treat whiplash long term"
+  ],
+  "a": 0,
+  "e": "Hard cervical collar = spinal precautions in trauma until cleared."
+ },
+ {
+  "src": "ov_758985f2",
+  "s": "Radiology",
+  "c": "ins-radiation-physics",
+  "q": "The badge shown records",
+  "o": [
+   "Cumulative occupational radiation dose",
+   "Instantaneous dose rate",
+   "Radioactive contamination",
+   "Ultrasound intensity"
+  ],
+  "a": 0,
+  "e": "TLD/film badges measure cumulative dose. Pen dosimeters give a direct reading. Occupational limit: 20 mSv/year averaged over 5 years."
+ },
+ {
+  "src": "ov_f1b8f8f2",
+  "s": "Radiology",
+  "c": "ins-radiation-physics",
+  "q": "The machine shown is used for",
+  "o": [
+   "External beam megavoltage radiotherapy",
+   "Nuclear imaging",
+   "MRI scanning",
+   "Brachytherapy"
+  ],
+  "a": 0,
+  "e": "LINAC accelerates electrons; produces MV photons or electrons for external-beam radiotherapy."
+ },
+ {
+  "src": "ov_b1565653",
+  "s": "Pathology",
+  "c": "ins-forensic-lab",
+  "q": "The Wintrobe tube is used for",
+  "o": [
+   "ESR and packed cell volume",
+   "Bleeding time",
+   "Platelet count",
+   "Blood grouping"
+  ],
+  "a": 0,
+  "e": "Wintrobe: 100 mm tube; ESR and PCV. Westergren (200 mm, 2 mL) is the standard ICSH method."
+ },
+ {
+  "src": "ov_b27702f8",
+  "s": "Pathology",
+  "c": "ins-forensic-lab",
+  "q": "The counting chamber shown has a depth of",
+  "o": [
+   "0.1 mm",
+   "1 mm",
+   "0.01 mm",
+   "0.5 mm"
+  ],
+  "a": 0,
+  "e": "Improved Neubauer: depth 0.1 mm, central grid 3 mm × 3 mm."
  }
 ]
