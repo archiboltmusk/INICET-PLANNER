@@ -16,7 +16,8 @@ const $app = document.getElementById('app');
 
 let Q = null, QI = null;
 function questions() {
-  if (!Q) { Q = window.DATA_QUESTIONS || []; QI = Object.fromEntries(Q.map(q => [q.id, q])); }
+  // q.m = stem needs an image we don't have: keep for old block reviews (QI) but never serve it
+  if (!Q) { const all = window.DATA_QUESTIONS || []; QI = Object.fromEntries(all.map(q => [q.id, q])); Q = all.filter(q => !q.m); }
   return Q;
 }
 
@@ -163,7 +164,7 @@ function pickImages(n, subject) {
 }
 function pickPurge(n) {
   const ids = [...new Set(S.errors.filter(e => !e.resolved).sort((a, b) => b.ts - a.ts).map(e => e.qid))];
-  return shuffle(ids.filter(id => QI[id]).slice(0, n));
+  return shuffle(ids.filter(id => QI[id] && !QI[id].m).slice(0, n));
 }
 
 /* ---------- router ---------- */
