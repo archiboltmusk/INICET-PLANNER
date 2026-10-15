@@ -1,0 +1,2202 @@
+[
+ {
+  "id": "hy_g_001",
+  "subject": "Pharmacology",
+  "sub_topic": "General pharmacology – PK calculation",
+  "stem": "A 70-kg man needs an intravenous loading dose of a drug whose volume of distribution is 0.5 L/kg. The target plasma concentration is 10 mg/L. What loading dose is required?",
+  "options": [
+   "350 mg",
+   "700 mg",
+   "35 mg",
+   "175 mg"
+  ],
+  "correct_index": 0,
+  "explanation": "Loading dose = target concentration × Vd ÷ F = 10 mg/L × (0.5 × 70 = 35 L) ÷ 1 = 350 mg. The loading dose depends on Vd, and the maintenance dose depends on clearance. Source: Katzung Basic & Clinical Pharmacology; KD Tripathi.",
+  "w": [
+   "",
+   "Uses a Vd of 1 L/kg instead of 0.5 L/kg.",
+   "Uses a Vd of 3.5 L; it forgets to multiply 0.5 L/kg by body weight properly.",
+   "Halves the correct value; no bioavailability correction applies to an IV dose."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_002",
+  "subject": "Pharmacology",
+  "sub_topic": "General pharmacology – PK calculation",
+  "stem": "A drug with clearance 5 L/h and oral bioavailability 0.5 is to be kept at a steady-state plasma concentration of 2 mg/L. What oral dosing rate is required?",
+  "options": [
+   "20 mg/h",
+   "10 mg/h",
+   "5 mg/h",
+   "2.5 mg/h"
+  ],
+  "correct_index": 0,
+  "explanation": "Maintenance dosing rate = CL × Css ÷ F = 5 L/h × 2 mg/L ÷ 0.5 = 20 mg/h. At steady state, the rate in equals the rate out (CL × Css). Source: Katzung Basic & Clinical Pharmacology.",
+  "w": [
+   "",
+   "Ignores bioavailability; this is the IV rate (CL × Css).",
+   "Multiplies by F instead of dividing by it.",
+   "Divides the target concentration by clearance; the units do not give a dosing rate."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_003",
+  "subject": "Pharmacology",
+  "sub_topic": "General pharmacology – PK calculation",
+  "stem": "A drug has a volume of distribution of 40 L and a total clearance of 4 L/h. What is its approximate elimination half-life?",
+  "options": [
+   "About 10 hours",
+   "About 0.07 hours",
+   "About 7 hours",
+   "About 110 hours"
+  ],
+  "correct_index": 2,
+  "explanation": "t½ = 0.693 × Vd ÷ CL = 0.693 × 40 ÷ 4 ≈ 6.9 h. Half-life rises when Vd rises or clearance falls. Source: Katzung Basic & Clinical Pharmacology; Goodman & Gilman.",
+  "w": [
+   "Uses Vd/CL without multiplying by 0.693 (this is the time constant, not the half-life).",
+   "Inverts the ratio (0.693 × CL/Vd gives the rate constant's scale, not t½).",
+   "",
+   "Multiplies Vd by CL instead of dividing."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_004",
+  "subject": "Pharmacology",
+  "sub_topic": "General pharmacology – PK calculation",
+  "stem": "A drug with an elimination half-life of 8 hours is started as a constant intravenous infusion without a loading dose. About how long will it take to reach roughly 94–97% of the final steady-state concentration?",
+  "options": [
+   "32–40 hours",
+   "8 hours",
+   "16 hours",
+   "80 hours"
+  ],
+  "correct_index": 0,
+  "explanation": "Under first-order kinetics, 4–5 half-lives give about 94–97% of steady state (4 × 8 to 5 × 8 h). The time to steady state depends only on t½, not on the dose or the infusion rate; a loading dose is used to get there faster. Source: KD Tripathi; Katzung.",
+  "w": [
+   "",
+   "One half-life gives only 50% of steady state.",
+   "Two half-lives give only 75% of steady state.",
+   "Ten half-lives give over 99.9%; that is more than needed for practical steady state."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_005",
+  "subject": "Pharmacology",
+  "sub_topic": "General pharmacology – PK calculation",
+  "stem": "In animal studies, a new drug has an ED50 of 10 mg/kg and an LD50 of 400 mg/kg. What is its therapeutic index?",
+  "options": [
+   "40",
+   "0.025",
+   "390",
+   "4000"
+  ],
+  "correct_index": 0,
+  "explanation": "Therapeutic index = LD50 (or TD50) ÷ ED50 = 400 ÷ 10 = 40. A higher index means a wider safety margin; the therapeutic window in humans is the more clinically useful measure. Source: KD Tripathi; Katzung.",
+  "w": [
+   "",
+   "Divides ED50 by LD50; the index is LD50/ED50.",
+   "Subtracts the values instead of taking their ratio.",
+   "Multiplies the values instead of taking their ratio."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_006",
+  "subject": "Pharmacology",
+  "sub_topic": "General pharmacology – PK calculation",
+  "stem": "An oral dose of 100 mg of a drug gives an AUC of 30 mg·h/L. An intravenous dose of 50 mg of the same drug gives an AUC of 30 mg·h/L. What is the oral bioavailability?",
+  "options": [
+   "100%",
+   "200%",
+   "25%",
+   "50%"
+  ],
+  "correct_index": 3,
+  "explanation": "F = (AUCoral ÷ Doseoral) ÷ (AUCiv ÷ Doseiv) = (30/100) ÷ (30/50) = 0.5. Incomplete absorption and first-pass metabolism lower F. Source: Katzung Basic & Clinical Pharmacology.",
+  "w": [
+   "Compares the AUCs without correcting for the different doses.",
+   "Inverts the dose correction; bioavailability cannot exceed 100%.",
+   "Applies the dose correction twice.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_007",
+  "subject": "Pharmacology",
+  "sub_topic": "General pharmacology – kinetics",
+  "stem": "A 30-year-old man on phenytoin 300 mg/day has a subtherapeutic level, so his dose is raised to 400 mg/day. Two weeks later he has nystagmus and ataxia, and his plasma level has risen much more than in proportion to the dose. What best explains this?",
+  "options": [
+   "Auto-induction of its own metabolism",
+   "Saturation of hepatic metabolism, so elimination shifts to zero-order kinetics",
+   "Reduced renal excretion of unchanged phenytoin",
+   "Higher oral bioavailability at higher doses"
+  ],
+  "correct_index": 1,
+  "explanation": "Phenytoin follows Michaelis–Menten kinetics. Near the therapeutic range its metabolising enzymes saturate, so a small dose increase causes a large rise in level and toxicity. Other drugs with dose-dependent (zero-order) elimination at high doses are alcohol and high-dose aspirin. Source: KD Tripathi; Goodman & Gilman.",
+  "w": [
+   "Auto-induction (as with carbamazepine) would lower levels, not raise them out of proportion.",
+   "",
+   "Phenytoin is mainly cleared by the liver; very little is excreted unchanged in urine.",
+   "Absorption does not explain a disproportionate rise; saturable metabolism does."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_008",
+  "subject": "Pharmacology",
+  "sub_topic": "General pharmacology – dose-response",
+  "stem": "In an isolated gut preparation, drug X shifts the log dose–response curve of acetylcholine to the right in parallel. The maximal response is unchanged and is reached with higher acetylcholine concentrations. Drug X is best classified as:",
+  "options": [
+   "An irreversible (non-equilibrium) antagonist",
+   "A competitive reversible antagonist (e.g., atropine)",
+   "A non-competitive antagonist acting at an allosteric site",
+   "A physiological antagonist acting through a different receptor"
+  ],
+  "correct_index": 1,
+  "explanation": "A surmountable parallel rightward shift with the same Emax is the hallmark of competitive reversible antagonism: potency (EC50) falls but efficacy is kept. Non-competitive and irreversible antagonists lower the maximum. Source: KD Tripathi; Katzung.",
+  "w": [
+   "This lowers the maximal response, which higher agonist doses cannot overcome.",
+   "",
+   "This depresses Emax rather than producing a parallel shift.",
+   "This opposes the effect through another receptor; it does not give a surmountable parallel shift of the ACh curve."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_009",
+  "subject": "Pharmacology",
+  "sub_topic": "General pharmacology – drug interactions",
+  "stem": "A 65-year-old woman whose INR is stable on warfarin is given metronidazole for amoebic colitis. A week later her INR is 7 and she has gum bleeding. What is the main mechanism of this interaction?",
+  "options": [
+   "Induction of CYP3A4, forming an active warfarin metabolite",
+   "Inhibition of CYP2C9-mediated metabolism of S-warfarin",
+   "Displacement of warfarin from albumin as the sole mechanism",
+   "Increased absorption of dietary vitamin K"
+  ],
+  "correct_index": 1,
+  "explanation": "S-warfarin, the more potent enantiomer, is cleared by CYP2C9. Metronidazole, cotrimoxazole, fluconazole and amiodarone inhibit this pathway and raise the INR. Inducers such as rifampicin and carbamazepine lower it. Source: Goodman & Gilman; KD Tripathi.",
+  "w": [
+   "Warfarin is not a prodrug, and induction would lower its effect.",
+   "",
+   "Displacement causes only a transient rise in free drug; the lasting effect comes from inhibited metabolism.",
+   "More vitamin K would lower the INR, not raise it."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_010",
+  "subject": "Pharmacology",
+  "sub_topic": "General pharmacology – CYP inducers/inhibitors",
+  "stem": "Which of the following are inducers of hepatic microsomal (CYP) enzymes? 1. Rifampicin 2. Carbamazepine 3. Ketoconazole 4. Phenytoin",
+  "options": [
+   "1, 2 and 4",
+   "1, 2 and 3",
+   "2, 3 and 4",
+   "1 and 3 only"
+  ],
+  "correct_index": 0,
+  "explanation": "Rifampicin, carbamazepine, phenytoin, phenobarbitone, griseofulvin and St John's wort induce CYP enzymes; they can cause oral contraceptive failure and reduce warfarin's effect. Azoles, macrolides (except azithromycin), ritonavir, cimetidine and grapefruit juice inhibit them. Source: KD Tripathi; Katzung.",
+  "w": [
+   "",
+   "Ketoconazole is a potent CYP3A4 inhibitor, not an inducer.",
+   "Includes ketoconazole (an inhibitor) and leaves out rifampicin, the most potent inducer.",
+   "Includes an inhibitor and leaves out carbamazepine and phenytoin."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_011",
+  "subject": "Pharmacology",
+  "sub_topic": "General pharmacology – pharmacogenetics",
+  "stem": "A 55-year-old man on clopidogrel after coronary stenting develops stent thrombosis. Genotyping shows he carries two CYP2C19 loss-of-function alleles. What is the basis of the drug failure?",
+  "options": [
+   "Reduced conversion of the prodrug to its active thiol metabolite",
+   "Faster clearance of the active metabolite",
+   "Mutation of the P2Y12 receptor that prevents binding",
+   "Failure to inhibit platelet COX-1"
+  ],
+  "correct_index": 0,
+  "explanation": "Clopidogrel is a prodrug that needs CYP2C19 to become active, so poor metabolisers get less platelet inhibition. Ticagrelor acts directly and needs no activation, which makes it an alternative. Omeprazole and esomeprazole inhibit CYP2C19, so pantoprazole is the preferred PPI. Source: Goodman & Gilman; Katzung.",
+  "w": [
+   "",
+   "The defect is in forming the active metabolite, not in clearing it.",
+   "The receptor is normal; too little active drug is made.",
+   "Clopidogrel acts on P2Y12 ADP receptors; COX-1 is aspirin's target."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_012",
+  "subject": "Pharmacology",
+  "sub_topic": "ANS – organophosphate poisoning",
+  "stem": "Assertion (A): In organophosphate poisoning, pralidoxime should be given as early as possible. Reason (R): Phosphorylated acetylcholinesterase undergoes 'ageing', after which oximes cannot reactivate it.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "Oximes remove the phosphate group from the enzyme, but only before ageing (loss of an alkyl group) makes the bond permanent. Atropine is the main treatment for muscarinic features, while oximes help the nicotinic (neuromuscular) effects. Source: KD Tripathi; Goodman & Gilman.",
+  "w": [
+   "",
+   "R is the reason for giving it early, so it does explain A.",
+   "R is true; ageing is a well-known step after phosphorylation.",
+   "A is true; oximes work best before ageing occurs."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_013",
+  "subject": "Pharmacology",
+  "sub_topic": "ANS – toxidromes",
+  "stem": "A 6-year-old boy who ate seeds from a garden shrub has hot, dry, flushed skin, dilated pupils, tachycardia, urinary retention, absent bowel sounds and agitated delirium. Which specific antidote reverses both the central and the peripheral features?",
+  "options": [
+   "Neostigmine",
+   "Pralidoxime",
+   "Physostigmine",
+   "Atropine"
+  ],
+  "correct_index": 2,
+  "explanation": "This is the anticholinergic (Datura) toxidrome: hot, dry, red, blind and mad. Physostigmine is a tertiary amine anticholinesterase that enters the CNS. Avoid it when a TCA overdose with QRS widening is possible. Source: KD Tripathi; Goldfrank's Toxicologic Emergencies.",
+  "w": [
+   "A quaternary amine that does not cross the blood–brain barrier, so it does not reverse delirium.",
+   "Reactivates organophosphate-inhibited cholinesterase; it is not used for anticholinergic poisoning.",
+   "",
+   "This is itself an antimuscarinic and would worsen the toxidrome."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_014",
+  "subject": "Pharmacology",
+  "sub_topic": "ANS – adrenergic drugs",
+  "stem": "In an anaesthetised dog pretreated with phenoxybenzamine, a pressor dose of adrenaline is injected intravenously. What blood pressure response is expected?",
+  "options": [
+   "An exaggerated rise in blood pressure",
+   "No change in blood pressure",
+   "A fall in blood pressure",
+   "A rise followed by a secondary fall, as in an untreated animal"
+  ],
+  "correct_index": 2,
+  "explanation": "This is Dale's vasomotor reversal: with α1 blocked, adrenaline's β2 vasodilation is unopposed and BP falls. Noradrenaline, which has little β2 action, shows no reversal, and isoprenaline lowers BP whether or not an α-blocker is present. Source: KD Tripathi.",
+  "w": [
+   "With α receptors blocked, the vasoconstrictor (pressor) component is lost.",
+   "β2-mediated vasodilation is unmasked, so BP falls rather than staying the same.",
+   "",
+   "That biphasic response is seen without α-blockade."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_015",
+  "subject": "Pharmacology",
+  "sub_topic": "ANS – toxicology",
+  "stem": "A 40-year-old man takes a large overdose of propranolol. His heart rate is 38/min and BP 70/40 mm Hg, unresponsive to atropine and fluids. Which agent raises myocardial cAMP independently of β-adrenergic receptors?",
+  "options": [
+   "Isoprenaline",
+   "Calcium gluconate",
+   "Atropine",
+   "Glucagon"
+  ],
+  "correct_index": 3,
+  "explanation": "Glucagon activates its own Gs-coupled receptor on cardiac myocytes, stimulating adenylyl cyclase and bypassing the β-blockade. High-dose insulin–euglycaemia therapy and pacing are other options. Source: Goodman & Gilman; Goldfrank's Toxicologic Emergencies.",
+  "w": [
+   "Acts through the β receptors that are competitively blocked, so very high doses are needed.",
+   "Can support contractility, but it does not act by raising cAMP.",
+   "Muscarinic antagonist; already ineffective here and does not raise cAMP.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_016",
+  "subject": "Pharmacology",
+  "sub_topic": "ANS – vasopressors",
+  "stem": "A 60-year-old man with septic shock still has a MAP of 55 mm Hg after initial crystalloid resuscitation. Which vasopressor is recommended first line?",
+  "options": [
+   "Norepinephrine",
+   "Dopamine",
+   "Vasopressin",
+   "Dobutamine"
+  ],
+  "correct_index": 0,
+  "explanation": "Surviving Sepsis Campaign 2021 recommends norepinephrine as the first-line vasopressor, targeting a MAP of 65 mm Hg. Vasopressin is added next, and epinephrine after that. Dopamine carries a higher risk of arrhythmia. Source: Surviving Sepsis Campaign Guidelines 2021.",
+  "w": [
+   "",
+   "Causes more arrhythmias than norepinephrine and is no longer first line.",
+   "Recommended as an add-on when norepinephrine needs are rising, not as the first agent.",
+   "An inotrope that may worsen vasodilatory hypotension; added for cardiac dysfunction."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_017",
+  "subject": "Pharmacology",
+  "sub_topic": "ANS – anaphylaxis",
+  "stem": "Within minutes of a wasp sting, a 25-year-old man has stridor, wheeze and a BP of 80/50 mm Hg. What is the most appropriate first drug and route?",
+  "options": [
+   "Adrenaline 1 mg IV bolus (10 mL of 0.1 mg/mL)",
+   "Hydrocortisone 200 mg IV",
+   "Adrenaline 0.5 mg IM (0.5 mL of 1 mg/mL) into the anterolateral thigh",
+   "Chlorphenamine 10 mg IV"
+  ],
+  "correct_index": 2,
+  "explanation": "IM adrenaline into the thigh is the first-line treatment for anaphylaxis, repeated after 5 minutes if needed. IV adrenaline is given only as a titrated infusion by experienced staff for refractory cases. Source: Resuscitation Council UK Anaphylaxis Guideline 2021.",
+  "w": [
+   "This is the cardiac-arrest dose; an IV bolus in a patient with a pulse risks arrhythmia and severe hypertension.",
+   "Acts slowly and is not life-saving in the first minutes; it is no longer routinely advised.",
+   "",
+   "Antihistamines help skin symptoms but do not treat airway obstruction or shock."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_018",
+  "subject": "Pharmacology",
+  "sub_topic": "ANS – receptors",
+  "stem": "Match each receptor with its transduction mechanism. A. α2-adrenergic  B. β1-adrenergic  C. M3-muscarinic  D. Nicotinic NN — 1. Gq → phospholipase C → IP3/DAG  2. Ligand-gated cation channel  3. Gi → ↓cAMP  4. Gs → ↑cAMP",
+  "options": [
+   "A-4, B-3, C-1, D-2",
+   "A-3, B-4, C-1, D-2",
+   "A-3, B-4, C-2, D-1",
+   "A-1, B-4, C-3, D-2"
+  ],
+  "correct_index": 1,
+  "explanation": "α1, M1, M3 and M5 are Gq-coupled; α2, M2 and M4 are Gi-coupled; all β receptors and D1 are Gs-coupled. Nicotinic receptors (NN and NM) are pentameric ligand-gated ion channels. Source: KD Tripathi; Katzung.",
+  "w": [
+   "Swaps α2 and β1; α2 is Gi-coupled and β1 is Gs-coupled.",
+   "",
+   "M3 is a GPCR (Gq), whereas nicotinic receptors are ion channels.",
+   "α1 (not α2) is Gq-coupled, and M2 (not M3) is Gi-coupled."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_019",
+  "subject": "Pharmacology",
+  "sub_topic": "Antimicrobials – aminoglycosides",
+  "stem": "Assertion (A): Aminoglycosides are effective against anaerobic bacteria. Reason (R): Uptake of aminoglycosides into bacterial cells requires oxygen-dependent active transport.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 3,
+  "explanation": "Because uptake needs oxygen-dependent transport, anaerobes are intrinsically resistant, and activity also falls in acidic, hypoxic abscesses. β-lactams increase aminoglycoside entry, which explains their synergy. Source: KD Tripathi; Goodman & Gilman.",
+  "w": [
+   "A is false, so R cannot explain it.",
+   "A is false; aminoglycosides are inactive against anaerobes.",
+   "R is true; uptake needs oxygen-dependent transport.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_020",
+  "subject": "Pharmacology",
+  "sub_topic": "Antimicrobials – resistance",
+  "stem": "Enterococcus faecium isolated from a urinary catheter is highly resistant to vancomycin (vanA phenotype). What is the molecular basis of this resistance?",
+  "options": [
+   "The cell-wall precursor terminus changes from D-Ala-D-Ala to D-Ala-D-Lac",
+   "Production of PBP2a with low affinity for the drug",
+   "An enzyme that inactivates vancomycin",
+   "An efflux pump that expels vancomycin"
+  ],
+  "correct_index": 0,
+  "explanation": "Vancomycin binds the D-Ala-D-Ala terminus of peptidoglycan precursors. VanA and VanB replace it with D-Ala-D-Lac, which lowers binding about 1000-fold; low-level vanC resistance uses D-Ala-D-Ser. Linezolid or daptomycin are used for VRE. Source: Goodman & Gilman; Apurba Sastry Essentials of Medical Microbiology.",
+  "w": [
+   "",
+   "That is the mecA mechanism of methicillin resistance in staphylococci.",
+   "Vancomycin is not enzymatically destroyed; its target is altered.",
+   "Efflux is not the vanA mechanism; vancomycin acts outside the cytoplasmic membrane."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_021",
+  "subject": "Pharmacology",
+  "sub_topic": "Antimicrobials – resistance",
+  "stem": "What is the basis of methicillin resistance in Staphylococcus aureus?",
+  "options": [
+   "Production of β-lactamase (penicillinase)",
+   "mecA-encoded penicillin-binding protein 2a with low affinity for β-lactams",
+   "Loss of outer-membrane porins",
+   "Replacement of D-Ala-D-Ala with D-Ala-D-Lac"
+  ],
+  "correct_index": 1,
+  "explanation": "mecA, carried on SCCmec, encodes PBP2a, which keeps building the cell wall in the presence of most β-lactams. Labs detect it with the cefoxitin disc test or PCR. Ceftaroline is the β-lactam that binds PBP2a, and vancomycin or linezolid are other options. Source: Goodman & Gilman; Apurba Sastry; CLSI.",
+  "w": [
+   "Methicillin and oxacillin are penicillinase-resistant, so β-lactamase does not explain MRSA.",
+   "",
+   "S. aureus is Gram-positive and has no outer membrane.",
+   "That is the vancomycin-resistance mechanism in enterococci."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_022",
+  "subject": "Pharmacology",
+  "sub_topic": "Antimicrobials – mechanisms & adverse effects",
+  "stem": "A patient who has taken linezolid for 4 weeks as part of an MDR-TB regimen develops thrombocytopenia and peripheral neuropathy. How does linezolid act?",
+  "options": [
+   "It binds the 30S subunit and causes misreading of mRNA",
+   "It binds the 30S subunit and blocks aminoacyl-tRNA attachment at the A site",
+   "It binds 23S rRNA of the 50S subunit and prevents formation of the 70S initiation complex",
+   "It inhibits DNA-dependent RNA polymerase"
+  ],
+  "correct_index": 2,
+  "explanation": "Linezolid, an oxazolidinone, blocks translation at the initiation step, so cross-resistance with other protein-synthesis inhibitors is uncommon. Courses longer than 2 weeks cause myelosuppression and optic or peripheral neuropathy. It is also a weak MAO inhibitor, so serotonin syndrome can occur with SSRIs. Source: KD Tripathi; Goodman & Gilman.",
+  "w": [
+   "This is the mechanism of aminoglycosides.",
+   "This is the mechanism of tetracyclines.",
+   "",
+   "This is the mechanism of rifampicin."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_023",
+  "subject": "Pharmacology",
+  "sub_topic": "Antimicrobials – fluoroquinolones",
+  "stem": "Which statements about fluoroquinolones are correct? 1. They inhibit bacterial DNA gyrase and topoisomerase IV. 2. Antacids containing Mg/Al increase their absorption. 3. They can prolong the QT interval. 4. The risk of tendinopathy is lower in elderly patients taking corticosteroids.",
+  "options": [
+   "1, 2 and 3",
+   "1 and 3 only",
+   "1, 3 and 4",
+   "2 and 4 only"
+  ],
+  "correct_index": 1,
+  "explanation": "Fluoroquinolones target DNA gyrase (mainly in Gram-negatives) and topoisomerase IV (mainly in Gram-positives). Important adverse effects include QT prolongation, tendinitis and Achilles rupture, dysglycaemia and CNS effects. Because of cartilage toxicity in young animals, they are generally avoided in children. Source: KD Tripathi; Goodman & Gilman.",
+  "w": [
+   "Divalent and trivalent cations chelate fluoroquinolones and reduce their absorption.",
+   "",
+   "Age over 60 and corticosteroid use increase, not decrease, the risk of tendon rupture.",
+   "Both statements are false."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_024",
+  "subject": "Pharmacology",
+  "sub_topic": "Antimicrobials – drug of choice",
+  "stem": "A woman who is 20 weeks pregnant has secondary syphilis and a documented history of anaphylaxis to penicillin. What is the most appropriate treatment?",
+  "options": [
+   "Doxycycline for 14 days",
+   "Penicillin desensitisation followed by benzathine penicillin G",
+   "Erythromycin",
+   "Ceftriaxone"
+  ],
+  "correct_index": 1,
+  "explanation": "Penicillin is the only drug proven to treat maternal syphilis and prevent congenital syphilis, so pregnant women with penicillin allergy should be desensitised. Watch for a Jarisch–Herxheimer reaction, which can trigger preterm labour. Source: CDC STI Treatment Guidelines 2021.",
+  "w": [
+   "Tetracyclines are contraindicated in pregnancy because they affect fetal teeth and bone.",
+   "",
+   "Does not reliably cross the placenta or treat the fetus, so congenital syphilis can still occur.",
+   "Not an established alternative in pregnancy; CDC advises desensitisation and penicillin."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_025",
+  "subject": "Pharmacology",
+  "sub_topic": "Antimicrobials – antitubercular drugs",
+  "stem": "Match each antitubercular drug with a characteristic adverse effect. A. Isoniazid  B. Rifampicin  C. Pyrazinamide  D. Ethambutol — 1. Retrobulbar neuritis with red–green colour loss  2. Hyperuricaemia and arthralgia  3. Peripheral neuropathy preventable with pyridoxine  4. Orange-red body fluids and a flu-like syndrome",
+  "options": [
+   "A-3, B-2, C-4, D-1",
+   "A-1, B-4, C-2, D-3",
+   "A-2, B-4, C-3, D-1",
+   "A-3, B-4, C-2, D-1"
+  ],
+  "correct_index": 3,
+  "explanation": "Isoniazid depletes pyridoxine, which causes neuropathy (worse in slow acetylators), and it is also hepatotoxic. Rifampicin colours body fluids orange and causes flu-like illness with intermittent dosing. Pyrazinamide reduces urate excretion and is the most hepatotoxic of the three, and ethambutol causes dose-related optic neuritis. Source: KD Tripathi; NTEP India Guidelines.",
+  "w": [
+   "Swaps rifampicin and pyrazinamide; pyrazinamide causes hyperuricaemia.",
+   "Optic neuritis is from ethambutol, and pyridoxine-preventable neuropathy is from isoniazid.",
+   "Isoniazid causes neuropathy, not hyperuricaemia.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_026",
+  "subject": "Pharmacology",
+  "sub_topic": "Antimicrobials – newer antitubercular drugs",
+  "stem": "A patient with rifampicin-resistant TB is started on a regimen of bedaquiline, pretomanid, linezolid and moxifloxacin, and ECGs are planned. How does bedaquiline act?",
+  "options": [
+   "It inhibits mycolic acid synthesis through InhA",
+   "It inhibits arabinosyl transferase",
+   "It inhibits mycobacterial ATP synthase",
+   "It inhibits DNA-dependent RNA polymerase"
+  ],
+  "correct_index": 2,
+  "explanation": "Bedaquiline is a diarylquinoline that blocks the proton pump of mycobacterial ATP synthase. Its main adverse effect is QT prolongation, which is why ECGs are monitored, especially alongside moxifloxacin or clofazimine. WHO (2022) recommends the 6-month BPaLM regimen for MDR/RR-TB. Source: WHO Consolidated Guidelines on TB Module 4 (2022); KD Tripathi.",
+  "w": [
+   "That is how isoniazid acts, after KatG activation.",
+   "That is how ethambutol acts.",
+   "",
+   "That is how rifampicin acts; this patient's TB is resistant to it."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_027",
+  "subject": "Pharmacology",
+  "sub_topic": "Antimicrobials – adverse effects",
+  "stem": "All of the following can cause a disulfiram-like reaction with alcohol EXCEPT:",
+  "options": [
+   "Metronidazole",
+   "Cefoperazone",
+   "Tinidazole",
+   "Azithromycin"
+  ],
+  "correct_index": 3,
+  "explanation": "Nitroimidazoles, cephalosporins with an NMTT side chain (cefoperazone, cefotetan), griseofulvin, chlorpropamide and procarbazine can cause flushing, vomiting and tachycardia with alcohol. Azithromycin has no such interaction. Source: KD Tripathi.",
+  "w": [
+   "A classic cause of a disulfiram-like reaction; patients are told to avoid alcohol.",
+   "Its N-methylthiotetrazole side chain inhibits aldehyde dehydrogenase.",
+   "A nitroimidazole like metronidazole, with the same warning.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_028",
+  "subject": "Pharmacology",
+  "sub_topic": "Antimicrobials – antivirals",
+  "stem": "A man with advanced HIV has chronic perianal herpes simplex ulcers that have not responded to high-dose IV acyclovir. The isolate is thymidine-kinase deficient. Which drug is most appropriate?",
+  "options": [
+   "Valacyclovir",
+   "Famciclovir",
+   "Foscarnet",
+   "Ganciclovir"
+  ],
+  "correct_index": 2,
+  "explanation": "Foscarnet is a pyrophosphate analogue that blocks viral DNA polymerase directly and needs no activation. Its adverse effects are nephrotoxicity, hypocalcaemia and hypomagnesaemia (which can cause seizures), and genital ulcers. Cidofovir, which needs only host kinases, is an alternative. Source: Goodman & Gilman; KD Tripathi.",
+  "w": [
+   "A prodrug of acyclovir that also needs viral thymidine kinase, so it shows cross-resistance.",
+   "Penciclovir also needs viral thymidine kinase for its first phosphorylation.",
+   "",
+   "In HSV, ganciclovir is also phosphorylated by viral thymidine kinase, so a TK-deficient strain resists it."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_029",
+  "subject": "Pharmacology",
+  "sub_topic": "Antimicrobials – antiretrovirals",
+  "stem": "Before starting an antiretroviral regimen, a clinician orders HLA-B*57:01 testing. Which drug is this test meant to make safe?",
+  "options": [
+   "Nevirapine",
+   "Zidovudine",
+   "Abacavir",
+   "Efavirenz"
+  ],
+  "correct_index": 2,
+  "explanation": "HLA-B*57:01 carriers are at high risk of a potentially fatal abacavir hypersensitivity reaction, so abacavir is avoided if the test is positive. A similar pharmacogenetic rule applies to HLA-B*15:02 and carbamazepine (SJS/TEN). Source: Goodman & Gilman; DHHS Antiretroviral Guidelines.",
+  "w": [
+   "Its hepatotoxicity and rash relate to CD4 count and sex; HLA-B*57:01 screening is not used.",
+   "Its main toxicity is bone-marrow suppression (anaemia); no HLA screening is needed.",
+   "",
+   "Mainly causes neuropsychiatric effects; no HLA screening is needed."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_030",
+  "subject": "Pharmacology",
+  "sub_topic": "CNS – antiepileptics",
+  "stem": "A 19-year-old woman with juvenile myoclonic epilepsy plans to become pregnant in 1–2 years. Which maintenance drug is most appropriate?",
+  "options": [
+   "Levetiracetam",
+   "Sodium valproate",
+   "Carbamazepine",
+   "Phenytoin"
+  ],
+  "correct_index": 0,
+  "explanation": "Valproate is the classic drug of choice for JME, but regulators (EMA/MHRA) restrict its use in women of childbearing potential. Levetiracetam (or lamotrigine) is preferred, along with folic acid before conception. Sodium-channel blockers can worsen generalised myoclonic epilepsies. Source: NICE NG217 (2022); KD Tripathi.",
+  "w": [
+   "",
+   "Works well for JME, but its high teratogenic risk (neural tube defects, neurodevelopmental harm) means it should be avoided in women who may become pregnant.",
+   "May worsen myoclonic and absence seizures, so it is unsuitable for JME.",
+   "May worsen myoclonic seizures and is teratogenic (fetal hydantoin syndrome)."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_031",
+  "subject": "Pharmacology",
+  "sub_topic": "CNS – antiepileptics",
+  "stem": "A 7-year-old girl has many brief staring spells a day, brought on by hyperventilation, and her EEG shows 3-Hz spike-and-wave discharges. Ethosuximide is started. How does it act?",
+  "options": [
+   "It prolongs the inactivated state of voltage-gated Na+ channels",
+   "It binds the synaptic vesicle protein SV2A",
+   "It increases the frequency of GABA-A chloride channel opening",
+   "It blocks T-type calcium channels in thalamic neurons"
+  ],
+  "correct_index": 3,
+  "explanation": "Absence seizures arise from thalamocortical oscillations driven by T-type Ca2+ currents. Ethosuximide controls absences only. Valproate also blocks T-type channels and covers generalised tonic–clonic seizures as well. Source: KD Tripathi; Katzung.",
+  "w": [
+   "This is how phenytoin and carbamazepine act; they can worsen absence seizures.",
+   "This is how levetiracetam acts.",
+   "This is how benzodiazepines act.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_032",
+  "subject": "Pharmacology",
+  "sub_topic": "CNS – mood stabilisers",
+  "stem": "A 45-year-old man with bipolar disorder stable on lithium starts hydrochlorothiazide for hypertension. Ten days later he has a coarse tremor, vomiting and confusion. What is the mechanism?",
+  "options": [
+   "Inhibition of the hepatic metabolism of lithium",
+   "Displacement of lithium from plasma proteins",
+   "Increased proximal tubular reabsorption of lithium after sodium depletion",
+   "Increased gastrointestinal absorption of lithium"
+  ],
+  "correct_index": 2,
+  "explanation": "Thiazides cause sodium loss, and the proximal tubule then reabsorbs Na+ and Li+ together, raising lithium levels. NSAIDs and ACE inhibitors or ARBs do the same. Severe toxicity is treated with haemodialysis. Source: KD Tripathi; Goodman & Gilman.",
+  "w": [
+   "Lithium is not metabolised; it is excreted unchanged by the kidney.",
+   "Lithium is not protein-bound.",
+   "",
+   "Lithium is already almost completely absorbed."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_033",
+  "subject": "Pharmacology",
+  "sub_topic": "CNS – antidepressants",
+  "stem": "A woman on sertraline is prescribed tramadol for back pain. Within 24 hours she has agitation, sweating, a temperature of 39 °C, inducible and ocular clonus, hyperreflexia (more in the legs) and diarrhoea. Which specific drug treatment is indicated?",
+  "options": [
+   "Dantrolene",
+   "Bromocriptine",
+   "Cyproheptadine",
+   "Haloperidol"
+  ],
+  "correct_index": 2,
+  "explanation": "This is serotonin syndrome (Hunter criteria): rapid onset, clonus and hyperreflexia. Neuroleptic malignant syndrome, in contrast, develops over days with lead-pipe rigidity and reduced reflexes. Management is stopping the drugs, supportive care, benzodiazepines and the 5-HT2A antagonist cyproheptadine. Source: Goodman & Gilman; Katzung.",
+  "w": [
+   "Used for malignant hyperthermia, which causes rigidity rather than clonus.",
+   "A dopamine agonist used for neuroleptic malignant syndrome; it may worsen serotonin toxicity.",
+   "",
+   "Antipsychotics can cause NMS and do not treat serotonin toxicity."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_034",
+  "subject": "Pharmacology",
+  "sub_topic": "CNS – antipsychotics",
+  "stem": "Which statements about clozapine are correct? 1. It can cause agranulocytosis, so the absolute neutrophil count must be monitored. 2. It is the drug of choice for treatment-resistant schizophrenia. 3. Hypersalivation (sialorrhoea) is a common adverse effect. 4. It can cause myocarditis.",
+  "options": [
+   "1, 2 and 3 only",
+   "1, 2 and 4 only",
+   "1 and 2 only",
+   "1, 2, 3 and 4"
+  ],
+  "correct_index": 3,
+  "explanation": "Clozapine is the most effective antipsychotic for treatment-resistant schizophrenia and also reduces suicidal behaviour, and it rarely causes EPS or tardive dyskinesia. Its serious toxicities are agranulocytosis, myocarditis, dose-related seizures, metabolic syndrome and constipation that can progress to ileus. Source: KD Tripathi; Katzung.",
+  "w": [
+   "Leaves out myocarditis, a recognised and potentially fatal early adverse effect.",
+   "Leaves out sialorrhoea, one of the commonest adverse effects.",
+   "Leaves out two true adverse effects.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_035",
+  "subject": "Pharmacology",
+  "sub_topic": "CNS – antipsychotic adverse effects",
+  "stem": "A 50-year-old woman on long-term haloperidol develops involuntary lip-smacking and choreoathetoid tongue movements. She is started on valbenazine. How does it act?",
+  "options": [
+   "D2 receptor agonism",
+   "Central muscarinic antagonism",
+   "Reversible inhibition of VMAT2, depleting presynaptic dopamine",
+   "5-HT2A antagonism"
+  ],
+  "correct_index": 2,
+  "explanation": "Tardive dyskinesia is linked to D2 receptor supersensitivity after long-term blockade. VMAT2 inhibitors (valbenazine, deutetrabenazine, tetrabenazine) reduce dopamine packaging into vesicles and are the approved treatments. Source: Katzung; Goodman & Gilman.",
+  "w": [
+   "Would worsen psychosis and does not treat tardive dyskinesia.",
+   "Anticholinergics help acute dystonia and parkinsonism but can worsen tardive dyskinesia.",
+   "",
+   "This is a property of atypical antipsychotics, not of valbenazine."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_036",
+  "subject": "Pharmacology",
+  "sub_topic": "CNS – opioids",
+  "stem": "A man dependent on heroin last used it 2 hours ago. He is given sublingual buprenorphine and within an hour has yawning, lacrimation, piloerection and abdominal cramps. What is the reason?",
+  "options": [
+   "Buprenorphine is a full μ-agonist and has caused an overdose",
+   "Buprenorphine is a high-affinity partial μ-agonist that displaces heroin and precipitates withdrawal",
+   "Buprenorphine inhibits CYP3A4 and raises heroin levels",
+   "Buprenorphine has negligible μ-receptor affinity and simply fails to substitute"
+  ],
+  "correct_index": 1,
+  "explanation": "A high-affinity partial agonist displaces a full agonist but activates the receptor less, so net opioid effect falls and withdrawal is precipitated. Buprenorphine is therefore started only once moderate withdrawal is present. Its ceiling effect on respiratory depression makes it safer than methadone. Source: Goodman & Gilman; KD Tripathi.",
+  "w": [
+   "These are signs of withdrawal, not opioid toxicity, and buprenorphine is a partial agonist.",
+   "",
+   "Higher opioid levels would cause sedation, not withdrawal.",
+   "Its μ affinity is very high, which is why it displaces full agonists."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_037",
+  "subject": "Pharmacology",
+  "sub_topic": "CNS – opioid overdose",
+  "stem": "Assertion (A): A patient whose methadone overdose has been reversed with IV naloxone should be observed for several hours. Reason (R): Naloxone has a much shorter duration of action than methadone.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "Naloxone wears off before long-acting opioids such as methadone are cleared, so respiratory depression can return. Repeat boluses or a naloxone infusion may be needed. Source: Goodman & Gilman; KD Tripathi.",
+  "w": [
+   "",
+   "R is exactly why observation is needed, so it does explain A.",
+   "R is true; naloxone acts for about 1–2 hours, while methadone's half-life is very long.",
+   "A is true; renarcotisation is a real risk."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_038",
+  "subject": "Pharmacology",
+  "sub_topic": "CNS – anaesthetics",
+  "stem": "During laparoscopic surgery under sevoflurane, after succinylcholine was given at induction, a patient develops masseter rigidity, rising end-tidal CO2, tachycardia and a temperature of 40 °C. Which drug is specifically indicated?",
+  "options": [
+   "Bromocriptine",
+   "Cyproheptadine",
+   "Neostigmine",
+   "Dantrolene"
+  ],
+  "correct_index": 3,
+  "explanation": "Malignant hyperthermia is an inherited (mostly RYR1) disorder in which volatile agents or succinylcholine trigger uncontrolled Ca2+ release from the sarcoplasmic reticulum. Dantrolene blocks RyR1. The trigger agent is stopped, the patient is hyperventilated with 100% O2, and cooling and correction of hyperkalaemia follow. Source: KD Tripathi; Miller's Anesthesia.",
+  "w": [
+   "Used for neuroleptic malignant syndrome, not malignant hyperthermia.",
+   "Used for serotonin syndrome.",
+   "Reverses non-depolarising blockade and has no role in malignant hyperthermia.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_039",
+  "subject": "Pharmacology",
+  "sub_topic": "CNS – antidepressant overdose",
+  "stem": "After an amitriptyline overdose, a 22-year-old has a heart rate of 130/min, BP 85/50 mm Hg and a QRS duration of 150 ms. Which drug should be given first?",
+  "options": [
+   "Physostigmine",
+   "IV sodium bicarbonate",
+   "Flumazenil",
+   "Procainamide"
+  ],
+  "correct_index": 1,
+  "explanation": "TCAs block fast Na+ channels in the heart. Alkalinisation and a sodium load from hypertonic bicarbonate reverse the QRS widening and reduce arrhythmias. QRS widening predicts seizures and ventricular arrhythmias. Source: Goldfrank's Toxicologic Emergencies; KD Tripathi.",
+  "w": [
+   "Contraindicated in TCA overdose with conduction delay because it can cause bradyarrhythmias and asystole.",
+   "",
+   "Can precipitate seizures in TCA overdose.",
+   "A class IA drug that adds to sodium-channel blockade and worsens QRS widening."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_040",
+  "subject": "Pharmacology",
+  "sub_topic": "CVS – antihypertensives in special situations",
+  "stem": "All of the following can be used to treat hypertension in pregnancy EXCEPT:",
+  "options": [
+   "Enalapril",
+   "Labetalol",
+   "Nifedipine",
+   "Methyldopa"
+  ],
+  "correct_index": 0,
+  "explanation": "ACE inhibitors and ARBs are fetotoxic (renal dysgenesis, oligohydramnios, skull hypoplasia) and are avoided throughout pregnancy. Acute severe hypertension is treated with IV labetalol, oral nifedipine or IV hydralazine. Source: ACOG Practice Bulletin 222 (2020); NICE NG133.",
+  "w": [
+   "",
+   "First-line oral and IV drug in pregnancy.",
+   "First-line oral drug, including for acute severe hypertension.",
+   "Has the longest safety record in pregnancy."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_041",
+  "subject": "Pharmacology",
+  "sub_topic": "CVS – anticoagulant reversal",
+  "stem": "Match each anticoagulant with its specific reversal agent. A. Dabigatran  B. Unfractionated heparin  C. Warfarin with major bleeding  D. Apixaban or rivaroxaban — 1. Protamine sulfate  2. Idarucizumab  3. Andexanet alfa  4. Four-factor prothrombin complex concentrate plus IV vitamin K",
+  "options": [
+   "A-3, B-1, C-4, D-2",
+   "A-2, B-4, C-1, D-3",
+   "A-2, B-1, C-3, D-4",
+   "A-2, B-1, C-4, D-3"
+  ],
+  "correct_index": 3,
+  "explanation": "Idarucizumab is a Fab fragment that binds dabigatran. Andexanet alfa is a decoy factor Xa; where it is unavailable, 4F-PCC is used. Protamine fully reverses UFH but only partly reverses LMWH. For warfarin, PCC with vitamin K is preferred to FFP. Source: ACC Expert Consensus on Bleeding with Oral Anticoagulants (2020); Katzung.",
+  "w": [
+   "Swaps the reversal agents for the direct thrombin inhibitor and the Xa inhibitors.",
+   "Protamine neutralises heparin, not warfarin.",
+   "Andexanet reverses factor Xa inhibitors, not warfarin.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_042",
+  "subject": "Pharmacology",
+  "sub_topic": "CVS – heart failure",
+  "stem": "All of the following reduce mortality in chronic heart failure with reduced ejection fraction EXCEPT:",
+  "options": [
+   "Sacubitril–valsartan",
+   "Spironolactone",
+   "Dapagliflozin",
+   "Digoxin"
+  ],
+  "correct_index": 3,
+  "explanation": "In the DIG trial, digoxin reduced heart-failure hospitalisations but not mortality, so it is used to control symptoms. The four mortality-reducing pillars are ARNI (or ACEI/ARB), evidence-based β-blockers, MRAs and SGLT2 inhibitors. Loop diuretics relieve congestion but do not improve survival. Source: AHA/ACC/HFSA Heart Failure Guideline 2022; ESC HF Guidelines 2021.",
+  "w": [
+   "Reduced mortality compared with enalapril in PARADIGM-HF.",
+   "Reduced mortality in RALES.",
+   "Reduced the combined endpoint of cardiovascular death and worsening heart failure in DAPA-HF.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_043",
+  "subject": "Pharmacology",
+  "sub_topic": "CVS – anticoagulants in pregnancy",
+  "stem": "Assertion (A): Heparin is the preferred anticoagulant during pregnancy. Reason (R): Heparin crosses the placenta readily.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 2,
+  "explanation": "Heparin is a large, highly charged molecule that does not cross the placenta, so it does not harm the fetus. Warfarin does cross the placenta and causes embryopathy (nasal hypoplasia, stippled epiphyses) when given in the first trimester. LMWH is generally preferred. Source: KD Tripathi; ACOG Practice Bulletin 196.",
+  "w": [
+   "R is false, so it cannot explain A.",
+   "R is false; heparin does not cross the placenta.",
+   "",
+   "A is true; UFH and LMWH are preferred in pregnancy."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_044",
+  "subject": "Pharmacology",
+  "sub_topic": "Endocrine – SGLT2 inhibitors",
+  "stem": "A 52-year-old woman with type 2 diabetes takes metformin and empagliflozin. On day 2 after cholecystectomy, with poor oral intake, she becomes breathless. Glucose is 190 mg/dL, pH 7.12, HCO3 10 mEq/L, serum ketones are high and lactate is normal. What is the most likely diagnosis?",
+  "options": [
+   "Euglycaemic diabetic ketoacidosis due to the SGLT2 inhibitor",
+   "Metformin-associated lactic acidosis",
+   "Hyperosmolar hyperglycaemic state",
+   "Simple starvation ketosis"
+  ],
+  "correct_index": 0,
+  "explanation": "SGLT2 inhibitors cause glycosuria, which keeps glucose near normal while insulin deficiency and stress lead to ketoacidosis. The FDA advises stopping canagliflozin, dapagliflozin and empagliflozin at least 3 days before planned surgery (4 days for ertugliflozin). Treatment is insulin with dextrose. Source: FDA Drug Safety Communication 2020; ADA Standards of Care.",
+  "w": [
+   "",
+   "Lactate is normal and ketones are high.",
+   "HHS has very high glucose and little or no ketoacidosis.",
+   "Starvation ketosis is mild and does not cause a pH of 7.12."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_045",
+  "subject": "Pharmacology",
+  "sub_topic": "Endocrine – antithyroid drugs",
+  "stem": "Assertion (A): Propylthiouracil is preferred over methimazole for hyperthyroidism in the first trimester of pregnancy. Reason (R): Propylthiouracil also inhibits the peripheral conversion of T4 to T3.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 1,
+  "explanation": "Methimazole and carbimazole can cause embryopathy (aplasia cutis, choanal and oesophageal atresia), so PTU is used in the first trimester and then switched to methimazole because PTU is hepatotoxic. Inhibition of peripheral T4-to-T3 conversion is the reason PTU is preferred in thyroid storm. Source: ATA Guidelines for Thyroid Disease in Pregnancy 2017; KD Tripathi.",
+  "w": [
+   "R is true but is not why PTU is preferred in early pregnancy; the reason is methimazole embryopathy.",
+   "",
+   "R is true; PTU inhibits type 1 deiodinase.",
+   "A is true; ATA recommends PTU in the first trimester."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_046",
+  "subject": "Pharmacology",
+  "sub_topic": "Endocrine – oral hypoglycaemics",
+  "stem": "According to current US FDA labelling, below what eGFR is metformin contraindicated?",
+  "options": [
+   "60 mL/min/1.73 m²",
+   "45 mL/min/1.73 m²",
+   "15 mL/min/1.73 m²",
+   "30 mL/min/1.73 m²"
+  ],
+  "correct_index": 3,
+  "explanation": "In 2016 the FDA moved from creatinine-based limits (the older exam answer: serum creatinine ≥1.5 mg/dL in men, ≥1.4 in women) to eGFR-based ones. Metformin is contraindicated below 30, not started at 30–45, and reviewed if eGFR falls below 45. It is withheld for iodinated contrast in at-risk patients. Source: FDA Drug Safety Communication 2016; ADA Standards of Care.",
+  "w": [
+   "Metformin can be continued at this eGFR, with monitoring.",
+   "Starting metformin is not recommended between 30 and 45, but it is not contraindicated.",
+   "This threshold is too low; contraindication starts at an eGFR below 30.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_047",
+  "subject": "Pharmacology",
+  "sub_topic": "Endocrine – GLP-1 agonists",
+  "stem": "Before starting once-weekly semaglutide in a patient with type 2 diabetes and obesity, which history is a labelled contraindication?",
+  "options": [
+   "Previous hypoglycaemia on a sulfonylurea",
+   "A personal or family history of medullary thyroid carcinoma or MEN 2",
+   "Recurrent genital mycotic infections",
+   "Previous lactic acidosis"
+  ],
+  "correct_index": 1,
+  "explanation": "GLP-1 receptor agonists carry a boxed warning for thyroid C-cell tumours seen in rodents. Their common adverse effects are nausea and vomiting, and pancreatitis and gallbladder disease are also reported. Semaglutide and liraglutide reduce major adverse cardiovascular events. Source: FDA prescribing information (semaglutide); ADA Standards of Care.",
+  "w": [
+   "Not a contraindication; GLP-1 agonists themselves rarely cause hypoglycaemia.",
+   "",
+   "A concern with SGLT2 inhibitors, not GLP-1 agonists.",
+   "Relevant to metformin, not to semaglutide."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_048",
+  "subject": "Pharmacology",
+  "sub_topic": "Anticancer – rescue agents",
+  "stem": "A child on high-dose methotrexate for osteosarcoma has delayed methotrexate clearance and a rising creatinine. Which agent bypasses the DHFR block to rescue normal cells?",
+  "options": [
+   "Folic acid",
+   "Mesna",
+   "Dexrazoxane",
+   "Leucovorin (folinic acid)"
+  ],
+  "correct_index": 3,
+  "explanation": "Leucovorin is already a reduced folate and needs no DHFR. Glucarpidase, which cleaves methotrexate, is used for toxic levels with renal failure, alongside hydration and urinary alkalinisation. Source: KD Tripathi; Goodman & Gilman.",
+  "w": [
+   "Needs DHFR to be converted into an active form, so it does not bypass the block.",
+   "Protects against bladder toxicity (acrolein) from cyclophosphamide and ifosfamide.",
+   "An iron chelator that protects against anthracycline cardiotoxicity.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_049",
+  "subject": "Pharmacology",
+  "sub_topic": "Anticancer – drug interactions",
+  "stem": "A child with ALL on maintenance 6-mercaptopurine is started on full-dose allopurinol for hyperuricaemia and develops severe pancytopenia. What is the mechanism?",
+  "options": [
+   "Allopurinol induces TPMT, producing toxic metabolites",
+   "Allopurinol displaces 6-MP from plasma albumin",
+   "Allopurinol inhibits xanthine oxidase, which normally inactivates 6-mercaptopurine",
+   "Allopurinol inhibits HGPRT, preventing activation of 6-MP"
+  ],
+  "correct_index": 2,
+  "explanation": "6-MP and azathioprine are broken down by xanthine oxidase, so with allopurinol or febuxostat their doses must be cut sharply. TPMT/NUDT15 testing identifies patients prone to myelotoxicity. Source: KD Tripathi; Goodman & Gilman.",
+  "w": [
+   "Allopurinol does not induce TPMT; TPMT deficiency itself raises 6-MP toxicity.",
+   "Protein-binding displacement does not explain this interaction.",
+   "",
+   "That would make 6-MP less effective, not more toxic."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_050",
+  "subject": "Pharmacology",
+  "sub_topic": "Anticancer – toxicities",
+  "stem": "Match each anticancer drug with its characteristic dose-limiting or signature toxicity. A. Bleomycin  B. Vincristine  C. Cisplatin  D. Doxorubicin — 1. Cumulative dose-related cardiomyopathy  2. Pulmonary fibrosis  3. Peripheral neuropathy with constipation  4. Nephrotoxicity and ototoxicity",
+  "options": [
+   "A-2, B-4, C-3, D-1",
+   "A-2, B-3, C-4, D-1",
+   "A-1, B-3, C-4, D-2",
+   "A-3, B-2, C-4, D-1"
+  ],
+  "correct_index": 1,
+  "explanation": "Bleomycin and vincristine cause little marrow suppression. Cisplatin nephrotoxicity is prevented with vigorous hydration (amifostine is also used), and doxorubicin cardiotoxicity can be reduced with dexrazoxane and by limiting the cumulative dose. Source: KD Tripathi; Goodman & Gilman.",
+  "w": [
+   "Swaps vincristine and cisplatin; vincristine causes neuropathy and cisplatin nephrotoxicity.",
+   "",
+   "Swaps bleomycin and doxorubicin.",
+   "Swaps bleomycin and vincristine."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_051",
+  "subject": "Microbiology",
+  "sub_topic": "Bacteriology – toxins",
+  "stem": "An unimmunised 6-year-old has fever, a grey adherent pharyngeal membrane that bleeds when removed, and a bull neck, and later develops myocarditis. How does the responsible toxin act?",
+  "options": [
+   "ADP-ribosylation of Gs protein, which raises cAMP",
+   "Cleavage of 28S rRNA in the 60S ribosomal subunit",
+   "Cleavage of synaptobrevin, which blocks neurotransmitter release",
+   "ADP-ribosylation of elongation factor-2, which halts protein synthesis"
+  ],
+  "correct_index": 3,
+  "explanation": "The diphtheria toxin gene (tox) is carried by a β-corynephage (lysogenic conversion). Toxigenicity is shown by the Elek gel precipitation test, and C. diphtheriae forms black colonies on tellurite agar. Pseudomonas exotoxin A also inactivates EF-2. Source: Ananthanarayan & Paniker's Textbook of Microbiology; Apurba Sastry.",
+  "w": [
+   "This is how cholera toxin and E. coli LT act.",
+   "This is how Shiga toxin acts.",
+   "This is how tetanus and botulinum toxins act.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_052",
+  "subject": "Microbiology",
+  "sub_topic": "Bacteriology – culture media",
+  "stem": "Match each culture medium with the organism it is used for. A. TCBS agar  B. Löwenstein–Jensen medium  C. Regan–Lowe charcoal agar  D. Loeffler serum slope — 1. Corynebacterium diphtheriae  2. Bordetella pertussis  3. Vibrio cholerae  4. Mycobacterium tuberculosis",
+  "options": [
+   "A-3, B-4, C-2, D-1",
+   "A-3, B-4, C-1, D-2",
+   "A-4, B-3, C-2, D-1",
+   "A-2, B-4, C-3, D-1"
+  ],
+  "correct_index": 0,
+  "explanation": "V. cholerae ferments sucrose and forms yellow colonies on TCBS. B. pertussis forms 'bisected pearl' or mercury-drop colonies on Regan–Lowe or Bordet–Gengou media. Loeffler serum slope supports rapid growth of C. diphtheriae (6–8 h) with metachromatic granules. Source: Ananthanarayan & Paniker; Apurba Sastry.",
+  "w": [
+   "",
+   "Swaps the pertussis and diphtheria media.",
+   "TCBS is for vibrios and LJ is for mycobacteria.",
+   "Regan–Lowe is for Bordetella, not Vibrio."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_053",
+  "subject": "Microbiology",
+  "sub_topic": "Bacteriology – identification tests",
+  "stem": "A sexually active 20-year-old woman has dysuria and frequency. Her urine grows Gram-positive cocci in clusters that are catalase-positive, coagulase-negative and novobiocin-resistant. What is the most likely organism?",
+  "options": [
+   "Staphylococcus epidermidis",
+   "Staphylococcus aureus",
+   "Staphylococcus saprophyticus",
+   "Enterococcus faecalis"
+  ],
+  "correct_index": 2,
+  "explanation": "Novobiocin resistance separates S. saprophyticus, the second commonest cause of UTI in young sexually active women, from S. epidermidis, which typically infects devices and catheters. Source: Apurba Sastry Essentials of Medical Microbiology; Ananthanarayan & Paniker.",
+  "w": [
+   "Also coagulase-negative, but sensitive to novobiocin.",
+   "Coagulase-positive.",
+   "",
+   "Catalase-negative and seen in pairs or short chains."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_054",
+  "subject": "Microbiology",
+  "sub_topic": "Bacteriology – identification tests",
+  "stem": "A 3-day-old neonate has sepsis. The blood culture grows narrow-zone β-haemolytic Gram-positive cocci in chains that are bacitracin-resistant, CAMP-positive and hippurate-hydrolysis positive. What is the organism?",
+  "options": [
+   "Streptococcus pyogenes",
+   "Streptococcus pneumoniae",
+   "Enterococcus faecalis",
+   "Streptococcus agalactiae (group B)"
+  ],
+  "correct_index": 3,
+  "explanation": "GBS is the leading cause of early-onset neonatal sepsis and meningitis. Its CAMP factor enhances the β-haemolysis of S. aureus in an arrowhead pattern. ACOG (2019/2020) advises universal screening at 36 0/7–37 6/7 weeks and intrapartum penicillin for carriers. Source: Apurba Sastry; ACOG Committee Opinion 797.",
+  "w": [
+   "Group A streptococci are bacitracin-sensitive, PYR-positive and CAMP-negative.",
+   "α-haemolytic, optochin-sensitive and bile-soluble.",
+   "Usually non-haemolytic; hydrolyses bile-aesculin and grows in 6.5% NaCl.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_055",
+  "subject": "Microbiology",
+  "sub_topic": "Bacteriology – anaerobes",
+  "stem": "All of the following are appropriate options for an initial episode of non-severe Clostridioides difficile infection EXCEPT:",
+  "options": [
+   "Oral fidaxomicin",
+   "Intravenous vancomycin",
+   "Oral vancomycin",
+   "Oral metronidazole"
+  ],
+  "correct_index": 1,
+  "explanation": "IV vancomycin does not reach the colon lumen and so does not work for CDI. In fulminant disease, IV metronidazole is added to high-dose oral or rectal vancomycin. Older texts named metronidazole as first line for mild disease, but current guidelines prefer fidaxomicin or oral vancomycin. Source: IDSA/SHEA Clinical Practice Guideline Focused Update 2021.",
+  "w": [
+   "Preferred by IDSA/SHEA 2021 because it lowers recurrence.",
+   "",
+   "An acceptable alternative and the classic exam answer.",
+   "Acceptable for non-severe disease only when fidaxomicin and oral vancomycin are unavailable."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_056",
+  "subject": "Microbiology",
+  "sub_topic": "Bacteriology – Enterobacteriaceae",
+  "stem": "A 5-year-old has bloody diarrhoea without fever after eating an undercooked hamburger. A week later he has anaemia with schistocytes, thrombocytopenia and acute kidney injury. On which medium should the stool be plated to detect the likely pathogen?",
+  "options": [
+   "TCBS agar",
+   "Sorbitol MacConkey agar",
+   "Xylose-lysine-deoxycholate agar",
+   "Skirrow medium"
+  ],
+  "correct_index": 1,
+  "explanation": "E. coli O157:H7 does not ferment sorbitol, so it forms colourless colonies on SMAC, while most other E. coli are pink. Shiga toxin damages glomerular endothelium and causes HUS, and antibiotics may increase the risk. Source: Apurba Sastry; Ananthanarayan & Paniker.",
+  "w": [
+   "Selective for Vibrio species.",
+   "",
+   "Used for Salmonella and Shigella; it does not separate O157 from other E. coli.",
+   "Used for Campylobacter, which is linked to Guillain–Barré syndrome rather than HUS."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_057",
+  "subject": "Microbiology",
+  "sub_topic": "Bacteriology – Gram-positive bacilli",
+  "stem": "A woman 30 weeks pregnant has a flu-like illness after eating unpasteurised soft cheese. Her blood culture grows small catalase-positive Gram-positive bacilli that show tumbling motility at 25 °C but not at 37 °C. What is the organism?",
+  "options": [
+   "Bacillus cereus",
+   "Corynebacterium diphtheriae",
+   "Listeria monocytogenes",
+   "Erysipelothrix rhusiopathiae"
+  ],
+  "correct_index": 2,
+  "explanation": "Listeria grows at refrigeration temperatures (hence cold enrichment) and shows umbrella-shaped motility in semisolid agar. It causes neonatal sepsis or meningitis and meningitis in the elderly and immunocompromised. Treatment is ampicillin with or without gentamicin, as cephalosporins are intrinsically inactive. Source: Apurba Sastry; Ananthanarayan & Paniker.",
+  "w": [
+   "A large spore-forming bacillus linked to food poisoning from fried rice; it does not show tumbling motility.",
+   "Non-motile.",
+   "",
+   "Non-motile and catalase-negative; causes erysipeloid in people who handle fish or meat."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_058",
+  "subject": "Microbiology",
+  "sub_topic": "Bacteriology – Neisseria",
+  "stem": "CSF from a young adult with meningitis and a petechial rash shows Gram-negative intracellular diplococci. Which sugar-utilisation test separates this organism from Neisseria gonorrhoeae?",
+  "options": [
+   "Glucose utilisation",
+   "Maltose utilisation (positive in meningococcus, negative in gonococcus)",
+   "Lactose utilisation",
+   "Sucrose utilisation"
+  ],
+  "correct_index": 1,
+  "explanation": "N. meningitidis uses glucose and maltose, while N. gonorrhoeae uses glucose only. Both are oxidase-positive. Close contacts receive chemoprophylaxis with rifampicin, ciprofloxacin or ceftriaxone. Source: Ananthanarayan & Paniker; Apurba Sastry.",
+  "w": [
+   "Both species use glucose.",
+   "",
+   "Lactose use identifies N. lactamica, not meningococcus.",
+   "Neither species uses sucrose."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_059",
+  "subject": "Microbiology",
+  "sub_topic": "Bacteriology – Mycobacteria",
+  "stem": "Which statements about Xpert MTB/RIF (CBNAAT) are correct? 1. It detects rifampicin resistance through mutations in the rpoB core region. 2. Results are available in about 2 hours. 3. It reliably tells live bacilli from dead ones. 4. It detects isoniazid resistance through katG/inhA mutations.",
+  "options": [
+   "1, 2 and 4",
+   "1, 2 and 3",
+   "2, 3 and 4",
+   "1 and 2 only"
+  ],
+  "correct_index": 3,
+  "explanation": "Xpert MTB/RIF is a cartridge-based real-time PCR that detects M. tuberculosis and rpoB mutations, which serve as a marker for MDR. Smear and culture, not PCR, are used to follow treatment response. Truenat is the Indian chip-based alternative. Source: WHO Consolidated Guidelines on TB Module 3 (2021); NTEP India.",
+  "w": [
+   "The standard MTB/RIF cartridge does not detect isoniazid resistance; line-probe assays or Xpert MTB/XDR do.",
+   "It detects DNA, which can persist after the bacilli die, so it cannot be used to monitor treatment.",
+   "Statements 3 and 4 are false, and statement 1 is true.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_060",
+  "subject": "Microbiology",
+  "sub_topic": "Bacteriology – serology",
+  "stem": "A 40-year-old man with documented adequate treatment for secondary syphilis 6 years ago, no new sexual exposure and no lesions now has a non-reactive VDRL and a reactive TPHA on routine screening. What is the interpretation?",
+  "options": [
+   "A biological false-positive reaction",
+   "Early primary syphilis before VDRL turns positive",
+   "A successfully treated past infection; no further treatment is needed",
+   "Neurosyphilis needing IV penicillin"
+  ],
+  "correct_index": 2,
+  "explanation": "Treponemal tests (TPHA, FTA-ABS) usually stay reactive for life, while non-treponemal tests (VDRL, RPR) fall after treatment and are used to track response, with a fourfold drop showing adequate treatment. Source: CDC STI Treatment Guidelines 2021; Apurba Sastry.",
+  "w": [
+   "A biological false positive is a reactive non-treponemal test (VDRL) with a negative treponemal test, which is the reverse.",
+   "Ruled out by the absence of exposure and lesions, and by the documented past treatment.",
+   "",
+   "Nothing suggests CNS involvement; this pattern fits a past treated infection."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_061",
+  "subject": "Microbiology",
+  "sub_topic": "General bacteriology – growth",
+  "stem": "E. coli with a generation time of 20 minutes is inoculated at 1 × 10³ cells/mL into fresh broth and grows exponentially with no lag phase. How many cells per mL will there be after 2 hours?",
+  "options": [
+   "6.4 × 10⁴",
+   "6 × 10³",
+   "1.2 × 10⁴",
+   "4.1 × 10⁶"
+  ],
+  "correct_index": 0,
+  "explanation": "N = N0 × 2ⁿ, where n = 120 ÷ 20 = 6 generations, so N = 10³ × 64 = 6.4 × 10⁴ cells/mL. In practice a lag phase comes before log-phase growth. Source: Ananthanarayan & Paniker.",
+  "w": [
+   "",
+   "Adds the number of generations instead of doubling the population each time.",
+   "Multiplies by 2 × 6 instead of by 2⁶.",
+   "Assumes 12 generations, which would need a 10-minute generation time."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_062",
+  "subject": "Microbiology",
+  "sub_topic": "Bacteriology – Helicobacter",
+  "stem": "Assertion (A): Proton pump inhibitors should be stopped about 2 weeks before a urea breath test for H. pylori. Reason (R): PPIs suppress H. pylori density and urease activity, which can cause false-negative results.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "Urease-based tests (urea breath test, rapid urease test) and stool antigen tests can be falsely negative on PPIs, bismuth or antibiotics. Antibiotics and bismuth should be stopped for 4 weeks before testing. Source: Maastricht VI/Florence Consensus 2022; ACG Guideline 2024.",
+  "w": [
+   "",
+   "R is the reason for stopping PPIs, so it does explain A.",
+   "R is true; PPIs suppress the organism and its urease.",
+   "A is true; guidelines advise a 2-week PPI washout."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_063",
+  "subject": "Microbiology",
+  "sub_topic": "Bacteriology – toxins",
+  "stem": "A 22-year-old woman using high-absorbency tampons during menses has a fever of 40 °C, hypotension and diffuse macular erythroderma, followed later by peeling of the palms. Blood cultures are sterile. How does the causative toxin act?",
+  "options": [
+   "By forming pores in leukocyte membranes",
+   "As a serine protease that cleaves desmoglein-1",
+   "As a superantigen, cross-linking MHC class II and the TCR Vβ chain outside the peptide groove and triggering massive cytokine release",
+   "As lipid A endotoxin activating TLR4"
+  ],
+  "correct_index": 2,
+  "explanation": "TSST-1 activates a large fraction of T cells polyclonally, releasing IL-2, TNF and IFN-γ. Blood cultures are usually negative in staphylococcal TSS but often positive in streptococcal TSS. Source: Apurba Sastry; Ananthanarayan & Paniker.",
+  "w": [
+   "This is how Panton–Valentine leukocidin acts.",
+   "This is how exfoliative toxin causes staphylococcal scalded skin syndrome.",
+   "",
+   "Endotoxin comes from Gram-negative bacteria; S. aureus has none."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_064",
+  "subject": "Microbiology",
+  "sub_topic": "Virology – hepatitis B serology",
+  "stem": "A patient's serology shows HBsAg negative, anti-HBs positive, IgG anti-HBc positive and undetectable HBV DNA. What is the interpretation?",
+  "options": [
+   "Recovery from past HBV infection, with immunity",
+   "Immunity from vaccination only",
+   "Window period of acute infection",
+   "Chronic HBV infection"
+  ],
+  "correct_index": 0,
+  "explanation": "Anti-HBc is produced only after natural infection, so it separates past infection from vaccination. Anti-HBs is the protective antibody. Source: CDC Interpretation of Hepatitis B Serologic Test Results; Apurba Sastry.",
+  "w": [
+   "",
+   "Vaccination produces anti-HBs alone; anti-HBc stays negative.",
+   "In the window period anti-HBs is still negative and anti-HBc is IgM.",
+   "Chronic infection requires HBsAg to persist for more than 6 months."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_065",
+  "subject": "Microbiology",
+  "sub_topic": "Virology – hepatitis B serology",
+  "stem": "Three months after a needle-stick injury, a healthcare worker develops acute hepatitis. HBsAg is negative, anti-HBs is negative and IgM anti-HBc is positive. What is the interpretation?",
+  "options": [
+   "Resolved past infection",
+   "Successful vaccination",
+   "Chronic HBsAg carrier",
+   "The window period of acute HBV infection"
+  ],
+  "correct_index": 3,
+  "explanation": "During the window period, HBsAg has been cleared but anti-HBs is not yet detectable. IgM anti-HBc is the only marker then, which is why blood screening based on HBsAg alone can miss this phase. Source: Apurba Sastry; CDC.",
+  "w": [
+   "This would show positive anti-HBs and IgG (not IgM) anti-HBc.",
+   "This would show anti-HBs alone.",
+   "A carrier would be HBsAg-positive.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_066",
+  "subject": "Microbiology",
+  "sub_topic": "Virology – HIV testing",
+  "stem": "A 6-week-old infant was born to an HIV-positive mother on ART. Which test establishes whether the infant has HIV infection?",
+  "options": [
+   "HIV antibody ELISA",
+   "HIV-1 DNA PCR (qualitative nucleic acid test)",
+   "Western blot",
+   "CD4 count"
+  ],
+  "correct_index": 1,
+  "explanation": "Under NACO's early infant diagnosis programme, infants are tested with HIV-1 DNA PCR on dried blood spots from 6 weeks, and antibody testing at 18 months confirms status. In adults, NACO uses three tests of different principles or antigens. Source: NACO National Guidelines for HIV Care and Treatment 2021; Apurba Sastry.",
+  "w": [
+   "Maternal IgG crosses the placenta and can persist for up to 18 months, so a positive result does not show infection.",
+   "",
+   "Also detects antibody, so it has the same maternal-antibody problem.",
+   "Shows immune status but does not diagnose HIV infection."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_067",
+  "subject": "Microbiology",
+  "sub_topic": "Virology – HIV testing",
+  "stem": "Why does a fourth-generation HIV ELISA shorten the window period compared with a third-generation assay?",
+  "options": [
+   "It detects only IgM antibodies",
+   "It detects p24 antigen in addition to HIV-1/2 antibodies",
+   "It detects integrated proviral DNA",
+   "It detects gp120 antigen"
+  ],
+  "correct_index": 1,
+  "explanation": "p24 antigen appears in blood before antibodies. The CDC laboratory algorithm starts with an antigen/antibody combination immunoassay, followed by an HIV-1/2 differentiation assay and NAT if results disagree. Source: CDC Laboratory Testing for HIV (2014, updated 2018); Apurba Sastry.",
+  "w": [
+   "Third-generation assays already detect IgM; the gain comes from adding antigen detection.",
+   "",
+   "Proviral DNA is detected by PCR, not ELISA.",
+   "Combination assays detect the core antigen p24, not gp120."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_068",
+  "subject": "Microbiology",
+  "sub_topic": "Virology – herpesviruses",
+  "stem": "An 18-year-old has fever, exudative tonsillitis, posterior cervical lymphadenopathy and splenomegaly, and develops a maculopapular rash after taking ampicillin. The blood film shows many atypical lymphocytes. Which organism is responsible?",
+  "options": [
+   "Cytomegalovirus",
+   "Epstein–Barr virus",
+   "Human herpesvirus 6",
+   "Streptococcus pyogenes"
+  ],
+  "correct_index": 1,
+  "explanation": "EBV infects B cells through CD21, and the atypical lymphocytes are reactive CD8+ T cells. Diagnosis is by heterophile antibodies (Paul–Bunnell, Monospot) or VCA-IgM. Contact sports are avoided because of the risk of splenic rupture. Source: Apurba Sastry; Ananthanarayan & Paniker.",
+  "w": [
+   "Causes a mononucleosis-like illness, but exudative pharyngitis is uncommon and the heterophile test is negative.",
+   "",
+   "Causes exanthem subitum (roseola) in infants.",
+   "Causes exudative tonsillitis but not atypical lymphocytosis, splenomegaly or the ampicillin rash."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_069",
+  "subject": "Microbiology",
+  "sub_topic": "Virology – herpesviruses",
+  "stem": "Match each herpesvirus with its characteristic feature. A. HHV-6  B. HHV-8  C. Varicella-zoster virus  D. Cytomegalovirus — 1. 'Owl's-eye' intranuclear inclusions  2. Exanthem subitum  3. Kaposi sarcoma  4. A dermatomal vesicular eruption in the elderly",
+  "options": [
+   "A-3, B-2, C-4, D-1",
+   "A-2, B-3, C-1, D-4",
+   "A-2, B-3, C-4, D-1",
+   "A-4, B-3, C-2, D-1"
+  ],
+  "correct_index": 2,
+  "explanation": "HHV-6 causes roseola (high fever, then a rash as the fever falls). HHV-8 causes Kaposi sarcoma, primary effusion lymphoma and multicentric Castleman disease. VZV reactivates as shingles, and CMV forms enlarged cells with owl's-eye inclusions. Source: Apurba Sastry; Ananthanarayan & Paniker.",
+  "w": [
+   "Swaps HHV-6 and HHV-8.",
+   "Swaps VZV and CMV; owl's-eye inclusions are typical of CMV.",
+   "",
+   "Swaps HHV-6 and VZV."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_070",
+  "subject": "Microbiology",
+  "sub_topic": "Virology – rabies",
+  "stem": "A previously unvaccinated 28-year-old is bitten on the face by a stray dog and has bleeding transdermal wounds. What is the most appropriate management?",
+  "options": [
+   "Wound washing and rabies vaccine only",
+   "Primary suturing of the wounds, then rabies vaccine",
+   "Thorough wound washing with soap and water, rabies immunoglobulin infiltrated into the wounds, and a full course of rabies vaccine",
+   "Rabies immunoglobulin alone"
+  ],
+  "correct_index": 2,
+  "explanation": "WHO category III covers transdermal bites or scratches, contamination of mucosa or broken skin, and bat exposures, and needs both RIG and vaccine. Facial bites carry the highest risk because they are close to the CNS. Wounds should be washed with soap and water for about 15 minutes. Source: WHO Rabies Position Paper 2018; National Guidelines for Rabies Prophylaxis (India).",
+  "w": [
+   "Without RIG this is inadequate for category III exposure.",
+   "Suturing is delayed where possible, and RIG is still needed.",
+   "",
+   "Passive antibody alone gives no lasting protection; vaccine is required."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_071",
+  "subject": "Microbiology",
+  "sub_topic": "Virology – arboviruses",
+  "stem": "A 24-year-old has had high fever, retro-orbital pain and myalgia for 2 days. Which test is best to confirm the likely diagnosis today?",
+  "options": [
+   "NS1 antigen ELISA",
+   "IgM capture ELISA",
+   "IgG ELISA",
+   "Haemagglutination inhibition test"
+  ],
+  "correct_index": 0,
+  "explanation": "In dengue, NS1 antigen or RT-PCR is used in the first 5 days, and MAC-ELISA for IgM is used after day 5. Source: NCVBDC (India) Dengue Guidelines; WHO Dengue Guidelines 2009.",
+  "w": [
+   "",
+   "Usually turns positive only after about day 5 of illness.",
+   "Shows past or secondary infection; it is not used to confirm early acute infection.",
+   "Needs paired sera and cross-reacts with other flaviviruses."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_072",
+  "subject": "Microbiology",
+  "sub_topic": "Virology – influenza",
+  "stem": "Assertion (A): Influenza A viruses can cause pandemics, whereas influenza B viruses do not. Reason (R): Influenza A has a segmented RNA genome, whereas influenza B has a non-segmented genome.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 2,
+  "explanation": "Both influenza A and B have 8 RNA segments. Only influenza A has animal reservoirs (birds, pigs) in which reassortment (antigenic shift) produces new subtypes, while influenza B undergoes only antigenic drift. Source: Apurba Sastry; Ananthanarayan & Paniker.",
+  "w": [
+   "R is false, so it cannot explain A.",
+   "R is false; both influenza A and B have segmented genomes.",
+   "",
+   "A is true; pandemics have been caused only by influenza A."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_073",
+  "subject": "Microbiology",
+  "sub_topic": "Parasitology – hosts",
+  "stem": "For which of the following is man the intermediate host? 1. Plasmodium vivax 2. Echinococcus granulosus 3. Taenia saginata 4. Toxoplasma gondii",
+  "options": [
+   "1, 2 and 3",
+   "2, 3 and 4",
+   "1, 2 and 4",
+   "2 and 4 only"
+  ],
+  "correct_index": 2,
+  "explanation": "The definitive host carries the sexual stage or adult worm: the mosquito for Plasmodium, the dog for Echinococcus and the cat for Toxoplasma. Man is both definitive and intermediate host for T. solium. Source: Paniker's Textbook of Medical Parasitology; Apurba Sastry.",
+  "w": [
+   "Man is the definitive host for T. saginata, and cattle are the intermediate host.",
+   "Leaves out Plasmodium, whose sexual cycle occurs in the mosquito, so man is the intermediate host.",
+   "",
+   "Leaves out Plasmodium."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_074",
+  "subject": "Microbiology",
+  "sub_topic": "Parasitology – nematodes",
+  "stem": "A 60-year-old on high-dose prednisolone who previously lived in a rural area develops Gram-negative sepsis, diffuse pulmonary infiltrates and a serpiginous rash. Larvae are seen in his sputum. What is the most likely parasite?",
+  "options": [
+   "Ancylostoma duodenale",
+   "Ascaris lumbricoides",
+   "Enterobius vermicularis",
+   "Strongyloides stercoralis"
+  ],
+  "correct_index": 3,
+  "explanation": "Strongyloides can complete its life cycle inside the host (autoinfection), so it can persist for decades. Corticosteroids or HTLV-1 infection can trigger hyperinfection, with migrating larvae carrying gut bacteria into the blood. Rhabditiform larvae, not eggs, are seen in stool. Ivermectin is the drug of choice. Source: Paniker's Medical Parasitology; Apurba Sastry.",
+  "w": [
+   "Does not cause internal autoinfection or hyperinfection.",
+   "Causes transient Löffler pneumonitis; eggs, not larvae, appear in stool, and there is no autoinfection.",
+   "Autoinfection is external (anus to hand to mouth) and does not disseminate.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_075",
+  "subject": "Microbiology",
+  "sub_topic": "Parasitology – eggs",
+  "stem": "The eggs of all of the following helminths are non-bile-stained EXCEPT:",
+  "options": [
+   "Ancylostoma duodenale",
+   "Enterobius vermicularis",
+   "Hymenolepis nana",
+   "Ascaris lumbricoides"
+  ],
+  "correct_index": 3,
+  "explanation": "Bile-stained eggs include Ascaris, Trichuris, Taenia, Clonorchis and Fasciola. Non-bile-stained eggs include hookworm, Enterobius, H. nana and Strongyloides. Source: Paniker's Textbook of Medical Parasitology.",
+  "w": [
+   "Hookworm eggs are colourless (non-bile-stained).",
+   "Pinworm eggs are colourless and planoconvex.",
+   "H. nana eggs are non-bile-stained.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_076",
+  "subject": "Microbiology",
+  "sub_topic": "Parasitology – malaria",
+  "stem": "A man treated for malaria has a relapse 8 months later without having been re-exposed. Which species form hypnozoites that cause such relapses?",
+  "options": [
+   "Plasmodium vivax and P. ovale",
+   "P. falciparum and P. malariae",
+   "P. malariae only",
+   "P. knowlesi"
+  ],
+  "correct_index": 0,
+  "explanation": "Dormant liver hypnozoites of P. vivax and P. ovale cause relapses. They are killed by primaquine (or tafenoquine), so G6PD status must be checked first. Source: Paniker's Medical Parasitology; National Drug Policy on Malaria (India); WHO Malaria Guidelines.",
+  "w": [
+   "",
+   "Neither forms hypnozoites.",
+   "Late recurrence of P. malariae comes from persistent low-level blood-stage parasites (recrudescence), not hypnozoites.",
+   "Does not form hypnozoites."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_077",
+  "subject": "Microbiology",
+  "sub_topic": "Parasitology – protozoa",
+  "stem": "Which stage of Entamoeba histolytica is infective to man?",
+  "options": [
+   "The trophozoite",
+   "The mature quadrinucleate cyst",
+   "The uninucleate precyst",
+   "The metacystic trophozoite"
+  ],
+  "correct_index": 1,
+  "explanation": "The quadrinucleate cyst survives gastric acid and excysts in the intestine. Trophozoites containing ingested RBCs indicate invasive disease. E. dispar looks identical, so antigen or PCR tests are needed to tell them apart. Source: Paniker's Medical Parasitology; Apurba Sastry.",
+  "w": [
+   "This is the invasive form, but it is destroyed by gastric acid and is not infective when swallowed.",
+   "",
+   "An immature stage that is not infective.",
+   "Forms in the intestine after excystation; it is not the swallowed infective form."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_078",
+  "subject": "Microbiology",
+  "sub_topic": "Parasitology – protozoa",
+  "stem": "After a trek, a traveller has foul-smelling greasy diarrhoea, bloating and weight loss. His stool shows a pear-shaped binucleate flagellate with 'falling-leaf' motility. What is the organism?",
+  "options": [
+   "Trichomonas hominis",
+   "Cryptosporidium parvum",
+   "Balantidium coli",
+   "Giardia lamblia (G. duodenalis)"
+  ],
+  "correct_index": 3,
+  "explanation": "Giardia attaches to duodenal mucosa with its ventral sucking disc and causes malabsorption, and it is more common in IgA deficiency. Cysts have 4 nuclei. Treatment is metronidazole or tinidazole. Source: Paniker's Medical Parasitology; Apurba Sastry.",
+  "w": [
+   "Has no ventral sucking disc and moves with jerky motility.",
+   "Seen as acid-fast oocysts; it has no flagellate trophozoite in stool.",
+   "A large ciliate, not a flagellate.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_079",
+  "subject": "Microbiology",
+  "sub_topic": "Parasitology – congenital infections",
+  "stem": "A newborn has hydrocephalus, chorioretinitis and diffuse intracranial calcifications. The mother kept a cat and ate undercooked meat during pregnancy. What is the most likely organism?",
+  "options": [
+   "Cytomegalovirus",
+   "Rubella virus",
+   "Treponema pallidum",
+   "Toxoplasma gondii"
+  ],
+  "correct_index": 3,
+  "explanation": "The classic triad of congenital toxoplasmosis is hydrocephalus, chorioretinitis and diffuse calcifications. Spiramycin in pregnancy reduces transmission, and pyrimethamine–sulfadiazine is given if the fetus is infected. Source: Paniker's Medical Parasitology; Apurba Sastry.",
+  "w": [
+   "Typically causes periventricular calcification, microcephaly and sensorineural deafness.",
+   "Causes cataract, PDA and deafness.",
+   "Causes snuffles, rash, hepatosplenomegaly and bone lesions.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_080",
+  "subject": "Microbiology",
+  "sub_topic": "Parasitology – vectors",
+  "stem": "A 30-year-old from Bihar has prolonged fever, massive splenomegaly and darkening of the skin, and an rK39 test is positive. Which vector transmits this infection?",
+  "options": [
+   "Anopheles culicifacies",
+   "Culex quinquefasciatus",
+   "Phlebotomus argentipes (sandfly)",
+   "Reduviid (triatomine) bug"
+  ],
+  "correct_index": 2,
+  "explanation": "Kala-azar (L. donovani) exists as amastigotes (LD bodies) in macrophages and as promastigotes in the sandfly and NNN culture. India's elimination programme uses single-dose liposomal amphotericin B. Post-kala-azar dermal leishmaniasis (PKDL) can follow treatment. Source: Paniker's Medical Parasitology; NCVBDC Kala-azar Guidelines.",
+  "w": [
+   "A vector of malaria.",
+   "A vector of lymphatic filariasis.",
+   "",
+   "Transmits Trypanosoma cruzi (Chagas disease)."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_081",
+  "subject": "Microbiology",
+  "sub_topic": "Parasitology – cestodes",
+  "stem": "Assertion (A): Eating undercooked pork that contains cysticerci causes neurocysticercosis. Reason (R): Humans develop cysticercosis by ingesting Taenia solium eggs.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 3,
+  "explanation": "Pork containing cysticerci produces an adult tapeworm in the gut (taeniasis). Eggs taken in by faecal–oral contamination or autoinfection cause cysticercosis, so even strict vegetarians can develop neurocysticercosis. Source: Paniker's Medical Parasitology; Apurba Sastry.",
+  "w": [
+   "A is false, so R cannot explain it.",
+   "A is false; eating cysticerci causes intestinal taeniasis.",
+   "R is true; eggs cause cysticercosis.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_082",
+  "subject": "Microbiology",
+  "sub_topic": "Mycology – dimorphic fungi",
+  "stem": "Match each tissue form with its fungus. A. Broad-based budding, thick-walled yeast  B. Multiple-budding 'pilot's wheel' yeast  C. Cigar-shaped budding yeast  D. Spherules filled with endospores — 1. Coccidioides immitis  2. Blastomyces dermatitidis  3. Sporothrix schenckii  4. Paracoccidioides brasiliensis",
+  "options": [
+   "A-4, B-2, C-3, D-1",
+   "A-2, B-4, C-1, D-3",
+   "A-3, B-4, C-2, D-1",
+   "A-2, B-4, C-3, D-1"
+  ],
+  "correct_index": 3,
+  "explanation": "Thermally dimorphic fungi grow as moulds at 25 °C and as yeasts at 37 °C, except Coccidioides, which forms spherules in tissue. Histoplasma appears as small intracellular yeasts in macrophages and produces tuberculate macroconidia in culture. Source: Apurba Sastry; Jagdish Chander Textbook of Medical Mycology.",
+  "w": [
+   "Swaps Blastomyces and Paracoccidioides.",
+   "Swaps Sporothrix and Coccidioides; spherules are the tissue form of Coccidioides.",
+   "Swaps Blastomyces and Sporothrix.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_083",
+  "subject": "Microbiology",
+  "sub_topic": "Mycology – opportunistic fungi",
+  "stem": "A 34-year-old with AIDS (CD4 50/µL) has had headache and fever for 2 weeks, and his CSF opening pressure is raised. Which diagnostic test is the most sensitive and specific?",
+  "options": [
+   "India ink staining of CSF",
+   "Gram stain of CSF",
+   "CSF adenosine deaminase",
+   "Cryptococcal antigen detection in CSF (lateral flow assay)"
+  ],
+  "correct_index": 3,
+  "explanation": "The CrAg test detects capsular glucuronoxylomannan. Cryptococcus is urease-positive, forms brown colonies on birdseed agar and stains with mucicarmine. Treatment is induction with amphotericin B plus flucytosine, then fluconazole, with therapeutic LPs to relieve raised pressure. Source: WHO Cryptococcal Disease Guidelines 2022; Apurba Sastry.",
+  "w": [
+   "Quick and specific, but less sensitive than antigen detection.",
+   "Not the test of choice for Cryptococcus.",
+   "Used to support a diagnosis of tuberculous meningitis.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_084",
+  "subject": "Microbiology",
+  "sub_topic": "Mycology – opportunistic fungi",
+  "stem": "A 50-year-old with uncontrolled diabetes in ketoacidosis develops facial pain, a black necrotic eschar on the palate and orbital swelling. What will a KOH mount of the tissue most likely show?",
+  "options": [
+   "Broad, ribbon-like, pauciseptate hyphae branching at wide (near right) angles",
+   "Narrow septate hyphae with acute-angle (about 45°) dichotomous branching",
+   "Budding yeast with pseudohyphae",
+   "Spherules containing endospores"
+  ],
+  "correct_index": 0,
+  "explanation": "The Mucorales (Rhizopus, Mucor) invade blood vessels and cause necrosis. Risk factors include DKA, steroids (as seen during COVID-19), neutropenia and deferoxamine therapy. Treatment is urgent surgical debridement with liposomal amphotericin B, stepping down to posaconazole or isavuconazole. Source: Apurba Sastry; ECMM/MSG ERC Mucormycosis Guideline 2019.",
+  "w": [
+   "",
+   "This describes Aspergillus.",
+   "This describes Candida.",
+   "This describes Coccidioides."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_085",
+  "subject": "Microbiology",
+  "sub_topic": "Mycology – stains",
+  "stem": "A man with HIV and a CD4 count of 120/µL has progressive dyspnoea, dry cough, desaturation on exertion and bilateral ground-glass opacities. Which stain best shows the cysts of the likely pathogen in bronchoalveolar lavage fluid?",
+  "options": [
+   "Gomori methenamine silver stain",
+   "Ziehl–Neelsen stain",
+   "Mucicarmine stain",
+   "India ink preparation"
+  ],
+  "correct_index": 0,
+  "explanation": "Pneumocystis jirovecii cysts look like 'crushed ping-pong balls' on GMS stain, and immunofluorescence or PCR are more sensitive. Treatment is cotrimoxazole, with corticosteroids if PaO2 is below 70 mm Hg. Prophylaxis is given when CD4 is below 200/µL. Source: Apurba Sastry; NIH/CDC/IDSA Opportunistic Infection Guidelines.",
+  "w": [
+   "",
+   "Used for acid-fast bacilli.",
+   "Stains the capsule of Cryptococcus.",
+   "A negative stain that shows the cryptococcal capsule in CSF."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_086",
+  "subject": "Microbiology",
+  "sub_topic": "Mycology – dimorphic fungi",
+  "stem": "A 35-year-old HIV-positive man from Manipur has fever, weight loss and umbilicated papules on his face. Culture at 25 °C grows a mould that releases a red pigment into the medium, and at 37 °C it forms yeast-like cells that divide by fission. What is the organism?",
+  "options": [
+   "Histoplasma capsulatum",
+   "Cryptococcus neoformans",
+   "Talaromyces marneffei",
+   "Sporothrix schenckii"
+  ],
+  "correct_index": 2,
+  "explanation": "T. marneffei (formerly Penicillium marneffei) is endemic in Southeast Asia and northeast India and causes disseminated infection in advanced HIV. Its yeast-like cells divide by fission, not budding. Treatment is amphotericin B followed by itraconazole. Source: Apurba Sastry; Jagdish Chander Textbook of Medical Mycology.",
+  "w": [
+   "Can cause umbilicated papules, but it produces no red pigment and its yeasts divide by budding.",
+   "Grows as an encapsulated yeast at both temperatures; it is not a dimorphic mould.",
+   "",
+   "Its tissue form is a cigar-shaped budding yeast, and it causes lymphocutaneous nodules after thorn injury."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_087",
+  "subject": "Microbiology",
+  "sub_topic": "General microbiology – sterilisation",
+  "stem": "Match each sterilisation method with its biological indicator. A. Autoclave  B. Ionising radiation  C. Ethylene oxide  D. Membrane filtration — 1. Brevundimonas diminuta  2. Geobacillus stearothermophilus  3. Bacillus pumilus  4. Bacillus atrophaeus",
+  "options": [
+   "A-2, B-3, C-4, D-1",
+   "A-4, B-3, C-2, D-1",
+   "A-2, B-4, C-3, D-1",
+   "A-2, B-3, C-1, D-4"
+  ],
+  "correct_index": 0,
+  "explanation": "G. stearothermophilus spores are used for moist heat (and plasma sterilisation). B. atrophaeus (formerly B. subtilis var. niger) is used for ethylene oxide and dry heat. Older texts named non-toxigenic C. tetani for the hot air oven. Source: Ananthanarayan & Paniker; CDC Guideline for Disinfection and Sterilization 2008.",
+  "w": [
+   "",
+   "Swaps the indicators for moist heat and ethylene oxide.",
+   "Swaps the indicators for radiation and ethylene oxide.",
+   "Brevundimonas diminuta, being very small, is the challenge organism for filters."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_088",
+  "subject": "Microbiology",
+  "sub_topic": "General microbiology – sterilisation",
+  "stem": "What is the standard gravity-displacement autoclave cycle for sterilising most hospital items?",
+  "options": [
+   "100 °C at atmospheric pressure for 20 minutes",
+   "160 °C for 2 hours",
+   "121 °C at 15 psi above atmospheric pressure for 15 minutes",
+   "134 °C at 15 psi for 3 minutes"
+  ],
+  "correct_index": 2,
+  "explanation": "Saturated steam under pressure kills spores by denaturing and coagulating proteins. Prevacuum or flash cycles use 134 °C at about 30 psi for shorter times. Steam penetration is checked with a Bowie–Dick test. Source: Ananthanarayan & Paniker; CDC Guideline for Disinfection and Sterilization 2008.",
+  "w": [
+   "This is steaming (as in Tyndallisation), which does not reliably kill spores.",
+   "This is a hot air oven (dry heat) cycle.",
+   "",
+   "134 °C needs about 30 psi; 15 psi gives about 121 °C."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_089",
+  "subject": "Microbiology",
+  "sub_topic": "General microbiology – disinfection",
+  "stem": "A flexible, heat-sensitive GI endoscope must be reprocessed between patients. What is the appropriate method?",
+  "options": [
+   "Autoclaving at 121 °C",
+   "High-level disinfection with 2% glutaraldehyde after thorough manual cleaning",
+   "Wiping with 70% alcohol",
+   "Hot air oven"
+  ],
+  "correct_index": 1,
+  "explanation": "Under the Spaulding classification, endoscopes are semi-critical items (they touch mucosa) and need at least high-level disinfection. Glutaraldehyde kills spores with prolonged exposure, and ortho-phthalaldehyde (OPA) is an alternative. Source: CDC Guideline for Disinfection and Sterilization 2008; Ananthanarayan & Paniker.",
+  "w": [
+   "Heat damages flexible endoscopes.",
+   "",
+   "This is only intermediate-level disinfection and is not enough for semi-critical items.",
+   "Dry heat at 160 °C would destroy the instrument."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_090",
+  "subject": "Microbiology",
+  "sub_topic": "General microbiology – staining",
+  "stem": "What concentration of sulphuric acid is used to decolourise a Ziehl–Neelsen stain for Mycobacterium leprae in slit-skin smears?",
+  "options": [
+   "20%",
+   "5%",
+   "1%",
+   "3% acid-alcohol"
+  ],
+  "correct_index": 1,
+  "explanation": "M. leprae is less acid-fast than M. tuberculosis, so a weaker acid is used. The bacteriological index (BI) and morphological index (MI) are reported from slit-skin smears. Source: Ananthanarayan & Paniker; Apurba Sastry.",
+  "w": [
+   "Used for M. tuberculosis, which is more strongly acid-fast.",
+   "",
+   "Used in modified ZN stains for weakly acid-fast organisms such as Nocardia and Cryptosporidium.",
+   "A stronger decolouriser used for tubercle bacilli; it is too harsh for the less acid-fast M. leprae."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_091",
+  "subject": "Microbiology",
+  "sub_topic": "Immunology – complement",
+  "stem": "A 19-year-old has a second episode of meningococcal meningitis, and his brother has had disseminated gonococcal infection. Which deficiency is most likely?",
+  "options": [
+   "C3 deficiency",
+   "Deficiency of terminal complement components (C5–C9)",
+   "C1 esterase inhibitor deficiency",
+   "Deficiency of early classical components (C1q, C2, C4)"
+  ],
+  "correct_index": 1,
+  "explanation": "The membrane attack complex is needed to kill Neisseria, so screening is with CH50 (and AH50 for alternative-pathway defects such as properdin deficiency). Patients need meningococcal vaccination, and eculizumab, which blocks C5, carries the same risk. Source: Apurba Sastry; Abbas Cellular and Molecular Immunology.",
+  "w": [
+   "Causes severe recurrent pyogenic infections with many encapsulated bacteria, often with glomerulonephritis, not mainly Neisseria.",
+   "",
+   "Causes hereditary angioedema, not infections.",
+   "Mainly predisposes to SLE-like immune-complex disease."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_092",
+  "subject": "Microbiology",
+  "sub_topic": "Immunology – complement",
+  "stem": "A 25-year-old has recurrent non-pruritic, non-pitting swelling of the face and episodes of abdominal pain after dental procedures. There is no urticaria and antihistamines do not help. What is the best screening test?",
+  "options": [
+   "Total serum IgE",
+   "Serum tryptase",
+   "Serum C3 level",
+   "Serum C4 level"
+  ],
+  "correct_index": 3,
+  "explanation": "In hereditary angioedema, C1-inhibitor deficiency allows unchecked activation and bradykinin excess. C4 is low even between attacks, and C1q is low only in the acquired form. ACE inhibitors worsen it, and acute attacks are treated with C1-INH concentrate or icatibant. Source: Apurba Sastry; WAO/EAACI HAE Guideline 2021.",
+  "w": [
+   "Relevant to allergic (histaminergic) angioedema, which usually comes with urticaria.",
+   "Rises in anaphylaxis and mast-cell disorders.",
+   "Usually normal in C1-inhibitor deficiency.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_093",
+  "subject": "Microbiology",
+  "sub_topic": "Immunology – immunoglobulins",
+  "stem": "Assertion (A): IgM is the first immunoglobulin class produced in a primary immune response. Reason (R): IgM is a pentamer with ten antigen-binding sites.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 1,
+  "explanation": "Naive B cells first express IgM, and switching to IgG needs CD40L-mediated T-cell help and time. IgM's high valency makes it best at agglutination and complement activation. IgM in cord blood indicates intrauterine infection. Source: Ananthanarayan & Paniker; Abbas Cellular and Molecular Immunology.",
+  "w": [
+   "R is true but does not explain why IgM appears first, which is because class switching happens later.",
+   "",
+   "R is true; secreted IgM is a pentamer joined by a J chain.",
+   "A is true; IgM comes before IgG in the primary response."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_094",
+  "subject": "Microbiology",
+  "sub_topic": "Immunology – vaccines",
+  "stem": "A pregnant woman must travel to an endemic area. Which of the following vaccines is live attenuated and therefore generally avoided in pregnancy unless the travel cannot be postponed?",
+  "options": [
+   "Yellow fever 17D vaccine",
+   "Inactivated polio vaccine",
+   "Recombinant hepatitis B vaccine",
+   "Tetanus–diphtheria (Td) vaccine"
+  ],
+  "correct_index": 0,
+  "explanation": "Live vaccines include BCG, OPV, MMR, varicella, yellow fever, rotavirus and oral typhoid Ty21a. ACIP allows yellow fever vaccine in pregnancy only if travel is unavoidable and the risk of exposure is high. Source: CDC ACIP General Best Practice Guidelines; Ananthanarayan & Paniker.",
+  "w": [
+   "",
+   "Killed vaccine.",
+   "Subunit (HBsAg) vaccine; safe in pregnancy.",
+   "Toxoid vaccine, routinely given in pregnancy."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_095",
+  "subject": "Microbiology",
+  "sub_topic": "Immunology – vaccines",
+  "stem": "Assertion (A): Pure capsular polysaccharide vaccines are poorly immunogenic in children under 2 years of age. Reason (R): Polysaccharide antigens are T-cell independent and induce little immunological memory.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "Linking a polysaccharide to a protein carrier (CRM197, tetanus toxoid) makes it T-dependent, which allows class switching and memory in infants. Examples are Hib, PCV and MenACWY conjugate vaccines. Source: Ananthanarayan & Paniker; Plotkin's Vaccines.",
+  "w": [
+   "",
+   "R is the reason for poor responses in infants, so it does explain A.",
+   "R is true; polysaccharides are T-independent type 2 antigens.",
+   "A is true; this is why conjugate vaccines were developed."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_096",
+  "subject": "Microbiology",
+  "sub_topic": "Immunology – immunodeficiency",
+  "stem": "An 8-month-old boy has had recurrent otitis media and pneumonia with S. pneumoniae and H. influenzae since 6 months of age. His tonsils are barely visible, all immunoglobulins are very low, CD19+ B cells are absent and T cells are normal. What is the diagnosis?",
+  "options": [
+   "Common variable immunodeficiency",
+   "X-linked agammaglobulinaemia due to a BTK mutation",
+   "DiGeorge syndrome",
+   "Selective IgA deficiency"
+  ],
+  "correct_index": 1,
+  "explanation": "Infections start after maternal IgG wanes, at around 6 months. A BTK defect stops pre-B cells from maturing, so lymphoid tissue is scanty. Treatment is lifelong IVIG, and live vaccines such as OPV must be avoided because of the risk of vaccine-associated paralytic polio. Source: Apurba Sastry; Abbas Cellular and Molecular Immunology.",
+  "w": [
+   "Usually presents later, and B cells are present in normal numbers.",
+   "",
+   "A T-cell defect with thymic hypoplasia and hypocalcaemia.",
+   "Only IgA is low, and B cells are normal."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_097",
+  "subject": "Microbiology",
+  "sub_topic": "Hospital infection control – biomedical waste",
+  "stem": "Under India's Bio-Medical Waste Management Rules 2016, match each waste with its container. A. Human anatomical waste  B. Used urinary catheters and IV tubing  C. Used needles and scalpel blades  D. Broken glass ampoules — 1. Red bag  2. Blue puncture-proof box  3. Yellow bag  4. White translucent puncture-proof container",
+  "options": [
+   "A-1, B-3, C-4, D-2",
+   "A-3, B-1, C-2, D-4",
+   "A-3, B-1, C-4, D-2",
+   "A-3, B-4, C-1, D-2"
+  ],
+  "correct_index": 2,
+  "explanation": "Yellow is for anatomical, soiled, chemical, expired-drug and microbiology waste (incineration or deep burial). Red is for contaminated recyclable plastics (autoclave, then shred). White translucent is for metal sharps, and blue is for glassware and metallic implants. Source: Bio-Medical Waste Management Rules 2016 (amended 2018), MoEFCC India.",
+  "w": [
+   "Anatomical waste goes in yellow (for incineration), and recyclable contaminated plastic goes in red.",
+   "Sharps go in white translucent containers, and glassware goes in blue.",
+   "",
+   "Tubing and catheters go in red, and sharps in white."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_098",
+  "subject": "Microbiology",
+  "sub_topic": "Hospital infection control – hand hygiene",
+  "stem": "A nurse caring for a patient with Clostridioides difficile diarrhoea removes her gloves as she leaves the room. What is the best hand hygiene?",
+  "options": [
+   "Alcohol-based hand rub",
+   "Chlorhexidine–alcohol hand rub",
+   "No hand hygiene, because gloves were worn",
+   "Washing hands with soap and running water"
+  ],
+  "correct_index": 3,
+  "explanation": "Washing with soap and water removes C. difficile spores mechanically. Contact precautions and environmental cleaning with a sporicide such as hypochlorite are also needed. Soap and water is also preferred for norovirus and visibly soiled hands. Source: WHO Guidelines on Hand Hygiene in Health Care 2009; IDSA/SHEA CDI Guideline.",
+  "w": [
+   "Alcohol does not kill spores.",
+   "Also does not reliably remove or kill spores.",
+   "Hands can be contaminated while removing gloves, so hand hygiene is always needed.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_099",
+  "subject": "Microbiology",
+  "sub_topic": "Hospital infection control – isolation precautions",
+  "stem": "Which pairings of infection and transmission-based precaution are correct? 1. Pulmonary tuberculosis: airborne precautions with an N95 respirator and an airborne infection isolation room 2. Seasonal influenza: droplet precautions 3. MRSA wound infection: contact precautions 4. Measles: droplet precautions only",
+  "options": [
+   "1, 2, 3 and 4",
+   "1, 2 and 3",
+   "1 and 3 only",
+   "2, 3 and 4"
+  ],
+  "correct_index": 1,
+  "explanation": "Airborne precautions are needed for TB, measles and varicella (varicella also needs contact precautions until the lesions crust). Droplet precautions apply to influenza, meningococcus, pertussis and diphtheria (pharyngeal), and contact precautions to MRSA, VRE, C. difficile and scabies. Source: CDC 2007 Guideline for Isolation Precautions.",
+  "w": [
+   "Measles spreads by the airborne route and needs airborne precautions.",
+   "",
+   "Leaves out influenza, which correctly needs droplet precautions.",
+   "Leaves out TB and wrongly includes measles under droplet precautions."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_g_100",
+  "subject": "Microbiology",
+  "sub_topic": "Hospital infection control – occupational exposure",
+  "stem": "A resident gets a deep needle-stick injury from a hollow-bore needle used on an HIV-positive patient whose viral load is unknown. What is the most appropriate post-exposure prophylaxis?",
+  "options": [
+   "Tenofovir + lamivudine + dolutegravir started as soon as possible (ideally within 2 hours, and not after 72 hours) and continued for 28 days",
+   "Start within 7 days and continue for 14 days",
+   "Zidovudine monotherapy for 28 days",
+   "Defer PEP until the source patient's viral load is known"
+  ],
+  "correct_index": 0,
+  "explanation": "NACO 2021 recommends TDF + 3TC + DTG for 28 days for HIV PEP. Baseline HIV testing of the exposed person is done, with follow-up testing. HBV vaccination status and anti-HBs should also be checked. Source: NACO National Guidelines for HIV Care and Treatment 2021; CDC PEP Guidelines.",
+  "w": [
+   "",
+   "PEP is not effective if started after 72 hours, and 28 days is the standard course.",
+   "Single-drug PEP is outdated; a three-drug regimen is recommended.",
+   "Waiting wastes the window in which PEP works; start it now and adjust later."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ }
+]

@@ -1,7 +1,7 @@
 # BACKLOG
 
 ## >>RESUME HERE
-15 Oct: HY-ORIGINAL set (192 Q) shipped. Extend it by PYQ-repeat rank (pyq_recall subTopic weights), especially preclinical subjects (none yet). PrepLadder/Marrow banks are not importable (licensed; studyroomforu/Prep-xi-qbank is a PrepLadder scrape, declined).
+15 Oct: HY-ORIGINAL set (492 Q, all 19 subjects) shipped. Extend by PYQ-repeat rank (pyq_recall subTopic weights); Derm has none yet. PrepLadder/Marrow banks are not importable (licensed; studyroomforu/Prep-xi-qbank is a PrepLadder scrape, declined).
 Rebuild + drills merged to main; live at https://archiboltmusk.github.io/INICET-PLANNER/ (case-sensitive). Coverage view lists 591 Marrow chapter topics with no cluster (data/coverage.js). Next, in order:
 0. Fill coverage gaps by exam yield, one subject per PR: Radiology (done in rad2.json; remaining: IVU/renal, pelvic/women's imaging), OBGY (done in obg2.json; left: ovarian cancer appearance, ectopic/GTD, multiple pregnancy, medical disorders), Community Med (57), Physiology (49), Pharm (39), Peds (38), Micro (36), Ophthal (35), Anaesthesia (35), Forensic (32), ENT (32). Open Coverage → Gaps only. Surgery/Pathology have no Marrow file in Drive.
 1. "20 easy-mark topics" sheet as one volatile cluster (tests-of-significance tree, PK formulas, porphyrias, sterilisation indicators, parasite eggs, arches, tympanometry, field defects, defence mechanisms, sleep stages, STI kits, radiation units, MAC, cold chain/VVM, lead-time bias, GCS, Pearl index/MEC, primitive reflexes, CSF profiles).

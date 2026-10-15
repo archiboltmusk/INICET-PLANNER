@@ -1,0 +1,2202 @@
+[
+ {
+  "id": "hy_f_001",
+  "subject": "Biochemistry",
+  "sub_topic": "Glycogen storage disease",
+  "stem": "A 6-month-old infant has fasting hypoglycaemic seizures, doll-like facies, massive hepatomegaly and enlarged kidneys. Blood lactate, uric acid and triglycerides are all raised. An injection of glucagon produces no rise in blood glucose. Which enzyme is deficient?",
+  "options": [
+   "Hepatic glycogen phosphorylase",
+   "Lysosomal acid α-1,4-glucosidase",
+   "Glucose-6-phosphatase",
+   "Glycogen debranching enzyme"
+  ],
+  "correct_index": 2,
+  "explanation": "Von Gierke disease (GSD Ia) blocks the last common step of glycogenolysis and gluconeogenesis, so glucagon cannot raise glucose. Trapped glucose-6-phosphate is diverted to lactate, triglyceride and urate. Lactic acidosis plus hyperuricaemia is the discriminator from other hepatic GSDs. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Hers disease is milder, without marked lactic acidosis or hyperuricaemia.",
+   "Pompe disease causes cardiomegaly and hypotonia with normal glucose.",
+   "",
+   "Cori disease has milder hypoglycaemia with normal lactate and urate."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_002",
+  "subject": "Biochemistry",
+  "sub_topic": "Glycogen storage disease",
+  "stem": "A 4-month-old infant has profound hypotonia, macroglossia and poor feeding. ECG shows a short PR interval with very tall QRS complexes and echocardiography shows massive biventricular hypertrophy. Blood glucose is normal. Which enzyme is deficient?",
+  "options": [
+   "Muscle glycogen phosphorylase",
+   "Glycogen branching enzyme",
+   "Lysosomal acid α-1,4-glucosidase (acid maltase)",
+   "Glucose-6-phosphatase"
+  ],
+  "correct_index": 2,
+  "explanation": "Infantile Pompe disease (GSD II) is the glycogen storage disease that is also a lysosomal storage disease; glycogen accumulates in lysosomes of heart and skeletal muscle. Cytosolic glycogen metabolism is intact, so glucose is normal. Enzyme replacement with recombinant acid α-glucosidase is available. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "McArdle disease presents in adolescence with exercise intolerance, not infantile cardiomyopathy.",
+   "Andersen disease presents with progressive liver cirrhosis.",
+   "",
+   "Von Gierke disease causes fasting hypoglycaemia and hepatomegaly without cardiomyopathy."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_003",
+  "subject": "Biochemistry",
+  "sub_topic": "Glycogen storage disease",
+  "stem": "Assertion (A): In a patient with McArdle disease, venous lactate fails to rise during an ischaemic forearm exercise test.\nReason (R): Deficiency of muscle glycogen phosphorylase prevents release of glucose-1-phosphate from muscle glycogen to fuel anaerobic glycolysis.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "Without myophosphorylase, exercising muscle cannot mobilise its glycogen, so no lactate is produced while ammonia rises normally. Patients have cramps, myoglobinuria after exertion and a 'second-wind' phenomenon as blood glucose and fatty acid delivery increase. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "",
+   "R is the direct mechanism of A, not an unrelated fact.",
+   "R is true: myophosphorylase deficiency is the defect.",
+   "A is true: a flat lactate curve with normal ammonia rise is classic."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_004",
+  "subject": "Biochemistry",
+  "sub_topic": "Lysosomal storage disease",
+  "stem": "A 25-year-old Ashkenazi Jewish man has massive splenomegaly, pancytopenia and bone pain. X-ray shows an Erlenmeyer flask deformity of the distal femur. Bone marrow shows large macrophages with fibrillary cytoplasm resembling crumpled tissue paper. Which enzyme is deficient?",
+  "options": [
+   "Sphingomyelinase",
+   "Hexosaminidase A",
+   "β-Glucocerebrosidase",
+   "α-Galactosidase A"
+  ],
+  "correct_index": 2,
+  "explanation": "Gaucher disease is the commonest lysosomal storage disorder; type 1 is non-neuronopathic. Glucocerebroside accumulates in macrophages (Gaucher cells) of spleen, liver and marrow. Enzyme replacement (imiglucerase) or substrate reduction is used. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Niemann-Pick macrophages are foamy and vacuolated; type A has a cherry-red spot and neurodegeneration.",
+   "Tay-Sachs causes neurodegeneration without organomegaly.",
+   "",
+   "Fabry disease causes angiokeratomas, neuropathic pain, renal and cardiac disease, not Gaucher cells."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_005",
+  "subject": "Biochemistry",
+  "sub_topic": "Lysosomal storage disease",
+  "stem": "A 7-month-old infant of Ashkenazi descent shows an exaggerated startle response to sound and loss of previously acquired milestones. Fundoscopy shows a cherry-red spot at the macula. Liver and spleen are not enlarged. Electron microscopy of neurons shows lysosomes with concentric whorled membranes. Which enzyme is deficient?",
+  "options": [
+   "Sphingomyelinase",
+   "Galactocerebrosidase",
+   "Arylsulfatase A",
+   "Hexosaminidase A"
+  ],
+  "correct_index": 3,
+  "explanation": "Tay-Sachs disease (GM2 gangliosidosis) causes neuronal storage with 'onion-skin' lysosomes and a cherry-red spot. Absence of hepatosplenomegaly is the key discriminator from Niemann-Pick type A, which also has a cherry-red spot. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Niemann-Pick type A has a cherry-red spot but with marked hepatosplenomegaly.",
+   "Krabbe disease shows globoid cells, optic atrophy and peripheral neuropathy; cherry-red spot is not classic.",
+   "Metachromatic leukodystrophy is a demyelinating sulfatide disorder; cherry-red spot is not classic.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_006",
+  "subject": "Biochemistry",
+  "sub_topic": "Lysosomal storage disease",
+  "stem": "A 30-year-old man has had burning pain in his hands and feet since childhood, reduced sweating, and clusters of dark red papules over the lower trunk. He now has proteinuria and left ventricular hypertrophy. His maternal uncle died of renal failure. Which substrate accumulates?",
+  "options": [
+   "Glucocerebroside",
+   "Sulfatide",
+   "GM2 ganglioside",
+   "Globotriaosylceramide (Gb3)"
+  ],
+  "correct_index": 3,
+  "explanation": "Fabry disease is X-linked deficiency of α-galactosidase A, with Gb3 deposition in vascular endothelium, kidney, heart and nerves. Angiokeratomas, acroparaesthesia and hypohidrosis in a young man are the classic triad; heterozygous women can be symptomatic. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Glucocerebroside accumulates in Gaucher disease.",
+   "Sulfatide accumulates in metachromatic leukodystrophy.",
+   "GM2 ganglioside accumulates in Tay-Sachs disease.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_007",
+  "subject": "Biochemistry",
+  "sub_topic": "Lysosomal storage disease",
+  "stem": "Assertion (A): Hunter syndrome is seen almost exclusively in males.\nReason (R): Hunter syndrome is caused by deficiency of iduronate-2-sulfatase.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 1,
+  "explanation": "Both statements are true, but male predominance is due to X-linked recessive inheritance, not to the identity of the enzyme. Hunter syndrome lacks corneal clouding and often has aggressive behaviour, unlike Hurler syndrome (α-L-iduronidase, autosomal recessive) which has corneal clouding. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "R names the enzyme but does not explain the sex distribution; X-linked inheritance does.",
+   "",
+   "R is true: iduronate-2-sulfatase is the deficient enzyme.",
+   "A is true: Hunter syndrome is X-linked recessive."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_008",
+  "subject": "Biochemistry",
+  "sub_topic": "Lysosomal storage disease",
+  "stem": "Match the disorder with the deficient enzyme:\nA. Krabbe disease\nB. Metachromatic leukodystrophy\nC. Hurler syndrome\nD. Niemann-Pick disease (types A/B)\n1. Arylsulfatase A\n2. Sphingomyelinase\n3. Galactocerebrosidase\n4. α-L-Iduronidase",
+  "options": [
+   "A-3, B-1, C-4, D-2",
+   "A-1, B-3, C-4, D-2",
+   "A-2, B-1, C-4, D-3",
+   "A-3, B-1, C-2, D-4"
+  ],
+  "correct_index": 0,
+  "explanation": "Krabbe = galactocerebrosidase (globoid cells); MLD = arylsulfatase A (sulfatide, metachromatic granules); Hurler = α-L-iduronidase (corneal clouding, dermatan and heparan sulfate); Niemann-Pick A/B = acid sphingomyelinase (foam cells). Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "",
+   "Swaps Krabbe and MLD enzymes.",
+   "Swaps Krabbe and Niemann-Pick enzymes.",
+   "Swaps Hurler and Niemann-Pick enzymes."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_009",
+  "subject": "Biochemistry",
+  "sub_topic": "Urea cycle disorders",
+  "stem": "A 3-day-old boy becomes lethargic and vomits after feeds, with tachypnoea. Plasma ammonia is markedly raised, plasma citrulline is low and urinary orotic acid is high. Which enzyme is most likely deficient?",
+  "options": [
+   "UMP synthase",
+   "Ornithine transcarbamoylase",
+   "Argininosuccinate synthetase",
+   "Carbamoyl phosphate synthetase I"
+  ],
+  "correct_index": 1,
+  "explanation": "OTC deficiency is the commonest urea cycle disorder and is X-linked. Unused carbamoyl phosphate leaks into the cytosol and enters pyrimidine synthesis, producing orotic aciduria. CPS I deficiency also has low citrulline but no orotic aciduria. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Hereditary orotic aciduria causes megaloblastic anaemia without hyperammonaemia.",
+   "",
+   "Citrullinaemia type 1 has markedly raised citrulline.",
+   "CPS I deficiency gives low citrulline but normal orotic acid, as no carbamoyl phosphate is formed."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_010",
+  "subject": "Biochemistry",
+  "sub_topic": "Nucleotide metabolism",
+  "stem": "A 1-year-old has failure to thrive and megaloblastic anaemia that does not respond to vitamin B12 or folate. Urine contains needle-shaped crystals of orotic acid. Plasma ammonia is normal. What is the treatment of choice?",
+  "options": [
+   "Pyridoxine",
+   "Sodium benzoate with a low-protein diet",
+   "Oral uridine",
+   "Intramuscular hydroxocobalamin"
+  ],
+  "correct_index": 2,
+  "explanation": "Hereditary orotic aciduria is a defect of UMP synthase in de novo pyrimidine synthesis. Uridine bypasses the block and its products feedback-inhibit CPS II, reducing orotate production. Normal ammonia distinguishes it from OTC deficiency. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Pyridoxine treats B6-responsive disorders such as some homocystinuria and sideroblastic anaemia.",
+   "Ammonia scavengers are for urea cycle defects; ammonia is normal here.",
+   "",
+   "Anaemia did not respond to B12; the defect is in pyrimidine synthesis."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_011",
+  "subject": "Biochemistry",
+  "sub_topic": "Porphyrias",
+  "stem": "A 26-year-old woman develops severe colicky abdominal pain, tachycardia, hyponatraemia, anxiety and proximal limb weakness two days after starting phenytoin. She has no skin lesions. Her urine darkens on standing in light. Which enzyme is deficient?",
+  "options": [
+   "Porphobilinogen deaminase (hydroxymethylbilane synthase)",
+   "Ferrochelatase",
+   "Uroporphyrinogen III synthase",
+   "Uroporphyrinogen decarboxylase"
+  ],
+  "correct_index": 0,
+  "explanation": "Acute intermittent porphyria is autosomal dominant; drugs that induce hepatic ALA synthase, fasting and hormones precipitate attacks with raised urinary ALA and PBG. There is no photosensitivity because ALA and PBG are not porphyrins. Treat with IV haemin and carbohydrate loading. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "",
+   "Erythropoietic protoporphyria causes painful non-blistering photosensitivity without attacks.",
+   "Congenital erythropoietic porphyria causes severe mutilating photosensitivity and red teeth from infancy.",
+   "Porphyria cutanea tarda causes blistering photosensitivity without neurovisceral attacks."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_012",
+  "subject": "Biochemistry",
+  "sub_topic": "Heme synthesis",
+  "stem": "A child living near a battery-recycling unit has abdominal colic, irritability and microcytic anaemia. The blood film shows coarse basophilic stippling of red cells. Which pair of heme-synthesis enzymes is inhibited by the toxin?",
+  "options": [
+   "ALA synthase and porphobilinogen deaminase",
+   "δ-ALA dehydratase and ferrochelatase",
+   "Uroporphyrinogen decarboxylase and coproporphyrinogen oxidase",
+   "ALA synthase and ferrochelatase"
+  ],
+  "correct_index": 1,
+  "explanation": "Lead inhibits ALA dehydratase (raising urinary ALA) and ferrochelatase (raising zinc protoporphyrin in red cells). Basophilic stippling reflects inhibition of pyrimidine 5'-nucleotidase, leaving undegraded ribosomal RNA. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Lead does not primarily inhibit ALA synthase or PBG deaminase.",
+   "",
+   "These are affected in PCT and hereditary coproporphyria, not lead poisoning.",
+   "ALA synthase is not the lead-sensitive enzyme."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_013",
+  "subject": "Biochemistry",
+  "sub_topic": "Heme synthesis",
+  "stem": "Regarding heme synthesis, which statements are correct?\n1. ALA synthase is the rate-limiting enzyme.\n2. ALA synthase requires pyridoxal phosphate.\n3. Ferrochelatase acts in the cytosol.\n4. Heme represses synthesis of hepatic ALA synthase (ALAS1).",
+  "options": [
+   "1, 2 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "correct_index": 2,
+  "explanation": "The first step (ALA synthase) and the last three steps, including ferrochelatase, are mitochondrial; the middle steps are cytosolic. Heme repression of ALAS1 is the basis of haemin therapy in acute porphyrias. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Statement 3 is false: ferrochelatase is mitochondrial.",
+   "Omits true statements 1 and 4 and includes false statement 3.",
+   "",
+   "Statement 3 is false."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_014",
+  "subject": "Biochemistry",
+  "sub_topic": "Aminoacidopathies",
+  "stem": "A 9-month-old infant with hyperphenylalaninaemia detected on newborn screening has been on a strict phenylalanine-restricted diet with good control of blood phenylalanine, yet develops seizures, hypotonia and developmental regression. Which defect best explains this?",
+  "options": [
+   "Dihydropteridine reductase deficiency",
+   "Fumarylacetoacetate hydrolase deficiency",
+   "Classic phenylalanine hydroxylase deficiency",
+   "Homogentisate oxidase deficiency"
+  ],
+  "correct_index": 0,
+  "explanation": "Tetrahydrobiopterin (BH4) is the cofactor for phenylalanine, tyrosine and tryptophan hydroxylases. Defects in BH4 synthesis or recycling (DHPR) cause dopamine and serotonin deficiency that diet alone cannot correct. Every infant with hyperphenylalaninaemia should be screened for BH4 defects. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "",
+   "FAH deficiency causes tyrosinaemia type 1 with liver failure and renal tubulopathy.",
+   "Classic PKU improves with good dietary phenylalanine control.",
+   "Homogentisate oxidase deficiency causes alkaptonuria, not hyperphenylalaninaemia."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_015",
+  "subject": "Biochemistry",
+  "sub_topic": "Aminoacidopathies",
+  "stem": "Assertion (A): In classic phenylketonuria, tyrosine becomes an essential amino acid.\nReason (R): Tyrosine is normally synthesised in the body by hydroxylation of phenylalanine.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "Phenylalanine hydroxylase normally makes tyrosine, so its deficiency makes tyrosine conditionally essential and it must be supplied in the diet. Reduced tyrosine also contributes to reduced melanin, explaining fair skin and hair. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "",
+   "R is exactly why tyrosine becomes essential in PKU.",
+   "R is true: phenylalanine hydroxylase forms tyrosine.",
+   "A is true: tyrosine must be supplemented in PKU."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_016",
+  "subject": "Biochemistry",
+  "sub_topic": "Aminoacidopathies",
+  "stem": "A 45-year-old man has chronic low back pain with calcified intervertebral discs on X-ray and bluish-black pigmentation of the ear cartilage and sclera. His mother recalls that his nappies turned black on standing. Which enzyme is deficient?",
+  "options": [
+   "Homogentisate 1,2-dioxygenase",
+   "Tyrosinase",
+   "Fumarylacetoacetate hydrolase",
+   "Phenylalanine hydroxylase"
+  ],
+  "correct_index": 0,
+  "explanation": "Alkaptonuria is autosomal recessive; homogentisic acid oxidises to a dark pigment that deposits in connective tissue (ochronosis), causing degenerative arthropathy. Nitisinone reduces homogentisic acid production. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "",
+   "Tyrosinase deficiency causes oculocutaneous albinism.",
+   "FAH deficiency causes tyrosinaemia type 1.",
+   "PAH deficiency causes phenylketonuria."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_017",
+  "subject": "Biochemistry",
+  "sub_topic": "Aminoacidopathies",
+  "stem": "A 1-week-old neonate has poor feeding, opisthotonus and urine with a burnt-sugar odour. Plasma leucine, isoleucine and valine are raised. The deficient enzyme complex shares its cofactor requirement (TPP, lipoate, CoA, FAD, NAD+) with which enzyme?",
+  "options": [
+   "Pyruvate dehydrogenase complex",
+   "Alanine aminotransferase",
+   "Methylmalonyl-CoA mutase",
+   "Propionyl-CoA carboxylase"
+  ],
+  "correct_index": 0,
+  "explanation": "Maple syrup urine disease is a defect of branched-chain α-keto acid dehydrogenase, which, like PDH and α-ketoglutarate dehydrogenase, needs five cofactors. Some patients are thiamine responsive. Raised alloisoleucine is diagnostic. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "",
+   "Aminotransferases use pyridoxal phosphate only.",
+   "Methylmalonyl-CoA mutase uses adenosylcobalamin.",
+   "Propionyl-CoA carboxylase uses biotin."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_018",
+  "subject": "Biochemistry",
+  "sub_topic": "Aminoacidopathies",
+  "stem": "Classic homocystinuria due to cystathionine β-synthase deficiency is associated with all of the following EXCEPT:",
+  "options": [
+   "Response to pyridoxine in a proportion of patients",
+   "Downward (inferonasal) dislocation of the lens",
+   "Low plasma methionine",
+   "Arterial and venous thromboembolism"
+  ],
+  "correct_index": 2,
+  "explanation": "A block at CBS raises both homocysteine and, through remethylation, methionine. Low methionine with high homocysteine instead suggests a remethylation defect (MTHFR or cobalamin disorders). Cysteine becomes conditionally essential. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "True: CBS needs pyridoxal phosphate and some patients are B6 responsive.",
+   "True: lens usually dislocates downward, unlike upward in Marfan syndrome.",
+   "",
+   "True: thromboembolism is the major cause of morbidity and death."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_019",
+  "subject": "Biochemistry",
+  "sub_topic": "Carbohydrate metabolism regulation",
+  "stem": "After a carbohydrate-rich meal, insulin lowers hepatic cAMP and activates the kinase domain of the bifunctional enzyme PFK-2/FBPase-2. Which statement best describes the effect?",
+  "options": [
+   "Fructose 1,6-bisphosphate rises, activating pyruvate carboxylase",
+   "Citrate rises, activating PFK-1",
+   "Fructose 2,6-bisphosphate rises, activating PFK-1 and inhibiting fructose 1,6-bisphosphatase",
+   "Fructose 2,6-bisphosphate rises, inhibiting PFK-1 and activating fructose 1,6-bisphosphatase"
+  ],
+  "correct_index": 2,
+  "explanation": "Fructose 2,6-bisphosphate is the most potent allosteric activator of PFK-1 and an inhibitor of FBPase-1, so it switches the liver to glycolysis. Glucagon (via PKA) phosphorylates the bifunctional enzyme, activating the phosphatase and favouring gluconeogenesis. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Fructose 1,6-bisphosphate feed-forward activates pyruvate kinase, not pyruvate carboxylase.",
+   "Citrate inhibits PFK-1.",
+   "",
+   "The effects are reversed: F2,6BP promotes glycolysis."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_020",
+  "subject": "Biochemistry",
+  "sub_topic": "Lipid metabolism regulation",
+  "stem": "In the well-fed state, fatty acids newly synthesised in the liver are not immediately oxidised in mitochondria. This is mainly because:",
+  "options": [
+   "Insulin inhibits acetyl-CoA carboxylase",
+   "Insulin inhibits acyl-CoA dehydrogenase",
+   "Citrate inhibits the carnitine–acylcarnitine translocase",
+   "Malonyl-CoA inhibits carnitine palmitoyltransferase I"
+  ],
+  "correct_index": 3,
+  "explanation": "Malonyl-CoA, the product of acetyl-CoA carboxylase, blocks entry of long-chain acyl groups into mitochondria via CPT-I, preventing a futile cycle. ACC is activated by citrate and insulin and inhibited by AMPK, glucagon and long-chain acyl-CoA. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Insulin activates acetyl-CoA carboxylase.",
+   "Insulin does not directly inhibit acyl-CoA dehydrogenase.",
+   "Citrate activates ACC; it does not inhibit the translocase.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_021",
+  "subject": "Biochemistry",
+  "sub_topic": "Metabolic regulation",
+  "stem": "Match the pathway with its rate-limiting enzyme:\nA. Cholesterol synthesis\nB. Fatty acid synthesis\nC. Bile acid synthesis\nD. Ketone body synthesis\n1. Acetyl-CoA carboxylase\n2. HMG-CoA reductase\n3. Mitochondrial HMG-CoA synthase\n4. Cholesterol 7α-hydroxylase",
+  "options": [
+   "A-2, B-1, C-4, D-3",
+   "A-3, B-1, C-4, D-2",
+   "A-2, B-1, C-3, D-4",
+   "A-2, B-4, C-1, D-3"
+  ],
+  "correct_index": 0,
+  "explanation": "HMG-CoA reductase (statin target) controls cholesterol synthesis; ACC controls fatty acid synthesis; 7α-hydroxylase controls bile acids; mitochondrial HMG-CoA synthase controls ketogenesis. Cytosolic HMG-CoA synthase feeds cholesterol synthesis. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "",
+   "Swaps cholesterol and ketone body enzymes.",
+   "Swaps bile acid and ketogenesis enzymes.",
+   "Swaps fatty acid and bile acid enzymes."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_022",
+  "subject": "Biochemistry",
+  "sub_topic": "Carbohydrate metabolism disorders",
+  "stem": "A 6-month-old infant was well on breast milk but developed vomiting, sweating, lethargy and hypoglycaemia soon after fruit juice and sweetened cereal were introduced. Hepatomegaly and raised transaminases follow. Urine is positive for a reducing substance but negative on glucose-oxidase dipstick. Which enzyme is deficient?",
+  "options": [
+   "Glucose-6-phosphatase",
+   "Aldolase B",
+   "Fructokinase",
+   "Galactose-1-phosphate uridyltransferase"
+  ],
+  "correct_index": 1,
+  "explanation": "Hereditary fructose intolerance: fructose-1-phosphate accumulates and traps phosphate, depleting ATP and inhibiting glycogenolysis and gluconeogenesis, causing hypoglycaemia. Onset with fructose or sucrose exposure is the discriminator; treatment is strict avoidance. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Von Gierke disease causes fasting hypoglycaemia unrelated to fruit intake.",
+   "",
+   "Fructokinase deficiency (essential fructosuria) is benign.",
+   "GALT deficiency presents with milk feeding from birth."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_023",
+  "subject": "Biochemistry",
+  "sub_topic": "Vitamins",
+  "stem": "A malnourished chronic alcoholic is confused and has nystagmus, bilateral lateral rectus palsy and a wide-based gait. Which laboratory test most specifically assesses the vitamin he lacks?",
+  "options": [
+   "Erythrocyte glutathione reductase activity",
+   "Urinary xanthurenic acid after tryptophan load",
+   "Urinary N-methylnicotinamide",
+   "Erythrocyte transketolase activity with TPP stimulation"
+  ],
+  "correct_index": 3,
+  "explanation": "Wernicke encephalopathy is thiamine deficiency; thiamine must be given before glucose. Thiamine pyrophosphate is a cofactor for transketolase, PDH, α-ketoglutarate dehydrogenase and BCKDH, and red-cell transketolase activity reflects thiamine status. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Glutathione reductase activity assesses riboflavin.",
+   "Xanthurenic acid after tryptophan load assesses pyridoxine.",
+   "N-methylnicotinamide assesses niacin.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_024",
+  "subject": "Biochemistry",
+  "sub_topic": "Vitamins",
+  "stem": "A 55-year-old with metastatic small-bowel carcinoid tumour develops a scaly hyperpigmented rash over sun-exposed skin of the neck, diarrhoea and memory impairment. What is the mechanism of these features?",
+  "options": [
+   "Excess histamine release from the tumour",
+   "Pyridoxine deficiency due to increased kynureninase activity",
+   "Diversion of tryptophan to serotonin causing niacin deficiency",
+   "Serotonin-induced dermal fibrosis"
+  ],
+  "correct_index": 2,
+  "explanation": "Tryptophan is a precursor of niacin; carcinoid tumours divert much of it to serotonin, producing pellagra (dermatitis, diarrhoea, dementia). Other secondary causes are Hartnup disease and isoniazid. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Histamine release causes flushing, not pellagra.",
+   "Pyridoxine deficiency is not the mechanism here.",
+   "",
+   "Fibrosis affects heart valves, not a photosensitive rash."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_025",
+  "subject": "Biochemistry",
+  "sub_topic": "Vitamins",
+  "stem": "A 60-year-old strict vegetarian has macrocytic anaemia (MCV 112 fL) with hypersegmented neutrophils. Serum homocysteine and methylmalonic acid are both elevated. What is the best interpretation?",
+  "options": [
+   "Isolated folate deficiency",
+   "Myelodysplastic syndrome",
+   "Hypothyroidism",
+   "Vitamin B12 deficiency"
+  ],
+  "correct_index": 3,
+  "explanation": "B12 is a cofactor for methionine synthase (raising homocysteine when deficient) and methylmalonyl-CoA mutase (raising MMA). Folate deficiency raises homocysteine but MMA stays normal. Giving folate alone in B12 deficiency can correct the anaemia while neurological damage progresses. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Folate deficiency does not raise methylmalonic acid.",
+   "MDS does not raise MMA and homocysteine.",
+   "Hypothyroidism causes macrocytosis without hypersegmented neutrophils or raised MMA.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_026",
+  "subject": "Biochemistry",
+  "sub_topic": "Vitamins",
+  "stem": "A home-delivered newborn who received no injection at birth develops bleeding from the umbilical stump and melaena on day 3. PT is markedly prolonged and platelet count is normal. The underlying biochemical defect is failure of:",
+  "options": [
+   "γ-Carboxylation of glutamate residues in factors II, VII, IX and X",
+   "Cross-linking of fibrin by factor XIIIa",
+   "Synthesis of von Willebrand factor",
+   "Hydroxylation of proline residues in collagen"
+  ],
+  "correct_index": 0,
+  "explanation": "Vitamin K deficiency bleeding: vitamin K is the cofactor for γ-glutamyl carboxylase, whose Gla residues bind calcium and phospholipid; proteins C and S are also affected. Warfarin blocks vitamin K epoxide reductase. Intramuscular vitamin K at birth prevents it. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "",
+   "Factor XIII deficiency gives normal PT and aPTT.",
+   "vWF synthesis does not depend on vitamin K.",
+   "Proline hydroxylation needs vitamin C; scurvy does not prolong PT."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_027",
+  "subject": "Biochemistry",
+  "sub_topic": "Vitamins",
+  "stem": "A 70-year-old man living alone on tea and biscuits has swollen bleeding gums, perifollicular haemorrhages, corkscrew hairs and poor wound healing. The vitamin he lacks is directly required by which enzyme?",
+  "options": [
+   "Lysyl oxidase",
+   "Prolyl hydroxylase",
+   "γ-Glutamyl carboxylase",
+   "Procollagen N-peptidase"
+  ],
+  "correct_index": 1,
+  "explanation": "Ascorbate keeps iron in the ferrous state for prolyl and lysyl hydroxylases; under-hydroxylated collagen cannot form a stable triple helix, giving fragile vessels and poor healing. Lysyl oxidase needs copper (defective in Menkes disease). Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Lysyl oxidase is copper dependent, not vitamin C dependent.",
+   "",
+   "γ-Glutamyl carboxylase is vitamin K dependent.",
+   "Procollagen peptidase defects cause Ehlers-Danlos subtypes, not scurvy."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_028",
+  "subject": "Biochemistry",
+  "sub_topic": "Vitamins",
+  "stem": "Biotin is the coenzyme for all of the following enzymes EXCEPT:",
+  "options": [
+   "Propionyl-CoA carboxylase",
+   "Acetyl-CoA carboxylase",
+   "Pyruvate carboxylase",
+   "Phosphoenolpyruvate carboxykinase"
+  ],
+  "correct_index": 3,
+  "explanation": "Biotin carries activated CO2 for ATP-dependent carboxylases (pyruvate, acetyl-CoA, propionyl-CoA and 3-methylcrotonyl-CoA carboxylases). PEPCK uses GTP and is not biotin dependent. Raw egg white avidin binds biotin; biotinidase deficiency causes alopecia, dermatitis and seizures. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Propionyl-CoA carboxylase is biotin dependent.",
+   "Acetyl-CoA carboxylase is biotin dependent.",
+   "Pyruvate carboxylase is biotin dependent.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_029",
+  "subject": "Biochemistry",
+  "sub_topic": "Vitamins",
+  "stem": "A 35-year-old on isoniazid for pulmonary tuberculosis, not given any vitamin supplement, develops burning paraesthesia of the feet and microcytic anaemia; marrow iron stain shows ring sideroblasts. Which enzyme step is most directly impaired to cause the anaemia?",
+  "options": [
+   "δ-ALA dehydratase",
+   "Transferrin receptor–mediated iron uptake",
+   "Ferrochelatase",
+   "δ-Aminolevulinate synthase"
+  ],
+  "correct_index": 3,
+  "explanation": "Isoniazid forms a hydrazone with pyridoxal, causing pyridoxal phosphate deficiency; ALA synthase requires PLP. Reduced protoporphyrin leaves iron trapped in mitochondria around the nucleus (ring sideroblasts). Pyridoxine supplementation prevents both neuropathy and anaemia. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "ALA dehydratase is zinc dependent and lead sensitive.",
+   "Iron uptake is intact; iron accumulates in mitochondria.",
+   "Ferrochelatase is inhibited by lead, not by B6 deficiency.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_030",
+  "subject": "Biochemistry",
+  "sub_topic": "Molecular biology",
+  "stem": "Which statements about telomerase are correct?\n1. It is an RNA-dependent DNA polymerase.\n2. It carries its own RNA template.\n3. It extends the 3' overhang at chromosome ends.\n4. Its activity is high in most differentiated adult somatic cells.",
+  "options": [
+   "1, 2, 3 and 4",
+   "2, 3 and 4 only",
+   "1 and 4 only",
+   "1, 2 and 3 only"
+  ],
+  "correct_index": 3,
+  "explanation": "Telomerase (TERT with an RNA component) is a reverse transcriptase that adds telomeric repeats to the 3' end. It is active in germ cells, stem cells and most cancers but low in somatic cells, which therefore undergo replicative senescence. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Statement 4 is false: somatic cells have little telomerase activity.",
+   "Statement 4 is false.",
+   "Omits true statements 2 and 3 and includes false statement 4.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_031",
+  "subject": "Biochemistry",
+  "sub_topic": "Molecular biology",
+  "stem": "Duchenne and Becker muscular dystrophies are both usually caused by large deletions in the dystrophin gene. Becker disease is milder chiefly because its deletions:",
+  "options": [
+   "Are point substitutions rather than deletions",
+   "Occur only within introns",
+   "Affect only the promoter, reducing transcription",
+   "Preserve the translational reading frame, giving a shorter but partly functional protein"
+  ],
+  "correct_index": 3,
+  "explanation": "The reading-frame rule: Duchenne deletions are frameshifting, creating a premature stop codon and absent dystrophin, while Becker deletions are in-frame. Severity is predicted by frame, not by deletion size. Exon-skipping therapy aims to restore the frame. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Both are mostly exon deletions, not point substitutions.",
+   "Intronic deletions alone would not remove exons.",
+   "Becker deletions remove coding exons, not just the promoter.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_032",
+  "subject": "Biochemistry",
+  "sub_topic": "Molecular biology",
+  "stem": "A family develops severe vomiting and diarrhoea about 12 hours after eating wild mushrooms, followed by acute liver failure on day 3. The toxin responsible acts by inhibiting:",
+  "options": [
+   "Peptidyl transferase of the 60S ribosomal subunit",
+   "RNA polymerase II",
+   "RNA polymerase I",
+   "DNA topoisomerase II"
+  ],
+  "correct_index": 1,
+  "explanation": "α-Amanitin from Amanita phalloides binds RNA polymerase II and stops mRNA synthesis; hepatocytes take up the toxin and fail. RNA polymerase I is resistant and polymerase III is inhibited only at high concentration. The delayed onset helps distinguish it from early-onset benign mushroom poisoning. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Peptidyl transferase is targeted by other toxins and antibiotics, not amanitin.",
+   "",
+   "RNA polymerase I (rRNA) is insensitive to α-amanitin.",
+   "Topoisomerase II is the target of etoposide and fluoroquinolones (bacterial)."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_033",
+  "subject": "Biochemistry",
+  "sub_topic": "Molecular techniques",
+  "stem": "Match the technique with what it detects:\nA. Southern blot\nB. Northern blot\nC. Western blot\nD. South-western blot\n1. Protein\n2. DNA\n3. DNA-binding protein\n4. RNA",
+  "options": [
+   "A-2, B-4, C-3, D-1",
+   "A-2, B-1, C-4, D-3",
+   "A-2, B-4, C-1, D-3",
+   "A-4, B-2, C-1, D-3"
+  ],
+  "correct_index": 2,
+  "explanation": "Southern (named after Edwin Southern) detects DNA; Northern detects RNA; Western detects protein with antibodies; South-western detects proteins that bind a labelled DNA probe. Southern blot remains useful for sizing large repeat expansions such as fragile X. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Swaps Western and South-western targets.",
+   "Swaps Northern and Western targets.",
+   "",
+   "Swaps Southern and Northern targets."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_034",
+  "subject": "Biochemistry",
+  "sub_topic": "Molecular techniques",
+  "stem": "A patient with chronic myeloid leukaemia on imatinib is monitored by measuring BCR::ABL1 transcript levels in peripheral blood every few months. Which technique is used?",
+  "options": [
+   "Conventional karyotyping",
+   "Southern blot",
+   "Western blot",
+   "Real-time quantitative reverse-transcription PCR"
+  ],
+  "correct_index": 3,
+  "explanation": "RQ-PCR first converts mRNA to cDNA with reverse transcriptase and then quantifies it with fluorescent detection each cycle, giving far greater sensitivity than karyotype or FISH. Results are reported on an International Scale to define molecular response. PCR depends on a heat-stable polymerase such as Taq. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Karyotyping detects the Ph chromosome but is insensitive for minimal residual disease.",
+   "Southern blot is not quantitative for low-level transcripts.",
+   "Western blot detects protein and is not used for monitoring.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_035",
+  "subject": "Biochemistry",
+  "sub_topic": "Molecular biology",
+  "stem": "A woman with systemic lupus erythematosus has antibodies against the Smith (Sm) antigen. Sm proteins are core components of:",
+  "options": [
+   "Small nuclear ribonucleoproteins of the spliceosome",
+   "Nucleosome histones",
+   "The signal recognition particle",
+   "DNA topoisomerase I"
+  ],
+  "correct_index": 0,
+  "explanation": "Sm proteins form the core of snRNPs (U1, U2, U4/U6, U5) that remove introns at GU–AG boundaries. Anti-Sm is highly specific for SLE; anti-U1 RNP suggests mixed connective tissue disease. Splice-site mutations cause some β-thalassaemias. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "",
+   "Anti-histone antibodies are typical of drug-induced lupus.",
+   "Anti-SRP antibodies occur in immune-mediated necrotising myopathy.",
+   "Anti-topoisomerase I (Scl-70) occurs in diffuse systemic sclerosis."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_036",
+  "subject": "Biochemistry",
+  "sub_topic": "Molecular biology",
+  "stem": "Which statements about the genetic code are correct?\n1. It is degenerate.\n2. It is nearly universal; mitochondria show some exceptions.\n3. AUG codes for methionine and is the usual start codon.\n4. Codons overlap in human nuclear genes.",
+  "options": [
+   "1 and 3 only",
+   "1, 2 and 3 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "correct_index": 1,
+  "explanation": "The code is degenerate (most amino acids have several codons), unambiguous, non-overlapping and commaless, and nearly universal; human mitochondria read UGA as tryptophan. Degeneracy explains silent mutations at the third (wobble) position. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Omits true statement 2.",
+   "",
+   "Statement 4 is false and statement 1 is omitted.",
+   "Statement 4 is false: the code is non-overlapping."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_037",
+  "subject": "Biochemistry",
+  "sub_topic": "Lipoproteins",
+  "stem": "A 10-year-old has recurrent acute pancreatitis and eruptive xanthomas. Fasting plasma kept overnight in a refrigerator shows a creamy layer on top with a clear layer below. Post-heparin lipolytic activity is absent. Which defect is most likely?",
+  "options": [
+   "Apolipoprotein E2 homozygosity",
+   "Microsomal triglyceride transfer protein deficiency",
+   "LDL receptor deficiency",
+   "Lipoprotein lipase deficiency"
+  ],
+  "correct_index": 3,
+  "explanation": "Familial chylomicronaemia (type I) is due to LPL or apoC-II deficiency; chylomicrons float as a creamy layer. Pancreatitis and lipaemia retinalis occur but premature atherosclerosis is not typical. Type V shows a creamy top with a turbid infranatant. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "ApoE2/E2 gives raised remnants with palmar xanthomas.",
+   "MTP deficiency gives very low lipids, not chylomicronaemia.",
+   "LDL receptor defects raise LDL with clear plasma and tendon xanthomas.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_038",
+  "subject": "Biochemistry",
+  "sub_topic": "Lipoproteins",
+  "stem": "A 28-year-old man has a myocardial infarction. He has thickened Achilles tendons with nodular xanthomas and corneal arcus. Fasting LDL cholesterol is very high with normal triglycerides; his father died of an MI at a young age. What is the most likely defect?",
+  "options": [
+   "Lipoprotein lipase deficiency",
+   "Hepatic lipase deficiency",
+   "Defective LDL receptor",
+   "Apo E2/E2 genotype"
+  ],
+  "correct_index": 2,
+  "explanation": "Familial hypercholesterolaemia (type IIa) is autosomal dominant, mostly from LDL receptor mutations; apoB-100 defects and PCSK9 gain-of-function variants give the same phenotype. Tendon xanthomas are characteristic. Homozygotes respond poorly to statins because they lack functional receptors. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "LPL deficiency raises triglycerides and chylomicrons.",
+   "Hepatic lipase deficiency does not produce isolated very high LDL with tendon xanthomas.",
+   "",
+   "ApoE2/E2 raises both cholesterol and triglycerides with palmar xanthomas."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_039",
+  "subject": "Biochemistry",
+  "sub_topic": "Lipoproteins",
+  "stem": "An infant has steatorrhoea and failure to thrive and later develops ataxia, loss of proprioception and retinitis pigmentosa. The blood film shows red cells with irregular spiky projections. Plasma cholesterol and triglycerides are very low and apoB is undetectable. Which protein is defective?",
+  "options": [
+   "LCAT",
+   "Microsomal triglyceride transfer protein",
+   "Apolipoprotein C-II",
+   "ABCA1"
+  ],
+  "correct_index": 1,
+  "explanation": "Abetalipoproteinaemia: without MTP, apoB-48 and apoB-100 cannot be lipidated, so chylomicrons and VLDL are not formed. Fat-soluble vitamin (especially vitamin E) deficiency causes the neurological and retinal disease; acanthocytes are characteristic. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "LCAT deficiency causes corneal opacity, anaemia and renal disease.",
+   "",
+   "ApoC-II deficiency causes chylomicronaemia, not absent apoB.",
+   "ABCA1 defect (Tangier disease) causes very low HDL and orange tonsils."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_040",
+  "subject": "Biochemistry",
+  "sub_topic": "Bilirubin metabolism",
+  "stem": "A 22-year-old woman has mild intermittent jaundice that worsened after starting oral contraceptives. Conjugated bilirubin is raised; liver enzymes are normal. Liver biopsy shows coarse dark pigment in centrilobular hepatocytes. Urinary total coproporphyrin is normal but mostly isomer I. Which transporter is defective?",
+  "options": [
+   "OATP1B1/1B3 at the sinusoidal membrane",
+   "UDP-glucuronosyltransferase 1A1 (partial)",
+   "MRP2 (ABCC2) at the canalicular membrane",
+   "Complete absence of UGT1A1"
+  ],
+  "correct_index": 2,
+  "explanation": "Dubin–Johnson syndrome is defective canalicular export of conjugated bilirubin, giving a black liver. Rotor syndrome (OATP1B1/1B3 defect) also gives conjugated hyperbilirubinaemia but without pigment and with raised total urinary coproporphyrin. Gilbert and Crigler–Najjar give unconjugated hyperbilirubinaemia. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "OATP defect is Rotor syndrome, which has no liver pigment.",
+   "Partial UGT1A1 deficiency gives unconjugated hyperbilirubinaemia.",
+   "",
+   "Absent UGT1A1 is Crigler–Najjar type I with severe unconjugated jaundice."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_041",
+  "subject": "Biochemistry",
+  "sub_topic": "Bilirubin metabolism",
+  "stem": "Assertion (A): Phenobarbital lowers serum bilirubin in Crigler–Najjar syndrome type I.\nReason (R): Phenobarbital induces expression of the UGT1A1 gene.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 3,
+  "explanation": "Phenobarbital induces UGT1A1, but induction needs some residual enzyme. Type I has no UGT1A1 activity, so it does not respond and needs phototherapy and ultimately liver transplantation; type II responds, which is the discriminating test. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "A is false, so R cannot explain it.",
+   "A is false.",
+   "A is false and R is true, not the reverse.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_042",
+  "subject": "Biochemistry",
+  "sub_topic": "Enzyme kinetics",
+  "stem": "A patient with methanol poisoning is given fomepizole. How does it act?",
+  "options": [
+   "Inhibition of folate-dependent formate oxidation",
+   "Competitive inhibition of alcohol dehydrogenase, raising apparent Km with unchanged Vmax",
+   "Non-competitive inhibition of alcohol dehydrogenase, lowering Vmax",
+   "Irreversible inhibition of aldehyde dehydrogenase"
+  ],
+  "correct_index": 1,
+  "explanation": "Fomepizole (like ethanol) competes at alcohol dehydrogenase, preventing formation of formaldehyde and formic acid; competitive inhibition can be overcome by more substrate, so Vmax is unchanged. Folinic acid is given to enhance formate oxidation; disulfiram inhibits aldehyde dehydrogenase. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Formate oxidation is enhanced, not inhibited, in treatment (folinic acid).",
+   "",
+   "Fomepizole is a competitive, not non-competitive, inhibitor.",
+   "That describes disulfiram."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_043",
+  "subject": "Biochemistry",
+  "sub_topic": "Enzyme kinetics",
+  "stem": "In an enzyme assay, adding compound X gives a Lineweaver–Burk line that meets the uninhibited line on the x-axis, with a higher y-intercept. Compound X is best described as:",
+  "options": [
+   "Competitive inhibitor: Km increased, Vmax unchanged",
+   "Pure non-competitive inhibitor: Vmax decreased, Km unchanged",
+   "Uncompetitive inhibitor: Km and Vmax both decreased",
+   "Allosteric activator: Vmax increased"
+  ],
+  "correct_index": 1,
+  "explanation": "The x-intercept is −1/Km and the y-intercept is 1/Vmax. A common x-intercept means unchanged Km; a higher y-intercept means lower Vmax, as with pure non-competitive inhibition. Competitive lines meet on the y-axis; uncompetitive lines are parallel. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Competitive inhibitor lines intersect on the y-axis.",
+   "",
+   "Uncompetitive inhibitor lines are parallel.",
+   "An activator would lower the y-intercept."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_044",
+  "subject": "Biochemistry",
+  "sub_topic": "Enzyme kinetics",
+  "stem": "Assertion (A): In uncompetitive inhibition, Lineweaver–Burk plots with and without the inhibitor are parallel lines.\nReason (R): An uncompetitive inhibitor binds only to free enzyme, not to the enzyme–substrate complex.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 2,
+  "explanation": "An uncompetitive inhibitor binds only the enzyme–substrate complex, lowering Km and Vmax by the same factor, so the slope (Km/Vmax) is unchanged and lines are parallel. Binding only free enzyme describes competitive inhibition. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "R is false, so it cannot explain A.",
+   "R is false.",
+   "",
+   "A is true: Km and Vmax fall proportionately."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_045",
+  "subject": "Biochemistry",
+  "sub_topic": "Nucleotide metabolism",
+  "stem": "A 2-year-old boy with developmental delay, choreoathetosis and dystonia has begun biting his lips and fingers. Orange sand-like crystals were seen in his nappies in infancy. Serum uric acid is high. Which enzyme is deficient?",
+  "options": [
+   "PRPP synthetase (loss of function)",
+   "Xanthine oxidase",
+   "Hypoxanthine-guanine phosphoribosyltransferase",
+   "Adenosine deaminase"
+  ],
+  "correct_index": 2,
+  "explanation": "Lesch–Nyhan syndrome is X-linked HGPRT deficiency. Failure of purine salvage raises PRPP, which drives de novo purine synthesis and uric acid overproduction. Allopurinol controls urate but not the neurological features. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "PRPP synthetase superactivity, not loss, causes urate overproduction.",
+   "Xanthine oxidase deficiency causes low uric acid and xanthine stones.",
+   "",
+   "ADA deficiency causes SCID, not hyperuricaemia."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_046",
+  "subject": "Biochemistry",
+  "sub_topic": "Nucleotide metabolism",
+  "stem": "An infant with adenosine deaminase deficiency has severe lymphopenia and recurrent infections. Accumulation of which metabolite is chiefly responsible for lymphocyte toxicity?",
+  "options": [
+   "dATP, which inhibits ribonucleotide reductase",
+   "Orotic acid, which inhibits DNA polymerase",
+   "Uric acid, which damages thymocytes",
+   "Xanthine, which blocks T-cell receptor signalling"
+  ],
+  "correct_index": 0,
+  "explanation": "In ADA deficiency, deoxyadenosine is phosphorylated to dATP in lymphocytes, inhibiting ribonucleotide reductase and DNA synthesis, causing T, B and NK lymphopenia (SCID). Treatment is haematopoietic stem cell transplant, PEG-ADA or gene therapy. Purine nucleoside phosphorylase deficiency causes a similar mainly T-cell defect via dGTP. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "",
+   "Orotic acid relates to pyrimidine synthesis defects.",
+   "Uric acid is reduced, not raised, in ADA deficiency.",
+   "Xanthine is not the toxic metabolite."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_047",
+  "subject": "Biochemistry",
+  "sub_topic": "Nucleotide metabolism",
+  "stem": "A renal transplant recipient on azathioprine is started on allopurinol for gout. Two weeks later he develops severe pancytopenia. What is the mechanism?",
+  "options": [
+   "Allopurinol causes immune agranulocytosis unrelated to azathioprine",
+   "Allopurinol induces HGPRT, increasing thioguanine nucleotides only through salvage",
+   "Allopurinol inhibits thiopurine methyltransferase",
+   "Allopurinol inhibits xanthine oxidase, which normally inactivates 6-mercaptopurine"
+  ],
+  "correct_index": 3,
+  "explanation": "Azathioprine is converted to 6-mercaptopurine, which is inactivated partly by xanthine oxidase. Blocking this pathway raises cytotoxic thioguanine nucleotides, so the thiopurine dose must be greatly reduced or the combination avoided. Febuxostat has the same interaction; TPMT deficiency is the other genetic cause of thiopurine toxicity. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "The toxicity is a predictable drug interaction.",
+   "Allopurinol does not induce HGPRT.",
+   "Allopurinol does not inhibit TPMT.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_048",
+  "subject": "Biochemistry",
+  "sub_topic": "Nucleotide metabolism",
+  "stem": "Match the drug with the enzyme it inhibits:\nA. Methotrexate\nB. 5-Fluorouracil\nC. Hydroxyurea\nD. Leflunomide\n1. Ribonucleotide reductase\n2. Dihydroorotate dehydrogenase\n3. Thymidylate synthase\n4. Dihydrofolate reductase",
+  "options": [
+   "A-3, B-4, C-1, D-2",
+   "A-4, B-3, C-1, D-2",
+   "A-4, B-3, C-2, D-1",
+   "A-1, B-3, C-4, D-2"
+  ],
+  "correct_index": 1,
+  "explanation": "Methotrexate inhibits DHFR (rescued by folinic acid); 5-FU (as FdUMP) inhibits thymidylate synthase; hydroxyurea inhibits ribonucleotide reductase; leflunomide inhibits dihydroorotate dehydrogenase in pyrimidine synthesis. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Swaps methotrexate and 5-FU targets.",
+   "",
+   "Swaps hydroxyurea and leflunomide targets.",
+   "Swaps methotrexate and hydroxyurea targets."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_049",
+  "subject": "Biochemistry",
+  "sub_topic": "Urea cycle disorders",
+  "stem": "Regarding the urea cycle, which statements are correct?\n1. Carbamoyl phosphate synthetase I and ornithine transcarbamoylase are mitochondrial.\n2. Fumarate released in the cycle links it to the TCA cycle.\n3. One nitrogen of urea comes directly from aspartate.\n4. Arginase deficiency typically causes severe neonatal hyperammonaemic coma like OTC deficiency.",
+  "options": [
+   "1, 2 and 3 only",
+   "1, 2, 3 and 4",
+   "1 and 4 only",
+   "2, 3 and 4 only"
+  ],
+  "correct_index": 0,
+  "explanation": "The first two steps are mitochondrial and the rest cytosolic; argininosuccinate lyase releases fumarate (the aspartate–argininosuccinate shunt). Arginase deficiency usually presents later with progressive spastic diplegia and milder hyperammonaemia. N-acetylglutamate is the obligatory activator of CPS I. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "",
+   "Statement 4 is false.",
+   "Omits true statements 2 and 3 and includes false statement 4.",
+   "Statement 4 is false and statement 1 is omitted."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_050",
+  "subject": "Biochemistry",
+  "sub_topic": "Lipoproteins",
+  "stem": "Which statements about apolipoproteins are correct?\n1. ApoB-48 is the structural apolipoprotein of chylomicrons.\n2. ApoC-II activates lipoprotein lipase.\n3. ApoA-I activates LCAT.\n4. ApoB-100 binds the LDL receptor, and apoE mediates remnant uptake.",
+  "options": [
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4",
+   "1 and 2 only",
+   "1, 3 and 4 only"
+  ],
+  "correct_index": 1,
+  "explanation": "All four are correct. ApoB-48 arises by RNA editing of the apoB mRNA in intestine; apoC-II is the LPL cofactor; apoA-I (HDL) activates LCAT; apoB-100 and apoE are ligands for hepatic receptors. ApoE2 binds poorly, causing type III hyperlipoproteinaemia. Source: Harper's Illustrated Biochemistry; Lippincott Illustrated Reviews: Biochemistry.",
+  "w": [
+   "Omits true statement 1.",
+   "",
+   "Omits true statements 3 and 4.",
+   "Omits true statement 2."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_051",
+  "subject": "Pathology",
+  "sub_topic": "RBC disorders",
+  "stem": "A 22-year-old asymptomatic woman has Hb 10.9 g/dL, RBC count 5.8 ×10¹²/L, MCV 63 fL, MCH 19 pg, normal RDW and normal serum ferritin. What is the next best investigation?",
+  "options": [
+   "Osmotic fragility test",
+   "Bone marrow iron stain",
+   "Three-month trial of oral iron",
+   "HbA2 quantification by HPLC"
+  ],
+  "correct_index": 3,
+  "explanation": "A high RBC count with marked microcytosis, normal RDW and Mentzer index (MCV/RBC) below 13 favours β-thalassaemia trait; raised HbA2 on HPLC confirms it. Iron deficiency has low RBC count, high RDW and low ferritin, and can mask a raised HbA2, so correct iron first if both coexist. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "Osmotic fragility is for hereditary spherocytosis, which is not microcytic like this.",
+   "Marrow iron is invasive and unnecessary with normal ferritin.",
+   "Iron is not indicated when ferritin is normal and may cause overload.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_052",
+  "subject": "Pathology",
+  "sub_topic": "RBC disorders",
+  "stem": "A woman with long-standing rheumatoid arthritis has Hb 9.8 g/dL and MCV 80 fL. Which iron profile fits anaemia of chronic disease?",
+  "options": [
+   "Low serum iron, low TIBC, raised ferritin",
+   "Normal serum iron and TIBC with low ferritin",
+   "High serum iron, low TIBC, high transferrin saturation",
+   "Low serum iron, high TIBC, low ferritin"
+  ],
+  "correct_index": 0,
+  "explanation": "IL-6 induces hepcidin, which degrades ferroportin and traps iron in macrophages and enterocytes, so serum iron and TIBC fall while ferritin (also an acute-phase protein) rises. Soluble transferrin receptor is normal in chronic disease but raised in iron deficiency, helping when both coexist. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "",
+   "Low ferritin indicates depleted iron stores, not chronic disease.",
+   "This fits iron overload such as haemochromatosis or sideroblastic anaemia.",
+   "This is iron deficiency anaemia."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_053",
+  "subject": "Pathology",
+  "sub_topic": "Haemolytic anaemias",
+  "stem": "A 12-year-old has intermittent jaundice, splenomegaly and pigment gallstones; his father underwent splenectomy. The smear shows small dense round red cells without central pallor; MCHC is raised and the direct antiglobulin test is negative. Which test is currently preferred for confirmation?",
+  "options": [
+   "Haemoglobin electrophoresis",
+   "Eosin-5'-maleimide (EMA) binding by flow cytometry",
+   "Sucrose lysis test",
+   "Ham acid serum test"
+  ],
+  "correct_index": 1,
+  "explanation": "Hereditary spherocytosis results from defects in ankyrin, band 3, spectrin or protein 4.2, mostly autosomal dominant. EMA dye binds band 3 and shows reduced fluorescence; the incubated osmotic fragility test is the exam-classic test but is less sensitive and specific. Splenectomy cures the anaemia but spherocytes persist. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "Electrophoresis is for haemoglobinopathies, not membrane defects.",
+   "",
+   "Sucrose lysis test is an old screening test for PNH.",
+   "Ham test was the classic test for PNH."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_054",
+  "subject": "Pathology",
+  "sub_topic": "Haemolytic anaemias",
+  "stem": "A 6-year-old boy develops pallor and dark urine two days after eating fava beans. The smear shows red cells with semicircular 'bite' defects; supravital staining shows small round inclusions attached to the inner membrane. These inclusions consist of:",
+  "options": [
+   "Nuclear DNA remnants (Howell–Jolly bodies)",
+   "Denatured, precipitated haemoglobin (Heinz bodies)",
+   "Iron-containing granules (Pappenheimer bodies)",
+   "Aggregated ribosomal RNA (basophilic stippling)"
+  ],
+  "correct_index": 1,
+  "explanation": "G6PD deficiency limits NADPH and reduced glutathione, so oxidant stress precipitates haemoglobin as Heinz bodies, seen only with supravital stains such as crystal violet. Splenic macrophages remove them, producing bite cells. G6PD assay may be falsely normal during acute haemolysis because young cells have more enzyme. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "Howell–Jolly bodies indicate hyposplenism and are seen on routine stains.",
+   "",
+   "Pappenheimer bodies are iron granules seen in sideroblastic anaemia and after splenectomy.",
+   "Basophilic stippling is typical of lead poisoning and thalassaemia."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_055",
+  "subject": "Pathology",
+  "sub_topic": "Haemolytic anaemias",
+  "stem": "A 35-year-old has episodic dark morning urine, pancytopenia and hepatic vein thrombosis. Direct antiglobulin test is negative. Flow cytometry of granulocytes shows loss of CD55 and CD59, and FLAER does not bind. Which gene is mutated?",
+  "options": [
+   "PIGA",
+   "ADAMTS13",
+   "ITGB2 (CD18)",
+   "JAK2"
+  ],
+  "correct_index": 0,
+  "explanation": "Paroxysmal nocturnal haemoglobinuria is an acquired stem-cell mutation of X-linked PIGA, preventing GPI anchors; loss of complement regulators CD55 and CD59 causes intravascular haemolysis. Thrombosis is the main cause of death. Eculizumab (anti-C5) is effective; PNH is associated with aplastic anaemia. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "",
+   "ADAMTS13 deficiency causes TTP.",
+   "CD18 deficiency causes leukocyte adhesion deficiency type 1.",
+   "JAK2 causes Budd–Chiari in polycythaemia vera but not CD55/CD59 loss."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_056",
+  "subject": "Pathology",
+  "sub_topic": "Haemostasis",
+  "stem": "A 30-year-old woman presents with fever, confusion and petechiae. Hb 8 g/dL with many schistocytes, platelets 18 ×10⁹/L, raised LDH and mildly raised creatinine. PT, aPTT and fibrinogen are normal; DAT negative. What is the pathogenesis?",
+  "options": [
+   "Shiga toxin damage to glomerular endothelium",
+   "Autoantibody against ADAMTS13 allowing ultra-large vWF multimers to persist",
+   "Consumption of clotting factors after tissue factor release",
+   "IgG antibodies against platelet GpIIb/IIIa"
+  ],
+  "correct_index": 1,
+  "explanation": "Acquired TTP: without ADAMTS13, ultra-large vWF multimers form platelet microthrombi, causing microangiopathic haemolysis and thrombocytopenia. Normal coagulation tests distinguish TTP from DIC. Urgent plasma exchange is the mainstay, with steroids, rituximab and caplacizumab. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "Shiga-toxin HUS follows bloody diarrhoea and is renal-dominant.",
+   "",
+   "Factor consumption (DIC) would prolong PT/aPTT and lower fibrinogen.",
+   "ITP causes thrombocytopenia without schistocytes or haemolysis."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_057",
+  "subject": "Pathology",
+  "sub_topic": "Haemolytic anaemias",
+  "stem": "A 25-year-old with Mycoplasma pneumonia develops anaemia and bluish fingertips in the cold. A blood film made at room temperature shows red cell clumping that disappears on warming to 37°C. DAT is positive for C3d only. What is the antibody class and usual specificity?",
+  "options": [
+   "IgG with Rh specificity",
+   "IgA anti-D",
+   "IgM anti-I",
+   "IgG anti-P (Donath–Landsteiner)"
+  ],
+  "correct_index": 2,
+  "explanation": "Cold agglutinin disease: IgM binds red cells in cool peripheral circulation and fixes complement, so only C3d remains on cells at 37°C. Mycoplasma induces anti-I and EBV anti-i. Warm AIHA is IgG, often Rh-specific, with spherocytes. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "Warm IgG AIHA shows IgG on DAT and spherocytes.",
+   "IgA anti-D is not a cause of cold agglutination.",
+   "",
+   "Donath–Landsteiner antibody causes paroxysmal cold haemoglobinuria, classically after viral infection in children."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_058",
+  "subject": "Pathology",
+  "sub_topic": "RBC disorders",
+  "stem": "A 1-year-old has severe pallor, hepatosplenomegaly and frontal bossing. The smear shows microcytic hypochromic cells, target cells and nucleated red cells. HPLC: HbF predominant, HbA absent, HbA2 present. What is the diagnosis?",
+  "options": [
+   "β⁰-thalassaemia major",
+   "HbH disease",
+   "Hereditary persistence of fetal haemoglobin",
+   "Sickle cell anaemia"
+  ],
+  "correct_index": 0,
+  "explanation": "No β-chain synthesis means no HbA; excess free α-chains precipitate in erythroblasts, causing ineffective erythropoiesis, marrow expansion (hair-on-end skull) and extramedullary haematopoiesis. Treatment is regular transfusion with iron chelation, or stem cell transplant. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "",
+   "HbH disease shows HbH (β4) and HbA, not absent HbA.",
+   "HPFH is asymptomatic with no significant anaemia.",
+   "Sickle cell anaemia shows HbS on HPLC."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_059",
+  "subject": "Pathology",
+  "sub_topic": "RBC disorders",
+  "stem": "Assertion (A): In HbH disease, brilliant cresyl blue staining shows many fine inclusions giving red cells a 'golf-ball' appearance.\nReason (R): HbH is a tetramer of γ-globin chains.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 2,
+  "explanation": "HbH disease (three α-gene deletions) produces excess β-chains forming β4 tetramers (HbH), which precipitate with supravital stain as golf-ball inclusions. γ4 tetramers are Hb Barts, the predominant haemoglobin in hydrops fetalis (four-gene deletion). Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "R is false, so it cannot explain A.",
+   "R is false.",
+   "",
+   "A is true: golf-ball inclusions are characteristic."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_060",
+  "subject": "Pathology",
+  "sub_topic": "WBC disorders",
+  "stem": "A 50-year-old has massive splenomegaly. WBC is 180 ×10⁹/L with myeloid cells at all stages of maturation, basophilia, eosinophilia and thrombocytosis. Which finding confirms the diagnosis?",
+  "options": [
+   "t(15;17) on karyotype",
+   "JAK2 V617F mutation",
+   "Low leukocyte alkaline phosphatase score alone",
+   "BCR::ABL1 fusion shown by FISH or RT-PCR"
+  ],
+  "correct_index": 3,
+  "explanation": "Chronic myeloid leukaemia requires demonstration of the Philadelphia chromosome t(9;22) or BCR::ABL1 fusion. A low LAP score is the exam-classic supportive test (high in leukaemoid reaction) but is not diagnostic. Tyrosine kinase inhibitors such as imatinib are first line. Source: Robbins & Cotran Pathologic Basis of Disease; WHO Classification of Haematolymphoid Tumours, 5th ed..",
+  "w": [
+   "t(15;17) is acute promyelocytic leukaemia.",
+   "JAK2 V617F suggests a BCR::ABL1-negative MPN.",
+   "Low LAP supports but does not confirm CML.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_061",
+  "subject": "Pathology",
+  "sub_topic": "WBC disorders",
+  "stem": "A 35-year-old has gum bleeding and widespread bruising. Fibrinogen is low, D-dimer high and PT prolonged. Marrow shows abnormal heavily granulated promyelocytes and some cells with bundles of Auer rods. What is the most important immediate step?",
+  "options": [
+   "Start rituximab",
+   "Start all-trans retinoic acid on clinical suspicion",
+   "Start imatinib",
+   "Withhold therapy until cytogenetics is available"
+  ],
+  "correct_index": 1,
+  "explanation": "Acute promyelocytic leukaemia (PML::RARA, t(15;17)) is a medical emergency because of DIC and haemorrhage. ATRA (with arsenic trioxide) induces differentiation and should be started as soon as the diagnosis is suspected. Watch for differentiation syndrome. Source: Robbins & Cotran Pathologic Basis of Disease; WHO Classification of Haematolymphoid Tumours, 5th ed..",
+  "w": [
+   "Rituximab targets CD20 on B cells.",
+   "",
+   "Imatinib targets BCR::ABL1, not PML::RARA.",
+   "Delay risks fatal haemorrhage from DIC."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_062",
+  "subject": "Pathology",
+  "sub_topic": "WBC disorders",
+  "stem": "A 50-year-old man has massive splenomegaly, pancytopenia with monocytopenia, and a dry tap on marrow aspiration. Circulating lymphoid cells show fine circumferential cytoplasmic projections. Which marker profile fits?",
+  "options": [
+   "CD10+, BCL6+, BCL2+",
+   "CD15+, CD30+, CD45−",
+   "CD11c+, CD25+, CD103+, annexin A1+, BRAF V600E mutated",
+   "CD5+, CD23+, CD200+, dim surface immunoglobulin"
+  ],
+  "correct_index": 2,
+  "explanation": "Hairy cell leukaemia: the exam-classic marker is TRAP positivity, while current diagnosis relies on CD11c, CD25, CD103, annexin A1 and BRAF V600E. Reticulin fibrosis causes the dry tap. Purine analogues such as cladribine are highly effective. Source: Robbins & Cotran Pathologic Basis of Disease; WHO Classification of Haematolymphoid Tumours, 5th ed..",
+  "w": [
+   "This is follicular lymphoma.",
+   "This is classic Reed–Sternberg cell immunophenotype.",
+   "",
+   "This is chronic lymphocytic leukaemia."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_063",
+  "subject": "Pathology",
+  "sub_topic": "WBC disorders",
+  "stem": "Match the lymphoma with its characteristic translocation:\nA. Follicular lymphoma\nB. Gastric MALT lymphoma\nC. Anaplastic large cell lymphoma\nD. Mantle cell lymphoma\n1. t(11;14)\n2. t(2;5)\n3. t(14;18)\n4. t(11;18)",
+  "options": [
+   "A-1, B-4, C-2, D-3",
+   "A-3, B-4, C-2, D-1",
+   "A-4, B-3, C-2, D-1",
+   "A-3, B-2, C-4, D-1"
+  ],
+  "correct_index": 1,
+  "explanation": "Follicular t(14;18) IGH::BCL2; MALT t(11;18) BIRC3::MALT1, which predicts poor response to H. pylori eradication; ALCL t(2;5) NPM1::ALK; mantle cell t(11;14) CCND1::IGH with cyclin D1 overexpression. Source: Robbins & Cotran Pathologic Basis of Disease; WHO Classification of Haematolymphoid Tumours, 5th ed..",
+  "w": [
+   "Swaps follicular and mantle cell translocations.",
+   "",
+   "Swaps follicular and MALT translocations.",
+   "Swaps MALT and ALCL translocations."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_064",
+  "subject": "Pathology",
+  "sub_topic": "WBC disorders",
+  "stem": "A 30-year-old man has a single enlarged cervical lymph node. Biopsy shows large cells with multilobated 'popcorn' nuclei in a nodular background of small B lymphocytes. The large cells are CD20+, CD45+, CD15− and CD30−. What is the diagnosis?",
+  "options": [
+   "Anaplastic large cell lymphoma",
+   "Nodular sclerosis classic Hodgkin lymphoma",
+   "Nodular lymphocyte-predominant Hodgkin lymphoma",
+   "Mixed cellularity classic Hodgkin lymphoma"
+  ],
+  "correct_index": 2,
+  "explanation": "The popcorn (LP) cells retain a B-cell programme (CD20+, CD45+) and lack CD15 and CD30, unlike classic Reed–Sternberg cells (CD15+, CD30+, CD45−). NLPHL is usually localised and indolent. Source: Robbins & Cotran Pathologic Basis of Disease; WHO Classification of Haematolymphoid Tumours, 5th ed..",
+  "w": [
+   "ALCL cells are CD30+ T cells, often ALK positive.",
+   "Classic HL cells are CD15+ CD30+ with lacunar cells and fibrous bands in nodular sclerosis.",
+   "",
+   "Mixed cellularity RS cells are CD15+ CD30+ and often EBV positive."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_065",
+  "subject": "Pathology",
+  "sub_topic": "WBC disorders",
+  "stem": "Regarding multiple myeloma, which statements are correct?\n1. Rouleaux formation is seen on the peripheral smear.\n2. Bone lesions are lytic with typically normal alkaline phosphatase.\n3. Bence Jones proteins are free immunoglobulin light chains.\n4. Neoplastic plasma cells are typically CD19 positive.",
+  "options": [
+   "2 and 4 only",
+   "1, 3 and 4 only",
+   "1, 2 and 3 only",
+   "1, 2, 3 and 4"
+  ],
+  "correct_index": 2,
+  "explanation": "Myeloma cells activate osteoclasts (RANKL) and suppress osteoblasts (DKK1), so lesions are lytic, ALP is often normal and bone scans can miss them. Myeloma plasma cells are CD138+ and CD38+ but typically CD19− and often aberrantly CD56+. Source: Robbins & Cotran Pathologic Basis of Disease; WHO Classification of Haematolymphoid Tumours, 5th ed..",
+  "w": [
+   "Statement 4 is false.",
+   "Statement 4 is false and true statement 2 is omitted.",
+   "",
+   "Statement 4 is false: myeloma cells are usually CD19 negative."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_066",
+  "subject": "Pathology",
+  "sub_topic": "WBC disorders",
+  "stem": "Regarding childhood B-lymphoblastic leukaemia, which statements are correct?\n1. Blasts are TdT positive.\n2. ETV6::RUNX1 [t(12;21)] is associated with a favourable prognosis.\n3. High hyperdiploidy is a favourable feature.\n4. KMT2A (MLL) rearrangement in infants is a favourable feature.",
+  "options": [
+   "1 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2 and 3 only",
+   "3 and 4 only"
+  ],
+  "correct_index": 2,
+  "explanation": "TdT marks lymphoblasts. ETV6::RUNX1 and high hyperdiploidy are favourable; BCR::ABL1, KMT2A rearrangement (common in infants) and hypodiploidy are unfavourable. Source: Robbins & Cotran Pathologic Basis of Disease; WHO Classification of Haematolymphoid Tumours, 5th ed..",
+  "w": [
+   "Statement 4 is false and true statements 2 and 3 are omitted.",
+   "Statement 4 is false.",
+   "",
+   "Statement 4 is false."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_067",
+  "subject": "Pathology",
+  "sub_topic": "Haemostasis",
+  "stem": "A 40-year-old has easy bruising. PT is prolonged; aPTT, thrombin time and platelet count are normal. A 1:1 mix with normal plasma corrects the PT. Which factor is most likely deficient?",
+  "options": [
+   "Factor XII",
+   "Factor VII",
+   "Factor XIII",
+   "Factor VIII"
+  ],
+  "correct_index": 1,
+  "explanation": "Factor VII is the only factor measured by PT but not aPTT. It has the shortest half-life, so it falls first with early warfarin therapy or vitamin K deficiency. Correction on mixing indicates deficiency rather than inhibitor. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "Factor XII deficiency prolongs aPTT without bleeding.",
+   "",
+   "Factor XIII deficiency gives normal PT and aPTT; it needs a clot solubility test.",
+   "Factor VIII deficiency prolongs aPTT, not PT."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_068",
+  "subject": "Pathology",
+  "sub_topic": "Haemostasis",
+  "stem": "A 16-year-old girl has had menorrhagia and recurrent epistaxis since menarche; her mother has similar symptoms. Platelet count is normal, PFA-100 closure time is prolonged, aPTT is mildly prolonged and PT is normal. Ristocetin cofactor activity is reduced. Which is the appropriate first-line treatment for minor bleeding in the commonest subtype?",
+  "options": [
+   "Desmopressin",
+   "Fresh frozen plasma",
+   "Platelet transfusion",
+   "Vitamin K"
+  ],
+  "correct_index": 0,
+  "explanation": "Type 1 von Willebrand disease is the commonest inherited bleeding disorder (autosomal dominant). vWF carries factor VIII, so aPTT may be prolonged. Desmopressin releases vWF from Weibel–Palade bodies; it is less useful in type 3 and may worsen thrombocytopenia in type 2B. Tranexamic acid is a useful adjunct. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "",
+   "FFP is not first-line; vWF-containing concentrates are used if desmopressin fails.",
+   "Platelets are normal in number and function; the defect is vWF.",
+   "Vitamin K does not affect vWF or factor VIII."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_069",
+  "subject": "Pathology",
+  "sub_topic": "Haemostasis",
+  "stem": "A child with mucocutaneous bleeding has normal platelet count and size. Platelet aggregation is absent with ADP, collagen, epinephrine and arachidonic acid but normal with ristocetin. What is the defect?",
+  "options": [
+   "von Willebrand factor deficiency",
+   "GpIIb/IIIa (integrin αIIbβ3)",
+   "Thrombocytopenia from marrow failure",
+   "GpIb-IX-V complex"
+  ],
+  "correct_index": 1,
+  "explanation": "Glanzmann thrombasthenia (autosomal recessive) prevents fibrinogen bridging between platelets, so aggregation fails with all agonists except ristocetin, which depends on GpIb–vWF agglutination. Bernard–Soulier (GpIb) has giant platelets, thrombocytopenia and absent ristocetin response not corrected by normal plasma. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "vWF deficiency reduces ristocetin aggregation, correctable by adding vWF.",
+   "",
+   "Platelet count is normal here.",
+   "GpIb defect gives giant platelets and absent ristocetin agglutination."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_070",
+  "subject": "Pathology",
+  "sub_topic": "Haemostasis",
+  "stem": "A woman with abruptio placentae is oozing from venepuncture sites. Which laboratory pattern is expected?",
+  "options": [
+   "Isolated prolonged PT with normal fibrinogen and platelets",
+   "Prolonged PT and aPTT, low fibrinogen, low platelets, high D-dimer",
+   "Normal PT and aPTT, low platelets, schistocytes, normal D-dimer",
+   "Isolated prolonged aPTT with normal platelets"
+  ],
+  "correct_index": 1,
+  "explanation": "Disseminated intravascular coagulation consumes platelets and clotting factors and activates fibrinolysis, giving high D-dimer and low fibrinogen. Obstetric complications, sepsis, trauma and APL are classic triggers. Normal coagulation with schistocytes suggests TTP or HUS. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "This suggests factor VII deficiency or early warfarin effect.",
+   "",
+   "This pattern suggests TTP.",
+   "This suggests haemophilia or vWD."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_071",
+  "subject": "Pathology",
+  "sub_topic": "Haemostasis",
+  "stem": "On day 7 of unfractionated heparin after hip surgery, a patient's platelet count falls from 280 to 110 ×10⁹/L and he develops a swollen leg with proximal DVT. What is the pathogenesis and correct management?",
+  "options": [
+   "Immune thrombocytopenia; switch to low-molecular-weight heparin",
+   "Non-immune heparin–platelet interaction; continue heparin",
+   "Dilutional thrombocytopenia; transfuse platelets",
+   "IgG against heparin–PF4 complexes activating platelets; stop all heparin and start a non-heparin anticoagulant"
+  ],
+  "correct_index": 3,
+  "explanation": "Heparin-induced thrombocytopenia typically appears 5–10 days after starting heparin with a large platelet fall and paradoxical thrombosis. IgG–PF4–heparin complexes activate platelets via FcγRIIa. Use argatroban, fondaparinux or a DOAC; avoid LMWH, platelet transfusion and early warfarin. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "LMWH cross-reacts with HIT antibodies.",
+   "Non-immune HIT is early, mild and not thrombotic; continuing heparin here is dangerous.",
+   "Platelet transfusion may worsen thrombosis in HIT.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_072",
+  "subject": "Pathology",
+  "sub_topic": "Haemostasis",
+  "stem": "A 32-year-old woman with two second-trimester fetal losses and a previous DVT has a prolonged aPTT that does not correct on 1:1 mixing with normal plasma. The dilute Russell viper venom time is also prolonged and corrects with excess phospholipid. She has no bleeding history. What is the interpretation?",
+  "options": [
+   "Acquired factor VIII inhibitor",
+   "Factor XII deficiency",
+   "Haemophilia A",
+   "Lupus anticoagulant (antiphospholipid syndrome)"
+  ],
+  "correct_index": 3,
+  "explanation": "Lupus anticoagulant prolongs phospholipid-dependent tests in vitro but is prothrombotic in vivo. Failure to correct on mixing indicates an inhibitor, and correction with excess phospholipid confirms phospholipid dependence. Diagnosis requires persistence on repeat testing at least 12 weeks apart. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "Acquired factor VIII inhibitor causes severe bleeding, not thrombosis.",
+   "Factor XII deficiency corrects on mixing.",
+   "Haemophilia A corrects on mixing and causes bleeding.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_073",
+  "subject": "Pathology",
+  "sub_topic": "Haemostasis",
+  "stem": "Assertion (A): Factor V Leiden predisposes to venous thrombosis.\nReason (R): The mutant factor Va is resistant to cleavage by activated protein C.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "The Arg506Gln substitution removes an APC cleavage site, so factor Va persists and generates more thrombin. It is the commonest inherited thrombophilia in people of European descent and is screened with an APC resistance assay followed by genotyping. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "",
+   "R is the direct mechanism of A.",
+   "R is true: this is APC resistance.",
+   "A is true."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_074",
+  "subject": "Pathology",
+  "sub_topic": "Cell injury",
+  "stem": "Which of the following ultrastructural changes indicate irreversible cell injury?\n1. Large flocculent amorphous densities in mitochondria\n2. Cell swelling with small surface blebs\n3. Rupture of lysosomal membranes\n4. Detachment of ribosomes from endoplasmic reticulum",
+  "options": [
+   "1 and 3 only",
+   "2 and 4 only",
+   "1, 2 and 3 only",
+   "1, 2, 3 and 4"
+  ],
+  "correct_index": 0,
+  "explanation": "Irreversible injury is marked by inability to restore mitochondrial function (amorphous densities) and profound membrane damage, including lysosomal rupture, with nuclear pyknosis, karyorrhexis and karyolysis. Cell swelling, blebs and ribosome detachment are reversible changes. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "",
+   "Both are reversible changes.",
+   "Surface blebs are a reversible change.",
+   "Statements 2 and 4 describe reversible injury."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_075",
+  "subject": "Pathology",
+  "sub_topic": "Cell injury",
+  "stem": "Match the lesion with the type of necrosis:\nA. Brain infarct\nB. Myocardial infarct\nC. Tuberculous lymphadenitis\nD. Acute pancreatitis\n1. Caseous\n2. Fat\n3. Liquefactive\n4. Coagulative",
+  "options": [
+   "A-3, B-4, C-2, D-1",
+   "A-1, B-4, C-3, D-2",
+   "A-3, B-4, C-1, D-2",
+   "A-4, B-3, C-1, D-2"
+  ],
+  "correct_index": 2,
+  "explanation": "Hypoxic death in the brain is liquefactive; infarcts of solid organs are coagulative with preserved outlines; tuberculosis gives cheesy caseous necrosis within granulomas; pancreatic lipases cause fat necrosis with calcium soap formation (saponification). Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "Swaps tuberculosis and pancreatitis.",
+   "Swaps brain and tuberculosis.",
+   "",
+   "Swaps brain and heart."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_076",
+  "subject": "Pathology",
+  "sub_topic": "Apoptosis",
+  "stem": "Features of apoptosis include all of the following EXCEPT:",
+  "options": [
+   "Cell swelling with leakage of contents provoking inflammation",
+   "Chromatin condensation (pyknosis)",
+   "Exposure of phosphatidylserine on the outer membrane leaflet",
+   "Internucleosomal DNA cleavage giving a 'ladder' on gel electrophoresis"
+  ],
+  "correct_index": 0,
+  "explanation": "Apoptosis shows cell shrinkage, chromatin condensation, membrane blebbing and apoptotic bodies with intact membranes, so no inflammation. Phosphatidylserine exposure (detected by annexin V) signals phagocytes. Necrosis gives a smeared DNA pattern instead of a ladder. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "",
+   "True: chromatin condensation is the most characteristic feature.",
+   "True: this is an 'eat me' signal.",
+   "True: caspase-activated DNase cuts between nucleosomes."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_077",
+  "subject": "Pathology",
+  "sub_topic": "Apoptosis",
+  "stem": "Assertion (A): Apoptosis typically does not elicit an inflammatory reaction.\nReason (R): Apoptotic cell membranes remain intact and apoptotic bodies are rapidly phagocytosed.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "Because the plasma membrane stays intact and fragments are cleared quickly by phagocytes (via phosphatidylserine and other signals), cell contents do not leak out to trigger inflammation. Necrosis, with membrane rupture, does. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "",
+   "R directly explains A.",
+   "R is true.",
+   "A is true."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_078",
+  "subject": "Pathology",
+  "sub_topic": "Inflammation",
+  "stem": "Match the mediator with its principal action:\nA. Leukotriene B4\nB. Prostaglandin I2\nC. Leukotrienes C4/D4/E4\nD. Bradykinin\n1. Vasodilation and inhibition of platelet aggregation\n2. Neutrophil chemotaxis\n3. Bronchospasm and increased vascular permeability\n4. Pain and increased vascular permeability",
+  "options": [
+   "A-3, B-1, C-2, D-4",
+   "A-2, B-1, C-3, D-4",
+   "A-1, B-2, C-3, D-4",
+   "A-2, B-4, C-3, D-1"
+  ],
+  "correct_index": 1,
+  "explanation": "LTB4 is a potent neutrophil chemoattractant; prostacyclin (PGI2) from endothelium causes vasodilation and inhibits platelet aggregation, opposing TXA2; cysteinyl leukotrienes cause bronchospasm and permeability; bradykinin causes pain and permeability. Other chemoattractants: C5a, IL-8, bacterial products. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "Swaps LTB4 and cysteinyl leukotrienes.",
+   "",
+   "Swaps LTB4 and prostacyclin.",
+   "Swaps prostacyclin and bradykinin."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_079",
+  "subject": "Pathology",
+  "sub_topic": "Inflammation",
+  "stem": "A 5-week-old infant's umbilical cord has still not separated, and he now has omphalitis with marked redness but no pus. Blood shows marked neutrophilic leukocytosis. Which molecule is defective?",
+  "options": [
+   "β2 integrin (CD18)",
+   "Myeloperoxidase",
+   "Lysosomal trafficking regulator (LYST)",
+   "NADPH oxidase"
+  ],
+  "correct_index": 0,
+  "explanation": "Leukocyte adhesion deficiency type 1 prevents firm integrin-mediated adhesion and emigration of neutrophils, so infections lack pus despite neutrophilia in blood. Delayed cord separation is the classic clue. LAD-2 is a defect of fucosylation of sialyl-Lewis X. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "",
+   "MPO deficiency is usually asymptomatic or causes Candida infections.",
+   "Chediak–Higashi shows giant granules, albinism and neuropathy.",
+   "CGD neutrophils migrate and form abscesses."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_080",
+  "subject": "Pathology",
+  "sub_topic": "Inflammation",
+  "stem": "A 2-year-old boy has recurrent liver abscesses and pneumonia due to Staphylococcus aureus and Aspergillus. Neutrophil count and migration are normal. On dihydrorhodamine flow cytometry, stimulated neutrophils show no increase in fluorescence. Which enzyme is defective?",
+  "options": [
+   "NADPH oxidase",
+   "Lysozyme",
+   "Myeloperoxidase",
+   "Terminal complement component C5"
+  ],
+  "correct_index": 0,
+  "explanation": "Chronic granulomatous disease (commonly X-linked gp91phox) prevents the respiratory burst, so catalase-positive organisms survive and form granulomas and abscesses. The exam-classic test is NBT reduction; DHR flow cytometry is the current preferred test. Prophylaxis uses co-trimoxazole, itraconazole and interferon-γ. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "",
+   "Lysozyme deficiency is not a recognised cause of this picture.",
+   "MPO deficiency is usually mild and mainly predisposes to Candida.",
+   "Terminal complement deficiency predisposes to Neisseria, not catalase-positive abscesses."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_081",
+  "subject": "Pathology",
+  "sub_topic": "Neoplasia",
+  "stem": "All of the following are tumour suppressor genes EXCEPT:",
+  "options": [
+   "KRAS",
+   "NF1",
+   "RB1",
+   "APC"
+  ],
+  "correct_index": 0,
+  "explanation": "KRAS is a proto-oncogene activated by gain-of-function point mutations affecting a single allele. RB1, APC and NF1 are tumour suppressors requiring loss of both alleles; NF1 encodes neurofibromin, a GTPase-activating protein that switches RAS off. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "",
+   "NF1 encodes neurofibromin, a RAS-GAP tumour suppressor.",
+   "RB1 is the prototype tumour suppressor (two-hit hypothesis).",
+   "APC loss initiates most colorectal cancers."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_082",
+  "subject": "Pathology",
+  "sub_topic": "Neoplasia",
+  "stem": "A 2-year-old has bilateral retinoblastoma; his father had an eye removed in early childhood. Later in life, this child is at markedly increased risk of which tumour?",
+  "options": [
+   "Wilms tumour",
+   "Osteosarcoma",
+   "Medulloblastoma",
+   "Neuroblastoma"
+  ],
+  "correct_index": 1,
+  "explanation": "Familial retinoblastoma carries a germline RB1 mutation (first hit) in every cell; a second somatic hit causes tumours, explaining bilateral, early disease. Survivors have high risk of osteosarcoma and other sarcomas, increased further by radiation. RB normally holds E2F to block G1–S transition. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "Wilms tumour relates to WT1 and WAGR/Denys–Drash syndromes.",
+   "",
+   "Medulloblastoma is not the classic second tumour in hereditary retinoblastoma.",
+   "Neuroblastoma relates to MYCN amplification and ALK mutations."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_083",
+  "subject": "Pathology",
+  "sub_topic": "Neoplasia",
+  "stem": "Match the tumour marker with the tumour:\nA. α-Fetoprotein\nB. CA-125\nC. Calcitonin\nD. Very high β-hCG\n1. Medullary carcinoma of thyroid\n2. Choriocarcinoma\n3. Hepatocellular carcinoma and yolk sac tumour\n4. Epithelial ovarian carcinoma",
+  "options": [
+   "A-4, B-3, C-1, D-2",
+   "A-2, B-4, C-1, D-3",
+   "A-3, B-4, C-1, D-2",
+   "A-3, B-4, C-2, D-1"
+  ],
+  "correct_index": 2,
+  "explanation": "AFP rises in hepatocellular carcinoma and yolk sac tumours; CA-125 in serous ovarian carcinoma; calcitonin in medullary thyroid carcinoma (C-cell origin, MEN 2); very high β-hCG in choriocarcinoma. Markers are mainly used for monitoring rather than screening. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "Swaps AFP and CA-125.",
+   "Swaps AFP and β-hCG.",
+   "",
+   "Swaps calcitonin and β-hCG."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_084",
+  "subject": "Pathology",
+  "sub_topic": "Genetics",
+  "stem": "Match the disorder with its repeat:\nA. Fragile X syndrome\nB. Huntington disease\nC. Myotonic dystrophy type 1\nD. Friedreich ataxia\n1. GAA\n2. CTG\n3. CAG\n4. CGG",
+  "options": [
+   "A-3, B-4, C-2, D-1",
+   "A-2, B-3, C-4, D-1",
+   "A-4, B-3, C-1, D-2",
+   "A-4, B-3, C-2, D-1"
+  ],
+  "correct_index": 3,
+  "explanation": "Fragile X CGG (FMR1, expansion through female meiosis); Huntington CAG (polyglutamine, anticipation via paternal transmission); myotonic dystrophy CTG (DMPK 3'UTR, anticipation via maternal transmission in congenital form); Friedreich GAA (frataxin intron, autosomal recessive loss of function). Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "Swaps fragile X and Huntington.",
+   "Swaps fragile X and myotonic dystrophy.",
+   "Swaps myotonic dystrophy and Friedreich ataxia.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_085",
+  "subject": "Pathology",
+  "sub_topic": "Genetics",
+  "stem": "A child who was hypotonic with feeding difficulty in infancy later develops hyperphagia, obesity, hypogonadism, small hands and mild intellectual disability. DNA methylation testing at 15q11–q13 shows only the maternal pattern. What is the mechanism?",
+  "options": [
+   "Trinucleotide repeat expansion in SNRPN",
+   "Mitochondrial DNA mutation",
+   "Loss of paternally expressed genes from paternal deletion or maternal uniparental disomy",
+   "Loss of maternal UBE3A expression"
+  ],
+  "correct_index": 2,
+  "explanation": "Prader–Willi syndrome is a genomic imprinting disorder: genes in 15q11–q13 are normally expressed only from the paternal chromosome, so paternal deletion or maternal UPD removes their expression. Angelman syndrome results from loss of maternal UBE3A (maternal deletion, paternal UPD or UBE3A mutation). Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "PWS is not a repeat expansion disorder.",
+   "Mitochondrial disorders are not diagnosed by 15q methylation.",
+   "",
+   "Loss of maternal UBE3A causes Angelman syndrome."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_086",
+  "subject": "Pathology",
+  "sub_topic": "Genetics",
+  "stem": "A 22-year-old man develops sudden painless sequential loss of central vision in both eyes. The family pedigree shows that the trait passes from affected or carrier women to all of their children with variable severity, but is never transmitted by affected men to any descendant. What is the inheritance pattern?",
+  "options": [
+   "X-linked recessive",
+   "Autosomal dominant with incomplete penetrance",
+   "Y-linked",
+   "Mitochondrial"
+  ],
+  "correct_index": 3,
+  "explanation": "Leber hereditary optic neuropathy is due to mitochondrial DNA mutations; mitochondria come from the oocyte, so only mothers transmit. Heteroplasmy explains variable severity. X-linked recessive traits pass from affected men through daughters to grandsons. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "Affected men would transmit the allele to all daughters and thus to grandsons.",
+   "Affected men could transmit an autosomal dominant trait.",
+   "Y-linked traits pass from father to all sons.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_087",
+  "subject": "Pathology",
+  "sub_topic": "Immunity",
+  "stem": "All of the following are type II hypersensitivity reactions EXCEPT:",
+  "options": [
+   "Autoimmune haemolytic anaemia",
+   "Goodpasture syndrome",
+   "Myasthenia gravis",
+   "Post-streptococcal glomerulonephritis"
+  ],
+  "correct_index": 3,
+  "explanation": "Type II reactions involve antibodies against fixed cell-surface or matrix antigens (Goodpasture, AIHA, myasthenia gravis, Graves disease, pemphigus, acute rheumatic fever). Post-streptococcal GN is type III, with circulating immune complexes deposited in glomeruli. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "Antibodies against red cell antigens are type II.",
+   "Anti-GBM antibody against type IV collagen is type II.",
+   "Anti-acetylcholine receptor antibody is type II.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_088",
+  "subject": "Pathology",
+  "sub_topic": "Amyloidosis",
+  "stem": "A man on haemodialysis for many years develops bilateral carpal tunnel syndrome and cystic bone lesions. Biopsy shows Congo red positive deposits. Which protein forms these deposits?",
+  "options": [
+   "Serum amyloid A",
+   "Immunoglobulin light chain",
+   "β2-Microglobulin",
+   "Mutant transthyretin"
+  ],
+  "correct_index": 2,
+  "explanation": "Dialysis-related amyloid is formed from β2-microglobulin, which is not cleared well by conventional dialysis membranes and deposits in synovium, tendons and bone. AA follows chronic inflammation, AL plasma cell dyscrasias, and ATTR familial neuropathy or senile cardiac amyloid. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "AA amyloid follows chronic inflammation, mainly affecting kidney.",
+   "AL amyloid arises from a plasma cell clone.",
+   "",
+   "Mutant TTR causes familial amyloid polyneuropathy unrelated to dialysis."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_089",
+  "subject": "Pathology",
+  "sub_topic": "Amyloidosis",
+  "stem": "Regarding amyloid, which statements are correct?\n1. It shows apple-green birefringence with Congo red under polarised light.\n2. It has a cross-β-pleated sheet structure.\n3. AA amyloid derives from serum amyloid A, an acute-phase reactant.\n4. AL amyloid derives more often from κ than λ light chains.",
+  "options": [
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4",
+   "1 and 2 only",
+   "1, 2 and 3 only"
+  ],
+  "correct_index": 3,
+  "explanation": "All amyloid shares a cross-β-pleated sheet conformation that binds Congo red. AA is produced from SAA made by the liver under IL-1 and IL-6 drive. AL amyloid is more often λ-derived than κ-derived. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "Statement 4 is false and true statement 1 is omitted.",
+   "Statement 4 is false.",
+   "Omits true statement 3.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_090",
+  "subject": "Pathology",
+  "sub_topic": "Transfusion medicine",
+  "stem": "Within 2 hours of a fresh frozen plasma transfusion, an ICU patient develops acute hypoxaemia, fever, hypotension and bilateral pulmonary infiltrates. JVP is not raised, BNP is normal, and a diuretic gives no improvement. What is the likely mechanism?",
+  "options": [
+   "Recipient IgE against donor plasma proteins",
+   "ABO-incompatible red cell destruction",
+   "Circulatory volume overload",
+   "Donor anti-HLA or anti-HNA antibodies activating recipient neutrophils in the lung"
+  ],
+  "correct_index": 3,
+  "explanation": "Transfusion-related acute lung injury occurs within 6 hours, causing non-cardiogenic pulmonary oedema; plasma-rich products from multiparous female donors carry most risk, so male-predominant plasma reduces it. TACO instead shows hypertension, raised BNP and a response to diuretics. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "IgE-mediated reactions give urticaria or anaphylaxis, not this picture.",
+   "ABO incompatibility causes haemolysis with haemoglobinuria.",
+   "TACO causes hypertension, raised JVP and BNP and responds to diuretics.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_091",
+  "subject": "Pathology",
+  "sub_topic": "Transfusion medicine",
+  "stem": "Assertion (A): Patients with IgA deficiency may develop anaphylaxis after transfusion of plasma-containing blood products.\nReason (R): Selective IgA deficiency is the most common primary immunodeficiency.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 1,
+  "explanation": "Both are true, but anaphylaxis is explained by pre-formed anti-IgA antibodies in the recipient reacting with donor IgA, not by how common IgA deficiency is. Use washed red cells or products from IgA-deficient donors. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "R is true but the mechanism is anti-IgA antibodies, not prevalence.",
+   "",
+   "R is true.",
+   "A is true."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_092",
+  "subject": "Pathology",
+  "sub_topic": "Transfusion medicine",
+  "stem": "An allogeneic stem cell transplant recipient needs a platelet transfusion. To prevent transfusion-associated graft-versus-host disease, the product must be:",
+  "options": [
+   "CMV-seronegative",
+   "Washed",
+   "Leukoreduced only",
+   "Gamma- or X-irradiated"
+  ],
+  "correct_index": 3,
+  "explanation": "Irradiation prevents proliferation of donor T lymphocytes, which cause the usually fatal TA-GVHD in immunocompromised recipients and in directed donations from blood relatives. Leukoreduction reduces febrile reactions, HLA alloimmunisation and CMV transmission but does not reliably prevent TA-GVHD. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "CMV-negative products prevent CMV, not GVHD.",
+   "Washing removes plasma proteins, not viable lymphocytes.",
+   "Leukoreduction does not reliably remove enough T cells.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_093",
+  "subject": "Pathology",
+  "sub_topic": "Renal pathology",
+  "stem": "A 7-year-old has cola-coloured urine, periorbital oedema and hypertension 2 weeks after a sore throat. Serum C3 is low. What immunofluorescence and electron microscopy findings are expected?",
+  "options": [
+   "Smooth linear IgG along the GBM",
+   "Coarse granular ('lumpy-bumpy') IgG and C3 with subepithelial humps",
+   "Dominant mesangial IgA deposits",
+   "No immune deposits with diffuse podocyte foot-process effacement"
+  ],
+  "correct_index": 1,
+  "explanation": "Post-streptococcal GN is an immune-complex (type III) disease with granular IF and subepithelial humps on EM. The latent period of 1–3 weeks and low C3 that normalises within about 8 weeks distinguish it from IgA nephropathy, which follows infection within days with normal C3. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "Linear IgG indicates anti-GBM disease.",
+   "",
+   "Mesangial IgA indicates IgA nephropathy.",
+   "This describes minimal change disease."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_094",
+  "subject": "Pathology",
+  "sub_topic": "Renal pathology",
+  "stem": "A 25-year-old smoker has haemoptysis and rapidly rising creatinine. Renal biopsy shows crescents in most glomeruli; immunofluorescence shows smooth linear IgG along the GBM. What is the target antigen?",
+  "options": [
+   "NC1 domain of the α3 chain of type IV collagen",
+   "Myeloperoxidase",
+   "Phospholipase A2 receptor",
+   "Proteinase 3"
+  ],
+  "correct_index": 0,
+  "explanation": "Anti-GBM disease (Goodpasture syndrome) is type II hypersensitivity against the α3(IV) NC1 domain in glomerular and alveolar basement membranes. Linear IF is the discriminator. Treatment is plasmapheresis with steroids and cyclophosphamide. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "",
+   "MPO-ANCA vasculitis is pauci-immune.",
+   "Anti-PLA2R causes membranous nephropathy with granular deposits.",
+   "PR3-ANCA vasculitis is pauci-immune."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_095",
+  "subject": "Pathology",
+  "sub_topic": "Renal pathology",
+  "stem": "A 20-year-old man has painless visible haematuria 1–2 days after an upper respiratory infection, with similar earlier episodes. Serum C3 is normal. What would renal biopsy immunofluorescence show?",
+  "options": [
+   "Scanty or no immune deposits with crescents",
+   "Granular subepithelial IgG with 'spikes' on silver stain",
+   "Linear IgG along the GBM",
+   "Dominant mesangial IgA deposits"
+  ],
+  "correct_index": 3,
+  "explanation": "IgA nephropathy, the commonest primary glomerulonephritis worldwide, results from galactose-deficient IgA1 immune complexes in the mesangium. Haematuria coinciding with infection and normal C3 separate it from PSGN. IgA vasculitis (Henoch–Schönlein) has the same renal lesion. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "This describes pauci-immune (ANCA) crescentic GN.",
+   "This describes membranous nephropathy.",
+   "Linear IgG indicates anti-GBM disease.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_096",
+  "subject": "Pathology",
+  "sub_topic": "Renal pathology",
+  "stem": "A 50-year-old has nephrotic syndrome. Biopsy shows diffusely thickened capillary walls with silver-stain 'spikes' projecting from the GBM, and granular IgG and C3 along capillary loops. Which serum antibody is most likely positive?",
+  "options": [
+   "Anti-streptolysin O",
+   "c-ANCA",
+   "Anti-phospholipase A2 receptor",
+   "Anti-GBM"
+  ],
+  "correct_index": 2,
+  "explanation": "Primary membranous nephropathy is mostly due to autoantibodies to podocyte PLA2R, forming subepithelial deposits with new basement membrane between them (spikes). Exclude secondary causes such as malignancy, SLE (class V), hepatitis B and drugs. Renal vein thrombosis is a known complication. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "ASO relates to post-streptococcal GN.",
+   "ANCA disease is pauci-immune crescentic GN.",
+   "",
+   "Anti-GBM disease gives linear IgG and crescents."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_097",
+  "subject": "Pathology",
+  "sub_topic": "Renal pathology",
+  "stem": "Assertion (A): Minimal change disease shows granular IgG deposits along capillary loops on immunofluorescence.\nReason (R): Diffuse effacement of podocyte foot processes on electron microscopy is the characteristic finding in minimal change disease.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 3,
+  "explanation": "Minimal change disease shows normal light microscopy, negative immunofluorescence and diffuse foot-process effacement on EM. It is the commonest cause of nephrotic syndrome in children, with selective proteinuria and good steroid response; associations include Hodgkin lymphoma and NSAIDs. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "A is false.",
+   "A is false.",
+   "A is false and R is true, not the reverse.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_098",
+  "subject": "Pathology",
+  "sub_topic": "Renal pathology",
+  "stem": "A 28-year-old woman with SLE has haematuria and nephrotic-range proteinuria. Biopsy shows endocapillary proliferation in ≥50% of glomeruli with 'wire-loop' subendothelial deposits; immunofluorescence is positive for IgG, IgA, IgM, C3 and C1q. What is the ISN/RPS class?",
+  "options": [
+   "Class V (membranous)",
+   "Class II (mesangial proliferative)",
+   "Class IV (diffuse lupus nephritis)",
+   "Class I (minimal mesangial)"
+  ],
+  "correct_index": 2,
+  "explanation": "Class IV involves at least 50% of glomeruli with endocapillary proliferation and subendothelial deposits; it is the commonest and most severe class. 'Full-house' immunofluorescence is typical of lupus. Class III is the same lesion in fewer than 50% of glomeruli; class V has subepithelial deposits. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "Class V has subepithelial deposits with nephrotic syndrome.",
+   "Class II is limited to mesangial changes.",
+   "",
+   "Class I shows mesangial deposits with normal light microscopy."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_099",
+  "subject": "Pathology",
+  "sub_topic": "Renal pathology",
+  "stem": "Which of the following glomerular diseases are typically associated with low serum C3?\n1. Post-streptococcal glomerulonephritis\n2. IgA nephropathy\n3. Class IV lupus nephritis\n4. C3 glomerulopathy (including dense deposit disease)",
+  "options": [
+   "1, 2, 3 and 4",
+   "1, 3 and 4 only",
+   "2 and 4 only",
+   "1, 2 and 3 only"
+  ],
+  "correct_index": 1,
+  "explanation": "Hypocomplementaemic glomerulonephritides include PSGN (transient), lupus nephritis, C3 glomerulopathy and MPGN with immune complexes such as cryoglobulinaemia. IgA nephropathy, anti-GBM disease and ANCA vasculitis usually have normal C3. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "IgA nephropathy has normal C3.",
+   "",
+   "Includes IgA nephropathy and omits PSGN and lupus.",
+   "IgA nephropathy has normal C3."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_f_100",
+  "subject": "Pathology",
+  "sub_topic": "Immunity",
+  "stem": "A woman develops itchy vesicular eczema on her wrist 48 hours after starting to wear a nickel bracelet. What is the mechanism?",
+  "options": [
+   "Type IV T cell–mediated delayed hypersensitivity",
+   "Type II antibody against cell-surface antigens",
+   "Type I IgE-mediated immediate hypersensitivity",
+   "Type III immune-complex deposition"
+  ],
+  "correct_index": 0,
+  "explanation": "Allergic contact dermatitis follows sensitisation to a hapten that binds self proteins; on re-exposure, sensitised T cells release cytokines after 24–72 hours. Patch testing confirms it; the Mantoux test is another type IV reaction. Source: Robbins & Cotran Pathologic Basis of Disease.",
+  "w": [
+   "",
+   "Type II antibodies target fixed cell or matrix antigens.",
+   "Type I reactions occur within minutes (urticaria, anaphylaxis).",
+   "Type III reactions involve immune complexes (serum sickness, Arthus)."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ }
+]
