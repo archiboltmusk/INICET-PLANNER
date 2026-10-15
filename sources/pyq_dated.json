@@ -2559,7 +2559,8 @@
   "a": 1,
   "y": 2022,
   "x": "INI-CET May 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Anatomy",
@@ -2601,7 +2602,8 @@
   "a": 1,
   "y": 2022,
   "x": "INI-CET May 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Anatomy",
@@ -2615,7 +2617,8 @@
   "a": 0,
   "y": 2022,
   "x": "INI-CET May 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Anatomy",
@@ -2629,7 +2632,8 @@
   "a": 1,
   "y": 2022,
   "x": "INI-CET May 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Anesthesia",
@@ -4239,7 +4243,8 @@
   "a": 3,
   "y": 2022,
   "x": "INI-CET May 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Radiology",
@@ -4253,7 +4258,8 @@
   "a": 2,
   "y": 2022,
   "x": "INI-CET May 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Radiology",
@@ -4281,7 +4287,8 @@
   "a": 1,
   "y": 2022,
   "x": "INI-CET May 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Surgery",
@@ -4323,7 +4330,8 @@
   "a": 0,
   "y": 2022,
   "x": "INI-CET May 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Surgery",
@@ -4365,7 +4373,8 @@
   "a": 0,
   "y": 2022,
   "x": "INI-CET May 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Surgery",
@@ -4407,7 +4416,8 @@
   "a": 2,
   "y": 2022,
   "x": "INI-CET May 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Surgery",
@@ -4463,7 +4473,8 @@
   "a": 1,
   "y": 2022,
   "x": "INI-CET May 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Surgery",
@@ -4519,7 +4530,8 @@
   "a": 2,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Anatomy",
@@ -4561,7 +4573,8 @@
   "a": 1,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Anatomy",
@@ -4631,7 +4644,8 @@
   "a": 0,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Anatomy",
@@ -4659,7 +4673,8 @@
   "a": 3,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Anatomy",
@@ -4673,7 +4688,8 @@
   "a": 3,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Anatomy",
@@ -4729,7 +4745,8 @@
   "a": 0,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Anatomy",
@@ -4855,7 +4872,8 @@
   "a": 1,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Anatomy",
@@ -4967,7 +4985,8 @@
   "a": 0,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Anatomy",
@@ -5261,7 +5280,8 @@
   "a": 3,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Biochemistry",
@@ -5275,7 +5295,8 @@
   "a": 1,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Biochemistry",
@@ -5541,7 +5562,8 @@
   "a": 2,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Community Medicine",
@@ -5639,7 +5661,8 @@
   "a": 3,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Dermatology",
@@ -5653,7 +5676,8 @@
   "a": 1,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Dermatology",
@@ -5681,7 +5705,8 @@
   "a": 1,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Dermatology",
@@ -5779,7 +5804,8 @@
   "a": 2,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "ENT",
@@ -5807,7 +5833,8 @@
   "a": 3,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "ENT",
@@ -5821,7 +5848,8 @@
   "a": 3,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "ENT",
@@ -5947,7 +5975,8 @@
   "a": 2,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Forensic Medicine",
@@ -6003,7 +6032,8 @@
   "a": 0,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Forensic Medicine",
@@ -6353,7 +6383,8 @@
   "a": 1,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Medicine",
@@ -6703,7 +6734,8 @@
   "a": 0,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Medicine",
@@ -6871,7 +6903,8 @@
   "a": 0,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Medicine",
@@ -7165,7 +7198,8 @@
   "a": 1,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Microbiology",
@@ -7641,7 +7675,8 @@
   "a": 1,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "OBGY",
@@ -7991,7 +8026,8 @@
   "a": 1,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Orthopedics",
@@ -8075,7 +8111,8 @@
   "a": 2,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Orthopedics",
@@ -8117,7 +8154,8 @@
   "a": 2,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Orthopedics",
@@ -8341,7 +8379,8 @@
   "a": 0,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Pathology",
@@ -8439,7 +8478,8 @@
   "a": 0,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Pathology",
@@ -9069,7 +9109,8 @@
   "a": 1,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Pharmacology",
@@ -9363,7 +9404,8 @@
   "a": 3,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Physiology",
@@ -9573,7 +9615,8 @@
   "a": 0,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Physiology",
@@ -9811,7 +9854,8 @@
   "a": 1,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Radiology",
@@ -9951,7 +9995,8 @@
   "a": 3,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Radiology",
@@ -9965,7 +10010,8 @@
   "a": 2,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Radiology",
@@ -10203,7 +10249,8 @@
   "a": 0,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Surgery",
@@ -10581,7 +10628,8 @@
   "a": 2,
   "y": 2022,
   "x": "INI-CET Nov 2022 (memory recall)",
-  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer."
+  "e": "Unofficial memory-recall key (source: AglaSem docs, INI-CET 2022). Verify against a standard text; not an official AIIMS answer.",
+  "noimg": true
  },
  {
   "s": "Surgery",

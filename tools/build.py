@@ -181,7 +181,7 @@ def write_pyq(clusters):
             cids = match(subj, q["q"] + " " + q["o"][q["a"]])[:1]
             rows.append({"s": subj, "q": q["q"], "a": q["o"][q["a"]], "x": q.get("x") or "INI-CET", "n": 1, "st": q.get("t", ""),
                          "c": cids[0] if cids else "", "y": q["y"], "r": 1, "o": q["o"], "k": q["a"], "e": q.get("e", ""),
-                         **({"im": q["img"]} if q.get("img") else {})})
+                         **({"im": q["img"]} if q.get("img") else {}), **({"m": 1} if q.get("noimg") else {})})
     (ROOT / "data" / "pyq.js").write_text("window.DATA_PYQ=" + json.dumps(rows, ensure_ascii=False, separators=(",", ":")) + ";\n")
     return len(rows)
 
@@ -194,6 +194,8 @@ def dated_questions(clusters):
         cids = match(q["s"], q["q"] + " " + " ".join(q["o"]) + " " + q.get("e", ""))
         out.append({"id": f"pyq_{n:03d}", "s": q["s"], "c": cids, "q": q["q"], "o": q["o"], "a": q["a"], "e": q.get("e", ""),
                     "t": f"PYQ {q['y']}", "x": q.get("x") or f"INI-CET {q['y']}"})
+        if q.get("noimg"):  # stem needs a figure the source scan never gave us: kept out of blocks
+            out[-1]["m"] = 1
         if q.get("img"):
             out[-1]["i"] = {"src": q["img"], "cap": "", "credit": "INI-CET recall paper", "lic": "personal use", "page": ""}
     return out
