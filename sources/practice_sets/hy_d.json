@@ -1,0 +1,1014 @@
+[
+ {
+  "id": "hy_d_001",
+  "subject": "Pediatrics",
+  "sub_topic": "Neonatal resuscitation (NRP)",
+  "stem": "A term newborn remains bradycardic during resuscitation. Which statements about chest compressions are correct? 1. Start if heart rate stays <60/min after 30 seconds of PPV that is moving the chest 2. Compression:ventilation ratio is 3:1 3. Increase oxygen to 100% once compressions begin 4. Compress to one-half of the anteroposterior chest diameter",
+  "options": [
+   "1, 2 and 4",
+   "2, 3 and 4",
+   "1, 2 and 3",
+   "All four"
+  ],
+  "correct_index": 2,
+  "explanation": "Compressions start only after at least 30 s of effective (chest-moving) ventilation if HR remains <60/min; ratio 3:1 (90 compressions + 30 breaths/min) with FiO2 raised to 100%. Depth is one-third of the AP diameter, not one-half. Ventilation is the single most important step in newborn resuscitation. Source: AAP/AHA Neonatal Resuscitation Program.",
+  "w": [
+   "Statement 4 is wrong: depth is one-third of AP diameter.",
+   "Statement 4 is wrong and statement 1 is correct.",
+   "",
+   "Depth of one-half AP diameter is incorrect."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_002",
+  "subject": "Pediatrics",
+  "sub_topic": "Neonatal jaundice",
+  "stem": "All of the following indicate pathological rather than physiological jaundice in a neonate EXCEPT:",
+  "options": [
+   "Jaundice appearing within the first 24 hours of life",
+   "Elevated conjugated (direct) bilirubin",
+   "Jaundice persisting beyond 2 weeks in a term infant",
+   "Jaundice first noticed on day 3 in a well, feeding term baby with a modest bilirubin level"
+  ],
+  "correct_index": 3,
+  "explanation": "Physiological jaundice appears after 24 h, peaks around day 3-5 in term babies and resolves by 2 weeks. Onset within 24 h (think haemolysis: Rh/ABO), any conjugated hyperbilirubinaemia (think cholestasis/biliary atresia) and prolonged jaundice are pathological. Source: Ghai Essential Pediatrics; Nelson.",
+  "w": [
+   "Onset in first 24 h is always pathological.",
+   "Conjugated hyperbilirubinaemia is never physiological.",
+   "Prolonged jaundice (>2 wk term) needs evaluation.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_003",
+  "subject": "Pediatrics",
+  "sub_topic": "Respiratory distress syndrome",
+  "stem": "Assertion (A): Antenatal corticosteroids given to a woman in preterm labour at 30 weeks reduce the incidence of neonatal respiratory distress syndrome. Reason (R): Corticosteroids accelerate maturation of type II pneumocytes and surfactant synthesis.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "RDS (hyaline membrane disease) is due to surfactant deficiency in the preterm lung. Antenatal steroids (e.g. betamethasone) induce type II pneumocyte maturation and surfactant production, cutting RDS, IVH and neonatal mortality. R is the mechanism behind A. Source: Williams Obstetrics; Ghai Essential Pediatrics.",
+  "w": [
+   "",
+   "R directly explains A.",
+   "R is true.",
+   "A is true."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_004",
+  "subject": "Pediatrics",
+  "sub_topic": "Necrotising enterocolitis",
+  "stem": "A 29-week preterm neonate on day 10 of enteral feeds develops abdominal distension, feed intolerance and bloody stools. X-ray shows pneumatosis intestinalis with no free intraperitoneal air. Next best step?",
+  "options": [
+   "Immediate exploratory laparotomy",
+   "Stop enteral feeds, orogastric decompression and IV broad-spectrum antibiotics",
+   "Continue feeds with probiotics and observe",
+   "Contrast enema to confirm the diagnosis"
+  ],
+  "correct_index": 1,
+  "explanation": "Pneumatosis intestinalis = definite NEC (Bell stage II), managed medically: nil by mouth, gastric decompression, IV antibiotics and supportive care. Surgery is reserved for perforation (pneumoperitoneum) or clinical deterioration despite medical treatment. Source: Nelson Textbook of Pediatrics; Ghai.",
+  "w": [
+   "Surgery is for perforation/failed medical therapy.",
+   "",
+   "Feeding must be stopped in NEC.",
+   "Contrast studies risk perforation and are not needed."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_005",
+  "subject": "Pediatrics",
+  "sub_topic": "Neonatal hypoglycaemia",
+  "stem": "A 3-hour-old macrosomic baby of a diabetic mother becomes jittery and has a seizure. Bedside glucose is 22 mg/dL. Most appropriate management?",
+  "options": [
+   "Give a breastfeed and recheck glucose in 30 minutes",
+   "IV 25% dextrose 2 mL/kg",
+   "IM glucagon as first-line therapy",
+   "IV 10% dextrose 2 mL/kg bolus followed by continuous glucose infusion"
+  ],
+  "correct_index": 3,
+  "explanation": "Symptomatic hypoglycaemia (especially seizures) needs IV treatment: a mini-bolus of 10% dextrose 2 mL/kg (200 mg/kg) followed by a continuous infusion (GIR about 6-8 mg/kg/min). IDM hypoglycaemia is due to fetal hyperinsulinism. Concentrated dextrose is avoided in neonates. Source: Ghai Essential Pediatrics; Nelson.",
+  "w": [
+   "Oral feeding alone is inadequate for a seizing baby.",
+   "25% dextrose is hyperosmolar and causes rebound hypoglycaemia.",
+   "Glucagon is not first-line.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_006",
+  "subject": "Pediatrics",
+  "sub_topic": "Measles",
+  "stem": "A 2-year-old with fever, cough, conjunctivitis and a maculopapular rash that began behind the ears is diagnosed with measles. As per WHO, vitamin A should be given as:",
+  "options": [
+   "100,000 IU as a single dose",
+   "200,000 IU orally on two consecutive days",
+   "50,000 IU on days 1, 2 and 14",
+   "Not needed in a well-nourished child"
+  ],
+  "correct_index": 1,
+  "explanation": "WHO recommends vitamin A for every child with measles: 200,000 IU (>=12 months), 100,000 IU (6-11 months) or 50,000 IU (<6 months), on two consecutive days. A third dose 2-4 weeks later is given if there are eye signs of deficiency. It reduces mortality and complications such as pneumonia. Source: WHO measles guidance; Ghai.",
+  "w": [
+   "100,000 IU is the 6-11 month dose and two doses are needed.",
+   "",
+   "50,000 IU is the dose for infants <6 months.",
+   "Recommended for all children with measles."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_007",
+  "subject": "Pediatrics",
+  "sub_topic": "Diphtheria",
+  "stem": "A 6-year-old unimmunised child has fever, sore throat, bull-neck swelling and a grey adherent pharyngeal membrane that bleeds on removal. Next best step?",
+  "options": [
+   "Give diphtheria antitoxin immediately on clinical suspicion, with penicillin or erythromycin",
+   "Wait for throat culture on tellurite medium before treating",
+   "Start antibiotics alone; antitoxin only if culture is positive",
+   "Give DPT booster and observe"
+  ],
+  "correct_index": 0,
+  "explanation": "Antitoxin neutralises only unbound toxin, so it is given at once on clinical suspicion without waiting for culture; antibiotics (penicillin/erythromycin) eradicate the organism. Myocarditis (usually 2nd week) is the commonest cause of death. Source: Nelson; Park's PSM.",
+  "w": [
+   "",
+   "Delay lets toxin bind tissues irreversibly.",
+   "Antibiotics do not neutralise toxin.",
+   "Vaccine does not treat active disease."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_008",
+  "subject": "Pediatrics",
+  "sub_topic": "IMNCI",
+  "stem": "All of the following are general danger signs in IMNCI for a child aged 2 months to 5 years EXCEPT:",
+  "options": [
+   "Not able to drink or breastfeed",
+   "Vomits everything",
+   "Fast breathing",
+   "Lethargic or unconscious"
+  ],
+  "correct_index": 2,
+  "explanation": "IMNCI general danger signs are: unable to drink/breastfeed, vomits everything, convulsions (history or now) and lethargy/unconsciousness; any one means urgent referral. Fast breathing is used to classify pneumonia (>=50/min at 2-12 months, >=40/min at 12 months-5 years) and is not a general danger sign. Source: MoHFW IMNCI module; WHO.",
+  "w": [
+   "This is a general danger sign.",
+   "This is a general danger sign.",
+   "",
+   "This is a general danger sign."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_009",
+  "subject": "Pediatrics",
+  "sub_topic": "Genetics - Down syndrome",
+  "stem": "A child with Down syndrome is found to have a Robertsonian translocation involving chromosome 21 (total 46 chromosomes). The parents are planning another pregnancy. Next best step?",
+  "options": [
+   "Reassure that recurrence risk equals the maternal age-related risk",
+   "Repeat FISH on the child's cells",
+   "Karyotype of both parents",
+   "Maternal serum screening alone in the next pregnancy"
+  ],
+  "correct_index": 2,
+  "explanation": "About 95% of Down syndrome is free trisomy (maternal meiosis I non-disjunction) with low recurrence; translocation Down syndrome may be inherited from a balanced carrier parent, so both parents are karyotyped. Recurrence is much higher if a parent is a carrier and is 100% if a parent carries a 21;21 translocation. Source: Nelson; Thompson & Thompson Genetics.",
+  "w": [
+   "Recurrence can be far higher with a carrier parent.",
+   "Diagnosis is already established.",
+   "",
+   "Screening does not address parental carrier status."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_010",
+  "subject": "Pediatrics",
+  "sub_topic": "Developmental milestones",
+  "stem": "A child rides a tricycle, copies a circle, and tells his age and gender. Most likely developmental age?",
+  "options": [
+   "2 years",
+   "3 years",
+   "4 years",
+   "5 years"
+  ],
+  "correct_index": 1,
+  "explanation": "At 3 years: rides tricycle, copies a circle, knows age and gender, speaks in sentences. At 4 years the child copies a cross/square and hops; at 5 years copies a triangle and skips. Source: Ghai Essential Pediatrics; Nelson.",
+  "w": [
+   "At 2 years the child copies a vertical line and runs, no tricycle.",
+   "",
+   "4-year-olds copy a cross/square and hop.",
+   "5-year-olds copy a triangle and skip."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_011",
+  "subject": "OBGY",
+  "sub_topic": "Teratogens",
+  "stem": "A newborn has nasal hypoplasia and stippled epiphyses on X-ray. The mother has a mechanical mitral valve and took an oral anticoagulant throughout the first trimester. The responsible drug is:",
+  "options": [
+   "Phenytoin",
+   "Valproate",
+   "Isotretinoin",
+   "Warfarin"
+  ],
+  "correct_index": 3,
+  "explanation": "Warfarin embryopathy (exposure around 6-9 weeks): nasal hypoplasia and stippled epiphyses (chondrodysplasia punctata); later exposure causes CNS bleeds. Warfarin crosses the placenta, unlike heparins. Source: Williams Obstetrics; DC Dutta.",
+  "w": [
+   "Phenytoin causes fetal hydantoin syndrome (digital hypoplasia, facial features).",
+   "Valproate causes neural tube defects.",
+   "Isotretinoin causes ear, CNS and cardiac defects.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_012",
+  "subject": "OBGY",
+  "sub_topic": "Teratogens",
+  "stem": "Which drug-defect pairs are correct? 1. Phenytoin - fetal hydantoin syndrome 2. Lithium - Ebstein anomaly 3. ACE inhibitors in 2nd/3rd trimester - oligohydramnios and renal tubular dysgenesis 4. Diethylstilbestrol - Ebstein anomaly",
+  "options": [
+   "1, 2 and 3",
+   "1, 3 and 4",
+   "2 and 4 only",
+   "All four"
+  ],
+  "correct_index": 0,
+  "explanation": "Phenytoin, lithium (Ebstein anomaly; absolute risk now considered low) and fetotoxic ACE inhibitors are classic pairs. DES causes vaginal clear-cell adenocarcinoma, adenosis and T-shaped uterus in daughters, not cardiac defects. Source: Williams Obstetrics.",
+  "w": [
+   "",
+   "Statement 4 is wrong; statement 2 is correct.",
+   "Statement 4 is wrong.",
+   "DES does not cause Ebstein anomaly."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_013",
+  "subject": "OBGY",
+  "sub_topic": "Postpartum haemorrhage",
+  "stem": "A woman develops PPH one hour after vaginal birth; oxytocin and uterine massage have been started. Per WHO, the correct use of tranexamic acid is:",
+  "options": [
+   "1 g IV only after uterotonics and surgical measures fail",
+   "2 g orally as soon as PPH is diagnosed",
+   "1 g IV over 10 minutes within 3 hours of birth, repeated once if bleeding continues after 30 minutes",
+   "1 g IV at any time, with maximum benefit after 3 hours"
+  ],
+  "correct_index": 2,
+  "explanation": "WHO (2017, based on the WOMAN trial) recommends TXA for all PPH, regardless of cause, in addition to standard care: 1 g IV over 10 min as early as possible and within 3 h of birth; a second 1 g dose if bleeding continues after 30 min or restarts within 24 h. Starting after 3 h gives no benefit. Source: WHO recommendation on TXA for PPH 2017.",
+  "w": [
+   "TXA is given early with standard care, not as last resort.",
+   "Route is IV, not oral.",
+   "",
+   "Benefit is lost when started after 3 h."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_014",
+  "subject": "OBGY",
+  "sub_topic": "Postpartum haemorrhage",
+  "stem": "A woman with severe preeclampsia who is also a known asthmatic has atonic PPH not responding to oxytocin infusion. Most appropriate additional uterotonic?",
+  "options": [
+   "Methylergometrine 0.2 mg IM",
+   "Carboprost 250 microgram IM",
+   "Ergometrine-oxytocin combination IM",
+   "Misoprostol 800 microgram sublingual"
+  ],
+  "correct_index": 3,
+  "explanation": "Ergot alkaloids are contraindicated in hypertension/preeclampsia (vasoconstriction), and carboprost (PGF2-alpha) is contraindicated in asthma (bronchospasm). Misoprostol (PGE1) 800 microgram sublingual is the WHO treatment dose and is safe here. Source: WHO PPH recommendations 2012; Williams Obstetrics.",
+  "w": [
+   "Ergot is contraindicated in hypertension.",
+   "Carboprost causes bronchospasm in asthma.",
+   "Contains ergometrine: contraindicated in preeclampsia.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_015",
+  "subject": "OBGY",
+  "sub_topic": "Postpartum haemorrhage",
+  "stem": "Atonic PPH continues despite oxytocin, a second-line uterotonic, tranexamic acid and bimanual compression. Placenta and membranes are complete and there is no genital tract trauma. Next best step while preparing for surgery?",
+  "options": [
+   "Uterine balloon tamponade",
+   "Immediate subtotal hysterectomy",
+   "Bilateral internal iliac artery ligation",
+   "Continue oxytocin infusion and reassess after one hour"
+  ],
+  "correct_index": 0,
+  "explanation": "For refractory atonic PPH, uterine balloon tamponade is the recommended next step before (or as a bridge to) surgery. Escalation then proceeds to compression sutures (B-Lynch), devascularisation/embolisation and finally hysterectomy. Source: WHO PPH recommendations; DC Dutta.",
+  "w": [
+   "",
+   "Hysterectomy is last resort after conservative measures.",
+   "Surgical devascularisation follows failed tamponade.",
+   "Delay in refractory PPH increases mortality."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_016",
+  "subject": "OBGY",
+  "sub_topic": "Preeclampsia / eclampsia",
+  "stem": "In the Pritchard regimen of magnesium sulphate for eclampsia, the loading dose is:",
+  "options": [
+   "4 g IV only",
+   "4 g IV plus 10 g IM (5 g in each buttock)",
+   "10 g IV plus 4 g IM",
+   "6 g IV followed by 2 g/hour infusion"
+  ],
+  "correct_index": 1,
+  "explanation": "Pritchard regimen: loading 4 g IV (20% solution) plus 10 g IM (50%, 5 g deep IM in each buttock) = 14 g; maintenance 5 g IM 4-hourly in alternate buttocks, continued for 24 h after delivery or the last fit. Zuspan is IV only: 4 g load then 1 g/h. Source: DC Dutta; Williams Obstetrics.",
+  "w": [
+   "This is only the IV part (Zuspan load).",
+   "",
+   "Wrong route split.",
+   "This is an IV infusion regimen, not Pritchard."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_017",
+  "subject": "OBGY",
+  "sub_topic": "Preeclampsia / eclampsia",
+  "stem": "A woman on IV magnesium sulphate for severe preeclampsia has a respiratory rate of 9/min and absent patellar reflexes. Most appropriate immediate action?",
+  "options": [
+   "Stop magnesium sulphate and give 10 mL of 10% calcium gluconate IV slowly, with respiratory support",
+   "Halve the infusion rate and recheck reflexes in 4 hours",
+   "Give IV furosemide and continue the infusion",
+   "Switch to IV diazepam and continue observation"
+  ],
+  "correct_index": 0,
+  "explanation": "Loss of deep tendon reflexes is the earliest sign of magnesium toxicity, followed by respiratory depression and cardiac arrest. Stop the drug, give calcium gluconate 1 g (10 mL of 10%) IV slowly as antidote, and support ventilation. Reflexes, respiration and urine output are checked before each dose. Source: Williams Obstetrics; DC Dutta.",
+  "w": [
+   "",
+   "Continuing the drug with respiratory depression is dangerous.",
+   "Furosemide is not the antidote.",
+   "Diazepam adds respiratory depression and is inferior to MgSO4."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_018",
+  "subject": "OBGY",
+  "sub_topic": "Preeclampsia / eclampsia",
+  "stem": "Assertion (A): Magnesium sulphate is the drug of choice for prevention and treatment of eclamptic convulsions. Reason (R): Magnesium sulphate acts mainly as a potent antihypertensive agent.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 2,
+  "explanation": "MgSO4 is superior to diazepam and phenytoin for eclampsia (Collaborative Eclampsia Trial, Magpie). It works as an anticonvulsant (NMDA antagonism, cerebral vasodilatation); its BP-lowering effect is minor, so severe hypertension needs labetalol, nifedipine or hydralazine. Source: Williams Obstetrics; WHO.",
+  "w": [
+   "R is false.",
+   "R is false.",
+   "",
+   "A is true."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_019",
+  "subject": "OBGY",
+  "sub_topic": "Normal labour / partograph",
+  "stem": "A primigravida at term has regular contractions and the cervix is 4 cm dilated. According to the WHO Labour Care Guide (2020), she is in:",
+  "options": [
+   "Active first stage; start plotting with alert and action lines",
+   "Latent first stage; active first stage begins at 5 cm",
+   "Active labour, as the threshold is 3 cm",
+   "Arrest of labour"
+  ],
+  "correct_index": 1,
+  "explanation": "WHO 2018 intrapartum care recommendations and the Labour Care Guide define the active first stage from 5 cm. The LCG replaces alert/action lines with time limits for each centimetre of dilatation. Older tools: the original partograph started active phase at 3 cm, the modified WHO partograph at 4 cm. Source: WHO Labour Care Guide 2020.",
+  "w": [
+   "LCG has no alert/action lines and active stage starts at 5 cm.",
+   "",
+   "3 cm was the original partograph cut-off.",
+   "No arrest can be diagnosed in latent phase."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_020",
+  "subject": "OBGY",
+  "sub_topic": "Physiological changes of pregnancy",
+  "stem": "All of the following are normal physiological changes in pregnancy EXCEPT:",
+  "options": [
+   "Plasma volume rises proportionately more than red cell mass",
+   "Glomerular filtration rate rises by about 50%",
+   "Functional residual capacity increases",
+   "Tidal volume increases"
+  ],
+  "correct_index": 2,
+  "explanation": "FRC falls by about 20% as the gravid uterus elevates the diaphragm (ERV and residual volume also fall), which is why pregnant women desaturate quickly during apnoea. Tidal volume and minute ventilation rise (progesterone), GFR rises about 50%, and haemodilution causes physiological anaemia. Source: Williams Obstetrics.",
+  "w": [
+   "This is normal (physiological anaemia).",
+   "This is normal; serum creatinine falls.",
+   "",
+   "This is normal; causes compensated respiratory alkalosis."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_021",
+  "subject": "OBGY",
+  "sub_topic": "Contraception - MEC",
+  "stem": "Under WHO Medical Eligibility Criteria, combined oral contraceptives are Category 4 (unacceptable health risk) in a woman with:",
+  "options": [
+   "Migraine without aura, age 25",
+   "Adequately controlled hypertension",
+   "Breastfeeding, 4 months postpartum",
+   "Migraine with aura"
+  ],
+  "correct_index": 3,
+  "explanation": "Migraine with aura at any age is MEC 4 for COCs because of ischaemic stroke risk. Adequately controlled hypertension and breastfeeding between 6 weeks and 6 months are Category 3; migraine without aura under 35 is Category 2 for initiation. Source: WHO MEC 5th edition 2015.",
+  "w": [
+   "MEC 2 for initiation.",
+   "MEC 3, not 4.",
+   "MEC 3 (6 weeks to 6 months).",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_022",
+  "subject": "OBGY",
+  "sub_topic": "Contraception - Pearl index",
+  "stem": "In a trial, 200 women used a contraceptive method for 12 months each, and 20 accidental pregnancies occurred. The Pearl index is:",
+  "options": [
+   "1",
+   "5",
+   "10",
+   "20"
+  ],
+  "correct_index": 2,
+  "explanation": "Pearl index = (number of accidental pregnancies x 1200) / total months of exposure = (20 x 1200) / (200 x 12) = 10 per 100 woman-years. Lower values mean better efficacy. Source: Park's PSM; Shaw's Gynaecology.",
+  "w": [
+   "Arithmetic error.",
+   "Arithmetic error.",
+   "",
+   "Equals failures per 100 women, not per 100 woman-years computed by formula."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_023",
+  "subject": "OBGY",
+  "sub_topic": "Contraception - emergency",
+  "stem": "A 24-year-old presents 4 days (96 hours) after unprotected intercourse. She wants emergency contraception and reliable long-term contraception. Best option?",
+  "options": [
+   "Copper IUD insertion",
+   "Levonorgestrel 1.5 mg single oral dose",
+   "Yuzpe regimen (combined pills)",
+   "Emergency contraception is no longer possible after 72 hours"
+  ],
+  "correct_index": 0,
+  "explanation": "The copper IUD is the most effective emergency contraceptive (failure <0.1%), can be inserted up to 5 days after intercourse, and continues as long-term contraception. LNG 1.5 mg is best within 72 h and is less effective later; Yuzpe is least effective. Ulipristal 30 mg also works up to 120 h. Source: WHO; FOGSI.",
+  "w": [
+   "",
+   "Efficacy falls after 72 h and gives no ongoing protection.",
+   "Least effective method with more side effects.",
+   "Cu-IUD and ulipristal work up to 120 h."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_024",
+  "subject": "OBGY",
+  "sub_topic": "Infertility",
+  "stem": "A woman under evaluation for infertility has a hysterosalpingogram suggesting bilateral cornual block. The gold standard test to confirm tubal patency is:",
+  "options": [
+   "Repeat hysterosalpingography",
+   "Hysterosalpingo-contrast sonography (HyCoSy)",
+   "Falloposcopy",
+   "Laparoscopy with chromopertubation"
+  ],
+  "correct_index": 3,
+  "explanation": "HSG is the first-line screening test for tubal patency but cornual spasm can cause false blocks. Laparoscopic chromopertubation is the gold standard and also detects endometriosis and adhesions. Source: Shaw's Textbook of Gynaecology; Berek & Novak.",
+  "w": [
+   "Same limitation (spasm).",
+   "Screening test, not gold standard.",
+   "Not routinely used.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_025",
+  "subject": "OBGY",
+  "sub_topic": "Infertility - PCOS",
+  "stem": "A 27-year-old with PCOS (BMI 23), anovulatory cycles, patent tubes and a normal semen analysis in her partner has been trying to conceive for a year. First-line ovulation induction agent per current guidelines?",
+  "options": [
+   "Clomiphene citrate",
+   "Letrozole",
+   "Gonadotropins",
+   "Laparoscopic ovarian drilling"
+  ],
+  "correct_index": 1,
+  "explanation": "The 2018/2023 International PCOS guideline recommends letrozole as first-line for anovulatory infertility, giving higher live-birth rates than clomiphene. Exam-classic answer is clomiphene citrate; gonadotropins or drilling are second-line. Lifestyle change comes first if overweight. Source: International Evidence-based PCOS Guideline; ASRM.",
+  "w": [
+   "Older first-line; now second to letrozole.",
+   "",
+   "Second-line, higher OHSS/multiple risk.",
+   "Second-line after oral agents fail."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_026",
+  "subject": "OBGY",
+  "sub_topic": "Amenorrhoea",
+  "stem": "A 17-year-old with primary amenorrhoea has well-developed breasts, absent pubic and axillary hair, a blind vaginal pouch, no uterus on ultrasound and bilateral inguinal swellings. Most likely diagnosis?",
+  "options": [
+   "Complete androgen insensitivity syndrome",
+   "Mayer-Rokitansky-Kuster-Hauser syndrome",
+   "Turner syndrome",
+   "Kallmann syndrome"
+  ],
+  "correct_index": 0,
+  "explanation": "CAIS (46,XY): testes produce testosterone, aromatised to oestrogen for breast development, but androgen-receptor defect means absent pubic/axillary hair; AMH regresses the uterus. MRKH (46,XX) has normal breasts and normal sexual hair. Gonadectomy is usually done after puberty. Source: Shaw's Gynaecology; Berek & Novak.",
+  "w": [
+   "",
+   "MRKH has normal pubic/axillary hair and ovaries.",
+   "Turner has absent breast development and a uterus.",
+   "Kallmann has hypogonadism with poor breast development and anosmia."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_027",
+  "subject": "OBGY",
+  "sub_topic": "Amenorrhoea",
+  "stem": "Assertion (A): Withdrawal bleeding after a progestogen challenge in secondary amenorrhoea indicates adequate endogenous oestrogen and a patent outflow tract. Reason (R): Progesterone is the hormone that causes proliferation of the endometrium.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 2,
+  "explanation": "A positive progestogen challenge means the endometrium was oestrogen-primed and the outflow tract is patent, pointing to anovulation (e.g. PCOS). Proliferation is driven by oestrogen; progesterone converts it to a secretory endometrium, and its withdrawal causes bleeding. Pregnancy is always excluded first. Source: Speroff; Shaw's Gynaecology.",
+  "w": [
+   "R is false.",
+   "R is false.",
+   "",
+   "A is true."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_028",
+  "subject": "OBGY",
+  "sub_topic": "Cervical cancer screening",
+  "stem": "Regarding WHO 2021 cervical cancer screening recommendations, which are correct? 1. HPV DNA testing is the preferred primary screening test 2. Screening of the general population starts at 30 years 3. Women living with HIV start screening at 25 years 4. With HPV DNA, the general population is rescreened every 3 years",
+  "options": [
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2, 3 and 4",
+   "All four"
+  ],
+  "correct_index": 1,
+  "explanation": "WHO 2021: HPV DNA primary screening preferred over VIA or cytology; general population from 30 years, every 5-10 years; women living with HIV from 25 years, every 3-5 years. India's national programme (MoHFW) still uses VIA for women 30-65 years every 5 years. Source: WHO guideline for screening and treatment of cervical pre-cancer 2021.",
+  "w": [
+   "Statement 3 is also correct.",
+   "",
+   "Statement 4 is wrong.",
+   "Interval is 5-10 years, not 3."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_029",
+  "subject": "OBGY",
+  "sub_topic": "Cervical cancer staging",
+  "stem": "A 45-year-old has a 3 cm squamous cell carcinoma confined to the cervix. MRI shows enlarged pelvic lymph nodes; para-aortic nodes are normal. FIGO 2018 stage?",
+  "options": [
+   "IB2",
+   "IIIB",
+   "IIIC2r",
+   "IIIC1r"
+  ],
+  "correct_index": 3,
+  "explanation": "FIGO 2018 added nodal status: pelvic node metastasis = IIIC1, para-aortic = IIIC2, with 'r' when based on imaging and 'p' when pathologically confirmed. IB2 would apply only without nodal disease; IIIB means pelvic side-wall extension or hydronephrosis. Source: FIGO 2018 staging (Bhatla et al.).",
+  "w": [
+   "Ignores nodal involvement.",
+   "Needs side-wall extension or hydronephrosis.",
+   "Para-aortic nodes are normal.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_030",
+  "subject": "OBGY",
+  "sub_topic": "Ovarian tumours",
+  "stem": "An 18-year-old has a rapidly enlarging unilateral adnexal mass with markedly raised serum AFP. Histology shows Schiller-Duval bodies. Diagnosis?",
+  "options": [
+   "Dysgerminoma",
+   "Granulosa cell tumour",
+   "Immature teratoma",
+   "Yolk sac (endodermal sinus) tumour"
+  ],
+  "correct_index": 3,
+  "explanation": "Yolk sac tumour is an aggressive germ-cell tumour of young women with Schiller-Duval bodies and AFP as marker. Markers: dysgerminoma LDH, granulosa cell tumour inhibin, choriocarcinoma hCG. Fertility-sparing surgery plus BEP chemotherapy is standard. Source: Berek & Novak; Shaw's Gynaecology.",
+  "w": [
+   "Marker is LDH; no Schiller-Duval bodies.",
+   "Marker is inhibin; Call-Exner bodies.",
+   "Shows immature neuroepithelium, not Schiller-Duval bodies.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_031",
+  "subject": "Surgery",
+  "sub_topic": "Trauma - ATLS primary survey",
+  "stem": "A 30-year-old motorcyclist is brought in with snoring respiration, GCS 7 and no external bleeding. Cervical spine injury cannot be excluded. Most appropriate airway management?",
+  "options": [
+   "Rapid sequence intubation with manual in-line stabilisation",
+   "Cervical collar and immediate CT head",
+   "Oropharyngeal airway with oxygen, reassess after CT",
+   "Surgical cricothyroidotomy as first choice"
+  ],
+  "correct_index": 0,
+  "explanation": "GCS 8 or less needs a definitive airway: oral endotracheal intubation by RSI with manual in-line stabilisation of the C-spine. Surgical airway is reserved for failed intubation or severe maxillofacial injury. Classic sequence is ABCDE; ATLS 11th edition prefixes X for control of exsanguinating external haemorrhage (xABCDE). Source: ATLS Student Manual.",
+  "w": [
+   "",
+   "Airway comes before imaging.",
+   "Not a definitive airway at GCS 7.",
+   "Only if orotracheal intubation fails/impossible."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_032",
+  "subject": "Surgery",
+  "sub_topic": "Trauma - haemorrhagic shock",
+  "stem": "A 70 kg man after a road accident has HR 130/min, BP 85/60 mmHg, is anxious and confused, and passes 10 mL urine per hour. Estimated class of haemorrhage (classic ATLS)?",
+  "options": [
+   "Class I (<15% loss)",
+   "Class II (15-30% loss)",
+   "Class III (30-40% loss)",
+   "Class IV (>40% loss)"
+  ],
+  "correct_index": 2,
+  "explanation": "Class III: 30-40% (about 1500-2000 mL), tachycardia ~120-140, fall in systolic BP, urine 5-15 mL/h, confusion; blood transfusion required. Class II keeps systolic BP normal; class IV has HR >140, marked hypotension, lethargy and negligible urine. Source: ATLS Student Manual; Bailey & Love.",
+  "w": [
+   "Vitals near normal in class I.",
+   "Systolic BP is maintained in class II.",
+   "",
+   "Class IV has HR >140 and negligible urine with lethargy."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_033",
+  "subject": "Surgery",
+  "sub_topic": "Trauma - FAST",
+  "stem": "Assertion (A): A haemodynamically unstable patient with blunt abdominal trauma and a positive FAST should undergo contrast CT abdomen before laparotomy. Reason (R): Contrast CT can grade solid-organ injury and detect retroperitoneal injury.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 3,
+  "explanation": "Unstable patient + positive FAST = immediate laparotomy; CT ('doughnut of death') is only for haemodynamically stable patients. CT does grade solid-organ injury and shows retroperitoneum, which FAST assesses poorly. Source: ATLS; Bailey & Love.",
+  "w": [
+   "A is false.",
+   "A is false.",
+   "A is false and R is true.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_034",
+  "subject": "Surgery",
+  "sub_topic": "Breast - triple assessment",
+  "stem": "A 45-year-old has a 2 cm hard breast lump; mammography is BI-RADS 4. Investigation of choice to obtain a tissue diagnosis in triple assessment?",
+  "options": [
+   "Fine-needle aspiration cytology",
+   "Image-guided core needle biopsy",
+   "Excision biopsy",
+   "Incision biopsy"
+  ],
+  "correct_index": 1,
+  "explanation": "Triple assessment = clinical exam + imaging (mammography if >=35-40 years, ultrasound in younger women) + tissue diagnosis. Core needle biopsy is preferred: distinguishes in-situ from invasive cancer and gives grade and ER/PR/HER2 status. Open biopsy is reserved for discordant results. Source: Bailey & Love; NCCN.",
+  "w": [
+   "Cytology cannot show invasion or receptor status reliably.",
+   "",
+   "Not first-line; reserved for discordant results.",
+   "Obsolete for breast lumps."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_035",
+  "subject": "Surgery",
+  "sub_topic": "Breast cancer - surgery",
+  "stem": "All of the following are contraindications to breast-conserving surgery EXCEPT:",
+  "options": [
+   "Multicentric disease in different quadrants",
+   "Previous radiotherapy to the breast or chest wall",
+   "Persistently positive margins after re-excision",
+   "A 3 cm tumour in a large breast allowing good cosmesis"
+  ],
+  "correct_index": 3,
+  "explanation": "BCS requires adjuvant whole-breast radiotherapy and clear margins, so prior chest irradiation, multicentric disease, persistently positive margins, inflammatory cancer and need for RT during pregnancy are contraindications. Tumour size matters only relative to breast size. Source: Bailey & Love; Sabiston.",
+  "w": [
+   "Contraindication: cannot excise with good cosmesis.",
+   "Contraindication: cannot re-irradiate.",
+   "Contraindication: mastectomy needed.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_036",
+  "subject": "Surgery",
+  "sub_topic": "Gall bladder",
+  "stem": "A 45-year-old woman has 36 hours of RUQ pain, fever and a positive Murphy sign. Ultrasound shows gallstones, a thickened gallbladder wall and pericholecystic fluid; no organ dysfunction. Best management per current guidelines?",
+  "options": [
+   "Early laparoscopic cholecystectomy during the same admission",
+   "Antibiotics now and interval cholecystectomy after 6-8 weeks",
+   "Percutaneous cholecystostomy",
+   "ERCP with sphincterotomy"
+  ],
+  "correct_index": 0,
+  "explanation": "Mild (Tokyo grade I) acute calculous cholecystitis is best treated by early laparoscopic cholecystectomy (ideally within 72 h of onset, acceptable within a week): shorter stay, no extra complications. Older exam-classic teaching was conservative treatment followed by interval cholecystectomy. Cholecystostomy is for patients unfit for surgery. Source: Tokyo Guidelines 2018; Bailey & Love.",
+  "w": [
+   "",
+   "Classic approach; current guidelines favour early surgery.",
+   "Reserved for high-risk/unfit patients.",
+   "No CBD stone or cholangitis here."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_037",
+  "subject": "Surgery",
+  "sub_topic": "Biliary - cholangitis",
+  "stem": "A 60-year-old has fever with rigors, jaundice, RUQ pain, hypotension and confusion. Ultrasound shows a dilated CBD with a distal stone. After resuscitation and IV antibiotics, definitive next step?",
+  "options": [
+   "Emergency open cholecystectomy with CBD exploration",
+   "Percutaneous transhepatic biliary drainage as first choice",
+   "Urgent ERCP with biliary drainage (sphincterotomy/stent)",
+   "Continue antibiotics and plan elective ERCP after 6 weeks"
+  ],
+  "correct_index": 2,
+  "explanation": "Reynolds pentad = severe (Tokyo grade III) acute cholangitis: needs urgent biliary decompression, with ERCP the procedure of choice; PTBD is used if ERCP fails or is unavailable. Cholecystectomy is done later once the patient recovers. Source: Tokyo Guidelines 2018; Bailey & Love.",
+  "w": [
+   "High mortality operating in septic shock.",
+   "Second choice when ERCP fails.",
+   "",
+   "Severe cholangitis needs urgent drainage."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_038",
+  "subject": "Surgery",
+  "sub_topic": "Acute pancreatitis",
+  "stem": "Regarding acute pancreatitis, which statements are correct? 1. Persistent organ failure beyond 48 hours defines severe disease (Revised Atlanta) 2. Prophylactic antibiotics are recommended in all severe cases 3. Early oral or enteral feeding is preferred over parenteral nutrition 4. Contrast CT is not routinely needed at admission when the diagnosis is clear",
+  "options": [
+   "1 and 2",
+   "1, 3 and 4",
+   "2, 3 and 4",
+   "All four"
+  ],
+  "correct_index": 1,
+  "explanation": "Revised Atlanta: mild = no organ failure; moderately severe = transient (<48 h) organ failure or local complications; severe = persistent organ failure >48 h. Prophylactic antibiotics are not recommended; give them only for proven infection. Early enteral feeding and moderate goal-directed fluids (WATERFALL trial) are preferred; CECT is for diagnostic doubt or failure to improve after 48-72 h. Source: Revised Atlanta 2012; ACG/AGA guidelines.",
+  "w": [
+   "Statement 2 is wrong.",
+   "",
+   "Statement 2 is wrong.",
+   "Statement 2 is wrong."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_039",
+  "subject": "Surgery",
+  "sub_topic": "Thyroid nodule",
+  "stem": "A 40-year-old has a 2.5 cm solitary thyroid nodule. Serum TSH is suppressed. Next best step?",
+  "options": [
+   "Radionuclide thyroid scan",
+   "Ultrasound-guided FNAC",
+   "Total thyroidectomy",
+   "Repeat TSH after 6 months"
+  ],
+  "correct_index": 0,
+  "explanation": "TSH is the first test for a thyroid nodule. If low, a radionuclide scan is done: a hyperfunctioning (hot) nodule is rarely malignant and needs no FNAC. Normal or high TSH leads to ultrasound and FNAC based on sonographic pattern, with Bethesda reporting. Source: ATA 2015 guidelines; Bailey & Love.",
+  "w": [
+   "",
+   "FNAC is skipped if the nodule is hot.",
+   "No indication yet.",
+   "Suppressed TSH needs evaluation now."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_040",
+  "subject": "Surgery",
+  "sub_topic": "Thyroid - complications",
+  "stem": "Four hours after total thyroidectomy, a patient has rapidly increasing neck swelling and respiratory distress with stridor. Most appropriate immediate step?",
+  "options": [
+   "IV calcium gluconate",
+   "Nebulised adrenaline and IV dexamethasone",
+   "Open skin and strap-muscle sutures at the bedside to evacuate the haematoma",
+   "CT neck to confirm haematoma before intervention"
+  ],
+  "correct_index": 2,
+  "explanation": "Tension haematoma under the strap muscles compresses the airway and causes laryngeal oedema; immediate bedside opening of the wound (skin and strap muscles) relieves it, then return to theatre for haemostasis. Hypocalcaemia from parathyroid injury presents later (24-72 h) with tingling and tetany. Source: Bailey & Love; Sabiston.",
+  "w": [
+   "Hypocalcaemia presents later with tetany, not neck swelling.",
+   "Does not relieve mechanical compression.",
+   "",
+   "Imaging delays airway rescue."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_041",
+  "subject": "Anesthesia",
+  "sub_topic": "Neuromuscular monitoring",
+  "stem": "Before extubating a patient given a nondepolarising neuromuscular blocker, adequate recovery is indicated by a train-of-four ratio of at least:",
+  "options": [
+   "0.9",
+   "0.7",
+   "0.5",
+   "Any ratio once 4 twitches are visible"
+  ],
+  "correct_index": 0,
+  "explanation": "A TOF ratio >=0.9 (measured quantitatively) is needed to exclude residual block and protect pharyngeal function and airway reflexes. The older threshold of 0.7 is inadequate, and fade cannot be reliably judged visually above about 0.4. Source: Miller's Anesthesia; ASA 2023 neuromuscular blockade guideline.",
+  "w": [
+   "",
+   "Old threshold; leaves residual block.",
+   "Significant residual weakness.",
+   "4 visible twitches can coexist with marked fade."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_042",
+  "subject": "Anesthesia",
+  "sub_topic": "Neuromuscular monitoring",
+  "stem": "Which characterises a phase I depolarising block produced by succinylcholine?",
+  "options": [
+   "Fade on train-of-four",
+   "Equally reduced twitch heights with no fade",
+   "Post-tetanic potentiation",
+   "Reversal by neostigmine"
+  ],
+  "correct_index": 1,
+  "explanation": "Phase I block: reduced but equal TOF responses, no fade, no post-tetanic potentiation, and potentiated (not reversed) by anticholinesterases. Fade and post-tetanic facilitation are features of nondepolarising block and of phase II block after large or prolonged succinylcholine doses. Source: Morgan & Mikhail; Miller's Anesthesia.",
+  "w": [
+   "Fade signals nondepolarising or phase II block.",
+   "",
+   "Seen in nondepolarising/phase II block.",
+   "Neostigmine prolongs phase I block."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_043",
+  "subject": "Anesthesia",
+  "sub_topic": "Reversal - sugammadex",
+  "stem": "Assertion (A): Sugammadex does not reverse neuromuscular block produced by atracurium. Reason (R): Atracurium undergoes Hofmann elimination.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 1,
+  "explanation": "Sugammadex is a modified gamma-cyclodextrin that encapsulates steroidal blockers (rocuronium > vecuronium); it has no effect on benzylisoquinoliniums (atracurium, cisatracurium) or succinylcholine. Hofmann elimination is true but unrelated to why sugammadex fails. Doses: 2 mg/kg at T2 reappearance, 4 mg/kg at 1-2 post-tetanic counts, 16 mg/kg for immediate reversal after rocuronium 1.2 mg/kg. Source: Miller's Anesthesia.",
+  "w": [
+   "R is not the reason; lack of steroidal structure is.",
+   "",
+   "R is true.",
+   "A is true."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_044",
+  "subject": "Anesthesia",
+  "sub_topic": "Pre-operative assessment - ASA",
+  "stem": "A 58-year-old with end-stage renal disease on regularly scheduled haemodialysis is posted for elective arteriovenous fistula revision. ASA physical status?",
+  "options": [
+   "ASA III",
+   "ASA II",
+   "ASA IV",
+   "ASA V"
+  ],
+  "correct_index": 0,
+  "explanation": "ASA III = severe systemic disease with functional limitation; ASA examples list ESRD on regularly scheduled dialysis, poorly controlled diabetes/hypertension, COPD and BMI >=40. ESRD not on regular dialysis, recent MI/stroke (<3 months) or sepsis are ASA IV. Add 'E' only for emergency surgery. Source: ASA Physical Status Classification (2020 update).",
+  "w": [
+   "",
+   "ASA II is mild, well-controlled disease.",
+   "ESRD not on regular dialysis is ASA IV.",
+   "ASA V is moribund."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_045",
+  "subject": "Anesthesia",
+  "sub_topic": "Pre-operative fasting",
+  "stem": "Per ASA practice guidelines, the minimum fasting interval for breast milk in a healthy infant before elective anaesthesia is:",
+  "options": [
+   "2 hours",
+   "4 hours",
+   "6 hours",
+   "8 hours"
+  ],
+  "correct_index": 1,
+  "explanation": "ASA fasting: clear fluids 2 h, breast milk 4 h, infant formula/non-human milk/light meal 6 h, fried or fatty food 8 h or more. European paediatric consensus (ESAIC/APAGBI 2022) is more liberal: clear fluids 1 h and breast milk 3 h. Source: ASA Practice Guidelines for Preoperative Fasting.",
+  "w": [
+   "Interval for clear fluids.",
+   "",
+   "Interval for formula, non-human milk and light meal.",
+   "Interval for fried/fatty meals."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_d_046",
+  "subject": "Anesthesia",
+  "sub_topic": "CPR - adult and paediatric",
+  "stem": "Regarding high-quality CPR (AHA/ILCOR), which statements are correct? 1. Adult compression depth is at least 5 cm but not more than 6 cm 2. Two-rescuer infant/child CPR uses a 15:2 ratio 3. Compression rate is 100-120/min in adults and children 4. In an adult with an advanced airway, compressions are paused for each ventilation",
+  "options": [
+   "1 and 2 only",
+   "2 and 4",
+   "All four",
+   "1, 2 and 3"
+  ],
+  "correct_index": 3,
+  "explanation": "Adults: 100-120/min, 5-6 cm depth, full recoil, 30:2 without an advanced airway. Children: 30:2 single rescuer, 15:2 with two rescuers, depth about one-third AP diameter. With an advanced airway, compressions are continuous and ventilations are asynchronous (adult 1 breath every 6 s). Source: AHA Guidelines for CPR and ECC; ILCOR.",
+  "w": [
+   "Statement 3 is also correct.",
+   "Statement 4 is wrong.",
+   "Statement 4 is wrong.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ }
+]

@@ -1,0 +1,1102 @@
+[
+ {
+  "id": "hy_b_001",
+  "subject": "Medicine",
+  "sub_topic": "Cardiology - STEMI management",
+  "stem": "A 56-year-old man presents to a district hospital 2 hours after onset of crushing chest pain. ECG shows 3 mm ST elevation in II, III and aVF. He is haemodynamically stable. The nearest PCI-capable centre is about 3 hours away by road. What is the most appropriate management?",
+  "options": [
+   "Transfer directly for primary PCI without fibrinolysis",
+   "Fibrinolysis now (e.g. tenecteplase), then transfer to a PCI-capable centre",
+   "Start heparin and plan elective angiography after 72 hours",
+   "IV metoprolol and repeat the ECG after 6 hours"
+  ],
+  "correct_index": 1,
+  "explanation": "When primary PCI cannot be achieved within 120 minutes of STEMI diagnosis, fibrinolysis should be given (ideally within 10 minutes of diagnosis) if symptoms are <12 h. This is followed by transfer for angiography (pharmaco-invasive strategy), or rescue PCI if lysis fails. Source: ESC 2023 ACS guideline; Harrison 21e.",
+  "w": [
+   "Primary PCI is preferred only if it can be done within 120 min of diagnosis; 3 h delay exceeds this.",
+   "",
+   "STEMI needs urgent reperfusion; delaying for days loses salvageable myocardium.",
+   "No reperfusion is offered; early IV beta-blocker can precipitate shock."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_002",
+  "subject": "Medicine",
+  "sub_topic": "Cardiology - ECG patterns (RV infarct)",
+  "stem": "A 60-year-old man with inferior ST elevation becomes hypotensive (BP 80/50 mmHg) after sublingual nitroglycerin. JVP is raised, lungs are clear, and right-sided leads show ST elevation in V4R. Besides arranging urgent reperfusion, what is the immediate next step?",
+  "options": [
+   "IV furosemide",
+   "IV nitroglycerin infusion",
+   "IV normal saline bolus",
+   "IV morphine for pain"
+  ],
+  "correct_index": 2,
+  "explanation": "ST elevation in V4R with hypotension, raised JVP and clear lungs indicates right ventricular infarction, which is preload dependent. Give cautious IV fluid boluses and avoid nitrates, diuretics and opioids. Inotropes are added if hypotension persists despite fluids. Source: Harrison 21e; ESC 2023 ACS guideline.",
+  "w": [
+   "Diuresis reduces preload further and worsens hypotension in RV infarction.",
+   "Nitrates are venodilators and caused the collapse; they are avoided in RV infarction.",
+   "",
+   "Morphine is a venodilator and can worsen preload-dependent hypotension."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_003",
+  "subject": "Medicine",
+  "sub_topic": "Cardiology - ECG patterns (Wellens)",
+  "stem": "A 48-year-old smoker had chest pain yesterday that has settled. He is now pain-free with normal vitals. ECG shows deep, symmetric T-wave inversion in V2-V3 without Q waves or significant ST elevation; troponin is mildly raised. What is the most appropriate next step?",
+  "options": [
+   "Treadmill exercise stress test",
+   "Discharge with aspirin and review in clinic",
+   "24-hour Holter monitoring",
+   "Early coronary angiography"
+  ],
+  "correct_index": 3,
+  "explanation": "Deep symmetric (or biphasic) T inversions in V2-V3 in a pain-free patient after angina is Wellens pattern, a marker of critical proximal LAD stenosis. It is managed as NSTE-ACS with early invasive angiography; stress testing is contraindicated. Source: Harrison 21e; ESC 2023 ACS guideline.",
+  "w": [
+   "Stress testing in Wellens pattern can precipitate an extensive anterior MI.",
+   "This pattern signals critical proximal LAD stenosis; discharge is unsafe.",
+   "Holter looks for arrhythmia and does not address the threatened LAD territory.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_004",
+  "subject": "Medicine",
+  "sub_topic": "Cardiology - HF drugs (GDMT)",
+  "stem": "All of the following have been shown to reduce all-cause or cardiovascular mortality in heart failure with reduced ejection fraction EXCEPT:",
+  "options": [
+   "Digoxin",
+   "Sacubitril-valsartan",
+   "Dapagliflozin",
+   "Spironolactone"
+  ],
+  "correct_index": 0,
+  "explanation": "The four pillars of HFrEF GDMT are ARNI/ACEi/ARB, an evidence-based beta-blocker, an MRA and an SGLT2 inhibitor, all of which reduce mortality. Digoxin (DIG trial) reduced HF hospitalisation but had a neutral effect on mortality. Source: ESC 2021 HF guideline (2023 update); ACC/AHA/HFSA 2022.",
+  "w": [
+   "",
+   "Reduced CV death and HF hospitalisation versus enalapril (PARADIGM-HF).",
+   "SGLT2 inhibitor reduced CV death/worsening HF (DAPA-HF); one of the four pillars.",
+   "MRA reduced mortality in RALES; one of the four pillars."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_005",
+  "subject": "Medicine",
+  "sub_topic": "Cardiology - Infective endocarditis (Duke)",
+  "stem": "Regarding the modified Duke criteria for infective endocarditis, which of the following statements are correct?\n1. Two separate blood cultures growing a typical organism such as viridans streptococci constitute a major criterion.\n2. A single positive blood culture for Coxiella burnetii is a major criterion.\n3. Janeway lesions are classified as immunological phenomena.\n4. Roth spots are classified as immunological phenomena.",
+  "options": [
+   "1, 2 and 3",
+   "1, 2 and 4",
+   "2, 3 and 4",
+   "1 and 3 only"
+  ],
+  "correct_index": 1,
+  "explanation": "Major criteria include typical organisms in two separate blood cultures, Coxiella (single culture or phase I IgG >1:800) and imaging evidence such as vegetation or new valvular regurgitation. Janeway lesions are vascular phenomena (with emboli, mycotic aneurysm, ICH), whereas Osler nodes, Roth spots, glomerulonephritis and rheumatoid factor are immunological minor criteria. Source: Modified Duke criteria (Li 2000); ESC 2023 endocarditis guideline.",
+  "w": [
+   "Statement 3 is wrong: Janeway lesions are vascular phenomena.",
+   "",
+   "Statement 3 is wrong and statement 1 is a true major criterion.",
+   "Statement 3 is wrong; statements 2 and 4 are true."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_006",
+  "subject": "Medicine",
+  "sub_topic": "Cardiology - Valvular signs (HOCM)",
+  "stem": "A 19-year-old footballer collapses during a match. He has an ejection systolic murmur at the left lower sternal border that becomes louder on standing from squatting and softer during sustained handgrip; it does not radiate to the carotids. ECG shows LVH with deep narrow Q waves in lateral leads. The most likely diagnosis is:",
+  "options": [
+   "Valvular aortic stenosis",
+   "Ventricular septal defect",
+   "Hypertrophic obstructive cardiomyopathy",
+   "Mitral valve prolapse"
+  ],
+  "correct_index": 2,
+  "explanation": "HOCM is the only common ejection murmur that gets louder when preload falls (standing, Valsalva) because LV outflow obstruction worsens with a smaller cavity. Squatting and handgrip increase LV volume/afterload and soften it. It is a leading cause of sudden cardiac death in young athletes. Source: Harrison 21e; ESC 2023 cardiomyopathy guideline.",
+  "w": [
+   "AS murmur radiates to carotids and softens with standing/Valsalva (less preload).",
+   "VSD is holosystolic and softens with standing; it increases with handgrip.",
+   "",
+   "MVP gives a mid-systolic click with a late systolic murmur, not an ejection murmur."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_007",
+  "subject": "Medicine",
+  "sub_topic": "Cardiology - AF anticoagulation",
+  "stem": "A 68-year-old woman with treated hypertension is found to have non-valvular atrial fibrillation. She has no diabetes, heart failure, stroke or vascular disease, and normal renal function. What is the most appropriate stroke-prevention strategy?",
+  "options": [
+   "Aspirin 75 mg daily",
+   "Direct oral anticoagulant such as apixaban",
+   "No antithrombotic therapy",
+   "Aspirin plus clopidogrel"
+  ],
+  "correct_index": 1,
+  "explanation": "CHA2DS2-VASc is 3 (age 65-74, female sex, hypertension); oral anticoagulation is indicated, with DOACs preferred over warfarin in non-valvular AF. ESC 2024 uses CHA2DS2-VA (sex removed), giving 2, which still carries a Class I recommendation for OAC. Warfarin remains the choice in moderate-severe mitral stenosis or mechanical valves. Source: ESC 2024 AF guideline; ACC/AHA/ACCP/HRS 2023 AF guideline.",
+  "w": [
+   "Aspirin gives little stroke protection in AF and is no longer recommended for this purpose.",
+   "",
+   "Her stroke risk is high enough to warrant anticoagulation.",
+   "Dual antiplatelet therapy is inferior to OAC with similar bleeding risk."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_008",
+  "subject": "Medicine",
+  "sub_topic": "Cardiology - Valvular signs (aortic stenosis)",
+  "stem": "Assertion (A): Paradoxical (reversed) splitting of the second heart sound may be heard in severe aortic stenosis.\nReason (R): Prolonged left ventricular ejection delays aortic valve closure so that A2 follows P2.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "In severe AS, LV ejection is prolonged so A2 occurs after P2, and the split widens on expiration (paradoxical split); this R directly explains A. Other causes include LBBB and RV pacing. A soft or absent A2 and a late-peaking murmur also indicate severity. Source: Harrison 21e.",
+  "w": [
+   "",
+   "R is the mechanism behind A, so it does explain it.",
+   "R is a true statement.",
+   "A is a true statement."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_009",
+  "subject": "Medicine",
+  "sub_topic": "Cardiology - HF drugs (MRA safety)",
+  "stem": "Assertion (A): Mineralocorticoid receptor antagonists are contraindicated in all patients with HFrEF whose eGFR is below 60 mL/min/1.73 m2.\nReason (R): Mineralocorticoid receptor antagonists can cause hyperkalaemia and worsening renal function.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 3,
+  "explanation": "MRAs are recommended in HFrEF and are used with monitoring when eGFR is above 30 mL/min/1.73 m2 and potassium below 5.0 mmol/L, so A is false. R is true: hyperkalaemia and creatinine rise are the main safety concerns, so potassium and renal function are checked after starting. Source: ESC 2021 HF guideline; ACC/AHA/HFSA 2022.",
+  "w": [
+   "R correctly explains A here.",
+   "R is the mechanism behind A, so it does explain it.",
+   "R is a true statement.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_010",
+  "subject": "Medicine",
+  "sub_topic": "Neurology - Stroke thrombolysis",
+  "stem": "A 62-year-old man is brought in with left hemiparesis and dysarthria; he was last known well 3.5 hours ago. NIHSS is 9. Non-contrast CT shows no haemorrhage. BP is 170/95 mmHg and capillary glucose is 130 mg/dL. What is the most appropriate next step?",
+  "options": [
+   "Aspirin 300 mg and observe",
+   "Lower BP to below 140/90 mmHg before any reperfusion therapy",
+   "IV thrombolysis (alteplase or tenecteplase) without delay",
+   "Obtain MRI diffusion imaging before deciding treatment"
+  ],
+  "correct_index": 2,
+  "explanation": "Disabling ischaemic stroke within 4.5 hours of last known well, with haemorrhage excluded on CT, is treated with IV thrombolysis; BP must be <185/110 before and <180/105 after. CT angiography for large-vessel occlusion should follow in parallel for possible thrombectomy, which does not replace lysis. Source: AHA/ASA 2019 acute ischaemic stroke guideline.",
+  "w": [
+   "Antiplatelets are avoided for 24 h after thrombolysis; aspirin alone wastes the window.",
+   "Thrombolysis only needs BP <185/110 mmHg; 170/95 already qualifies.",
+   "",
+   "MRI is not needed within 4.5 h when CT excludes haemorrhage; it delays treatment."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_011",
+  "subject": "Medicine",
+  "sub_topic": "Neurology - Subarachnoid haemorrhage",
+  "stem": "A 40-year-old woman had a sudden, worst-ever headache while lifting weights 14 hours ago. She is alert with mild neck stiffness and no focal deficit. Non-contrast CT head is normal. What is the next best step?",
+  "options": [
+   "Discharge with analgesics as tension headache",
+   "Start oral nimodipine and discharge",
+   "MRI of the cervical spine",
+   "Lumbar puncture to look for xanthochromia"
+  ],
+  "correct_index": 3,
+  "explanation": "CT sensitivity for SAH is highest in the first 6 hours and falls thereafter, so a normal CT with thunderclap headache needs LP. LP is done at least 12 hours after onset so xanthochromia (bilirubin) can be detected and distinguished from a traumatic tap. Confirmed SAH then needs CT angiography to find the aneurysm. Source: AHA/ASA 2023 aneurysmal SAH guideline; Harrison 21e.",
+  "w": [
+   "A normal CT more than 6 h after onset does not exclude SAH; missing it risks rebleeding.",
+   "Nimodipine is for confirmed aneurysmal SAH; discharge without diagnosis is unsafe.",
+   "Spine imaging does not evaluate thunderclap headache.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_012",
+  "subject": "Medicine",
+  "sub_topic": "Neurology - GBS vs myasthenia gravis",
+  "stem": "Which of the following statements comparing Guillain-Barre syndrome (GBS) and myasthenia gravis (MG) are correct?\n1. GBS typically causes reduced or absent tendon reflexes.\n2. MG causes fatigable ptosis with preserved tendon reflexes.\n3. CSF in GBS shows raised protein with a normal cell count.\n4. Pupillary involvement is common in MG.",
+  "options": [
+   "2 and 4 only",
+   "1, 3 and 4",
+   "1, 2 and 3",
+   "1, 2, 3 and 4"
+  ],
+  "correct_index": 2,
+  "explanation": "GBS is an acute ascending polyradiculoneuropathy with areflexia and albuminocytological dissociation. MG is a postsynaptic neuromuscular junction disorder with fatigable weakness, normal reflexes and sensation, and spared pupils; pupillary involvement suggests botulism or third-nerve palsy instead. Source: Harrison 21e.",
+  "w": [
+   "Statement 4 is false and statements 1 and 3 are true.",
+   "Statement 4 is false: MG spares the pupils.",
+   "",
+   "Statement 4 is false."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_013",
+  "subject": "Medicine",
+  "sub_topic": "Neurology - GBS respiratory failure",
+  "stem": "A 30-year-old man with Guillain-Barre syndrome on day 4 of IVIG has a weak cough and difficulty counting to 10 in one breath. SpO2 is 97% on room air. Forced vital capacity has fallen from 35 to 15 mL/kg over 12 hours. What is the most appropriate next step?",
+  "options": [
+   "Continue observation as SpO2 is normal",
+   "Elective intubation and mechanical ventilation",
+   "Add IV methylprednisolone",
+   "Start non-invasive BiPAP and transfer to the ward"
+  ],
+  "correct_index": 1,
+  "explanation": "In GBS, FVC <20 mL/kg (or MIP weaker than -30 cmH2O, MEP <40 cmH2O, the 20/30/40 rule) or a fall of more than 30% predicts need for ventilation; elective intubation is preferred. Pulse oximetry stays normal until late, so serial FVC is the monitoring tool of choice. Source: Harrison 21e; Lawn et al., Arch Neurol 2001.",
+  "w": [
+   "Hypoxaemia is a late sign of neuromuscular respiratory failure; waiting risks crash intubation.",
+   "",
+   "Corticosteroids are not effective in GBS.",
+   "NIV is unsafe with bulbar weakness and progressive neuromuscular failure."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_014",
+  "subject": "Medicine",
+  "sub_topic": "Neurology - Multiple sclerosis",
+  "stem": "A 26-year-old woman presents with painful blurring of vision in the right eye for 5 days and a relative afferent pupillary defect. MRI shows periventricular ovoid lesions perpendicular to the ventricles. What is the preferred treatment for this acute attack?",
+  "options": [
+   "IV methylprednisolone 1 g daily for 3-5 days",
+   "Oral prednisolone 1 mg/kg alone",
+   "IV immunoglobulin as first-line",
+   "No treatment because vision always recovers fully"
+  ],
+  "correct_index": 0,
+  "explanation": "Acute MS relapses (including optic neuritis) are treated with high-dose IV methylprednisolone, which speeds recovery but does not change long-term disability. Plasma exchange is reserved for severe steroid-refractory relapses. Dawson's fingers are typical of MS. Source: Harrison 21e; Optic Neuritis Treatment Trial.",
+  "w": [
+   "",
+   "In the Optic Neuritis Treatment Trial, oral prednisone alone was associated with more recurrences.",
+   "IVIG has no established role in MS relapses.",
+   "Steroids hasten recovery; many patients have residual deficits, and relapses still need assessment."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_015",
+  "subject": "Medicine",
+  "sub_topic": "Neurology - Epilepsy drugs",
+  "stem": "A 17-year-old girl has jerks of her arms on waking, causing her to drop her toothbrush, and had one generalised tonic-clonic seizure after a sleepless night. EEG shows generalised 4-6 Hz polyspike-and-wave discharges. Which drug is the most appropriate first choice?",
+  "options": [
+   "Carbamazepine",
+   "Phenytoin",
+   "Ethosuximide",
+   "Levetiracetam"
+  ],
+  "correct_index": 3,
+  "explanation": "This is juvenile myoclonic epilepsy, which needs a broad-spectrum drug. Valproate is the classic exam answer and most effective, but it is avoided in women of childbearing potential because of teratogenicity and neurodevelopmental risk, so levetiracetam (or lamotrigine) is preferred. JME usually needs lifelong treatment. Source: NICE NG217 (2022); MHRA valproate guidance; Harrison 21e.",
+  "w": [
+   "Sodium-channel blockers like carbamazepine can worsen myoclonic and absence seizures.",
+   "Phenytoin can aggravate myoclonic seizures in generalised epilepsies.",
+   "Ethosuximide covers absence seizures only, not myoclonic or GTCS.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_016",
+  "subject": "Medicine",
+  "sub_topic": "Neurology - Parkinson disease",
+  "stem": "A 74-year-old man with Parkinson disease on levodopa develops troublesome visual hallucinations. Anticholinergics and amantadine have been withdrawn, but symptoms persist. If an antipsychotic is needed, which is most appropriate?",
+  "options": [
+   "Quetiapine",
+   "Haloperidol",
+   "Risperidone",
+   "Olanzapine"
+  ],
+  "correct_index": 0,
+  "explanation": "PD psychosis is managed by first removing offending drugs (anticholinergics, amantadine, dopamine agonists), then using an antipsychotic with low D2 affinity. Clozapine has the best trial evidence (needs blood count monitoring) and quetiapine is widely used; pimavanserin is approved in the USA. Source: Harrison 21e; MDS evidence-based review 2019.",
+  "w": [
+   "",
+   "Potent D2 blockade markedly worsens parkinsonism.",
+   "Dose-dependent D2 blockade worsens motor symptoms.",
+   "Olanzapine worsened motor function in Parkinson psychosis trials."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_017",
+  "subject": "Medicine",
+  "sub_topic": "Neurology - Status epilepticus",
+  "stem": "A 35-year-old man is in convulsive status epilepticus. He received two appropriately dosed IV lorazepam doses, but seizures continue 15 minutes after onset. Airway is protected and glucose is normal. What is the next best step?",
+  "options": [
+   "Third dose of IV lorazepam",
+   "IV levetiracetam loading dose",
+   "IV magnesium sulfate",
+   "Phenytoin tablets via nasogastric tube"
+  ],
+  "correct_index": 1,
+  "explanation": "Benzodiazepine-refractory status is treated with an IV second-line drug: levetiracetam, fosphenytoin or valproate, which were equally effective in the ESETT trial. If seizures persist, proceed to anaesthetic agents (midazolam, propofol, thiopentone) with EEG monitoring. Source: AES 2016 status epilepticus guideline; ESETT (NEJM 2019).",
+  "w": [
+   "Repeated benzodiazepine beyond two doses adds respiratory depression with little benefit.",
+   "",
+   "Magnesium is for eclamptic seizures, not general status epilepticus.",
+   "Oral loading is too slow for ongoing status."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_018",
+  "subject": "Medicine",
+  "sub_topic": "Respiratory - Asthma (GINA)",
+  "stem": "A 24-year-old woman with newly diagnosed asthma has symptoms about twice a month and no night waking. Lung function is normal between symptoms. According to current GINA recommendations, what is the preferred treatment?",
+  "options": [
+   "As-needed salbutamol alone",
+   "Daily tiotropium",
+   "As-needed low-dose budesonide-formoterol",
+   "Daily montelukast"
+  ],
+  "correct_index": 2,
+  "explanation": "Since 2019 GINA advises that adults and adolescents with asthma should not be treated with SABA alone. In Track 1, steps 1-2 use as-needed low-dose ICS-formoterol, which reduces severe exacerbations compared with SABA alone. The older exam answer of 'SABA as needed' for step 1 is outdated. Source: GINA 2024.",
+  "w": [
+   "SABA-only treatment raises the risk of severe exacerbations and asthma death; GINA no longer recommends it.",
+   "LAMA is an add-on at step 4-5, not initial therapy.",
+   "",
+   "Montelukast is less effective than ICS and carries a neuropsychiatric warning."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_019",
+  "subject": "Medicine",
+  "sub_topic": "Respiratory - COPD (GOLD)",
+  "stem": "A 66-year-old ex-smoker with COPD (FEV1 45% predicted) had one hospital admission for an exacerbation last year. He is not on regular inhalers. Blood eosinophil count is 350 cells/uL. According to GOLD, what is the best initial maintenance therapy?",
+  "options": [
+   "LAMA alone",
+   "LABA + ICS",
+   "Roflumilast alone",
+   "LABA + LAMA + ICS"
+  ],
+  "correct_index": 3,
+  "explanation": "One hospitalisation (or two or more moderate exacerbations) places him in GOLD group E. Initial therapy is LABA+LAMA, with LABA+LAMA+ICS considered when eosinophils are 300 cells/uL or more. Groups C and D were merged into E in GOLD 2023. Source: GOLD 2024 report.",
+  "w": [
+   "Monotherapy is for low-risk group A or B patients, not group E.",
+   "GOLD discourages LABA+ICS in COPD; if ICS is indicated, triple therapy is preferred.",
+   "Roflumilast is add-on for chronic bronchitis with FEV1 <50%, not initial therapy.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_020",
+  "subject": "Medicine",
+  "sub_topic": "Respiratory - Pulmonary embolism (Wells)",
+  "stem": "A 45-year-old woman 10 days after knee surgery has sudden dyspnoea and a swollen left calf. HR 110/min, BP 124/78 mmHg, SpO2 92%. Her Wells score is 7.5 (PE likely). Renal function is normal. What is the next best investigation?",
+  "options": [
+   "CT pulmonary angiography",
+   "D-dimer",
+   "Bedside echocardiography to confirm PE",
+   "Lower-limb venography"
+  ],
+  "correct_index": 0,
+  "explanation": "In a haemodynamically stable patient with PE likely (two-level Wells >4), go directly to CTPA, starting anticoagulation while awaiting it if there is no contraindication. V/Q scanning is the alternative when contrast is contraindicated or in pregnancy. Source: ESC 2019 acute PE guideline.",
+  "w": [
+   "",
+   "D-dimer is only to rule out PE in low/unlikely probability; it cannot exclude PE when probability is high.",
+   "Echo supports RV strain but cannot confirm or exclude PE in a stable patient.",
+   "Invasive venography is obsolete; compression ultrasound is used if leg imaging is needed."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_021",
+  "subject": "Medicine",
+  "sub_topic": "Respiratory - Pulmonary embolism (high-risk)",
+  "stem": "A 58-year-old man collapses with dyspnoea. BP is 78/50 mmHg despite a fluid bolus. Bedside echo shows a dilated, hypokinetic right ventricle. He is too unstable for CT. There are no bleeding contraindications. What is the most appropriate treatment?",
+  "options": [
+   "Subcutaneous LMWH alone",
+   "Systemic thrombolysis with unfractionated heparin",
+   "IVC filter insertion",
+   "Oral apixaban"
+  ],
+  "correct_index": 1,
+  "explanation": "High-risk (massive) PE with shock is treated with systemic thrombolysis plus UFH; bedside echo showing RV dysfunction is enough to act when CT is not possible. Surgical embolectomy or catheter-directed therapy is used if lysis is contraindicated or fails. Source: ESC 2019 acute PE guideline.",
+  "w": [
+   "LMWH alone does not rapidly relieve RV obstruction in shock.",
+   "",
+   "IVC filters are for patients who cannot be anticoagulated; they do not treat the clot in the lungs.",
+   "Oral anticoagulation is for stable patients after the acute phase."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_022",
+  "subject": "Medicine",
+  "sub_topic": "Respiratory - ABG interpretation",
+  "stem": "A 50-year-old man with diabetes is drowsy. ABG: pH 7.20, PaCO2 32 mmHg, HCO3- 12 mmol/L. Which is the correct interpretation?",
+  "options": [
+   "Metabolic acidosis with appropriate respiratory compensation",
+   "Metabolic acidosis with concomitant respiratory alkalosis",
+   "Metabolic acidosis with concomitant respiratory acidosis",
+   "Primary respiratory acidosis with metabolic compensation"
+  ],
+  "correct_index": 2,
+  "explanation": "By Winter's formula, expected PaCO2 = 1.5 x HCO3- + 8 +/- 2 = 26 +/- 2 mmHg. A measured PaCO2 above this range means inadequate ventilation, i.e. an added respiratory acidosis, as seen with drowsiness, fatigue or CNS depression. Next, calculate the anion gap and delta ratio. Source: Harrison 21e.",
+  "w": [
+   "Expected PaCO2 is 24-28 mmHg; 32 is higher than appropriate compensation.",
+   "Respiratory alkalosis would push PaCO2 below 24 mmHg.",
+   "",
+   "Low pH with low HCO3- and low PaCO2 is a primary metabolic acidosis."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_023",
+  "subject": "Medicine",
+  "sub_topic": "Respiratory - Interstitial lung disease",
+  "stem": "Assertion (A): Combination of prednisolone, azathioprine and N-acetylcysteine is not recommended for idiopathic pulmonary fibrosis.\nReason (R): In the PANTHER-IPF trial this combination increased mortality and hospitalisation compared with placebo.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "PANTHER-IPF was stopped early because the triple regimen increased death and hospitalisation, so it is now advised against. IPF is treated with antifibrotics (nintedanib or pirfenidone), which slow the fall in FVC. The HRCT pattern is usual interstitial pneumonia: basal, subpleural reticulation with honeycombing. Source: ATS/ERS/JRS/ALAT IPF guideline 2022; PANTHER-IPF (NEJM 2012).",
+  "w": [
+   "",
+   "R is the mechanism behind A, so it does explain it.",
+   "R is a true statement.",
+   "A is a true statement."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_024",
+  "subject": "Medicine",
+  "sub_topic": "Respiratory - Tuberculosis (NTEP regimen)",
+  "stem": "A 32-year-old man has newly diagnosed sputum-positive pulmonary tuberculosis; CBNAAT shows no rifampicin resistance. Under India's NTEP, which regimen is used?",
+  "options": [
+   "2 months HRZE, then 4 months HRE (daily, fixed-dose combination)",
+   "2 months HRZE, then 4 months HR thrice weekly",
+   "2 months HRZES, 1 month HRZE, then 5 months HRE",
+   "6 months of isoniazid and rifampicin only"
+  ],
+  "correct_index": 0,
+  "explanation": "NTEP treats all drug-sensitive TB (new or previously treated) with 2HRZE followed by 4HRE, daily, weight-band dosed. NTEP keeps ethambutol in the continuation phase, whereas WHO's standard regimen is 2HRZE/4HR. The continuation phase can be extended in some cases, such as CNS or bone TB. Source: NTEP Guidelines for Programmatic Management of TB (India); WHO consolidated TB guidelines.",
+  "w": [
+   "",
+   "NTEP moved to daily dosing; thrice-weekly intermittent therapy was discontinued.",
+   "The streptomycin-containing retreatment regimen (old Category II) is no longer used.",
+   "Two drugs from the start risk resistance; the intensive phase needs four drugs."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_025",
+  "subject": "Medicine",
+  "sub_topic": "Respiratory - Pleural fluid (Light's criteria)",
+  "stem": "All of the following are components of Light's criteria for identifying an exudative pleural effusion EXCEPT:",
+  "options": [
+   "Pleural fluid protein / serum protein ratio > 0.5",
+   "Pleural fluid glucose below 60 mg/dL",
+   "Pleural fluid LDH / serum LDH ratio > 0.6",
+   "Pleural fluid LDH > two-thirds of the upper limit of normal serum LDH"
+  ],
+  "correct_index": 1,
+  "explanation": "An effusion is an exudate if any one of Light's three criteria is met. Low glucose is a useful extra clue (empyema, rheumatoid, TB, malignancy) but is not part of Light's criteria. In patients with heart failure on diuretics, Light's criteria can wrongly suggest an exudate, so a serum-pleural albumin gradient >1.2 g/dL is used to confirm a transudate. Source: Light RW, Ann Intern Med 1972; BTS pleural disease guideline 2023.",
+  "w": [
+   "This is one of the three Light's criteria.",
+   "",
+   "This is one of the three Light's criteria.",
+   "This is one of the three Light's criteria."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_026",
+  "subject": "Medicine",
+  "sub_topic": "Gastroenterology - Variceal bleeding",
+  "stem": "In a patient with cirrhosis and suspected acute variceal haemorrhage, all of the following are recommended EXCEPT:",
+  "options": [
+   "Start a vasoactive drug such as terlipressin or octreotide as soon as possible",
+   "Give short-term antibiotic prophylaxis such as IV ceftriaxone",
+   "Transfuse red cells to keep haemoglobin above 10 g/dL",
+   "Perform upper GI endoscopy with band ligation within 12 hours"
+  ],
+  "correct_index": 2,
+  "explanation": "A restrictive transfusion strategy (transfuse at Hb about 7 g/dL, target 7-8 g/dL) improves survival, because over-transfusion raises portal pressure and causes rebleeding. Early TIPS is considered in high-risk patients (Child C 10-13 or Child B with active bleeding). Source: Baveno VII consensus 2022; AASLD 2024 portal hypertension guidance.",
+  "w": [
+   "Early vasoactive therapy is standard and improves haemostasis.",
+   "Antibiotic prophylaxis reduces infection, rebleeding and mortality.",
+   "",
+   "Early endoscopy with band ligation is the standard of care."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_027",
+  "subject": "Medicine",
+  "sub_topic": "Gastroenterology - SBP",
+  "stem": "A 55-year-old man with alcohol-related cirrhosis and ascites has abdominal discomfort and fever. Diagnostic paracentesis shows ascitic neutrophil count 420 cells/mm3. Serum creatinine is 1.4 mg/dL. What is the most appropriate management?",
+  "options": [
+   "IV cefotaxime alone",
+   "Wait for ascitic culture before starting antibiotics",
+   "Large-volume therapeutic paracentesis",
+   "IV cefotaxime plus IV albumin"
+  ],
+  "correct_index": 3,
+  "explanation": "Ascitic neutrophil count of 250 cells/mm3 or more diagnoses SBP; treat empirically with a third-generation cephalosporin. IV albumin (1.5 g/kg on day 1 and 1 g/kg on day 3) reduces hepatorenal syndrome and mortality, especially when creatinine >1 mg/dL, BUN >30 mg/dL or bilirubin >4 mg/dL. Source: AASLD 2021 ascites/SBP guidance; Sort et al., NEJM 1999.",
+  "w": [
+   "Antibiotics alone leave a higher risk of renal failure; albumin is indicated with raised creatinine.",
+   "PMN >=250 cells/mm3 is diagnostic; culture is often negative and delay raises mortality.",
+   "Large-volume paracentesis in active SBP risks precipitating renal failure.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_028",
+  "subject": "Medicine",
+  "sub_topic": "Gastroenterology - Celiac disease",
+  "stem": "A 22-year-old woman has iron-deficiency anaemia and bloating. IgA anti-tissue transglutaminase is negative, but total serum IgA is very low. She is on a normal gluten-containing diet. What is the next best step?",
+  "options": [
+   "IgG-based serology (IgG deamidated gliadin peptide or IgG tTG)",
+   "Reassure: celiac disease is excluded",
+   "HLA-DQ2/DQ8 typing to confirm the diagnosis",
+   "Start a gluten-free diet and recheck IgA tTG in 6 months"
+  ],
+  "correct_index": 0,
+  "explanation": "IgA deficiency is more common in celiac disease and causes false-negative IgA tTG, so total IgA should always be checked. With low IgA, use IgG DGP or IgG tTG, and confirm with duodenal biopsy (intraepithelial lymphocytes, crypt hyperplasia, villous atrophy) while still eating gluten. Source: ACG 2023 celiac disease guideline.",
+  "w": [
+   "",
+   "IgA deficiency makes IgA-based tests falsely negative.",
+   "HLA typing has high negative predictive value but cannot confirm celiac disease.",
+   "Starting a gluten-free diet before testing makes serology and biopsy unreliable."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_029",
+  "subject": "Medicine",
+  "sub_topic": "Gastroenterology - Acute pancreatitis",
+  "stem": "Regarding early management of acute pancreatitis, which statements are correct?\n1. Prophylactic antibiotics are recommended in predicted severe pancreatitis.\n2. Early oral feeding as tolerated is recommended in mild disease.\n3. Lactated Ringer's solution is the preferred resuscitation fluid.\n4. Contrast-enhanced CT should be performed on admission in all patients.",
+  "options": [
+   "1 and 2 only",
+   "1 and 4 only",
+   "3 and 4 only",
+   "2 and 3 only"
+  ],
+  "correct_index": 3,
+  "explanation": "Antibiotics are given only for proven infection such as infected necrosis or cholangitis. Early oral feeding and moderate goal-directed Ringer's lactate are favoured; the WATERFALL trial (2022) showed aggressive fluid caused more fluid overload without benefit. CECT is best done after 72 hours when needed, as necrosis may not be seen earlier. Source: ACG 2024 acute pancreatitis guideline; WATERFALL (NEJM 2022).",
+  "w": [
+   "Statement 1 is false: prophylactic antibiotics are not recommended.",
+   "Both 1 and 4 are false.",
+   "Statement 4 is false: early CT is only for diagnostic doubt or deterioration after 72 h.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_030",
+  "subject": "Medicine",
+  "sub_topic": "Gastroenterology - Inflammatory bowel disease",
+  "stem": "A 21-year-old man has chronic diarrhoea, weight loss and a perianal fistula. Colonoscopy shows deep ulcers in the terminal ileum with normal intervening mucosa, and biopsy reveals non-caseating granulomas. Which serological marker is most likely to be positive?",
+  "options": [
+   "Perinuclear ANCA (p-ANCA)",
+   "Anti-mitochondrial antibody",
+   "Anti-Saccharomyces cerevisiae antibody (ASCA)",
+   "IgA anti-endomysial antibody"
+  ],
+  "correct_index": 2,
+  "explanation": "Skip lesions, transmural disease, ileal involvement, perianal fistula and granulomas indicate Crohn disease. ASCA-positive, p-ANCA-negative favours Crohn disease, whereas the reverse favours UC; these markers support but do not establish the diagnosis. Source: Harrison 21e; ACG 2018 Crohn disease guideline.",
+  "w": [
+   "p-ANCA is associated with ulcerative colitis and PSC.",
+   "AMA is the marker of primary biliary cholangitis.",
+   "",
+   "Anti-endomysial antibody is the marker of celiac disease."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_031",
+  "subject": "Medicine",
+  "sub_topic": "Endocrinology - DKA",
+  "stem": "A 19-year-old with type 1 diabetes presents with vomiting and Kussmaul breathing. Glucose 480 mg/dL, pH 7.12, HCO3- 9 mmol/L, serum potassium 2.9 mmol/L. After the first litre of 0.9% saline, what should be done next?",
+  "options": [
+   "Start IV insulin infusion 0.1 U/kg/h immediately",
+   "Give IV sodium bicarbonate",
+   "Give subcutaneous rapid-acting insulin",
+   "Give IV potassium and delay insulin until K+ is at least 3.3 mmol/L"
+  ],
+  "correct_index": 3,
+  "explanation": "Total-body potassium is depleted in DKA even when serum K is normal. If K is below 3.3 mmol/L, insulin is withheld and potassium replaced first. Bicarbonate is considered only for pH below 6.9. Source: ADA consensus on hyperglycaemic crises (Kitabchi 2009; updated 2024).",
+  "w": [
+   "Insulin drives potassium into cells and can cause fatal hypokalaemic arrhythmia.",
+   "Bicarbonate is not indicated at pH 7.12 and worsens hypokalaemia.",
+   "Insulin by any route is unsafe until potassium is corrected.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_032",
+  "subject": "Medicine",
+  "sub_topic": "Endocrinology - Thyroid storm",
+  "stem": "Assertion (A): In thyroid storm, iodine (Lugol's solution or SSKI) should be given at least 1 hour after the first dose of propylthiouracil.\nReason (R): Iodine given before a thionamide can serve as substrate for new thyroid hormone synthesis.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "The order is beta-blocker (propranolol), thionamide (PTU preferred in storm because it also blocks peripheral T4-to-T3 conversion), then iodine at least an hour later to block hormone release, plus hydrocortisone. Giving iodine first can increase stored hormone and worsen thyrotoxicosis, which R explains. Source: ATA 2016 hyperthyroidism guideline.",
+  "w": [
+   "",
+   "R is the mechanism behind A, so it does explain it.",
+   "R is a true statement.",
+   "A is a true statement."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_033",
+  "subject": "Medicine",
+  "sub_topic": "Endocrinology - Adrenal crisis",
+  "stem": "A 34-year-old woman with vitiligo is brought in with vomiting, abdominal pain and confusion. BP 74/40 mmHg, Na+ 124 mmol/L, K+ 6.0 mmol/L, glucose 58 mg/dL. Blood has been drawn for cortisol and ACTH. What is the next step?",
+  "options": [
+   "ACTH (cosyntropin) stimulation test before any steroid",
+   "IV hydrocortisone 100 mg bolus with IV 0.9% saline",
+   "Oral fludrocortisone",
+   "IV dexamethasone alone"
+  ],
+  "correct_index": 1,
+  "explanation": "Suspected adrenal crisis is treated at once with IV hydrocortisone 100 mg, then 200 mg/24 h, and saline (with dextrose for hypoglycaemia). At high doses hydrocortisone also gives enough mineralocorticoid effect, so fludrocortisone is not needed acutely. Source: Endocrine Society 2016 primary adrenal insufficiency guideline.",
+  "w": [
+   "Diagnostic testing must not delay treatment of suspected adrenal crisis.",
+   "",
+   "Oral mineralocorticoid is too slow and does not replace cortisol.",
+   "Dexamethasone has no mineralocorticoid effect; hydrocortisone is preferred when the diagnosis is likely."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_034",
+  "subject": "Medicine",
+  "sub_topic": "Endocrinology - Adrenal insufficiency",
+  "stem": "Assertion (A): Hyperkalaemia is a feature of primary but not of secondary adrenal insufficiency.\nReason (R): Cortisol deficiency directly impairs renal potassium excretion.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 2,
+  "explanation": "In primary (adrenal) failure, aldosterone is also lost, causing hyperkalaemia, salt wasting and raised renin; in secondary (ACTH) deficiency the renin-angiotensin-aldosterone axis is intact, so potassium is normal. R is false because hyperkalaemia is due to aldosterone deficiency. Hyperpigmentation also points to primary disease (high ACTH). Source: Harrison 21e; Endocrine Society 2016.",
+  "w": [
+   "R correctly explains A here.",
+   "R is the mechanism behind A, so it does explain it.",
+   "",
+   "A is a true statement."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_035",
+  "subject": "Medicine",
+  "sub_topic": "Endocrinology - Cushing syndrome",
+  "stem": "A 42-year-old woman with central obesity, purple striae and hypertension has failure of cortisol suppression on a 1 mg overnight dexamethasone test and raised 24-hour urinary free cortisol. Plasma ACTH is undetectable. What is the next best investigation?",
+  "options": [
+   "MRI of the pituitary",
+   "Bilateral inferior petrosal sinus sampling",
+   "CT of the chest for an ectopic source",
+   "CT of the adrenal glands"
+  ],
+  "correct_index": 3,
+  "explanation": "After biochemical confirmation, plasma ACTH separates ACTH-independent (suppressed ACTH: adrenal adenoma, carcinoma or hyperplasia, so image the adrenals) from ACTH-dependent causes (pituitary MRI, high-dose dexamethasone test, CRH test, BIPSS). Always exclude exogenous glucocorticoid use first. Source: Endocrine Society 2008 Cushing guideline; Harrison 21e.",
+  "w": [
+   "Pituitary imaging is for ACTH-dependent disease (normal or high ACTH).",
+   "BIPSS distinguishes pituitary from ectopic ACTH and is only for ACTH-dependent disease.",
+   "Ectopic ACTH syndrome has high ACTH.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_036",
+  "subject": "Medicine",
+  "sub_topic": "Endocrinology - Hyponatraemia",
+  "stem": "A 70-year-old woman on a thiazide has a generalised seizure. Serum Na+ is 116 mmol/L; she is euvolaemic. What is the most appropriate immediate treatment?",
+  "options": [
+   "Bolus of 150 mL 3% hypertonic saline over 20 minutes, repeated as needed",
+   "Fluid restriction to 800 mL/day",
+   "Oral tolvaptan",
+   "Rapid infusion of 2 L 0.9% saline"
+  ],
+  "correct_index": 0,
+  "explanation": "Severe symptoms (seizure, coma) need hypertonic saline boluses aiming for a rise of about 5 mmol/L in the first hour. Total correction should not exceed 10 mmol/L in the first 24 h (8 mmol/L in high-risk patients) to avoid osmotic demyelination. Source: European clinical practice guideline on hyponatraemia 2014.",
+  "w": [
+   "",
+   "Fluid restriction is too slow for severe symptomatic hyponatraemia.",
+   "Vaptans are not used for severe symptomatic cases and risk overcorrection.",
+   "Isotonic saline can worsen hyponatraemia in SIADH-like states and is not a controlled treatment."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_037",
+  "subject": "Medicine",
+  "sub_topic": "Rheumatology - Gout",
+  "stem": "A 52-year-old man who has taken allopurinol 300 mg daily for a year develops an acutely hot, swollen first MTP joint. Renal function is normal. What is the best management?",
+  "options": [
+   "Stop allopurinol until the attack resolves",
+   "Continue allopurinol and add colchicine or an NSAID",
+   "Double the allopurinol dose immediately",
+   "Switch to febuxostat"
+  ],
+  "correct_index": 1,
+  "explanation": "Established urate-lowering therapy should be continued during a flare, with the flare treated by colchicine, an NSAID or glucocorticoid. Allopurinol is titrated after the flare to a serum urate target below 6 mg/dL. Flare prophylaxis is given when starting ULT. Source: ACR 2020 gout guideline.",
+  "w": [
+   "Stopping urate-lowering therapy causes urate swings and more flares.",
+   "",
+   "Changing the dose during a flare can prolong it; titrate after the flare.",
+   "Switching drugs does not treat the acute flare."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_038",
+  "subject": "Medicine",
+  "sub_topic": "Rheumatology - SLE and drug-induced lupus",
+  "stem": "A 64-year-old man on long-term hydralazine for hypertension develops arthralgia, fever and pleuritic chest pain. ANA is strongly positive; anti-dsDNA is negative and complements are normal. Which antibody is most likely to be positive?",
+  "options": [
+   "Anti-Smith antibody",
+   "Anti-Ro (SSA) antibody",
+   "Anti-histone antibody",
+   "Anti-ribosomal P antibody"
+  ],
+  "correct_index": 2,
+  "explanation": "Drug-induced lupus (hydralazine, procainamide, isoniazid, minocycline, anti-TNF) usually spares kidneys and CNS, has normal complements and anti-histone antibodies in most cases, and resolves when the drug is stopped. Anti-TNF-induced lupus is an exception that can be anti-dsDNA positive. Source: Harrison 21e.",
+  "w": [
+   "Anti-Sm is highly specific for idiopathic SLE, not drug-induced lupus.",
+   "Anti-Ro is linked to Sjogren, subacute cutaneous and neonatal lupus.",
+   "",
+   "Anti-ribosomal P is linked to neuropsychiatric SLE."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_039",
+  "subject": "Medicine",
+  "sub_topic": "Rheumatology - Giant cell arteritis",
+  "stem": "A 72-year-old woman has new temporal headache, jaw claudication and an episode of transient monocular vision loss. ESR is 90 mm/h. What is the most appropriate next step?",
+  "options": [
+   "Perform temporal artery biopsy first and start steroids only if positive",
+   "MRI brain to exclude stroke before any treatment",
+   "Start prednisolone 10 mg daily",
+   "Start high-dose glucocorticoids immediately, then arrange temporal artery biopsy or ultrasound"
+  ],
+  "correct_index": 3,
+  "explanation": "Suspected GCA with visual symptoms is an emergency: start high-dose glucocorticoids (IV methylprednisolone is often used for visual loss) before confirmation. Temporal artery biopsy or vascular ultrasound should follow promptly. Tocilizumab is a steroid-sparing option. Source: BSR 2020 GCA guideline; EULAR 2018 LVV recommendations.",
+  "w": [
+   "Waiting for biopsy risks permanent blindness; biopsy stays diagnostic for 1-2 weeks after steroids.",
+   "Imaging must not delay steroids when GCA with visual symptoms is suspected.",
+   "Low dose is inadequate; GCA needs 40-60 mg prednisolone or IV pulse with visual loss.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_040",
+  "subject": "Medicine",
+  "sub_topic": "Rheumatology - Rheumatoid arthritis",
+  "stem": "A 38-year-old woman has 8 weeks of symmetric small-joint polyarthritis with morning stiffness of 2 hours. Rheumatoid factor and anti-CCP are strongly positive; X-rays show periarticular osteopenia. Liver and renal function are normal and she is not planning pregnancy. What is the best initial treatment?",
+  "options": [
+   "Methotrexate, with short-term low-dose glucocorticoid as bridging",
+   "Adalimumab as first-line monotherapy",
+   "Long-term prednisolone alone",
+   "NSAIDs alone and review in 6 months"
+  ],
+  "correct_index": 0,
+  "explanation": "Methotrexate is the anchor drug and should be started as soon as RA is diagnosed, treating to remission or low disease activity. Glucocorticoids are used only short-term as a bridge. If targets are not met at 3-6 months, add a biologic or JAK inhibitor when poor prognostic factors such as high-titre anti-CCP are present. Source: EULAR 2022 RA recommendations.",
+  "w": [
+   "",
+   "Biologics are used after failure of a conventional DMARD, especially with poor prognostic factors.",
+   "Long-term steroids cause toxicity and do not replace a DMARD.",
+   "Delaying DMARD therapy allows erosive damage."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_041",
+  "subject": "Psychiatry",
+  "sub_topic": "Delirium vs dementia",
+  "stem": "A 78-year-old man on day 2 after hip-fracture surgery is confused at night, cannot keep his attention on a conversation and alternates between drowsiness and agitation. His family says he was managing independently before admission. Which feature best distinguishes delirium from Alzheimer dementia?",
+  "options": [
+   "Impaired recent memory",
+   "Acute onset with fluctuating attention and level of consciousness",
+   "Disorientation to time",
+   "Poor performance on a clock-drawing test"
+  ],
+  "correct_index": 1,
+  "explanation": "Delirium is defined by an acute onset (hours to days), fluctuating course and disturbed attention and awareness, usually with an identifiable medical cause. Alzheimer dementia is insidious with clear consciousness until late. Dementia is the biggest risk factor for delirium, and both can coexist. Source: DSM-5-TR; Kaplan & Sadock 12e.",
+  "w": [
+   "Memory loss occurs in both and is the core feature of Alzheimer disease.",
+   "",
+   "Disorientation is common to both conditions.",
+   "Visuospatial and executive deficits occur in both."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_042",
+  "subject": "Psychiatry",
+  "sub_topic": "Mood disorders - lithium toxicity",
+  "stem": "A 45-year-old man stable on lithium for bipolar disorder is started on a new antihypertensive. Two weeks later he has coarse tremor, ataxia, vomiting and confusion; serum lithium is 2.4 mEq/L. Which drug most likely caused this?",
+  "options": [
+   "Amlodipine",
+   "Prazosin",
+   "Hydrochlorothiazide",
+   "Atenolol"
+  ],
+  "correct_index": 2,
+  "explanation": "Thiazides increase proximal tubular sodium and lithium reabsorption and can raise lithium levels by about 25-40%. ACE inhibitors, ARBs, NSAIDs and dehydration also raise lithium. Fine tremor is a side effect, but coarse tremor, ataxia and confusion indicate toxicity; severe toxicity is treated with haemodialysis. Source: Kaplan & Sadock 12e; Stahl's Essential Psychopharmacology.",
+  "w": [
+   "Amlodipine has no meaningful effect on lithium clearance.",
+   "Alpha-blockers do not affect lithium clearance.",
+   "",
+   "Beta-blockers do not raise lithium levels; propranolol is even used for lithium tremor."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_043",
+  "subject": "Psychiatry",
+  "sub_topic": "Mood disorders - lithium adverse effects",
+  "stem": "Which of the following are recognised adverse effects of lithium?\n1. Nephrogenic diabetes insipidus\n2. Hypothyroidism\n3. Ebstein anomaly with first-trimester exposure\n4. Hypoparathyroidism with hypocalcaemia",
+  "options": [
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2, 3 and 4",
+   "1, 2, 3 and 4"
+  ],
+  "correct_index": 1,
+  "explanation": "Lithium causes nephrogenic DI (polyuria), hypothyroidism and goitre, weight gain, acne and T-wave flattening, and is linked to Ebstein anomaly (absolute risk is lower than once thought). It causes hyperparathyroidism with hypercalcaemia, not hypocalcaemia, so calcium is monitored along with TSH and renal function. Source: Kaplan & Sadock 12e; NICE CG185.",
+  "w": [
+   "Ebstein anomaly (statement 3) is also a recognised association.",
+   "",
+   "Statement 4 is false and statement 1 is true.",
+   "Statement 4 is false: lithium causes hyperparathyroidism."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_044",
+  "subject": "Psychiatry",
+  "sub_topic": "Anxiety disorders - OCD",
+  "stem": "A 23-year-old student spends 3 hours a day washing her hands because of intrusive fears of contamination, which she recognises as excessive. Which psychotherapy has the strongest evidence as first-line treatment?",
+  "options": [
+   "Exposure and response prevention",
+   "Psychodynamic psychotherapy",
+   "Interpersonal psychotherapy",
+   "Dialectical behaviour therapy"
+  ],
+  "correct_index": 0,
+  "explanation": "CBT with exposure and response prevention, in which the patient faces the feared stimulus and resists the compulsion, is the first-line psychological treatment for OCD. SSRIs at higher doses (or clomipramine) are the first-line drugs, often combined with ERP. Antipsychotic augmentation is used for refractory cases. Source: APA OCD practice guideline; NICE CG31; Kaplan & Sadock 12e.",
+  "w": [
+   "",
+   "Insight-oriented therapy has no good evidence in OCD.",
+   "IPT is used for depression, not OCD.",
+   "DBT is designed for borderline personality disorder and self-harm."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_045",
+  "subject": "Psychiatry",
+  "sub_topic": "Anxiety disorders - trauma",
+  "stem": "A 30-year-old man survived a serious road accident in which his friend died. For the past 2 weeks he has had intrusive flashbacks, nightmares, avoidance of driving, irritability and exaggerated startle. Using DSM-5 criteria, what is the most likely diagnosis?",
+  "options": [
+   "Post-traumatic stress disorder",
+   "Acute stress disorder",
+   "Adjustment disorder",
+   "Generalised anxiety disorder"
+  ],
+  "correct_index": 1,
+  "explanation": "DSM-5 acute stress disorder lasts from 3 days to 1 month after trauma; if symptoms continue beyond 1 month the diagnosis becomes PTSD. Trauma-focused CBT is first-line for both; SSRIs (sertraline, paroxetine) are first-line drugs for PTSD, and benzodiazepines are not recommended. Source: DSM-5-TR; Kaplan & Sadock 12e.",
+  "w": [
+   "PTSD needs symptoms lasting more than 1 month in DSM-5.",
+   "",
+   "Adjustment disorder is used when the stressor is not a severe trauma or symptoms don't fit ASD/PTSD.",
+   "GAD involves chronic diffuse worry for at least 6 months, not trauma-linked re-experiencing."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_046",
+  "subject": "Psychiatry",
+  "sub_topic": "Antipsychotics - NMS vs serotonin syndrome",
+  "stem": "A 40-year-old woman on fluoxetine is given tramadol after surgery. Within 12 hours she is agitated and sweating, with temperature 38.9 C, dilated pupils, diarrhoea, hyperreflexia and inducible ankle clonus that is worse in the legs. Which drug is the specific antidote?",
+  "options": [
+   "Dantrolene",
+   "Bromocriptine",
+   "Cyproheptadine",
+   "Haloperidol"
+  ],
+  "correct_index": 2,
+  "explanation": "Rapid onset, clonus, hyperreflexia, mydriasis and GI hyperactivity point to serotonin syndrome (Hunter criteria). NMS develops over days after a dopamine antagonist, with lead-pipe rigidity, bradyreflexia, very high CPK and no clonus. Treat serotonin syndrome by stopping serotonergic drugs, supportive care, benzodiazepines and cyproheptadine (a 5-HT2A antagonist). Source: Boyer & Shannon, NEJM 2005; Kaplan & Sadock 12e.",
+  "w": [
+   "Dantrolene is used for malignant hyperthermia and sometimes NMS, not serotonin toxicity.",
+   "Bromocriptine (a dopamine agonist) is for NMS and can worsen serotonin syndrome.",
+   "",
+   "Antipsychotics can worsen hyperthermia and risk NMS."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_047",
+  "subject": "Psychiatry",
+  "sub_topic": "Antipsychotics - adverse effects",
+  "stem": "Clozapine is associated with all of the following adverse effects EXCEPT:",
+  "options": [
+   "Agranulocytosis",
+   "Sialorrhoea",
+   "Dose-related seizures",
+   "Marked hyperprolactinaemia"
+  ],
+  "correct_index": 3,
+  "explanation": "Clozapine has weak D2 blockade, so it causes little prolactin rise or EPS and is useful in tardive dyskinesia. Its key risks are agranulocytosis, myocarditis, seizures, sialorrhoea, constipation (ileus) and metabolic syndrome. Risperidone and typical antipsychotics are the main causes of hyperprolactinaemia. Source: Kaplan & Sadock 12e; Stahl's Essential Psychopharmacology.",
+  "w": [
+   "A major risk that requires mandatory blood count monitoring.",
+   "Hypersalivation, especially at night, is very common.",
+   "Clozapine lowers the seizure threshold in a dose-related way.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_048",
+  "subject": "Psychiatry",
+  "sub_topic": "Defence mechanisms",
+  "stem": "A woman privately feels strong resentment towards her domineering mother-in-law. She is openly excessively sweet to her, praises her in front of everyone and buys her expensive gifts. Which defence mechanism is she using?",
+  "options": [
+   "Reaction formation",
+   "Undoing",
+   "Sublimation",
+   "Rationalisation"
+  ],
+  "correct_index": 0,
+  "explanation": "Reaction formation turns an unacceptable impulse into its exaggerated opposite; the overdone quality is the clue. It is a neurotic defence, typical of obsessional traits. Mature defences include sublimation, altruism, humour, suppression and anticipation. Source: Kaplan & Sadock 12e (Vaillant's classification).",
+  "w": [
+   "",
+   "Undoing is an act meant to cancel a prior unacceptable act or thought.",
+   "Sublimation channels impulses into socially valued activity (a mature defence).",
+   "Rationalisation gives plausible excuses for unacceptable behaviour."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_049",
+  "subject": "Psychiatry",
+  "sub_topic": "Substance withdrawal - alcohol",
+  "stem": "A 50-year-old man with decompensated alcohol-related cirrhosis (jaundice, ascites, INR 2.1) is admitted. 36 hours after his last drink he develops tremor, sweating, tachycardia and anxiety. Which benzodiazepine is preferred?",
+  "options": [
+   "Chlordiazepoxide",
+   "Lorazepam",
+   "Diazepam",
+   "Clonazepam"
+  ],
+  "correct_index": 1,
+  "explanation": "Long-acting benzodiazepines such as chlordiazepoxide or diazepam are standard for uncomplicated alcohol withdrawal. In severe liver disease or the elderly, lorazepam or oxazepam are preferred because they are metabolised only by glucuronidation and have no active metabolites. Give parenteral thiamine before glucose to prevent Wernicke encephalopathy. Source: Kaplan & Sadock 12e; NICE CG100.",
+  "w": [
+   "Long-acting with active metabolites from hepatic oxidation; it accumulates in liver failure.",
+   "",
+   "Long-acting with active metabolites; risk of over-sedation and encephalopathy in liver failure.",
+   "Long half-life and hepatic oxidation; not a standard withdrawal agent."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_b_050",
+  "subject": "Psychiatry",
+  "sub_topic": "Mental Healthcare Act 2017",
+  "stem": "Regarding the Mental Healthcare Act 2017 (India), which statements are correct?\n1. ECT without muscle relaxants and anaesthesia is prohibited.\n2. A person who attempts suicide is presumed to have severe stress unless proved otherwise and shall not be punished.\n3. Every adult has the right to make an advance directive on how they wish to be treated for mental illness.\n4. Sterilisation may be performed as treatment for mental illness with the consent of the nominated representative.",
+  "options": [
+   "1 and 4 only",
+   "2 and 3 only",
+   "1, 2, 3 and 4",
+   "1, 2 and 3"
+  ],
+  "correct_index": 3,
+  "explanation": "MHCA 2017 bans unmodified ECT, sterilisation as treatment for mental illness, and chaining. Section 115 presumes severe stress in a suicide attempt and directs the government to provide care and rehabilitation. Advance directives and nominated representatives are central rights-based provisions; ECT for minors needs guardian consent and Mental Health Review Board permission. Source: Mental Healthcare Act 2017, Government of India.",
+  "w": [
+   "Statement 4 is false and statements 2 and 3 are true.",
+   "Statement 1 is also true.",
+   "Statement 4 is false: sterilisation as treatment is prohibited.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ }
+]

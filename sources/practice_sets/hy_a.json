@@ -1,0 +1,1080 @@
+[
+ {
+  "id": "hy_a_001",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Toxicology - Organophosphate",
+  "stem": "A 24-year-old farmer is brought 2 hours after drinking an insecticide. He has pinpoint pupils, profuse salivation, bronchorrhoea with crepitations, fasciculations and HR 48/min. Atropine boluses are being doubled every 5 minutes. Which finding is the most appropriate target to declare adequate atropinisation?",
+  "options": [
+   "Clear chest on auscultation with drying of bronchial secretions",
+   "Full pupillary dilatation",
+   "Heart rate above 120/min",
+   "Normalisation of red cell cholinesterase activity"
+  ],
+  "correct_index": 0,
+  "explanation": "Atropine is titrated to reverse muscarinic bronchorrhoea and bronchospasm: the key end-point is a clear chest, with HR >80/min, SBP >80 mmHg and dry axillae. Pupil size is unreliable and tachycardia is not a target (it may reflect hypoxia or atropine toxicity). Atropine does not reverse nicotinic effects or restore enzyme activity. Source: Eddleston et al. Lancet 2008 regimen; Narayan Reddy FMT.",
+  "w": [
+   "",
+   "Pupils lag behind and are an unreliable end-point; chasing mydriasis causes atropine toxicity.",
+   "Tachycardia is not a goal; HR >80/min is sufficient and >120 suggests toxicity or hypoxia.",
+   "Cholinesterase recovery takes days and is not used to titrate atropine."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_002",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Toxicology - Paracetamol",
+  "stem": "A 19-year-old woman presents 12 hours after swallowing about 40 tablets of paracetamol 500 mg (body weight 50 kg). She has mild right upper quadrant pain and nausea. A serum paracetamol level has been sent and will be reported in 3 hours. What is the next best step?",
+  "options": [
+   "Wait for the level and plot it on the nomogram",
+   "Give activated charcoal and repeat the level after 4 hours",
+   "Start intravenous N-acetylcysteine immediately",
+   "Arrange urgent liver transplant assessment"
+  ],
+  "correct_index": 2,
+  "explanation": "Ingestion of ~400 mg/kg presenting beyond 8 hours (or with symptoms) warrants immediate N-acetylcysteine without waiting for the level, because NAC efficacy falls with delay. The nomogram is unreliable in late or symptomatic presenters, so treatment is started first and the level used afterwards. Transplant is considered only if King's College criteria are met later. Source: UK MHRA/TOXBASE paracetamol guidance; Narayan Reddy FMT.",
+  "w": [
+   "Delaying NAC beyond 8 hours increases hepatotoxicity; late presenters are treated first.",
+   "Charcoal is useful only within about 1 hour of ingestion.",
+   "",
+   "No evidence of fulminant failure yet; transplant is guided by King's College criteria."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_003",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Toxicology - Methanol",
+  "stem": "Several labourers present a day after drinking illicit liquor with blurred 'snowfield' vision, abdominal pain and Kussmaul breathing. ABG: pH 7.05, high anion gap and raised osmolar gap. Fomepizole has been started. What is the definitive treatment for these patients?",
+  "options": [
+   "Intravenous ethanol infusion",
+   "Folinic acid",
+   "Intravenous sodium bicarbonate",
+   "Haemodialysis"
+  ],
+  "correct_index": 3,
+  "explanation": "Methanol is converted by alcohol dehydrogenase to formic acid, which causes the acidosis and optic nerve damage. Fomepizole or ethanol only block further metabolism; haemodialysis removes both methanol and formate and corrects acidosis, so it is definitive in severe acidosis or visual involvement. Bicarbonate and folinic acid are adjuncts. Source: EXTRIP methanol recommendations 2015; Narayan Reddy FMT.",
+  "w": [
+   "Ethanol is an alternative ADH blocker, not definitive; it does not remove formate already formed.",
+   "Folinic acid speeds formate breakdown but is only an adjunct.",
+   "Bicarbonate is supportive; it does not eliminate the toxin.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_004",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Toxicology - Snake bite",
+  "stem": "A farmer bitten on the foot in a paddy field 3 hours ago has local swelling and bleeding gums. Blood placed in a new, clean, dry glass tube is left undisturbed and remains liquid when tilted at 20 minutes. What is the next best step?",
+  "options": [
+   "Repeat the test after 6 hours before deciding",
+   "Apply a tight arterial tourniquet above the bite",
+   "Give fresh frozen plasma alone and observe",
+   "Give polyvalent anti-snake venom"
+  ],
+  "correct_index": 3,
+  "explanation": "An unclotted 20-minute whole blood clotting test (20WBCT) indicates venom-induced consumption coagulopathy, typical of viper envenomation, and is an indication for ASV. The 20WBCT is then repeated 6 hours after the loading dose to decide on further ASV. Tourniquets are contraindicated and FFP is not a substitute for antivenom. Source: MoHFW Standard Treatment Guidelines - Snakebite (2017).",
+  "w": [
+   "The repeat 20WBCT is done 6 h after ASV, not used to delay the first dose.",
+   "Tourniquets cause ischaemia and are contraindicated in Indian protocol.",
+   "Factor replacement without ASV is consumed by circulating venom; ASV is the specific treatment.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_005",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Toxicology - Snake bite",
+  "stem": "Regarding anti-snake venom (ASV) use in India, which of the following statements are correct?\n1. Indian polyvalent ASV is raised against cobra, common krait, Russell's viper and saw-scaled viper\n2. Polyvalent ASV is not effective against hump-nosed pit viper envenomation\n3. A routine skin test dose before ASV is not recommended\n4. Common krait bites typically produce marked local swelling and blistering",
+  "options": [
+   "1 and 2 only",
+   "1, 2 and 3",
+   "2, 3 and 4",
+   "1, 2, 3 and 4"
+  ],
+  "correct_index": 1,
+  "explanation": "Indian polyvalent ASV covers the 'big four'; hump-nosed pit viper is not covered, so ASV is not given for it. Skin testing does not predict reactions and only delays treatment, so it is not done. Krait bites are classically painless with minimal or no local signs, presenting with ptosis and abdominal pain, often at night. Source: MoHFW Standard Treatment Guidelines - Snakebite (2017).",
+  "w": [
+   "Misses statement 3, which is also correct.",
+   "",
+   "Statement 4 is false: krait bites have minimal local reaction.",
+   "Statement 4 is false."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_006",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Toxicology - Heavy metals",
+  "stem": "A 40-year-old man from a village using tube-well water has 'raindrop' pigmentation of the trunk, thickened keratotic palms and soles, transverse white bands across all nails and glove-and-stocking sensory neuropathy. Which poison is most likely?",
+  "options": [
+   "Lead",
+   "Mercury",
+   "Fluoride",
+   "Arsenic"
+  ],
+  "correct_index": 3,
+  "explanation": "Chronic arsenicosis from contaminated groundwater (e.g. West Bengal) causes raindrop pigmentation, palmoplantar hyperkeratosis, Mees lines and peripheral neuropathy, with skin cancer risk. Hair and nails are the samples of choice in chronic exposure. Chelators: dimercaprol (BAL) in acute, DMSA/DMPS as oral options. Source: WHO arsenic fact sheet; Narayan Reddy FMT.",
+  "w": [
+   "Lead gives Burton line, colic, wrist drop and basophilic stippling, not raindrop pigmentation.",
+   "Mercury causes erethism, tremor, gingivitis and acrodynia.",
+   "Fluoride causes mottled teeth and skeletal fluorosis.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_007",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Toxicology - Heavy metals",
+  "stem": "A 3-year-old child with pica, living near a battery-recycling unit, presents with vomiting, ataxia and a seizure. Blood lead is markedly raised. Which chelation regimen is most appropriate?",
+  "options": [
+   "Oral succimer (DMSA) alone",
+   "CaNa2EDTA alone",
+   "Dimercaprol (BAL) first, followed about 4 hours later by CaNa2EDTA",
+   "D-penicillamine alone"
+  ],
+  "correct_index": 2,
+  "explanation": "Lead encephalopathy needs parenteral chelation with BAL plus CaNa2EDTA, starting BAL first. EDTA given alone can mobilise lead from bone into the brain and worsen encephalopathy. Oral DMSA is for asymptomatic or mild cases without encephalopathy. Source: CDC/AAP lead poisoning guidance; Narayan Reddy FMT.",
+  "w": [
+   "Oral therapy is unsuitable in a vomiting, encephalopathic child.",
+   "EDTA alone may worsen cerebral oedema by redistributing lead to the brain.",
+   "",
+   "Penicillamine is a weak, third-line oral agent."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_008",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Toxicology - Cyanide",
+  "stem": "Assertion (A): In a fire victim with suspected cyanide toxicity, hydroxocobalamin is preferred over sodium nitrite.\nReason (R): Nitrites induce methaemoglobinaemia, which further reduces oxygen delivery when carboxyhaemoglobin is also present.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "Hydroxocobalamin binds cyanide to form cyanocobalamin, excreted in urine, without impairing oxygen carriage. Nitrites act by producing methaemoglobin that binds cyanide, which is dangerous with coexisting CO poisoning in smoke inhalation, so R explains A. Exam-classic kit: amyl nitrite + sodium nitrite + sodium thiosulphate; current first-line: hydroxocobalamin (thiosulphate may be added). Source: Goldfrank's Toxicologic Emergencies; Narayan Reddy FMT.",
+  "w": [
+   "",
+   "R is the reason hydroxocobalamin is preferred, so it does explain A.",
+   "R is true: nitrite-induced MetHb worsens hypoxia with COHb.",
+   "A is true: hydroxocobalamin is first-line in smoke inhalation."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_009",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Toxicology - Datura",
+  "stem": "A truck driver is found confused after accepting sweets from a co-passenger; his wallet is missing. He is hot and flushed with dry skin, dilated non-reacting pupils, urinary retention, tachycardia and is picking at imaginary threads. Which antidote is specific for this presentation?",
+  "options": [
+   "Physostigmine",
+   "Neostigmine",
+   "Pralidoxime",
+   "Flumazenil"
+  ],
+  "correct_index": 0,
+  "explanation": "This is the anticholinergic toxidrome of Datura (atropine, hyoscine), classically used as a stupefying agent by road poisoners. Physostigmine, a tertiary amine, crosses the blood-brain barrier and reverses both central and peripheral features. Datura seeds are kidney-shaped, odourless and bitter, unlike pungent capsicum seeds. Source: Narayan Reddy FMT.",
+  "w": [
+   "",
+   "Neostigmine is quaternary and does not reverse central delirium.",
+   "Oximes reactivate phosphorylated cholinesterase in OP poisoning; irrelevant here.",
+   "Flumazenil reverses benzodiazepines and can precipitate seizures."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_010",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Toxicology - Carbon monoxide",
+  "stem": "A family is found drowsy in a closed room in winter with a coal brazier burning. One adult has headache and confusion; pulse oximetry shows SpO2 98%. What is the next best step?",
+  "options": [
+   "Reassure as oxygen saturation is normal",
+   "Give oxygen by nasal cannula at 2 L/min",
+   "Give intravenous methylene blue",
+   "Give 100% oxygen by non-rebreather mask and send co-oximetry for COHb"
+  ],
+  "correct_index": 3,
+  "explanation": "Standard pulse oximeters cannot distinguish carboxyhaemoglobin from oxyhaemoglobin, so SpO2 is falsely normal in CO poisoning. High-flow 100% oxygen shortens COHb half-life and should be started at once; COHb is measured by co-oximetry and hyperbaric oxygen considered for severe cases (LOC, neurological signs, pregnancy). Post-mortem lividity is cherry-red. Source: Goldfrank's Toxicologic Emergencies; Narayan Reddy FMT.",
+  "w": [
+   "Normal SpO2 is falsely reassuring in CO poisoning.",
+   "Low-flow oxygen hardly shortens COHb half-life.",
+   "Methylene blue treats methaemoglobinaemia, not COHb.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_011",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Toxicology - Corrosives",
+  "stem": "Gastric lavage is generally contraindicated in corrosive poisoning. In poisoning with which of the following agents is careful gastric lavage permitted?",
+  "options": [
+   "Sulphuric acid",
+   "Nitric acid",
+   "Hydrochloric acid",
+   "Carbolic acid"
+  ],
+  "correct_index": 3,
+  "explanation": "Carbolic acid (phenol) is a weak corrosive with a local anaesthetic effect and does not cause deep perforating burns like mineral acids, so careful lavage (e.g. with lukewarm water/olive oil) is allowed. Mineral acids risk perforation, so lavage and emetics are avoided. Carboluria gives green urine on standing. Source: Narayan Reddy FMT.",
+  "w": [
+   "Strong mineral acid; lavage risks perforation.",
+   "Strong mineral acid; causes yellow eschar and perforation risk.",
+   "Strong mineral acid; lavage contraindicated.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_012",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Toxicology - Antidotes",
+  "stem": "Which of the following poison-antidote pairs are correct?\n1. Ethylene glycol - fomepizole\n2. Benzodiazepine overdose - flumazenil\n3. Carbaryl (carbamate) poisoning - pralidoxime as routine antidote\n4. Iron poisoning - desferrioxamine",
+  "options": [
+   "1, 2 and 3",
+   "2, 3 and 4",
+   "1, 2 and 4",
+   "1 and 4 only"
+  ],
+  "correct_index": 2,
+  "explanation": "Fomepizole blocks alcohol dehydrogenase in ethylene glycol and methanol; flumazenil reverses benzodiazepines; desferrioxamine chelates iron. Exam-classic: oximes are contraindicated in carbamate (especially carbaryl) poisoning because carbamylated enzyme reactivates spontaneously; current practice may give oximes when the agent is unknown or mixed. Source: Narayan Reddy FMT; Goldfrank's Toxicologic Emergencies.",
+  "w": [
+   "Includes 3: oximes are not routine for carbamates.",
+   "Includes 3 and omits the correct pair 1.",
+   "",
+   "Omits flumazenil-benzodiazepine, which is correct."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_013",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Identification - Age from teeth",
+  "stem": "Skeletal remains with an adult dentition are received for age estimation using Gustafson's method. Which of the six criteria is considered the most reliable?",
+  "options": [
+   "Attrition",
+   "Secondary dentine deposition",
+   "Transparency of the root",
+   "Periodontosis"
+  ],
+  "correct_index": 2,
+  "explanation": "Gustafson's method scores attrition, periodontosis, secondary dentine, cementum apposition, root resorption and root transparency on a ground tooth section. Root transparency is regarded as the most reliable single criterion as it is least affected by diet and disease. It is used for adults after dental eruption is complete. Source: Narayan Reddy FMT.",
+  "w": [
+   "Attrition varies with diet and bruxism.",
+   "Secondary dentine is influenced by caries and attrition.",
+   "",
+   "Periodontosis is heavily influenced by oral hygiene and disease."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_014",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Thanatology - Cadaveric spasm",
+  "stem": "Assertion (A): Finding a weapon firmly gripped in the hand of a dead body can help distinguish suicide from homicide.\nReason (R): Cadaveric spasm occurs at the moment of death and cannot be simulated after death.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "Cadaveric (instantaneous) rigor occurs at the moment of death, without primary relaxation, in voluntary muscles under intense emotion or exertion. Because it cannot be produced post-mortem, a firmly held weapon suggests the deceased was holding it at death, supporting suicide; it differs from rigor mortis, which follows primary flaccidity. Source: Narayan Reddy FMT.",
+  "w": [
+   "",
+   "R is precisely why the grip is medicolegally useful.",
+   "R is true: cadaveric spasm cannot be induced after death.",
+   "A is true."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_015",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Thanatology - Post-mortem lividity",
+  "stem": "All of the following colours of post-mortem lividity are correctly matched EXCEPT:",
+  "options": [
+   "Carbon monoxide - cherry red",
+   "Sodium nitrite / potassium chlorate - chocolate brown",
+   "Clostridium perfringens septicaemia - bronze",
+   "Hypothermia - deep violet-black"
+  ],
+  "correct_index": 3,
+  "explanation": "Death from cold gives bright pink lividity, because cold skin retains oxyhaemoglobin and oxygen uptake through cold skin continues. Chocolate-brown lividity reflects methaemoglobin (nitrites, chlorates, aniline); cherry red is COHb (also seen in cyanide as bright red); bronze is seen in C. perfringens sepsis, as after septic abortion. Source: Narayan Reddy FMT.",
+  "w": [
+   "Correct: COHb gives cherry-red lividity.",
+   "Correct: methaemoglobin-forming poisons give chocolate-brown lividity.",
+   "Correct: classic in clostridial septic abortion.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_016",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Mechanical injuries - Laceration",
+  "stem": "A man assaulted with a lathi has a linear scalp wound with fairly sharp-looking margins. On examination with a lens, the margins are abraded and bruised, and hair bulbs and tissue strands bridge the depth of the wound. What is the wound?",
+  "options": [
+   "Split laceration",
+   "Incised wound",
+   "Chop wound",
+   "Stab wound"
+  ],
+  "correct_index": 0,
+  "explanation": "Blunt force over skin tightly stretched over bone (scalp, eyebrow, shin, iliac crest) splits the skin to produce an incised-looking laceration. Bruised/abraded margins, tissue bridges and crushed hair bulbs distinguish it from an incised wound, which has clean edges with no bridging. Source: Narayan Reddy FMT.",
+  "w": [
+   "",
+   "Incised wounds have clean margins, no tissue bridges and cut hair.",
+   "Chop wounds from heavy sharp weapons have underlying bone cuts and sharp edges.",
+   "Stab wounds have depth greater than length from pointed weapons."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_017",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Firearm injuries",
+  "stem": "A skull recovered at autopsy shows a circular bullet hole that is clean, punched-out on the outer table and shows a crater-like bevelling on the inner table. Which conclusion is correct?",
+  "options": [
+   "It is an exit wound",
+   "Direction cannot be inferred from bevelling",
+   "It is a contact discharge only if blackening is present",
+   "It is an entry wound"
+  ],
+  "correct_index": 3,
+  "explanation": "A bullet entering the skull punches out a clean hole in the first table and chips the second table, so entry wounds show internal (inner-table) bevelling while exits show external bevelling. This is a reliable way of determining direction even in skeletal remains. Source: Narayan Reddy FMT.",
+  "w": [
+   "Exit wounds show bevelling of the outer table.",
+   "Bevelling is a classic indicator of direction of fire.",
+   "Bevelling indicates direction, not range; range is judged by blackening, tattooing and burning.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_018",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Firearm injuries",
+  "stem": "Regarding a firearm entry wound on skin, which of the following statements are correct?\n1. Blackening (smudging) by smoke can be wiped off\n2. Tattooing by unburnt powder particles cannot be wiped off\n3. Burning and singeing of hair are seen only at close range\n4. An abrasion collar is a feature of the exit wound",
+  "options": [
+   "1 and 2 only",
+   "1, 2 and 4",
+   "2, 3 and 4",
+   "1, 2 and 3"
+  ],
+  "correct_index": 3,
+  "explanation": "Smoke deposits (blackening) are superficial and wash off, while partially burnt powder grains embed in skin as tattooing and cannot be wiped away; flame produces burning only at close range. The abrasion (contusion) collar is formed as the bullet indents and abrades skin at entry, so it is a feature of the entry wound. Source: Narayan Reddy FMT.",
+  "w": [
+   "Omits statement 3, which is correct.",
+   "Statement 4 is false: abrasion collar marks entry.",
+   "Statement 4 is false and statement 1 is omitted.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_019",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Asphyxia - Hanging",
+  "stem": "At autopsy of a body found suspended by a rope, which finding is the most reliable sign that hanging occurred while the person was alive?",
+  "options": [
+   "Dribbling of saliva from the angle of the mouth down the chin and chest",
+   "An oblique, non-continuous ligature mark above the thyroid cartilage",
+   "Protrusion of the tongue",
+   "Post-mortem lividity in the legs and hands"
+  ],
+  "correct_index": 0,
+  "explanation": "Dribbling of saliva follows stimulation of salivary glands during life and its vertical run down the chin is regarded as the most reliable sign of ante-mortem hanging. The ligature mark pattern indicates hanging rather than strangulation but can be produced by post-mortem suspension; tongue protrusion and dependent lividity occur after death too. Source: Narayan Reddy FMT.",
+  "w": [
+   "",
+   "The mark pattern indicates hanging but can be produced after death.",
+   "Tongue protrusion is non-specific and depends on knot position.",
+   "Glove-and-stocking lividity follows suspension even of a dead body."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_020",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Asphyxia - Drowning",
+  "stem": "A decomposed body is recovered from a river 10 days after the person went missing. Which investigation gives the most reliable evidence that the person drowned while alive?",
+  "options": [
+   "Froth at mouth and nostrils",
+   "Paltauf haemorrhages in the lungs",
+   "Diatoms in the bone marrow of the femur",
+   "Water in the stomach"
+  ],
+  "correct_index": 2,
+  "explanation": "Diatoms inhaled with water during life cross the alveolar membrane and are carried by circulation to distant organs such as bone marrow, brain and kidney; their presence there indicates ante-mortem drowning and survives decomposition. Froth and Paltauf haemorrhages are lost in decomposition, and water can enter the stomach passively after death. Source: Narayan Reddy FMT.",
+  "w": [
+   "Froth disappears with decomposition and is not specific.",
+   "Subpleural haemorrhages are lost in decomposed lungs.",
+   "",
+   "Water can enter the stomach passively in a dead body."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_021",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Legal procedures - BNS 2023",
+  "stem": "After an assault on 10 August 2024, a victim has no fracture or dislocation but remains in severe bodily pain and unable to follow his ordinary pursuits for 17 days. How is this hurt classified under the Bharatiya Nyaya Sanhita (BNS), 2023?",
+  "options": [
+   "Simple hurt, because the threshold is 20 days",
+   "Dangerous injury, regardless of duration",
+   "Grievous hurt, only if the period exceeds 30 days",
+   "Grievous hurt, because the threshold is now 15 days"
+  ],
+  "correct_index": 3,
+  "explanation": "Under Section 116 BNS (replacing IPC 320, in force from 1 July 2024), the clause on severe bodily pain or inability to follow ordinary pursuits has been reduced from 20 days to 15 days. Exam-classic (IPC 320): 20 days, which would make this simple hurt; current BNS answer: grievous hurt. Source: Bharatiya Nyaya Sanhita 2023, Section 116.",
+  "w": [
+   "That was the old IPC 320 threshold; BNS reduced it to 15 days.",
+   "Duration-based clause applies; 'dangerous' is not a separate statutory class here.",
+   "No 30-day threshold exists in either law.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_022",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Legal procedures - BSA 2023",
+  "stem": "Regarding a dying declaration, which of the following statements are correct?\n1. Oath is not administered to the declarant\n2. It may be recorded by a doctor if a magistrate is not available in time\n3. The doctor should certify that the declarant is conscious and of sound mind\n4. The accused must be present when it is recorded",
+  "options": [
+   "1, 2 and 3",
+   "1 and 3 only",
+   "2, 3 and 4",
+   "1, 2, 3 and 4"
+  ],
+  "correct_index": 0,
+  "explanation": "A dying declaration is admissible under Section 26 of the Bharatiya Sakshya Adhiniyam 2023 (formerly Section 32 Indian Evidence Act); no oath is given and the accused need not be present. Ideally a magistrate records it, but a doctor or police officer may if time does not permit, after certifying compos mentis. Presence of the accused and cross-examination are features of a dying deposition, not a declaration. Source: Bharatiya Sakshya Adhiniyam 2023; Narayan Reddy FMT.",
+  "w": [
+   "",
+   "Omits statement 2, which is correct.",
+   "Statement 4 is false and statement 1 is omitted.",
+   "Statement 4 is false: accused presence is needed only for a dying deposition."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_023",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Legal procedures - BNSS 2023",
+  "stem": "An undertrial prisoner dies in police custody. Under the Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023, who must hold the inquest?",
+  "options": [
+   "Police officer in charge of the station",
+   "Judicial Magistrate",
+   "Coroner",
+   "Medical officer conducting the autopsy"
+  ],
+  "correct_index": 1,
+  "explanation": "Deaths in police custody require an inquiry by a Judicial Magistrate under Section 196 BNSS (formerly CrPC 176). The routine inquest in India is the police inquest under Section 194 BNSS (formerly CrPC 174). Coroner's inquest has been abolished in India, and the doctor performs the autopsy but does not hold the inquest. Source: BNSS 2023; Narayan Reddy FMT.",
+  "w": [
+   "Police cannot inquire into a death in their own custody.",
+   "",
+   "The coroner system no longer exists in India.",
+   "The autopsy surgeon gives medical evidence; the inquest is a legal inquiry."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_024",
+  "subject": "Community Medicine",
+  "sub_topic": "Biostatistics - Predictive values",
+  "stem": "A new rapid test is evaluated in 500 people: 100 have the disease, of whom 90 test positive; of the 400 without disease, 360 test negative. What is the positive predictive value of the test?",
+  "options": [
+   "90%",
+   "97%",
+   "69%",
+   "18%"
+  ],
+  "correct_index": 2,
+  "explanation": "True positives = 90, false positives = 400 - 360 = 40, so PPV = 90/(90+40) = 69%. Sensitivity (90/100) and specificity (360/400) are both 90%, and NPV = 360/370 = 97%. PPV is the probability of disease given a positive test and falls as prevalence falls. Source: Park's Textbook of PSM.",
+  "w": [
+   "That is the sensitivity (and specificity).",
+   "That is the NPV, 360/370.",
+   "",
+   "That is true positives over all people tested (90/500), not over all positives."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_025",
+  "subject": "Community Medicine",
+  "sub_topic": "Biostatistics - Likelihood ratio",
+  "stem": "A screening test has sensitivity 80% and specificity 90%. What is its positive likelihood ratio?",
+  "options": [
+   "0.22",
+   "8",
+   "0.89",
+   "9"
+  ],
+  "correct_index": 1,
+  "explanation": "LR+ = sensitivity / (1 - specificity) = 0.8 / 0.1 = 8. LR- = (1 - sensitivity) / specificity = 0.2 / 0.9 = 0.22. Likelihood ratios do not change with prevalence; an LR+ above 10 strongly rules in disease. Source: Park's Textbook of PSM.",
+  "w": [
+   "That is the negative likelihood ratio.",
+   "",
+   "Wrong formula (sensitivity / specificity).",
+   "Wrong formula (specificity / (1 - specificity))."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_026",
+  "subject": "Community Medicine",
+  "sub_topic": "Biostatistics - Predictive values",
+  "stem": "Assertion (A): The positive predictive value of a test is higher when it is used in a population with high prevalence of the disease.\nReason (R): Sensitivity and specificity of a test increase as disease prevalence increases.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 2,
+  "explanation": "PPV rises with prevalence because the proportion of true positives among all positives increases. Sensitivity and specificity are intrinsic properties of the test and are (in principle) independent of prevalence, so R is false. Source: Park's Textbook of PSM.",
+  "w": [
+   "R is false, so it cannot explain A.",
+   "R is false.",
+   "",
+   "A is true: PPV increases with prevalence."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_027",
+  "subject": "Community Medicine",
+  "sub_topic": "Biostatistics - Tests of significance",
+  "stem": "Mean haemoglobin levels are compared among three independent groups of adolescent girls receiving three different iron supplementation regimens. The data are normally distributed. Which test of significance is most appropriate?",
+  "options": [
+   "Paired t-test",
+   "Chi-square test",
+   "Unpaired t-test",
+   "One-way ANOVA"
+  ],
+  "correct_index": 3,
+  "explanation": "Comparing means of three or more independent groups of a normally distributed quantitative variable needs analysis of variance (ANOVA); repeated t-tests inflate type I error. The non-parametric equivalent is Kruskal-Wallis. Source: Park's Textbook of PSM.",
+  "w": [
+   "Paired t-test compares two related measurements in the same subjects.",
+   "Chi-square compares proportions of qualitative data.",
+   "Unpaired t-test compares only two independent means.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_028",
+  "subject": "Community Medicine",
+  "sub_topic": "Biostatistics - Measures of effect",
+  "stem": "In a trial, the stroke rate over 5 years was 20% in the placebo group and 15% in the treatment group. How many patients need to be treated for 5 years to prevent one stroke?",
+  "options": [
+   "4",
+   "20",
+   "25",
+   "5"
+  ],
+  "correct_index": 1,
+  "explanation": "Absolute risk reduction = 20% - 15% = 5% (0.05); NNT = 1/ARR = 20. Relative risk reduction = 5/20 = 25%, a figure that can make benefit look larger than the absolute effect. Source: Park's Textbook of PSM.",
+  "w": [
+   "Wrong: 1/RRR (0.25) gives 4, a common error.",
+   "",
+   "Confuses RRR (25%) with NNT.",
+   "Confuses ARR (5%) with NNT."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_029",
+  "subject": "Community Medicine",
+  "sub_topic": "Biostatistics - Study designs",
+  "stem": "Investigators want to study whether maternal intake of a drug during pregnancy is associated with a rare congenital heart defect. They select 80 children with the defect and 160 without it and enquire about drug exposure during pregnancy. What is this design and its appropriate measure of association?",
+  "options": [
+   "Cohort study; relative risk",
+   "Case-control study; odds ratio",
+   "Cross-sectional study; prevalence ratio",
+   "Case-control study; attributable risk"
+  ],
+  "correct_index": 1,
+  "explanation": "Starting from outcome (cases and controls) and looking back at exposure defines a case-control study, ideal for rare diseases; the measure is the odds ratio, which approximates relative risk when the disease is rare. Incidence, relative risk and attributable risk need a cohort design. Source: Park's Textbook of PSM.",
+  "w": [
+   "Cohort studies start with exposure and follow for outcome.",
+   "",
+   "Cross-sectional studies measure exposure and outcome at one point.",
+   "Attributable risk needs incidence, which a case-control study cannot give."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_030",
+  "subject": "Community Medicine",
+  "sub_topic": "Biostatistics - Bias",
+  "stem": "A new screening programme for lung cancer shows that screened patients survive longer from diagnosis than unscreened patients, yet age-specific lung cancer mortality in the two groups is identical. Which bias best explains this?",
+  "options": [
+   "Lead-time bias",
+   "Berkson's bias",
+   "Recall bias",
+   "Neyman (prevalence-incidence) bias"
+  ],
+  "correct_index": 0,
+  "explanation": "Screening advances the time of diagnosis, so survival measured from diagnosis appears longer even though death occurs at the same time: lead-time bias. Mortality, not survival from diagnosis, is the correct end-point for evaluating screening. Length bias (slow tumours over-detected) is a related screening bias. Source: Park's Textbook of PSM.",
+  "w": [
+   "",
+   "Berkson's bias arises from differing hospital admission rates in hospital-based case-control studies.",
+   "Recall bias concerns differential memory of exposure in case-control studies.",
+   "Neyman bias arises when prevalent cases (survivors) are studied instead of incident cases."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_031",
+  "subject": "Community Medicine",
+  "sub_topic": "Biostatistics - Standard error",
+  "stem": "In a sample of 100 adults, the mean systolic blood pressure is 120 mmHg with a standard deviation of 10 mmHg. What is the approximate 95% confidence interval for the population mean?",
+  "options": [
+   "100-140 mmHg",
+   "110-130 mmHg",
+   "118-122 mmHg",
+   "119-121 mmHg"
+  ],
+  "correct_index": 2,
+  "explanation": "Standard error = SD/sqrt(n) = 10/10 = 1 mmHg; 95% CI = mean +/- 1.96 SE, i.e. about 118-122 mmHg. Mean +/- 2 SD (100-140) describes the spread of individual values (95% of the sample), not the precision of the mean. Source: Park's Textbook of PSM.",
+  "w": [
+   "That is mean +/- 2 SD, the range of individual values.",
+   "That is mean +/- 1 SD (about 68% of individuals).",
+   "",
+   "That is mean +/- 1 SE, a 68% interval."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_032",
+  "subject": "Community Medicine",
+  "sub_topic": "Biostatistics - Correlation",
+  "stem": "In a study, the correlation coefficient between daily physical activity and fasting blood glucose is r = -0.8. Which interpretation is correct?",
+  "options": [
+   "Strong negative correlation; about 64% of the variation in glucose is explained by physical activity",
+   "Weak negative correlation; physical activity causes a fall in glucose",
+   "Strong negative correlation; 80% of the variation in glucose is explained by physical activity",
+   "Strong positive correlation, as the absolute value is 0.8"
+  ],
+  "correct_index": 0,
+  "explanation": "r ranges from -1 to +1; -0.8 is a strong inverse linear relationship. The coefficient of determination r^2 = 0.64 gives the proportion of variation in one variable explained by the other. Correlation alone never proves causation. Source: Park's Textbook of PSM.",
+  "w": [
+   "",
+   "|r| = 0.8 is strong, and correlation does not imply causation.",
+   "Variation explained is r^2 (64%), not r.",
+   "The sign gives direction: negative means inverse."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_033",
+  "subject": "Community Medicine",
+  "sub_topic": "Biostatistics - ROC curve",
+  "stem": "Regarding a receiver operating characteristic (ROC) curve, which of the following statements are correct?\n1. Sensitivity is plotted on the Y-axis\n2. Specificity is plotted on the X-axis\n3. An area under the curve of 0.5 means the test has no discriminating ability\n4. The cut-off nearest the upper left corner gives the best balance of sensitivity and specificity",
+  "options": [
+   "1, 2 and 3",
+   "1, 3 and 4",
+   "2, 3 and 4",
+   "1 and 4 only"
+  ],
+  "correct_index": 1,
+  "explanation": "The ROC curve plots sensitivity (true positive rate) against 1 - specificity (false positive rate) for different cut-offs. AUC 0.5 equals the chance diagonal, AUC 1.0 is a perfect test, and the point closest to the top-left corner optimises both. Source: Park's Textbook of PSM.",
+  "w": [
+   "Statement 2 is false: X-axis is 1 - specificity.",
+   "",
+   "Statement 2 is false.",
+   "Omits statement 3, which is correct."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_034",
+  "subject": "Community Medicine",
+  "sub_topic": "Immunisation - UIP schedule",
+  "stem": "A healthy infant who received all due vaccines at birth and at 6 weeks is brought at exactly 10 weeks of age to a government immunisation session. Which vaccines are due under the current Universal Immunization Programme?",
+  "options": [
+   "OPV-2, Pentavalent-2, Rotavirus-2",
+   "OPV-2, Pentavalent-2, Rotavirus-2, fIPV-2, PCV-2",
+   "OPV-2, Pentavalent-2, Rotavirus-2, PCV-2",
+   "OPV-2, Pentavalent-2, fIPV-2"
+  ],
+  "correct_index": 0,
+  "explanation": "At 10 weeks the UIP gives OPV-2, Pentavalent-2 and Rotavirus vaccine-2 only. fIPV is given at 6 and 14 weeks (plus a later dose), and PCV at 6 weeks, 14 weeks and a 9-month booster, so neither is due at 10 weeks. Source: MoHFW National Immunization Schedule (UIP).",
+  "w": [
+   "",
+   "fIPV-2 and PCV-2 are given at 14 weeks, not 10.",
+   "PCV-2 is due at 14 weeks.",
+   "fIPV-2 is due at 14 weeks and RVV-2 is missing."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_035",
+  "subject": "Community Medicine",
+  "sub_topic": "Immunisation - Cold chain",
+  "stem": "During supportive supervision, a vial of pentavalent vaccine is found at the bottom of an ice-lined refrigerator next to the cooling surface, and you suspect it may have frozen. What is the next best step?",
+  "options": [
+   "Discard all vaccines in the ILR",
+   "Perform the shake test against a deliberately frozen control vial of the same batch",
+   "Check the vaccine vial monitor",
+   "Use it, as pentavalent vaccine is freeze-stable"
+  ],
+  "correct_index": 1,
+  "explanation": "Aluminium-adsorbed vaccines (pentavalent, DPT, Td, hepatitis B) lose potency on freezing; the shake test compares the suspect vial with a deliberately frozen control: if the suspect vial sediments as fast as or faster than the control, it is freeze-damaged and discarded. The VVM records cumulative heat exposure, not freezing. Source: MoHFW Immunization Handbook for Medical Officers; Park's PSM.",
+  "w": [
+   "Unnecessary wastage; only suspect freeze-sensitive vials need testing.",
+   "",
+   "VVM detects heat damage, not freeze damage.",
+   "Pentavalent is freeze-sensitive."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_036",
+  "subject": "Community Medicine",
+  "sub_topic": "Immunisation - Vaccine vial monitor",
+  "stem": "An ANM finds that on an OPV vial the inner square of the vaccine vial monitor is the same colour as the outer circle, and the expiry date has not passed. What should she do?",
+  "options": [
+   "Use it, as the expiry date has not passed",
+   "Use it only for children above 1 year",
+   "Do not use it; discard the vial",
+   "Use it after keeping it in the freezer for an hour"
+  ],
+  "correct_index": 2,
+  "explanation": "The VVM is a heat-sensitive label: if the inner square is lighter than the outer circle the vaccine can be used; once it matches or is darker than the circle, the discard point has been reached regardless of expiry date. OPV, the most heat-sensitive UIP vaccine, carries VVM2. Source: MoHFW Immunization Handbook; Park's PSM.",
+  "w": [
+   "VVM status overrides an unexpired date.",
+   "No age-based exception exists for heat-damaged vaccine.",
+   "",
+   "Heat damage cannot be reversed by refreezing."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_037",
+  "subject": "Community Medicine",
+  "sub_topic": "Immunisation - AEFI",
+  "stem": "Two infants vaccinated during an afternoon session become febrile with vomiting, diarrhoea and shock within a few hours and die the same night. Both received measles-rubella vaccine from a vial reconstituted in the morning session. What is the most likely cause?",
+  "options": [
+   "Anaphylaxis to vaccine components",
+   "Toxic shock syndrome due to a programme error",
+   "Vaccine-induced encephalitis",
+   "Coincidental event unrelated to vaccination"
+  ],
+  "correct_index": 1,
+  "explanation": "Clustered deaths within hours from the same vial suggest toxic shock syndrome from bacterial contamination of a reconstituted vaccine kept beyond its safe period - a programme (immunisation error-related) AEFI. Reconstituted MR, BCG and JE are discarded 4 hours after opening or at session end, whichever is earlier. Anaphylaxis occurs within minutes. Source: MoHFW AEFI Surveillance and Response Operational Guidelines; Park's PSM.",
+  "w": [
+   "Anaphylaxis starts within minutes, not hours, and lacks fever/diarrhoea.",
+   "",
+   "Encephalitis does not cause same-night clustered shock.",
+   "Clustering linked to one vial strongly suggests a programme error."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_038",
+  "subject": "Community Medicine",
+  "sub_topic": "Immunisation - Open vial policy",
+  "stem": "Under the open vial policy of the Universal Immunization Programme, partly used vials may be used in subsequent sessions (up to 4 weeks) for all of the following EXCEPT:",
+  "options": [
+   "OPV",
+   "Pentavalent",
+   "Td",
+   "Measles-rubella"
+  ],
+  "correct_index": 3,
+  "explanation": "The open vial policy applies to vaccines such as OPV, pentavalent, Td, hepatitis B, fIPV and PCV if expiry is not passed, VVM is usable, cold chain is maintained and vials are not submerged. Reconstituted vaccines (BCG, MR, JE) are discarded 4 hours after opening or at session end. Source: MoHFW Open Vial Policy guidelines; Park's PSM.",
+  "w": [
+   "OPV is covered by the open vial policy.",
+   "Pentavalent is covered.",
+   "Td is covered.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_039",
+  "subject": "Community Medicine",
+  "sub_topic": "Biomedical waste - Colour coding",
+  "stem": "In a ward following the Bio-Medical Waste Management Rules 2016, a used IV infusion set (needle removed), a urine bag and a pair of contaminated gloves have to be discarded. Which category do they go into?",
+  "options": [
+   "Yellow bag",
+   "Red bag",
+   "White translucent puncture-proof container",
+   "Blue cardboard box"
+  ],
+  "correct_index": 1,
+  "explanation": "Contaminated recyclable waste - tubing, bottles, IV sets, catheters, urine bags, syringes without needles and gloves - goes into red bags for autoclaving/microwaving and shredding before recycling. Yellow is for anatomical, soiled, expired drug and chemical waste; white for sharps; blue for glassware and metallic implants. Source: Bio-Medical Waste Management Rules 2016 (Schedule I).",
+  "w": [
+   "Yellow is for anatomical, soiled dressings, chemical and expired drug waste.",
+   "",
+   "White containers are for sharps such as needles and blades.",
+   "Blue boxes are for glassware and metallic body implants."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_040",
+  "subject": "Community Medicine",
+  "sub_topic": "Biomedical waste - Colour coding",
+  "stem": "Under the Bio-Medical Waste Management Rules 2016, which of the following are correctly matched?\n1. Placenta - yellow\n2. Expired and discarded medicines - red\n3. Broken glass vials - blue\n4. Contaminated gloves - red",
+  "options": [
+   "1, 2 and 3",
+   "2, 3 and 4",
+   "1 and 3 only",
+   "1, 3 and 4"
+  ],
+  "correct_index": 3,
+  "explanation": "Human anatomical waste such as placenta goes into yellow bags for incineration/deep burial. Expired or discarded medicines (including cytotoxic drugs) are yellow-category waste, not red. Glassware goes into blue puncture-proof cardboard boxes, and contaminated plastic items like gloves into red. Source: Bio-Medical Waste Management Rules 2016 (Schedule I).",
+  "w": [
+   "Statement 2 is false: expired medicines are yellow.",
+   "Statement 2 is false.",
+   "Omits statement 4, which is correct.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_041",
+  "subject": "Community Medicine",
+  "sub_topic": "Epidemiology - Secondary attack rate",
+  "stem": "In a family of 6, the index case of measles is a 5-year-old. Of the other 5 members, 1 is already immune from past infection. Within one incubation period, 2 more family members develop measles. What is the secondary attack rate?",
+  "options": [
+   "40%",
+   "33%",
+   "50%",
+   "60%"
+  ],
+  "correct_index": 2,
+  "explanation": "SAR = secondary cases / number of susceptible contacts x 100. The index case and immune members are excluded from the denominator: susceptibles = 5 - 1 = 4, so SAR = 2/4 = 50%. Cases arising within one incubation period of the primary case are counted as secondary. Source: Park's Textbook of PSM.",
+  "w": [
+   "Wrongly includes the immune person in the denominator (2/5).",
+   "Wrongly includes the index case and immune member (2/6).",
+   "",
+   "No valid denominator gives 60%."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_042",
+  "subject": "Community Medicine",
+  "sub_topic": "Epidemiology - Measures of morbidity",
+  "stem": "A new drug for a chronic disease prolongs patients' lives without curing them, and the number of new cases arising each year remains unchanged. What will happen to the prevalence of the disease?",
+  "options": [
+   "Increase",
+   "Decrease",
+   "Remain unchanged",
+   "First decrease, then increase"
+  ],
+  "correct_index": 0,
+  "explanation": "Prevalence = incidence x mean duration (P = I x D) in a steady state. Prolonging survival without cure increases duration, so prevalence rises even with constant incidence. Conversely, rapid cure or rapid death lowers prevalence. Source: Park's Textbook of PSM.",
+  "w": [
+   "",
+   "Prevalence decreases only if duration or incidence falls.",
+   "Duration has increased, so prevalence must rise.",
+   "There is no mechanism for an initial fall."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_043",
+  "subject": "Community Medicine",
+  "sub_topic": "National programmes - NTEP",
+  "stem": "A 35-year-old man with newly diagnosed microbiologically confirmed pulmonary TB has rifampicin resistance not detected on CBNAAT. Which regimen is recommended under the National TB Elimination Programme?",
+  "options": [
+   "2HRZE / 4HR thrice weekly",
+   "2HRZES / 1HRZE / 5HRE",
+   "2HRZE / 4HRE daily with weight-band fixed-dose combinations",
+   "6-month BPaLM"
+  ],
+  "correct_index": 2,
+  "explanation": "NTEP treats drug-sensitive TB with a daily regimen: intensive phase 2 months HRZE and continuation phase 4 months HRE, using weight-band FDCs (India keeps ethambutol in the continuation phase). Exam-classic: RNTCP Category I thrice-weekly 2(HRZE)3 / 4(HR)3, now replaced; the streptomycin-containing Category II has been withdrawn. BPaLM is for drug-resistant TB. Source: NTEP Training Modules / India TB guidelines (MoHFW).",
+  "w": [
+   "Old intermittent RNTCP regimen, replaced by daily therapy.",
+   "Old Category II retreatment regimen, withdrawn.",
+   "",
+   "BPaLM is reserved for MDR/RR-TB."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_044",
+  "subject": "Community Medicine",
+  "sub_topic": "National programmes - Malaria",
+  "stem": "A 28-year-old non-pregnant man from Assam has uncomplicated Plasmodium falciparum malaria confirmed by RDT. Which treatment is recommended under the national malaria guidelines?",
+  "options": [
+   "Chloroquine for 3 days plus primaquine for 14 days",
+   "Artesunate + sulfadoxine-pyrimethamine for 3 days plus single-dose primaquine",
+   "Artemether-lumefantrine for 3 days plus single-dose primaquine",
+   "Oral quinine for 7 days"
+  ],
+  "correct_index": 2,
+  "explanation": "Because of SP resistance, the North-Eastern states use artemether-lumefantrine (ACT-AL) for uncomplicated falciparum malaria, while the rest of India uses AS+SP; both add single-dose primaquine on day 2 as a gametocytocide (not in pregnancy or infants). 14-day primaquine is for radical cure of P. vivax. Source: National Centre for Vector Borne Diseases Control - National Drug Policy on Malaria.",
+  "w": [
+   "This is the regimen for P. vivax, not falciparum.",
+   "AS+SP is used outside the North-East; Assam uses ACT-AL.",
+   "",
+   "Quinine is not first-line for uncomplicated falciparum malaria."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_045",
+  "subject": "Community Medicine",
+  "sub_topic": "National programmes - IDSP",
+  "stem": "Under the Integrated Disease Surveillance Programme, a medical officer at a PHC reports cases diagnosed clinically as 'probable' typhoid and malaria. Which reporting format does she use?",
+  "options": [
+   "S form",
+   "P form",
+   "L form",
+   "T form"
+  ],
+  "correct_index": 1,
+  "explanation": "IDSP uses three formats: S (syndromic, by health workers on symptoms), P (presumptive/probable, by medical officers on clinical diagnosis) and L (laboratory-confirmed). Data are now entered on the IHIP portal. Source: IDSP operational guidelines (NCDC); Park's PSM.",
+  "w": [
+   "S form is for syndromic reporting by health workers.",
+   "",
+   "L form is for laboratory-confirmed cases.",
+   "There is no T form in IDSP."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_046",
+  "subject": "Community Medicine",
+  "sub_topic": "Immunisation - Cold chain",
+  "stem": "Assertion (A): Hepatitis B, pentavalent and Td vaccines must never be kept in the freezer compartment.\nReason (R): These vaccines contain an aluminium adjuvant which agglutinates on freezing, causing loss of potency.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "Aluminium-adsorbed vaccines are freeze-sensitive: freezing breaks the adsorbent gel and the antigen clumps and sediments, so potency is permanently lost and reactogenicity may rise. This is why they are stored at +2 to +8 C in the ILR basket and checked by the shake test. Source: MoHFW Immunization Handbook; Park's PSM.",
+  "w": [
+   "",
+   "R is the mechanism behind A, so it explains it.",
+   "R is true: aluminium adjuvant is the freeze-sensitive component.",
+   "A is true."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_047",
+  "subject": "Community Medicine",
+  "sub_topic": "National programmes - Polio surveillance",
+  "stem": "A 4-year-old child develops sudden asymmetric flaccid weakness of the left leg 3 days after a febrile illness. What is the next best step for AFP surveillance?",
+  "options": [
+   "Wait for 60 days to look for residual paralysis",
+   "Collect two stool samples 24 hours apart within 14 days of paralysis onset",
+   "Collect a single CSF sample for viral culture",
+   "Give an extra dose of OPV and close the case"
+  ],
+  "correct_index": 1,
+  "explanation": "Any child under 15 years with acute flaccid paralysis (or any age with suspected polio) is reported, and two stool samples are collected at least 24 hours apart within 14 days of onset, sent in reverse cold chain. A 60-day follow-up examination for residual paralysis is done later, not instead. Source: MoHFW/WHO NPSP AFP surveillance guidelines; Park's PSM.",
+  "w": [
+   "The 60-day follow-up is additional, not a substitute for stool collection.",
+   "",
+   "Poliovirus is isolated from stool, not CSF.",
+   "Every AFP case needs investigation; vaccination does not close it."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_048",
+  "subject": "Community Medicine",
+  "sub_topic": "National programmes - Rabies",
+  "stem": "A 10-year-old boy is bitten by a stray dog on the cheek, with bleeding puncture wounds. He has never been vaccinated against rabies. After thorough washing of the wounds with soap and running water for 15 minutes, what is the next best step?",
+  "options": [
+   "Start anti-rabies vaccine only",
+   "Infiltrate rabies immunoglobulin into and around the wounds and start anti-rabies vaccine",
+   "Suture the wounds primarily and start anti-rabies vaccine",
+   "Observe the dog for 10 days before starting treatment"
+  ],
+  "correct_index": 1,
+  "explanation": "Transdermal bites with bleeding are Category III exposures and need wound care, rabies immunoglobulin (or monoclonal antibody) infiltrated into the wounds, and a full vaccine course (IM 0,3,7,14,28 or ID 0,3,7,28). Wounds should not be primarily sutured; if unavoidable, after RIG. Vaccination is not delayed for dog observation. Source: National Rabies Control Programme - National Guidelines for Rabies Prophylaxis (2019); WHO 2018 position paper.",
+  "w": [
+   "Category III needs passive immunisation too.",
+   "",
+   "Primary suturing is avoided as it spreads virus into deeper tissues.",
+   "PEP is started immediately; observation only decides whether to stop it."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_a_049",
+  "subject": "Forensic Medicine",
+  "sub_topic": "Toxicology - Organophosphate",
+  "stem": "A patient recovering from organophosphate poisoning develops, 2 days after admission, weakness of neck flexors, proximal limb muscles and respiratory muscles, while muscarinic signs are controlled. What is this condition?",
+  "options": [
+   "Organophosphate-induced delayed polyneuropathy",
+   "Intermediate syndrome",
+   "Atropine toxicity",
+   "Guillain-Barre syndrome"
+  ],
+  "correct_index": 1,
+  "explanation": "Intermediate syndrome appears 1-4 days after poisoning, after the cholinergic crisis, with proximal, neck-flexor, cranial nerve and respiratory muscle weakness due to nicotinic receptor dysfunction; ventilatory support is the mainstay. OPIDN appears after 1-3 weeks as a distal sensorimotor neuropathy from neuropathy target esterase inhibition. Source: Narayan Reddy FMT; Eddleston et al. Lancet 2008.",
+  "w": [
+   "OPIDN is delayed by weeks and is distal, not proximal.",
+   "",
+   "Atropine toxicity causes delirium, hyperthermia and tachycardia, not proximal weakness.",
+   "GBS is ascending and unrelated to the timeline of OP poisoning."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ }
+]
