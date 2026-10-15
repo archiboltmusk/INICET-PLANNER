@@ -138,7 +138,7 @@ def tag_questions(clusters):
             hits.update(cids)
             ci = q.get("correct_index", q.get("correctIndex"))
             out.append({"id": q["id"], "s": subj, "c": cids, "q": stem, "o": q["options"], "a": ci,
-                        "e": expl, "t": q.get("tag", ""), "x": q.get("exam", "")})
+                        "e": expl, "t": q.get("tag", ""), "x": q.get("exam", ""), **({"w": q["w"]} if q.get("w") else {})})
     return out, hits
 
 

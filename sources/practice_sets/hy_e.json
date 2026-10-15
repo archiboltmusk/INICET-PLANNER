@@ -1,0 +1,2202 @@
+[
+ {
+  "id": "hy_e_001",
+  "subject": "Anatomy",
+  "sub_topic": "Head & neck: cranial nerves",
+  "stem": "A 50-year-old man has wasting of the right half of the tongue. On protrusion, the tongue deviates to the right. The lesion most likely involves the",
+  "options": [
+   "Left hypoglossal nerve",
+   "Right lingual nerve",
+   "Right glossopharyngeal nerve",
+   "Right hypoglossal nerve"
+  ],
+  "correct_index": 3,
+  "explanation": "In an LMN hypoglossal lesion the intact contralateral genioglossus pushes the tongue towards the paralysed side, with ipsilateral wasting and fasciculations. A UMN lesion gives deviation to the side opposite the cortical lesion without wasting. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "A left LMN lesion would deviate the tongue to the left.",
+   "Lingual nerve is sensory to the anterior two-thirds; it has no motor fibres to tongue muscles.",
+   "CN IX carries sensation and taste from the posterior third; it does not supply tongue muscles.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_002",
+  "subject": "Anatomy",
+  "sub_topic": "Head & neck: cranial nerves",
+  "stem": "While saying 'aah', a patient's uvula is pulled towards the left side. Which nerve is damaged?",
+  "options": [
+   "Left vagus nerve",
+   "Right vagus nerve",
+   "Right glossopharyngeal nerve",
+   "Right mandibular nerve"
+  ],
+  "correct_index": 1,
+  "explanation": "Levator veli palatini is supplied by the vagus (pharyngeal plexus). If one side is paralysed, the healthy side pulls the uvula towards itself, so the uvula points away from the lesion. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "A left vagal lesion would pull the uvula to the right, towards the healthy side.",
+   "",
+   "CN IX supplies only stylopharyngeus; it does not move the soft palate.",
+   "V3 supplies tensor veli palatini, which tenses rather than elevates the palate."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_003",
+  "subject": "Anatomy",
+  "sub_topic": "Head & neck: facial nerve",
+  "stem": "A patient with a right facial nerve lesion has paralysis of the facial muscles, loss of taste on the anterior two-thirds of the tongue and hyperacusis, but lacrimation is normal. The lesion lies",
+  "options": [
+   "At the stylomastoid foramen",
+   "In the internal acoustic meatus, proximal to the geniculate ganglion",
+   "In the facial canal between the geniculate ganglion and the nerve to stapedius",
+   "Between the nerve to stapedius and the chorda tympani"
+  ],
+  "correct_index": 2,
+  "explanation": "Normal lacrimation means the greater petrosal nerve (from the geniculate ganglion) is intact. Hyperacusis means the nerve to stapedius is involved, and taste loss means the chorda tympani is involved. So the lesion lies just distal to the geniculate ganglion. Source: Gray's Anatomy.",
+  "w": [
+   "A lesion here spares taste (chorda tympani) and the stapedius reflex.",
+   "A lesion proximal to the geniculate ganglion also involves the greater petrosal nerve and reduces lacrimation.",
+   "",
+   "A lesion here causes taste loss but no hyperacusis, because the nerve to stapedius is spared."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_004",
+  "subject": "Anatomy",
+  "sub_topic": "Pharyngeal arches",
+  "stem": "Which of the following is a derivative of the second pharyngeal arch cartilage?",
+  "options": [
+   "Incus",
+   "Greater horn of the hyoid bone",
+   "Thyroid cartilage",
+   "Stapes"
+  ],
+  "correct_index": 3,
+  "explanation": "Reichert's (second arch) cartilage gives rise to the stapes, the styloid process, the stylohyoid ligament, and the lesser horn and upper body of the hyoid. Its nerve is the facial nerve. Source: Langman's Medical Embryology.",
+  "w": [
+   "Malleus and incus come from the first arch (Meckel's) cartilage.",
+   "The greater horn and lower body of the hyoid come from the third arch.",
+   "Laryngeal cartilages come from the fourth and sixth arches.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_005",
+  "subject": "Anatomy",
+  "sub_topic": "Pharyngeal pouches",
+  "stem": "An infant with tetany due to hypocalcaemia also has recurrent viral and fungal infections and an absent thymic shadow. The primary developmental defect involves the",
+  "options": [
+   "Third and fourth pharyngeal pouches",
+   "First and second pharyngeal pouches",
+   "First pharyngeal cleft",
+   "Thyroglossal duct"
+  ],
+  "correct_index": 0,
+  "explanation": "This is DiGeorge syndrome (22q11.2 deletion). The third pouch forms the inferior parathyroids and the thymus, and the fourth pouch forms the superior parathyroids, so their failure causes hypocalcaemia and T-cell deficiency. It is commonly associated with conotruncal heart defects. Source: Langman's Medical Embryology.",
+  "w": [
+   "",
+   "These form the tubotympanic recess and the palatine tonsil, not the parathyroids or thymus.",
+   "This forms the external acoustic meatus only.",
+   "This forms the thyroid follicular tissue and is unrelated to the thymus."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_006",
+  "subject": "Anatomy",
+  "sub_topic": "Skull foramina",
+  "stem": "A tumour at the skull base causes loss of taste on the posterior third of the tongue, hoarseness and weakness of the trapezius and sternocleidomastoid, while tongue movements are normal. The tumour is at the",
+  "options": [
+   "Hypoglossal canal",
+   "Jugular foramen",
+   "Internal acoustic meatus",
+   "Foramen magnum alone"
+  ],
+  "correct_index": 1,
+  "explanation": "CN IX, X and XI exit through the jugular foramen. Their combined palsy is Vernet syndrome. If CN XII is also involved (lesion just below the skull base), it is Collet-Sicard syndrome. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "This would paralyse the tongue (CN XII).",
+   "",
+   "This carries CN VII and VIII; it causes facial palsy and deafness.",
+   "Only the spinal root of XI passes here; IX and X would be spared."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_007",
+  "subject": "Anatomy",
+  "sub_topic": "Skull foramina",
+  "stem": "Which of the following structures pass through the foramen ovale?\n1. Mandibular nerve\n2. Accessory meningeal artery\n3. Lesser petrosal nerve\n4. Middle meningeal artery",
+  "options": [
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 2 and 3 only",
+   "1, 2, 3 and 4"
+  ],
+  "correct_index": 2,
+  "explanation": "The foramen ovale transmits the mandibular nerve, the accessory meningeal artery, the lesser petrosal nerve and an emissary vein (mnemonic MALE). The middle meningeal artery enters the skull through the foramen spinosum, posterolateral to the foramen ovale. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "The lesser petrosal nerve also passes through the foramen ovale.",
+   "The mandibular nerve is the main content, and the middle meningeal artery does not pass here.",
+   "",
+   "The middle meningeal artery passes through the foramen spinosum."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_008",
+  "subject": "Anatomy",
+  "sub_topic": "Orbit & foramina",
+  "stem": "A patient has complete ophthalmoplegia, ptosis, a dilated pupil and loss of sensation over the forehead, but visual acuity is normal. The lesion is most likely at the",
+  "options": [
+   "Orbital apex",
+   "Inferior orbital fissure",
+   "Superior orbital fissure",
+   "Foramen rotundum"
+  ],
+  "correct_index": 2,
+  "explanation": "CN III, IV, V1 and VI pass through the superior orbital fissure, so a lesion there gives ophthalmoplegia with forehead anaesthesia. The optic nerve passes through the optic canal, so vision distinguishes superior orbital fissure syndrome (vision spared) from orbital apex syndrome (vision lost). Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "An orbital apex lesion also involves the optic nerve and reduces vision.",
+   "This carries branches of the maxillary nerve and does not cause ophthalmoplegia.",
+   "",
+   "This carries only V2 and causes cheek numbness."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_009",
+  "subject": "Anatomy",
+  "sub_topic": "Neck triangles",
+  "stem": "After a cervical lymph node biopsy from the posterior triangle, a patient's shoulder droops. He cannot shrug fully and has difficulty raising the arm above the head. The nerve injured is the",
+  "options": [
+   "Long thoracic nerve",
+   "Suprascapular nerve",
+   "Dorsal scapular nerve",
+   "Spinal accessory nerve"
+  ],
+  "correct_index": 3,
+  "explanation": "The spinal accessory nerve crosses the posterior triangle superficially, in the roof, so it is at risk during node biopsy. Trapezius paralysis causes a drooping shoulder, weak shrugging and difficulty with abduction above 90 degrees, because trapezius and serratus anterior together rotate the scapula upwards. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "This causes winging of the scapula without loss of shrugging.",
+   "This weakens the start of abduction and external rotation, not shrugging.",
+   "This supplies the rhomboids and levator scapulae, with mild winging.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_010",
+  "subject": "Anatomy",
+  "sub_topic": "Neuroanatomy: spinal cord",
+  "stem": "A stab wound causes a right-sided hemisection of the spinal cord at T10. Which finding is expected?",
+  "options": [
+   "Loss of pain and temperature on the left side below the lesion",
+   "Loss of vibration sense on the left side below the lesion",
+   "Loss of pain and temperature on the right side below the lesion",
+   "Flaccid paralysis of the left lower limb"
+  ],
+  "correct_index": 0,
+  "explanation": "In Brown-Sequard syndrome, the ipsilateral side shows UMN weakness and loss of proprioception and vibration, while the contralateral side loses pain and temperature from 1-2 segments below the lesion. Ipsilateral LMN signs and a band of total anaesthesia occur at the level of the lesion. Source: Snell's Clinical Neuroanatomy.",
+  "w": [
+   "",
+   "The dorsal columns are uncrossed in the cord, so vibration is lost on the right.",
+   "The spinothalamic tract has already crossed, so the loss is contralateral.",
+   "Corticospinal loss is ipsilateral (right) and of the UMN type below the lesion."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_011",
+  "subject": "Anatomy",
+  "sub_topic": "Neuroanatomy: brainstem syndromes",
+  "stem": "A patient has right hemiparesis and loss of position and vibration sense on the right side. On protrusion, the tongue deviates to the left. The lesion is in the",
+  "options": [
+   "Left lateral medulla",
+   "Left medial medulla",
+   "Right medial medulla",
+   "Left medial pons"
+  ],
+  "correct_index": 1,
+  "explanation": "Medial medullary (Dejerine) syndrome involves the pyramid (contralateral hemiparesis), the medial lemniscus (contralateral loss of dorsal column sensation) and CN XII (ipsilateral tongue deviation). It usually results from anterior spinal or vertebral artery occlusion. Source: Snell's Clinical Neuroanatomy.",
+  "w": [
+   "Wallenberg syndrome spares the pyramid and the hypoglossal nerve.",
+   "",
+   "This would give left-sided hemiparesis with the tongue deviating to the right.",
+   "Medial pontine lesions involve CN VI (gaze), not CN XII."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_012",
+  "subject": "Anatomy",
+  "sub_topic": "Neuroanatomy: brainstem syndromes",
+  "stem": "All of the following are features of lateral medullary (Wallenberg) syndrome EXCEPT",
+  "options": [
+   "Ipsilateral Horner syndrome",
+   "Dysphagia and hoarseness",
+   "Contralateral hemiplegia",
+   "Loss of pain and temperature over the contralateral trunk and limbs"
+  ],
+  "correct_index": 2,
+  "explanation": "The PICA or vertebral artery territory spares the pyramids, so there is no hemiplegia. The key finding is crossed sensory loss: the ipsilateral face (spinal trigeminal nucleus) and the contralateral body (spinothalamic tract). Source: Snell's Clinical Neuroanatomy.",
+  "w": [
+   "This occurs because descending sympathetic fibres are involved.",
+   "This occurs because the nucleus ambiguus is involved.",
+   "",
+   "This occurs because the lateral spinothalamic tract is involved."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_013",
+  "subject": "Anatomy",
+  "sub_topic": "Neuroanatomy: brainstem syndromes",
+  "stem": "A patient has a left oculomotor nerve palsy with right-sided hemiplegia. The most likely diagnosis is",
+  "options": [
+   "Benedikt syndrome",
+   "Millard-Gubler syndrome",
+   "Parinaud syndrome",
+   "Weber syndrome"
+  ],
+  "correct_index": 3,
+  "explanation": "Weber syndrome is a lesion of the ventral midbrain (crus cerebri plus oculomotor fascicles) caused by posterior cerebral artery branches. It produces an ipsilateral CN III palsy and contralateral hemiplegia. Source: Snell's Clinical Neuroanatomy.",
+  "w": [
+   "Here CN III palsy is accompanied by contralateral tremor or ataxia from involvement of the red nucleus.",
+   "This is a pontine syndrome with CN VI/VII palsy and contralateral hemiplegia.",
+   "This is a dorsal midbrain lesion with upgaze palsy, without hemiplegia.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_014",
+  "subject": "Anatomy",
+  "sub_topic": "Neuroanatomy: blood supply",
+  "stem": "Occlusion of the left anterior cerebral artery distal to the anterior communicating artery most characteristically causes",
+  "options": [
+   "Weakness and sensory loss mainly in the right lower limb",
+   "Weakness mainly of the right face and upper limb",
+   "Right homonymous hemianopia with macular sparing",
+   "Global aphasia with intact limb power"
+  ],
+  "correct_index": 0,
+  "explanation": "The ACA supplies the medial surface of the hemisphere, including the paracentral lobule, which represents the leg and foot. Leg-predominant contralateral deficits and urinary incontinence suggest ACA occlusion. Source: Snell's Clinical Neuroanatomy.",
+  "w": [
+   "",
+   "This is the middle cerebral artery territory on the lateral convexity.",
+   "This is posterior cerebral artery (occipital) territory.",
+   "Language areas lie in MCA territory."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_015",
+  "subject": "Anatomy",
+  "sub_topic": "Neuroanatomy: visual pathway",
+  "stem": "A temporal lobe tumour damages Meyer's loop of the right optic radiation. The resulting field defect is",
+  "options": [
+   "Left homonymous inferior quadrantanopia",
+   "Left homonymous superior quadrantanopia",
+   "Bitemporal hemianopia",
+   "Right superior quadrantanopia"
+  ],
+  "correct_index": 1,
+  "explanation": "Meyer's loop carries fibres from the inferior retina, which represent the superior visual field, and loops into the temporal lobe. The result is a contralateral 'pie in the sky' defect. Source: Snell's Clinical Neuroanatomy.",
+  "w": [
+   "This occurs with parietal radiation lesions.",
+   "",
+   "This occurs with chiasmal lesions.",
+   "Defects behind the chiasm are contralateral."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_016",
+  "subject": "Anatomy",
+  "sub_topic": "Upper limb: nerve injuries",
+  "stem": "After a fracture of the middle third of the humeral shaft, a patient has wrist drop and loss of sensation over the dorsum of the first web space, but elbow extension is preserved. The nerve is injured",
+  "options": [
+   "In the axilla",
+   "As the posterior interosseous nerve in the forearm",
+   "In the radial (spiral) groove",
+   "As the superficial radial nerve at the wrist"
+  ],
+  "correct_index": 2,
+  "explanation": "Branches to triceps (most) arise above the spiral groove, so elbow extension is spared in mid-shaft fractures. Wrist drop and loss of sensation in the dorsal first web space localise the lesion to the radial nerve in the spiral groove. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "A radial lesion in the axilla also paralyses triceps.",
+   "PIN lesions have no cutaneous sensory loss and usually no wrist drop.",
+   "",
+   "This is purely sensory, with no motor deficit."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_017",
+  "subject": "Anatomy",
+  "sub_topic": "Upper limb: clinical tests",
+  "stem": "A patient is asked to hold a sheet of paper between the thumb and the side of the index finger. As the paper is pulled, he flexes the interphalangeal joint of the thumb. The paralysed muscle is",
+  "options": [
+   "Flexor pollicis longus",
+   "Abductor pollicis brevis",
+   "Opponens pollicis",
+   "Adductor pollicis"
+  ],
+  "correct_index": 3,
+  "explanation": "Froment's sign shows ulnar nerve palsy. Adductor pollicis is weak, so FPL (median nerve) substitutes, causing thumb IP flexion. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "FPL is working; it is the compensating muscle, supplied by the AIN/median nerve.",
+   "APB (median) abducts the thumb and is not tested here.",
+   "Opponens (median) is tested by opposition, not key-pinch.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_018",
+  "subject": "Anatomy",
+  "sub_topic": "Upper limb: nerve injuries",
+  "stem": "Assertion (A): Clawing of the ring and little fingers is more marked in ulnar nerve injury at the wrist than at the elbow.\nReason (R): In high ulnar nerve lesions, the ulnar half of flexor digitorum profundus is also paralysed.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "Clawing needs an unopposed, functioning FDP pulling on the distal phalanges while the intrinsic muscles are paralysed. A high lesion also removes the medial FDP, so clawing is less marked (ulnar paradox). Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "",
+   "R is the mechanism behind A.",
+   "R is true: FDP to the ring and little fingers is supplied by the ulnar nerve in the forearm.",
+   "A is true; this is the 'ulnar paradox'."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_019",
+  "subject": "Anatomy",
+  "sub_topic": "Upper limb: nerve injuries",
+  "stem": "A woman with carpal tunnel syndrome has paraesthesia of the lateral three and a half digits, but sensation over the thenar eminence is normal. The best explanation is",
+  "options": [
+   "The palmar cutaneous branch of the median nerve arises proximal to the flexor retinaculum and passes superficial to it",
+   "The recurrent (motor) branch carries sensory fibres to the thenar skin",
+   "The thenar skin is supplied by the ulnar nerve",
+   "Sensory fibres resist compression better than motor fibres"
+  ],
+  "correct_index": 0,
+  "explanation": "Sparing of the palmar cutaneous branch distinguishes carpal tunnel compression from a more proximal median nerve lesion. In carpal tunnel syndrome, thenar wasting (APB) and digital paraesthesia occur with normal palmar sensation. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "",
+   "The recurrent branch is motor to the thenar muscles.",
+   "The ulnar nerve supplies the medial palm and the medial one and a half digits.",
+   "Sensory symptoms are usually the earliest feature of carpal tunnel syndrome."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_020",
+  "subject": "Anatomy",
+  "sub_topic": "Upper limb: nerve injuries",
+  "stem": "After a supracondylar fracture, a child cannot flex the index finger when attempting to make a fist (the index finger stays pointing), and cannot flex the thumb IP joint. The nerve injured is the",
+  "options": [
+   "Anterior interosseous nerve",
+   "Median nerve at or above the elbow",
+   "Ulnar nerve at the elbow",
+   "Median nerve at the wrist"
+  ],
+  "correct_index": 1,
+  "explanation": "The pointing index (benediction attitude on attempted fist) needs paralysis of both FDS and the lateral FDP, which occurs only with a median nerve lesion proximal to its forearm branches. AIN palsy spares FDS and sensation. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "With an AIN lesion FDS is intact, so the index PIP joint can still flex; only the 'O' (pinch) sign is abnormal.",
+   "",
+   "This affects the medial FDP and intrinsics, not index finger flexion.",
+   "FDS and FDP are supplied in the forearm and are spared."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_021",
+  "subject": "Anatomy",
+  "sub_topic": "Upper limb: brachial plexus",
+  "stem": "All of the following muscles are paralysed in Erb's palsy (C5-C6 upper trunk injury) EXCEPT",
+  "options": [
+   "Deltoid",
+   "Biceps brachii",
+   "Flexor carpi ulnaris",
+   "Infraspinatus"
+  ],
+  "correct_index": 2,
+  "explanation": "The upper trunk lesion produces the 'waiter's tip' (policeman's tip) posture: an adducted, medially rotated arm with the elbow extended and the forearm pronated. FCU is supplied by C7-T1 via the ulnar nerve and is spared. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "Deltoid is C5-C6 via the axillary nerve and is paralysed.",
+   "Biceps is C5-C6 via the musculocutaneous nerve and is paralysed.",
+   "",
+   "Infraspinatus is C5-C6 via the suprascapular nerve and is paralysed."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_022",
+  "subject": "Anatomy",
+  "sub_topic": "Upper limb: nerve injuries",
+  "stem": "After axillary clearance for breast cancer, the medial border of a patient's scapula lifts off the chest wall when she pushes against a wall. The nerve damaged is the",
+  "options": [
+   "Thoracodorsal nerve",
+   "Axillary nerve",
+   "Lateral pectoral nerve",
+   "Long thoracic nerve"
+  ],
+  "correct_index": 3,
+  "explanation": "The long thoracic nerve (C5-C7) runs on the superficial surface of serratus anterior along the medial axillary wall, where it is vulnerable during clearance. Serratus paralysis causes winging and difficulty abducting above 90 degrees. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "This weakens latissimus dorsi (adduction and extension), with no winging.",
+   "This causes deltoid paralysis and a regimental badge patch of anaesthesia.",
+   "This weakens pectoralis major, with no winging.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_023",
+  "subject": "Anatomy",
+  "sub_topic": "Lower limb: nerve injuries",
+  "stem": "After a fracture of the neck of the fibula, a patient has foot drop, weak eversion, and sensory loss over the lateral leg and dorsum of the foot. The nerve injured is the",
+  "options": [
+   "Common peroneal (fibular) nerve",
+   "Deep peroneal nerve alone",
+   "Superficial peroneal nerve alone",
+   "Tibial nerve"
+  ],
+  "correct_index": 0,
+  "explanation": "The common peroneal nerve winds superficially around the fibular neck, which makes it the most commonly injured nerve in the lower limb. Injury to both of its divisions causes foot drop (high-stepping gait) and loss of eversion. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "",
+   "Eversion would be spared and sensory loss limited to the first web space.",
+   "There would be no foot drop, because the dorsiflexors are spared.",
+   "This causes loss of plantarflexion and sole sensation."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_024",
+  "subject": "Anatomy",
+  "sub_topic": "Lower limb: clinical tests",
+  "stem": "After a deep IM injection in the right upper buttock, a patient has a damaged right superior gluteal nerve. When the patient stands on the right leg alone,",
+  "options": [
+   "The pelvis sags on the right side",
+   "The pelvis sags on the left side",
+   "He cannot rise from a chair or climb stairs",
+   "There is anaesthesia over the entire buttock"
+  ],
+  "correct_index": 1,
+  "explanation": "Gluteus medius and minimus of the stance limb keep the pelvis level. With paralysis, the unsupported (opposite) side drops, which is a positive Trendelenburg sign. Bilateral weakness gives a waddling gait. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "The hip abductors of the stance limb normally hold up the opposite side of the pelvis.",
+   "",
+   "This reflects gluteus maximus (inferior gluteal nerve) weakness.",
+   "The superior gluteal nerve is purely motor."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_025",
+  "subject": "Anatomy",
+  "sub_topic": "Lower limb: nerve injuries",
+  "stem": "A patient on warfarin develops a large right psoas haematoma. He cannot extend the knee, the knee jerk is absent, and sensation is lost over the anterior thigh and medial leg. The nerve compressed is the",
+  "options": [
+   "Obturator nerve",
+   "Sciatic nerve",
+   "Femoral nerve",
+   "Lateral femoral cutaneous nerve"
+  ],
+  "correct_index": 2,
+  "explanation": "The femoral nerve (L2-L4) emerges at the lateral border of psoas, so a retroperitoneal or iliacus/psoas bleed compresses it. Its saphenous branch explains the sensory loss over the medial leg. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "This causes adductor weakness and medial thigh sensory loss, with a preserved knee jerk.",
+   "This affects the hamstrings and muscles below the knee.",
+   "",
+   "This is purely sensory to the lateral thigh (meralgia paraesthetica)."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_026",
+  "subject": "Anatomy",
+  "sub_topic": "Lower limb: nerves",
+  "stem": "Which of the following statements are correct?\n1. The saphenous nerve is a branch of the femoral nerve.\n2. The sural nerve supplies the skin of the lateral border of the foot.\n3. The deep peroneal nerve supplies the skin of the first web space on the dorsum of the foot.\n4. The medial plantar nerve corresponds to the median nerve of the hand.",
+  "options": [
+   "1, 2 and 3 only",
+   "1, 3 and 4 only",
+   "2 and 3 only",
+   "1, 2, 3 and 4"
+  ],
+  "correct_index": 3,
+  "explanation": "All four statements are correct. The medial plantar nerve supplies the skin of the medial three and a half toes and a few small muscles, which mirrors the median nerve in the hand. The lateral plantar nerve corresponds to the ulnar nerve. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "Statement 4 is also correct.",
+   "Statement 2 is also correct.",
+   "Statements 1 and 4 are also correct.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_027",
+  "subject": "Anatomy",
+  "sub_topic": "Thorax: coronary circulation",
+  "stem": "A patient with an acute inferior wall MI develops sinus bradycardia and second-degree AV block. The artery most likely occluded is the",
+  "options": [
+   "Left anterior descending artery",
+   "Left main coronary artery",
+   "First diagonal artery",
+   "Right coronary artery"
+  ],
+  "correct_index": 3,
+  "explanation": "In most people the RCA gives the SA nodal artery and, in right-dominant circulation, the AV nodal artery at the crux. Inferior MI therefore commonly causes nodal bradyarrhythmias, which are often transient. Source: Gray's Anatomy.",
+  "w": [
+   "LAD occlusion causes anterior/septal MI, and block is usually infranodal.",
+   "This causes extensive anterolateral ischaemia and shock.",
+   "This causes a limited lateral wall infarct.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_028",
+  "subject": "Anatomy",
+  "sub_topic": "Thorax: coronary circulation",
+  "stem": "Which of the following statements are correct?\n1. In right-dominant circulation, the posterior interventricular artery arises from the right coronary artery.\n2. The AV nodal artery usually arises from the dominant artery near the crux.\n3. The left anterior descending artery supplies the anterior two-thirds of the interventricular septum.\n4. The great cardiac vein accompanies the posterior interventricular artery.",
+  "options": [
+   "1 and 2 only",
+   "1, 2 and 3 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "correct_index": 1,
+  "explanation": "Dominance is defined by which artery gives the posterior interventricular (posterior descending) artery. The great cardiac vein runs with the LAD, and the middle cardiac vein runs with the PDA. Source: Gray's Anatomy.",
+  "w": [
+   "Statement 3 is also correct.",
+   "",
+   "Statement 4 is wrong: the great cardiac vein runs with the LAD.",
+   "The middle cardiac vein, not the great cardiac vein, accompanies the posterior interventricular artery."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_029",
+  "subject": "Anatomy",
+  "sub_topic": "Thorax: heart surface anatomy",
+  "stem": "Which pairing of a heart valve with its usual auscultatory area is INCORRECT?",
+  "options": [
+   "Tricuspid valve - right second intercostal space",
+   "Aortic valve - right second intercostal space near the sternum",
+   "Pulmonary valve - left second intercostal space near the sternum",
+   "Mitral valve - left fifth intercostal space in the midclavicular line"
+  ],
+  "correct_index": 0,
+  "explanation": "The tricuspid area is the lower left sternal border (4th-5th intercostal space). Valves are heard where the blood flow carries their sound, which is not where they lie anatomically. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "",
+   "This is the correct aortic area.",
+   "This is the correct pulmonary area.",
+   "This is the correct mitral area (the apex)."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_030",
+  "subject": "Anatomy",
+  "sub_topic": "Thorax: mediastinum",
+  "stem": "Which structure lies in the posterior mediastinum?",
+  "options": [
+   "Arch of the aorta",
+   "Descending thoracic aorta",
+   "Ascending aorta",
+   "Thymus"
+  ],
+  "correct_index": 1,
+  "explanation": "The posterior mediastinum contains the descending aorta, the oesophagus, the thoracic duct, the azygos and hemiazygos veins, and the vagus and splanchnic nerves. The middle mediastinum contains the heart, pericardium and ascending aorta. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "The arch lies in the superior mediastinum.",
+   "",
+   "The ascending aorta lies in the middle mediastinum, within the pericardium.",
+   "The thymus lies in the superior and anterior mediastinum."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_031",
+  "subject": "Anatomy",
+  "sub_topic": "Thorax: mediastinum",
+  "stem": "A patient with severe mitral stenosis develops hoarseness of voice. This is most likely due to compression of the",
+  "options": [
+   "Right recurrent laryngeal nerve around the subclavian artery",
+   "External laryngeal nerve in the neck",
+   "Left recurrent laryngeal nerve between the aorta and the pulmonary artery",
+   "Left phrenic nerve over the pericardium"
+  ],
+  "correct_index": 2,
+  "explanation": "Ortner (cardiovocal) syndrome occurs when the enlarged left atrium or pulmonary artery compresses the left RLN, which hooks under the aortic arch near the ligamentum arteriosum. Aortic arch aneurysm can do the same. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "The right nerve is far from the enlarged left atrium.",
+   "This affects cricothyroid (pitch), not gross hoarseness from cardiac disease.",
+   "",
+   "Phrenic compression affects the diaphragm, not the larynx."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_032",
+  "subject": "Anatomy",
+  "sub_topic": "Thorax: pericardium",
+  "stem": "During cardiac surgery, the surgeon passes a finger behind the ascending aorta and pulmonary trunk and in front of the superior vena cava to place a ligature. The finger lies in the",
+  "options": [
+   "Oblique pericardial sinus",
+   "Costomediastinal recess",
+   "Coronary sinus",
+   "Transverse pericardial sinus"
+  ],
+  "correct_index": 3,
+  "explanation": "The transverse sinus separates the arterial outflow (aorta and pulmonary trunk) from the venous inflow (SVC and atria). A clamp can be passed through it to occlude both great arteries during bypass. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "This is a blind recess behind the left atrium, bounded by the pulmonary veins.",
+   "This is a pleural recess, not part of the pericardium.",
+   "This is a venous channel in the posterior AV groove.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_033",
+  "subject": "Anatomy",
+  "sub_topic": "Abdomen: inguinal region",
+  "stem": "During inguinal herniorrhaphy, the surgeon finds the hernial sac emerging lateral to the inferior epigastric vessels. The hernia is",
+  "options": [
+   "Indirect inguinal hernia",
+   "Direct inguinal hernia",
+   "Femoral hernia",
+   "Spigelian hernia"
+  ],
+  "correct_index": 0,
+  "explanation": "An indirect hernia enters through the deep ring, lateral to the inferior epigastric artery, along a patent processus vaginalis. A pantaloon hernia has sacs on both sides of the vessels. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "",
+   "A direct hernia lies medial to the vessels, in Hesselbach's triangle.",
+   "A femoral hernia lies below the inguinal ligament, lateral to the lacunar ligament.",
+   "A Spigelian hernia passes through the semilunar line above the inguinal canal."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_034",
+  "subject": "Anatomy",
+  "sub_topic": "Abdomen: inguinal canal",
+  "stem": "Which of the following statements about the inguinal canal are correct?\n1. The anterior wall is formed by the external oblique aponeurosis, reinforced laterally by the internal oblique.\n2. The floor is formed by the inguinal ligament.\n3. The posterior wall is reinforced medially by the conjoint tendon.\n4. The ilioinguinal nerve enters the canal through the deep inguinal ring.",
+  "options": [
+   "1, 2 and 3 only",
+   "1, 2 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "correct_index": 0,
+  "explanation": "The ilioinguinal nerve enters the canal by piercing its wall and leaves through the superficial ring. It is not a content of the spermatic cord proper. The genital branch of the genitofemoral nerve does pass through the deep ring. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "",
+   "Statement 4 is wrong, and statement 3 is correct.",
+   "Statement 1 is correct, and statement 4 is wrong.",
+   "The ilioinguinal nerve does not pass through the deep ring."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_035",
+  "subject": "Anatomy",
+  "sub_topic": "Abdomen: peritoneum",
+  "stem": "Which of the following is an intraperitoneal organ with a mesentery?",
+  "options": [
+   "Descending colon",
+   "Transverse colon",
+   "Second part of duodenum",
+   "Head of pancreas"
+  ],
+  "correct_index": 1,
+  "explanation": "The transverse colon (transverse mesocolon) and the sigmoid colon (sigmoid mesocolon) are mobile and intraperitoneal. The ascending and descending colon, duodenum (except its first part) and pancreas (except its tail) are retroperitoneal. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "This is secondarily retroperitoneal.",
+   "",
+   "This is retroperitoneal.",
+   "This is retroperitoneal; only the tail reaches the splenorenal ligament."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_036",
+  "subject": "Anatomy",
+  "sub_topic": "Abdomen: portocaval anastomoses",
+  "stem": "In portal hypertension, caput medusae is produced by dilatation of anastomoses between",
+  "options": [
+   "Left gastric vein and oesophageal tributaries of the azygos",
+   "Superior rectal vein and middle/inferior rectal veins",
+   "Paraumbilical veins and superficial epigastric veins",
+   "Colic veins and retroperitoneal lumbar veins"
+  ],
+  "correct_index": 2,
+  "explanation": "Paraumbilical veins run in the falciform ligament (with the ligamentum teres) to the umbilicus and connect with the abdominal wall veins. In caput medusae, flow is directed away from the umbilicus, unlike the upward flow seen in IVC obstruction. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "These form oesophageal varices.",
+   "These form anorectal varices.",
+   "",
+   "These form the retroperitoneal (veins of Retzius) anastomosis."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_037",
+  "subject": "Anatomy",
+  "sub_topic": "Pelvis & perineum",
+  "stem": "For a transvaginal pudendal nerve block during instrumental delivery, the needle is directed towards the",
+  "options": [
+   "Ischial tuberosity",
+   "Anterior superior iliac spine",
+   "Pubic tubercle",
+   "Ischial spine"
+  ],
+  "correct_index": 3,
+  "explanation": "The pudendal nerve (S2-S4) leaves the pelvis through the greater sciatic foramen, crosses the sacrospinous ligament just medial to the ischial spine, and enters the pudendal (Alcock's) canal through the lesser sciatic foramen. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "This is too inferior; the nerve crosses the sacrospinous ligament near the spine.",
+   "This is unrelated; it is a landmark for the lateral femoral cutaneous nerve.",
+   "This is a landmark for the inguinal region, not the pudendal nerve.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_038",
+  "subject": "Anatomy",
+  "sub_topic": "Abdomen & pelvis: lymphatics",
+  "stem": "A seminoma of the testis would first spread to the",
+  "options": [
+   "Para-aortic (lumbar) lymph nodes",
+   "Superficial inguinal nodes",
+   "Deep inguinal nodes",
+   "Internal iliac nodes"
+  ],
+  "correct_index": 0,
+  "explanation": "Testicular lymphatics follow the testicular vessels to the lumbar nodes near the renal vessels, because the testis develops on the posterior abdominal wall. Scrotal involvement shifts drainage to the inguinal nodes. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "",
+   "These drain the scrotal skin, not the testis.",
+   "These drain the glans and lower limb, not the testis.",
+   "These drain the pelvic viscera, not the testis."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_039",
+  "subject": "Anatomy",
+  "sub_topic": "Embryology: GIT anomalies",
+  "stem": "Which statement about Meckel's diverticulum is correct?",
+  "options": [
+   "It is a remnant of the urachus",
+   "It arises from the antimesenteric border of the ileum",
+   "It arises from the mesenteric border of the jejunum",
+   "It is a false diverticulum lacking a muscle coat"
+  ],
+  "correct_index": 1,
+  "explanation": "Meckel's diverticulum may contain ectopic gastric or pancreatic tissue. Acid from gastric tissue can cause painless lower GI bleeding in children, which is detected by a Tc-99m pertechnetate scan. Source: Langman's Medical Embryology.",
+  "w": [
+   "It is a remnant of the vitellointestinal (omphalomesenteric) duct.",
+   "",
+   "It arises from the ileum, on the antimesenteric side.",
+   "It is a true diverticulum containing all layers of the wall."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_040",
+  "subject": "Anatomy",
+  "sub_topic": "Embryology: anomalies",
+  "stem": "A newborn has clear fluid draining from the umbilicus, and the flow increases when the baby cries. The most likely cause is",
+  "options": [
+   "Patent vitellointestinal duct",
+   "Omphalocele",
+   "Patent urachus",
+   "Umbilical granuloma"
+  ],
+  "correct_index": 2,
+  "explanation": "The urachus is the remnant of the allantois connecting the bladder to the umbilicus and normally becomes the median umbilical ligament. If it stays patent, urine leaks from the umbilicus, more so with raised intra-abdominal pressure. Source: Langman's Medical Embryology.",
+  "w": [
+   "This discharges faecal or mucous material, not urine.",
+   "This is herniation of bowel covered by a membrane.",
+   "",
+   "This is a moist granulation tissue nodule without a urine leak."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_041",
+  "subject": "Anatomy",
+  "sub_topic": "Embryology: derivatives",
+  "stem": "All of the following are derived from the neural crest EXCEPT",
+  "options": [
+   "Adrenal medulla",
+   "Melanocytes",
+   "Odontoblasts",
+   "Adrenal cortex"
+  ],
+  "correct_index": 3,
+  "explanation": "The adrenal cortex comes from intermediate/coelomic mesoderm. Other neural crest derivatives include the dorsal root and autonomic ganglia, Schwann cells, the leptomeninges (pia and arachnoid), parafollicular C cells and the aorticopulmonary septum. Source: Langman's Medical Embryology.",
+  "w": [
+   "The chromaffin cells are neural crest-derived.",
+   "Melanocytes are neural crest-derived.",
+   "Odontoblasts come from cranial neural crest ectomesenchyme.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_042",
+  "subject": "Anatomy",
+  "sub_topic": "Embryology: genital ducts",
+  "stem": "In the male, which structure is a remnant of the paramesonephric (Mullerian) duct?",
+  "options": [
+   "Appendix of testis",
+   "Appendix of epididymis",
+   "Ductus deferens",
+   "Paradidymis"
+  ],
+  "correct_index": 0,
+  "explanation": "Anti-Mullerian hormone from Sertoli cells causes the paramesonephric duct to regress, leaving the appendix of testis (and, by classical teaching, the prostatic utricle). Testosterone preserves the mesonephric duct as the epididymis, ductus deferens, seminal vesicle and ejaculatory duct. Source: Langman's Medical Embryology.",
+  "w": [
+   "",
+   "This is a remnant of the cranial mesonephric duct.",
+   "This is a derivative of the mesonephric (Wolffian) duct.",
+   "This is a remnant of mesonephric tubules."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_043",
+  "subject": "Anatomy",
+  "sub_topic": "Pharyngeal pouches",
+  "stem": "Which of the following statements are correct?\n1. The epithelium of the palatine tonsil develops from the second pharyngeal pouch.\n2. The superior parathyroid glands develop from the fourth pharyngeal pouch.\n3. The thymus develops from the third pharyngeal pouch.\n4. The thyroid follicles develop from the fourth pharyngeal pouch.",
+  "options": [
+   "1 and 3 only",
+   "1, 2 and 3 only",
+   "1, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "correct_index": 1,
+  "explanation": "The thyroid follicles come from an endodermal diverticulum at the foramen caecum. The ultimobranchial body (from the 4th/5th pouch) gives only the parafollicular C cells. The inferior parathyroids come from the 3rd pouch and migrate below the superior ones, which come from the 4th. Source: Langman's Medical Embryology.",
+  "w": [
+   "Statement 2 is also correct.",
+   "",
+   "Statement 4 is wrong and statement 2 is correct.",
+   "Thyroid follicles arise from the floor of the pharynx (foramen caecum)."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_044",
+  "subject": "Anatomy",
+  "sub_topic": "Upper limb: nerve injuries",
+  "stem": "Assertion (A): Wrist drop does not occur in an isolated posterior interosseous nerve injury.\nReason (R): The posterior interosseous nerve supplies the skin over the dorsum of the hand.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 2,
+  "explanation": "In posterior interosseous nerve palsy, ECRL (and usually ECRB) keep the wrist extended, with radial deviation, but the fingers cannot be extended at the MCP joints. The PIN has no cutaneous territory (it gives only articular twigs); dorsal hand skin is supplied by the superficial radial nerve. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "R is false.",
+   "R is false.",
+   "",
+   "A is true: ECRL is supplied before the radial nerve divides, so the wrist can still extend."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_045",
+  "subject": "Anatomy",
+  "sub_topic": "Histology: epithelia",
+  "stem": "A section shows a stratified epithelium whose surface layer has large dome-shaped cells, some of them binucleate, that bulge into the lumen. The organ is most likely the",
+  "options": [
+   "Oesophagus",
+   "Urinary bladder",
+   "Trachea",
+   "Gallbladder"
+  ],
+  "correct_index": 1,
+  "explanation": "Transitional epithelium (urothelium) has umbrella cells with asymmetric unit membrane plaques that make it impermeable and allow stretching. It lines the renal pelvis to the proximal urethra. Source: Junqueira's Basic Histology.",
+  "w": [
+   "The oesophagus has non-keratinised stratified squamous epithelium with flat surface cells.",
+   "",
+   "The trachea has pseudostratified ciliated columnar epithelium with goblet cells.",
+   "The gallbladder has simple tall columnar epithelium with no goblet cells."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_046",
+  "subject": "Anatomy",
+  "sub_topic": "Histology: GIT identification",
+  "stem": "A section of gut shows villi in the mucosa and mucous glands in the submucosa. The section is from the",
+  "options": [
+   "Ileum",
+   "Fundus of the stomach",
+   "Duodenum",
+   "Colon"
+  ],
+  "correct_index": 2,
+  "explanation": "Brunner's glands secrete alkaline mucus that neutralises chyme. Submucosal glands are found only in the oesophagus and duodenum, and only the duodenum also has villi. Source: Junqueira's Basic Histology.",
+  "w": [
+   "The ileum is identified by Peyer's patches and has no submucosal glands.",
+   "The stomach has no villi; its glands lie in the mucosa.",
+   "",
+   "The colon has no villi and has abundant goblet cells in straight crypts."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_047",
+  "subject": "Anatomy",
+  "sub_topic": "Histology: surface specialisations",
+  "stem": "Stereocilia are characteristically found on the lining epithelium of the",
+  "options": [
+   "Trachea",
+   "Uterine tube",
+   "Jejunum",
+   "Epididymis"
+  ],
+  "correct_index": 3,
+  "explanation": "Stereocilia are long, non-motile microvilli with an actin core and no axoneme. They are found in the epididymis, the ductus deferens and the inner ear hair cells, and they increase the surface area for absorption. Source: Junqueira's Basic Histology.",
+  "w": [
+   "The trachea has true motile cilia.",
+   "The uterine tube has motile cilia (plus peg cells).",
+   "The jejunum has microvilli (striated border), not stereocilia.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_048",
+  "subject": "Anatomy",
+  "sub_topic": "Lower limb: gluteal region",
+  "stem": "Assertion (A): Injury to the superior gluteal nerve produces a positive Trendelenburg sign.\nReason (R): The superior gluteal nerve leaves the pelvis above the piriformis.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 1,
+  "explanation": "The sign is caused by paralysis of gluteus medius and minimus, the hip abductors that stabilise the pelvis. The suprapiriform exit is a correct anatomical fact but does not explain the sign. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "The nerve's course above piriformis does not explain the sign.",
+   "",
+   "R is true.",
+   "A is true."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_049",
+  "subject": "Anatomy",
+  "sub_topic": "Head & neck: cranial nerves",
+  "stem": "Assertion (A): A complete oculomotor nerve lesion produces a constricted pupil.\nReason (R): Parasympathetic fibres to the sphincter pupillae travel with the oculomotor nerve.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 3,
+  "explanation": "Loss of the parasympathetic supply leaves the dilator unopposed, so the pupil is dilated. Together with ptosis and a 'down and out' eye, this is the CN III palsy. Pupil involvement suggests compression (e.g. a PComm aneurysm), because the pupillomotor fibres lie superficially. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "A is false.",
+   "A is false.",
+   "A is false, and R is true.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_050",
+  "subject": "Anatomy",
+  "sub_topic": "Abdomen: testis & venous drainage",
+  "stem": "Assertion (A): Varicocele is far more common on the left side.\nReason (R): The left testicular vein drains into the left renal vein at a right angle, whereas the right drains obliquely into the IVC.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "The right-angled entry, a longer vertical column, and possible compression of the left renal vein (nutcracker) between the aorta and SMA raise pressure in the left testicular vein. A sudden right-sided or non-reducing varicocele should prompt imaging for a retroperitoneal or renal mass. Source: BD Chaurasia's Human Anatomy.",
+  "w": [
+   "",
+   "R explains A.",
+   "R is true.",
+   "A is true."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_051",
+  "subject": "Physiology",
+  "sub_topic": "Respiratory: lung volumes",
+  "stem": "In a healthy adult, tidal volume = 500 mL, inspiratory reserve volume = 3000 mL, expiratory reserve volume = 1100 mL and residual volume = 1200 mL. The functional residual capacity is",
+  "options": [
+   "2300 mL",
+   "1700 mL",
+   "4600 mL",
+   "3500 mL"
+  ],
+  "correct_index": 0,
+  "explanation": "FRC = ERV + RV = 1100 + 1200 = 2300 mL. FRC is the volume at which the inward recoil of the lung equals the outward recoil of the chest wall. Because it includes RV, it cannot be measured by simple spirometry; it needs helium dilution, nitrogen washout or body plethysmography. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "",
+   "This is TV + RV, not a standard capacity.",
+   "This is the vital capacity (IRV + TV + ERV).",
+   "This is the inspiratory capacity (TV + IRV)."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_052",
+  "subject": "Physiology",
+  "sub_topic": "Respiratory: ventilation",
+  "stem": "A subject breathes at 12 breaths/min with a tidal volume of 500 mL. Anatomical dead space is 150 mL. The alveolar ventilation is",
+  "options": [
+   "6000 mL/min",
+   "4200 mL/min",
+   "1800 mL/min",
+   "7800 mL/min"
+  ],
+  "correct_index": 1,
+  "explanation": "Alveolar ventilation = (VT - VD) x RR = (500 - 150) x 12 = 4200 mL/min. Slow deep breathing improves alveolar ventilation more than rapid shallow breathing at the same minute ventilation. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "This is the minute ventilation, which ignores dead space.",
+   "",
+   "This is the dead space ventilation (150 x 12).",
+   "This wrongly adds dead space to the tidal volume."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_053",
+  "subject": "Physiology",
+  "sub_topic": "Respiratory: V/Q",
+  "stem": "Compared with the base, the apex of the upright lung has",
+  "options": [
+   "Greater blood flow per unit lung volume",
+   "Greater ventilation per unit lung volume",
+   "A higher V/Q ratio and a higher alveolar PO2",
+   "A lower V/Q ratio and a higher alveolar PCO2"
+  ],
+  "correct_index": 2,
+  "explanation": "Both ventilation and perfusion decrease towards the apex, but perfusion falls more, so V/Q is highest at the apex. This high apical PO2 is the classic explanation for post-primary tuberculosis favouring the apex. Source: West's Respiratory Physiology.",
+  "w": [
+   "Perfusion falls more steeply towards the apex than ventilation does.",
+   "Apical alveoli are already more expanded, so they ventilate less.",
+   "",
+   "This describes the base."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_054",
+  "subject": "Physiology",
+  "sub_topic": "Respiratory: O2-Hb curve",
+  "stem": "Which of the following shifts the oxygen-haemoglobin dissociation curve to the LEFT?",
+  "options": [
+   "Rise in muscle temperature during exercise",
+   "Increased 2,3-BPG at high altitude",
+   "Metabolic acidosis",
+   "Fetal haemoglobin"
+  ],
+  "correct_index": 3,
+  "explanation": "HbF binds 2,3-BPG poorly (it has gamma chains), so its affinity for O2 is higher, which favours O2 transfer from the mother to the fetus. Other left-shifting factors are CO, alkalosis, hypothermia and reduced 2,3-BPG (stored blood). Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "A rise in temperature shifts the curve to the right.",
+   "2,3-BPG shifts the curve to the right.",
+   "A rise in H+ shifts the curve to the right (Bohr effect).",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_055",
+  "subject": "Physiology",
+  "sub_topic": "Respiratory: O2-Hb curve",
+  "stem": "Assertion (A): In carbon monoxide poisoning, arterial O2 content is reduced even though PaO2 is normal.\nReason (R): Carbon monoxide shifts the oxygen-haemoglobin dissociation curve to the right.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 2,
+  "explanation": "CO binds Hb with much greater affinity than O2, which reduces O2 saturation and content. It also shifts the curve to the LEFT, which impairs unloading in the tissues. Pulse oximetry can read falsely normal because COHb absorbs light like oxyHb. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "R is false.",
+   "R is false.",
+   "",
+   "A is true: CO occupies haem sites, so O2 content falls while the dissolved O2 (PaO2) stays normal."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_056",
+  "subject": "Physiology",
+  "sub_topic": "Respiratory: mechanics",
+  "stem": "Static lung compliance is increased in",
+  "options": [
+   "Emphysema",
+   "Pulmonary fibrosis",
+   "Pulmonary oedema",
+   "Neonatal respiratory distress syndrome"
+  ],
+  "correct_index": 0,
+  "explanation": "Destruction of elastic tissue in emphysema reduces elastic recoil, so the lung distends easily (high compliance). Expiration becomes difficult, with air trapping and a raised FRC. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "",
+   "Fibrosis stiffens the lung and reduces compliance.",
+   "Oedema reduces compliance.",
+   "Surfactant deficiency reduces compliance."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_057",
+  "subject": "Physiology",
+  "sub_topic": "Respiratory: surfactant",
+  "stem": "Which of the following statements about pulmonary surfactant are correct?\n1. It is secreted by type II alveolar epithelial cells.\n2. Its main surface-active component is dipalmitoylphosphatidylcholine.\n3. It increases lung compliance.\n4. It lowers surface tension more in large alveoli than in small alveoli.",
+  "options": [
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 2 and 3 only",
+   "1, 2, 3 and 4"
+  ],
+  "correct_index": 2,
+  "explanation": "As an alveolus shrinks, surfactant molecules crowd together and surface tension falls further. By the Law of Laplace (P = 2T/r), this stabilises small alveoli against collapse. Glucocorticoids accelerate its production in the preterm fetus. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "Statement 3 is also correct.",
+   "Statement 1 is correct and statement 4 is wrong.",
+   "",
+   "Statement 4 is wrong: surfactant is more concentrated, and so lowers tension more, in small alveoli."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_058",
+  "subject": "Physiology",
+  "sub_topic": "Respiratory: gas exchange",
+  "stem": "A patient breathing room air at sea level (PB 760 mmHg, PH2O 47 mmHg, RQ 0.8) has PaO2 = 60 mmHg and PaCO2 = 40 mmHg. The alveolar-arterial O2 gradient is approximately",
+  "options": [
+   "10 mmHg",
+   "40 mmHg",
+   "90 mmHg",
+   "60 mmHg"
+  ],
+  "correct_index": 1,
+  "explanation": "PAO2 = 0.21 x (760 - 47) - 40/0.8 = 150 - 50 = about 100 mmHg, so the A-a gradient is 100 - 60 = about 40 mmHg. A raised gradient points to V/Q mismatch, shunt or a diffusion defect. Pure hypoventilation and high altitude give a normal gradient. Source: West's Respiratory Physiology.",
+  "w": [
+   "This is the normal young-adult gradient, not this patient's.",
+   "",
+   "This wrongly uses the inspired PO2 without subtracting PaCO2/RQ.",
+   "This is the PaO2, not the gradient."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_059",
+  "subject": "Physiology",
+  "sub_topic": "Respiratory: control",
+  "stem": "The ventilatory response to acute arterial hypoxaemia is mediated mainly by the",
+  "options": [
+   "Central chemoreceptors on the ventral medulla",
+   "Pulmonary stretch receptors",
+   "Carotid bodies",
+   "Carotid sinus baroreceptors"
+  ],
+  "correct_index": 2,
+  "explanation": "The glomus (type I) cells of the carotid bodies sense a fall in PaO2 and signal through CN IX. Most of the steady-state CO2 drive is central. In chronic CO2 retainers, the hypoxic drive becomes important. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "These respond to H+ in the CSF (from CO2), not to hypoxia.",
+   "These mediate the Hering-Breuer reflex.",
+   "",
+   "These sense blood pressure, not O2."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_060",
+  "subject": "Physiology",
+  "sub_topic": "CVS: cardiac cycle",
+  "stem": "During the phase of isovolumetric relaxation of the left ventricle,",
+  "options": [
+   "Ventricular volume falls rapidly",
+   "It lies between the first heart sound and the opening of the aortic valve",
+   "Rapid ventricular filling occurs",
+   "Both the aortic and mitral valves are closed and ventricular pressure falls steeply"
+  ],
+  "correct_index": 3,
+  "explanation": "Isovolumetric relaxation runs from aortic valve closure (S2) to mitral valve opening. The rate of pressure fall in this phase is an index of diastolic function, and it is slowed in ischaemia and hypertrophy. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "Volume stays constant; that is what 'isovolumetric' means.",
+   "That is isovolumetric contraction.",
+   "Filling begins only after the mitral valve opens, at the end of this phase.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_061",
+  "subject": "Physiology",
+  "sub_topic": "CVS: JVP",
+  "stem": "Prominent, giant 'v' (cv) waves in the jugular venous pulse are most characteristic of",
+  "options": [
+   "Tricuspid regurgitation",
+   "Complete heart block",
+   "Atrial fibrillation",
+   "Tricuspid stenosis"
+  ],
+  "correct_index": 0,
+  "explanation": "In TR, ventricular systole drives blood back into the right atrium and great veins, producing a large systolic cv wave with a steep y descent. This may come with a pulsatile liver. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "",
+   "This gives intermittent cannon 'a' waves.",
+   "This gives absent 'a' waves.",
+   "This gives giant 'a' waves."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_062",
+  "subject": "Physiology",
+  "sub_topic": "CVS: JVP",
+  "stem": "An absent 'y' descent in the jugular venous pulse is a feature of",
+  "options": [
+   "Constrictive pericarditis",
+   "Cardiac tamponade",
+   "Severe tricuspid regurgitation",
+   "Atrial fibrillation"
+  ],
+  "correct_index": 1,
+  "explanation": "The y descent reflects rapid emptying of the atrium after the tricuspid valve opens. In tamponade, pressure from the fluid all around the heart restricts filling throughout diastole, so the y descent is blunted or absent and only the x descent is seen. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "Constrictive pericarditis gives a steep, rapid y descent (Friedreich's sign).",
+   "",
+   "TR gives a prominent, steep y descent.",
+   "In AF the a wave is lost, but the y descent persists."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_063",
+  "subject": "Physiology",
+  "sub_topic": "CVS: baroreflex",
+  "stem": "Carotid sinus massage terminates an episode of supraventricular tachycardia. The afferent limb of this reflex travels in the",
+  "options": [
+   "Vagus nerve",
+   "Hypoglossal nerve",
+   "Glossopharyngeal nerve (via the carotid sinus nerve)",
+   "Cervical sympathetic chain"
+  ],
+  "correct_index": 2,
+  "explanation": "Stretch of the carotid sinus increases firing in Hering's nerve (CN IX), which reaches the nucleus tractus solitarius. Vagal output to the AV node then increases, and sympathetic outflow decreases. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "The vagus is the efferent limb here; it carries afferents from the aortic arch baroreceptors.",
+   "CN XII has no visceral afferents.",
+   "",
+   "This carries efferent sympathetic fibres, not baroreceptor afferents."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_064",
+  "subject": "Physiology",
+  "sub_topic": "CVS: baroreflex",
+  "stem": "Assertion (A): When a person stands up from the supine position, heart rate increases.\nReason (R): Pooling of blood in the lower limbs reduces stretch of the carotid sinus and aortic arch baroreceptors, which reduces vagal tone and increases sympathetic tone.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "Orthostatic venous pooling lowers venous return, stroke volume and arterial pressure. Reduced baroreceptor firing triggers tachycardia and vasoconstriction. Failure of this reflex (e.g. autonomic neuropathy) causes orthostatic hypotension without a compensatory rise in heart rate. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "",
+   "R explains A directly.",
+   "R is true.",
+   "A is true."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_065",
+  "subject": "Physiology",
+  "sub_topic": "CVS: cardiac output",
+  "stem": "A subject consumes 250 mL O2/min. Arterial O2 content is 200 mL/L and mixed venous O2 content is 150 mL/L. By the Fick principle, the cardiac output is",
+  "options": [
+   "2.5 L/min",
+   "1.25 L/min",
+   "10 L/min",
+   "5 L/min"
+  ],
+  "correct_index": 3,
+  "explanation": "CO = VO2 / (CaO2 - CvO2) = 250 / (200 - 150) = 250 / 50 = 5 L/min. Mixed venous blood must be sampled from the pulmonary artery. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "This is an error in arithmetic.",
+   "This divides by the arterial content instead of the A-V difference.",
+   "This doubles the correct answer.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_066",
+  "subject": "Physiology",
+  "sub_topic": "CVS: ventricular function",
+  "stem": "Left ventricular end-diastolic volume is 120 mL and end-systolic volume is 50 mL. The ejection fraction is approximately",
+  "options": [
+   "58%",
+   "42%",
+   "71%",
+   "30%"
+  ],
+  "correct_index": 0,
+  "explanation": "SV = EDV - ESV = 70 mL, and EF = SV/EDV = 70/120, which is about 58%. EF is the most widely used clinical index of systolic function. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "",
+   "This is ESV/EDV.",
+   "This divides ESV by SV.",
+   "This is a calculation error."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_067",
+  "subject": "Physiology",
+  "sub_topic": "CVS: blood pressure",
+  "stem": "A patient's blood pressure is 130/85 mmHg. The approximate mean arterial pressure is",
+  "options": [
+   "107.5 mmHg",
+   "100 mmHg",
+   "115 mmHg",
+   "95 mmHg"
+  ],
+  "correct_index": 1,
+  "explanation": "MAP is approximately DBP + 1/3 pulse pressure = 85 + 45/3 = 100 mmHg. The formula holds at resting heart rates because diastole takes about two-thirds of the cycle. MAP is the pressure that perfuses the organs. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "This is the arithmetic mean; diastole lasts longer at rest.",
+   "",
+   "This weights systole too heavily.",
+   "This is a calculation error."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_068",
+  "subject": "Physiology",
+  "sub_topic": "CVS: heart sounds",
+  "stem": "Wide and fixed splitting of the second heart sound that does not vary with respiration is characteristic of",
+  "options": [
+   "Left bundle branch block",
+   "Right bundle branch block",
+   "Atrial septal defect",
+   "Severe aortic stenosis"
+  ],
+  "correct_index": 2,
+  "explanation": "In ASD, the left-to-right shunt keeps right-sided volume high in both phases of respiration, and the interatrial communication equalises respiratory changes in volume. As a result, P2 stays delayed by a constant interval. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "LBBB delays A2 and causes paradoxical (reversed) splitting.",
+   "This gives wide splitting that still widens further with inspiration.",
+   "",
+   "This causes paradoxical splitting."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_069",
+  "subject": "Physiology",
+  "sub_topic": "Renal: clearance",
+  "stem": "Urine inulin concentration is 30 mg/mL, plasma inulin concentration is 0.25 mg/mL, and urine flow is 1 mL/min. The GFR is",
+  "options": [
+   "7.5 mL/min",
+   "30 mL/min",
+   "240 mL/min",
+   "120 mL/min"
+  ],
+  "correct_index": 3,
+  "explanation": "C = (U x V)/P = (30 x 1)/0.25 = 120 mL/min. Inulin is freely filtered and is neither reabsorbed nor secreted, so its clearance equals the GFR. Creatinine slightly overestimates GFR because it is secreted. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "This multiplies plasma by urine concentration.",
+   "This ignores the plasma concentration.",
+   "This is a calculation error.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_070",
+  "subject": "Physiology",
+  "sub_topic": "Renal: clearance",
+  "stem": "Effective renal plasma flow (PAH clearance) is 600 mL/min and haematocrit is 45%. The renal blood flow is approximately",
+  "options": [
+   "1090 mL/min",
+   "1333 mL/min",
+   "330 mL/min",
+   "600 mL/min"
+  ],
+  "correct_index": 0,
+  "explanation": "RBF = RPF / (1 - Hct) = 600 / 0.55, which is about 1090 mL/min. PAH is filtered and secreted, so it is almost completely cleared in one pass and its clearance estimates the effective renal plasma flow. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "",
+   "This divides by the haematocrit instead of by (1 - Hct).",
+   "This multiplies by (1 - Hct).",
+   "This is plasma flow, not blood flow."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_071",
+  "subject": "Physiology",
+  "sub_topic": "Renal: GFR",
+  "stem": "In a subject, GFR = 125 mL/min and renal plasma flow = 625 mL/min. The filtration fraction is",
+  "options": [
+   "5%",
+   "20%",
+   "50%",
+   "80%"
+  ],
+  "correct_index": 1,
+  "explanation": "FF = GFR/RPF = 125/625 = 0.2. Angiotensin II constricts the efferent arteriole more than the afferent arteriole, so the filtration fraction rises. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "This inverts the ratio and divides by 100.",
+   "",
+   "This is a calculation error.",
+   "This is the fraction of plasma that is NOT filtered."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_072",
+  "subject": "Physiology",
+  "sub_topic": "Renal: countercurrent",
+  "stem": "The 'diluting segment' of the nephron, which actively reabsorbs NaCl but is impermeable to water, is the",
+  "options": [
+   "Thin descending limb",
+   "Proximal convoluted tubule",
+   "Thick ascending limb of the loop of Henle",
+   "Collecting duct in the presence of ADH"
+  ],
+  "correct_index": 2,
+  "explanation": "NKCC2 in the thick ascending limb moves solute into the medullary interstitium without water, which generates the single effect of the countercurrent multiplier. Tubular fluid leaving this segment is hypo-osmotic. Loop diuretics block NKCC2. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "This is permeable to water and relatively impermeable to solute.",
+   "Reabsorption here is iso-osmotic.",
+   "",
+   "With ADH it is permeable to water and concentrates the urine."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_073",
+  "subject": "Physiology",
+  "sub_topic": "Renal: concentration",
+  "stem": "Assertion (A): Patients with central diabetes insipidus pass large volumes of dilute urine.\nReason (R): ADH is synthesised in the supraoptic and paraventricular nuclei of the hypothalamus.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 1,
+  "explanation": "The polyuria results from lack of ADH action on V2 receptors and aquaporin-2 in the collecting duct. The site of ADH synthesis is correct but does not explain it. The water deprivation test followed by desmopressin separates central from nephrogenic DI. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "The site of synthesis does not explain the polyuria.",
+   "",
+   "R is true.",
+   "A is true."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_074",
+  "subject": "Physiology",
+  "sub_topic": "Renal: acid-base",
+  "stem": "Serum values: Na+ 140, Cl- 100 and HCO3- 10 mEq/L. Which is the correct interpretation?",
+  "options": [
+   "Anion gap 30 mEq/L; normal anion gap acidosis",
+   "Anion gap 10 mEq/L; normal anion gap acidosis",
+   "Anion gap 50 mEq/L; high anion gap acidosis",
+   "Anion gap 30 mEq/L; high anion gap metabolic acidosis"
+  ],
+  "correct_index": 3,
+  "explanation": "AG = Na+ - (Cl- + HCO3-) = 140 - 110 = 30 mEq/L. Unmeasured anions cause the raised gap, as in lactic acidosis, ketoacidosis, renal failure and toxic alcohols. Diarrhoea and RTA give a normal-gap (hyperchloraemic) acidosis. Source: Ganong's Review of Medical Physiology.",
+  "w": [
+   "A gap of 30 is clearly raised.",
+   "This is a calculation error.",
+   "This wrongly adds HCO3- instead of subtracting it.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_075",
+  "subject": "Physiology",
+  "sub_topic": "Renal: acid-base",
+  "stem": "Arterial blood: pH 7.08, HCO3- 10 mEq/L, PaCO2 35 mmHg. The best interpretation is",
+  "options": [
+   "Metabolic acidosis with an additional respiratory acidosis",
+   "Metabolic acidosis with appropriate respiratory compensation",
+   "Metabolic acidosis with an additional respiratory alkalosis",
+   "Primary respiratory acidosis with metabolic compensation"
+  ],
+  "correct_index": 0,
+  "explanation": "By Winter's formula, the expected PaCO2 = 1.5 x 10 + 8 +/- 2 = 21-25 mmHg. A measured PaCO2 above this range means ventilation is inadequate, a second primary process such as fatigue, sedation or a chest problem. Source: Ganong's Review of Medical Physiology.",
+  "w": [
+   "",
+   "The expected PaCO2 is 21-25 mmHg, so 35 is too high.",
+   "PaCO2 would be below 21 mmHg for this.",
+   "Compensation would raise HCO3-, not lower it."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_076",
+  "subject": "Physiology",
+  "sub_topic": "Renal: acid-base",
+  "stem": "Prolonged vomiting from pyloric obstruction typically produces",
+  "options": [
+   "Hyperchloraemic metabolic acidosis",
+   "Hypochloraemic, hypokalaemic metabolic alkalosis with paradoxical aciduria",
+   "Hyperkalaemic metabolic acidosis",
+   "Respiratory alkalosis with alkaline urine throughout"
+  ],
+  "correct_index": 1,
+  "explanation": "Loss of HCl and volume depletion activate aldosterone, which promotes Na+ reabsorption in exchange for K+ and H+. Severe K+ depletion then forces H+ secretion, so the urine becomes acidic despite systemic alkalosis. Treatment is normal saline with KCl. Source: Ganong's Review of Medical Physiology.",
+  "w": [
+   "This pattern is typical of diarrhoea.",
+   "",
+   "Vomiting causes renal K+ loss, so K+ falls.",
+   "The primary disorder is metabolic, and the urine later becomes acidic."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_077",
+  "subject": "Physiology",
+  "sub_topic": "Renal: hormones",
+  "stem": "Aldosterone acts on the principal cells of the cortical collecting duct to",
+  "options": [
+   "Insert aquaporin-2 water channels",
+   "Inhibit the Na+-Cl- cotransporter",
+   "Increase Na+ reabsorption via ENaC and increase K+ secretion",
+   "Secrete H+ through H+-ATPase in principal cells"
+  ],
+  "correct_index": 2,
+  "explanation": "Aldosterone binds the intracellular mineralocorticoid receptor, which upregulates ENaC, ROMK and the basolateral Na+/K+-ATPase. Excess aldosterone causes hypertension, hypokalaemia and metabolic alkalosis. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "This is the action of ADH via V2 receptors.",
+   "Thiazides inhibit NCC in the DCT.",
+   "",
+   "H+ secretion occurs in alpha-intercalated cells."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_078",
+  "subject": "Physiology",
+  "sub_topic": "Endocrine: feedback",
+  "stem": "A patient with cushingoid features has raised plasma ACTH and cortisol. Cortisol is not suppressed by low-dose dexamethasone but is suppressed by high-dose dexamethasone. The most likely cause is",
+  "options": [
+   "Cortisol-secreting adrenal adenoma",
+   "Ectopic ACTH from small cell lung carcinoma",
+   "Exogenous glucocorticoid use",
+   "ACTH-secreting pituitary adenoma"
+  ],
+  "correct_index": 3,
+  "explanation": "Corticotroph adenomas keep partial sensitivity to glucocorticoid negative feedback at a higher set point, so only high doses suppress them. Ectopic ACTH and adrenal tumours do not respond to this feedback. Source: Ganong's Review of Medical Physiology.",
+  "w": [
+   "ACTH would be suppressed (low).",
+   "This typically does not suppress, even with high-dose dexamethasone.",
+   "Endogenous ACTH and cortisol would be low (only the drug is detected).",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_079",
+  "subject": "Physiology",
+  "sub_topic": "Endocrine: hormone action",
+  "stem": "Which hormone acts mainly through an intracellular (nuclear) receptor?",
+  "options": [
+   "Thyroid hormone (T3)",
+   "Insulin",
+   "Glucagon",
+   "ADH at the renal collecting duct"
+  ],
+  "correct_index": 0,
+  "explanation": "Lipophilic hormones (steroids, thyroid hormones, calcitriol, retinoic acid) bind nuclear receptors that act as transcription factors, so their effects are slower in onset. T3 receptors bind DNA thyroid response elements, often as heterodimers with RXR. Source: Ganong's Review of Medical Physiology.",
+  "w": [
+   "",
+   "Insulin acts through a receptor tyrosine kinase.",
+   "Glucagon acts through a Gs-coupled receptor and cAMP.",
+   "ADH acts through the V2 receptor, Gs and cAMP."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_080",
+  "subject": "Physiology",
+  "sub_topic": "Endocrine: growth hormone",
+  "stem": "All of the following stimulate growth hormone secretion EXCEPT",
+  "options": [
+   "Deep (slow-wave) sleep",
+   "Hyperglycaemia",
+   "Insulin-induced hypoglycaemia",
+   "Arginine infusion"
+  ],
+  "correct_index": 1,
+  "explanation": "Glucose suppresses GH, so failure of GH to suppress during an oral glucose tolerance test confirms acromegaly. Somatostatin and IGF-1 (negative feedback) also inhibit GH, while GHRH and ghrelin stimulate it. Source: Ganong's Review of Medical Physiology.",
+  "w": [
+   "GH pulses are greatest in early slow-wave sleep.",
+   "",
+   "Hypoglycaemia is a potent stimulus and is used as a provocative test.",
+   "Arginine is a stimulus used in GH stimulation testing."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_081",
+  "subject": "Physiology",
+  "sub_topic": "Endocrine: calcium",
+  "stem": "Which of the following are actions of parathyroid hormone?\n1. Increases Ca2+ reabsorption in the distal tubule\n2. Decreases phosphate reabsorption in the proximal tubule\n3. Stimulates renal 1-alpha-hydroxylase\n4. Directly increases calcium absorption from the intestine",
+  "options": [
+   "1, 2 and 3 only",
+   "1 and 3 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "correct_index": 0,
+  "explanation": "PTH raises serum Ca2+ and lowers phosphate (phosphaturia). Its intestinal effect is indirect, through the calcitriol made by 1-alpha-hydroxylase. Its bone effect acts through osteoblast RANKL, which activates osteoclasts. Source: Ganong's Review of Medical Physiology.",
+  "w": [
+   "",
+   "Statement 2 is also correct.",
+   "Statement 1 is correct and statement 4 is wrong.",
+   "The intestinal effect is indirect, through calcitriol."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_082",
+  "subject": "Physiology",
+  "sub_topic": "Endocrine: adrenal",
+  "stem": "Assertion (A): Skin hyperpigmentation is absent in adrenal insufficiency secondary to pituitary disease.\nReason (R): ACTH and alpha-MSH are both derived from POMC, and ACTH levels are low in secondary adrenal insufficiency.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "In primary (Addison) disease, loss of feedback raises POMC-derived peptides, which stimulate melanocortin-1 receptors and cause pigmentation. Secondary insufficiency also spares aldosterone, which is mainly controlled by angiotensin II and K+, so hyperkalaemia is unusual. Source: Ganong's Review of Medical Physiology.",
+  "w": [
+   "",
+   "R explains A.",
+   "R is true.",
+   "A is true."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_083",
+  "subject": "Physiology",
+  "sub_topic": "Endocrine: thyroid",
+  "stem": "Assertion (A): Thyroxine (T4) is the main hormone that binds and activates the nuclear thyroid hormone receptor.\nReason (R): Most circulating thyroid hormone is bound to plasma proteins, chiefly thyroxine-binding globulin.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "correct_index": 3,
+  "explanation": "T4 is the main secretory product, but it is largely a prohormone. It is deiodinated in the tissues to T3, which binds the receptor with much higher affinity. Protein binding makes a circulating reservoir; only the free hormone is active. Source: Ganong's Review of Medical Physiology.",
+  "w": [
+   "A is false.",
+   "A is false.",
+   "A is false and R is true.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_084",
+  "subject": "Physiology",
+  "sub_topic": "CNS: sleep",
+  "stem": "Sleep spindles and K-complexes on the EEG are characteristic of",
+  "options": [
+   "Stage N1 NREM sleep",
+   "Stage N3 NREM sleep",
+   "Stage N2 NREM sleep",
+   "REM sleep"
+  ],
+  "correct_index": 2,
+  "explanation": "N2 makes up the largest share of total sleep in adults. Spindles (12-14 Hz bursts) are generated by thalamocortical circuits. The relaxed awake state with eyes closed shows posterior alpha rhythm. Source: Ganong's Review of Medical Physiology.",
+  "w": [
+   "N1 shows theta activity and vertex sharp waves.",
+   "N3 is dominated by high-amplitude delta waves.",
+   "",
+   "REM shows low-voltage mixed-frequency activity with sawtooth waves."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_085",
+  "subject": "Physiology",
+  "sub_topic": "CNS: sleep",
+  "stem": "Which of the following are features of REM sleep?\n1. Atonia of skeletal muscles, except the extraocular muscles and the diaphragm\n2. Vivid dreaming\n3. Night terrors and sleepwalking\n4. Penile erection",
+  "options": [
+   "1, 2 and 3 only",
+   "1, 2 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "correct_index": 1,
+  "explanation": "Night terrors, sleepwalking and enuresis are arousal disorders of N3 sleep. REM sleep has rapid eye movements, irregular respiration and heart rate, and PGO waves. Loss of atonia causes REM sleep behaviour disorder, an early marker of synucleinopathy. Source: Ganong's Review of Medical Physiology.",
+  "w": [
+   "Statement 3 is wrong and statement 4 is correct.",
+   "",
+   "Statement 3 is wrong.",
+   "Statement 3 belongs to N3 (slow-wave) sleep."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_086",
+  "subject": "Physiology",
+  "sub_topic": "CNS: reflexes",
+  "stem": "The afferent limb of the knee jerk is carried by",
+  "options": [
+   "Group Ib fibres from Golgi tendon organs",
+   "Group II fibres from Golgi tendon organs",
+   "Type C fibres from free nerve endings",
+   "Group Ia fibres from the primary (annulospiral) endings of muscle spindles"
+  ],
+  "correct_index": 3,
+  "explanation": "The phasic stretch reflex is the only monosynaptic reflex: Ia afferents synapse directly on alpha motor neurons of the same muscle, with reciprocal inhibition of the antagonist. Gamma motor neurons set spindle sensitivity. Source: Ganong's Review of Medical Physiology.",
+  "w": [
+   "Ib fibres mediate the inverse stretch reflex (autogenic inhibition).",
+   "GTOs are innervated by Ib fibres; group II fibres supply the secondary spindle endings.",
+   "C fibres carry slow pain and temperature.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_087",
+  "subject": "Physiology",
+  "sub_topic": "CNS: pain",
+  "stem": "Slow, burning, poorly localised pain is carried mainly by",
+  "options": [
+   "Type C fibres, with substance P as a key transmitter",
+   "A-delta fibres, with glutamate as the main transmitter",
+   "A-beta fibres, with glycine as the transmitter",
+   "A-alpha fibres from muscle spindles"
+  ],
+  "correct_index": 0,
+  "explanation": "Unmyelinated C fibres (slow conduction) end mainly in laminae I-II and project through the paleospinothalamic tract to the reticular formation and intralaminar thalamus. That is why this pain is diffuse and carries strong emotional overtones. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "",
+   "These carry fast, sharp, well-localised pain.",
+   "A-beta fibres carry touch and pressure.",
+   "These carry proprioception."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_088",
+  "subject": "Physiology",
+  "sub_topic": "CNS: pain",
+  "stem": "Rubbing the skin around an injury reduces the pain. According to the gate control theory, this occurs because",
+  "options": [
+   "C fibres directly inhibit the dorsal column nuclei",
+   "Large A-beta fibres activate inhibitory interneurons in the substantia gelatinosa",
+   "Descending noradrenergic fibres from the cerebellum inhibit pain",
+   "Rubbing blocks Na+ channels in nociceptors"
+  ],
+  "correct_index": 1,
+  "explanation": "In Melzack and Wall's model, touch afferents activate lamina II inhibitory interneurons that reduce transmission from nociceptors to projection neurons. TENS works on the same principle. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "C fibres open the gate; they do not close it.",
+   "",
+   "The descending pain control system arises from the PAG and rostral medulla, not the cerebellum.",
+   "Rubbing is a mechanical stimulus, not a channel blocker."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_089",
+  "subject": "Physiology",
+  "sub_topic": "CNS: cerebellum",
+  "stem": "A lesion of the right cerebellar hemisphere produces",
+  "options": [
+   "Left-sided intention tremor",
+   "Right-sided resting pill-rolling tremor",
+   "Right-sided intention tremor and dysdiadochokinesia",
+   "Right extensor plantar response"
+  ],
+  "correct_index": 2,
+  "explanation": "The cerebellar hemisphere connects to the contralateral cortex through decussating pathways (dentatothalamic and corticopontocerebellar). The two crossings make the deficits ipsilateral: ataxia, past-pointing, hypotonia and pendular jerks. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "Cerebellar signs are ipsilateral, because the pathways cross twice.",
+   "Resting tremor is a basal ganglia (Parkinsonian) sign.",
+   "",
+   "This is an upper motor neuron sign."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_090",
+  "subject": "Physiology",
+  "sub_topic": "CNS: basal ganglia",
+  "stem": "Violent flinging movements of the left arm and leg after a small stroke indicate a lesion of the",
+  "options": [
+   "Left subthalamic nucleus",
+   "Right caudate nucleus",
+   "Right substantia nigra pars compacta",
+   "Right subthalamic nucleus"
+  ],
+  "correct_index": 3,
+  "explanation": "Loss of the excitatory subthalamic drive to the GPi reduces inhibitory pallidal output to the thalamus. The result is excessive thalamocortical activity and large-amplitude proximal involuntary movements. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "Basal ganglia signs are contralateral to the lesion.",
+   "Caudate lesions are associated with chorea, not hemiballismus.",
+   "This causes Parkinsonian hypokinesia.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_091",
+  "subject": "Physiology",
+  "sub_topic": "CNS: basal ganglia",
+  "stem": "In Parkinson's disease, which change in basal ganglia circuitry accounts for bradykinesia?",
+  "options": [
+   "Increased inhibitory output from the internal globus pallidus to the thalamus",
+   "Increased activity of the direct (D1) pathway",
+   "Decreased activity of the subthalamic nucleus",
+   "Loss of cholinergic striatal interneurons"
+  ],
+  "correct_index": 0,
+  "explanation": "Nigrostriatal dopamine loss reduces D1 (direct) activity and disinhibits the D2 (indirect) pathway. Both effects increase GPi/SNr inhibition of the VA/VL thalamus, so cortical drive for movement falls. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "",
+   "Dopamine loss reduces direct pathway activity.",
+   "The STN becomes overactive, which is why STN deep brain stimulation helps.",
+   "These become relatively overactive, which is why anticholinergics help tremor."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_092",
+  "subject": "Physiology",
+  "sub_topic": "GI hormones",
+  "stem": "Which of the following statements about cholecystokinin (CCK) are correct?\n1. It is released by I cells in response to fatty acids and amino acids in the duodenum.\n2. It causes contraction of the gallbladder.\n3. It relaxes the sphincter of Oddi.\n4. It speeds up gastric emptying.",
+  "options": [
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 2 and 3 only",
+   "1, 2, 3 and 4"
+  ],
+  "correct_index": 2,
+  "explanation": "CCK also stimulates pancreatic enzyme secretion and promotes satiety. By slowing gastric emptying, it matches delivery of fat to digestive capacity. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "Statement 3 is also correct.",
+   "Statement 4 is wrong and statement 1 is correct.",
+   "",
+   "CCK slows gastric emptying."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_093",
+  "subject": "Physiology",
+  "sub_topic": "GI hormones",
+  "stem": "Intravenous secretin causes a paradoxical rise in serum gastrin. This is characteristic of",
+  "options": [
+   "Pernicious anaemia",
+   "Gastrinoma (Zollinger-Ellison syndrome)",
+   "Proton pump inhibitor therapy",
+   "Antral G-cell hyperplasia"
+  ],
+  "correct_index": 1,
+  "explanation": "Normally, secretin (from duodenal S cells) inhibits G cells. Gastrinoma cells express secretin receptors and release gastrin in response. The resulting acid hypersecretion causes multiple or distal ulcers and diarrhoea. Source: Ganong's Review of Medical Physiology.",
+  "w": [
+   "Gastrin is high because of achlorhydria, but it does not rise with secretin.",
+   "",
+   "This raises gastrin, but without a secretin response.",
+   "Secretin typically does not increase gastrin here."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_094",
+  "subject": "Physiology",
+  "sub_topic": "GI hormones",
+  "stem": "Oral glucose produces a larger insulin response than an equivalent intravenous glucose load. This is mainly due to",
+  "options": [
+   "Release of secretin from S cells",
+   "Vagal inhibition of beta cells",
+   "Release of GLP-1 and GIP from the gut",
+   "Faster absorption raising plasma glucose higher than IV"
+  ],
+  "correct_index": 2,
+  "explanation": "This is the incretin effect. GLP-1 (from L cells) and GIP (from K cells) amplify glucose-dependent insulin secretion. GLP-1 agonists and DPP-4 inhibitors exploit this effect in type 2 diabetes. Source: Ganong's Review of Medical Physiology.",
+  "w": [
+   "Secretin acts mainly on pancreatic bicarbonate, not insulin.",
+   "Vagal stimulation increases insulin.",
+   "",
+   "The IV load is matched to give similar or higher glycaemia."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_095",
+  "subject": "Physiology",
+  "sub_topic": "Muscle: excitation-contraction coupling",
+  "stem": "The key difference between excitation-contraction coupling in skeletal and cardiac muscle is that cardiac muscle",
+  "options": [
+   "Lacks T-tubules completely",
+   "Uses calmodulin instead of troponin C",
+   "Has DHPR mechanically coupled to RyR1",
+   "Needs Ca2+ influx through L-type channels to trigger Ca2+ release from the sarcoplasmic reticulum"
+  ],
+  "correct_index": 3,
+  "explanation": "In skeletal muscle, the DHPR voltage sensor is physically linked to RyR1, so extracellular Ca2+ is not needed. Cardiac muscle relies on Ca2+-induced Ca2+ release through RyR2, so contractility depends on extracellular Ca2+ and is reduced by L-type blockers. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "Ventricular myocytes have T-tubules (at the Z lines).",
+   "Calmodulin regulation is a feature of smooth muscle.",
+   "That is the skeletal muscle mechanism.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_096",
+  "subject": "Physiology",
+  "sub_topic": "Muscle: smooth muscle",
+  "stem": "In smooth muscle, a rise in intracellular Ca2+ initiates contraction by binding to",
+  "options": [
+   "Calmodulin, which activates myosin light chain kinase",
+   "Troponin C on thin filaments",
+   "Tropomyosin, which uncovers myosin-binding sites",
+   "Myosin light chain phosphatase, which activates it"
+  ],
+  "correct_index": 0,
+  "explanation": "Phosphorylation of the regulatory light chain by Ca2+-calmodulin-MLCK allows cross-bridge cycling. Dephosphorylation while cross-bridges stay attached produces the slow, economical 'latch' state. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "",
+   "Smooth muscle lacks troponin.",
+   "Ca2+ does not bind tropomyosin.",
+   "The phosphatase causes relaxation."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_097",
+  "subject": "Physiology",
+  "sub_topic": "Blood: erythropoiesis",
+  "stem": "Which of the following statements about erythropoietin are correct?\n1. In adults it is produced mainly by peritubular interstitial cells of the renal cortex.\n2. Hypoxia stimulates its production through hypoxia-inducible factor.\n3. The liver is an extrarenal source.\n4. Serum erythropoietin is low in polycythaemia vera.",
+  "options": [
+   "1 and 2 only",
+   "1, 2 and 3 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "correct_index": 3,
+  "explanation": "The liver is the main source in the fetus and a minor source in adults. In polycythaemia vera, a JAK2-driven autonomous red cell mass suppresses EPO. In secondary polycythaemia (hypoxia, EPO-secreting tumours), EPO is raised. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "Statements 3 and 4 are also correct.",
+   "Statement 4 is also correct.",
+   "Statement 1 is also correct.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_098",
+  "subject": "Physiology",
+  "sub_topic": "Blood: coagulation",
+  "stem": "A boy with haemarthroses has which pattern of laboratory findings in haemophilia A?",
+  "options": [
+   "Prolonged PT, normal aPTT, normal bleeding time",
+   "Prolonged aPTT, normal PT, normal bleeding time",
+   "Normal aPTT and PT, prolonged bleeding time",
+   "Prolonged aPTT and bleeding time, normal PT"
+  ],
+  "correct_index": 1,
+  "explanation": "Factor VIII belongs to the intrinsic pathway, measured by the aPTT. Platelet plug formation is intact, so bleeding time is normal. Bleeding is deep (joints, muscles) rather than mucocutaneous. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "This pattern is seen in factor VII deficiency.",
+   "",
+   "This suggests a platelet disorder.",
+   "This suggests von Willebrand disease."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_099",
+  "subject": "Physiology",
+  "sub_topic": "Blood: blood groups",
+  "stem": "A patient's red cells type as group O, but his serum agglutinates group O red cells. The most likely explanation is",
+  "options": [
+   "Rh-null phenotype",
+   "Weak A subgroup (A2)",
+   "Bombay phenotype, lacking H antigen and having anti-H",
+   "Acquired B phenomenon"
+  ],
+  "correct_index": 2,
+  "explanation": "Bombay (hh) individuals cannot make the H substance, the precursor of A and B antigens, so they type as O. Their serum contains anti-A, anti-B and anti-H. They can receive blood only from other Bombay donors. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "This affects Rh antigens, not ABO typing.",
+   "A2 cells still carry H antigen, and the serum would not lyse O cells.",
+   "",
+   "This makes A cells appear as AB; it does not cause anti-H."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ },
+ {
+  "id": "hy_e_100",
+  "subject": "Physiology",
+  "sub_topic": "Blood: coagulation",
+  "stem": "All of the following are vitamin K-dependent clotting factors EXCEPT",
+  "options": [
+   "Factor II",
+   "Factor VII",
+   "Factor X",
+   "Factor V"
+  ],
+  "correct_index": 3,
+  "explanation": "Vitamin K is a cofactor for gamma-carboxylation of glutamate residues in factors II, VII, IX and X and in proteins C and S. Factors V and VIII are labile cofactors that are not vitamin K-dependent. Source: Guyton & Hall Textbook of Medical Physiology.",
+  "w": [
+   "Prothrombin is vitamin K-dependent.",
+   "Factor VII is vitamin K-dependent and the first to fall with warfarin (shortest half-life).",
+   "Factor X is vitamin K-dependent.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · high-yield theme"
+ }
+]

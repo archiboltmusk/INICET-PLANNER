@@ -1,0 +1,1036 @@
+[
+ {
+  "id": "hy_c_001",
+  "subject": "ENT",
+  "sub_topic": "Ear - CSOM unsafe",
+  "stem": "A 24-year-old man has had scanty, persistently foul-smelling discharge from the left ear for 2 years. Otoscopy shows a posterosuperior attic retraction pocket filled with white flaky debris; the pars tensa is intact. Audiometry shows a mild conductive loss. What is the most appropriate management?",
+  "options": [
+   "Mastoid surgery to eradicate the cholesteatoma (e.g., canal wall down / modified radical mastoidectomy)",
+   "Long-term topical quinolone drops with aural toilet",
+   "Myringotomy with ventilation tube insertion",
+   "Type I tympanoplasty (myringoplasty) alone"
+  ],
+  "correct_index": 0,
+  "explanation": "Attic/marginal disease with scanty foul discharge and keratin flakes is unsafe (squamosal) CSOM with cholesteatoma. Cholesteatoma erodes bone and risks intracranial complications, so surgical eradication is mandatory; a safe, dry ear comes first and hearing reconstruction second. Safe (tubotympanic) CSOM has a central perforation with profuse mucoid discharge. Source: Dhingra, Diseases of Ear, Nose and Throat.",
+  "w": [
+   "",
+   "Drops cannot remove keratin matrix; they only temporise.",
+   "Grommets treat otitis media with effusion, not cholesteatoma.",
+   "Myringoplasty closes a central perforation in inactive mucosal disease only."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_002",
+  "subject": "ENT",
+  "sub_topic": "Ear - otosclerosis / tympanometry",
+  "stem": "A 28-year-old woman has slowly progressive bilateral hearing loss that worsened during her recent pregnancy. She hears speech better in noisy surroundings. Both tympanic membranes look normal and Rinne is negative bilaterally. Which tympanogram is most likely?",
+  "options": [
+   "Type A",
+   "Type As",
+   "Type Ad",
+   "Type B"
+  ],
+  "correct_index": 1,
+  "explanation": "Otosclerosis fixes the stapes footplate and stiffens the ossicular chain: normal middle-ear pressure with reduced compliance gives a shallow type As curve. Ad (hypercompliant) suggests ossicular discontinuity or a flaccid drum; B (flat) suggests fluid or perforation. Paracusis Willisii, worsening in pregnancy and a Carhart notch on bone conduction are classic clues. Source: Dhingra, Diseases of Ear, Nose and Throat.",
+  "w": [
+   "Type A is normal compliance; the classic stiff stapes gives As.",
+   "",
+   "Ad is a hypercompliant system, e.g., ossicular discontinuity.",
+   "Type B (flat) indicates effusion or perforation; the drums are normal here."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_003",
+  "subject": "ENT",
+  "sub_topic": "Ear - tuning fork tests",
+  "stem": "A 40-year-old has difficulty hearing. Weber's test (512 Hz) lateralises to the left ear. Rinne's test is negative on the left and positive on the right. What is the most likely interpretation?",
+  "options": [
+   "Right sensorineural hearing loss",
+   "Left dead ear with a false-negative Rinne",
+   "Left conductive hearing loss",
+   "Bilateral equal conductive hearing loss"
+  ],
+  "correct_index": 2,
+  "explanation": "Weber lateralises towards the ear with conductive loss (or away from the ear with sensorineural loss); a negative Rinne on the same side (BC > AC) confirms conductive loss on the left. In a left dead ear, Weber would go to the right (better cochlea), and the false-negative Rinne is unmasked by masking the good ear with a Barany noise box. Source: Dhingra, Diseases of Ear, Nose and Throat.",
+  "w": [
+   "Right SNHL sends Weber left, but Rinne would be positive on both sides.",
+   "A dead left ear sends Weber to the right, not the left.",
+   "",
+   "Equal bilateral conductive loss gives a central Weber."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_004",
+  "subject": "ENT",
+  "sub_topic": "Ear - facial nerve (Bell's palsy)",
+  "stem": "A 35-year-old woman woke up unable to close her right eye, with drooping of the right angle of the mouth; onset was 24 hours ago. The right forehead is also weak. Ear, parotid and neurological examination is otherwise normal and there are no vesicles. What is the best next step?",
+  "options": [
+   "Immediate facial nerve decompression surgery",
+   "Oral antiviral (valacyclovir) alone",
+   "MRI brain, withholding treatment until the result is available",
+   "Oral corticosteroids started now, with eye protection"
+  ],
+  "correct_index": 3,
+  "explanation": "Acute idiopathic LMN facial palsy (Bell's palsy) seen within 72 hours should receive oral steroids; antivirals may be added but never alone, and the cornea must be protected. Routine imaging is not needed for a typical presentation. Forehead involvement indicates an LMN lesion, as UMN lesions spare the forehead due to bilateral cortical supply. Source: AAO-HNS Clinical Practice Guideline: Bell's Palsy (2013).",
+  "w": [
+   "Surgical decompression is not routine first-line therapy.",
+   "Antiviral monotherapy is not recommended; steroids are the key drug.",
+   "Imaging is not routinely needed and must not delay steroids.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_005",
+  "subject": "ENT",
+  "sub_topic": "Ear - temporal bone fracture",
+  "stem": "Assertion (A): Facial nerve palsy is more frequently associated with transverse than with longitudinal fractures of the temporal bone.\nReason (R): Transverse fractures are the more common type of temporal bone fracture.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 2,
+  "explanation": "Longitudinal fractures are the commoner type but cause facial palsy less often (usually delayed and incomplete); they typically give conductive loss and bleeding from the ear. Transverse fractures, usually from occipital blows, cross the labyrinth/IAC and more often cause immediate facial palsy, sensorineural loss and vertigo. The newer otic-capsule sparing vs violating classification predicts complications better. Source: Dhingra, Diseases of Ear, Nose and Throat.",
+  "w": [
+   "R is false: longitudinal fractures are commoner.",
+   "R is false, so this option cannot apply.",
+   "",
+   "A is true: facial palsy is commoner with transverse fractures."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_006",
+  "subject": "ENT",
+  "sub_topic": "Nose - epistaxis",
+  "stem": "A 12-year-old boy presents with bleeding from the right nostril for 10 minutes after nose-picking. He is haemodynamically stable. Anterior rhinoscopy shows a bleeding point on the anterior part of the nasal septum. What is the best immediate step?",
+  "options": [
+   "Anterior nasal packing with ribbon gauze",
+   "Firm pinching of the soft part of the nose with the patient sitting up and leaning forward",
+   "Posterior nasal packing with a Foley catheter",
+   "Endoscopic sphenopalatine artery ligation"
+  ],
+  "correct_index": 1,
+  "explanation": "Bleeding from Little's area (Kiesselbach's plexus) is the commonest epistaxis in children and young adults and usually stops with sustained digital pressure (Trotter's method): sit up, lean forward, pinch the cartilaginous nose, breathe through the mouth. If it persists, cauterise the visible point (e.g., silver nitrate), then pack anteriorly. Posterior packing and SPA ligation are for posterior bleeds, typically in elderly hypertensives. Source: Dhingra, Diseases of Ear, Nose and Throat; NICE CKS Epistaxis.",
+  "w": [
+   "Packing is for failure of pressure and cautery.",
+   "",
+   "Posterior packing is for posterior bleeds not controlled anteriorly.",
+   "SPA ligation is for refractory posterior epistaxis."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_007",
+  "subject": "ENT",
+  "sub_topic": "Nose - JNA",
+  "stem": "A 14-year-old boy has recurrent profuse unilateral epistaxis and progressive nasal obstruction. Endoscopy shows a smooth, lobulated reddish mass in the posterior nasal cavity. Contrast CT shows a vividly enhancing mass widening the pterygopalatine fossa with anterior bowing of the posterior wall of the maxillary sinus. All of the following are appropriate in his work-up or management EXCEPT:",
+  "options": [
+   "Contrast-enhanced MRI to map intracranial and orbital extension",
+   "Pre-operative angiography with embolisation",
+   "Office punch biopsy of the mass to confirm the diagnosis",
+   "Endoscopic excision of the tumour"
+  ],
+  "correct_index": 2,
+  "explanation": "Adolescent male with recurrent epistaxis and a nasopharyngeal mass is juvenile nasopharyngeal angiofibroma; anterior bowing of the posterior maxillary wall is the Holman-Miller (antral) sign. Biopsy is contraindicated because of torrential haemorrhage; diagnosis is radiological. Treatment is surgical (increasingly endoscopic) after embolisation of feeders, mainly from the internal maxillary artery. Source: Dhingra, Diseases of Ear, Nose and Throat.",
+  "w": [
+   "MRI is appropriate for staging soft-tissue extent.",
+   "Embolisation reduces intra-operative blood loss.",
+   "",
+   "Surgery, often endoscopic, is the treatment of choice."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_008",
+  "subject": "ENT",
+  "sub_topic": "Nose - complications of sinusitis",
+  "stem": "Regarding complications of sinusitis, which of the following statements are correct?\n1. Ethmoid sinusitis is the most common source of orbital complications in children.\n2. In Chandler's classification, subperiosteal abscess precedes orbital cellulitis.\n3. Pott's puffy tumour is a subperiosteal abscess with frontal bone osteomyelitis secondary to frontal sinusitis.\n4. Bilateral orbital signs with palsies of cranial nerves III, IV and VI suggest cavernous sinus thrombosis.",
+  "options": [
+   "1 and 2 only",
+   "2, 3 and 4",
+   "1, 2 and 3",
+   "1, 3 and 4"
+  ],
+  "correct_index": 3,
+  "explanation": "Chandler's order is I preseptal cellulitis, II orbital cellulitis, III subperiosteal abscess, IV orbital abscess, V cavernous sinus thrombosis, so statement 2 is wrong. The thin lamina papyracea makes ethmoiditis the usual orbital source in children. Cavernous sinus thrombosis classically spreads to the other eye and involves III, IV, V1-V2 and VI. Source: Dhingra, Diseases of Ear, Nose and Throat; Chandler classification.",
+  "w": [
+   "Includes false statement 2 and omits true 3 and 4.",
+   "Statement 2 is false (subperiosteal abscess is stage III, after orbital cellulitis).",
+   "Statement 2 is false and true statement 4 is omitted.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_009",
+  "subject": "ENT",
+  "sub_topic": "Larynx - bilateral vocal cord palsy",
+  "stem": "Six hours after total thyroidectomy, a 45-year-old woman develops inspiratory stridor and increasing respiratory distress. Her voice is fairly good. The neck is not swollen and the wound is dry. Flexible laryngoscopy shows both vocal cords lying in the paramedian position. What is the most appropriate immediate management?",
+  "options": [
+   "Secure the airway, classically by tracheostomy",
+   "Intravenous calcium gluconate",
+   "Injection medialisation of the vocal cords",
+   "Observation with steroids and humidified oxygen"
+  ],
+  "correct_index": 0,
+  "explanation": "Bilateral recurrent laryngeal nerve palsy leaves both cords paramedian, so the glottic chink is narrow: stridor and dyspnoea dominate while the voice remains fair. The immediate priority is the airway (re-intubation as a bridge, tracheostomy as the classic answer); cord lateralisation procedures (cordotomy/arytenoidectomy) later allow decannulation. Hypocalcaemia causes tetany with normally mobile cords, and a neck haematoma needs wound opening. Source: Dhingra, Diseases of Ear, Nose and Throat.",
+  "w": [
+   "",
+   "Calcium treats hypocalcaemic tetany; the cords here are paralysed.",
+   "Medialisation narrows the airway further; it is for unilateral palsy with a breathy voice.",
+   "Distress with fixed paramedian cords needs a secure airway, not observation."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_010",
+  "subject": "ENT",
+  "sub_topic": "Larynx - laryngomalacia",
+  "stem": "A 6-week-old infant has had noisy breathing since the second week of life. The stridor is inspiratory, worse when supine, crying or feeding, and less when prone. He feeds well and is gaining weight. Flexible laryngoscopy shows an omega-shaped, curled epiglottis with short aryepiglottic folds that prolapse inwards on inspiration. What is the most appropriate management?",
+  "options": [
+   "Urgent supraglottoplasty",
+   "Reassurance with follow-up of growth and symptoms",
+   "Tracheostomy",
+   "Systemic corticosteroids"
+  ],
+  "correct_index": 1,
+  "explanation": "Laryngomalacia is the commonest cause of congenital stridor; most cases are mild and resolve spontaneously as the larynx matures, usually by 18-24 months. Supraglottoplasty is reserved for severe disease: failure to thrive, feeding difficulty, apnoea, cyanosis or cor pulmonale. Coexisting reflux is often treated. Source: Dhingra, Diseases of Ear, Nose and Throat; Scott-Brown's Otorhinolaryngology.",
+  "w": [
+   "Supraglottoplasty is only for severe disease (failure to thrive, apnoea).",
+   "",
+   "Tracheostomy is almost never needed.",
+   "Steroids have no role; this is not inflammatory oedema."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_011",
+  "subject": "ENT",
+  "sub_topic": "Larynx - carcinoma staging",
+  "stem": "A 62-year-old chronic smoker has 4 months of progressive hoarseness. Laryngoscopy and CT show a squamous cell carcinoma confined to the right side of the glottis with a fixed right vocal cord; the outer cortex of the thyroid cartilage is intact and there are no palpable neck nodes. What is the T stage (AJCC 8th edition)?",
+  "options": [
+   "T3",
+   "T2",
+   "T4a",
+   "T1a"
+  ],
+  "correct_index": 0,
+  "explanation": "Glottic cancer: T1 is limited to the cord(s) with normal mobility (T1a one cord, T1b both); T2 extends to supra- or subglottis and/or impairs cord mobility; T3 has cord fixation and/or paraglottic space or inner-cortex thyroid cartilage invasion; T4a goes through the outer cortex or beyond the larynx. Impaired (T2) versus fixed (T3) cord is the key discriminator. Source: AJCC Cancer Staging Manual, 8th edition.",
+  "w": [
+   "",
+   "T2 means impaired, not fixed, cord mobility.",
+   "T4a needs invasion through the outer cortex or extralaryngeal spread.",
+   "T1a requires normal cord mobility."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_012",
+  "subject": "Ophthalmology",
+  "sub_topic": "Glaucoma - acute angle closure",
+  "stem": "A 62-year-old hypermetropic woman presents with severe right eye pain, haloes, headache and vomiting. The eye is red with a hazy cornea, shallow anterior chamber and a mid-dilated, non-reactive, vertically oval pupil; IOP is markedly raised. After IOP is lowered with IV mannitol, acetazolamide and topical drugs and the cornea clears, what is the definitive management?",
+  "options": [
+   "Long-term pilocarpine drops in both eyes",
+   "Trabeculectomy in the right eye",
+   "Topical atropine to relieve the block",
+   "Laser peripheral iridotomy in the right eye and prophylactically in the left eye"
+  ],
+  "correct_index": 3,
+  "explanation": "Acute primary angle closure results from relative pupillary block; Nd:YAG laser peripheral iridotomy gives aqueous an alternative path to the anterior chamber and is definitive if the angle is not synechially closed. The fellow eye shares the narrow-angle anatomy, so it gets prophylactic LPI. Trabeculectomy is for uncontrolled IOP or extensive synechial closure; clear lens extraction is a current alternative in selected patients (EAGLE trial). Source: Khurana, Comprehensive Ophthalmology; AAO PPP Primary Angle-Closure Disease.",
+  "w": [
+   "Pilocarpine is a temporising adjunct, not definitive.",
+   "Filtering surgery is for failed iridotomy or extensive synechiae.",
+   "Mydriatics worsen pupillary block and angle closure.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_013",
+  "subject": "Ophthalmology",
+  "sub_topic": "Glaucoma - drug side effects",
+  "stem": "A 4-month-old with congenital glaucoma awaiting surgery is started on topical anti-glaucoma medication. He soon becomes excessively drowsy with episodes of apnoea. Which drug is most likely responsible?",
+  "options": [
+   "Timolol",
+   "Latanoprost",
+   "Brimonidine",
+   "Dorzolamide"
+  ],
+  "correct_index": 2,
+  "explanation": "Brimonidine (alpha-2 agonist) crosses the blood-brain barrier and can cause CNS depression, hypotonia, bradycardia and apnoea in infants; it is contraindicated below 2 years of age. Definitive treatment of congenital glaucoma is surgical (goniotomy/trabeculotomy). Timolol risks bronchospasm and bradycardia; latanoprost causes iris pigmentation and lash growth. Source: Khurana, Comprehensive Ophthalmology; AAO BCSC Glaucoma.",
+  "w": [
+   "Timolol mainly risks bronchospasm and bradycardia; CNS depression in infants is classic for brimonidine.",
+   "Latanoprost side effects are local (iris pigmentation, lash growth).",
+   "",
+   "Dorzolamide mainly causes stinging and bitter taste."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_014",
+  "subject": "Ophthalmology",
+  "sub_topic": "Glaucoma - drug mechanisms",
+  "stem": "Regarding anti-glaucoma drugs, which statements are correct?\n1. Latanoprost lowers IOP mainly by increasing uveoscleral outflow.\n2. Timolol lowers IOP by reducing aqueous production.\n3. Pilocarpine is the drug of choice for aqueous misdirection (malignant) glaucoma.\n4. Systemic acetazolamide can cause paraesthesia and renal stones.",
+  "options": [
+   "1, 2 and 4",
+   "1 and 3 only",
+   "2, 3 and 4",
+   "All of the above"
+  ],
+  "correct_index": 0,
+  "explanation": "Prostaglandin analogues increase uveoscleral outflow; beta-blockers and carbonic anhydrase inhibitors reduce aqueous secretion. In malignant glaucoma, miotics worsen the condition by moving the lens-iris diaphragm forward; cycloplegics (atropine) are used instead. Systemic CAIs cause paraesthesia, metabolic acidosis, hypokalaemia and calculi. Source: Khurana, Comprehensive Ophthalmology.",
+  "w": [
+   "",
+   "Statement 3 is false and true statements 2 and 4 are omitted.",
+   "Statement 3 is false (miotics worsen malignant glaucoma).",
+   "Statement 3 is false."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_015",
+  "subject": "Ophthalmology",
+  "sub_topic": "Cornea - keratitis organisms",
+  "stem": "A 26-year-old soft contact lens wearer who rinses her lenses in tap water presents with 3 weeks of a painful red eye. The pain is severe and out of proportion to the clinical signs. Slit-lamp examination shows a ring-shaped stromal infiltrate and radial perineural infiltrates. What is the most likely organism?",
+  "options": [
+   "Pseudomonas aeruginosa",
+   "Acanthamoeba",
+   "Fusarium",
+   "Herpes simplex virus"
+  ],
+  "correct_index": 1,
+  "explanation": "Contact lens wear with tap-water exposure, pain disproportionate to signs, radial keratoneuritis and a ring infiltrate are classic for Acanthamoeba keratitis. Diagnosis is by scraping/culture on non-nutrient agar with E. coli overlay or confocal microscopy; treatment is topical biguanides (PHMB/chlorhexidine) with or without diamidines. Pseudomonas also affects lens wearers but produces a rapidly progressive suppurative ulcer with copious discharge. Source: Khurana, Comprehensive Ophthalmology; AAO BCSC Cornea.",
+  "w": [
+   "Pseudomonas causes a rapidly progressive suppurative ulcer, not radial perineuritis.",
+   "",
+   "Fusarium follows vegetative trauma: feathery margins, satellite lesions.",
+   "HSV gives a dendritic ulcer with reduced corneal sensation."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_016",
+  "subject": "Ophthalmology",
+  "sub_topic": "Cornea - fungal keratitis",
+  "stem": "A 45-year-old farmer was hit in the left eye by a paddy leaf 10 days ago. He now has a corneal ulcer with a dry, raised greyish-white slough, feathery margins, satellite lesions and a thick fixed hypopyon. KOH mount shows septate hyphae. What is the drug of choice?",
+  "options": [
+   "Topical moxifloxacin",
+   "Topical acyclovir",
+   "Topical polyhexamethylene biguanide",
+   "Topical natamycin 5%"
+  ],
+  "correct_index": 3,
+  "explanation": "Vegetative trauma with feathery margins, satellite lesions, immune ring and a thick immobile hypopyon indicates filamentous fungal keratitis (Fusarium/Aspergillus). Natamycin 5% is first line for filamentous fungi; MUTT I showed it to be better than topical voriconazole, especially for Fusarium. Amphotericin B is preferred for yeasts such as Candida, and topical steroids are avoided. Source: Khurana, Comprehensive Ophthalmology; Mycotic Ulcer Treatment Trial I (JAMA Ophthalmol 2013).",
+  "w": [
+   "Antibacterial; no antifungal activity.",
+   "Antiviral, used for HSV keratitis.",
+   "PHMB is for Acanthamoeba.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_017",
+  "subject": "Ophthalmology",
+  "sub_topic": "Cornea - keratoconus",
+  "stem": "A 19-year-old with allergic eye disease and habitual eye rubbing has progressively worsening myopic astigmatism. Retinoscopy shows a scissor reflex, and serial topography confirms inferior steepening with documented progression. The cornea is clear and of adequate thickness. Which treatment best halts progression?",
+  "options": [
+   "Penetrating keratoplasty",
+   "LASIK",
+   "Corneal collagen cross-linking with riboflavin and UV-A",
+   "Radial keratotomy"
+  ],
+  "correct_index": 2,
+  "explanation": "For progressive keratoconus with a clear cornea of adequate thickness, corneal collagen cross-linking (riboflavin + UV-A) is the treatment proven to halt progression; vision is corrected with spectacles or rigid gas-permeable lenses. Keratoplasty (DALK/PK) is for advanced disease with scarring or contact lens intolerance. LASIK and other ablative or incisional refractive surgery are contraindicated as they weaken the cornea and cause ectasia. Source: Khurana, Comprehensive Ophthalmology; Global Consensus on Keratoconus and Ectatic Diseases (2015).",
+  "w": [
+   "Keratoplasty is for advanced, scarred cornea or lens intolerance.",
+   "LASIK thins the cornea and is contraindicated in keratoconus.",
+   "",
+   "Incisional surgery weakens the cornea; contraindicated."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_018",
+  "subject": "Ophthalmology",
+  "sub_topic": "Retina - diabetic macular oedema",
+  "stem": "A 55-year-old man with diabetes has blurred central vision (6/18). OCT shows centre-involving diabetic macular oedema; fundus shows moderate NPDR without neovascularisation. What is the current first-line treatment?",
+  "options": [
+   "Panretinal photocoagulation",
+   "Intravitreal anti-VEGF injections",
+   "Focal/grid macular laser alone",
+   "Pars plana vitrectomy"
+  ],
+  "correct_index": 1,
+  "explanation": "For centre-involving DME with visual loss, intravitreal anti-VEGF (ranibizumab, aflibercept, bevacizumab) is first line per current guidance (DRCR.net Protocols I and T). The exam-classic answer was focal/grid laser for ETDRS clinically significant macular oedema; laser now mainly has a role in non-centre-involving oedema or as an adjunct. PRP is for PDR or very severe NPDR, not for macular oedema. Source: AAO PPP Diabetic Retinopathy; DRCR Retina Network trials.",
+  "w": [
+   "PRP treats proliferative disease and can worsen macular oedema.",
+   "",
+   "Classic ETDRS answer; anti-VEGF gives better vision in centre-involving DME.",
+   "Vitrectomy is for non-clearing vitreous haemorrhage or tractional detachment."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_019",
+  "subject": "Ophthalmology",
+  "sub_topic": "Retina - CRAO",
+  "stem": "Assertion (A): In central retinal artery occlusion, a cherry-red spot is seen at the macula.\nReason (R): The foveola lacks inner retinal layers and is nourished by the underlying choroid, so its red colour shows through while the surrounding ischaemic inner retina becomes opaque and white.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "The inner retina supplied by the central retinal artery becomes oedematous and opaque after occlusion; the thin foveola, devoid of inner layers, transmits the intact choroidal colour, producing the cherry-red spot. A cilioretinal artery, if present, can spare a tongue of retina and central vision. Contrast CRVO, which shows a 'blood and thunder' fundus with haemorrhages in all quadrants and dilated tortuous veins. Source: Khurana, Comprehensive Ophthalmology; AAO PPP Retinal and Ophthalmic Artery Occlusions.",
+  "w": [
+   "",
+   "R is the mechanism of A, so it does explain it.",
+   "R is a true statement.",
+   "A is true; the cherry-red spot is classic for CRAO."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_020",
+  "subject": "Ophthalmology",
+  "sub_topic": "Retina - CRVO",
+  "stem": "A 68-year-old hypertensive man has sudden painless loss of vision in one eye. Fundus shows extensive flame-shaped haemorrhages in all four quadrants, dilated tortuous veins, disc oedema and numerous cotton-wool spots; fluorescein angiography shows extensive capillary non-perfusion. Which complication is most important to watch for over the next few months?",
+  "options": [
+   "Rhegmatogenous retinal detachment",
+   "Cataract",
+   "Macular hole",
+   "Neovascular glaucoma"
+  ],
+  "correct_index": 3,
+  "explanation": "Ischaemic CRVO releases VEGF, causing iris and angle neovascularisation and neovascular glaucoma, classically around 3 months ('100-day glaucoma'). Follow-up includes undilated gonioscopy and iris examination for new vessels; PRP (with or without anti-VEGF) is given once neovascularisation appears. CRAO, by contrast, shows a pale retina with a cherry-red spot. Source: Khurana, Comprehensive Ophthalmology; AAO PPP Retinal Vein Occlusions.",
+  "w": [
+   "Not a typical complication of CRVO.",
+   "Not a VEGF-driven complication of CRVO.",
+   "Not a characteristic complication of CRVO.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_021",
+  "subject": "Ophthalmology",
+  "sub_topic": "Retina - retinal detachment",
+  "stem": "A 50-year-old myope reports sudden flashes of light and multiple floaters, followed two days later by a dark curtain over his upper field of vision. Pigment cells are seen in the anterior vitreous. Fundus shows a horseshoe tear and a grey, mobile, corrugated elevated retina in the inferior half. What type of retinal detachment is this?",
+  "options": [
+   "Rhegmatogenous retinal detachment",
+   "Tractional retinal detachment",
+   "Exudative retinal detachment",
+   "Posterior vitreous detachment without retinal detachment"
+  ],
+  "correct_index": 0,
+  "explanation": "Photopsia, floaters, a curtain-like field defect, a retinal break, 'tobacco dust' (Shafer sign) and a convex, corrugated, mobile retina indicate rhegmatogenous RD; myopia is a major risk factor. Tractional RD is concave, taut and immobile without a break (e.g., PDR); exudative RD has a smooth convex surface with shifting fluid and no break. The field defect is opposite to the detached retina. Source: Khurana, Comprehensive Ophthalmology; AAO BCSC Retina and Vitreous.",
+  "w": [
+   "",
+   "Tractional RD is concave and taut, without a break (e.g., PDR).",
+   "Exudative RD has shifting fluid and no break.",
+   "A field curtain with detached retina means RD, not simple PVD."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_022",
+  "subject": "Ophthalmology",
+  "sub_topic": "Lens - cataract types",
+  "stem": "Which of the following cataract types is INCORRECTLY matched with its association?",
+  "options": [
+   "Corticosteroid use - anterior subcapsular cataract",
+   "Galactosaemia - oil-droplet cataract",
+   "Myotonic dystrophy - Christmas-tree cataract",
+   "Chalcosis (copper foreign body) - sunflower cataract"
+  ],
+  "correct_index": 0,
+  "explanation": "Corticosteroids classically cause posterior subcapsular cataract. Other classic pairs: galactosaemia - oil droplet; myotonic dystrophy - polychromatic Christmas-tree; copper (chalcosis, Wilson's disease) - sunflower; diabetes - snowflake; atopic dermatitis - anterior shield-shaped. Source: Khurana, Comprehensive Ophthalmology.",
+  "w": [
+   "",
+   "Correct pairing.",
+   "Correct pairing.",
+   "Correct pairing."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_023",
+  "subject": "Ophthalmology",
+  "sub_topic": "Squint - third nerve palsy",
+  "stem": "A 52-year-old woman has a sudden severe headache and drooping of the left eyelid. The left eye is deviated 'down and out' with a dilated, poorly reacting pupil. What is the next best step?",
+  "options": [
+   "Observe as a presumed microvascular palsy",
+   "Urgent CT or MR angiography of the brain",
+   "Prism glasses for diplopia",
+   "Ice-pack test for myasthenia gravis"
+  ],
+  "correct_index": 1,
+  "explanation": "A pupil-involving third nerve palsy with headache suggests compression by a posterior communicating artery aneurysm until proven otherwise: pupillomotor fibres lie superficially and are compressed early. Urgent CTA/MRA (or catheter angiography) is needed. Microvascular (diabetic/hypertensive) palsies typically spare the pupil because the ischaemia affects the core of the nerve. Myasthenia never involves the pupil. Source: Khurana, Comprehensive Ophthalmology; AAO BCSC Neuro-Ophthalmology.",
+  "w": [
+   "Pupil involvement plus headache makes compression likely; observation is unsafe.",
+   "",
+   "Symptomatic only; misses a life-threatening aneurysm.",
+   "Myasthenia spares the pupil."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_024",
+  "subject": "Ophthalmology",
+  "sub_topic": "Visual field defects",
+  "stem": "Following a right anterior temporal lobectomy for epilepsy, a patient notices a visual field defect. Which defect is most likely?",
+  "options": [
+   "Left inferior homonymous quadrantanopia",
+   "Bitemporal hemianopia",
+   "Left superior homonymous quadrantanopia",
+   "Right superior homonymous quadrantanopia"
+  ],
+  "correct_index": 2,
+  "explanation": "Meyer's loop (inferior optic radiation fibres representing the superior field) sweeps through the temporal lobe; damage gives a contralateral superior homonymous quadrantanopia ('pie in the sky'). Parietal lesions affect the superior fibres and give a contralateral inferior quadrantanopia ('pie on the floor'). Bitemporal hemianopia localises to the chiasm. Source: Khurana, Comprehensive Ophthalmology; AAO BCSC Neuro-Ophthalmology.",
+  "w": [
+   "Inferior quadrantanopia results from a parietal lesion.",
+   "Chiasmal lesion, e.g., pituitary adenoma.",
+   "",
+   "Wrong side; optic radiation lesions cause contralateral defects."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_025",
+  "subject": "Orthopedics",
+  "sub_topic": "Lower limb - neck of femur",
+  "stem": "A 32-year-old motorcyclist sustains a displaced intracapsular (subcapital) fracture of the right femoral neck. He has no other injuries. What is the most appropriate treatment?",
+  "options": [
+   "Hemiarthroplasty",
+   "Total hip replacement",
+   "Urgent anatomical reduction and internal fixation (e.g., cannulated screws)",
+   "Prolonged skin traction and bed rest"
+  ],
+  "correct_index": 2,
+  "explanation": "In young patients the femoral head is preserved: urgent anatomical reduction (closed or open) with stable internal fixation minimises avascular necrosis and non-union. In elderly patients with displaced (Garden III/IV) fractures, arthroplasty (hemi or total) is preferred. Displacement disrupts the retinacular vessels from the medial circumflex femoral artery, explaining AVN. Source: Apley & Solomon's System of Orthopaedics and Trauma; Maheshwari, Essential Orthopaedics.",
+  "w": [
+   "Arthroplasty is for elderly or low-demand patients.",
+   "Replacement sacrifices the head in a young patient; head preservation is the goal.",
+   "",
+   "Conservative care of a displaced fracture leads to non-union and complications."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_026",
+  "subject": "Orthopedics",
+  "sub_topic": "Lower limb - ACL tests",
+  "stem": "A 24-year-old footballer felt a 'pop' in his knee while pivoting, followed by rapid swelling within a few hours. Which clinical test is the most sensitive for the suspected ligament injury?",
+  "options": [
+   "Anterior drawer test",
+   "Lachman test",
+   "McMurray test",
+   "Pivot shift test"
+  ],
+  "correct_index": 1,
+  "explanation": "A non-contact pivoting injury with a pop and early haemarthrosis indicates an ACL tear. The Lachman test (anterior tibial translation in slight flexion) is the most sensitive clinical test; pivot shift is the most specific but hard to elicit in an awake, guarding patient. The anterior drawer at 90 degrees is less sensitive because hamstring spasm and the posterior meniscal horns resist translation. McMurray tests the menisci. Source: Apley & Solomon's System of Orthopaedics and Trauma; Maheshwari, Essential Orthopaedics.",
+  "w": [
+   "Less sensitive due to hamstring guarding and meniscal blocking.",
+   "",
+   "Tests for meniscal tears.",
+   "Most specific, not most sensitive."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_027",
+  "subject": "Orthopedics",
+  "sub_topic": "Lower limb - meniscal injury",
+  "stem": "Regarding meniscal injuries of the knee, which statements are correct?\n1. The medial meniscus is injured more often than the lateral meniscus.\n2. McMurray's test is used to detect meniscal tears.\n3. A bucket-handle tear can cause locking of the knee.\n4. Tears in the inner avascular (white-white) zone heal better than peripheral tears.",
+  "options": [
+   "1, 2 and 3",
+   "1, 2 and 4",
+   "2 and 4 only",
+   "All of the above"
+  ],
+  "correct_index": 0,
+  "explanation": "The medial meniscus is less mobile (attached to the deep MCL) and so is torn more often. A displaced bucket-handle fragment blocks full extension, causing true locking. Healing depends on blood supply: the peripheral red-red zone can be repaired, whereas the inner white-white zone does not heal and usually needs partial meniscectomy. Source: Apley & Solomon's System of Orthopaedics and Trauma; Maheshwari, Essential Orthopaedics.",
+  "w": [
+   "",
+   "Statement 4 is false.",
+   "Statement 4 is false; omits 1 and 3.",
+   "Statement 4 is false."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_028",
+  "subject": "Orthopedics",
+  "sub_topic": "Lower limb - ankle injury",
+  "stem": "A 25-year-old woman twisted (inverted) her ankle an hour ago. She walked four steps unaided at the scene and in the emergency department. There is swelling and tenderness just anterior and inferior to the lateral malleolus, but no bony tenderness over the posterior edge or tip of either malleolus, the base of the fifth metatarsal or the navicular. What is the next step?",
+  "options": [
+   "Ankle radiographs (AP, lateral and mortise views)",
+   "MRI of the ankle",
+   "Below-knee plaster cast",
+   "No radiograph; RICE, analgesia and early functional mobilisation"
+  ],
+  "correct_index": 3,
+  "explanation": "By the Ottawa ankle rules, radiographs are needed only with bone tenderness at the posterior edge or tip of either malleolus (ankle series) or at the base of the fifth metatarsal or navicular (foot series), or inability to bear weight for four steps both immediately and in the ED. Tenderness over the ATFL indicates a lateral ligament sprain, treated functionally. The rules are highly sensitive and cut unnecessary radiographs. Source: Ottawa Ankle Rules (Stiell et al.); Apley & Solomon's System of Orthopaedics and Trauma.",
+  "w": [
+   "Not indicated; no Ottawa criterion is met.",
+   "MRI is not a first-line test for an acute sprain.",
+   "Rigid immobilisation is not needed; functional treatment is better for sprains.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_029",
+  "subject": "Orthopedics",
+  "sub_topic": "Upper limb - supracondylar fracture nerve injury",
+  "stem": "A 7-year-old boy has an extension-type supracondylar fracture of the humerus with posterolateral displacement of the distal fragment. He cannot flex the interphalangeal joint of the thumb or the distal interphalangeal joint of the index finger and cannot make an 'O' with the thumb and index finger. Sensation over the hand is normal. Which nerve is injured?",
+  "options": [
+   "Radial nerve",
+   "Anterior interosseous nerve",
+   "Ulnar nerve",
+   "Posterior interosseous nerve"
+  ],
+  "correct_index": 1,
+  "explanation": "The AIN (motor branch of the median nerve) supplies FPL, FDP to the index (and middle) finger and pronator quadratus; injury abolishes the 'OK' sign with no sensory loss. It is the commonest nerve injured in extension-type supracondylar fractures, especially with posterolateral displacement; posteromedial displacement endangers the radial nerve. The ulnar nerve is at risk in flexion-type fractures and with medial pin placement. Source: Apley & Solomon's System of Orthopaedics and Trauma; Rockwood and Wilkins' Fractures in Children.",
+  "w": [
+   "Radial nerve: wrist and finger drop with sensory loss over the first web space.",
+   "",
+   "Ulnar nerve: clawing, interossei weakness and little finger sensory loss.",
+   "PIN: finger drop without wrist drop; spares FPL and FDP."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_030",
+  "subject": "Orthopedics",
+  "sub_topic": "Upper limb - compartment syndrome",
+  "stem": "A 9-year-old boy has a forearm fracture treated in an above-elbow plaster cast. Six hours later he is crying with increasing pain unrelieved by analgesics, and passive extension of his fingers is very painful. The radial pulse is palpable and the fingers are pink. What is the next best step?",
+  "options": [
+   "Reassure, as a palpable pulse excludes compartment syndrome",
+   "Elevate the limb high above the heart and give stronger analgesia",
+   "Split the cast and padding down to skin along its full length, keep the limb at heart level and reassess; fasciotomy if not relieved",
+   "Arrange Doppler ultrasound of the brachial artery"
+  ],
+  "correct_index": 2,
+  "explanation": "Pain out of proportion and pain on passive stretch are the earliest and most reliable signs of compartment syndrome; loss of pulse is late and the pulse is usually preserved. First release all circumferential dressings to skin; if symptoms persist, urgent fasciotomy prevents Volkmann's ischaemic contracture. High elevation lowers arterial perfusion pressure, so keep the limb at heart level. Source: Apley & Solomon's System of Orthopaedics and Trauma; BOAST guideline on Compartment Syndrome.",
+  "w": [
+   "The pulse persists in most compartment syndromes; its loss is a late sign.",
+   "Elevation above the heart lowers perfusion pressure; analgesia masks progression.",
+   "",
+   "Doppler cannot exclude compartment syndrome and delays decompression."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_031",
+  "subject": "Orthopedics",
+  "sub_topic": "Upper limb - humerus shaft and radial nerve",
+  "stem": "A 30-year-old has a closed spiral fracture at the junction of the middle and distal thirds of the humeral shaft after a fall. He has wrist drop and sensory loss over the dorsum of the first web space. The fracture is treated in a functional brace. What is the most appropriate management of the nerve injury?",
+  "options": [
+   "Immediate surgical exploration of the radial nerve",
+   "Immediate tendon transfers",
+   "Nerve conduction study within 24 hours to decide on exploration",
+   "Observation with a wrist (cock-up) splint and physiotherapy; explore if no recovery after a few months"
+  ],
+  "correct_index": 3,
+  "explanation": "Radial nerve palsy with a closed humeral shaft fracture (classically the distal-third spiral Holstein-Lewis fracture) is usually a neurapraxia and most recover spontaneously, so expectant management with splintage is standard. Early exploration is indicated for open fractures, associated vascular injury, or (classical teaching) palsy appearing after manipulation. Tendon transfers are a late salvage option. Source: Apley & Solomon's System of Orthopaedics and Trauma; Maheshwari, Essential Orthopaedics.",
+  "w": [
+   "Early exploration is for open fractures or vascular injury.",
+   "Transfers are a late salvage after failed recovery.",
+   "Wallerian degeneration takes days; very early NCS cannot separate neurapraxia from transection.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_032",
+  "subject": "Orthopedics",
+  "sub_topic": "Upper limb - Colles fracture",
+  "stem": "Assertion (A): Rupture of the extensor pollicis longus tendon is a recognised late complication of a minimally displaced distal radius (Colles') fracture.\nReason (R): The tendon, as it turns around Lister's tubercle, is vulnerable to ischaemia and attrition at the fracture site.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 0,
+  "explanation": "EPL rupture typically occurs weeks after a minimally displaced distal radius fracture, due to local ischaemia and attrition at Lister's tubercle; it is treated by extensor indicis to EPL transfer. Other Colles' complications include malunion (dinner-fork deformity, commonest), median nerve compression, CRPS and stiffness. Smith's fracture is the reverse, with volar displacement (garden-spade deformity). Source: Apley & Solomon's System of Orthopaedics and Trauma; Maheshwari, Essential Orthopaedics.",
+  "w": [
+   "",
+   "R is the mechanism of A, so it does explain it.",
+   "R is true.",
+   "A is true."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_033",
+  "subject": "Orthopedics",
+  "sub_topic": "Bone tumours - Ewing sarcoma",
+  "stem": "A 12-year-old boy has 2 months of pain and swelling of the right thigh with low-grade fever and a raised ESR. X-ray shows a permeative lytic lesion in the femoral diaphysis with a lamellated ('onion-skin') periosteal reaction and a large soft-tissue mass. Biopsy shows sheets of small round blue cells that are CD99 positive. What is the most likely diagnosis?",
+  "options": [
+   "Osteosarcoma",
+   "Ewing sarcoma",
+   "Chronic osteomyelitis",
+   "Langerhans cell histiocytosis"
+  ],
+  "correct_index": 1,
+  "explanation": "Ewing sarcoma affects children and adolescents, involving the diaphysis of long bones and flat bones with permeative destruction, onion-skin periosteal reaction and a soft-tissue mass; fever and raised ESR mimic osteomyelitis. CD99 positivity and t(11;22) EWSR1-FLI1 confirm it. Osteosarcoma is metaphyseal with sunburst spiculation and a Codman triangle. Source: Maheshwari, Essential Orthopaedics; Robbins and Cotran Pathologic Basis of Disease.",
+  "w": [
+   "Metaphyseal, sunburst/Codman triangle, malignant osteoid on histology.",
+   "",
+   "Infection mimics it, but CD99-positive small round blue cells mean Ewing.",
+   "LCH shows punched-out lesions and CD1a/langerin-positive cells."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_034",
+  "subject": "Orthopedics",
+  "sub_topic": "Bone tumours - giant cell tumour",
+  "stem": "A 28-year-old woman has had pain around the knee for 4 months. X-ray shows an eccentric, expansile, purely lytic lesion in the distal femur extending from the metaphysis up to the subchondral bone, with a 'soap-bubble' appearance, a narrow non-sclerotic margin and no matrix mineralisation. The physes are closed. What is the most likely diagnosis?",
+  "options": [
+   "Chondroblastoma",
+   "Aneurysmal bone cyst",
+   "Simple (unicameral) bone cyst",
+   "Giant cell tumour of bone"
+  ],
+  "correct_index": 3,
+  "explanation": "GCT occurs after skeletal maturity as an eccentric epimetaphyseal lytic lesion reaching subchondral bone, with a non-sclerotic margin and soap-bubble appearance; common sites are distal femur, proximal tibia and distal radius. Chondroblastoma is epiphyseal but occurs before physeal closure, often with a sclerotic rim and chondroid calcification. Simple bone cyst is central and metaphyseal in children (fallen-fragment sign). Denosumab (RANKL inhibitor) is used for unresectable GCT. Source: Maheshwari, Essential Orthopaedics; Apley & Solomon's System of Orthopaedics and Trauma.",
+  "w": [
+   "Occurs in skeletally immature patients, epiphyseal, often with sclerotic rim.",
+   "Usually metaphyseal in younger patients with fluid-fluid levels on MRI.",
+   "Central, metaphyseal, in children; fallen-fragment sign.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_035",
+  "subject": "Radiology",
+  "sub_topic": "GI imaging - intussusception",
+  "stem": "A 9-month-old infant has episodes of inconsolable crying with drawing up of the legs, vomiting and passage of 'red-currant jelly' stools. A sausage-shaped mass is felt in the right upper abdomen. Ultrasound of the mass in transverse section is most likely to show which sign?",
+  "options": [
+   "Target (doughnut) sign",
+   "Double bubble sign",
+   "Coffee-bean sign",
+   "Whirlpool sign of the mesenteric vessels"
+  ],
+  "correct_index": 0,
+  "explanation": "Ileocolic intussusception shows concentric rings of bowel wall (target/doughnut) in transverse section and a 'pseudokidney' in longitudinal section; ultrasound is the investigation of choice. Without peritonitis or perforation, image-guided pneumatic or hydrostatic reduction is the treatment; contrast enema shows a claw or coiled-spring sign. Double bubble indicates duodenal atresia and whirlpool indicates midgut volvulus with malrotation. Source: Sutton's Textbook of Radiology and Imaging.",
+  "w": [
+   "",
+   "Duodenal atresia or annular pancreas.",
+   "Sigmoid volvulus on plain film.",
+   "Midgut volvulus with malrotation."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_036",
+  "subject": "Radiology",
+  "sub_topic": "GI imaging - sigmoid volvulus",
+  "stem": "A 70-year-old institutionalised man with chronic constipation has gross abdominal distension and absolute constipation. Abdominal x-ray shows a massively dilated, inverted U-shaped loop like a 'coffee bean' arising from the pelvis and pointing to the right upper quadrant. There is no peritonism and vitals are stable. What is the next best step?",
+  "options": [
+   "Emergency sigmoid colectomy (Hartmann's procedure)",
+   "Barium enema to confirm the diagnosis",
+   "Endoscopic (flexible sigmoidoscopic) detorsion with placement of a flatus tube",
+   "Nasogastric suction alone"
+  ],
+  "correct_index": 2,
+  "explanation": "A coffee-bean (bent inner-tube) loop pointing to the right upper quadrant is sigmoid volvulus. Without peritonitis or gangrene, endoscopic detorsion is first line; because recurrence is common, elective sigmoid colectomy during the same admission is the definitive treatment. Emergency resection is for gangrene, perforation or failed detorsion. Source: ASCRS Clinical Practice Guidelines for the Management of Colonic Volvulus (2016); Bailey and Love's Short Practice of Surgery.",
+  "w": [
+   "Reserved for gangrene, perforation or failed detorsion.",
+   "A contrast study (bird's beak) delays decompression; not the best step.",
+   "",
+   "NG suction does not untwist the loop and risks ischaemia."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_037",
+  "subject": "Radiology",
+  "sub_topic": "GI imaging - signs",
+  "stem": "Which radiological sign is INCORRECTLY matched?",
+  "options": [
+   "Bird's beak on barium swallow - achalasia cardia",
+   "Lead-pipe colon on barium enema - Crohn's disease",
+   "Apple-core lesion - colorectal carcinoma",
+   "String sign of Kantor - Crohn's disease of the terminal ileum"
+  ],
+  "correct_index": 1,
+  "explanation": "A lead-pipe (featureless, haustra-less, shortened) colon is chronic ulcerative colitis. Crohn's disease shows skip lesions, cobblestoning, the string sign of Kantor (narrowed terminal ileum) and fistulae. Bird's beak indicates achalasia (and sigmoid volvulus on contrast enema); apple-core indicates annular carcinoma. Source: Sutton's Textbook of Radiology and Imaging.",
+  "w": [
+   "Correct pairing.",
+   "",
+   "Correct pairing.",
+   "Correct pairing."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_038",
+  "subject": "Radiology",
+  "sub_topic": "Contrast media - acute reaction",
+  "stem": "Two minutes after intravenous iodinated contrast for a CT scan, a 40-year-old woman develops generalised urticaria, wheeze, hoarseness and a blood pressure of 70/40 mmHg. Help has been called, oxygen started and legs elevated. Which drug should be given first?",
+  "options": [
+   "Intravenous hydrocortisone",
+   "Intramuscular adrenaline (1 mg/mL) into the anterolateral thigh",
+   "Intravenous chlorpheniramine",
+   "Nebulised salbutamol"
+  ],
+  "correct_index": 1,
+  "explanation": "Hypotension with bronchospasm and laryngeal oedema is a severe anaphylactic-type contrast reaction; IM adrenaline is the first-line drug, along with IV fluids. Antihistamines treat only cutaneous symptoms and steroids act too slowly to be first line. Salbutamol is for isolated bronchospasm. Source: ACR Manual on Contrast Media; Resuscitation Council UK Anaphylaxis guideline.",
+  "w": [
+   "Steroids are slow-acting adjuncts, not first line.",
+   "",
+   "Antihistamines only treat skin symptoms.",
+   "Inadequate alone for hypotension or laryngeal oedema."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_039",
+  "subject": "Radiology",
+  "sub_topic": "Contrast media - nephropathy",
+  "stem": "Regarding prevention of contrast-associated acute kidney injury with iodinated contrast, which statements are correct?\n1. Intravenous isotonic fluid hydration is the main preventive measure in at-risk patients.\n2. Oral N-acetylcysteine is a proven preventive therapy that should be given routinely.\n3. The lowest diagnostic dose of low- or iso-osmolar contrast should be used.\n4. In patients with AKI or eGFR below 30 mL/min/1.73 m2, metformin is withheld and renal function reassessed after 48 hours.",
+  "options": [
+   "1 and 2 only",
+   "2, 3 and 4",
+   "1, 3 and 4",
+   "All of the above"
+  ],
+  "correct_index": 2,
+  "explanation": "Volume expansion with isotonic fluid and minimising contrast dose and osmolality are the mainstays. The PRESERVE trial showed no benefit of N-acetylcysteine (or bicarbonate over saline), so NAC is not recommended. The ACR advises withholding metformin in AKI or eGFR below 30 and reassessing renal function at 48 hours because of lactic acidosis risk. Source: ACR Manual on Contrast Media; PRESERVE trial (NEJM 2018).",
+  "w": [
+   "Statement 2 is false; omits true 3 and 4.",
+   "Statement 2 is false.",
+   "",
+   "Statement 2 is false."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_040",
+  "subject": "Radiology",
+  "sub_topic": "Contrast media - gadolinium",
+  "stem": "Assertion (A): Because gadolinium-based contrast agents are not nephrotoxic at MRI doses, they can be used without any special precaution in patients on dialysis.\nReason (R): Nephrogenic systemic fibrosis has been linked to gadolinium exposure in patients with severe renal impairment.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "correct_index": 3,
+  "explanation": "NSF, a fibrosing disorder of skin and viscera, occurs after GBCA exposure in severe CKD or dialysis, especially with older linear agents, so A is false while R is true. Precautions include avoiding GBCA where possible, using a lower-risk (ACR group II) agent at the lowest diagnostic dose, and arranging prompt dialysis after the scan in patients already on dialysis. Source: ACR Manual on Contrast Media.",
+  "w": [
+   "A is false.",
+   "A is false.",
+   "A is false and R is true, not the reverse.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_041",
+  "subject": "Radiology",
+  "sub_topic": "Radiation units",
+  "stem": "The unit used to express effective dose, which accounts for the type of radiation and the sensitivity of the irradiated tissues and is used to compare stochastic risk between examinations, is:",
+  "options": [
+   "Gray",
+   "Becquerel",
+   "Sievert",
+   "Roentgen"
+  ],
+  "correct_index": 2,
+  "explanation": "Absorbed dose (energy deposited per kg) is in gray (1 Gy = 1 J/kg). Applying the radiation weighting factor gives equivalent dose and applying tissue weighting factors gives effective dose, both in sievert. Becquerel measures radioactivity (one disintegration per second) and roentgen is the old unit of exposure (ionisation in air). Source: ICRP Publication 103; standard radiological physics texts.",
+  "w": [
+   "Gray is absorbed dose, not weighted for radiation type or tissue.",
+   "Becquerel is the activity of a radionuclide.",
+   "",
+   "Roentgen is exposure in air (old unit)."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_042",
+  "subject": "Radiology",
+  "sub_topic": "Radiation physics - protection",
+  "stem": "A technician stands 1 metre from a point X-ray source. If she moves back to 2 metres, with all other factors constant, the radiation intensity she receives becomes:",
+  "options": [
+   "One-half",
+   "One-quarter",
+   "One-eighth",
+   "Unchanged, as only shielding reduces dose"
+  ],
+  "correct_index": 1,
+  "explanation": "By the inverse square law, intensity is proportional to 1/distance squared, so doubling the distance reduces intensity to one-quarter. Time, distance and shielding are the three practical principles of radiation protection under ALARA. In fluoroscopy, scatter from the patient is the main source of staff dose. Source: ICRP recommendations; Christensen's Physics of Diagnostic Radiology.",
+  "w": [
+   "That would be a simple inverse (linear) relationship.",
+   "",
+   "That would be an inverse cube relationship.",
+   "Distance is a major protective factor."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_043",
+  "subject": "Radiology",
+  "sub_topic": "MSK imaging - spondylolysis",
+  "stem": "A 16-year-old fast bowler has low back pain worse on lumbar extension. An oblique radiograph of the lumbar spine shows a lucent band across the 'neck' of the Scottie dog at L5. What is the diagnosis?",
+  "options": [
+   "Degenerative spondylolisthesis",
+   "Pedicle fracture",
+   "Scheuermann's disease",
+   "Spondylolysis (pars interarticularis defect)"
+  ],
+  "correct_index": 3,
+  "explanation": "On oblique lumbar views the posterior elements form a 'Scottie dog' whose neck is the pars interarticularis; a lucent 'collar' indicates spondylolysis. It is a stress fracture common in adolescents doing repetitive hyperextension (fast bowlers, gymnasts), most often at L5, and bilateral defects can lead to isthmic spondylolisthesis. Source: Apley & Solomon's System of Orthopaedics and Trauma; Sutton's Textbook of Radiology and Imaging.",
+  "w": [
+   "Degenerative slip occurs in older adults with an intact pars.",
+   "The pedicle forms the eye of the Scottie dog, not the neck.",
+   "Scheuermann's shows vertebral wedging, Schmorl's nodes and thoracic kyphosis.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_044",
+  "subject": "Radiology",
+  "sub_topic": "CNS imaging - age of haemorrhage on CT",
+  "stem": "A 72-year-old man on aspirin fell at home 2 weeks ago. He now has increasing confusion and mild left hemiparesis. Non-contrast CT shows a crescentic extra-axial collection over the right convexity crossing suture lines, of nearly the same density as the adjacent cortex, with effacement of sulci and mild midline shift. What is the most likely diagnosis?",
+  "options": [
+   "Subacute subdural haematoma",
+   "Acute extradural haematoma",
+   "Chronic subdural haematoma",
+   "Subarachnoid haemorrhage"
+  ],
+  "correct_index": 0,
+  "explanation": "Blood on CT evolves from hyperdense (acute) to isodense (subacute, roughly 1-3 weeks) to hypodense (chronic). An isodense SDH is easily missed; look for sulcal effacement, an inwardly displaced grey-white junction and midline shift, or use MRI. A crescentic collection crossing sutures is subdural; a biconvex collection limited by sutures is extradural. Source: Osborn's Brain; Sutton's Textbook of Radiology and Imaging.",
+  "w": [
+   "",
+   "EDH is biconvex, hyperdense and does not cross sutures.",
+   "Chronic SDH is hypodense to brain.",
+   "SAH is blood in sulci and cisterns, not a crescentic collection."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_045",
+  "subject": "Radiology",
+  "sub_topic": "CNS imaging - MRI sequences",
+  "stem": "A 65-year-old presents 45 minutes after sudden right hemiparesis and aphasia. Non-contrast CT shows no haemorrhage and no early ischaemic change. Which MRI sequence would show the infarct earliest?",
+  "options": [
+   "T1-weighted",
+   "T2-weighted",
+   "FLAIR",
+   "Diffusion-weighted imaging (with ADC map)"
+  ],
+  "correct_index": 3,
+  "explanation": "Cytotoxic oedema restricts water diffusion within minutes, so an acute infarct is bright on DWI with low ADC. T2 and FLAIR become positive later, and a DWI-positive/FLAIR-negative mismatch helps identify patients with unknown onset who may still be within the thrombolysis window (WAKE-UP trial). Non-contrast CT remains the first test to exclude haemorrhage. Source: AHA/ASA Guidelines for Early Management of Acute Ischemic Stroke (2019); Osborn's Brain.",
+  "w": [
+   "T1 changes appear late.",
+   "T2 hyperintensity appears only after several hours.",
+   "FLAIR also turns positive later than DWI.",
+   ""
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_046",
+  "subject": "Radiology",
+  "sub_topic": "Chest x-ray - silhouette sign",
+  "stem": "A frontal chest x-ray of a febrile patient shows an ill-defined opacity in the right lower zone with loss of the right heart border; the right hemidiaphragm outline and costophrenic angle are preserved. Which lobe is involved?",
+  "options": [
+   "Right middle lobe",
+   "Right lower lobe",
+   "Right upper lobe",
+   "Right lower lobe with pleural effusion"
+  ],
+  "correct_index": 0,
+  "explanation": "Silhouette sign: loss of a normal border means the opacity is in contact with that structure. The right heart border abuts the medial segment of the right middle lobe; loss of the left heart border means lingula, and loss of a hemidiaphragm means a lower lobe. Right lower lobe consolidation lies posteriorly, so the heart border is preserved but the diaphragm is obscured. Source: Felson's Principles of Chest Roentgenology; Sutton's Textbook of Radiology and Imaging.",
+  "w": [
+   "",
+   "Lower lobe disease obscures the hemidiaphragm, not the heart border.",
+   "Upper lobe disease obscures the upper mediastinum and paratracheal stripe.",
+   "Effusion obliterates the costophrenic angle and diaphragm, which are preserved."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ },
+ {
+  "id": "hy_c_047",
+  "subject": "Radiology",
+  "sub_topic": "Chest - tension pneumothorax",
+  "stem": "A 30-year-old motorcyclist is brought in with respiratory distress, BP 80/50 mmHg, distended neck veins, trachea deviated to the left, and absent breath sounds with hyperresonance on the right. What is the immediate next step?",
+  "options": [
+   "Urgent chest x-ray to confirm the diagnosis",
+   "CT chest",
+   "Needle (or finger) decompression of the right pleural space",
+   "Endotracheal intubation and positive-pressure ventilation"
+  ],
+  "correct_index": 2,
+  "explanation": "Tension pneumothorax is a clinical diagnosis and treatment must not wait for imaging: immediate decompression, followed by a definitive intercostal chest drain. ATLS 10th edition recommends the 4th/5th intercostal space just anterior to the mid-axillary line in adults; the exam-classic site is the 2nd intercostal space in the mid-clavicular line (still used in children). On x-ray it would show a hyperlucent hemithorax, mediastinal shift and a depressed hemidiaphragm (deep sulcus sign on a supine film). Source: ATLS 10th edition (American College of Surgeons).",
+  "w": [
+   "Delaying for imaging risks cardiac arrest.",
+   "CT is unsafe in an unstable patient.",
+   "",
+   "Positive pressure worsens tension physiology before decompression."
+  ],
+  "tag": "HY-ORIGINAL",
+  "exam": "Original · PYQ theme"
+ }
+]
