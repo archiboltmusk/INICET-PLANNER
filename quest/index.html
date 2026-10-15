@@ -1,0 +1,2826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INI-CET QUEST // 8-BIT DUNGEON CRAWLER</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="icon.png">
+  <meta name="theme-color" content="#08070f">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="INICET Quest">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <!-- Universal Cloud Sync CDNs (Firebase Compat & QRCode.js) -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+  <style>
+    :root {
+      --bg-void: #08070f;
+      --bg-panel: #121020;
+      --bg-card: #1b1830;
+      --bg-slot: #0d0b18;
+      --border-light: #4a4475;
+      --border-dark: #252140;
+      --gold: #ffd700;
+      --hp-red: #ff3355;
+      --armor-blue: #38bdf8;
+      --xp-green: #22c55e;
+      --mana-cyan: #00f5d4;
+      --slump-amber: #ff9f1c;
+      --purple-magic: #b5179e;
+      --text-light: #f8f9fa;
+      --text-muted: #94a3b8;
+      --font-pixel: 'Press Start 2P', 'Courier New', monospace;
+      --font-term: 'VT323', 'Consolas', monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      image-rendering: pixelated;
+    }
+
+    body {
+      background-color: var(--bg-void);
+      color: var(--text-light);
+      font-family: var(--font-term);
+      font-size: 18px;
+      min-height: 100vh;
+      padding-bottom: 3rem;
+      overflow-x: hidden;
+    }
+
+    /* Optional CRT Scanlines Overlay */
+    body.crt::after {
+      content: " ";
+      display: block;
+      position: fixed;
+      top: 0; left: 0; bottom: 0; right: 0;
+      background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.28) 50%);
+      background-size: 100% 4px;
+      z-index: 999;
+      pointer-events: none;
+    }
+
+    /* 8-Bit Pixel Box Borders */
+    .pixel-box {
+      background: var(--bg-panel);
+      border: 4px solid var(--border-light);
+      box-shadow: 
+        inset -4px -4px 0px 0px var(--border-dark),
+        inset 4px 4px 0px 0px rgba(255,255,255,0.08),
+        0 6px 0 0 #000;
+      padding: 1rem;
+      position: relative;
+    }
+
+    .pixel-btn {
+      font-family: var(--font-pixel);
+      font-size: 0.65rem;
+      line-height: 1.4;
+      padding: 0.6rem 0.9rem;
+      background: #2b264d;
+      color: var(--text-light);
+      border: 3px solid #6c63ff;
+      box-shadow: 0 4px 0 #000;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: transform 0.05s;
+      user-select: none;
+    }
+
+    .pixel-btn:hover {
+      background: #3b3469;
+      color: var(--gold);
+    }
+
+    .pixel-btn:active {
+      transform: translateY(3px);
+      box-shadow: 0 1px 0 #000;
+    }
+
+    .pixel-btn.btn-gold {
+      background: #6b4c00;
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    .pixel-btn.btn-green {
+      background: #064e3b;
+      border-color: var(--xp-green);
+      color: #a7f3d0;
+    }
+
+    .pixel-btn.btn-amber {
+      background: #78350f;
+      border-color: var(--slump-amber);
+      color: #fde68a;
+    }
+
+    .pixel-btn.btn-red {
+      background: #7f1d1d;
+      border-color: var(--hp-red);
+      color: #fecdd3;
+    }
+
+    /* Top HUD */
+    header {
+      background: #0c0a18;
+      border-bottom: 4px solid var(--border-light);
+      padding: 0.75rem 1.25rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .hud-bar {
+      max-width: 1420px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .hero-identity {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+    }
+
+    .lvl-badge {
+      font-family: var(--font-pixel);
+      font-size: 0.75rem;
+      background: var(--purple-magic);
+      color: #fff;
+      padding: 0.45rem 0.65rem;
+      border: 3px solid #ff70a6;
+      box-shadow: 0 3px 0 #000;
+    }
+
+    .hero-name-wrap {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .hero-title {
+      font-family: var(--font-pixel);
+      font-size: 0.75rem;
+      color: var(--gold);
+      letter-spacing: 1px;
+    }
+
+    .hero-sub {
+      font-size: 1.05rem;
+      color: var(--mana-cyan);
+    }
+
+    .hud-meters {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+    }
+
+    .meter-box {
+      display: flex;
+      flex-direction: column;
+      min-width: 135px;
+    }
+
+    .meter-label {
+      font-family: var(--font-pixel);
+      font-size: 0.55rem;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.25rem;
+    }
+
+    .bar-outer {
+      width: 100%;
+      height: 14px;
+      background: #05040a;
+      border: 2px solid #4a4475;
+      position: relative;
+    }
+
+    .bar-fill {
+      height: 100%;
+      transition: width 0.25s steps(10);
+    }
+
+    .stat-chip {
+      font-family: var(--font-pixel);
+      font-size: 0.65rem;
+      background: var(--bg-slot);
+      border: 2px solid var(--border-light);
+      padding: 0.45rem 0.7rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    /* Main Grid Layout */
+    .game-container {
+      max-width: 1420px;
+      margin: 1.25rem auto 0;
+      padding: 0 1.25rem;
+      display: grid;
+      grid-template-columns: 460px 1fr;
+      gap: 1.25rem;
+    }
+
+    @media (max-width: 1100px) {
+      .game-container {
+        grid-template-columns: minmax(0, 1fr);
+        padding: 0 16px;
+      }
+    }
+
+    .left-column, .right-column {
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    /* Battle Screen Canvas Wrapper */
+    .viewport-frame {
+      background: #000;
+      border: 4px solid #fff;
+      box-shadow: 0 6px 0 #000;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #battleCanvas {
+      width: 100%;
+      height: 270px;
+      display: block;
+      background: #090814;
+    }
+
+    .canvas-overlay-top {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      right: 10px;
+      display: flex;
+      justify-content: space-between;
+      pointer-events: none;
+    }
+
+    .boss-hud {
+      background: rgba(8, 7, 15, 0.85);
+      border: 2px solid var(--hp-red);
+      padding: 0.4rem 0.6rem;
+      min-width: 210px;
+    }
+
+    .boss-name-label {
+      font-family: var(--font-pixel);
+      font-size: 0.55rem;
+      color: var(--hp-red);
+      margin-bottom: 0.3rem;
+      display: block;
+    }
+
+    .mode-badge {
+      font-family: var(--font-pixel);
+      font-size: 0.55rem;
+      background: rgba(8, 7, 15, 0.88);
+      border: 2px solid var(--mana-cyan);
+      color: var(--mana-cyan);
+      padding: 0.4rem 0.6rem;
+      height: fit-content;
+    }
+
+    /* Active Quest Encounter Box */
+    .encounter-panel {
+      background: var(--bg-slot);
+      border: 3px solid var(--gold);
+      padding: 0.9rem;
+      margin-top: 0.75rem;
+    }
+
+    .encounter-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+
+    .encounter-tag {
+      font-family: var(--font-pixel);
+      font-size: 0.55rem;
+      color: var(--gold);
+    }
+
+    .encounter-quest-name {
+      font-family: var(--font-pixel);
+      font-size: 0.75rem;
+      color: #fff;
+      margin: 0.4rem 0;
+      line-height: 1.5;
+    }
+
+    .encounter-sub {
+      color: var(--text-muted);
+      font-size: 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .combat-controls {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    /* Raid / Campfire Timer Bar */
+    .timer-strip {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--bg-slot);
+      border: 2px solid var(--border-light);
+      padding: 0.6rem 0.85rem;
+      margin-top: 0.75rem;
+    }
+
+    .timer-readout {
+      font-family: var(--font-pixel);
+      font-size: 1.1rem;
+      color: var(--mana-cyan);
+    }
+
+    /* 9 Realms Map Grid */
+    .section-title {
+      font-family: var(--font-pixel);
+      font-size: 0.72rem;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 0.85rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .realms-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.65rem;
+    }
+
+    @media (max-width: 650px) {
+      .realms-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    .realm-node {
+      background: var(--bg-slot);
+      border: 3px solid var(--border-dark);
+      padding: 0.65rem;
+      cursor: pointer;
+      transition: all 0.1s;
+      position: relative;
+    }
+
+    .realm-node:hover {
+      border-color: var(--mana-cyan);
+      transform: translateY(-2px);
+    }
+
+    .realm-node.selected {
+      border-color: var(--gold);
+      background: #241e38;
+      box-shadow: 0 0 12px rgba(255, 215, 0, 0.25);
+    }
+
+    .realm-node.slain {
+      border-color: var(--xp-green);
+      background: rgba(6, 78, 59, 0.25);
+    }
+
+    .realm-num {
+      font-family: var(--font-pixel);
+      font-size: 0.5rem;
+      color: var(--text-muted);
+    }
+
+    .realm-title {
+      font-family: var(--font-pixel);
+      font-size: 0.62rem;
+      color: var(--text-light);
+      margin: 0.3rem 0;
+      line-height: 1.3;
+    }
+
+    .realm-boss-sub {
+      font-size: 0.95rem;
+      color: var(--hp-red);
+      margin-bottom: 0.4rem;
+    }
+
+    .realm-node.slain .realm-boss-sub {
+      color: var(--xp-green);
+    }
+
+    /* Quest Stages Accordion / Board */
+    .stage-block {
+      background: var(--bg-slot);
+      border: 2px solid var(--border-dark);
+      padding: 0.85rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .stage-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.6rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .stage-name {
+      font-family: var(--font-pixel);
+      font-size: 0.62rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .stage-reward-tag {
+      font-family: var(--font-pixel);
+      font-size: 0.5rem;
+      color: var(--gold);
+      background: rgba(255, 215, 0, 0.1);
+      padding: 0.2rem 0.45rem;
+      border: 1px solid rgba(255, 215, 0, 0.3);
+    }
+
+    .quest-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .quest-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--bg-card);
+      border: 2px solid var(--border-light);
+      padding: 0.4rem 0.7rem;
+      cursor: pointer;
+      user-select: none;
+      font-size: 1.05rem;
+      color: var(--text-light);
+      transition: all 0.1s;
+    }
+
+    .quest-chip:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    .quest-chip.completed {
+      background: rgba(34, 197, 94, 0.12);
+      border-color: var(--xp-green);
+      color: #86efac;
+      text-decoration: line-through;
+      opacity: 0.8;
+    }
+
+    .pixel-check {
+      width: 14px;
+      height: 14px;
+      border: 2px solid var(--text-muted);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-pixel);
+      font-size: 0.5rem;
+    }
+
+    .quest-chip.completed .pixel-check {
+      background: var(--xp-green);
+      border-color: var(--xp-green);
+      color: #000;
+    }
+
+    /* Tavern / Armory Shop */
+    .shop-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+      gap: 0.65rem;
+    }
+
+    .shop-item {
+      background: var(--bg-slot);
+      border: 2px solid var(--border-light);
+      padding: 0.7rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 0.5rem;
+    }
+
+    .shop-item-title {
+      font-family: var(--font-pixel);
+      font-size: 0.58rem;
+      color: var(--mana-cyan);
+    }
+
+    .shop-item-desc {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    /* Combat Log */
+    .battle-log {
+      background: #06050c;
+      border: 2px solid var(--border-dark);
+      padding: 0.6rem;
+      height: 95px;
+      overflow-y: auto;
+      font-family: var(--font-term);
+      font-size: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+
+    .log-entry { color: var(--text-muted); }
+    .log-entry.crit { color: var(--gold); }
+    .log-entry.heal { color: var(--xp-green); }
+    .log-entry.dmg { color: var(--hp-red); }
+
+    .keybind-hint {
+      font-family: var(--font-pixel);
+      font-size: 0.5rem;
+      color: var(--text-muted);
+      text-align: center;
+      margin-top: 0.4rem;
+    }
+  
+    /* Cloud Sync HUD Pill & Animated Status LEDs */
+    .sync-pill-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.58rem !important;
+      padding: 0.45rem 0.75rem !important;
+      border-color: #7b61ff !important;
+      background: #17142b !important;
+      cursor: pointer;
+    }
+    .sync-pill-btn:hover {
+      border-color: var(--mana-cyan) !important;
+      background: #231f40 !important;
+      color: var(--mana-cyan) !important;
+    }
+    .sync-led {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      display: inline-block;
+      flex-shrink: 0;
+    }
+    .sync-led-green {
+      background: var(--xp-green);
+      box-shadow: 0 0 8px var(--xp-green);
+      animation: pulse-green 2s infinite;
+    }
+    .sync-led-yellow {
+      background: var(--slump-amber);
+      box-shadow: 0 0 8px var(--slump-amber);
+      animation: pulse-yellow 1s infinite;
+    }
+    .sync-led-off {
+      background: #64748b;
+    }
+    .sync-led-red {
+      background: var(--hp-red);
+      box-shadow: 0 0 8px var(--hp-red);
+    }
+    @keyframes pulse-green {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.85); }
+    }
+    @keyframes pulse-yellow {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    /* Modal Backdrop & 8-Bit Container */
+    .pixel-modal-backdrop {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(4, 3, 10, 0.88);
+      backdrop-filter: blur(5px);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .pixel-modal {
+      background: var(--bg-panel);
+      border: 4px solid var(--mana-cyan);
+      box-shadow: 
+        inset -4px -4px 0px 0px var(--border-dark),
+        inset 4px 4px 0px 0px rgba(255,255,255,0.1),
+        0 0 35px rgba(0, 245, 212, 0.25),
+        0 10px 0 #000;
+      max-width: 660px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 1.25rem;
+      position: relative;
+    }
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid var(--border-dark);
+      padding-bottom: 0.6rem;
+    }
+    .modal-title {
+      font-family: var(--font-pixel);
+      font-size: 0.72rem;
+      color: var(--mana-cyan);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .sync-status-card {
+      background: var(--bg-slot);
+      border: 2px solid var(--border-light);
+      padding: 0.75rem 1rem;
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .modal-tab-nav {
+      display: flex;
+      gap: 0.4rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+      border-bottom: 2px solid var(--border-dark);
+      padding-bottom: 0.5rem;
+    }
+    .tab-btn {
+      font-size: 0.52rem !important;
+      padding: 0.45rem 0.65rem !important;
+      background: var(--bg-card) !important;
+      border-color: var(--border-light) !important;
+    }
+    .tab-btn.active {
+      background: #3b2c6b !important;
+      border-color: var(--gold) !important;
+      color: var(--gold) !important;
+      box-shadow: 0 0 10px rgba(255, 215, 0, 0.3) !important;
+    }
+    .tab-pane {
+      display: none;
+    }
+    .tab-pane.active {
+      display: block;
+    }
+    .sync-info-box {
+      background: rgba(0, 245, 212, 0.06);
+      border: 2px dashed #2a5568;
+      padding: 0.75rem;
+      font-size: 0.95rem;
+      color: var(--text-light);
+      line-height: 1.4;
+      margin-bottom: 1rem;
+    }
+    .form-group {
+      margin-bottom: 0.85rem;
+    }
+    .pixel-label {
+      font-family: var(--font-pixel);
+      font-size: 0.55rem;
+      color: var(--text-muted);
+      display: block;
+      margin-bottom: 0.4rem;
+    }
+    .pixel-input {
+      width: 100%;
+      background: var(--bg-void);
+      border: 2px solid var(--border-light);
+      color: var(--text-light);
+      font-family: var(--font-term);
+      font-size: 1.1rem;
+      padding: 0.5rem 0.65rem;
+      outline: none;
+      box-sizing: border-box;
+    }
+    .pixel-input:focus {
+      border-color: var(--mana-cyan);
+      box-shadow: 0 0 8px rgba(0, 245, 212, 0.3);
+    }
+    .help-text {
+      display: block;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+    }
+    .setup-accordion {
+      background: var(--bg-slot);
+      border: 2px solid var(--border-dark);
+      padding: 0.5rem 0.75rem;
+      margin-top: 0.75rem;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+    .setup-accordion summary {
+      font-family: var(--font-pixel);
+      font-size: 0.52rem;
+      color: var(--gold);
+      outline: none;
+    }
+    .setup-steps {
+      margin-top: 0.6rem;
+      color: var(--text-light);
+      line-height: 1.45;
+      font-family: var(--font-term);
+      font-size: 1.05rem;
+    }
+    .setup-steps p {
+      margin-bottom: 0.4rem;
+    }
+    .qr-code-box {
+      background: #00f5d4;
+      padding: 12px;
+      border: 4px solid #fff;
+      display: inline-block;
+      box-shadow: 0 0 20px rgba(0, 245, 212, 0.4);
+    }
+    .btn-cyan {
+      background: #0d4b55;
+      border-color: var(--mana-cyan);
+      color: var(--mana-cyan);
+    }
+    .btn-cyan:hover {
+      background: #11626f;
+      color: #fff;
+    }
+    .retro-toast {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      background: #100e20;
+      border: 3px solid var(--mana-cyan);
+      color: var(--text-light);
+      font-family: var(--font-pixel);
+      font-size: 0.6rem;
+      padding: 0.75rem 1rem;
+      box-shadow: 0 4px 0 #000, 0 0 15px rgba(0, 245, 212, 0.3);
+      z-index: 2000;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      pointer-events: none;
+    }
+    .retro-toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+  </style>
+</head>
+<body class="crt">
+
+  <!-- TOP RETRO HUD -->
+  <header>
+    <div class="hud-bar">
+      <a href="../#/today" class="pixel-btn" style="text-decoration:none" title="Back to Revision OS">◀ OS</a>
+      <div class="hero-identity">
+        <div class="lvl-badge" id="hudLevel">LV.01</div>
+        <div class="hero-name-wrap">
+          <span class="hero-title" id="hudTitle">NOVICE INTERN KNIGHT</span>
+          <span class="hero-sub" id="hudWeapon">Weapon: Rusty Scalpel (ATK +10)</span>
+        </div>
+      </div>
+
+      <div class="hud-meters">
+        <div class="meter-box">
+          <div class="meter-label">
+            <span style="color:var(--hp-red);">HP (STAMINA)</span>
+            <span id="hudHpText">100/100</span>
+          </div>
+          <div class="bar-outer">
+            <div class="bar-fill" id="hudHpBar" style="width:100%; background:var(--hp-red);"></div>
+          </div>
+        </div>
+
+        <div class="meter-box">
+          <div class="meter-label">
+            <span style="color:var(--xp-green);">EXP TO NEXT</span>
+            <span id="hudXpText">0/300</span>
+          </div>
+          <div class="bar-outer">
+            <div class="bar-fill" id="hudXpBar" style="width:0%; background:var(--xp-green);"></div>
+          </div>
+        </div>
+
+        <div class="meter-box">
+          <div class="meter-label">
+            <span style="color:var(--mana-cyan);">35-DAY QUEST</span>
+            <span id="hudGlobalText">0/144</span>
+          </div>
+          <div class="bar-outer">
+            <div class="bar-fill" id="hudGlobalBar" style="width:0%; background:var(--mana-cyan);"></div>
+          </div>
+        </div>
+
+        <div class="stat-chip" style="color:var(--gold);">
+          <span>🪙</span>
+          <span id="hudGold">0 G</span>
+        </div>
+
+        <div class="stat-chip" style="color:var(--slump-amber);">
+          <span>🔥</span>
+          <span id="hudStreak">0d STREAK</span>
+        </div>
+
+        
+        <button class="pixel-btn sync-pill-btn" id="hudSyncBtn" onclick="openSyncModal()" title="Warp Crystal // Cloud Sync & Multi-Device">
+          <span class="sync-led sync-led-off" id="hudSyncLed"></span>
+          <span id="hudSyncText">☁️ SYNC: LOCAL</span>
+        </button>
+
+        <button class="pixel-btn btn-gold" id="ankiTorchBtn" onclick="triggerDailyAnki()">
+          🔥 IGNITE ANKI TORCH (1.5x)
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN GAME CONTAINER -->
+  <div class="game-container">
+
+    <!-- LEFT COLUMN: 8-BIT BATTLE VIEWPORT + SLUMP DISPATCHER + LOG -->
+    <div class="left-column">
+      <div class="pixel-box">
+        <div class="viewport-frame">
+          <canvas id="battleCanvas" width="420" height="240"></canvas>
+
+          <div class="canvas-overlay-top">
+            <div class="boss-hud">
+              <span class="boss-name-label" id="canvasBossName">01. NEPHROS LEVIATHAN</span>
+              <div class="meter-label" style="font-size:0.48rem;">
+                <span>BOSS HP</span>
+                <span id="canvasBossHpText">1000/1000</span>
+              </div>
+              <div class="bar-outer" style="height:10px; margin-bottom:4px;">
+                <div class="bar-fill" id="canvasBossHpBar" style="width:100%; background:var(--hp-red);"></div>
+              </div>
+              <div class="meter-label" style="font-size:0.45rem;">
+                <span style="color:var(--armor-blue);">STAGE 1 ARMOR</span>
+                <span id="canvasBossArmorText">100%</span>
+              </div>
+              <div class="bar-outer" style="height:6px;">
+                <div class="bar-fill" id="canvasBossArmorBar" style="width:100%; background:var(--armor-blue);"></div>
+              </div>
+            </div>
+
+            <div class="mode-badge" id="canvasModeBadge">🔥 CAMPFIRE FORGE</div>
+          </div>
+        </div>
+
+        <!-- MODE SWITCHER (SLUMP CAMPFIRE VS BOSS RAID) -->
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.5rem; margin-top:0.75rem;">
+          <button class="pixel-btn btn-amber" id="btnCampfireMode" onclick="setGameMode('campfire')">
+            🔥 CAMPFIRE FORGE (SLUMP)
+          </button>
+          <button class="pixel-btn" id="btnRaidMode" onclick="setGameMode('raid')">
+            ⚔️ BOSS RAID (DEEP FOCUS)
+          </button>
+        </div>
+
+        <!-- ACTIVE QUEST ENCOUNTER -->
+        <div class="encounter-panel">
+          <div class="encounter-header">
+            <span class="encounter-tag" id="encStageTag">// STAGE 1: RUNE FORGING</span>
+            <span class="encounter-tag" id="encRewardTag">+30 XP | +15 G</span>
+          </div>
+          <div class="encounter-quest-name" id="encQuestTitle">1.1 BTR Physio Card Gen</div>
+          <div class="encounter-sub" id="encQuestDesc">
+            Low-energy task: Use AI to generate cards & shred 16% Boss Armor.
+          </div>
+          <div class="combat-controls">
+            <button class="pixel-btn btn-green" style="flex:1;" onclick="strikeActiveQuest()">
+              ⚔️ STRIKE / COMPLETE [SPACE]
+            </button>
+            <button class="pixel-btn" onclick="cycleActiveQuest()">
+              NEXT TARGET ↻
+            </button>
+          </div>
+        </div>
+
+        <!-- COMBAT TIMER -->
+        <div class="timer-strip">
+          <div>
+            <div style="font-family:var(--font-pixel); font-size:0.5rem; color:var(--text-muted);">
+              ACTIVE ENCOUNTER CLOCK (CHIP DMG EVERY MIN)
+            </div>
+            <div class="timer-readout" id="timerDisplay">15:00</div>
+          </div>
+          <div style="display:flex; gap:0.4rem;">
+            <button class="pixel-btn" id="timerBtn" onclick="toggleCombatTimer()">START</button>
+            <button class="pixel-btn" onclick="setCombatTimer(15)">15M</button>
+            <button class="pixel-btn" onclick="setCombatTimer(45)">45M</button>
+          </div>
+        </div>
+
+        <!-- BATTLE LOG -->
+        <div style="margin-top:0.75rem;">
+          <div class="battle-log" id="battleLog">
+            <div class="log-entry">> Welcome to INI-CET QUEST. Select a mode and strike!</div>
+          </div>
+          <div class="keybind-hint">
+            KEYS: [SPACE] Strike | [TAB] Switch Mode | [1-9] Select Realm | [A] Daily Anki | Gamepad Ready
+          </div>
+        </div>
+      </div>
+
+      <!-- GUILD ARMORY & SYSTEM SETTINGS -->
+      <div class="pixel-box">
+        <div class="section-title">
+          <span>🛡️ GUILD ARMORY & BOUNTIES</span>
+          <div style="display:flex; gap:0.4rem;">
+            <button class="pixel-btn" style="font-size:0.5rem; padding:0.35rem 0.5rem;" id="sfxBtn" onclick="toggleSfx()">🔊 SFX: ON</button>
+            <button class="pixel-btn" style="font-size:0.5rem; padding:0.35rem 0.5rem;" onclick="toggleCrt()">📺 CRT</button>
+          </div>
+        </div>
+
+        <div class="shop-grid" id="shopContainer"></div>
+
+        <div style="display:flex; gap:0.5rem; margin-top:0.85rem; flex-wrap:wrap;">
+          <button class="pixel-btn btn-cyan" style="font-size:0.5rem;" onclick="openSyncModal('firebase')">⚡ WARP CRYSTAL (CLOUD SYNC)</button>
+          <button class="pixel-btn" style="font-size:0.5rem;" onclick="openSyncModal('qr')">📱 MOBILE PAIR QR</button>
+          <button class="pixel-btn" style="font-size:0.5rem;" onclick="exportSave()">💾 EXPORT</button>
+          <button class="pixel-btn" style="font-size:0.5rem;" onclick="document.getElementById('importInput').click()">📂 IMPORT</button>
+          <input type="file" id="importInput" style="display:none;" accept=".json" onchange="importSave(event)">
+          <button class="pixel-btn btn-red" style="font-size:0.5rem; margin-left:auto;" onclick="hardReset()">💀 WIPE</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN: 9 DUNGEON REALMS + ACTIVE REALM QUEST BOARD -->
+    <div class="right-column">
+      <!-- 9 REALMS WORLD MAP -->
+      <div class="pixel-box">
+        <div class="section-title">
+          <span>🗺️ WORLD MAP: THE 9 ORGAN REALMS</span>
+          <span id="paceStatusText" style="color:var(--mana-cyan); font-size:0.6rem;">DAY 1 OF 35 // ON PACE</span>
+        </div>
+        <div class="realms-grid" id="realmsGrid"></div>
+      </div>
+
+      <!-- CURRENT REALM 7-STAGE DUNGEON BOARD -->
+      <div class="pixel-box">
+        <div class="section-title">
+          <span id="boardRealmTitle">🏰 REALM 01: RENAL // QUEST BOARD</span>
+          <div style="display:flex; gap:0.4rem;">
+            <button class="pixel-btn" style="font-size:0.5rem; padding:0.35rem 0.55rem;" onclick="setStageFilter('all')" id="fltAll">ALL STAGES</button>
+            <button class="pixel-btn" style="font-size:0.5rem; padding:0.35rem 0.55rem;" onclick="setStageFilter('s1')" id="fltS1">STAGE 1 (AI CARDS)</button>
+          </div>
+        </div>
+
+        <div id="stagesBoard"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    // =========================================================================
+    // 1. GAME DATA: 9 REALMS (SYSTEMS) & 7 STAGES (16 SUB-QUESTS PER REALM)
+    // =========================================================================
+    const REALMS = [
+      { id: 'renal', num: '01', name: 'Renal', boss: 'NEPHROS THE LEVIATHAN', budget: 3.5, theme: '#0284c7', bossColor: '#38bdf8', eyeColor: '#fde047', spriteType: 0 },
+      { id: 'gihpb', num: '02', name: 'GI & HPB', boss: 'HEPATOS THE HYDRA', budget: 4.5, theme: '#b45309', bossColor: '#f59e0b', eyeColor: '#ef4444', spriteType: 1 },
+      { id: 'endo',  num: '03', name: 'Endocrine', boss: 'PITUITARIUS BEHOLDER', budget: 3.5, theme: '#7e22ce', bossColor: '#c084fc', eyeColor: '#22c55e', spriteType: 2 },
+      { id: 'rs',    num: '04', name: 'RS (Respiratory)', boss: 'PULMONOS WYVERN', budget: 3.0, theme: '#0f766e', bossColor: '#2dd4bf', eyeColor: '#ffffff', spriteType: 0 },
+      { id: 'rheum', num: '05', name: 'Rheumat', boss: 'SYNOVIUS THE LICH', budget: 2.5, theme: '#4d7c0f', bossColor: '#a3e635', eyeColor: '#f43f5e', spriteType: 2 },
+      { id: 'hemat', num: '06', name: 'Hemat', boss: 'HEMOVORE BLOOD KNIGHT', budget: 3.5, theme: '#991b1b', bossColor: '#f87171', eyeColor: '#fef08a', spriteType: 1 },
+      { id: 'cvs',   num: '07', name: 'CVS', boss: 'CARDIOS IRON GOLEM', budget: 4.5, theme: '#be123c', bossColor: '#fb7185', eyeColor: '#38bdf8', spriteType: 0 },
+      { id: 'cns',   num: '08', name: 'CNS', boss: 'CEREBRUS MINDFLAYER', budget: 5.0, theme: '#4338ca', bossColor: '#818cf8', eyeColor: '#f472b6', spriteType: 2 },
+      { id: 'gen',   num: '09', name: 'Gen Path/Phys/Pharm', boss: 'PRIMORDIUS ARCH-DRAGON', budget: 5.0, theme: '#6d28d9', bossColor: '#facc15', eyeColor: '#ef4444', spriteType: 1 }
+    ];
+
+    const STAGES = [
+      {
+        id: 's1',
+        name: 'STAGE 1: RUNE FORGING (AI CARD GEN)',
+        mode: 'campfire',
+        xp: 25,
+        gold: 15,
+        dmg: 30,
+        armorShred: true,
+        desc: 'Async Slump Task: Generate AI cards to shred Boss Armor before studying.',
+        quests: [
+          { id: 's1_1', label: '1.1 BTR Physio Cards' },
+          { id: 's1_2', label: '1.2 WOR Physio Cards' },
+          { id: 's1_3', label: '1.3 BTR Path Cards' },
+          { id: 's1_4', label: '1.4 WOR Path Cards' },
+          { id: 's1_5', label: '1.5 Remaining BTR Cards' },
+          { id: 's1_6', label: '1.6 Sketchy Cards' }
+        ]
+      },
+      {
+        id: 's2',
+        name: 'STAGE 2: VANGUARD ASSAULT (CORE STUDY)',
+        mode: 'raid',
+        xp: 60,
+        gold: 35,
+        dmg: 90,
+        desc: 'Deep Focus Raid: Complete videos & notes in strict order to deal heavy Boss HP damage.',
+        quests: [
+          { id: 's2_1', label: '2.1 Prep Physio RR Video' },
+          { id: 's2_2', label: '2.2 WOR Path Notes' },
+          { id: 's2_3', label: '2.3 Sketchy' },
+          { id: 's2_4', label: '2.4 BTR Video' },
+          { id: 's2_5', label: '2.5 WOR Physio Notes' }
+        ]
+      },
+      {
+        id: 's3',
+        name: 'STAGE 3: BLADE SHARPENING (ANKI 1ST PASS)',
+        mode: 'campfire',
+        xp: 55,
+        gold: 30,
+        dmg: 75,
+        desc: 'Delete unnecessary cards, edit cards, and purge duplicates in WOR.',
+        quests: [
+          { id: 's3_1', label: '3.1 BTR Anki Pass & Edit' },
+          { id: 's3_2', label: '3.2 WOR Pass & Delete Duplicates' }
+        ]
+      },
+      {
+        id: 's4',
+        name: 'STAGE 4: GRIMOIRE REFINEMENT (ANKI 2ND PASS)',
+        mode: 'campfire',
+        xp: 65,
+        gold: 40,
+        dmg: 85,
+        desc: 'Go through WOR then BTR; delete BTR cards if WOR represents the info better.',
+        quests: [
+          { id: 's4_1', label: '4.1 WOR → BTR Cross-Prune' }
+        ]
+      },
+      {
+        id: 's5',
+        name: 'STAGE 5: ANCIENT TRIALS (MARROW PYQ MODULE)',
+        mode: 'raid',
+        xp: 100,
+        gold: 60,
+        dmg: 110,
+        desc: 'Deep Focus Raid: Solve the Custom PYQ Module for this organ system in Marrow.',
+        quests: [
+          { id: 's5_1', label: '5.1 Marrow System PYQs Custom Module' }
+        ]
+      },
+      {
+        id: 's6',
+        name: 'STAGE 6: RELIC HARVEST (PYQ PASS 2 BOOKMARKS)',
+        mode: 'campfire',
+        xp: 55,
+        gold: 35,
+        dmg: 60,
+        desc: 'Review PYQs again & bookmark questions with new info/images for card creation.',
+        quests: [
+          { id: 's6_1', label: '6.1 Bookmark New Info / Image PYQs' }
+        ]
+      },
+      {
+        id: 's7',
+        name: 'STAGE 7: FINAL EXECUTION (ADD PYQ ANKI CARDS)',
+        mode: 'campfire',
+        xp: 80,
+        gold: 50,
+        dmg: 70,
+        desc: 'Turn bookmarked PYQs into Anki cards to deal the final fatal blow to the Boss.',
+        quests: [
+          { id: 's7_1', label: '7.1 Add Bookmarked PYQ Cards to Deck' }
+        ]
+      }
+    ];
+
+    const SHOP_ITEMS = [
+      { id: 'wpn_1', name: 'Mithril Stethoscope', cost: 150, type: 'gear', bonus: '+15% Gold & Cyan Blade', weaponColor: '#00f5d4', atk: 25 },
+      { id: 'wpn_2', name: 'Netter’s Gouache Blade', cost: 400, type: 'gear', bonus: '+25% Gold & Crimson Flame', weaponColor: '#ff3355', atk: 50 },
+      { id: 'wpn_3', name: 'FSRS Chrono-Scepter', cost: 850, type: 'gear', bonus: '+40% Gold & Golden Aura', weaponColor: '#ffd700', atk: 99 },
+      { id: 'pot_hp', name: 'Elixir of Espresso', cost: 60, type: 'consumable', bonus: 'Restore Full Hero HP + 20m Chill Token' },
+      { id: 'bounty_1', name: 'Tavern Rest Scroll', cost: 120, type: 'bounty', bonus: '1 Guilt-Free Episode / Gaming Pass' }
+    ];
+
+    // =========================================================================
+    // 2. PERSISTENT STATE
+    // =========================================================================
+    const SAVE_KEY = 'inicet_quest_8bit_v1';
+    let state = {
+      startDate: new Date().toISOString().split('T')[0],
+      selectedRealm: 'renal',
+      gameMode: 'campfire', // 'campfire' (slump) or 'raid' (deep focus)
+      stageFilter: 'all',
+      completed: {},        // `${realmId}__${questId}`: timestamp
+      ankiDays: {},         // `YYYY-MM-DD`: true
+      gold: 0,
+      bonusXp: 0,
+      hp: 100,
+      ownedItems: {},
+      equippedWeapon: 'default',
+      skipOffset: 0,
+      sfx: true
+    };
+
+    function loadSave() {
+      const raw = localStorage.getItem(SAVE_KEY);
+      if (raw) {
+        try { state = { ...state, ...JSON.parse(raw) }; } catch (e) {}
+      }
+    }
+
+    function saveGame(triggerCloud = true) {
+      state.lastUpdated = Date.now();
+      localStorage.setItem(SAVE_KEY, JSON.stringify(state));
+
+      if (triggerCloud && !isRemoteSyncUpdate) {
+        if (cloudConfig.provider === 'firebase' && firestoreDb) {
+          pushToFirebase(false);
+        } else if (cloudConfig.provider === 'gist' && cloudConfig.gistToken && cloudConfig.gistId) {
+          if (syncPushTimeout) clearTimeout(syncPushTimeout);
+          syncPushTimeout = setTimeout(() => syncWithGist('push'), 2000);
+        }
+      }
+    }
+
+    // =========================================================================
+    // 2.1 UNIVERSAL CLOUD SYNC & MULTI-DEVICE WARP CRYSTAL
+    // =========================================================================
+    const CLOUD_SYNC_CONFIG_KEY = 'inicet_quest_cloud_config_v1';
+    let cloudConfig = {
+      provider: 'none', // 'firebase' | 'gist' | 'none'
+      firebaseConfigStr: '',
+      firebaseRoom: 'dungeon-knight-' + Math.floor(1000 + Math.random() * 9000),
+      gistToken: '',
+      gistId: '',
+      autoSync: true,
+      lastSyncTime: null
+    };
+
+    let firebaseApp = null;
+    let firestoreDb = null;
+    let firestoreUnsub = null;
+    let isRemoteSyncUpdate = false;
+    let syncPushTimeout = null;
+
+    function loadCloudConfig() {
+      const raw = localStorage.getItem(CLOUD_SYNC_CONFIG_KEY);
+      if (raw) {
+        try { cloudConfig = { ...cloudConfig, ...JSON.parse(raw) }; } catch (e) {}
+      }
+    }
+
+    function saveCloudConfig() {
+      localStorage.setItem(CLOUD_SYNC_CONFIG_KEY, JSON.stringify(cloudConfig));
+    }
+
+    function parseFirebaseConfig(raw) {
+      if (typeof raw === 'object' && raw !== null) return raw;
+      const str = String(raw).trim();
+      try {
+        return JSON.parse(str);
+      } catch (e) {
+        const match = str.match(/\{[\s\S]*\}/);
+        if (match) {
+          try {
+            return (new Function('return ' + match[0]))();
+          } catch (e2) {}
+        }
+        throw new Error('Invalid Firebase config. Please paste the JSON or firebaseConfig object.');
+      }
+    }
+
+    function mergeSaveStates(local, remote) {
+      if (!remote) return local;
+      const merged = { ...local };
+
+      // Union of completed quests
+      merged.completed = { ...(local.completed || {}), ...(remote.completed || {}) };
+
+      // Union of anki days
+      merged.ankiDays = { ...(local.ankiDays || {}), ...(remote.ankiDays || {}) };
+
+      // Union of owned shop items
+      merged.ownedItems = { ...(local.ownedItems || {}), ...(remote.ownedItems || {}) };
+
+      // Take highest progressive stats
+      merged.gold = Math.max(local.gold || 0, remote.gold || 0);
+      merged.bonusXp = Math.max(local.bonusXp || 0, remote.bonusXp || 0);
+      merged.hp = Math.min(100, Math.max(local.hp || 100, remote.hp || 100));
+
+      const remoteTime = remote.lastUpdated || 0;
+      const localTime = local.lastUpdated || 0;
+
+      if (remoteTime > localTime) {
+        if (remote.equippedWeapon && remote.equippedWeapon !== 'default') {
+          merged.equippedWeapon = remote.equippedWeapon;
+        }
+        if (remote.selectedRealm) merged.selectedRealm = remote.selectedRealm;
+        if (remote.gameMode) merged.gameMode = remote.gameMode;
+        if (remote.stageFilter) merged.stageFilter = remote.stageFilter;
+      }
+
+      merged.lastUpdated = Math.max(localTime, remoteTime, Date.now());
+      return merged;
+    }
+
+    function updateSyncStatusUI(status, label) {
+      const hudLed = document.getElementById('hudSyncLed');
+      const hudText = document.getElementById('hudSyncText');
+      const modalLed = document.getElementById('modalSyncLed');
+      const modalTitle = document.getElementById('modalStatusTitle');
+      const modalSub = document.getElementById('modalStatusSub');
+      const modalRoom = document.getElementById('modalRoomDisplay');
+      const modalLastSync = document.getElementById('modalLastSyncTime');
+
+      const ledClassMap = {
+        'synced': 'sync-led-green',
+        'syncing': 'sync-led-yellow',
+        'connecting': 'sync-led-yellow',
+        'error': 'sync-led-red',
+        'none': 'sync-led-off'
+      };
+
+      const ledClass = ledClassMap[status] || 'sync-led-off';
+
+      if (hudLed) hudLed.className = `sync-led ${ledClass}`;
+      if (modalLed) modalLed.className = `sync-led ${ledClass}`;
+
+      if (status === 'synced') {
+        if (hudText) hudText.textContent = '☁️ CLOUD: LIVE';
+        if (modalTitle) modalTitle.textContent = 'STATUS: ONLINE & IN SYNC';
+      } else if (status === 'syncing') {
+        if (hudText) hudText.textContent = '☁️ SYNCING...';
+        if (modalTitle) modalTitle.textContent = 'STATUS: SYNCING...';
+      } else if (status === 'connecting') {
+        if (hudText) hudText.textContent = '☁️ CONNECTING...';
+        if (modalTitle) modalTitle.textContent = 'STATUS: CONNECTING...';
+      } else if (status === 'error') {
+        if (hudText) hudText.textContent = '⚠️ SYNC ERROR';
+        if (modalTitle) modalTitle.textContent = 'STATUS: SYNC ERROR';
+      } else {
+        if (hudText) hudText.textContent = '☁️ SYNC: LOCAL';
+        if (modalTitle) modalTitle.textContent = 'STATUS: LOCAL ONLY';
+      }
+
+      if (modalSub && label) modalSub.textContent = label;
+
+      if (modalRoom) {
+        if (cloudConfig.provider === 'firebase' && cloudConfig.firebaseRoom) {
+          modalRoom.textContent = `ROOM: ${cloudConfig.firebaseRoom.toUpperCase()}`;
+        } else if (cloudConfig.provider === 'gist' && cloudConfig.gistId) {
+          modalRoom.textContent = `GIST: ${cloudConfig.gistId.substring(0, 7).toUpperCase()}`;
+        } else {
+          modalRoom.textContent = 'ROOM: NONE';
+        }
+      }
+
+      if (modalLastSync) {
+        if (cloudConfig.lastSyncTime) {
+          const dt = new Date(cloudConfig.lastSyncTime);
+          modalLastSync.textContent = `Last sync: ${dt.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' })}`;
+        } else {
+          modalLastSync.textContent = 'Last sync: Never';
+        }
+      }
+    }
+
+    function initCloudSync() {
+      loadCloudConfig();
+      if (cloudConfig.provider === 'firebase' && cloudConfig.firebaseConfigStr && cloudConfig.firebaseRoom) {
+        initFirebaseSync();
+      } else if (cloudConfig.provider === 'gist' && cloudConfig.gistToken) {
+        syncWithGist('pull');
+      } else {
+        updateSyncStatusUI('none', 'Progress saved locally. Connect a cloud provider for automatic cross-device sync.');
+      }
+    }
+
+    function initFirebaseSync() {
+      if (!window.firebase) {
+        updateSyncStatusUI('error', 'Firebase library not loaded (offline or CDN blocked)');
+        return;
+      }
+      if (!cloudConfig.firebaseConfigStr || !cloudConfig.firebaseRoom) {
+        updateSyncStatusUI('none', 'Local only (no Firebase config)');
+        return;
+      }
+
+      try {
+        const cfg = parseFirebaseConfig(cloudConfig.firebaseConfigStr);
+        if (!firebaseApp) {
+          firebaseApp = firebase.apps.length ? firebase.apps[0] : firebase.initializeApp(cfg);
+        }
+        firestoreDb = firebase.firestore(firebaseApp);
+
+        try {
+          firestoreDb.enablePersistence({ synchronizeTabs: true }).catch(() => {});
+        } catch (err) {}
+
+        updateSyncStatusUI('connecting', `Connecting to Room [${cloudConfig.firebaseRoom}]...`);
+
+        if (firestoreUnsub) firestoreUnsub();
+
+        const docRef = firestoreDb.collection('inicet_saves').doc(cloudConfig.firebaseRoom);
+
+        firestoreUnsub = docRef.onSnapshot((doc) => {
+          if (!doc.exists) {
+            updateSyncStatusUI('synced', `Connected to Room [${cloudConfig.firebaseRoom}]. Initializing cloud save...`);
+            pushToFirebase(true);
+            return;
+          }
+
+          if (doc.metadata && doc.metadata.hasPendingWrites) {
+            updateSyncStatusUI('synced', `Synced with Room [${cloudConfig.firebaseRoom}]`);
+            return;
+          }
+
+          const remoteData = doc.data();
+          if (remoteData && remoteData.state) {
+            handleIncomingRemoteState(remoteData.state, remoteData.updatedAt);
+          }
+        }, (err) => {
+          console.error('Firestore snapshot error:', err);
+          updateSyncStatusUI('error', `Firebase error: ${err.message}`);
+        });
+
+      } catch (err) {
+        console.error('Firebase init error:', err);
+        updateSyncStatusUI('error', `Firebase config error: ${err.message}`);
+      }
+    }
+
+    function handleIncomingRemoteState(remoteState, remoteUpdatedAt) {
+      const merged = mergeSaveStates(state, remoteState);
+      const hasChanges = JSON.stringify(merged) !== JSON.stringify(state);
+
+      if (hasChanges) {
+        isRemoteSyncUpdate = true;
+        state = merged;
+        localStorage.setItem(SAVE_KEY, JSON.stringify(state));
+        renderAll();
+        isRemoteSyncUpdate = false;
+        play8BitSfx('sync');
+        logBattle('⚡ WARP SYNC: Progress synchronized from cloud!', 'heal');
+        showToast('☁️ Cloud progress synced!');
+      }
+
+      cloudConfig.lastSyncTime = Date.now();
+      saveCloudConfig();
+      updateSyncStatusUI('synced', `Synced with Room [${cloudConfig.firebaseRoom}]`);
+    }
+
+    function pushToFirebase(immediate = false) {
+      if (!firestoreDb || !cloudConfig.firebaseRoom) return;
+
+      const doPush = () => {
+        state.lastUpdated = Date.now();
+        localStorage.setItem(SAVE_KEY, JSON.stringify(state));
+        updateSyncStatusUI('syncing', 'Syncing to cloud...');
+
+        const docRef = firestoreDb.collection('inicet_saves').doc(cloudConfig.firebaseRoom);
+        docRef.set({
+          state: state,
+          updatedAt: Date.now(),
+          clientDevice: navigator.userAgent
+        }, { merge: true }).then(() => {
+          cloudConfig.lastSyncTime = Date.now();
+          saveCloudConfig();
+          updateSyncStatusUI('synced', `Synced with Room [${cloudConfig.firebaseRoom}]`);
+        }).catch(err => {
+          console.error('Firestore push error:', err);
+          updateSyncStatusUI('error', `Sync write failed: ${err.message}`);
+        });
+      };
+
+      if (immediate) {
+        doPush();
+      } else {
+        if (syncPushTimeout) clearTimeout(syncPushTimeout);
+        updateSyncStatusUI('syncing', 'Saving changes...');
+        syncPushTimeout = setTimeout(doPush, 600);
+      }
+    }
+
+    async function syncWithGist(direction = 'smart') {
+      if (!cloudConfig.gistToken) {
+        showToast('GitHub Personal Access Token required');
+        return;
+      }
+      updateSyncStatusUI('syncing', 'Connecting to GitHub Gist...');
+
+      try {
+        if (!cloudConfig.gistId) {
+          state.lastUpdated = Date.now();
+          const res = await fetch('https://api.github.com/gists', {
+            method: 'POST',
+            headers: {
+              'Authorization': `token ${cloudConfig.gistToken}`,
+              'Accept': 'application/vnd.github.v3+json',
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              description: 'INI-CET Quest 8-Bit Dungeon Save',
+              public: false,
+              files: {
+                'inicet_quest_save.json': {
+                  content: JSON.stringify({ state, updatedAt: Date.now() }, null, 2)
+                }
+              }
+            })
+          });
+          if (!res.ok) throw new Error(`GitHub API error: ${res.statusText}`);
+          const data = await res.json();
+          cloudConfig.gistId = data.id;
+          cloudConfig.lastSyncTime = Date.now();
+          saveCloudConfig();
+          updateSyncStatusUI('synced', `Linked to Gist [${data.id.substring(0, 7)}]`);
+          showToast('Private Gist created & synced!');
+          return;
+        }
+
+        const getRes = await fetch(`https://api.github.com/gists/${cloudConfig.gistId}`, {
+          headers: {
+            'Authorization': `token ${cloudConfig.gistToken}`,
+            'Accept': 'application/vnd.github.v3+json'
+          }
+        });
+        if (!getRes.ok) throw new Error(`Could not fetch Gist: ${getRes.statusText}`);
+        const gistData = await getRes.json();
+        const file = gistData.files && gistData.files['inicet_quest_save.json'];
+
+        if (file && file.content) {
+          const remote = JSON.parse(file.content);
+          const remoteState = remote.state || remote;
+          const merged = mergeSaveStates(state, remoteState);
+          state = merged;
+          localStorage.setItem(SAVE_KEY, JSON.stringify(state));
+          renderAll();
+        }
+
+        if (direction === 'push' || direction === 'smart') {
+          state.lastUpdated = Date.now();
+          await fetch(`https://api.github.com/gists/${cloudConfig.gistId}`, {
+            method: 'PATCH',
+            headers: {
+              'Authorization': `token ${cloudConfig.gistToken}`,
+              'Accept': 'application/vnd.github.v3+json',
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              files: {
+                'inicet_quest_save.json': {
+                  content: JSON.stringify({ state, updatedAt: Date.now() }, null, 2)
+                }
+              }
+            })
+          });
+        }
+
+        cloudConfig.lastSyncTime = Date.now();
+        saveCloudConfig();
+        updateSyncStatusUI('synced', `Synced with Gist [${cloudConfig.gistId.substring(0, 7)}]`);
+        showToast('Gist synced successfully!');
+        play8BitSfx('sync');
+      } catch (err) {
+        console.error('Gist sync error:', err);
+        updateSyncStatusUI('error', `Gist error: ${err.message}`);
+        showToast(`Gist error: ${err.message}`);
+      }
+    }
+
+    function openSyncModal(tab = 'firebase') {
+      const modal = document.getElementById('syncModalBackdrop');
+      if (!modal) return;
+      modal.style.display = 'flex';
+
+      loadCloudConfig();
+      document.getElementById('fbRoomInput').value = cloudConfig.firebaseRoom || '';
+      document.getElementById('fbConfigInput').value = cloudConfig.firebaseConfigStr || '';
+      document.getElementById('gistTokenInput').value = cloudConfig.gistToken || '';
+      document.getElementById('gistIdInput').value = cloudConfig.gistId || '';
+
+      switchSyncTab(tab);
+      updateSyncStatusUI(
+        cloudConfig.provider === 'firebase' && firestoreDb ? 'synced' :
+        cloudConfig.provider === 'gist' && cloudConfig.gistId ? 'synced' : 'none'
+      );
+    }
+
+    function closeSyncModal() {
+      const modal = document.getElementById('syncModalBackdrop');
+      if (modal) modal.style.display = 'none';
+    }
+
+    function switchSyncTab(tab) {
+      const tabs = ['firebase', 'gist', 'qr', 'backup'];
+      tabs.forEach(t => {
+        const btn = document.getElementById(`tabBtn${t.charAt(0).toUpperCase() + t.slice(1)}`);
+        const pane = document.getElementById(`pane${t.charAt(0).toUpperCase() + t.slice(1)}`);
+        if (btn) btn.classList.toggle('active', t === tab);
+        if (pane) pane.style.display = (t === tab) ? 'block' : 'none';
+      });
+
+      if (tab === 'qr') {
+        setTimeout(renderQrCode, 50);
+      }
+    }
+
+    function generateRandomRoom() {
+      const adjectives = ['swift', 'iron', 'golden', 'shadow', 'astral', 'hyper', 'mystic', 'radiant'];
+      const nouns = ['knight', 'paladin', 'healer', 'titan', 'ranger', 'sorcerer', 'guardian', 'scholar'];
+      const randNum = Math.floor(100 + Math.random() * 900);
+      const room = `${adjectives[Math.floor(Math.random() * adjectives.length)]}-${nouns[Math.floor(Math.random() * nouns.length)]}-${randNum}`;
+      document.getElementById('fbRoomInput').value = room;
+      showToast(`New Room Code: ${room}`);
+    }
+
+    function connectFirebase() {
+      const room = document.getElementById('fbRoomInput').value.trim();
+      const cfgStr = document.getElementById('fbConfigInput').value.trim();
+
+      if (!room) {
+        showToast('Please enter or generate a Secret Room Code');
+        return;
+      }
+      if (!cfgStr) {
+        showToast('Please paste your Firebase config');
+        return;
+      }
+
+      cloudConfig.provider = 'firebase';
+      cloudConfig.firebaseRoom = room;
+      cloudConfig.firebaseConfigStr = cfgStr;
+      saveCloudConfig();
+
+      initFirebaseSync();
+      play8BitSfx('sync');
+      showToast('Connecting to Firebase...');
+    }
+
+    function forcePushCloud() {
+      if (cloudConfig.provider === 'firebase') {
+        pushToFirebase(true);
+        showToast('Pushing save to Firebase...');
+      } else if (cloudConfig.provider === 'gist') {
+        syncWithGist('push');
+      } else {
+        showToast('Connect a cloud provider first');
+      }
+    }
+
+    function forcePullCloud() {
+      if (cloudConfig.provider === 'firebase') {
+        if (!firestoreDb || !cloudConfig.firebaseRoom) return;
+        firestoreDb.collection('inicet_saves').doc(cloudConfig.firebaseRoom).get().then(doc => {
+          if (doc.exists && doc.data() && doc.data().state) {
+            handleIncomingRemoteState(doc.data().state, doc.data().updatedAt);
+            showToast('Save pulled from cloud!');
+          } else {
+            showToast('No save found in this room');
+          }
+        });
+      } else if (cloudConfig.provider === 'gist') {
+        syncWithGist('pull');
+      } else {
+        showToast('Connect a cloud provider first');
+      }
+    }
+
+    function disconnectCloud() {
+      if (confirm('Disconnect from cloud sync? Your local save on this device will NOT be deleted.')) {
+        if (firestoreUnsub) { firestoreUnsub(); firestoreUnsub = null; }
+        cloudConfig.provider = 'none';
+        saveCloudConfig();
+        updateSyncStatusUI('none', 'Disconnected. Local save active.');
+        showToast('Cloud sync disconnected');
+      }
+    }
+
+    function connectGist() {
+      const token = document.getElementById('gistTokenInput').value.trim();
+      const gistId = document.getElementById('gistIdInput').value.trim();
+
+      if (!token) {
+        showToast('Please enter your GitHub Personal Access Token');
+        return;
+      }
+
+      cloudConfig.provider = 'gist';
+      cloudConfig.gistToken = token;
+      cloudConfig.gistId = gistId;
+      saveCloudConfig();
+
+      syncWithGist('smart');
+    }
+
+    function syncGistNow() {
+      syncWithGist('smart');
+    }
+
+    function generateMagicLinkUrl() {
+      const loc = window.location;
+      const baseUrl = loc.protocol + '//' + loc.host + loc.pathname;
+      const payload = {
+        cfg: {
+          provider: cloudConfig.provider,
+          firebaseConfigStr: cloudConfig.firebaseConfigStr,
+          firebaseRoom: cloudConfig.firebaseRoom,
+          gistToken: cloudConfig.gistToken,
+          gistId: cloudConfig.gistId
+        },
+        snap: state
+      };
+      const b64 = btoa(unescape(encodeURIComponent(JSON.stringify(payload))));
+      return `${baseUrl}#magic=${b64}`;
+    }
+
+    function renderQrCode() {
+      const qrDiv = document.getElementById('qrcode');
+      if (!qrDiv) return;
+      qrDiv.innerHTML = '';
+      const link = generateMagicLinkUrl();
+      const linkInput = document.getElementById('magicLinkInput');
+      if (linkInput) linkInput.value = link;
+
+      if (window.QRCode) {
+        new QRCode(qrDiv, {
+          text: link,
+          width: 210,
+          height: 210,
+          colorDark: "#08070f",
+          colorLight: "#00f5d4",
+          correctLevel: QRCode.CorrectLevel.M
+        });
+      } else {
+        qrDiv.innerHTML = '<p style="color:var(--slump-amber); font-size:0.8rem; padding:1rem; text-align:center;">QR script offline. Use the Copy Link button below!</p>';
+      }
+    }
+
+    function copyMagicLink() {
+      const linkInput = document.getElementById('magicLinkInput');
+      if (!linkInput) return;
+      linkInput.select();
+      navigator.clipboard.writeText(linkInput.value).then(() => {
+        showToast('📋 Magic Pair Link copied to clipboard!');
+        play8BitSfx('torch');
+      }).catch(() => {
+        document.execCommand('copy');
+        showToast('📋 Link copied!');
+      });
+    }
+
+    function checkMagicUrlOnLoad() {
+      if (!window.location.hash || !window.location.hash.startsWith('#magic=')) return;
+      try {
+        const b64 = window.location.hash.replace('#magic=', '');
+        const json = decodeURIComponent(escape(atob(b64)));
+        const data = JSON.parse(json);
+
+        if (data.cfg) {
+          cloudConfig = { ...cloudConfig, ...data.cfg };
+          saveCloudConfig();
+        }
+        if (data.snap) {
+          state = mergeSaveStates(state, data.snap);
+          saveGame(false);
+        }
+
+        window.history.replaceState(null, null, window.location.pathname);
+
+        setTimeout(() => {
+          renderAll();
+          initCloudSync();
+          play8BitSfx('sync');
+          logBattle('⚡ WARP MAGIC LINK APPLIED! Device paired & synced!', 'crit');
+          showToast('🎉 Paired via Magic Link! Dungeon synced!');
+        }, 300);
+
+      } catch (e) {
+        console.error('Failed to parse magic URL:', e);
+      }
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('retroToast');
+      if (!toast) return;
+      toast.textContent = msg;
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 3200);
+    }
+
+
+    function todayKey() {
+      return new Date().toISOString().split('T')[0];
+    }
+
+    // =========================================================================
+    // 3. 8-BIT CHIPTUNE SYNTHESIZER (WEB AUDIO API)
+    // =========================================================================
+    let audioCtx = null;
+    function play8BitSfx(type) {
+      if (!state.sfx) return;
+      try {
+        if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        const now = audioCtx.currentTime;
+
+        const playNote = (freq, start, dur, wave = 'square', vol = 0.12) => {
+          const osc = audioCtx.createOscillator();
+          const gain = audioCtx.createGain();
+          osc.type = wave;
+          osc.frequency.setValueAtTime(freq, now + start);
+          gain.gain.setValueAtTime(vol, now + start);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + start + dur);
+          osc.connect(gain);
+          gain.connect(audioCtx.destination);
+          osc.start(now + start);
+          osc.stop(now + start + dur);
+        };
+
+        if (type === 'slash') {
+          playNote(220, 0, 0.05, 'sawtooth', 0.15);
+          playNote(440, 0.04, 0.06, 'square', 0.15);
+          playNote(880, 0.09, 0.12, 'square', 0.12);
+        } else if (type === 'forge') {
+          playNote(587.33, 0, 0.06, 'triangle', 0.18);
+          playNote(880, 0.06, 0.14, 'square', 0.12);
+        } else if (type === 'bossKill') {
+          [523.25, 659.25, 783.99, 1046.5].forEach((f, i) => playNote(f, i * 0.09, 0.18, 'square', 0.15));
+        } else if (type === 'torch') {
+          [440, 554.37, 659.25, 880].forEach((f, i) => playNote(f, i * 0.07, 0.16, 'triangle', 0.16));
+        } else if (type === 'coin') {
+          playNote(987.77, 0, 0.07, 'square', 0.1);
+          playNote(1318.51, 0.07, 0.2, 'square', 0.1);
+        } else if (type === 'sync') {
+          [659.25, 880, 1046.5, 1318.51].forEach((f, i) => playNote(f, i * 0.06, 0.12, 'triangle', 0.14));
+        } else if (type === 'warp') {
+          [329.63, 440, 587.33, 880, 1174.66].forEach((f, i) => playNote(f, i * 0.05, 0.1, 'sine', 0.16));
+        }
+      } catch (e) {}
+    }
+
+    // =========================================================================
+    // 4. RETRO PIXEL CANVAS ENGINE (60FPS ANIMATED SPRITES & PARTICLES)
+    // =========================================================================
+    const canvas = document.getElementById('battleCanvas');
+    const ctx = canvas.getContext('2d');
+
+    let animTick = 0;
+    let heroAttackTimer = 0;
+    let bossHitTimer = 0;
+    let screenShake = 0;
+    let floatingTexts = [];
+    let particles = [];
+
+    // 12x12 Procedural Pixel Matrices
+    const HERO_SPRITE = [
+      "....YYYY....",
+      "...YYYYYY...",
+      "...YWWWWY...",
+      "...YWKWKY...",
+      "....YYYY....",
+      "..BBBBBBBB..",
+      ".BBBBBBBBBB.",
+      ".BB.BBBB.BB.",
+      "....BBBB....",
+      "...BB..BB...",
+      "..BB....BB..",
+      "..KK....KK.."
+    ];
+
+    const BOSS_MATRICES = [
+      // Type 0: Leviathan / Wyvern / Golem
+      [
+        "..RRRRRRRR..",
+        ".RRRRRRRRRR.",
+        " RREER..REERR",
+        "RRRRRRRRRRRR",
+        "RRRRYYYYRRRR",
+        ".RRRRRRRRRR.",
+        "..RR.RR.RR..",
+        ".RR..RR..RR.",
+        "RR...RR...RR",
+        ".....RR....."
+      ],
+      // Type 1: Hydra / Blood Knight / Dragon
+      [
+        "R..RRRRRR..R",
+        "RR.RRRRRR.RR",
+        ".RRRRRRRRRR.",
+        ".RREERRREER.",
+        "..RRRRRRRR..",
+        ".RRRRRRRRRR.",
+        "RRRR.RR.RRRR",
+        "RR...RR...RR",
+        "....RRRR....",
+        "...RR..RR..."
+      ],
+      // Type 2: Beholder / Lich / Mindflayer
+      [
+        "...RRRRRR...",
+        ".RRRRRRRRRR.",
+        "RRRRRRRRRRRR",
+        "RRRREEEERRRR",
+        "RRRREEEERRRR",
+        "RRRRRRRRRRRR",
+        ".RRRRRRRRRR.",
+        "..R.RRRR.R..",
+        ".R..R..R..R.",
+        "R...R..R...R"
+      ]
+    ];
+
+    function spawnParticles(x, y, color, count = 18) {
+      for (let i = 0; i < count; i++) {
+        particles.push({
+          x, y,
+          vx: (Math.random() - 0.5) * 6,
+          vy: (Math.random() - 0.7) * 6,
+          size: Math.random() < 0.5 ? 4 : 6,
+          color,
+          life: 28
+        });
+      }
+    }
+
+    function spawnFloatingText(text, x, y, color = '#ffd700') {
+      floatingTexts.push({ text, x, y, color, life: 45 });
+    }
+
+    function drawPixelMatrix(matrix, startX, startY, scale, palette) {
+      for (let r = 0; r < matrix.length; r++) {
+        const row = matrix[r];
+        for (let c = 0; c < row.length; c++) {
+          const ch = row[c];
+          if (ch !== '.' && ch !== ' ' && palette[ch]) {
+            ctx.fillStyle = palette[ch];
+            ctx.fillRect(startX + c * scale, startY + r * scale, scale, scale);
+          }
+        }
+      }
+    }
+
+    function renderCanvasLoop() {
+      animTick++;
+      const realm = REALMS.find(r => r.id === state.selectedRealm) || REALMS[0];
+      const stats = getRealmStats(realm.id);
+      const bob = Math.sin(animTick * 0.08) * 4;
+
+      ctx.save();
+      if (screenShake > 0) {
+        ctx.translate((Math.random() - 0.5) * screenShake, (Math.random() - 0.5) * screenShake);
+        screenShake *= 0.85;
+        if (screenShake < 0.5) screenShake = 0;
+      }
+
+      // 1. Background Sky & Dungeon Bricks
+      ctx.fillStyle = state.gameMode === 'campfire' ? '#0d0914' : '#090b16';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      // Subtle pixel grid bricks
+      ctx.fillStyle = state.gameMode === 'campfire' ? 'rgba(255, 159, 28, 0.05)' : `${realm.theme}22`;
+      for (let y = 20; y < 185; y += 24) {
+        for (let x = (y % 48 === 0 ? 0 : 16); x < canvas.width; x += 36) {
+          ctx.fillRect(x, y, 30, 18);
+        }
+      }
+
+      // Dungeon Floor
+      ctx.fillStyle = '#1b172e';
+      ctx.fillRect(0, 185, canvas.width, 55);
+      ctx.fillStyle = realm.theme;
+      ctx.fillRect(0, 185, canvas.width, 4);
+
+      // 2. Hero Sprite
+      const heroLunge = heroAttackTimer > 0 ? Math.sin((heroAttackTimer / 15) * Math.PI) * 95 : 0;
+      if (heroAttackTimer > 0) heroAttackTimer--;
+
+      const heroX = 58 + heroLunge;
+      const heroY = 126 + (state.gameMode === 'campfire' ? 6 : Math.floor(bob * 0.5));
+
+      // Overdrive Golden Aura if Daily Anki Torch is active
+      if (isAnkiDoneToday()) {
+        ctx.fillStyle = 'rgba(255, 215, 0, 0.18)';
+        ctx.fillRect(heroX - 6, heroY - 6, 60, 60);
+      }
+
+      let wpnColor = '#cbd5e1';
+      if (state.equippedWeapon === 'wpn_1') wpnColor = '#00f5d4';
+      if (state.equippedWeapon === 'wpn_2') wpnColor = '#ff3355';
+      if (state.equippedWeapon === 'wpn_3') wpnColor = '#ffd700';
+
+      drawPixelMatrix(HERO_SPRITE, heroX, heroY, 4, {
+        'Y': '#fde047',
+        'W': '#fed7aa',
+        'K': '#090d16',
+        'B': isAnkiDoneToday() ? '#f59e0b' : '#38bdf8'
+      });
+
+      // Hero Sword / Scepter
+      ctx.fillStyle = wpnColor;
+      if (heroAttackTimer > 5) {
+        ctx.fillRect(heroX + 46, heroY + 14, 28, 6);
+        ctx.fillRect(heroX + 52, heroY + 8, 6, 18);
+      } else {
+        ctx.fillRect(heroX + 44, heroY + 4, 6, 28);
+        ctx.fillRect(heroX + 40, heroY + 24, 14, 4);
+      }
+
+      // 3. Campfire Anvil Scene OR Boss Monster Scene
+      if (state.gameMode === 'campfire') {
+        // Draw Cozy Campfire + Rune Anvil in center
+        const fireX = 185;
+        const fireY = 156;
+        // Logs
+        ctx.fillStyle = '#78350f';
+        ctx.fillRect(fireX, fireY + 20, 44, 8);
+        // Animated Flames
+        const flicker = (animTick % 12 < 6) ? 4 : -2;
+        ctx.fillStyle = '#f97316';
+        ctx.fillRect(fireX + 6, fireY + flicker, 32, 20);
+        ctx.fillStyle = '#facc15';
+        ctx.fillRect(fireX + 12, fireY + 6 + flicker, 20, 14);
+        // Rune Anvil
+        ctx.fillStyle = '#64748b';
+        ctx.fillRect(fireX + 55, fireY + 8, 30, 12);
+        ctx.fillRect(fireX + 62, fireY + 20, 16, 8);
+      }
+
+      // 4. Draw Realm Boss on Right
+      const bossX = 290 + (bossHitTimer > 0 ? (bossHitTimer % 2 === 0 ? 6 : -6) : 0);
+      const bossY = 108 + Math.floor(bob);
+      if (bossHitTimer > 0) bossHitTimer--;
+
+      if (stats.slain) {
+        // Draw Golden Victory Chest / Relic Shrine
+        ctx.fillStyle = '#ffd700';
+        ctx.fillRect(295, 145, 56, 40);
+        ctx.fillStyle = '#92400e';
+        ctx.fillRect(300, 152, 46, 28);
+        ctx.fillStyle = '#fff';
+        ctx.fillRect(318, 160, 10, 10);
+      } else {
+        const matrix = BOSS_MATRICES[realm.spriteType % BOSS_MATRICES.length];
+        drawPixelMatrix(matrix, bossX, bossY, 6, {
+          'R': bossHitTimer > 0 ? '#ffffff' : realm.bossColor,
+          'E': realm.eyeColor,
+          'Y': '#fde047'
+        });
+
+        // Boss Armor Shield Barrier if Stage 1 isn't finished
+        if (stats.armorPct > 0) {
+          ctx.strokeStyle = 'rgba(56, 189, 248, 0.55)';
+          ctx.lineWidth = 3;
+          ctx.strokeRect(bossX - 8, bossY - 6, 84, 72);
+        }
+      }
+
+      // 5. Particles
+      for (let i = particles.length - 1; i >= 0; i--) {
+        const p = particles[i];
+        p.x += p.vx;
+        p.y += p.vy;
+        p.vy += 0.25;
+        p.life--;
+        ctx.fillStyle = p.color;
+        ctx.fillRect(p.x, p.y, p.size, p.size);
+        if (p.life <= 0) particles.splice(i, 1);
+      }
+
+      // 6. Floating Damage / Loot Text
+      ctx.font = '10px "Press Start 2P", monospace';
+      for (let i = floatingTexts.length - 1; i >= 0; i--) {
+        const ft = floatingTexts[i];
+        ft.y -= 0.8;
+        ft.life--;
+        ctx.fillStyle = '#000';
+        ctx.fillText(ft.text, ft.x + 2, ft.y + 2);
+        ctx.fillStyle = ft.color;
+        ctx.fillText(ft.text, ft.x, ft.y);
+        if (ft.life <= 0) floatingTexts.splice(i, 1);
+      }
+
+      ctx.restore();
+      requestAnimationFrame(renderCanvasLoop);
+    }
+
+    // =========================================================================
+    // 5. RPG MECHANICS, DAMAGE MATH & SMART QUEST DISPATCHER
+    // =========================================================================
+    function isAnkiDoneToday() {
+      return !!state.ankiDays[todayKey()];
+    }
+
+    function getGearMultiplier() {
+      if (state.equippedWeapon === 'wpn_3') return 1.4;
+      if (state.equippedWeapon === 'wpn_2') return 1.25;
+      if (state.equippedWeapon === 'wpn_1') return 1.15;
+      return 1.0;
+    }
+
+    function getRealmStats(realmId) {
+      let totalQuests = 0;
+      let doneQuests = 0;
+      let s1Done = 0;
+      let hpRemaining = 1000;
+
+      STAGES.forEach(st => {
+        st.quests.forEach(q => {
+          totalQuests++;
+          const key = `${realmId}__${q.id}`;
+          if (state.completed[key]) {
+            doneQuests++;
+            hpRemaining -= st.dmg;
+            if (st.id === 's1') s1Done++;
+          }
+        });
+      });
+
+      const slain = doneQuests === totalQuests;
+      if (slain) hpRemaining = 0;
+      const armorPct = Math.round(((6 - s1Done) / 6) * 100);
+
+      return {
+        totalQuests,
+        doneQuests,
+        pct: Math.round((doneQuests / totalQuests) * 100),
+        hpRemaining: Math.max(0, hpRemaining),
+        armorPct,
+        slain
+      };
+    }
+
+    function getTotalStats() {
+      let totalXp = state.bonusXp || 0;
+      let totalDone = 0;
+      REALMS.forEach(r => {
+        STAGES.forEach(st => {
+          st.quests.forEach(q => {
+            if (state.completed[`${r.id}__${q.id}`]) {
+              totalXp += st.xp;
+              totalDone++;
+            }
+          });
+        });
+      });
+      totalXp += Object.keys(state.ankiDays).length * 75;
+      const level = Math.floor(totalXp / 300) + 1;
+      const xpInLevel = totalXp % 300;
+      return { totalXp, level, xpInLevel, totalDone };
+    }
+
+    function getStreak() {
+      let s = 0;
+      const now = new Date();
+      for (let i = 0; i < 365; i++) {
+        const d = new Date(now);
+        d.setDate(now.getDate() - i);
+        const k = d.toISOString().split('T')[0];
+        if (state.ankiDays[k]) s++;
+        else if (i > 0) break;
+      }
+      return s;
+    }
+
+    function logBattle(msg, cls = '') {
+      const box = document.getElementById('battleLog');
+      const div = document.createElement('div');
+      div.className = `log-entry ${cls}`;
+      div.textContent = `> ${msg}`;
+      box.prepend(div);
+    }
+
+    function toggleQuest(realmId, stageObj, questObj) {
+      const key = `${realmId}__${questObj.id}`;
+      const mult = (isAnkiDoneToday() ? 1.5 : 1.0) * getGearMultiplier();
+
+      if (state.completed[key]) {
+        delete state.completed[key];
+        state.gold = Math.max(0, state.gold - Math.round(stageObj.gold * mult));
+        logBattle(`Undid [${questObj.label}]`, '');
+      } else {
+        state.completed[key] = Date.now();
+        const goldGain = Math.round(stageObj.gold * mult);
+        state.gold += goldGain;
+
+        // Visual & Audio Combat Effects
+        heroAttackTimer = 15;
+        bossHitTimer = 14;
+        screenShake = 8;
+
+        const rStats = getRealmStats(realmId);
+        if (rStats.slain) {
+          play8BitSfx('bossKill');
+          spawnParticles(310, 130, '#ffd700', 35);
+          spawnFloatingText('BOSS SLAIN!!', 210, 85, '#22c55e');
+          logBattle(`🏆 VICTORY! ${realmId.toUpperCase()} BOSS DEFEATED!`, 'crit');
+        } else if (stageObj.armorShred) {
+          play8BitSfx('forge');
+          spawnParticles(310, 140, '#38bdf8', 20);
+          spawnFloatingText(`ARMOR SHRED! -${stageObj.dmg}HP`, 195, 95, '#38bdf8');
+          logBattle(`Forged [${questObj.label}]! Boss Armor shredded & +${goldGain}G!`, 'heal');
+        } else {
+          play8BitSfx('slash');
+          spawnParticles(310, 140, '#ff3355', 24);
+          spawnFloatingText(`CRIT -${stageObj.dmg} HP! +${goldGain}G`, 185, 95, '#ffd700');
+          logBattle(`⚔️ Struck Boss with [${questObj.label}] for ${stageObj.dmg} DMG! (+${goldGain}G)`, 'crit');
+        }
+      }
+
+      saveGame();
+      renderAll();
+    }
+
+    function triggerDailyAnki() {
+      const k = todayKey();
+      if (state.ankiDays[k]) {
+        delete state.ankiDays[k];
+        logBattle('Anki Torch extinguished.', '');
+      } else {
+        state.ankiDays[k] = true;
+        state.hp = 100;
+        state.gold += 50;
+        play8BitSfx('torch');
+        spawnParticles(80, 140, '#ffd700', 28);
+        spawnFloatingText('OVERDRIVE 1.5X!', 50, 95, '#ffd700');
+        logBattle('🔥 Daily Anki Reviews Complete! +75 XP, +50G & 1.5x Overdrive Active!', 'heal');
+      }
+      saveGame();
+      renderAll();
+    }
+
+    // --- SMART ENCOUNTER DISPATCHER ---
+    function getEligibleQuests() {
+      const list = [];
+      // Prioritize currently selected realm first, then others
+      const orderedRealms = [
+        REALMS.find(r => r.id === state.selectedRealm),
+        ...REALMS.filter(r => r.id !== state.selectedRealm)
+      ].filter(Boolean);
+
+      orderedRealms.forEach(r => {
+        STAGES.forEach(st => {
+          if (state.gameMode === 'campfire' && st.mode !== 'campfire') return;
+          if (state.gameMode === 'raid' && st.mode !== 'raid') return;
+
+          // Prerequisite logic so Anki Pass 1/2 only triggers after Stage 1 & 2
+          if (st.id === 's3' || st.id === 's4') {
+            const s1All = STAGES[0].quests.every(q => state.completed[`${r.id}__${q.id}`]);
+            const s2All = STAGES[1].quests.every(q => state.completed[`${r.id}__${q.id}`]);
+            if (!s1All || !s2All) return;
+          }
+          if (st.id === 's6') {
+            const s5All = STAGES[4].quests.every(q => state.completed[`${r.id}__${q.id}`]);
+            if (!s5All) return;
+          }
+          if (st.id === 's7') {
+            const s6All = STAGES[5].quests.every(q => state.completed[`${r.id}__${q.id}`]);
+            if (!s6All) return;
+          }
+
+          st.quests.forEach(q => {
+            if (!state.completed[`${r.id}__${q.id}`]) {
+              list.push({ realm: r, stage: st, quest: q });
+            }
+          });
+        });
+      });
+      return list;
+    }
+
+    function setGameMode(mode) {
+      state.gameMode = mode;
+      state.skipOffset = 0;
+      setCombatTimer(mode === 'campfire' ? 15 : 45);
+      saveGame();
+      renderAll();
+    }
+
+    function cycleActiveQuest() {
+      state.skipOffset++;
+      renderAll();
+    }
+
+    function strikeActiveQuest() {
+      const qList = getEligibleQuests();
+      if (!qList.length) return;
+      const target = qList[state.skipOffset % qList.length];
+      state.selectedRealm = target.realm.id;
+      toggleQuest(target.realm.id, target.stage, target.quest);
+    }
+
+    // =========================================================================
+    // 6. COMBAT TIMER (DEALS CHIP DMG EVERY MINUTE)
+    // =========================================================================
+    let timerSecs = 15 * 60;
+    let timerHandle = null;
+
+    function setCombatTimer(mins) {
+      if (timerHandle) {
+        clearInterval(timerHandle);
+        timerHandle = null;
+        document.getElementById('timerBtn').textContent = 'START';
+      }
+      timerSecs = mins * 60;
+      updateTimerReadout();
+    }
+
+    function updateTimerReadout() {
+      const m = String(Math.floor(timerSecs / 60)).padStart(2, '0');
+      const s = String(timerSecs % 60).padStart(2, '0');
+      document.getElementById('timerDisplay').textContent = `${m}:${s}`;
+    }
+
+    function toggleCombatTimer() {
+      const btn = document.getElementById('timerBtn');
+      if (timerHandle) {
+        clearInterval(timerHandle);
+        timerHandle = null;
+        btn.textContent = 'RESUME';
+      } else {
+        btn.textContent = 'PAUSE';
+        timerHandle = setInterval(() => {
+          if (timerSecs > 0) {
+            timerSecs--;
+            // Every 60 seconds of active focus grants +2G & chip attack animation
+            if (timerSecs > 0 && timerSecs % 60 === 0) {
+              state.gold += 2;
+              state.bonusXp = (state.bonusXp || 0) + 5;
+              heroAttackTimer = 10;
+              bossHitTimer = 8;
+              spawnFloatingText('+5XP +2G FOCUS!', 80, 110, '#00f5d4');
+              saveGame();
+              renderHUD();
+            }
+            updateTimerReadout();
+          } else {
+            clearInterval(timerHandle);
+            timerHandle = null;
+            btn.textContent = 'START';
+            play8BitSfx('bossKill');
+            logBattle('⏰ Combat Timer Completed! Strike your quest target!', 'crit');
+          }
+        }, 1000);
+      }
+    }
+
+    // =========================================================================
+    // 7. GUILD SHOP & REWARDS
+    // =========================================================================
+    function buyShopItem(itemId) {
+      const item = SHOP_ITEMS.find(i => i.id === itemId);
+      if (!item) return;
+
+      if (item.type === 'gear' && state.ownedItems[itemId]) {
+        state.equippedWeapon = itemId;
+        play8BitSfx('coin');
+        logBattle(`Equipped [${item.name}]!`, 'heal');
+        saveGame();
+        renderAll();
+        return;
+      }
+
+      if (state.gold < item.cost) {
+        logBattle(`Not enough Gold for ${item.name}! Need ${item.cost}G.`, 'dmg');
+        return;
+      }
+
+      state.gold -= item.cost;
+      play8BitSfx('coin');
+      if (item.type === 'gear') {
+        state.ownedItems[itemId] = true;
+        state.equippedWeapon = itemId;
+        spawnFloatingText(`GEAR UPGRADED!`, 70, 95, '#00f5d4');
+        logBattle(`🗡️ Purchased & Equipped [${item.name}]!`, 'crit');
+      } else {
+        state.hp = 100;
+        spawnFloatingText(`BOUNTY CLAIMED!`, 70, 95, '#22c55e');
+        logBattle(`🍺 Claimed [${item.name}]: Enjoy your break guilt-free!`, 'heal');
+      }
+      saveGame();
+      renderAll();
+    }
+
+    // =========================================================================
+    // 8. UI RENDERING
+    // =========================================================================
+    const HERO_RANKS = [
+      'LV.1 INTERN SQUIRE',
+      'LV.2 WARD VANGUARD',
+      'LV.3 NEPHRON SLAYER',
+      'LV.4 ANKI SPELLBLADE',
+      'LV.5 MARROW PALADIN',
+      'LV.6 CHIEF REGISTRAR',
+      'LV.7 INI-CET WARLORD',
+      'LV.8 AIIMS ARCHMAGE'
+    ];
+
+    function renderHUD() {
+      const { level, xpInLevel, totalDone } = getTotalStats();
+      document.getElementById('hudLevel').textContent = `LV.${String(level).padStart(2, '0')}`;
+      document.getElementById('hudTitle').textContent = HERO_RANKS[Math.min(level - 1, HERO_RANKS.length - 1)];
+
+      const eqItem = SHOP_ITEMS.find(i => i.id === state.equippedWeapon);
+      document.getElementById('hudWeapon').textContent = eqItem
+        ? `Weapon: ${eqItem.name} (${eqItem.bonus})`
+        : `Weapon: Rusty Scalpel (Base Gear)`;
+
+      document.getElementById('hudHpText').textContent = `${state.hp}/100`;
+      document.getElementById('hudHpBar').style.width = `${state.hp}%`;
+
+      document.getElementById('hudXpText').textContent = `${xpInLevel}/300`;
+      document.getElementById('hudXpBar').style.width = `${(xpInLevel / 300) * 100}%`;
+
+      document.getElementById('hudGlobalText').textContent = `${totalDone}/144`;
+      document.getElementById('hudGlobalBar').style.width = `${(totalDone / 144) * 100}%`;
+
+      document.getElementById('hudGold').textContent = `${state.gold} G`;
+      document.getElementById('hudStreak').textContent = `${getStreak()}d STREAK`;
+
+      const torchBtn = document.getElementById('ankiTorchBtn');
+      if (isAnkiDoneToday()) {
+        torchBtn.textContent = '🔥 TORCH LIT (1.5X OVERDRIVE)';
+        torchBtn.className = 'pixel-btn btn-green';
+      } else {
+        torchBtn.textContent = '🔥 IGNITE ANKI TORCH (1.5x)';
+        torchBtn.className = 'pixel-btn btn-gold';
+      }
+
+      // 35-day pacing
+      const start = new Date(state.startDate);
+      const daysElapsed = Math.max(1, Math.min(35, Math.floor((new Date() - start) / 86400000) + 1));
+      const eqDaysDone = ((totalDone / 144) * 35).toFixed(1);
+      const delta = (eqDaysDone - (daysElapsed - 1)).toFixed(1);
+      const paceEl = document.getElementById('paceStatusText');
+      paceEl.textContent = `DAY ${daysElapsed}/35 // ${delta >= 0 ? '+' + delta + 'd AHEAD' : delta + 'd BEHIND'}`;
+      paceEl.style.color = delta >= 0 ? 'var(--xp-green)' : 'var(--slump-amber)';
+    }
+
+    function renderEncounterAndCanvasHUD() {
+      const realm = REALMS.find(r => r.id === state.selectedRealm) || REALMS[0];
+      const rStats = getRealmStats(realm.id);
+
+      document.getElementById('canvasBossName').textContent = `${realm.num}. ${realm.boss}`;
+      document.getElementById('canvasBossHpText').textContent = `${rStats.hpRemaining}/1000`;
+      document.getElementById('canvasBossHpBar').style.width = `${(rStats.hpRemaining / 1000) * 100}%`;
+      document.getElementById('canvasBossArmorText').textContent = `${rStats.armorPct}%`;
+      document.getElementById('canvasBossArmorBar').style.width = `${rStats.armorPct}%`;
+
+      const modeBadge = document.getElementById('canvasModeBadge');
+      const btnCamp = document.getElementById('btnCampfireMode');
+      const btnRaid = document.getElementById('btnRaidMode');
+
+      if (state.gameMode === 'campfire') {
+        modeBadge.textContent = '🔥 CAMPFIRE FORGE (SLUMP MODE)';
+        modeBadge.style.borderColor = 'var(--slump-amber)';
+        modeBadge.style.color = 'var(--slump-amber)';
+        btnCamp.className = 'pixel-btn btn-amber';
+        btnRaid.className = 'pixel-btn';
+      } else {
+        modeBadge.textContent = '⚔️ DUNGEON RAID (DEEP FOCUS)';
+        modeBadge.style.borderColor = 'var(--hp-red)';
+        modeBadge.style.color = 'var(--hp-red)';
+        btnCamp.className = 'pixel-btn';
+        btnRaid.className = 'pixel-btn btn-red';
+      }
+
+      const qList = getEligibleQuests();
+      const tagEl = document.getElementById('encStageTag');
+      const rewEl = document.getElementById('encRewardTag');
+      const titleEl = document.getElementById('encQuestTitle');
+      const descEl = document.getElementById('encQuestDesc');
+
+      if (!qList.length) {
+        tagEl.textContent = '// ALL ELIGIBLE QUESTS CLEARED';
+        rewEl.textContent = 'SWITCH MODE!';
+        titleEl.textContent = 'No targets left in this mode!';
+        descEl.textContent = 'Toggle between Campfire Forge and Boss Raid to continue.';
+        return;
+      }
+
+      const item = qList[state.skipOffset % qList.length];
+      const mult = (isAnkiDoneToday() ? 1.5 : 1.0) * getGearMultiplier();
+      tagEl.textContent = `[${item.realm.name.toUpperCase()}] // ${item.stage.name}`;
+      rewEl.textContent = `-${item.stage.dmg} BOSS HP | +${Math.round(item.stage.gold * mult)}G`;
+      titleEl.textContent = item.quest.label;
+      descEl.textContent = item.stage.desc;
+    }
+
+    function renderRealmsGrid() {
+      const grid = document.getElementById('realmsGrid');
+      grid.innerHTML = '';
+
+      REALMS.forEach((r, idx) => {
+        const st = getRealmStats(r.id);
+        const div = document.createElement('div');
+        div.className = `realm-node ${state.selectedRealm === r.id ? 'selected' : ''} ${st.slain ? 'slain' : ''}`;
+        div.onclick = () => {
+          state.selectedRealm = r.id;
+          saveGame();
+          renderAll();
+        };
+
+        div.innerHTML = `
+          <div style="display:flex; justify-content:space-between;">
+            <span class="realm-num">REALM ${r.num} [${idx + 1}]</span>
+            <span class="realm-num">${r.budget}d</span>
+          </div>
+          <div class="realm-title">${r.name}</div>
+          <div class="realm-boss-sub">${st.slain ? '🏆 BOSS SLAIN' : `♥ ${st.hpRemaining} HP`}</div>
+          <div class="bar-outer" style="height:8px;">
+            <div class="bar-fill" style="width:${st.pct}%; background:${st.slain ? 'var(--xp-green)' : 'var(--mana-cyan)'};"></div>
+          </div>
+        `;
+        grid.appendChild(div);
+      });
+    }
+
+    function renderQuestBoard() {
+      const realm = REALMS.find(r => r.id === state.selectedRealm) || REALMS[0];
+      document.getElementById('boardRealmTitle').textContent = `🏰 REALM ${realm.num}: ${realm.name.toUpperCase()} // ${realm.boss}`;
+
+      const board = document.getElementById('stagesBoard');
+      board.innerHTML = '';
+
+      STAGES.forEach(st => {
+        if (state.stageFilter === 's1' && st.id !== 's1') return;
+
+        const block = document.createElement('div');
+        block.className = 'stage-block';
+
+        const modeIcon = st.mode === 'campfire' ? '🔥 Campfire' : '⚔️ Raid';
+        block.innerHTML = `
+          <div class="stage-top">
+            <div class="stage-name" style="color:${st.mode === 'campfire' ? 'var(--slump-amber)' : 'var(--mana-cyan)'}">
+              <span>${st.name}</span>
+            </div>
+            <span class="stage-reward-tag">${modeIcon} | -${st.dmg} HP | +${st.gold}G</span>
+          </div>
+        `;
+
+        const chipsWrap = document.createElement('div');
+        chipsWrap.className = 'quest-chips';
+
+        st.quests.forEach(q => {
+          const done = !!state.completed[`${realm.id}__${q.id}`];
+          const chip = document.createElement('div');
+          chip.className = `quest-chip ${done ? 'completed' : ''}`;
+          chip.onclick = () => toggleQuest(realm.id, st, q);
+          chip.innerHTML = `
+            <span class="pixel-check">${done ? '✓' : ''}</span>
+            <span>${q.label}</span>
+          `;
+          chipsWrap.appendChild(chip);
+        });
+
+        block.appendChild(chipsWrap);
+        board.appendChild(block);
+      });
+    }
+
+    function renderShop() {
+      const container = document.getElementById('shopContainer');
+      container.innerHTML = '';
+
+      SHOP_ITEMS.forEach(item => {
+        const owned = !!state.ownedItems[item.id];
+        const equipped = state.equippedWeapon === item.id;
+        const div = document.createElement('div');
+        div.className = 'shop-item';
+
+        let btnText = `BUY (${item.cost} G)`;
+        let btnClass = 'pixel-btn btn-gold';
+        if (owned) {
+          btnText = equipped ? 'EQUIPPED ✓' : 'EQUIP';
+          btnClass = equipped ? 'pixel-btn btn-green' : 'pixel-btn';
+        }
+
+        div.innerHTML = `
+          <div>
+            <div class="shop-item-title">${item.name}</div>
+            <div class="shop-item-desc">${item.bonus}</div>
+          </div>
+          <button class="${btnClass}" style="font-size:0.5rem; padding:0.4rem;" onclick="buyShopItem('${item.id}')">
+            ${btnText}
+          </button>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function setStageFilter(flt) {
+      state.stageFilter = flt;
+      renderQuestBoard();
+    }
+
+    function toggleSfx() {
+      state.sfx = !state.sfx;
+      document.getElementById('sfxBtn').textContent = state.sfx ? '🔊 SFX: ON' : '🔇 SFX: OFF';
+      saveGame();
+    }
+
+    function toggleCrt() {
+      document.body.classList.toggle('crt');
+    }
+
+    function exportSave() {
+      const str = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(state, null, 2));
+      const a = document.createElement('a');
+      a.href = str;
+      a.download = `inicet_quest_save_${todayKey()}.json`;
+      a.click();
+    }
+
+    function importSave(e) {
+      const f = e.target.files[0];
+      if (!f) return;
+      const reader = new FileReader();
+      reader.onload = (ev) => {
+        try {
+          state = { ...state, ...JSON.parse(ev.target.result) };
+          saveGame();
+          renderAll();
+          logBattle('Save file loaded successfully!', 'heal');
+        } catch (err) {}
+      };
+      reader.readAsText(f);
+    }
+
+    function hardReset() {
+      if (confirm('Wipe all dungeon progress, levels, and gold?')) {
+        localStorage.removeItem(SAVE_KEY);
+        location.reload();
+      }
+    }
+
+    function renderAll() {
+      renderHUD();
+      renderEncounterAndCanvasHUD();
+      renderRealmsGrid();
+      renderQuestBoard();
+      renderShop();
+    }
+
+    // =========================================================================
+    // 9. KEYBOARD & GAMEPAD CONTROLLER SUPPORT
+    // =========================================================================
+    window.addEventListener('keydown', (e) => {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+      if (e.code === 'Space') {
+        e.preventDefault();
+        strikeActiveQuest();
+      } else if (e.code === 'Tab') {
+        e.preventDefault();
+        setGameMode(state.gameMode === 'campfire' ? 'raid' : 'campfire');
+      } else if (e.key >= '1' && e.key <= '9') {
+        const idx = parseInt(e.key, 10) - 1;
+        if (REALMS[idx]) {
+          state.selectedRealm = REALMS[idx].id;
+          saveGame();
+          renderAll();
+        }
+      } else if (e.key.toLowerCase() === 'a') {
+        triggerDailyAnki();
+      } else if (e.key.toLowerCase() === 'n') {
+        cycleActiveQuest();
+      } else if (e.key.toLowerCase() === 's') {
+        openSyncModal();
+      }
+    });
+
+    // Poll Gamepad API so handheld Bluetooth controllers can trigger strikes & cycle quests
+    let lastPadBtn = false;
+    function pollGamepad() {
+      const pads = navigator.getGamepads ? navigator.getGamepads() : [];
+      const pad = pads[0];
+      if (pad) {
+        const btnA = pad.buttons[0]?.pressed;
+        const btnB = pad.buttons[1]?.pressed;
+        const btnX = pad.buttons[2]?.pressed;
+        const btnY = pad.buttons[3]?.pressed;
+        const anyPressed = btnA || btnB || btnX || btnY;
+        if (anyPressed && !lastPadBtn) {
+          if (btnA) strikeActiveQuest();
+          else if (btnB) cycleActiveQuest();
+          else if (btnX) setGameMode(state.gameMode === 'campfire' ? 'raid' : 'campfire');
+          else if (btnY) triggerDailyAnki();
+        }
+        lastPadBtn = anyPressed;
+      }
+      requestAnimationFrame(pollGamepad);
+    }
+
+    // Check visibility to pull latest cloud saves on tab focus
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') {
+        if (cloudConfig.provider === 'gist' && cloudConfig.gistToken && cloudConfig.gistId) {
+          syncWithGist('pull');
+        }
+      }
+    });
+
+    // Offline caching comes from the planner's root sw.js (scope covers quest/).
+
+    // Initialize
+    loadSave();
+    checkMagicUrlOnLoad();
+    initCloudSync();
+    renderAll();
+    requestAnimationFrame(renderCanvasLoop);
+    requestAnimationFrame(pollGamepad);
+  </script>
+
+  <!-- WARP CRYSTAL CLOUD SYNC & DEVICE LINK MODAL -->
+  <div id="syncModalBackdrop" class="pixel-modal-backdrop" style="display:none;" onclick="if(event.target===this)closeSyncModal()">
+    <div class="pixel-modal">
+      <div class="modal-header">
+        <div class="modal-title">
+          <span>⚡ WARP CRYSTAL // CLOUD SYNC HUB</span>
+        </div>
+        <button class="pixel-btn btn-red" style="padding:0.25rem 0.6rem; font-size:0.65rem;" onclick="closeSyncModal()">✕</button>
+      </div>
+
+      <!-- Live Sync Status Banner -->
+      <div class="sync-status-card" id="modalStatusBar">
+        <div style="display:flex; align-items:center; gap:0.6rem;">
+          <span class="sync-led sync-led-off" id="modalSyncLed"></span>
+          <div>
+            <div style="font-family:var(--font-pixel); font-size:0.62rem; color:var(--text-light);" id="modalStatusTitle">STATUS: LOCAL ONLY</div>
+            <div style="font-size:0.85rem; color:var(--text-muted);" id="modalStatusSub">Progress saved in this browser only. Connect below for cross-device live sync.</div>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-family:var(--font-pixel); font-size:0.52rem; color:var(--gold);" id="modalRoomDisplay">ROOM: NONE</div>
+          <div style="font-size:0.8rem; color:var(--text-muted);" id="modalLastSyncTime">Last sync: Never</div>
+        </div>
+      </div>
+
+      <!-- Modal Tabs Navigation -->
+      <div class="modal-tab-nav">
+        <button class="pixel-btn tab-btn active" id="tabBtnFirebase" onclick="switchSyncTab('firebase')">🔥 FIREBASE LIVE</button>
+        <button class="pixel-btn tab-btn" id="tabBtnGist" onclick="switchSyncTab('gist')">🐙 GITHUB GIST</button>
+        <button class="pixel-btn tab-btn" id="tabBtnQr" onclick="switchSyncTab('qr')">📱 MOBILE PAIR QR</button>
+        <button class="pixel-btn tab-btn" id="tabBtnBackup" onclick="switchSyncTab('backup')">💾 LOCAL BACKUP</button>
+      </div>
+
+      <!-- TAB 1: FIREBASE (RECOMMENDED LIVE BI-DIRECTIONAL SYNC) -->
+      <div class="tab-pane active" id="paneFirebase">
+        <div class="sync-info-box">
+          <strong style="color:var(--gold);">RECOMMENDED FOR ZERO LAG MULTI-DEVICE SYNC:</strong><br>
+          Instant real-time sync across Phone, Tablet, & PC via Google Firebase Firestore (100% Free Forever, 50,000 reads/day). Strikes on mobile reflect on PC in milliseconds!
+        </div>
+
+        <div class="form-group">
+          <label class="pixel-label">SECRET SYNC ROOM CODE / PASSPHRASE</label>
+          <div style="display:flex; gap:0.5rem;">
+            <input type="text" class="pixel-input" id="fbRoomInput" placeholder="e.g. dr-dungeon-2026" style="flex:1;">
+            <button class="pixel-btn" style="font-size:0.55rem;" onclick="generateRandomRoom()">🎲 RANDOM</button>
+          </div>
+          <small class="help-text">Enter the exact same Secret Room Code on your other devices to connect to this dungeon save.</small>
+        </div>
+
+        <div class="form-group">
+          <label class="pixel-label">FIREBASE WEB APP CONFIG</label>
+          <textarea class="pixel-input" id="fbConfigInput" rows="5" placeholder='Paste your Firebase config here (JSON or const firebaseConfig = {...})'></textarea>
+          <small class="help-text">Paste the config object from your free Firebase project settings (apiKey, projectId, etc.).</small>
+        </div>
+
+        <details class="setup-accordion">
+          <summary>📖 How to get your free Firebase config in 90 seconds (Step-by-Step)</summary>
+          <div class="setup-steps">
+            <p>1. Open <a href="https://console.firebase.google.com" target="_blank" style="color:var(--mana-cyan);">console.firebase.google.com</a> (sign in with your Google account).</p>
+            <p>2. Click <strong>"Add project"</strong> -> Name it <code>inicet-quest</code> -> Disable Google Analytics -> Click <strong>Create</strong>.</p>
+            <p>3. In the left sidebar, click <strong>"Build"</strong> -> <strong>"Firestore Database"</strong> -> Click <strong>"Create database"</strong>.</p>
+            <p>4. Choose <strong>"Start in test mode"</strong> (allows read/write) -> Pick default location -> Click <strong>Enable</strong>.</p>
+            <p>5. Click Project Overview (gear icon ⚙️ -> Project settings) -> Under "Your apps", click the Web icon <code>&lt;/&gt;</code> -> Register app -> Copy the <code>firebaseConfig = { ... }</code> snippet and paste it above!</p>
+          </div>
+        </details>
+
+        <div style="display:flex; gap:0.5rem; margin-top:1rem; flex-wrap:wrap;">
+          <button class="pixel-btn btn-green" onclick="connectFirebase()">💾 CONNECT & ENABLE LIVE SYNC</button>
+          <button class="pixel-btn" onclick="forcePushCloud()">⬆️ FORCE PUSH TO CLOUD</button>
+          <button class="pixel-btn" onclick="forcePullCloud()">⬇️ FORCE PULL FROM CLOUD</button>
+          <button class="pixel-btn btn-red" onclick="disconnectCloud()" style="margin-left:auto;">🔌 DISCONNECT</button>
+        </div>
+      </div>
+
+      <!-- TAB 2: GITHUB GIST SYNC -->
+      <div class="tab-pane" id="paneGist">
+        <div class="sync-info-box">
+          <strong style="color:var(--armor-blue);">GITHUB GIST CLOUD BACKEND:</strong><br>
+          Sync directly to your GitHub account using a Personal Access Token. Zero external accounts required.
+        </div>
+
+        <div class="form-group">
+          <label class="pixel-label">GITHUB PERSONAL ACCESS TOKEN (PAT)</label>
+          <input type="password" class="pixel-input" id="gistTokenInput" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx">
+          <small class="help-text">Token needs only the 'gist' scope.</small>
+        </div>
+
+        <div class="form-group">
+          <label class="pixel-label">GIST ID (OPTIONAL / AUTO-CREATED)</label>
+          <input type="text" class="pixel-input" id="gistIdInput" placeholder="Leave empty to auto-create a private save Gist">
+        </div>
+
+        <details class="setup-accordion">
+          <summary>📖 How to generate a GitHub Token in 60 seconds</summary>
+          <div class="setup-steps">
+            <p>1. Go to <a href="https://github.com/settings/tokens" target="_blank" style="color:var(--mana-cyan);">github.com/settings/tokens</a>.</p>
+            <p>2. Click <strong>Generate new token (classic)</strong>.</p>
+            <p>3. Note: <code>INI-CET Quest Sync</code> -> Expiration: <strong>No expiration</strong> (or 1 year).</p>
+            <p>4. Check the <strong>gist</strong> checkbox (Create gists) -> Click <strong>Generate token</strong>.</p>
+            <p>5. Copy the generated <code>ghp_...</code> string and paste it above!</p>
+          </div>
+        </details>
+
+        <div style="display:flex; gap:0.5rem; margin-top:1rem; flex-wrap:wrap;">
+          <button class="pixel-btn btn-green" onclick="connectGist()">💾 CONNECT & SYNC GIST</button>
+          <button class="pixel-btn" onclick="syncGistNow()">🔄 SYNC NOW</button>
+          <button class="pixel-btn btn-red" onclick="disconnectCloud()" style="margin-left:auto;">🔌 DISCONNECT</button>
+        </div>
+      </div>
+
+      <!-- TAB 3: MOBILE PAIR QR MAGIC LINK -->
+      <div class="tab-pane" id="paneQr">
+        <div class="sync-info-box">
+          <strong style="color:var(--mana-cyan);">📱 INSTANT MOBILE PAIRING:</strong><br>
+          Point your smartphone camera at the QR code below. Your phone will open the quest with your cloud room and latest progress pre-configured automatically!
+        </div>
+
+        <div style="display:flex; flex-direction:column; align-items:center; margin:1rem 0; gap:0.75rem;">
+          <div id="qrcodeWrapper" class="qr-code-box">
+            <div id="qrcode"></div>
+          </div>
+          <span style="font-family:var(--font-pixel); font-size:0.55rem; color:var(--gold);" id="qrStatusLabel">SCAN WITH SMARTPHONE CAMERA</span>
+        </div>
+
+        <div class="form-group">
+          <label class="pixel-label">OR COPY MAGIC PAIR LINK</label>
+          <div style="display:flex; gap:0.5rem;">
+            <input type="text" class="pixel-input" id="magicLinkInput" readonly style="font-size:0.8rem;">
+            <button class="pixel-btn" style="font-size:0.55rem;" onclick="copyMagicLink()">📋 COPY</button>
+          </div>
+          <small class="help-text">You can also message or email this link to your phone, tablet, or another browser.</small>
+        </div>
+
+        <div style="display:flex; justify-content:center; gap:0.5rem; margin-top:0.75rem;">
+          <button class="pixel-btn" style="font-size:0.55rem;" onclick="renderQrCode()">🔄 REFRESH QR CODE</button>
+        </div>
+      </div>
+
+      <!-- TAB 4: MANUAL FILE BACKUP -->
+      <div class="tab-pane" id="paneBackup">
+        <div class="sync-info-box">
+          <strong style="color:var(--gold);">OFFLINE JSON BACKUP:</strong><br>
+          Download your complete dungeon progress as a file or restore from a previously exported save file.
+        </div>
+
+        <div style="display:flex; gap:0.8rem; margin-top:1.25rem; flex-wrap:wrap;">
+          <button class="pixel-btn" onclick="exportSave()">💾 DOWNLOAD SAVE (.JSON)</button>
+          <button class="pixel-btn" onclick="document.getElementById('importInput').click()">📂 RESTORE SAVE FILE</button>
+          <button class="pixel-btn btn-red" onclick="hardReset()" style="margin-left:auto;">💀 FACTORY WIPE ALL DATA</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="retroToast" class="retro-toast"></div>
+
+</body>
+</html>
